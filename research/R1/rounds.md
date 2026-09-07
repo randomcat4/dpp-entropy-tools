@@ -78,3 +78,9 @@ Both frozen statements and proofs were fixed in commit
 `a49051d2f768ec2b926a2e4d68d5286b054f9656`. Reviewers who did not author the
 respective proofs read the committed blobs via `git show`; both returned
 `STATUS: CORRECT`. The reviews record the commit and Git blob IDs.
+
+The GitHub smart-HTTPS endpoint was unavailable during result publication, so
+the exact frozen tree was transported through the Git data API. Public commit
+`8ae16152670e768acc4bd5792b5db71822c42c86` and the locally reviewed freeze
+commit have the same tree hash `c282e54a8221dc8546b5c8da3c23a768038b9025`;
+the mathematical blob IDs are unchanged.

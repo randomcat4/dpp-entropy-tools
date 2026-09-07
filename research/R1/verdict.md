@@ -25,10 +25,13 @@ Two explicit structural results are independently verified:
 - The rational certificate tool passed strict-negative, exact-zero-uncertain,
   and infeasible-endpoint tests. It received no positive candidate.
 
-The two structural proofs were frozen in commit
-`a49051d2f768ec2b926a2e4d68d5286b054f9656`. Separate reviewers read the Git
+The two structural proofs were frozen in local commit
+`a49051d2f768ec2b926a2e4d68d5286b054f9656`, tree
+`c282e54a8221dc8546b5c8da3c23a768038b9025`. Separate reviewers read the Git
 blobs from that commit and returned `STATUS: CORRECT`; their reports record the
-exact blob IDs. No novelty claim is made for these elementary entropy
-inequalities.
+exact blob IDs. The public API transport commit
+`8ae16152670e768acc4bd5792b5db71822c42c86` has the identical tree and blob
+IDs; see `verification/freeze_transport.md`. No novelty claim is made for these
+elementary entropy inequalities.
 
 General real-symmetric DPP entropy concavity remains unresolved by R1.
