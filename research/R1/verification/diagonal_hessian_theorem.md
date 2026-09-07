@@ -1,7 +1,8 @@
 # Diagonal-kernel real Hessian exclusion
 
-Status: candidate proof. A pre-commit independent review found no critical
-gap; final status is tied to a frozen Git commit and commit-bound review.
+Status: VERIFIED for `frozen_diagonal_hessian_v1.md` as committed at
+`a49051d2f768ec2b926a2e4d68d5286b054f9656`; see
+`diagonal_hessian_commit_review.md`.
 
 Let
 

@@ -1,6 +1,6 @@
-Verification state: candidate proof; pre-commit independent review found no
-critical gap in the repaired `t>0` statement. Final status is tied to a frozen
-Git commit and a separate commit-bound review.
+Verification state: VERIFIED for `frozen_diagonal_midpoint_v1.md` as committed
+at `a49051d2f768ec2b926a2e4d68d5286b054f9656`; see
+`verification/diagonal_midpoint_commit_review.md`.
 
 PRE-FREEZE PROMPT STATUS: DISPROVED
 

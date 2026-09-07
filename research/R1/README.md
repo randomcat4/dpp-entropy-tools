@@ -1,6 +1,6 @@
 # R1: unrestricted real-symmetric finite DPP entropy
 
-Status: **CANDIDATE / no counterexample found**. Tracking issue: #7.
+Status: **VERIFIED_FOR_FAMILY / no counterexample found**. Tracking issue: #7.
 
 R1 studies dimensions `3 <= n <= 10` without restricting the real-symmetric
 strict positive-contraction kernel to previously tested symmetry families.
@@ -30,8 +30,8 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
 - A rational certificate tool correctly distinguishes strict negative gap,
   unresolved zero gap, and infeasible endpoints. No positive candidate was
   supplied to it.
-- Two auxiliary diagonal-center results have candidate proofs: a full Hessian
-  formula and a strict finite-chord exclusion. They are frozen separately and
+- Two auxiliary diagonal-center results are commit-bound and independently
+  verified: a full Hessian formula and a strict finite-chord exclusion. They
   are not statements of global real-symmetric concavity.
 
 Finite non-hits are retained only as denominators, never as a global theorem.
