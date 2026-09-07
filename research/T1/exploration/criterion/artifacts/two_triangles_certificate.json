@@ -1,0 +1,36 @@
+{
+  "status": "THEOREM_CONDITIONS_SATISFIED",
+  "theorem": "research/T1/frozen_theorem_v1.md",
+  "theorem_independent_verification": "PENDING",
+  "dimension": 6,
+  "curvature_by_theorem": "STRICTLY_NEGATIVE",
+  "bridges_zero_based": [
+    [
+      2,
+      3
+    ]
+  ],
+  "direction_edges_zero_based": [
+    [
+      2,
+      3
+    ]
+  ],
+  "K_ldl_pivots": [
+    "1/2",
+    "99/200",
+    "27/55",
+    "1069/2160",
+    "5291/10690",
+    "103887/211640"
+  ],
+  "I_minus_K_ldl_pivots": [
+    "1/2",
+    "99/200",
+    "22/45",
+    "871/1760",
+    "4311/8710",
+    "84293/172440"
+  ],
+  "event_probabilities_evaluated": 0
+}

@@ -1,0 +1,8 @@
+{
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 research/T1/exploration/boundary/check_boundary.py",
+  "exit_status": 0,
+  "wall_seconds": 0.025643110275268555,
+  "memory_limit_gib": 8,
+  "cpu_time_limit_seconds": 30,
+  "stderr": ""
+}
