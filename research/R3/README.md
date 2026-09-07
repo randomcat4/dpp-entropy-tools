@@ -1,6 +1,7 @@
 # R3：实对称高维结构族
 
-状态：`RUNNING`。本路线只研究有限维实对称严格正收缩核，优先处理
+原反例目标状态：`INCOMPLETE`；分组计数约化工具状态：`VERIFIED` at
+`f9a9e23d766ff303e3ac0a020e5b9f2299f2b683`。本路线只研究有限维实对称严格正收缩核，优先处理
 `n>=11` 的分组交换、稀疏耦合和低秩更新结构。有限搜索未命中不解释为
 全实域凹性；任何严格反例在新上下文认证前只标记 `CANDIDATE`。
 
@@ -17,3 +18,7 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
 
 浮点搜索只产生候选。认证接口、误差界和覆盖边界分别记录在
 `hazards.md`、`lemma_ledger.md` 和 `verifications/`。
+
+首次 verifier 在 `19a8271` 发现精确实现只覆盖标量 `a`；否决记录保留。
+修订后 verifier 对固定提交 `f9a9e23` 输出 `CORRECT`，其范围仅是冻结的
+分组计数约化，不包含反例、弦 gap、族内凹性或全实域结论。
