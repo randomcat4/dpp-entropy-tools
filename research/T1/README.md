@@ -1,7 +1,8 @@
 # T1 bridge-direction curvature tool
 
-Candidate theorem and exact rational applicability checker. Status: CANDIDATE,
-pending fresh independent proof audit. See frozen_theorem_v1.md and proofs/.
+Verified bridge-direction theorem and exact rational applicability checker.
+Status: VERIFIED for frozen v1 and the checker; two separate fresh proof reviews
+returned CORRECT. See verdict.md and verifications/.
 
 For real K with 0<K<I and D=iA supported on existing bridge edges of K's
 off-diagonal graph, the theorem asserts negative entropy curvature if A!=0.

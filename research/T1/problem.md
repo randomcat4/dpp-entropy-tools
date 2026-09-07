@@ -1,6 +1,6 @@
 # T1: an event-free bridge-direction curvature test
 
-Status: RUNNING; frozen target v1; no certification yet.
+Status: VERIFIED for frozen target v1 and the exact checker; see verdict.md for scope.
 
 For a finite Hermitian strict contraction K, the exact DPP event law is
 p_S(K)=(-1)^{|S^c|} det(K-I_{S^c}), and H(K)=-sum_S p_S log p_S
