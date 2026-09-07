@@ -1,0 +1,24 @@
+{
+  "status": "GAP_UNCERTAIN",
+  "n": 2,
+  "terms": 80,
+  "t": "1/1",
+  "feasible": true,
+  "events_positive_and_normalized": true,
+  "minimum_probabilities": {
+    "minus": "2/15",
+    "center": "2/15",
+    "plus": "2/15"
+  },
+  "probability_sums": {
+    "minus": "1/1",
+    "center": "1/1",
+    "plus": "1/1"
+  },
+  "gap_decimal_interval": [
+    "-4.97521000899541429149633742807887325274472054501380712399173E-79",
+    "4.97521000899541429149633742807887325274472054501380712399173E-79"
+  ],
+  "strict_positive_gap": false,
+  "strict_negative_gap": false
+}

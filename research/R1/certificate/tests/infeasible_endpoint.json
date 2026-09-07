@@ -1,0 +1,12 @@
+{
+  "description": "Endpoint K+tV is not a positive contraction.",
+  "K": [
+    ["1/3", "0"],
+    ["0", "2/5"]
+  ],
+  "V": [
+    ["1", "0"],
+    ["0", "0"]
+  ],
+  "t": "1"
+}
