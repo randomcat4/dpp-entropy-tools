@@ -1,0 +1,71 @@
+{
+  "status": "INCOMPLETE",
+  "attempts": 2960,
+  "failures": 0,
+  "candidate_count": 0,
+  "connected_count": 2960,
+  "numerically_disconnected_count": 0,
+  "max_gap": 7.105427357601002e-15,
+  "best_curvature": -7.57629494487213e-12,
+  "best_connected_curvature": -7.57629494487213e-12,
+  "max_connected_gap": 7.105427357601002e-15,
+  "min_endpoint_margin": 8.020000000000007e-07,
+  "sizes": [
+    "[10, 10, 10]",
+    "[2, 2, 2, 2, 2, 2]",
+    "[2, 2, 2, 2, 3]",
+    "[2, 3, 2, 3, 2, 3]",
+    "[2, 4, 8]",
+    "[3, 3, 3, 3, 3]",
+    "[3, 3, 3, 3]",
+    "[4, 4, 4]",
+    "[6, 6]",
+    "[8, 8, 8]"
+  ],
+  "batches": [
+    {
+      "out": "batch01",
+      "seed": 2026090803,
+      "trials": 240,
+      "validate": true,
+      "numpy": "2.1.2",
+      "threads": 1,
+      "start": 1788798544.8446932,
+      "status": "INCOMPLETE",
+      "exit_code": 0,
+      "completed": 240,
+      "elapsed": 2.7113447189331055,
+      "best_curvature": -2.5535812126418616e-08
+    },
+    {
+      "out": "batch02",
+      "seed": 2026090804,
+      "trials": 2400,
+      "validate": false,
+      "sizes": null,
+      "numpy": "2.1.2",
+      "threads": 1,
+      "start": 1788798581.3210742,
+      "status": "INCOMPLETE",
+      "exit_code": 0,
+      "completed": 2400,
+      "elapsed": 25.17339515686035,
+      "best_curvature": -7.57629494487213e-12
+    },
+    {
+      "out": "batch03",
+      "seed": 2026090805,
+      "trials": 320,
+      "validate": false,
+      "sizes": "[[2,2,2,2,3],[2,2,2,2,2,2],[3,3,3,3,3],[2,3,2,3,2,3]]",
+      "numpy": "2.1.2",
+      "threads": 1,
+      "start": 1788798602.5104153,
+      "status": "INCOMPLETE",
+      "exit_code": 0,
+      "completed": 320,
+      "elapsed": 66.6406946182251,
+      "best_curvature": -3.615488035863335e-05
+    }
+  ]
+}

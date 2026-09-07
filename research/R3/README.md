@@ -1,0 +1,19 @@
+# R3：实对称高维结构族
+
+状态：`RUNNING`。本路线只研究有限维实对称严格正收缩核，优先处理
+`n>=11` 的分组交换、稀疏耦合和低秩更新结构。有限搜索未命中不解释为
+全实域凹性；任何严格反例在新上下文认证前只标记 `CANDIDATE`。
+
+第一工作单元冻结一个可闭合工具：对分组指标子空间上的低秩核，把精确
+事件概率按组内入选计数聚合，将全子集熵从 `2^n` 项约化为
+`prod_g (m_g+1)` 项。实现必须先和小维 Möbius 容斥逐事件对照。
+
+## 复现入口
+
+```text
+python research/R3/artifacts/group_count_entropy.py --self-test
+python research/R3/artifacts/search_group_chords.py --config research/R3/artifacts/search_smoke.json
+```
+
+浮点搜索只产生候选。认证接口、误差界和覆盖边界分别记录在
+`hazards.md`、`lemma_ledger.md` 和 `verifications/`。

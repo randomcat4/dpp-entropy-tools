@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "entropy_abs_error": 1.3322676295501878e-15,
+      "group_sizes": [
+        2,
+        2
+      ],
+      "kernel_lambda_min": 0.14000000000000012,
+      "kernel_one_minus_lambda_max": 0.29000000000000004,
+      "max_event_abs_error": 1.3877787807814457e-16,
+      "n": 4,
+      "probability_sum_error": 8.881784197001252e-16,
+      "seed": 731
+    },
+    {
+      "entropy_abs_error": 5.162537064506978e-15,
+      "group_sizes": [
+        3,
+        2
+      ],
+      "kernel_lambda_min": 0.007999999999999967,
+      "kernel_one_minus_lambda_max": 0.007999999999999341,
+      "max_event_abs_error": 1.1102230246251565e-15,
+      "n": 5,
+      "probability_sum_error": 0.0,
+      "seed": 732
+    },
+    {
+      "entropy_abs_error": 4.440892098500626e-15,
+      "group_sizes": [
+        2,
+        3,
+        2
+      ],
+      "kernel_lambda_min": 0.03000000000000014,
+      "kernel_one_minus_lambda_max": 0.040000000000000036,
+      "max_event_abs_error": 7.632783294297951e-17,
+      "n": 7,
+      "probability_sum_error": 1.1102230246251565e-15,
+      "seed": 733
+    }
+  ],
+  "status": "PASS",
+  "thresholds": {
+    "entropy_abs_error": 2e-10,
+    "max_event_abs_error": 2e-10,
+    "probability_sum_error": 2e-10
+  }
+}
