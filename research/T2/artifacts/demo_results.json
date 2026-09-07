@@ -1,0 +1,129 @@
+{
+  "status": "completed",
+  "pid": 136541,
+  "python": "3.12.3",
+  "command": "python3 research/T2/artifacts/demo_checks.py",
+  "resource_limit": "one CPU thread; 8 GiB address-space cap imposed by launcher",
+  "test_cases_passed": 13,
+  "examples": [
+    {
+      "arithmetic": "exact rational; logarithms rigorously enclosed by finite series",
+      "scope": "real rational inputs, sufficient Gershgorin tests, theorem v1",
+      "n": 8,
+      "block_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": "1/2",
+      "full_system_subsets_enumerated": 0,
+      "block_subsets_evaluated": 48,
+      "loss_bounds_0_1_t": [
+        {
+          "eta": "1/5",
+          "energy": "27/2500",
+          "C": "27/400"
+        },
+        {
+          "eta": "1/5",
+          "energy": "27/2500",
+          "C": "27/400"
+        },
+        {
+          "eta": "2/5",
+          "energy": "27/2500",
+          "C": "9/200"
+        }
+      ],
+      "block_jensen_interval_nats": [
+        "0.659657798838595738",
+        "0.659657798838595739"
+      ],
+      "full_jensen_interval_nats": [
+        "0.614657798838595738",
+        "0.727157798838595739"
+      ],
+      "sign_from_exact_enclosure": "POSITIVE",
+      "theorem_validation": "consult independent verification report for fixed version"
+    },
+    {
+      "arithmetic": "exact rational; logarithms rigorously enclosed by finite series",
+      "scope": "real rational inputs, sufficient Gershgorin tests, theorem v1",
+      "n": 64,
+      "block_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": "1/2",
+      "full_system_subsets_enumerated": 0,
+      "block_subsets_evaluated": 384,
+      "loss_bounds_0_1_t": [
+        {
+          "eta": "1/5",
+          "energy": "279/2500",
+          "C": "279/400"
+        },
+        {
+          "eta": "1/5",
+          "energy": "279/2500",
+          "C": "279/400"
+        },
+        {
+          "eta": "2/5",
+          "energy": "279/2500",
+          "C": "93/200"
+        }
+      ],
+      "block_jensen_interval_nats": [
+        "5.277262390708765909",
+        "5.277262390708765910"
+      ],
+      "full_jensen_interval_nats": [
+        "4.812262390708765909",
+        "5.974762390708765910"
+      ],
+      "sign_from_exact_enclosure": "POSITIVE",
+      "theorem_validation": "consult independent verification report for fixed version"
+    }
+  ],
+  "full_enumeration_crosscheck_dimensions": [
+    2,
+    4
+  ],
+  "full_enumeration_masses_evaluated": 60,
+  "search_parameter_draws": 0,
+  "elapsed_seconds": 0.19607371930032969,
+  "exit_status": 0,
+  "coverage": "exact computations for listed inputs; not a global proof or broad scan"
+}

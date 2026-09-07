@@ -1,0 +1,120 @@
+{
+  "status": "diagnostic_not_certificate",
+  "B2_exact_law_cases": [
+    {
+      "p": "1/10",
+      "theta": "1",
+      "entropy_loss": 0.3250829733914482,
+      "frobenius_squared": 0.18,
+      "ratio": 1.806016518841379
+    },
+    {
+      "p": "1/10",
+      "theta": "1/2",
+      "entropy_loss": 0.07760537300880399,
+      "frobenius_squared": 0.09,
+      "ratio": 0.8622819223200444
+    },
+    {
+      "p": "1/100",
+      "theta": "1",
+      "entropy_loss": 0.05600153435484737,
+      "frobenius_squared": 0.0198,
+      "ratio": 2.8283603209518873
+    },
+    {
+      "p": "1/100",
+      "theta": "1/2",
+      "entropy_loss": 0.01790628726988648,
+      "frobenius_squared": 0.0099,
+      "ratio": 1.808715885847119
+    },
+    {
+      "p": "1/1000",
+      "theta": "1",
+      "entropy_loss": 0.007907255112232062,
+      "frobenius_squared": 0.001998,
+      "ratio": 3.957585141257288
+    },
+    {
+      "p": "1/1000",
+      "theta": "1/2",
+      "entropy_loss": 0.0029180825489486476,
+      "frobenius_squared": 0.000999,
+      "ratio": 2.9210035525011486
+    },
+    {
+      "p": "1/10000",
+      "theta": "1",
+      "entropy_loss": 0.001021029037030993,
+      "frobenius_squared": 0.00019998,
+      "ratio": 5.105655750730038
+    },
+    {
+      "p": "1/10000",
+      "theta": "1/2",
+      "entropy_loss": 0.00040659570918176154,
+      "frobenius_squared": 9.999e-05,
+      "ratio": 4.066363728190435
+    },
+    {
+      "p": "1/100000",
+      "theta": "1",
+      "entropy_loss": 0.0001251292046495929,
+      "frobenius_squared": 1.99998e-05,
+      "ratio": 6.256522797707622
+    },
+    {
+      "p": "1/100000",
+      "theta": "1/2",
+      "entropy_loss": 5.2168042420342066e-05,
+      "frobenius_squared": 9.9999e-06,
+      "ratio": 5.216856410598313
+    }
+  ],
+  "B1_scaling_cases": [
+    {
+      "m": 1,
+      "operator_error": 0.25,
+      "total_loss": 0.03158394240196326,
+      "limiting_total_loss": 0.03125,
+      "per_site_loss": 0.01579197120098163
+    },
+    {
+      "m": 16,
+      "operator_error": 0.125,
+      "total_loss": 0.03127037690791229,
+      "limiting_total_loss": 0.03125,
+      "per_site_loss": 0.000977199278372259
+    },
+    {
+      "m": 256,
+      "operator_error": 0.0625,
+      "total_loss": 0.03125127168994801,
+      "limiting_total_loss": 0.03125,
+      "per_site_loss": 6.103764001942971e-05
+    },
+    {
+      "m": 4096,
+      "operator_error": 0.03125,
+      "total_loss": 0.03125007947334524,
+      "limiting_total_loss": 0.03125,
+      "per_site_loss": 3.814706966961089e-06
+    },
+    {
+      "m": 65536,
+      "operator_error": 0.015625,
+      "total_loss": 0.0312500049670561,
+      "limiting_total_loss": 0.03125,
+      "per_site_loss": 2.3841861699719314e-07
+    }
+  ],
+  "coverage": {
+    "planned_exact_law": 10,
+    "completed_exact_law": 10,
+    "planned_scaling": 5,
+    "completed_scaling": 5,
+    "failed": 0,
+    "independently_certified": 0
+  }
+}
