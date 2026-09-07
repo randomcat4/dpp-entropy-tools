@@ -39,5 +39,8 @@
 - Counterexample-search denominator in Round 3: 892 fully gated signed-formula
   trials; zero positive values.  This finite non-hit is supporting evidence,
   not the proof.
-- Formal status at this point: author-complete plus two `CORRECT` reviews;
-  candidate commit and one-time SHA binding still pending.
+- Formal status: candidate commit
+  `3ae3323ae958feb733b78f5b425c6d9b540524e9` received two independent
+  commit-bound `CORRECT` reviews.  Both matched the SHA256 values of the
+  frozen statement, prior finite decomposition, component theorem,
+  component-pair proof, and hazard list.

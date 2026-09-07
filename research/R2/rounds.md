@@ -88,8 +88,9 @@ question remain `INCOMPLETE`.
   the finite formula to about `4e-118`.
 - Two non-author reviews returned `CORRECT`.  One was a proof-only logic/domain
   audit; the other also reproduced the non-paired `n=8,r=4` coefficient and
-  its component-pair sum.  These reviews will be bound once to the fixed
-  candidate commit because this is a major closure.
+  its component-pair sum.  Both reviews were bound once to candidate commit
+  `3ae3323ae958feb733b78f5b425c6d9b540524e9`, with all five declared SHA256
+  values matching the exact commit blobs.
 
 The global real-kernel entropy-concavity question remains outside the frozen
 boundary family and is not claimed solved.

@@ -1,8 +1,7 @@
 # Verdict
 
-Stage status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` for frozen
-theorem v2 pending one commit-bound gate; global real-kernel question
-`INCOMPLETE`.
+Stage status: `VERIFIED` for frozen theorems v1 and v2; global real-kernel
+question `INCOMPLETE`.
 
 For fixed finite `(n,r,P,U,V,B,tau)` in frozen v1,
 
@@ -41,11 +40,12 @@ C_2<=0,
 C_2<0 if (X,Y)!=(0,0).
 ```
 
-Two non-author reviews found no critical gap; the formal status remains
-`PROVED_HERE` until those reviews are bound to the fixed candidate commit.
-Moving frames, varying data, other boundary geometries, and arbitrary interior
-chords are outside the proved scope.
+Two non-author reviews found no critical gap and were bound to candidate
+commit `3ae3323ae958feb733b78f5b425c6d9b540524e9`; all five declared SHA256
+values matched the exact commit blobs.  Moving frames, varying data, other
+boundary geometries, and arbitrary interior chords are outside the proved
+scope.
 
 No certificate/SHA gate was run for Round 2.  Because Round 3 is a major
-closure, it receives one commit-bound gate.  Novelty remains unconfirmed and
+closure, it received one commit-bound gate.  Novelty remains unconfirmed and
 is not claimed.

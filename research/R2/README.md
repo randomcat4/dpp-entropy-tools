@@ -1,8 +1,9 @@
 # R2: real DPP entropy near projection faces
 
-Status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` for the frozen-v2
-general boundary coefficient theorem, pending one commit-bound verification
-gate. The unrestricted real question is `INCOMPLETE`. No real-symmetric
+Status: `VERIFIED` for frozen theorems v1 and v2.  The frozen-v2 general
+boundary coefficient theorem is bound to candidate commit
+`3ae3323ae958feb733b78f5b425c6d9b540524e9` by two independent `CORRECT`
+reviews. The unrestricted real question is `INCOMPLETE`. No real-symmetric
 counterexample is claimed.
 
 This route studies a frozen multiscale family whose center approaches a
@@ -49,8 +50,10 @@ certified by the frozen proof plus two commit-bound fresh reviews, not by a
 finite diagnostic.
 
 The intermediate v2 subfamilies deliberately received no repeated formal
-gate.  The general v2 coefficient closure is a major result and receives one
-commit-bound review after its candidate proof is fixed.
+gate.  The general v2 coefficient closure is a major result and received one
+commit-bound gate after its candidate proof was fixed.  See
+`verifications/round3_logic_review.md` and
+`verifications/round3_domain_review.md`.
 
 ## Scope boundary
 

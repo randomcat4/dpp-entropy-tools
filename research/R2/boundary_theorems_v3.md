@@ -1,7 +1,8 @@
 # Boundary theorems v3
 
-Status: `PROVED_HERE` for the frozen-v2 general boundary coefficient theorem,
-pending one commit-bound verification gate.  Earlier Round-2 extensions retain
+Status: `VERIFIED` for the frozen-v2 general boundary coefficient theorem at
+candidate commit `3ae3323ae958feb733b78f5b425c6d9b540524e9`.  Two independent
+commit-bound reviews returned `CORRECT`.  Earlier Round-2 extensions retain
 their stated status.  The unrestricted real-kernel entropy-concavity question
 remains `INCOMPLETE`, and no real counterexample is claimed.
 

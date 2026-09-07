@@ -93,8 +93,9 @@
   symmetric blocks between connected components of the nonzero coordinate
   graph of `P`; the complementary one-particle kernel has the same component
   description.
-- Status: PROVED_HERE in `proofs/tomography_components_v3.md`; two independent
-  reviews are pending binding to the candidate commit
+- Status: VERIFIED at candidate commit
+  `3ae3323ae958feb733b78f5b425c6d9b540524e9` by two independent
+  commit-bound `CORRECT` reviews
 - Consequence: the active logarithmic cross term and every zero-support cross
   term vanish under the complete tomography gate
 
@@ -103,7 +104,8 @@
 - Statement: for every datum in frozen theorem v2, `C_2` is the sum of scalar
   component/cofactor-pair Jensen defects `gamma_D`, hence `C_2<=0`; it is
   strict whenever `(X,Y)!=(0,0)`.
-- Status: PROVED_HERE in `proofs/component_pair_C2_v3.md`; two independent
-  reviews are pending binding to the candidate commit
+- Status: VERIFIED at candidate commit
+  `3ae3323ae958feb733b78f5b425c6d9b540524e9` by two independent
+  commit-bound `CORRECT` reviews
 - Boundary scope: arbitrary non-paired frames, simultaneous directions,
   singular inward matrices and endpoints, and zero Pluecker coordinates
