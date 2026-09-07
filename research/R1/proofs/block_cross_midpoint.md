@@ -1,6 +1,6 @@
 # Proof candidate: block-diagonal midpoint and pure cross-block direction
 
-Status before commit-bound review: **PROVED BY AUTHOR, REVIEW PENDING**.
+Status: **CORRECT in commit-bound independent review**.
 
 Let `Y_a=Y cap B_a` denote the random subset in block `B_a`.
 
@@ -72,3 +72,5 @@ Exact-rational sanity checks (not used as proof) gave:
 
 In both cases all complete probabilities summed exactly to one and both block
 marginals were exactly preserved.
+
+The frozen statement and this proof were fixed in commit `64c5bc0910c10c8baba1208326c799c0d0dffeec` and then read from that commit by a non-author reviewer. See `verification/block_cross_commit_review.md`.
