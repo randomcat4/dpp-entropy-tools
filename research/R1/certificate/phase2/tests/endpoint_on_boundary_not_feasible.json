@@ -1,0 +1,6 @@
+{
+  "description": "Endpoint K-tV has a zero leading principal minor.",
+  "K": [["1/1000000", "0"], ["0", "1/2"]],
+  "V": [["1/1000000", "0"], ["0", "0"]],
+  "t": "1"
+}

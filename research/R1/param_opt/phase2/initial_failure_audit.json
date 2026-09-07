@@ -1,0 +1,16 @@
+{
+  "status": "EXPECTED_PRE_STABILIZATION_FAILURE_REPRODUCED",
+  "error": "event diagnostics: rel=0.0010140886014502006, mass=0.0, first=1.1102230246251565e-16, second=3.543711097672514e-32",
+  "failure_stage": {
+    "test": "stratum",
+    "n": 10,
+    "band": 2,
+    "complement": 1
+  },
+  "original_primary_hessian_attempts": 40,
+  "reproduction_primary_hessian_attempts": 40,
+  "original_failures": 1,
+  "reproduction_failures": 1,
+  "exit_code": 0,
+  "accounting": "Original and reproduction attempts are distinct and both charged to test budget."
+}

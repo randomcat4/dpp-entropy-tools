@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "reserved_calls": 64,
+  "unique_call_ids": 64,
+  "first_call_id": 1,
+  "last_call_id": 64,
+  "first_invocation_calls": 17,
+  "resumed_invocation_calls": 47,
+  "numerical_failures": 0,
+  "invocations": [
+    [
+      1,
+      0,
+      "PAUSED_CHECKPOINT"
+    ],
+    [
+      2,
+      0,
+      "INCOMPLETE_FINITE_BATCH_COMPLETE"
+    ]
+  ],
+  "proof": "SQLite primary-key IDs 1..64 are unique; durable used=64 and resume spent only remaining 47 calls."
+}

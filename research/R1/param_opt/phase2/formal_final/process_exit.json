@@ -1,0 +1,21 @@
+{
+  "supervisor_pid": 141144,
+  "pid": 141145,
+  "command": [
+    "/opt/venv/bin/python",
+    "engine.py",
+    "--out",
+    "formal",
+    "--mode",
+    "formal",
+    "--seed",
+    "20260908210"
+  ],
+  "started": 1788806583.2607553,
+  "threads": 1,
+  "memory_limit_bytes": 12884901888,
+  "maximum_objective_calls": 48000,
+  "wall_seconds": 5400,
+  "exit_code": 0,
+  "ended": 1788807289.173148
+}

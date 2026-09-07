@@ -1,0 +1,24 @@
+{
+  "status": "PASS_WITH_PRESERVED_PRE_STABILIZATION_FAILURES",
+  "test_call_reserve": 2000,
+  "primary_hessian_or_search_objective_attempts": 823,
+  "numerical_failures": 2,
+  "runs": [
+    {"name": "original_pre_complement_selftest", "calls": 40, "failures": 1, "exit_code": 1, "evidence": "initial_failure_audit.json"},
+    {"name": "preserved_failure_reproduction", "calls": 40, "failures": 1, "exit_code": 0, "evidence": "initial_failure_audit.json"},
+    {"name": "initial_local_smoke_checkpoint", "calls": 17, "failures": 0, "exit_code": 0, "evidence": "local_smoke/state.sqlite", "note": "Retained; not resumed after numerical source changed."},
+    {"name": "complement_stabilized_local_selftest", "calls": 43, "failures": 0, "exit_code": 0, "evidence": "selftest_result.json"},
+    {"name": "local_pause_resume_smoke_v2", "calls": 64, "failures": 0, "exit_code": 0, "evidence": "checkpoint_audit.json"},
+    {"name": "final_source_local_pause_resume_smoke", "calls": 64, "failures": 0, "exit_code": 0, "evidence": "checkpoint_audit_final.json"},
+    {"name": "remote_selftest", "calls": 43, "failures": 0, "exit_code": 0, "evidence": "remote: selftest_result.json"},
+    {"name": "remote_optimizer_pilot", "calls": 512, "failures": 0, "exit_code": 0, "evidence": "remote_pilot_summary.json"}
+  ],
+  "formal_call_cap": 48000,
+  "actual_formal_calls": 42578,
+  "actual_formal_failures": 0,
+  "actual_combined_calls": 43401,
+  "formal_terminal_status": "INCOMPLETE_FINITE_BATCH_COMPLETE",
+  "maximum_combined_calls_after_registered_formal_run": 48823,
+  "parent_call_cap": 50000,
+  "accounting_note": "Counts charge each main analytic-Hessian or search-objective attempt, including failed tests and validation repeats. Entropy/chord, probability/jet mapping, and alternate-formula diagnostics are helper computations, not additional optimization objective calls. Their resource use is within the same CPU and wall-time limits. No further test calls are currently scheduled."
+}

@@ -84,3 +84,47 @@ the exact frozen tree was transported through the Git data API. Public commit
 `8ae16152670e768acc4bd5792b5db71822c42c86` and the locally reviewed freeze
 commit have the same tree hash `c282e54a8221dc8546b5c8da3c23a768038b9025`;
 the mathematical blob IDs are unchanged.
+
+## Round 4: margin-stratified search, block theorem, and boundary stress
+
+Status: VERIFIED_FOR_AN_ADDITIONAL_FAMILY / FINITE_NO_HIT.
+
+The second-stage search stratified kernels by their actual minimum distance to
+the spectral boundary: `(0.2,0.4)`, `(0.05,0.2)`, `(0.01,0.05)`, and
+`(0.001,0.01)`. Across `n=3,...,10`, 64 restarts completed 42,578 formal
+objective calls with zero formal failures and zero values above `1e-6`.
+Another 823 validation attempts include two retained pre-stabilization
+failures. The formal SQLite ledger has unique contiguous IDs `1,...,42578`,
+all `OK`, and the process exited 0.
+
+Direct floating Mobius inversion was unstable for a rare event in a
+high-occupancy self-test. The corrected pipeline evaluates the complement
+kernel `I-K`, still using inclusion determinants followed by Boolean Mobius
+inversion, maps events back by complementation, reverses first-direction signs,
+and preserves second-direction signs. Complement, entropy, derivative, mass,
+finite-difference, checkpoint, and optimizer smoke tests passed. The failed
+pre-stabilization attempt remains in the denominator.
+
+The best second-stage Hessian value was `5.930937647366978e-15`, comparable to
+its `6.0037609269151225e-15` eigen residual and far below the promotion gate.
+The recorded feasible chord gaps were `-1.138755756358023e-12` and
+`-2.9154478831117103e-10`; no object was promoted.
+
+The block-cross theorem was frozen in commit
+`64c5bc0910c10c8baba1208326c799c0d0dffeec`, tree
+`8b75d4f4b5739a3e89fb9fef65d1ce83dc003ed8`. A non-author reviewer read the
+fixed blobs and returned `STATUS: CORRECT`. Exact-rational n=3 and n=4 sanity
+examples preserved block marginals and gave negative midpoint gaps.
+
+The phase-1 rational verifier also passed a fixed near-boundary stress suite.
+It certified negative cases with minimum complete-event probabilities `1e-8`
+and `1e-12`, retained zero and deliberately unseparated gaps as
+`GAP_UNCERTAIN`, and rejected a boundary endpoint and non-rational input.
+
+The phase-2 numerical source and compact evidence were frozen in commit
+`187e8a8a3f3ad3b03d686930253ebeaf0b5e228b`, tree
+`dc7acefc43aa51745bb4b96138a3fd9d86e5f40d`. A reviewer who did not author the
+search read the fixed result, ledger, summary, source, and best-object blobs.
+The reviewer independently reconciled all counts, checked the Mobius and
+complement signs, and returned `STATUS: CORRECT`; see
+`verification/phase2_param_commit_review.md`.

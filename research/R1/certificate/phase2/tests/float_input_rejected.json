@@ -1,0 +1,6 @@
+{
+  "description": "JSON floats must be rejected as non-rational certificate input.",
+  "K": [[0.5, "0"], ["0", "1/2"]],
+  "V": [["0", "0"], ["0", "0"]],
+  "t": "1"
+}
