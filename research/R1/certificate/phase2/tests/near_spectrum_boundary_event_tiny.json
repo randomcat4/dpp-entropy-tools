@@ -1,0 +1,6 @@
+{
+  "description": "Strictly feasible 2x2 chord near both spectral boundaries; complete events include mass near 1e-8.",
+  "K": [["1/10000", "0"], ["0", "9999/10000"]],
+  "V": [["0", "1/20000"], ["1/20000", "0"]],
+  "t": "1"
+}
