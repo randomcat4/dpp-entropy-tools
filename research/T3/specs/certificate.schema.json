@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "T3 certificate request or response, candidate 0.1",
+  "oneOf": [{"$ref": "#/$defs/request"}, {"$ref": "#/$defs/response"}],
+  "$defs": {
+    "rational": {
+      "type": "string", "maxLength": 1024,
+      "pattern": "^(0|-?[1-9][0-9]*)/[1-9][0-9]*$",
+      "description": "Must also be reduced, with canonical zero 0/1. Semantic check required."
+    },
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "nullableHash": {"oneOf": [{"$ref": "#/$defs/hash"}, {"type": "null"}]},
+    "id": {"type": "string", "maxLength": 128, "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "interval": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": {"$ref": "#/$defs/rational"},
+      "description": "Semantic check requires lower <= upper; path requires lower < upper."
+    },
+    "matrix": {
+      "type": "array", "minItems": 1, "maxItems": 8,
+      "items": {
+        "type": "array", "minItems": 1, "maxItems": 8,
+        "items": {"$ref": "#/$defs/rational"}
+      }
+    },
+    "sign": {"enum": ["gt_zero", "ge_zero", "lt_zero", "le_zero"]},
+    "claim": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "scope", "predicate"],
+          "properties": {
+            "type": {"const": "feasibility"}, "scope": {"const": "path"},
+            "predicate": {"const": "feasible"}
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "scope", "weight", "predicate"],
+          "properties": {
+            "type": {"const": "entropy_chord_gap"}, "scope": {"const": "point"},
+            "weight": {"$ref": "#/$defs/rational"}, "predicate": {"$ref": "#/$defs/sign"}
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "scope", "at", "predicate"],
+          "properties": {
+            "type": {"const": "curvature"}, "scope": {"const": "point"},
+            "at": {"$ref": "#/$defs/rational"}, "predicate": {"$ref": "#/$defs/sign"}
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "scope", "predicate"],
+          "properties": {
+            "type": {"const": "curvature"}, "scope": {"const": "path"},
+            "predicate": {"$ref": "#/$defs/sign"}
+          }
+        }
+      ]
+    },
+    "request": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "request_id", "kernel_model", "K", "D", "path", "claim", "precision", "limits", "refusal", "include_events"],
+      "properties": {
+        "kind": {"const": "request"}, "schema_version": {"const": "0.1"},
+        "request_id": {"$ref": "#/$defs/id"},
+        "kernel_model": {"const": "real_symmetric_contraction"},
+        "K": {"$ref": "#/$defs/matrix"}, "D": {"$ref": "#/$defs/matrix"},
+        "path": {"$ref": "#/$defs/interval"}, "claim": {"$ref": "#/$defs/claim"},
+        "include_events": {"type": "boolean"},
+        "precision": {
+          "type": "object", "additionalProperties": false,
+          "required": ["initial_bits", "max_bits", "absolute_width"],
+          "properties": {
+            "initial_bits": {"type": "integer", "minimum": 32, "maximum": 4096},
+            "max_bits": {"type": "integer", "minimum": 32, "maximum": 4096},
+            "absolute_width": {"$ref": "#/$defs/rational"}
+          }
+        },
+        "limits": {
+          "type": "object", "additionalProperties": false,
+          "required": ["max_cells", "max_seconds", "threads", "memory_mib"],
+          "properties": {
+            "max_cells": {"type": "integer", "minimum": 1, "maximum": 4096},
+            "max_seconds": {"type": "integer", "minimum": 1, "maximum": 3600},
+            "threads": {"const": 1},
+            "memory_mib": {"type": "integer", "minimum": 64, "maximum": 2048}
+          }
+        },
+        "refusal": {
+          "type": "object", "additionalProperties": false,
+          "required": ["mode", "on_unresolved", "zero_probability"],
+          "properties": {
+            "mode": {"const": "strict_only"}, "on_unresolved": {"const": "refuse"},
+            "zero_probability": {"const": "exact_limit_or_refuse"}
+          }
+        }
+      }
+    },
+    "count": {"type": "integer", "minimum": 0},
+    "coverage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit", "planned_manifest_hash", "planned", "started", "completed", "failed", "certified", "events_planned", "events_completed", "events_represented", "cells_planned", "cells_completed", "cells_unresolved"],
+      "properties": {
+        "unit": {"const": "unique_request"},
+        "planned_manifest_hash": {"$ref": "#/$defs/nullableHash"},
+        "planned": {"$ref": "#/$defs/count"}, "started": {"$ref": "#/$defs/count"},
+        "completed": {"$ref": "#/$defs/count"}, "failed": {"$ref": "#/$defs/count"},
+        "certified": {"$ref": "#/$defs/count"},
+        "events_planned": {"$ref": "#/$defs/count"},
+        "events_completed": {"$ref": "#/$defs/count"},
+        "events_represented": {"$ref": "#/$defs/count"},
+        "cells_planned": {"$ref": "#/$defs/count"},
+        "cells_completed": {"$ref": "#/$defs/count"},
+        "cells_unresolved": {"$ref": "#/$defs/count"}
+      }
+    },
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["role", "path", "sha256"],
+      "properties": {
+        "role": {"enum": ["certificate", "events", "feasibility", "rounding", "coverage"]},
+        "path": {"type": "string", "minLength": 1, "maxLength": 256, "pattern": "^[A-Za-z0-9_.-]+(/[A-Za-z0-9_.-]+)*$"},
+        "sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "failure": {
+      "type": "object", "additionalProperties": false,
+      "required": ["code", "detail", "locations"],
+      "properties": {
+        "code": {"enum": ["INVALID_INPUT", "UNSUPPORTED_MODEL", "UNSUPPORTED_DIMENSION", "UNSUPPORTED_FEATURE", "INFEASIBLE_PATH", "ZERO_CURVATURE_UNSUPPORTED", "PRECISION_EXHAUSTED", "RESOURCE_LIMIT", "INTERNAL_ERROR", "INVALID_WITNESS", "HASH_MISMATCH", "INTERRUPTED"]},
+        "detail": {"type": "string", "minLength": 1},
+        "locations": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["input_hash", "certificate_hash", "implementation_commit", "dirty", "interpreter", "dependencies", "platform", "command", "command_redacted", "exit_code", "elapsed_ms", "peak_memory_mib"],
+      "properties": {
+        "input_hash": {"$ref": "#/$defs/nullableHash"},
+        "certificate_hash": {"$ref": "#/$defs/nullableHash"},
+        "implementation_commit": {"type": ["string", "null"], "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"},
+        "dirty": {"type": ["boolean", "null"]},
+        "interpreter": {"type": ["string", "null"]},
+        "dependencies": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}},
+        "platform": {"type": ["string", "null"]},
+        "command": {"type": "array", "items": {"type": "string"}},
+        "command_redacted": {"type": "boolean"},
+        "exit_code": {"type": ["integer", "null"]},
+        "elapsed_ms": {"type": ["integer", "null"], "minimum": 0},
+        "peak_memory_mib": {"type": ["integer", "null"], "minimum": 0}
+      }
+    },
+    "response": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "request_id", "attempt_id", "resume_of", "artifact_kind", "state", "math_status", "outcome", "claim", "result", "evidence", "coverage", "provenance", "failures", "notes"],
+      "properties": {
+        "kind": {"const": "response"}, "schema_version": {"const": "0.1"},
+        "request_id": {"oneOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+        "attempt_id": {"oneOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+        "resume_of": {"oneOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+        "artifact_kind": {"enum": ["run", "illustrative"]},
+        "state": {"enum": ["PREPARED", "RUNNING", "CANDIDATE", "INCOMPLETE", "BLOCKED"]},
+        "math_status": {"enum": ["PROVED", "DISPROVED", "INCOMPLETE"]},
+        "outcome": {"enum": ["proved", "disproved", "refused", "incomplete", "failed", "interrupted", "not_run"]},
+        "claim": {"oneOf": [{"$ref": "#/$defs/claim"}, {"type": "null"}]},
+        "result": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object", "additionalProperties": false,
+              "required": ["bounds", "feasible", "units"],
+              "properties": {
+                "bounds": {"oneOf": [{"$ref": "#/$defs/interval"}, {"type": "null"}]},
+                "feasible": {"type": ["boolean", "null"]},
+                "units": {"enum": ["nats", "nats_per_t_squared", "none"]}
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "type": "object", "additionalProperties": false,
+          "required": ["strict", "arithmetic", "rounding_rationale", "precision_bits_used", "artifacts"],
+          "properties": {
+            "strict": {"type": "boolean"},
+            "arithmetic": {"enum": ["none", "exact_rational", "rational_log_series", "directed_interval", "certified_ball"]},
+            "rounding_rationale": {"type": ["string", "null"]},
+            "precision_bits_used": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+            "artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}}
+          }
+        },
+        "coverage": {"$ref": "#/$defs/coverage"},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "failures": {"type": "array", "items": {"$ref": "#/$defs/failure"}},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"artifact_kind": {"const": "illustrative"}}},
+          "then": {
+            "properties": {
+              "state": {"const": "CANDIDATE"}, "math_status": {"const": "INCOMPLETE"},
+              "outcome": {"const": "not_run"}, "attempt_id": {"type": "null"}, "resume_of": {"type": "null"},
+              "evidence": {"properties": {"strict": {"const": false}, "arithmetic": {"const": "none"}, "artifacts": {"maxItems": 0}, "precision_bits_used": {"maxItems": 0}}},
+              "coverage": {"properties": {"started": {"const": 0}, "completed": {"const": 0}, "failed": {"const": 0}, "certified": {"const": 0}, "events_completed": {"const": 0}, "events_represented": {"const": 0}, "cells_completed": {"const": 0}}},
+              "provenance": {"properties": {"input_hash": {"type": "null"}, "certificate_hash": {"type": "null"}, "implementation_commit": {"type": "null"}, "dirty": {"type": "null"}, "interpreter": {"type": "null"}, "dependencies": {"maxProperties": 0}, "platform": {"type": "null"}, "command": {"maxItems": 0}, "exit_code": {"type": "null"}, "elapsed_ms": {"type": "null"}, "peak_memory_mib": {"type": "null"}}}
+            }
+          },
+          "else": {
+            "properties": {
+              "outcome": {"not": {"const": "not_run"}},
+              "attempt_id": {"$ref": "#/$defs/id"},
+              "provenance": {
+                "properties": {
+                  "input_hash": {"$ref": "#/$defs/hash"},
+                  "implementation_commit": {"type": "string"}, "dirty": {"type": "boolean"},
+                  "interpreter": {"type": "string", "minLength": 1},
+                  "platform": {"type": "string", "minLength": 1},
+                  "command": {"minItems": 1}, "exit_code": {"type": "integer"}, "elapsed_ms": {"type": "integer"}
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {"properties": {"outcome": {"enum": ["proved", "disproved"]}}},
+          "then": {
+            "properties": {
+              "artifact_kind": {"const": "run"}, "state": {"const": "CANDIDATE"},
+              "request_id": {"$ref": "#/$defs/id"}, "claim": {"$ref": "#/$defs/claim"},
+              "result": {"type": "object"}, "failures": {"maxItems": 0},
+              "evidence": {"properties": {"strict": {"const": true}, "arithmetic": {"not": {"const": "none"}}, "rounding_rationale": {"type": "string", "minLength": 1}, "artifacts": {"minItems": 1}}},
+              "coverage": {"properties": {"planned": {"const": 1}, "started": {"const": 1}, "completed": {"const": 1}, "failed": {"const": 0}, "certified": {"const": 1}, "cells_unresolved": {"const": 0}}},
+              "provenance": {"properties": {"certificate_hash": {"$ref": "#/$defs/hash"}, "dirty": {"const": false}}}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "proved"}}},
+          "then": {"properties": {"math_status": {"const": "PROVED"}, "provenance": {"properties": {"exit_code": {"const": 0}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "disproved"}}},
+          "then": {"properties": {"math_status": {"const": "DISPROVED"}, "provenance": {"properties": {"exit_code": {"const": 1}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "refused"}}},
+          "then": {"properties": {"provenance": {"properties": {"exit_code": {"const": 2}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "incomplete"}}},
+          "then": {"properties": {"provenance": {"properties": {"exit_code": {"const": 3}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "failed"}}},
+          "then": {"properties": {"provenance": {"properties": {"exit_code": {"const": 4}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"const": "interrupted"}}},
+          "then": {"properties": {"provenance": {"properties": {"exit_code": {"const": 130}}}}}
+        },
+        {
+          "if": {"properties": {"outcome": {"enum": ["refused", "incomplete", "failed", "interrupted"]}}},
+          "then": {
+            "properties": {
+              "math_status": {"const": "INCOMPLETE"}, "state": {"enum": ["INCOMPLETE", "BLOCKED"]},
+              "failures": {"minItems": 1},
+              "coverage": {"properties": {"planned": {"const": 1}, "started": {"const": 1}, "completed": {"const": 0}, "failed": {"const": 1}, "certified": {"const": 0}}}
+            }
+          }
+        }
+      ]
+    }
+  }
+}

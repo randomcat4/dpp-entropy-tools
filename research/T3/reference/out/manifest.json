@@ -1,0 +1,41 @@
+{
+  "case_file": "research/T3/reference/adversarial_cases.json",
+  "certificate_hash": "5bc46409fb854255f4c5ae174bb5e02cb0f8b11a0b671d3845f631b9c0afe19d",
+  "complete": true,
+  "completed": [
+    {
+      "hash": "e22b29bb357b23e9a9f38be288f01501033aa53ebe2be1d4bb44a7f84d5cd336",
+      "name": "near_zero_l_ensemble",
+      "status": "CANDIDATE"
+    },
+    {
+      "hash": "3d4d1fb37f8dbb59a3d89471e120034b171f85e35bcb6c30c567a29b05a36392",
+      "name": "zero_probability_marginal_boundary",
+      "status": "CANDIDATE"
+    },
+    {
+      "hash": "05681f440030101103edfe56874f426f41eb9415c816796b56c3494ebe698cca",
+      "name": "repeated_eigen_diagonal_l_ensemble",
+      "status": "CANDIDATE"
+    },
+    {
+      "hash": "895351b02383b2ae9932a6b7e063f58a0488b09cd3c0b2fbda4269696c43124a",
+      "name": "tiny_gap_float_misleading",
+      "status": "CANDIDATE"
+    },
+    {
+      "hash": "977944fed6e8084bbe6c78b5f1f6db88e03d72c717563c16b0aae7699d8464dd",
+      "name": "invalid_negative_l_weight",
+      "status": "REJECTED_INPUT"
+    },
+    {
+      "hash": "7ada4d07287b86be1ca4d7c03560510c8c7523873e0bee030fd599bd0e092cda",
+      "name": "invalid_nonsymmetric_input",
+      "status": "REJECTED_INPUT"
+    }
+  ],
+  "completed_count": 6,
+  "implementation": "research/T3/reference/exact_dpp_reference.py",
+  "python_version": "3.12.14",
+  "total_count": 6
+}

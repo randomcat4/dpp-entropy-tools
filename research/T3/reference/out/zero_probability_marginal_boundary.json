@@ -1,0 +1,176 @@
+{
+  "certificate_hash": "3d4d1fb37f8dbb59a3d89471e120034b171f85e35bcb6c30c567a29b05a36392",
+  "curvature": {
+    "classification": "CERTIFIED_NONNEGATIVE",
+    "interval": {
+      "hi_decimal": "0",
+      "hi_exact": "0",
+      "lo_decimal": "0",
+      "lo_exact": "0",
+      "width_decimal": "0",
+      "width_exact": "0"
+    },
+    "kind": "rigorous_interval",
+    "rounding": "H'' = -sum p'' log(p) - sum (p')^2/p, with exact rational jets and log intervals.",
+    "zero_terms": [
+      "{0} has p=p'=p''=0 and contributes zero through the reported jet order.",
+      "{0,1} has p=p'=p''=0 and contributes zero through the reported jet order."
+    ]
+  },
+  "entropy_points": [
+    {
+      "entropy": {
+        "interval": {
+          "hi_decimal": "0.69314718055994530941723212145817656807550013436",
+          "hi_exact": "3368600351965737108093803431382638153301963435391763681212111766346642850290056755099453705548415604096853/4859863022517785622708177279172236686195594827264664501631389576841705929461052989234868022096379391744700",
+          "lo_decimal": "0.69314718055994530941723212145817656807550013436",
+          "lo_exact": "25519699636104069000710632055929076918954268449937603645546174268476356003543521666017417417126740731904/36817144109983224414455888478577550652996930509580791679025678612437166132280704463900515318911965088975",
+          "width_decimal": "0.00000000000000000000000000000000000000000000000000000000000344925519221184492971422710084678713936842927531",
+          "width_exact": "1/289917661719528235279993012494216279743344734576106645166028"
+        },
+        "kind": "rigorous_interval",
+        "rounding": "Exact rational atanh-series log enclosure; remainder has the sign of omitted positive tail.",
+        "zero_probability_rule": "Terms with p=0 contribute lim_{p->0+} -p log(p)=0.",
+        "zero_terms": [
+          "{0}",
+          "{0,1}"
+        ]
+      },
+      "probabilities": [
+        {
+          "p": "1/2",
+          "p1": "0",
+          "p2": "0",
+          "p_decimal": "0.5",
+          "subset": "{}"
+        },
+        {
+          "p": "0",
+          "p1": "0",
+          "p2": "0",
+          "p_decimal": "0",
+          "subset": "{0}"
+        },
+        {
+          "p": "1/2",
+          "p1": "0",
+          "p2": "0",
+          "p_decimal": "0.5",
+          "subset": "{1}"
+        },
+        {
+          "p": "0",
+          "p1": "0",
+          "p2": "0",
+          "p_decimal": "0",
+          "subset": "{0,1}"
+        }
+      ],
+      "probability_sum_exact": "1",
+      "t": "0"
+    }
+  ],
+  "feasibility": {
+    "events": [
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "0.5",
+            "hi_exact": "1/2",
+            "lo_decimal": "0.5",
+            "lo_exact": "1/2",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "coefficients": [
+            "1/2"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "1/2"
+        ],
+        "subset": "{}"
+      },
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "0",
+            "hi_exact": "0",
+            "lo_decimal": "0",
+            "lo_exact": "0",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_NONNEGATIVE",
+          "coefficients": [
+            "0"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "0"
+        ],
+        "subset": "{0}"
+      },
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "0.5",
+            "hi_exact": "1/2",
+            "lo_decimal": "0.5",
+            "lo_exact": "1/2",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "coefficients": [
+            "1/2"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "1/2"
+        ],
+        "subset": "{1}"
+      },
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "0",
+            "hi_exact": "0",
+            "lo_decimal": "0",
+            "lo_exact": "0",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_NONNEGATIVE",
+          "coefficients": [
+            "0"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "0"
+        ],
+        "subset": "{0,1}"
+      }
+    ],
+    "interval": [
+      "0",
+      "0"
+    ],
+    "mode": "marginal",
+    "rationale": "Marginal-kernel interval feasibility checks exact event probabilities from inclusion-exclusion, not inclusion minors.",
+    "status": "CERTIFIED_NONNEGATIVE"
+  },
+  "labels": {
+    "determinants_and_jets": "exact",
+    "entropy_and_gap": "rigorous_interval",
+    "float_diagnostics": "diagnostic_only"
+  },
+  "mode": "marginal",
+  "name": "zero_probability_marginal_boundary",
+  "status": "CANDIDATE"
+}
