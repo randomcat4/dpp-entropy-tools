@@ -47,4 +47,3 @@ else:
     with (root/"supervisor_stdout.log").open("ab") as log:
         proc=subprocess.Popen(cmd,cwd=root,stdin=subprocess.DEVNULL,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
     print(json.dumps(dict(supervisor_pid=proc.pid,command=cmd)),flush=True)
-

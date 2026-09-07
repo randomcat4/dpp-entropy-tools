@@ -22,4 +22,3 @@
   "parent_call_cap": 50000,
   "accounting_note": "Counts charge each main analytic-Hessian or search-objective attempt, including failed tests and validation repeats. Entropy/chord, probability/jet mapping, and alternate-formula diagnostics are helper computations, not additional optimization objective calls. Their resource use is within the same CPU and wall-time limits. No further test calls are currently scheduled."
 }
-

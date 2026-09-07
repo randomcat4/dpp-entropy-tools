@@ -87,4 +87,3 @@ It was launched and supervised by `/opt/venv/bin/python launch_phase2.py`. This 
 - `plan.md`, `numerics.py`, `engine.py`, `launch_phase2.py`: mathematical computation and durable bounded-run implementation.
 
 No heartbeat was created by this subtask. The R1 parent was notified that the registered job is now complete and requires no resumption.
-

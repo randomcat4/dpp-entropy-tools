@@ -187,4 +187,3 @@ def chord(k,v):
         delta=(entropy(km)+entropy(kp))/2-entropy(k)
         records.append(dict(t=t,delta=delta,minus_margin=mm,plus_margin=mp))
     return records
-

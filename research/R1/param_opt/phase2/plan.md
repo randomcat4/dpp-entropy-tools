@@ -29,4 +29,3 @@ The local smoke pauses after 17 calls and resumes for the remaining 47, yielding
 ## Candidate handling
 
 A largest Hessian eigenvalue above 1e-6 freezes K,V, spectral diagnostics, two feasible numerical chords, and an author-side alternate directional calculation. The formal run then pauses for independent recomputation. Its status remains NUMERICAL_HIT_AWAITING_INDEPENDENT_RECOMPUTATION; author checks are not certification. No tiny floating-point positive value is promoted. Failure to find a hit has no implication for the global real-symmetric conjecture.
-

@@ -81,4 +81,3 @@ if args.output:
     print(json.dumps(compact,indent=2,allow_nan=False))
 else:
     print(json.dumps(result,indent=2,allow_nan=False))
-
