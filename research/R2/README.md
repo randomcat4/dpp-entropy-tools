@@ -1,6 +1,7 @@
 # R2: balanced near-projection transverse chords
 
-Status: RUNNING.  No real-symmetric counterexample is claimed.
+Status: VERIFIED for frozen theorem v1; route closed after this bounded unit.
+No real-symmetric counterexample is claimed.
 
 This route studies a frozen multiscale family whose center approaches a
 projection while its chord half-length is of order `sqrt(epsilon)`.  The first
@@ -17,9 +18,23 @@ Principal minors are inclusion probabilities, not exact-event masses.
 
 ## Reproduction
 
-The bounded diagnostic will live in `artifacts/`.  Floating output is only a
-probe; the mathematical status is controlled by the frozen statement, proof,
-and fresh reviews.
+Run the deterministic rational-law diagnostic from the checkout root:
+
+```text
+python research/R2/artifacts/check_balanced_family.py
+```
+
+Run the independent strict logarithm-enclosure fixtures with:
+
+```text
+cd research/R2/verifications/fresh_v1
+python verify_transverse_fixtures.py
+```
+
+The first command's Decimal entropies are probes.  The second command produces
+rational outward enclosures for two fixed examples.  The family theorem is
+certified by the frozen proof plus two commit-bound fresh reviews, not by a
+finite diagnostic.
 
 ## Scope boundary
 
