@@ -32,6 +32,37 @@ fixture.  Decimal logarithms are not a strict certificate.
 - No positive-gap real counterexample was found.  The global real question
   remains open in this route.
 
-The route is closed after this bounded unit.  No further search, certificate
-gate, heartbeat, or continuation job is scheduled.  Moving projections,
-moving directions, and mixed longitudinal blocks remain outside the result.
+This bounded v1 unit is closed. Its verification is not repeated below.
+
+## Round 2: mixed boundary hierarchy
+
+- Proved exact eventual feasibility for the fixed mixed block family,
+  including singular Schur residuals and the necessary kernel-annihilation
+  conditions.
+- Proved the leading coefficient
+  `(Z-2||B||_F^2) epsilon log(1/epsilon)` with arbitrary fixed longitudinal
+  directions. Every feasible nonzero transverse direction remains negative.
+- Extended the transverse result to unequal scalar slacks
+  `epsilon^alpha,epsilon^beta`; the coefficient is
+  `max(alpha,beta)Z-(alpha+beta)||B||_F^2`, again strictly negative.
+- For `B=0`, proved the order-`epsilon` cofactor-measurement Jensen
+  obstruction and its equality kernel. On that kernel, proved universal
+  cancellation of the `epsilon^2 log(1/epsilon)` layer by an eventwise
+  adjugate-rank argument.
+- Proved strict small-kernel two-point concavity for every fixed pair of
+  distinct PSD matrices, including singular boundaries.
+- Computed and signed the complete ordinary `epsilon^2` coefficient for all
+  paired frames in every dimension and for arbitrary pair
+  rotations. Also sealed rank-two one-sided tomography kernels.
+- Derived a finite exterior-minor formula for the remaining general `C_2`.
+  Its zero-support cross term is nonpositive; the active-support and pure
+  deletion/insertion pieces are the exact unresolved terms.
+- A corrected bounded search on a rational `n=8,r=4` non-paired frame checked
+  65 `C_2` trials after explicitly validating signed cofactor residuals. It
+  found no positive coefficient. An earlier exploratory output was discarded
+  because it omitted alternating cofactor signs and failed to require the
+  order-`epsilon` finite coefficient to vanish.
+
+Round 2 adds no new formal certificate gate. The broad theorems are recorded
+as `PROVED_HERE`; the general invisible-kernel `C_2` sign and the global real
+question remain `INCOMPLETE`.

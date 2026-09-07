@@ -26,3 +26,16 @@
   excluded from frozen v1.
 - **Scope inflation:** a negative asymptotic coefficient excludes only this
   family; it is not evidence of global concavity.
+- **Singular Schur residuals:** residual PSD is insufficient without kernel
+  annihilation; the scalar residual-zero example is infeasible at every small
+  scale.
+- **Signed cofactors:** deletion cofactor vectors require alternating column
+  signs. Omitting them preserves some diagonal checks but creates false
+  off-diagonal tomography kernels in rank at least three.
+- **Gate ordering:** a positive `C_2` is irrelevant unless every earlier
+  coefficient, including the finite order-`epsilon` coefficient, vanishes.
+- **Unequal scales:** multiple-flip baseline mass may exceed the target
+  transverse scale. The proof must bound its entropy change, not its absolute
+  entropy.
+- **Tomography equality:** matching only traces is weaker than matching every
+  one-hole and one-particle exact-event rate.

@@ -35,3 +35,51 @@
 - Relative strength: equivalent to the frozen bounded objective, strictly
   weaker than the original all-real problem
 - Dependencies: L1-L3 and full event-class coefficient bookkeeping
+
+## L5: singular mixed-family feasibility
+
+- Statement: eventual feasibility of the exact mixed two-term family is
+  equivalent to nonnegative limiting Schur residuals plus their kernel
+  annihilation by `B^T` and `B`.
+- Status: PROVED_HERE in `proofs/mixed_boundary_v2.md`
+- Main risk closed: a nonnegative singular residual alone is not sufficient
+
+## L6: mixed and unequal-scale logarithmic coefficients
+
+- Statement: fixed longitudinal directions do not change the coefficient
+  `Z-2||B||_F^2`; unequal scalar powers give
+  `max(alpha,beta)Z-(alpha+beta)||B||_F^2`.
+- Status: PROVED_HERE in `proofs/mixed_boundary_v2.md` and
+  `proofs/unequal_slack_v2.md`
+- Relative strength: all fixed nonzero transverse directions in the displayed
+  boundary blow-up hierarchies, still not moving data
+
+## L7: zero-transverse tomography gates
+
+- Statement: the order-`epsilon` gap is nonpositive, with equality exactly on
+  the two complete cofactor measurement kernels; on that kernel the complete
+  `epsilon^2 log(1/epsilon)` coefficient is zero.
+- Status: PROVED_HERE in `proofs/tomography_second_log_v2.md`
+- Method: coordinatewise entropy Jensen plus zero-Pluecker adjugate rank
+
+## L8: small-kernel strict two-point theorem
+
+- Statement: every fixed distinct PSD pair has a strictly negative small-kernel
+  entropy chord for sufficiently small scale.
+- Status: PROVED_HERE in `proofs/small_kernel_two_point_v1.md`
+- Boundary scope: zero diagonal entries and zero `2 x 2` determinants included
+
+## L9: paired-frame ordinary coefficient
+
+- Statement: the full tomography-kernel `C_2` is the negative pairwise `G_D`
+  sum for all paired frames and arbitrary independent pair rotations.
+- Status: PROVED_HERE in `proofs/paired_frame_C2_v2.md` and
+  `proofs/paired_rotations_v2.md`
+- Sign: strict for every nonzero feasible fixed direction
+
+## L10: general finite `C_2` decomposition
+
+- Statement: after L7, the remaining coefficient splits into active-support,
+  one-flip, two-flip, and zero-support cross terms; the last is nonpositive.
+- Status: PROVED_HERE as a decomposition; universal sign INCOMPLETE
+- File: `proofs/b_zero_c2_decomposition_v2.md`
