@@ -28,3 +28,6 @@ Every row's absolute off-diagonal sum is at most 3/20 < 1/2.
 Success means a complete independently audited weak theorem, an exact input
 checker, a reproducible non-seed application, and explicit failure boundaries.
 Novelty and mathematical correctness are separate judgments.
+
+
+Stage priority: practical usefulness, correctness, and explicit applicability. Novelty is not a requirement or a gate for delivery. Existing results are reusable with accurate attribution and checked hypotheses.

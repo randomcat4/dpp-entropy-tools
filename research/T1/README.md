@@ -33,3 +33,24 @@ bridge-block family is justified analytically in the proof.
 Scope exclusions: cycles with active edges, absent-edge directions, boundary
 kernels, general real directions, all-kernel concavity, and entropy rates.
 Known failures and run denominators are in rounds.md and artifacts/validation.json.
+
+
+Stage priority: practical usefulness, correctness, and explicit applicability. Novelty is not a requirement or a gate for delivery. Existing results are reusable with accurate attribution and checked hypotheses.
+
+Programmatic entry point (from the repository root):
+
+```python
+from research.T1.tools.bridge_check import check
+result = check({
+    "K": [["1/2", "1/8"], ["1/8", "1/2"]],
+    "A": [[0, 1], [-1, 0]],
+})
+assert result["status"] == "APPLICABLE"
+assert result["curvature_sign"] == "negative"
+```
+
+Downstream callers should branch on `status`: `APPLICABLE` supplies the
+proved sign; `INCONCLUSIVE` supplies no sign; `OUTSIDE_DOMAIN` fails strict
+contraction; `INVALID_INPUT` fails the exact matrix interface. A small nonzero
+entry is an actual graph edge and must never be rounded away to obtain a
+bridge certificate. The sign is for the second derivative at t=0 only.

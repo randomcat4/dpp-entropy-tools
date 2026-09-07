@@ -19,3 +19,22 @@ The independent audit in audits/prior_art_conditions.md records precise
 conditions and source checks. Until a broader equivalence/prior-art search is
 complete, the value claim is an event-free implementation of a restricted
 structural lemma, suitable as a reusable auxiliary tool, not a novel paper core.
+
+## Targeted follow-up: rank-one route occupied
+
+Yuzhou Gu's author-hosted [6.881 Project Final Report: Entropy of Determinantal Point Processes](https://sevenkplus.com/data/dpp.pdf), Theorem 7, pp. 5-6,
+states concavity between DPP kernels whose difference has rank one. Its proof
+eliminates the atom second derivatives. This directly occupies the non-strict
+rank-one route in exploration/boundary.md; the strict-interior refinement there
+is elementary and is not claimed novel. The report is an author-hosted project
+report, not a peer-reviewed certification of this repository's results.
+
+The bridge-supported imaginary theorem is not an immediate application of
+rank-one concavity: a nonzero single imaginary edge already has rank two, and
+negative Hessian values on separate rank-one directions do not control their
+mixed terms. The targeted queries for bridge-edge and tree-kernel Shannon
+entropy did not settle prior occupancy of the frozen bridge lemma. Status
+remains UNCONFIRMED, with no firstness claim. This is a bounded search, not
+proof that no earlier equivalent result exists.
+
+Stage priority: practical usefulness, correctness, and explicit applicability. Novelty is not a requirement or a gate for delivery. Existing results are reusable with accurate attribution and checked hypotheses.

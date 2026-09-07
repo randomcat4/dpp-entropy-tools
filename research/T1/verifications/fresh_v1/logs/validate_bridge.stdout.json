@@ -1,0 +1,23 @@
+{
+  "exit_status": 0,
+  "pid": 137751,
+  "python": "3.12.3",
+  "command": "python3 research/T1/tools/validate_bridge.py",
+  "thread_limit": 1,
+  "elapsed_seconds": 0.029171228408813477,
+  "max_rss_KiB": 12328,
+  "other_interface_cases_passed": 7,
+  "graph_cases_passed": 75,
+  "diagnostics": [
+    {
+      "n": 6,
+      "events": 64,
+      "H_second_float64": -2.2231429935248154e-05,
+      "max_abs_p_first": 6.956808650741656e-21,
+      "mass": 1.0,
+      "second_mass": -4.0657581468206416e-19,
+      "role": "floating diagnostic, not a numerical certificate"
+    }
+  ],
+  "certification": "exact input checks; theorem independently reviewed separately"
+}
