@@ -38,3 +38,24 @@ checks, and the complete step scan.
 The resume path was exercised on the server by running 20 trials and extending
 the same checkpoint to 40 trials with the saved random-generator state before
 the long shards were launched.
+
+## Completed neighborhood search
+
+All four shards completed normally: 800,000 feasible-chord proposals in total,
+with no candidate records at the prespecified thresholds (`lambda_max > 1e-9`
+or midpoint `gap > 1e-10`).
+
+| shard | source | trials | best float64 lambda | finite-step gap |
+|---|---:|---:|---:|---:|
+| raw_a | 783 | 150,000 | `+1.393e-14` | `-6.310e-6` |
+| raw_b | 783 | 150,000 | `+6.287e-15` | `-5.729e-7` |
+| weak_a | 379 | 250,000 | `+6.746e-14` | `-9.199e-6` |
+| weak_b | 379 | 250,000 | `+5.836e-15` | `-1.216e-5` |
+
+The tiny positive Hessian values are themselves at the float64 floor.  In every
+case the eigenvector is essentially a cross-block coordinate whose coupling has
+been driven close to zero; the finite-step test along that same direction is
+decisively negative.  The search therefore localized a second numerical issue:
+near a decoupling/flat direction, eigensolver roundoff can make an approximately
+zero local eigenvalue slightly positive even while the resolved finite chord is
+negative.  `completed_search_summary.json` records the per-shard results.

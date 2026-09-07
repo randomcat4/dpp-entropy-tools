@@ -1,0 +1,60 @@
+{
+  "status": "COMPLETE",
+  "total_trials": 800000,
+  "candidate_thresholds": {
+    "lambda_max_greater_than": 1e-09,
+    "midpoint_gap_greater_than": 1e-10
+  },
+  "candidate_records": 0,
+  "jobs": [
+    {
+      "name": "raw_a",
+      "source_index": 783,
+      "seed": 920783,
+      "trials": 150000,
+      "elapsed_seconds": 1679.5550558567047,
+      "best_float64_lambda_max": 1.3925579470643664e-14,
+      "best_finite_step": 0.07546501241485544,
+      "best_finite_step_gap": -6.309597836207104e-06,
+      "best_point_margin": 0.2511413564101035,
+      "dominant_direction": "near-decoupled C[0,1] coordinate"
+    },
+    {
+      "name": "raw_b",
+      "source_index": 783,
+      "seed": 930783,
+      "trials": 150000,
+      "elapsed_seconds": 1634.0213751792908,
+      "best_float64_lambda_max": 6.2865140962398934e-15,
+      "best_finite_step": 0.04393056758792682,
+      "best_finite_step_gap": -5.729254191066957e-07,
+      "best_point_margin": 0.19446477190213773,
+      "dominant_direction": "near-decoupled C[0,1] coordinate"
+    },
+    {
+      "name": "weak_a",
+      "source_index": 379,
+      "seed": 920379,
+      "trials": 250000,
+      "elapsed_seconds": 206.28458380699158,
+      "best_float64_lambda_max": 6.745681221615938e-14,
+      "best_finite_step": 0.04606361511831097,
+      "best_finite_step_gap": -9.19892236517228e-06,
+      "best_point_margin": 0.00826890304360875,
+      "dominant_direction": "near-decoupled C[0,1] coordinate"
+    },
+    {
+      "name": "weak_b",
+      "source_index": 379,
+      "seed": 930379,
+      "trials": 250000,
+      "elapsed_seconds": 206.97111654281616,
+      "best_float64_lambda_max": 5.835688378762843e-15,
+      "best_finite_step": 0.06637306770604141,
+      "best_finite_step_gap": -1.2163476823090491e-05,
+      "best_point_margin": 0.14241543718166716,
+      "dominant_direction": "near-decoupled C[0,1] coordinate"
+    }
+  ],
+  "interpretation": "All tiny positive Hessian eigenvalues were at the float64 numerical floor on nearly decoupled cross-block coordinates. Their associated feasible finite-step midpoint gaps were decisively negative. No record crossed the prespecified candidate threshold, so no high-precision positive candidate was produced."
+}
