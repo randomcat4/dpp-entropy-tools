@@ -25,7 +25,8 @@ unconfirmed and not claimed.
 Round 2 closes mixed fixed longitudinal/transverse blocks, all feasible
 singular residuals of the exact two-term family, unequal scalar approach
 rates, the first two logarithmic layers of the zero-transverse branch, every
-fixed small-kernel chord, paired-frame tomography kernels, and
+fixed small-kernel chord, paired-frame tomography kernels with arbitrary
+fixed PSD inward matrices, and
 rank-two one-sided kernels. The central new result map is in
 `boundary_theorems_v2.md`.
 

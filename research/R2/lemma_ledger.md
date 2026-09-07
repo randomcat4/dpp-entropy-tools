@@ -71,10 +71,12 @@
 
 ## L9: paired-frame ordinary coefficient
 
-- Statement: the full tomography-kernel `C_2` is the negative pairwise `G_D`
-  sum for all paired frames and arbitrary independent pair rotations.
-- Status: PROVED_HERE in `proofs/paired_frame_C2_v2.md` and
-  `proofs/paired_rotations_v2.md`
+- Statement: for all paired frames, arbitrary independent pair rotations,
+  and arbitrary fixed PSD inward matrices, the full tomography-kernel `C_2`
+  is a sum of two nonpositive small-kernel chord coefficients.  For diagonal
+  inward matrices it is the negative pairwise `G_D` sum.
+- Status: PROVED_HERE in `proofs/paired_frame_C2_v2.md`,
+  `proofs/paired_rotations_v2.md`, and `proofs/paired_nondiagonal_v2.md`
 - Sign: strict for every nonzero feasible fixed direction
 
 ## L10: general finite `C_2` decomposition

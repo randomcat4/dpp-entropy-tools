@@ -96,9 +96,16 @@ Three further complete exclusions are proved.
    `epsilon^2` by the pair determinant expansion. Singular PSD matrices and
    zero pair determinants are included.
 
-2. **Paired frames.** For paired frames in every dimension,
-   including arbitrary independent pair rotations, the tomography-kernel
-   coefficient has the exact form
+2. **Paired frames.** For paired frames in every dimension, including
+   arbitrary independent pair rotations and arbitrary fixed PSD inward
+   matrices `A,C`, the tomography-kernel coefficient is
+
+   ```text
+   C_2=Gamma(A-X,A+X;A)+Gamma(C-Y,C+Y;C)<=0.
+   ```
+
+   It is strictly negative whenever `X` or `Y` is nonzero.  For diagonal
+   `A,C`, this reduces to the exact pairwise form
 
    ```text
    C_2=-sum_(i<j)
@@ -106,7 +113,7 @@ Three further complete exclusions are proved.
    G_D(z)=z+(D-z)log(1-z/D).
    ```
 
-   It is strictly negative for every nonzero feasible direction and satisfies
+   and satisfies the quantitative bound
 
    ```text
    C_2<=-(1/2)sum_(i<j)

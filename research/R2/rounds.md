@@ -52,8 +52,10 @@ This bounded v1 unit is closed. Its verification is not repeated below.
 - Proved strict small-kernel two-point concavity for every fixed pair of
   distinct PSD matrices, including singular boundaries.
 - Computed and signed the complete ordinary `epsilon^2` coefficient for all
-  paired frames in every dimension and for arbitrary pair
-  rotations. Also sealed rank-two one-sided tomography kernels.
+  paired frames in every dimension, with arbitrary pair rotations and
+  arbitrary fixed PSD inward matrices.  It is the sum of two small-kernel
+  coefficients and is strict off the zero direction.  Also sealed rank-two
+  one-sided tomography kernels.
 - Derived a finite exterior-minor formula for the remaining general `C_2`.
   Its zero-support cross term is nonpositive; the active-support and pure
   deletion/insertion pieces are the exact unresolved terms.
