@@ -1,5 +1,17 @@
 # Route registry
 
+## Round 3: frozen v2 general `C_2` decision
+
+| Route | Structural fingerprint | First decisive object | Status |
+|---|---|---|---|
+| R3-A | exterior-minor algebra / sum-of-squares | weighted quadratic-form blocker | INCOMPLETE; superseded by R3-C structure |
+| R3-B | exact counterexample optimization | 892 fully gated signed-formula trials | INCOMPLETE; no positive value |
+| R3-C | coordinate components / exact cofactor-pair decomposition | universal sum of scalar Jensen defects | PROVED; two reviews CORRECT |
+
+Resolved bottleneck: the full tomography kernel forces directions between
+orthogonal coordinate components.  Componentwise Parseval identities absorb
+the second-order drift into nonpositive scalar Jensen defects.
+
 ## R2-A: transverse exterior-algebra expansion
 
 - Frozen version: v1

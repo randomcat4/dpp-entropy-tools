@@ -1,8 +1,9 @@
 # R2: real DPP entropy near projection faces
 
-Status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` without a new formal
-gate for the broader v2 boundary theorems. The unrestricted real question is
-`INCOMPLETE`. No real-symmetric counterexample is claimed.
+Status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` for the frozen-v2
+general boundary coefficient theorem, pending one commit-bound verification
+gate. The unrestricted real question is `INCOMPLETE`. No real-symmetric
+counterexample is claimed.
 
 This route studies a frozen multiscale family whose center approaches a
 projection while its chord half-length is of order `sqrt(epsilon)`.  The first
@@ -12,7 +13,12 @@ produces a concrete candidate for fresh verification.
 Round 2 allows mixed longitudinal/transverse directions, feasible singular
 Schur residuals, unequal scalar approach rates, and the first two escape
 layers of the zero-transverse branch. See `boundary_theorems_v2.md` for the
-result map and exact remaining blocker.
+historical result map.
+
+Round 3 resolves the formerly unsigned ordinary `epsilon^2` coefficient for
+every fixed non-paired tomography-kernel frame.  See
+`boundary_theorems_v3.md`, `proofs/tomography_components_v3.md`, and
+`proofs/component_pair_C2_v3.md`.
 
 The exact-event convention throughout is
 
@@ -42,9 +48,9 @@ rational outward enclosures for two fixed examples.  The family theorem is
 certified by the frozen proof plus two commit-bound fresh reviews, not by a
 finite diagnostic.
 
-The v2 results are analytic working theorems and deliberately retain
-`PROVED_HERE` status. No repeated SHA/certificate gate was run for their
-intermediate subfamilies.
+The intermediate v2 subfamilies deliberately received no repeated formal
+gate.  The general v2 coefficient closure is a major result and receives one
+commit-bound review after its candidate proof is fixed.
 
 ## Scope boundary
 
@@ -55,6 +61,6 @@ This route distinguishes:
   `epsilon`.
 
 A negative result for these fixed families is not a theorem for all
-real-symmetric kernels or all near-projection paths. In particular, the
-ordinary second-order coefficient on a general non-paired, invisible
-longitudinal measurement kernel remains unsigned.
+real-symmetric kernels or all near-projection paths.  The fixed-data two-term
+projection-boundary hierarchy is sealed, but moving frames, varying data,
+other approach geometries, and arbitrary interior chords remain outside it.

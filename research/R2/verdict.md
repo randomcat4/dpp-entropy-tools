@@ -1,7 +1,8 @@
 # Verdict
 
-Stage status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` for the broader
-v2 fixed-boundary hierarchy; global real-kernel question `INCOMPLETE`.
+Stage status: `VERIFIED` for frozen theorem v1; `PROVED_HERE` for frozen
+theorem v2 pending one commit-bound gate; global real-kernel question
+`INCOMPLETE`.
 
 For fixed finite `(n,r,P,U,V,B,tau)` in frozen v1,
 
@@ -30,13 +31,21 @@ fixed PSD inward matrices, and
 rank-two one-sided kernels. The central new result map is in
 `boundary_theorems_v2.md`.
 
-The exact remaining fixed-scale blocker is a general non-paired
-zero-transverse direction satisfying both complete cofactor tomography-kernel
-conditions. Its `epsilon` and `epsilon^2 log(1/epsilon)` coefficients vanish;
-the ordinary `epsilon^2` coefficient has a finite exterior-minor formula but
-no universal sign. Corrected bounded searches found no positive value. Moving
-frames, varying data, and higher-order paths are also outside the proved
-scope.
+Round 3 closes the former fixed-scale blocker.  The complete tomography kernel
+is the off-block space between coordinate-graph components.  On this space all
+high/low cross terms vanish, and the ordinary coefficient is an exact sum of
+scalar component-pair convexity defects.  Hence
 
-No new certificate/SHA gate was run for Round 2. The v2 label is therefore
-`PROVED_HERE`, not `VERIFIED`. Novelty remains unconfirmed and is not claimed.
+```text
+C_2<=0,
+C_2<0 if (X,Y)!=(0,0).
+```
+
+Two non-author reviews found no critical gap; the formal status remains
+`PROVED_HERE` until those reviews are bound to the fixed candidate commit.
+Moving frames, varying data, other boundary geometries, and arbitrary interior
+chords are outside the proved scope.
+
+No certificate/SHA gate was run for Round 2.  Because Round 3 is a major
+closure, it receives one commit-bound gate.  Novelty remains unconfirmed and
+is not claimed.

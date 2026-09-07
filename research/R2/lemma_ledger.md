@@ -83,5 +83,27 @@
 
 - Statement: after L7, the remaining coefficient splits into active-support,
   one-flip, two-flip, and zero-support cross terms; the last is nonpositive.
-- Status: PROVED_HERE as a decomposition; universal sign INCOMPLETE
+- Status: PROVED_HERE as a decomposition; its universal sign is closed by
+  L11--L12
 - File: `proofs/b_zero_c2_decomposition_v2.md`
+
+## L11: complete tomography-component theorem
+
+- Statement: the full one-hole tomography kernel consists exactly of
+  symmetric blocks between connected components of the nonzero coordinate
+  graph of `P`; the complementary one-particle kernel has the same component
+  description.
+- Status: PROVED_HERE in `proofs/tomography_components_v3.md`; two independent
+  reviews are pending binding to the candidate commit
+- Consequence: the active logarithmic cross term and every zero-support cross
+  term vanish under the complete tomography gate
+
+## L12: general component-pair `C_2` sign
+
+- Statement: for every datum in frozen theorem v2, `C_2` is the sum of scalar
+  component/cofactor-pair Jensen defects `gamma_D`, hence `C_2<=0`; it is
+  strict whenever `(X,Y)!=(0,0)`.
+- Status: PROVED_HERE in `proofs/component_pair_C2_v3.md`; two independent
+  reviews are pending binding to the candidate commit
+- Boundary scope: arbitrary non-paired frames, simultaneous directions,
+  singular inward matrices and endpoints, and zero Pluecker coordinates

@@ -23,3 +23,21 @@
   30 chords, and 1,200 exact event masses in the first bounded diagnostic.
 - Reproducibility limits: no private server address, credentials, or private
   conversation is included in this public tree.
+
+## Round 3 provenance
+
+- Frozen-v2 statement ownership: R2 main instance.
+- Structural component theorem and complete written coefficient proof:
+  multiscale-structure proof instance.  The main instance independently found
+  the same component-pair scalar formula and requested explicit scale,
+  Parseval, and singular-boundary checks before integration.
+- Independent proof-risk review: asymptotic-coefficients instance, which had
+  reached a different weighted quadratic blocker before reading the candidate.
+- Independent domain/computation review: boundary-certificate instance, using
+  corrected signed cofactors and an exact-event check on a non-paired
+  `n=8,r=4` datum.
+- Counterexample-search denominator in Round 3: 892 fully gated signed-formula
+  trials; zero positive values.  This finite non-hit is supporting evidence,
+  not the proof.
+- Formal status at this point: author-complete plus two `CORRECT` reviews;
+  candidate commit and one-time SHA binding still pending.

@@ -68,3 +68,28 @@ This bounded v1 unit is closed. Its verification is not repeated below.
 Round 2 adds no new formal certificate gate. The broad theorems are recorded
 as `PROVED_HERE`; the general invisible-kernel `C_2` sign and the global real
 question remain `INCOMPLETE`.
+
+## Round 3: complete fixed-data boundary coefficient
+
+- Froze the exact remaining decision problem in `frozen_theorem_v2.md` before
+  continuing the proof/counterexample attack.
+- Proved that the complete tomography kernel is exactly the off-block space
+  between connected components of the coordinate graph of `P`.
+- Used the induced product projection law to cancel the nonuniform active
+  cross term and to make the zero-support cross term vanish eventwise.
+- Collected the active drift, both one-flip corrections, and every two-flip
+  term into an exact sum of scalar strictly-convex component-pair defects.
+  Therefore `C_2<=0`, strictly for every nonzero admissible `(X,Y)`.
+- A separate exterior-algebra route reached the weighted quadratic-form
+  blocker but did not sign it before the component theorem removed it.
+- The corrected counterexample route checked 892 signed-formula trials under
+  every earlier gate and found no positive coefficient.  Its closest nonzero
+  value was approximately `-7.36e-11`; exact-event interpolation agreed with
+  the finite formula to about `4e-118`.
+- Two non-author reviews returned `CORRECT`.  One was a proof-only logic/domain
+  audit; the other also reproduced the non-paired `n=8,r=4` coefficient and
+  its component-pair sum.  These reviews will be bound once to the fixed
+  candidate commit because this is a major closure.
+
+The global real-kernel entropy-concavity question remains outside the frozen
+boundary family and is not claimed solved.
