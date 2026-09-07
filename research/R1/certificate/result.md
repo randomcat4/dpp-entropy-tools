@@ -42,7 +42,7 @@ package makes no counterexample claim.
 
 ## Diagonal Midpoint Review
 
-`../verification/diagonal_midpoint_review.md` verifies the auxiliary theorem:
+`../verification/diagonal_midpoint_commit_review.md` verifies the auxiliary theorem:
 if the chord midpoint is a diagonal strict contraction and `t>0,V!=0`, then the
 real-symmetric DPP entropy midpoint gap is strictly negative. The review status
-is `CORRECT`.
+is `CORRECT` for commit `a49051d2f768ec2b926a2e4d68d5286b054f9656`.

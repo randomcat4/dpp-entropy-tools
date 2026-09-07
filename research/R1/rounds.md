@@ -59,7 +59,7 @@ result claims.
 
 ## Round 3: structured diagonal-center family
 
-Status: candidate proofs frozen for commit-bound independent review.
+Status: VERIFIED_FOR_FAMILY.
 
 The diagonal-center Hessian proof gives, for every diagonal strict contraction
 K and every real symmetric direction V,
@@ -73,3 +73,8 @@ nontrivial feasible real-symmetric chord centered at a diagonal strict
 contraction has strictly negative midpoint gap. The first pre-freeze wording
 omitted `t>0`; the `t=0` equality counterexample and the repaired frozen
 statement are both retained.
+
+Both frozen statements and proofs were fixed in commit
+`a49051d2f768ec2b926a2e4d68d5286b054f9656`. Reviewers who did not author the
+respective proofs read the committed blobs via `git show`; both returned
+`STATUS: CORRECT`. The reviews record the commit and Git blob IDs.
