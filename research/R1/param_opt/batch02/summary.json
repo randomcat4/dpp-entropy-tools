@@ -1,0 +1,196 @@
+{
+  "status": "INCOMPLETE",
+  "seed": 202609082,
+  "total": 8242,
+  "failed": 0,
+  "positive": 0,
+  "positive_threshold": 1e-06,
+  "restarts": [
+    {
+      "n": 3,
+      "restart": 0,
+      "evaluations": 112,
+      "best": -9.493253004130921e-15,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH"
+    },
+    {
+      "n": 3,
+      "restart": 1,
+      "evaluations": 133,
+      "best": -6.245093781582534e-15,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH"
+    },
+    {
+      "n": 4,
+      "restart": 0,
+      "evaluations": 528,
+      "best": -1.0523033398766067e-10,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH"
+    },
+    {
+      "n": 4,
+      "restart": 1,
+      "evaluations": 451,
+      "best": -4.701580586315404e-10,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH"
+    },
+    {
+      "n": 5,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -4.283334020409181e-14,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 5,
+      "restart": 1,
+      "evaluations": 600,
+      "best": -2.2538058631846747e-10,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 6,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -6.171755822516675e-08,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 6,
+      "restart": 1,
+      "evaluations": 418,
+      "best": -2.8706055140296415e-14,
+      "termination": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH"
+    },
+    {
+      "n": 7,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -3.1445612894201384e-09,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 7,
+      "restart": 1,
+      "evaluations": 600,
+      "best": -4.214482318892447e-06,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 8,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -2.7073345609686282e-06,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 8,
+      "restart": 1,
+      "evaluations": 600,
+      "best": -0.00022992892206121532,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 9,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -4.869989104141854e-05,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 9,
+      "restart": 1,
+      "evaluations": 600,
+      "best": -0.00012951749554137372,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 10,
+      "restart": 0,
+      "evaluations": 600,
+      "best": -0.00030552856265765105,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    },
+    {
+      "n": 10,
+      "restart": 1,
+      "evaluations": 600,
+      "best": -0.0067240980004305145,
+      "termination": "explicit objective-evaluation or wall-time budget reached"
+    }
+  ],
+  "elapsed_seconds": 61.964332778938115,
+  "exit_code": 0,
+  "best": {
+    "value": -6.245093781582534e-15,
+    "K": [
+      [
+        0.5322049793349529,
+        0.49230699963111013,
+        1.608555675491332e-08
+      ],
+      [
+        0.49230699963111013,
+        0.46765465297517833,
+        1.2279193192445762e-08
+      ],
+      [
+        1.608555675491332e-08,
+        1.227919319244576e-08,
+        0.33660941145756834
+      ]
+    ],
+    "V": [
+      [
+        2.404904580086346e-18,
+        -7.838274167386816e-17,
+        -0.4866116279123265
+      ],
+      [
+        -7.838274167386816e-17,
+        6.787618373717712e-18,
+        0.5130391053131481
+      ],
+      [
+        -0.4866116279123265,
+        0.5130391053131481,
+        2.593725257664613e-17
+      ]
+    ],
+    "raw": [
+      [
+        0.3257532761001349,
+        5.159885787712446,
+        1.4962097996405597e-07
+      ],
+      [
+        5.159885787712446,
+        -0.35080080869974356,
+        1.0211239215519548e-07
+      ],
+      [
+        1.4962097996405597e-07,
+        1.0211239215519548e-07,
+        -0.6799073769762575
+      ]
+    ],
+    "eigenvalues": [
+      0.006565986872786117,
+      0.33660941145756773,
+      0.9932936454373458
+    ],
+    "t": 0.00046428538429289177,
+    "delta": -3.960165528837933e-12,
+    "record": {
+      "n": 3,
+      "restart": 1,
+      "evaluation": 112,
+      "global_evaluation": 224,
+      "margin": 0.001,
+      "max_hessian": -6.245093781582534e-15,
+      "mass_second_residual": 1.7763568394002505e-14,
+      "probability_min": 0.0021953507732588497
+    }
+  },
+  "limitations": "Finite numerical optimization; no certification or continuous exclusion."
+}
