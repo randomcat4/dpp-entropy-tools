@@ -17,7 +17,7 @@ from dataclasses import dataclass
 from decimal import Decimal, localcontext
 from fractions import Fraction
 from itertools import product
-from math import comb
+from math import comb, isqrt
 from typing import Iterable, Sequence
 
 
@@ -370,6 +370,169 @@ def counts_for_mask(mask: int, group_sizes: Sequence[int]) -> tuple[int, ...]:
 
 def probabilities_by_count(reduced: ReducedLKernel) -> dict[tuple[int, ...], Fraction]:
     return {counts: prob for counts, _, prob in reduced_count_masses(reduced)}
+
+
+def validate_block_exchange_input(
+    a_values: Sequence[object],
+    c: Sequence[Sequence[object]],
+    group_sizes: Sequence[int],
+) -> tuple[tuple[Fraction, ...], Matrix, tuple[int, ...]]:
+    """Validate the frozen group-specific block-exchange parameters."""
+
+    sizes = tuple(int(x) for x in group_sizes)
+    avec = tuple(q(x) for x in a_values)
+    cmat = as_matrix(c)
+    groups = len(sizes)
+    if not sizes or any(size <= 0 for size in sizes):
+        raise ValueError("group sizes must be positive")
+    if len(avec) != groups:
+        raise ValueError("one a_g value is required for each group")
+    if len(cmat) != groups or any(len(row) != groups for row in cmat):
+        raise ValueError("C must be square with one row per group")
+    if any(cmat[i][j] != cmat[j][i] for i in range(groups) for j in range(groups)):
+        raise ValueError("C must be symmetric")
+    if any(not (0 < value < 1) for value in avec):
+        raise ValueError("every a_g must lie strictly in (0,1)")
+    return avec, cmat, sizes
+
+
+def build_block_exchange_k(
+    a_values: Sequence[object],
+    c: Sequence[Sequence[object]],
+    group_sizes: Sequence[int],
+) -> Matrix:
+    """Build the frozen K=A+U(C-diag(a))U^T exactly when sqrt(m_g) is rational.
+
+    Integer group sizes have rational square roots exactly when they are perfect
+    squares.  The reduced formula below supports all positive group sizes; this
+    full-space constructor deliberately refuses other sizes rather than silently
+    approximate the normalized indicators in the exact Mobius oracle.
+    """
+
+    avec, cmat, sizes = validate_block_exchange_input(a_values, c, group_sizes)
+    roots = tuple(isqrt(size) for size in sizes)
+    if any(root * root != size for root, size in zip(roots, sizes)):
+        raise ValueError("exact full K construction requires perfect-square group sizes")
+    labels = group_labels(sizes)
+    n = len(labels)
+    kernel = zeros(n, n)
+    for i, gi in enumerate(labels):
+        for j, gj in enumerate(labels):
+            correction = cmat[gi][gj]
+            if gi == gj:
+                correction -= avec[gi]
+            correction /= Fraction(roots[gi] * roots[gj])
+            kernel[i][j] = correction + (avec[gi] if i == j else Fraction(0))
+    return kernel
+
+
+@dataclass(frozen=True)
+class BlockExchangeReducedLKernel:
+    """Exact reduced data for the frozen group-specific block-exchange family."""
+
+    ell: tuple[Fraction, ...]
+    b_matrix: Matrix
+    det_i_minus_k: Fraction
+    group_sizes: tuple[int, ...]
+
+
+def reduced_l_from_block_exchange(
+    a_values: Sequence[object],
+    c: Sequence[Sequence[object]],
+    group_sizes: Sequence[int],
+) -> BlockExchangeReducedLKernel:
+    avec, cmat, sizes = validate_block_exchange_input(a_values, c, group_sizes)
+    groups = len(sizes)
+    i_minus_c = mat_sub(eye(groups), cmat)
+    det_i_minus_c = det_bareiss(i_minus_c)
+    if det_i_minus_c == 0:
+        raise ValueError("I-C must be invertible")
+    ell = tuple(value / (1 - value) for value in avec)
+    rmat = mat_mul(cmat, inverse(i_minus_c))
+    bmat = [row[:] for row in rmat]
+    for g in range(groups):
+        bmat[g][g] -= ell[g]
+    det_i_minus_k = det_i_minus_c
+    for size, value in zip(sizes, avec):
+        det_i_minus_k *= (1 - value) ** (size - 1)
+    return BlockExchangeReducedLKernel(
+        ell=ell,
+        b_matrix=bmat,
+        det_i_minus_k=det_i_minus_k,
+        group_sizes=sizes,
+    )
+
+
+def det_l_for_block_counts(
+    reduced: BlockExchangeReducedLKernel, counts: Sequence[int]
+) -> Fraction:
+    if len(counts) != len(reduced.group_sizes):
+        raise ValueError("count vector has wrong length")
+    if any(count < 0 or count > size for count, size in zip(counts, reduced.group_sizes)):
+        raise ValueError("count outside group size")
+    diag_counts = [
+        Fraction(count, size) / ell
+        for count, size, ell in zip(counts, reduced.group_sizes, reduced.ell)
+    ]
+    small = eye(len(reduced.group_sizes))
+    for i in range(len(small)):
+        for j in range(len(small)):
+            small[i][j] += reduced.b_matrix[i][j] * diag_counts[j]
+    leading = Fraction(1)
+    for ell, count in zip(reduced.ell, counts):
+        leading *= ell**count
+    return leading * det_bareiss(small)
+
+
+def block_event_probability_for_counts(
+    reduced: BlockExchangeReducedLKernel, counts: Sequence[int]
+) -> Fraction:
+    return reduced.det_i_minus_k * det_l_for_block_counts(reduced, counts)
+
+
+def reduced_block_count_masses(
+    reduced: BlockExchangeReducedLKernel,
+) -> list[tuple[tuple[int, ...], int, Fraction]]:
+    return [
+        (
+            counts,
+            count_multiplicity(reduced.group_sizes, counts),
+            block_event_probability_for_counts(reduced, counts),
+        )
+        for counts in iter_count_vectors(reduced.group_sizes)
+    ]
+
+
+def compare_mobius_to_block_exchange_reduced(
+    a_values: Sequence[object],
+    c: Sequence[Sequence[object]],
+    group_sizes: Sequence[int],
+) -> dict[str, object]:
+    """Exact small-n comparison for the group-specific frozen family."""
+
+    kernel = build_block_exchange_k(a_values, c, group_sizes)
+    mobius = event_probabilities_mobius(kernel)
+    l_atoms = event_probabilities_l_ensemble(kernel)
+    reduced = reduced_l_from_block_exchange(a_values, c, group_sizes)
+    masses = reduced_block_count_masses(reduced)
+    by_count = {counts: prob for counts, _, prob in masses}
+    mismatches = []
+    for mask, atom in enumerate(mobius):
+        counts = counts_for_mask(mask, group_sizes)
+        if atom != by_count[counts] or atom != l_atoms[mask]:
+            mismatches.append((mask, counts, atom, l_atoms[mask], by_count[counts]))
+    return {
+        "n": len(kernel),
+        "events": len(mobius),
+        "count_states": len(masses),
+        "orbit_size_sum": sum(mult for _, mult, _ in masses),
+        "mismatch_count": len(mismatches),
+        "mismatches": mismatches[:5],
+        "mobius_sum": str(sum(mobius)),
+        "l_ensemble_sum": str(sum(l_atoms)),
+        "reduced_sum": str(probability_sum_from_count_masses(masses)),
+        "minimum_atom": str(min(mobius)),
+    }
 
 
 def decimal_from_fraction(x: Fraction, precision: int) -> Decimal:

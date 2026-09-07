@@ -117,6 +117,33 @@ class GroupedReductionTests(unittest.TestCase):
         self.assertEqual(len(masses), 256)
         self.assertEqual(ri.probability_sum_from_count_masses(masses), F(1))
 
+    def assert_block_exchange_exact_match(self, a_values, c, sizes):
+        c_matrix = ri.as_matrix(c)
+        c_ok, _ = ri.positive_definite_sylvester(c_matrix)
+        ic_ok, _ = ri.positive_definite_sylvester(ri.mat_sub(ri.eye(len(c_matrix)), c_matrix))
+        self.assertTrue(c_ok and ic_ok)
+        result = ri.compare_mobius_to_block_exchange_reduced(a_values, c, sizes)
+        self.assertEqual(result["mismatch_count"], 0)
+        self.assertEqual(result["mobius_sum"], "1")
+        self.assertEqual(result["l_ensemble_sum"], "1")
+        self.assertEqual(result["reduced_sum"], "1")
+        self.assertEqual(result["orbit_size_sum"], 2 ** sum(sizes))
+        self.assertGreater(F(result["minimum_atom"]), F(0))
+
+    def test_group_specific_a_exact_n8(self):
+        self.assert_block_exchange_exact_match(
+            (F(1, 5), F(3, 4)),
+            ((F(2, 5), F(1, 20)), (F(1, 20), F(3, 5))),
+            (4, 4),
+        )
+
+    def test_group_specific_a_near_boundary_exact_n8(self):
+        self.assert_block_exchange_exact_match(
+            (F(1, 100), F(99, 100)),
+            ((F(1, 50), F(1, 1000)), (F(1, 1000), F(49, 50))),
+            (4, 4),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

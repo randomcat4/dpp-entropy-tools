@@ -24,6 +24,9 @@ Covered cases:
 * Jensen-gap interval sign convention.
 * Reduced-only `n=12` probability normalization: 256 count states represent
   4096 events and sum exactly to one.
+* Two exact nonconstant-`a_g` frozen-family cases at `n=8`, including a
+  near-boundary case. Direct Möbius, full L-ensemble, and reduced atoms agree
+  exactly; orbit sizes sum to all 256 subsets.
 
 The probability comparisons are exact rational equalities.  Entropy comparisons
 use high-precision Decimal logs and a final-place tolerance, because identical

@@ -13,13 +13,15 @@ checkout with Python 3.12.3. It uses no NumPy, BLAS, OpenMP, or GPU code.
 python -m unittest discover -s research/R3/reduction/tests -v
 ```
 
-The integrated complete suite has six tests:
+The revised integrated suite has eight tests:
 
 - `n=6`: 64 exact events versus 24 count states;
 - near-boundary `n=8`: 256 exact events versus 81 count states;
 - block-exchange `n=8`: 256 exact events versus 48 count states;
 - compatible real chord gap against direct Möbius entropy;
 - Jensen-gap interval sign convention.
+- two nonconstant-`a_g` exact frozen-family checks at `n=8`, one near the
+  spectral boundary, with direct Möbius, full L-ensemble, and reduced atoms.
 
 All three exact-event implementations agree as rational numbers:
 
@@ -33,6 +35,10 @@ a gap certificate.
 
 Integrated remote reproduction: 6 tests passed in 0.352 seconds, exit code 0,
 with all numerical thread caps set to one.
+
+After the v1 verifier found the group-specific coverage mismatch, the revised
+exact suite ran 8 tests in 0.429 seconds and, after adding a strict-positive
+minimum-atom assertion, again ran 8 tests in 0.436 seconds. Both runs exited 0.
 
 ## Failure ledger
 
