@@ -1,0 +1,39 @@
+{
+  "mode": "smoke",
+  "pid": 144831,
+  "seed": null,
+  "deterministic": true,
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "command": "moving_frame_check.py --mode smoke --output smoke.json",
+  "source_sha256": "38b82d9df1b8efb6b9b7d33018d21169ef0591c508c5dcddea765c6d99046b8a",
+  "threads_requested": 1,
+  "gpu": false,
+  "started_unix": 1788847832.3623416,
+  "results": {
+    "toy_full_law_fixture": "PASS",
+    "family_smoke": {
+      "t": "1/8",
+      "x": "1/2",
+      "n": 4,
+      "events_per_kernel": 16,
+      "kernels_checked": 3,
+      "all_principal_minors_K_and_I_minus_K_positive": true,
+      "actual_arithmetic_midpoint": true,
+      "mobius_equals_mixed_row_determinant": true,
+      "minimum_event_mass": {
+        "-1": "147/16384",
+        "0": "49/4096",
+        "1": "147/16384"
+      },
+      "delta": {
+        "lower": "-0.00439459213437925803639646610948794639430967976057",
+        "upper": "-0.00439459213437925803639646610948794639430967976056",
+        "sign": "NEGATIVE"
+      }
+    }
+  },
+  "completed_chords": 1,
+  "elapsed_seconds": 0.13466930389404297,
+  "exit_code": 0
+}
