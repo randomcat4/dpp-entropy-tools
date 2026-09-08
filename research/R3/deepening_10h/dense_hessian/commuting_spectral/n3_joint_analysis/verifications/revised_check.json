@@ -1,0 +1,125 @@
+{
+  "hashes": {
+    "joint_copositive_probe.py": "6d275dc10ffa5466f7ead81277fd622c64378f5e020eeb3dd8345aec3a085b9a",
+    "joint_probe_results_v3.json": "ed00949868a6fa7958ba917bbbd87eaa0b19fd78b043df37f924eddf003a1fd9",
+    "copositive_and_sphere_reduction.md": "c907f1a92fd3c288143afc35ede35ee16cd476c2462b13fe106f56bea509569c",
+    "joint_reduction.md": "5e4c5ba2a984ae5b34ebc260468d8206a97328b0065e5fc9418d9f7a9da14574",
+    "review_response.md": "4cc40a9bf3a09ecf373de384c4eec76a22a3d963b109b53ae74133da209188ae",
+    "verdict.md": "0cd8a8af8f0c7f49527ca60ed80d0e9de68de05b1259f18e7e228d7bf976655a",
+    "search_report.md": "b6912ab3174c8522b058544621f2e7883c82398f709b71756121abefefc06315",
+    "hazards.md": "ba50d9a766880285c7ee37367010a804946f3fcf5b6a6f573fc36263e765d240"
+  },
+  "regressions": {
+    "singular_zero": {
+      "matrix": [
+        [
+          -2.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          -2.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          -2.0
+        ]
+      ],
+      "simplex_value": -1.8503717077085963e-17,
+      "simplex_v": [
+        0.33333333333333326,
+        0.3333333333333333,
+        0.33333333333333337
+      ],
+      "true_simplex_max": "0",
+      "sphere_value": -6.409875621278563e-17,
+      "sphere_v": [
+        0.577350269189626,
+        0.5773502691896256,
+        0.5773502691896258
+      ],
+      "support_candidates": 7,
+      "raw_kkt_solution": [
+        0.3333333333333332,
+        0.33333333333333326,
+        0.3333333333333333,
+        2.2952829826703268e-17
+      ],
+      "raw_sum_v": 0.9999999999999998,
+      "residual": 3.3306690738754696e-16,
+      "residual_scale": 9.0,
+      "accepted": true,
+      "simplex_error": 1.8503717077085963e-17,
+      "passed": true
+    },
+    "scaled_positive": {
+      "matrix": [
+        [
+          -1000000000000000.0,
+          600000000000000.0,
+          600000000000000.0
+        ],
+        [
+          600000000000000.0,
+          -1000000000000000.0,
+          600000000000000.0
+        ],
+        [
+          600000000000000.0,
+          600000000000000.0,
+          -1000000000000000.0
+        ]
+      ],
+      "simplex_value": 66666666666666.68,
+      "simplex_v": [
+        0.33333333333333337,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "true_simplex_max": "200000000000000/3",
+      "sphere_value": 200000000000000.0,
+      "sphere_v": [
+        0.5773502691896257,
+        0.5773502691896258,
+        0.5773502691896257
+      ],
+      "support_candidates": 7,
+      "raw_kkt_solution": [
+        6.2499999999999914e-30,
+        6.249999999999991e-30,
+        6.249999999999991e-30,
+        -4.687500000179079e-44
+      ],
+      "raw_sum_v": 1.8749999999999972e-29,
+      "residual": 1.0,
+      "residual_scale": 4400000000000001.0,
+      "accepted": true,
+      "simplex_error": 0.015625,
+      "passed": true
+    }
+  },
+  "regression_exit_code": 0,
+  "replay": {
+    "base_points": 60384,
+    "structured": 384,
+    "random": 60000,
+    "support_candidates": 416691,
+    "positive_total": 0,
+    "sphere_positive": 0,
+    "copositive_mismatches": 0,
+    "best_value_errors": {
+      "best_total_simplex": 0.0,
+      "best_psi_simplex": 0.0,
+      "best_singleton_layer_simplex": 0.0,
+      "best_pair_layer_simplex": 0.0
+    },
+    "elapsed_seconds": 212.58935379981995,
+    "exit_code": 0
+  },
+  "output_sha256": "ef43bf16c93d978a5f6b23f07cf08d8dc1b30a87692223dc26f931dee34fb594",
+  "script_sha256": "31fd804dab06ea78f9113c32749d1a86e394b0fc9afa7d3de5ab6b92d7f4d334",
+  "exit_code": 0
+}
