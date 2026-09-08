@@ -472,6 +472,49 @@
 - 核验：非作者从 exact atoms 重建 multiplicity、两次对称、Schur 公式
   和一元严格界，判定 centered theorem 与量词均无缺口
 
+### D10-U10e：一般交换对称路径与双边界尺度
+
+- 状态：`INCOMPLETE`（全域 `sigma>0`）/ `SCOUT`（高精度网格与双尺度
+  profile；fresh non-author audit 进行中）
+- 约化：一般
+  `K(x,a)=[[x,a,0],[a,x,a],[0,a,x]]` 的 reflection-odd 块全域严格；
+  even 四维块精确缩为单个 Schur 标量 `sigma(x,a)>0`，并以
+  `c=2a^2/x^2` 把半域写成矩形 `0<x<=1/2, 0<c<1`
+- 边界：`c->0` 时 `sigma->1/[x(1-x)]>=4`；唯一 full atom 在
+  `c=1-s` 时为 `x^3s`，Fisher 出现显式正 rank-one pole，危险方向必须
+  渐近切于该 atom 的零导超平面
+- 双尺度：幂律 `s=x^p` 给 `x sigma->1`，真正有限尺度是
+  `s=exp(-beta/x)`；冻结 profile 在 `beta≈0.58` 附近仍为正，但尚未把
+  极限函数及一致余项闭成定理
+
+### D10-U10f：交换三角形族的 S3 约化
+
+- 状态：`CORRECT`（exact atoms、S3 分块、去心对角紧致邻域）/
+  `INCOMPLETE`（整个二参数三角形域）/ `SCOUT`（177360 点）
+- 结果：对 `K=xI+a(J-I)`，完整六维空间分成二维 invariant 块与四维
+  standard 块；standard 块对每个 strict `a!=0` 自动严格正，故全问题
+  等价于一个显式二维负熵 Hessian 行列式 `Delta_T(alpha,beta)>0`
+- 局部定理：任意 `x∈[r,1-r]` 上都存在统一 `epsilon_r>0`，使全部
+  `0<|a|<epsilon_r` 的完整 Hessian 严格负定；这是一整条去心族及其
+  环境开邻域，不是单个点
+- 噪声归因：最差 binary64 小本征值 `-4.55e-13` 经 150 位重算为
+  `+6.98e-13`；12/12 个冻结 warning 编码又由有理 log 区间严格证正，
+  定位为大尺度消去误差而非仅凭阈值丢弃
+
+### D10-U10g：连通 Lambda-zero 子流形
+
+- 状态：`INCOMPLETE`（全域）/ `PROOF_CANDIDATE`（结构恒等式与显式球，
+  fresh non-author audit 进行中）/ `SCOUT`（15 个有理点）
+- 参数化候选：经 sign gauge，连通 `Lambda=0` 等价于正加权 Cauchy
+  `L_ij=w_iw_j/(z_i+z_j)`，`z_i` 两两不同；对角 external-field tilting
+  保持该子流形，因而它具有真正三参数连续结构
+- 精确门：外场 score 给 `F^{-1}eta=D_f`，保留三条条件 score 后完整
+  Hessian 等价于一个显式 `3x3` Schur 矩阵 `T>0`；丢弃该修正的
+  Fisher-only 充分条件在中心路径边界发散，因此不是可行全域捷径
+- 显式候选：围绕 `K(1/2,3/10)` 的 Frobenius 半径
+  `49/214688160≈2.28238e-7` 球内，作者证明候选给所有
+  `D∈Sym(3)` 的 `B(D,D)>=||D||_F^2/6`；结论等待异人逐项核验
+
 ## D10-S：半正定方向
 
 - 状态：`CORRECT`（twin-pair 子类）/ `OPEN`（一般 PSD/NSD）
