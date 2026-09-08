@@ -1,0 +1,21 @@
+{
+  "status": "INCOMPLETE",
+  "proposals": 78,
+  "accepted_directions": 77,
+  "filtered_proposals": 1,
+  "failures": 0,
+  "chords": 231,
+  "float_candidates": 0,
+  "positive_MI_bumps": 0,
+  "max_gap": -2.5117174833333422e-05,
+  "max_MI_bump": -2.4676536188456e-06,
+  "max_bump_deficit_ratio": -0.023549012420439584,
+  "min_exact_margin": 0.004107,
+  "min_cross_norm": 0.11033438455787802,
+  "min_second_cross_singular_lower_bound": 0.03876677394588854,
+  "min_direction_rank": 2,
+  "max_mobius_error": 4.2457357074532354e-16,
+  "max_information_identity_residual": 2.6840508982051148e-15,
+  "max_geometry_identity_residual": 2.8035299776130174e-15,
+  "max_quadratic_event_error": 5.551115123125783e-17
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PROOF_CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "radius": "1/32",
+  "uniform_gap_bound": "Delta(t) <= -t^2/2",
+  "equality_cases": "t=0 only",
+  "uniform_spectral_margin": "17/320",
+  "exact_center_cross_norm_squared": "81/1210",
+  "uniform_cross_Frobenius_lower_bound": "13/64",
+  "uniform_diagonal_separation_lower_bound": "893/41760",
+  "simplified_diagonal_separation_lower_bound": "1/50",
+  "L2_lower_simplified": "11/20",
+  "uniform_H4_upper_simplified": "941",
+  "remainder_quadratic_cost_upper": "1/20",
+  "KL_t4_coefficient_interval": [
+    "91686192933071005611311/1000000000000000000000000",
+    "91686192933071005613359/1000000000000000000000000"
+  ],
+  "KL_t4_coefficient_decimal": [
+    "0.091686192933071005611311",
+    "0.091686192933071005613359"
+  ],
+  "checks": [
+    {
+      "step": "1/64",
+      "decimal_gap_sanity_only": "-0.000135700019581774617836839682969184994643445173869174636791017116732",
+      "rigorous_upper_bound": "-0.0001220703125"
+    },
+    {
+      "step": "1/32",
+      "decimal_gap_sanity_only": "-0.000542912343136635113935012620995201364584177394533947991609712838402",
+      "rigorous_upper_bound": "-0.00048828125"
+    }
+  ],
+  "exit_code": 0
+}

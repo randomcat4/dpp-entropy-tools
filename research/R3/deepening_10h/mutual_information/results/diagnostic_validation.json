@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "n": 6,
+      "gamma": "1",
+      "exact_rational_direction_rank": 6,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9275725944588166,
+      "direction_norm_A": 0.9999646283557774,
+      "direction_norm_B": 0.006555043192425737,
+      "direction_norm_X": 0.0037265060084371257,
+      "endpoint_mobius_errors": [
+        1.457167719820518e-16,
+        1.700029006457271e-16
+      ]
+    },
+    {
+      "n": 6,
+      "gamma": "2",
+      "exact_rational_direction_rank": 6,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9565725743336682,
+      "direction_norm_A": 0.3761551552489098,
+      "direction_norm_B": 0.8946359540394482,
+      "direction_norm_X": 0.17049018952802011,
+      "endpoint_mobius_errors": [
+        7.28583859910259e-17,
+        6.938893903907228e-17
+      ]
+    },
+    {
+      "n": 6,
+      "gamma": "5/2",
+      "exact_rational_direction_rank": 6,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9412583447388004,
+      "direction_norm_A": 0.2623487464245971,
+      "direction_norm_B": 0.912856325208008,
+      "direction_norm_X": 0.2212085712768212,
+      "endpoint_mobius_errors": [
+        6.852157730108388e-17,
+        2.47198095326695e-16
+      ]
+    },
+    {
+      "n": 8,
+      "gamma": "1",
+      "exact_rational_direction_rank": 8,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9659529005876009,
+      "direction_norm_A": 0.9962144691639434,
+      "direction_norm_B": 0.08382978508794947,
+      "direction_norm_X": 0.016268056268007067,
+      "endpoint_mobius_errors": [
+        1.5742615544489524e-16,
+        3.2612801348363973e-16
+      ]
+    },
+    {
+      "n": 8,
+      "gamma": "2",
+      "exact_rational_direction_rank": 8,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9519481208214131,
+      "direction_norm_A": 0.9831300643269401,
+      "direction_norm_B": 0.17582277702578772,
+      "direction_norm_X": 0.035648468504538955,
+      "endpoint_mobius_errors": [
+        1.6154612370034016e-16,
+        1.708702623837155e-16
+      ]
+    },
+    {
+      "n": 8,
+      "gamma": "5/2",
+      "exact_rational_direction_rank": 8,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.99999380194533,
+      "direction_norm_A": 0.702229222511055,
+      "direction_norm_B": 0.6656917212157155,
+      "direction_norm_X": 0.17850581431274495,
+      "endpoint_mobius_errors": [
+        2.0296264668928643e-16,
+        1.2923689896027213e-16
+      ]
+    },
+    {
+      "n": 11,
+      "gamma": "1",
+      "exact_rational_direction_rank": 11,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9557974086577617,
+      "direction_norm_A": 0.0037411918375456236,
+      "direction_norm_B": 0.9999929591563855,
+      "direction_norm_X": 0.00020741204176951734,
+      "endpoint_mobius_errors": []
+    },
+    {
+      "n": 11,
+      "gamma": "2",
+      "exact_rational_direction_rank": 11,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9553953306024214,
+      "direction_norm_A": 0.06351716978705672,
+      "direction_norm_B": 0.9977591410968654,
+      "direction_norm_X": 0.014870526829903,
+      "endpoint_mobius_errors": []
+    },
+    {
+      "n": 11,
+      "gamma": "5/2",
+      "exact_rational_direction_rank": 11,
+      "exact_thinning_proportionality": false,
+      "relative_distance_from_radial_direction": 0.9604310271088653,
+      "direction_norm_A": 0.07452500895805349,
+      "direction_norm_B": 0.9968064975661203,
+      "direction_norm_X": 0.020283351080659283,
+      "endpoint_mobius_errors": []
+    }
+  ],
+  "endpoint_mobius_checks": 12,
+  "max_endpoint_mobius_error": 3.2612801348363973e-16,
+  "exit_code": 0
+}
