@@ -75,6 +75,21 @@
 - 精确结构边界：原 scout 是数值 fixed-Q；有理化 K,D 的交换子约
   `1.87e-16` 而非精确零，故 exact 证书只能称 near-commuting PSD 线
 
+### D10-H5：谱与谱基联合局部细化
+
+- 状态：`CORRECT`（冻结点计算/可行性/账目）/ `SCOUT`（20000 提议）/
+  `INCOMPLETE`（连续中心空间）
+- 结果：从 D10-H3 冻结点出发，在中心之间同时扰动谱与固定谱基；四片
+  各 5000 个新提议，正曲率与正弦差均为 0，最好
+  `rho=0.5685905197<1`
+- 核验：独立 90 位 exact-event 复算给 `H''=-34.3715675595...`，三条
+  实际弦均负；Fraction LDL 证明有理化 D 正定并在
+  `|t|<=1/200` 保留 `1/2000` 可行裕量；全部 CSV、manifest、NPZ 与
+  日志逐项对账
+- 记账边界：产生版本漏写已知为负的 source 行，但 20000 个新 proposal
+  均完整在账，故不改变本批零命中；当前脚本已改为冻结 source 与每个
+  candidate。精确有理化仍只认证 near-commuting PSD 线
+
 ### D10-M3：固定谱基的投影 DPP 通道约化
 
 - 状态：`CORRECT`（表示/分解/所列子类）/ `INCOMPLETE`（generic Q）
