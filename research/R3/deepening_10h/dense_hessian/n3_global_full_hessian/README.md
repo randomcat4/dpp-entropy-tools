@@ -1,0 +1,102 @@
+# n=3 full-Hessian program: U8 and U10a–k
+
+**Global status: INCOMPLETE.** This directory studies Shannon entropy of all
+eight exact events of a real symmetric strict DPP kernel, `0<K<I`.
+Probabilities are obtained by Möbius inversion of inclusion minors; they are
+not `det(K_S)`. Hessian directions range over all `Sym(3)`, not just PSD,
+commuting, or family-tangent directions. See the [frozen problem](frozen_problem.md).
+
+## Reviewed structure and the remaining threshold
+
+For connected support, U8 gives `N>0` and an exact representation
+
+```text
+B = -Hess H = A - δ ηηᵀ,
+A = Fisher + δ G_N > 0,   δ = det N,
+ρ(K) = δ ηᵀ A⁻¹η.
+```
+
+Thus `ρ<1` is equivalent to `B>0`; `ρ=1` gives one null direction;
+`ρ>1` gives one positive entropy-curvature direction. On the five-dimensional
+hyperplane `tr(N⁻¹D)=0`, entropy curvature is strictly negative. There is at
+most one remaining nonnegative Hessian eigenvalue. These are reviewed
+structural results, **not a proof that `ρ≤1` globally**.
+[Derivation](derivation.md) · [main audit](verifications/main/fresh_main_audit.md)
+
+The reviewed dense rank-one boundary subclass and its complement have
+eventual full-Hessian negativity, with `ρ→1` from below. Consequently no
+uniform bound `ρ≤c<1` can hold over the whole connected strict domain.
+[Boundary proof](boundary_asymptotic.md) · [boundary audit](verifications/boundary/fresh_boundary_audit.md)
+
+## Route navigation
+
+| Route | Reviewed outcome and status | Read first |
+|---|---|---|
+| **U8** | **CORRECT, scoped:** rank-one-defect reduction, five-dimensional strict subspace, and stated boundary subclass. General n=3: **INCOMPLETE**. | [Verdict](verdict.md), [remaining inequality](proof_or_blocker.md) |
+| **U10a — direct scalar** | **CORRECT, scoped:** score-projection identities, sufficient tests, and exact proxy blockers. The three retained conditional-score corrections recover the full scalar exactly. | [Derivation](scalar_direct/derivation.md), [non-author audit](scalar_direct/audit_nonauthor/verdict.md) |
+| **U10b — information** | **CORRECT_SCOPED:** ridge/Bessel equivalence and a Fisher-only shortcut blocker; no global energy bound constructed. | [Reformulation](scalar_information/proof_or_blocker.md), [non-author audit](scalar_information/audit_nonauthor/verdict.md) |
+| **U10c — falsification** | **SCOUT after fresh repair recheck:** corrected p0 jet; 445 reconstructed attempts, 444 strict valid points, one exact rejection, zero credible `ρ>1`. | [Fresh recheck](scalar_falsification/fresh_repair_audit/verdict.md), [results](scalar_falsification/fresh_repair_audit/results.json) |
+| **U10d — symmetric paths** | **CORRECT for the centered full-Hessian theorem:** `K(1/2,a)` for every `0<8a²<1`. General `K(x,a)`: **INCOMPLETE**. | [Proof](symmetric_path_subfamily/derivation.md), [non-author audit](symmetric_path_subfamily/audit_nonauthor/verdict.md) |
+| **U10e — general symmetric path** | Fresh audit passes the reflection split, scalar `σ(x,a)` reduction, full-atom pole and stable Schur identities. Boundary profiles remain **SCOUT** and global `σ>0` is **INCOMPLETE**. | [General reduction](symmetric_path_global/derivation.md), [fresh audit](symmetric_path_global/audit_nonauthor/verdict.md) |
+| **U10f — exchangeable triangle** | **CORRECT, scoped at freeze:** exact `S3` split, automatic strictness on the four-dimensional standard block, and a punctured-diagonal compact-neighborhood theorem. Its then-open determinant is closed later by U10k. | [Reduction](exchangeable_triangle_subfamily/proof_or_blocker.md), [fresh audit](exchangeable_triangle_subfamily/fresh_audit.md) |
+| **U10g — connected `Λ=0`** | **CORRECT_SCOPED:** a minimal fresh replay passes the structural identities and the explicit full-Hessian ball/external-field box. The whole submanifold is **INCOMPLETE**. | [Derivation](lambda_zero_subfamily/derivation.md), [fresh audit](lambda_zero_subfamily/verifications/fresh_audit.md) |
+| **U10h — exchangeable edges** | Fresh audit passes the rank-one Fisher identity and four compact-transverse spectral-boundary strips with full `Sym(3)` strictness. Corners and the separated middle were open at freeze and are closed later by U10k. | [Boundary proof](exchangeable_triangle_global_attempt/proof_or_blocker.md), [fresh audit](exchangeable_triangle_global_attempt/audit_nonauthor/verdict.md) |
+| **U10i — exponential path corner** | **SCOPED_CORRECT:** closed limit `φ(β)>0` and compact-`β` exponential wedges. Noncompact `β(x)` regimes/full path remain **INCOMPLETE**. | [Limit proof](symmetric_path_global/boundary_exponential_limit/proof_candidate.md), [fresh audit](symmetric_path_global/boundary_exponential_limit/audit_nonauthor/verdict.md) |
+| **U10j — noncompact exponential scales** | `x^θ≤β≤x^-θ`, `θ<1/12`, is a quantified **PROOF_CANDIDATE**; a minimal audit found no quantifier loop but did not certify all constants. Algebraic `s=x^p` and faster drifts remain open. | [Candidate](symmetric_path_global/boundary_noncompact_scales/proof_candidate.md), [minimal audit](symmetric_path_global/boundary_noncompact_scales/audit_nonauthor/verdict.md) |
+| **U10k — exchangeable global closure** | **CORRECT:** an odds-ratio substitution turns `Delta_T` into a positive-denominator quartic whose five coefficients are strictly positive off `alpha=beta`. Thus every connected strict exchangeable triangle has a negative-definite full `Sym(3)` entropy Hessian. | [Proof](exchangeable_triangle_global_closed/proof.md), [two independent reconstructions](exchangeable_triangle_global_closed/verifications/fresh_audit.md) |
+
+The linked non-author reports determine reviewed scope; older author notes
+may retain their pre-review “pending” labels. Same-author self-review is not
+used as independent certification.
+
+## What the information reformulation does—and does not—prove
+
+With `M_S=∇_F p_S`, the reviewed ridge identity is
+
+```text
+ρ(K) = min_g { ||I - N½(Σ_S g_S M_S)N½||²_F
+              + det(N) Σ_S p_S g_S² }.
+```
+
+This is equivalent to the original scalar problem; writing the minimum does
+not bound it by one. Universal Fisher-only/trace-capacity shortcuts have
+been ruled out. Even the complement-adaptive five-category proxy fails at
+an explicit strict rational path: its proxy has `B_T(D)<0`, while the actual
+`B(D)>28.680`. **These are failures of proof shortcuts, not entropy
+nonconcavity counterexamples.** The six-category test's 29/29 finite passes
+remain **SCOUT**. [Exact blocker and retained score contrasts](scalar_direct/derivation.md)
+
+U10c's repaired best values are approximately `0.9950999446` and, for unequal
+soft rates, `0.9932525031`; a float apparent threshold near one reconstructs
+as approximately `0.5`. Its `38436 / 22023` float totals are compact-accounting
+checks, not full seed regeneration. The fresh report records the corrected
+near-threshold count **69**, and distinguishes 15 top-float attempts from
+14 valid points. [Coverage and metadata caveats](scalar_falsification/fresh_repair_audit/verdict.md)
+
+U10k closes the exchangeable-triangle endpoint left by U10f/U10h.  The
+disconnected diagonal is an exact second-order ridge rather than a float
+artifact: its family-tangent null direction has a strictly negative quartic
+term, while `Delta_T` opens quadratically and positively on both punctured
+sides.  This is a full `Sym(3)` theorem for that subfamily, not a proof of the
+general connected `n=3` gate. [Global exchangeable proof](exchangeable_triangle_global_closed/proof.md)
+
+## Exact open endpoints
+
+- **General connected n=3:** prove `ρ(K)≤1` (strict `<1` for definiteness).
+  U10a equivalently writes `ρ=R_T−c₁−c₂−c₃`; when `R_T>1`, the missing
+  inequality is `c₁+c₂+c₃≥R_T−1`. This is an **equivalent blocker**, not a
+  solved weaker lemma. [Equation (27)](scalar_direct/derivation.md)
+- **General symmetric path:** for
+  `K(x,a)=[[x,a,0],[a,x,a],[0,a,x]]`, strict feasibility is
+  `0<√2|a|<min(x,1−x)`. The reflection-odd block is strict; the remaining
+  exact condition is the even-block Schur scalar `σ(x,a)>0`. The centered
+  line and the stated compact-neighborhood thickening are reviewed, but the
+  full two-parameter domain is not. [Equation (10) and scope](symmetric_path_subfamily/derivation.md)
+- **Connected `Lambda=0`:** after sign gauge, the candidate Cauchy
+  parameterization is `L_ij=w_iw_j/(z_i+z_j)`.  The full-Hessian question is
+  reduced to a retained `3×3` Schur gate.  A minimal fresh replay validates the
+  explicit small ball around the centered path blocker and its three-parameter
+  external-field box; no global sign over this submanifold is claimed.
+
+For replay files and older U8 data, see [artifact navigation](ARTIFACTS.md).
+Finite non-hits anywhere in this directory are not global concavity proofs.

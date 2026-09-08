@@ -1,0 +1,1495 @@
+{
+  "status": "AUTHOR_EXPLORATION",
+  "p4_exact_scaled_offdiag": {
+    "theta": [
+      "1/5",
+      "1/3",
+      "3/5",
+      "3/4"
+    ],
+    "support_weights": {
+      "(0, 1)": "1/3",
+      "(1, 2)": "-2/5",
+      "(2, 3)": "3/7"
+    },
+    "edge_order": [
+      "(0, 1)",
+      "(0, 2)",
+      "(0, 3)",
+      "(1, 2)",
+      "(1, 3)",
+      "(2, 3)"
+    ],
+    "graph_distance_by_edge": {
+      "(0, 1)": 1,
+      "(0, 2)": 2,
+      "(0, 3)": 3,
+      "(1, 2)": 1,
+      "(1, 3)": 2,
+      "(2, 3)": 1
+    },
+    "scaled_constant_matrix": [
+      [
+        "-75/4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-25/2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-600/49",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-18",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-864/49",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1200/49"
+      ]
+    ],
+    "expected_diagonal_constants": {
+      "(0, 1)": "-75/4",
+      "(1, 2)": "-18",
+      "(2, 3)": "-1200/49",
+      "(0, 2)": "-25/2",
+      "(1, 3)": "-864/49",
+      "(0, 3)": "-600/49"
+    },
+    "leading_entries": {
+      "(0, 1)-(0, 1)": {
+        "series": {
+          "2": "-75/4",
+          "4": "-625/64",
+          "6": "-87979/2304"
+        },
+        "distance_sum": 2,
+        "leading": [
+          2,
+          "-75/4"
+        ]
+      },
+      "(0, 1)-(0, 2)": {
+        "series": {
+          "5": "-15/2"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "-15/2"
+        ]
+      },
+      "(0, 1)-(0, 3)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(0, 1)-(1, 2)": {
+        "series": {
+          "6": "15"
+        },
+        "distance_sum": 2,
+        "leading": [
+          6,
+          "15"
+        ]
+      },
+      "(0, 1)-(1, 3)": {
+        "series": {},
+        "distance_sum": 3,
+        "leading": null
+      },
+      "(0, 1)-(2, 3)": {
+        "series": {},
+        "distance_sum": 2,
+        "leading": null
+      },
+      "(0, 2)-(0, 1)": {
+        "series": {
+          "5": "-15/2"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "-15/2"
+        ]
+      },
+      "(0, 2)-(0, 2)": {
+        "series": {
+          "4": "-25/2",
+          "6": "-85/16"
+        },
+        "distance_sum": 4,
+        "leading": [
+          4,
+          "-25/2"
+        ]
+      },
+      "(0, 2)-(0, 3)": {
+        "series": {},
+        "distance_sum": 5,
+        "leading": null
+      },
+      "(0, 2)-(1, 2)": {
+        "series": {
+          "5": "25/4"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "25/4"
+        ]
+      },
+      "(0, 2)-(1, 3)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(0, 2)-(2, 3)": {
+        "series": {},
+        "distance_sum": 3,
+        "leading": null
+      },
+      "(0, 3)-(0, 1)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(0, 3)-(0, 2)": {
+        "series": {},
+        "distance_sum": 5,
+        "leading": null
+      },
+      "(0, 3)-(0, 3)": {
+        "series": {
+          "6": "-600/49"
+        },
+        "distance_sum": 6,
+        "leading": [
+          6,
+          "-600/49"
+        ]
+      },
+      "(0, 3)-(1, 2)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(0, 3)-(1, 3)": {
+        "series": {},
+        "distance_sum": 5,
+        "leading": null
+      },
+      "(0, 3)-(2, 3)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(1, 2)-(0, 1)": {
+        "series": {
+          "6": "15"
+        },
+        "distance_sum": 2,
+        "leading": [
+          6,
+          "15"
+        ]
+      },
+      "(1, 2)-(0, 2)": {
+        "series": {
+          "5": "25/4"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "25/4"
+        ]
+      },
+      "(1, 2)-(0, 3)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(1, 2)-(1, 2)": {
+        "series": {
+          "2": "-18",
+          "4": "3",
+          "6": "-2529861/68600"
+        },
+        "distance_sum": 2,
+        "leading": [
+          2,
+          "-18"
+        ]
+      },
+      "(1, 2)-(1, 3)": {
+        "series": {
+          "5": "-2160/343"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "-2160/343"
+        ]
+      },
+      "(1, 2)-(2, 3)": {
+        "series": {
+          "6": "960/49"
+        },
+        "distance_sum": 2,
+        "leading": [
+          6,
+          "960/49"
+        ]
+      },
+      "(1, 3)-(0, 1)": {
+        "series": {},
+        "distance_sum": 3,
+        "leading": null
+      },
+      "(1, 3)-(0, 2)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(1, 3)-(0, 3)": {
+        "series": {},
+        "distance_sum": 5,
+        "leading": null
+      },
+      "(1, 3)-(1, 2)": {
+        "series": {
+          "5": "-2160/343"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "-2160/343"
+        ]
+      },
+      "(1, 3)-(1, 3)": {
+        "series": {
+          "4": "-864/49",
+          "6": "-44064/12005"
+        },
+        "distance_sum": 4,
+        "leading": [
+          4,
+          "-864/49"
+        ]
+      },
+      "(1, 3)-(2, 3)": {
+        "series": {
+          "5": "288/49"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "288/49"
+        ]
+      },
+      "(2, 3)-(0, 1)": {
+        "series": {},
+        "distance_sum": 2,
+        "leading": null
+      },
+      "(2, 3)-(0, 2)": {
+        "series": {},
+        "distance_sum": 3,
+        "leading": null
+      },
+      "(2, 3)-(0, 3)": {
+        "series": {},
+        "distance_sum": 4,
+        "leading": null
+      },
+      "(2, 3)-(1, 2)": {
+        "series": {
+          "6": "960/49"
+        },
+        "distance_sum": 2,
+        "leading": [
+          6,
+          "960/49"
+        ]
+      },
+      "(2, 3)-(1, 3)": {
+        "series": {
+          "5": "288/49"
+        },
+        "distance_sum": 3,
+        "leading": [
+          5,
+          "288/49"
+        ]
+      },
+      "(2, 3)-(2, 3)": {
+        "series": {
+          "2": "-1200/49",
+          "4": "-20000/2401",
+          "6": "-54112/1029"
+        },
+        "distance_sum": 2,
+        "leading": [
+          2,
+          "-1200/49"
+        ]
+      }
+    },
+    "atom_polynomials": 16,
+    "entropy_terms_through_degree_8": 64
+  },
+  "n4_all_connected_scaled_matrix_scout": {
+    "status": "EXACT_N4_ALL_CONNECTED_OFFDIAG_SCALED_CONSTANT_SCOUT",
+    "theta": [
+      "1/5",
+      "1/3",
+      "3/5",
+      "3/4"
+    ],
+    "edge_order": [
+      "(0, 1)",
+      "(0, 2)",
+      "(0, 3)",
+      "(1, 2)",
+      "(1, 3)",
+      "(2, 3)"
+    ],
+    "connected_labeled_graphs": 38,
+    "atom_polynomials_per_graph_model": 16,
+    "all_negative_definite_by_fraction_ldl": true,
+    "records": [
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "54675/3364",
+          "625/841",
+          "5000/841",
+          "455625/1414562",
+          "1822500/707281",
+          "250000/2121843"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(1, 2)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "2700/841",
+          "911250/707281",
+          "20000/841",
+          "18225/1682",
+          "1440000/707281",
+          "486000000/594823321"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "720000/707281",
+          "10000/841",
+          "12800/841",
+          "1800/841",
+          "245760000/594823321",
+          "10240000/2121843"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/841",
+          "15625/841",
+          "1800/841",
+          "225/1682",
+          "291600/707281",
+          "750000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "81675/3364",
+          "15625/3364",
+          "10890000/707281",
+          "17015625/5658248",
+          "14400/841",
+          "1134375000/594823321"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "1102500/707281",
+          "50625/3364",
+          "9800/841",
+          "372093750/594823321",
+          "3600/841",
+          "3307500/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "675/841",
+          "15625/3364",
+          "24200/841",
+          "140625/1414562",
+          "11664/841",
+          "7562500/2121843"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/3364",
+          "50625/1414562",
+          "202500/707281",
+          "450/841",
+          "3600/841",
+          "60000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "405000/707281",
+          "10000/841",
+          "216000000/594823321",
+          "2025/1682",
+          "14400/841",
+          "540000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "16875/841",
+          "5625/3364",
+          "5760000/707281",
+          "7200/841",
+          "9216/841",
+          "2457600/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "656100/707281",
+          "273375000/594823321",
+          "16200/841",
+          "11250/841",
+          "1296/841",
+          "540000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "54675/3364",
+          "11390625/5658248",
+          "16200/841",
+          "5625/1682",
+          "576/841",
+          "60000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "60775425/5658248",
+          "75625/3364",
+          "3200/841",
+          "18225/1682",
+          "7056/841",
+          "11984200/2121843"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "16875/841",
+          "5625/841",
+          "200/841",
+          "5625/1682",
+          "17424/841",
+          "1845000/707281"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "10800/841",
+          "625/3364",
+          "62500/2121843",
+          "45000/707281",
+          "6000000/594823321",
+          "10000/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/3364",
+          "30250000/2121843",
+          "24200/841",
+          "408375000/594823321",
+          "980100/707281",
+          "40000/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "675/841",
+          "50625/3364",
+          "9800/841",
+          "455625/1414562",
+          "176400/707281",
+          "25600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "33075/3364",
+          "275625/1414562",
+          "6615000/594823321",
+          "450/841",
+          "21600/707281",
+          "1200/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "551250/707281",
+          "2500/841",
+          "160000/2121843",
+          "11025/1682",
+          "117600/707281",
+          "1600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/841",
+          "625/3364",
+          "122500/2121843",
+          "27225/1682",
+          "3557400/707281",
+          "19600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 3)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "1633500000/594823321",
+          "30250000/2121843",
+          "20000/841",
+          "4050/841",
+          "2613600/707281",
+          "48400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "2700/841",
+          "26250/24389",
+          "5000/841",
+          "225/1682",
+          "381600/707281",
+          "4800/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "551250/707281",
+          "30625/3364",
+          "16200/841",
+          "1800/841",
+          "9600/707281",
+          "400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "54675/3364",
+          "625/841",
+          "5000/841",
+          "18225/1682",
+          "2600100/707281",
+          "6400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "2700/841",
+          "19440000/594823321",
+          "57600/707281",
+          "194400/707281",
+          "576/841",
+          "10800/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 3,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "174960000/594823321",
+          "10000/841",
+          "4320000/707281",
+          "437400/707281",
+          "1296/841",
+          "10800/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/841",
+          "15625/841",
+          "10220800/2121843",
+          "3145650/707281",
+          "9216/841",
+          "6400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 3)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "360000/707281",
+          "10000/2121843",
+          "800/841",
+          "60000/707281",
+          "14400/841",
+          "400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "33075/3364",
+          "1470000/707281",
+          "9800/841",
+          "540000/707281",
+          "3600/841",
+          "4800/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "8820900/707281",
+          "15625/3364",
+          "24200/841",
+          "5880600/707281",
+          "11664/841",
+          "48400/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "6075/3364",
+          "15625/841",
+          "7200/841",
+          "2735625/1414562",
+          "3600/841",
+          "19600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "10800/841",
+          "405000/707281",
+          "5760000/707281",
+          "2025/1682",
+          "14400/841",
+          "1600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "405000/707281",
+          "5625/3364",
+          "67500/707281",
+          "7200/841",
+          "9216/841",
+          "1200/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "16875/3364",
+          "625/841",
+          "1247500/2121843",
+          "11250/841",
+          "1296/841",
+          "25600/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "291600/707281",
+          "6750000/707281",
+          "16200/841",
+          "5625/1682",
+          "576/841",
+          "40000/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "16875/3364",
+          "42171875/16974744",
+          "3200/841",
+          "18225/1682",
+          "7056/841",
+          "10000/2523"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 2,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "1483425/1414562",
+          "5625/841",
+          "200/841",
+          "5625/1682",
+          "17424/841",
+          "10800/841"
+        ]
+      },
+      {
+        "support_edges": [
+          "(0, 1)",
+          "(0, 2)",
+          "(0, 3)",
+          "(1, 2)",
+          "(1, 3)",
+          "(2, 3)"
+        ],
+        "diameter": 1,
+        "ldl_pivots_of_negative_scaled_matrix": [
+          "10800/841",
+          "625/3364",
+          "7200/841",
+          "11250/841",
+          "5184/841",
+          "10000/2523"
+        ]
+      }
+    ]
+  },
+  "exact_distance_coefficient_scout": {
+    "status": "EXACT_TWO_VARIABLE_SCOUT_FOR_DIAGONAL_COORDINATE_LEADING_TERMS",
+    "rule_checked": "-6 * sum over shortest paths P of prod_{v in P} w_v * prod_{e in P} A_e^2 at epsilon^(2 distance)",
+    "n4_all_connected_labeled_graphs": 38,
+    "n4_total_pair_targets": 228,
+    "n5_selected_graphs": [
+      {
+        "name": "P5_path_diameter_4",
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(2, 3)",
+          "(3, 4)"
+        ],
+        "targets": [
+          {
+            "target": "(0, 1)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-75/4",
+            "shortest_paths": [
+              "(0, 1)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 2)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-25/2",
+            "shortest_paths": [
+              "(0, 1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 3)",
+            "distance": 3,
+            "leading_power": 6,
+            "leading_coefficient": "-1875/196",
+            "shortest_paths": [
+              "(0, 1, 2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 4)",
+            "distance": 4,
+            "leading_power": 8,
+            "leading_coefficient": "-40000/5929",
+            "shortest_paths": [
+              "(0, 1, 2, 3, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 2)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-18",
+            "shortest_paths": [
+              "(1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 3)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-675/49",
+            "shortest_paths": [
+              "(1, 2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 4)",
+            "distance": 3,
+            "leading_power": 6,
+            "leading_coefficient": "-57600/5929",
+            "shortest_paths": [
+              "(1, 2, 3, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 3)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-1875/98",
+            "shortest_paths": [
+              "(2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-80000/5929",
+            "shortest_paths": [
+              "(2, 3, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(3, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-6400/363",
+            "shortest_paths": [
+              "(3, 4)"
+            ],
+            "atom_polynomials": 32
+          }
+        ]
+      },
+      {
+        "name": "C5_cycle",
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(2, 3)",
+          "(3, 4)",
+          "(0, 4)"
+        ],
+        "targets": [
+          {
+            "target": "(0, 1)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-75/4",
+            "shortest_paths": [
+              "(0, 1)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 2)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-25/2",
+            "shortest_paths": [
+              "(0, 1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 3)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-1000000/61347",
+            "shortest_paths": [
+              "(0, 4, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-5000/169",
+            "shortest_paths": [
+              "(0, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 2)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-18",
+            "shortest_paths": [
+              "(1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 3)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-675/49",
+            "shortest_paths": [
+              "(1, 2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-2500/169",
+            "shortest_paths": [
+              "(1, 0, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 3)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-1875/98",
+            "shortest_paths": [
+              "(2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-80000/5929",
+            "shortest_paths": [
+              "(2, 3, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(3, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-6400/363",
+            "shortest_paths": [
+              "(3, 4)"
+            ],
+            "atom_polynomials": 32
+          }
+        ]
+      },
+      {
+        "name": "diameter_3_branched_tree",
+        "support_edges": [
+          "(0, 1)",
+          "(1, 2)",
+          "(2, 3)",
+          "(2, 4)"
+        ],
+        "targets": [
+          {
+            "target": "(0, 1)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-675/49",
+            "shortest_paths": [
+              "(0, 1)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 2)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-50625/6272",
+            "shortest_paths": [
+              "(0, 1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 3)",
+            "distance": 3,
+            "leading_power": 6,
+            "leading_coefficient": "-15625/2352",
+            "shortest_paths": [
+              "(0, 1, 2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 4)",
+            "distance": 3,
+            "leading_power": 6,
+            "leading_coefficient": "-421875/47432",
+            "shortest_paths": [
+              "(0, 1, 2, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 2)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-2025/128",
+            "shortest_paths": [
+              "(1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 3)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-625/48",
+            "shortest_paths": [
+              "(1, 2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-16875/968",
+            "shortest_paths": [
+              "(1, 2, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 3)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-5000/243",
+            "shortest_paths": [
+              "(2, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-10000/363",
+            "shortest_paths": [
+              "(2, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(3, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-2000000/88209",
+            "shortest_paths": [
+              "(3, 2, 4)"
+            ],
+            "atom_polynomials": 32
+          }
+        ]
+      },
+      {
+        "name": "diameter_2_K23",
+        "support_edges": [
+          "(0, 2)",
+          "(0, 3)",
+          "(0, 4)",
+          "(1, 2)",
+          "(1, 3)",
+          "(1, 4)"
+        ],
+        "targets": [
+          {
+            "target": "(0, 1)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-20769708612325/1881679721922",
+            "shortest_paths": [
+              "(0, 2, 1)",
+              "(0, 3, 1)",
+              "(0, 4, 1)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 2)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-625/196",
+            "shortest_paths": [
+              "(0, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 3)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-625/81",
+            "shortest_paths": [
+              "(0, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(0, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-1800/121",
+            "shortest_paths": [
+              "(0, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 2)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-1800/169",
+            "shortest_paths": [
+              "(1, 2)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 3)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-5625/578",
+            "shortest_paths": [
+              "(1, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(1, 4)",
+            "distance": 1,
+            "leading_power": 2,
+            "leading_coefficient": "-5184/361",
+            "shortest_paths": [
+              "(1, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 3)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-5228265625/1163099574",
+            "shortest_paths": [
+              "(2, 0, 3)",
+              "(2, 1, 3)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(2, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-2506629900/361722361",
+            "shortest_paths": [
+              "(2, 0, 4)",
+              "(2, 1, 4)"
+            ],
+            "atom_polynomials": 32
+          },
+          {
+            "target": "(3, 4)",
+            "distance": 2,
+            "leading_power": 4,
+            "leading_coefficient": "-2807470000/340842843",
+            "shortest_paths": [
+              "(3, 0, 4)",
+              "(3, 1, 4)"
+            ],
+            "atom_polynomials": 32
+          }
+        ]
+      }
+    ]
+  },
+  "disabled_numeric_note": "Naive full finite-difference Hessians at epsilon=0.002 were discarded: distance-3 and distance-4 curvatures are below double precision noise.",
+  "elapsed_seconds": 1.5374951362609863,
+  "script_sha256": "6edbc8eb33bee157c1c10c8bf468bba8aabceb4d0d551c630abb19ab3c4afdd6"
+}

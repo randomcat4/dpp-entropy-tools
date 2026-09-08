@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "atom_count": 4,
+      "entropy_second_derivative_at_zero": {
+        "H2_decimal": "-0.081676809942614524206241470281964462201042404136393237104353233081309470377321966",
+        "min_p": "10/77",
+        "sum_p": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "lambda": [
+        "2/7",
+        "5/11"
+      ],
+      "max_signed_vs_channel_polynomial_coeff_diff": "0",
+      "n": 2,
+      "name": "n2_rational_rotation",
+      "psd_note": "D=Q diag(v) Q^T is PSD because every listed v_i is positive.",
+      "v": [
+        "1/13",
+        "2/17"
+      ]
+    },
+    {
+      "atom_count": 8,
+      "entropy_second_derivative_at_zero": {
+        "H2_decimal": "-0.041810638142728202237308237066418075923033529424870935198858310928475906247892320",
+        "min_p": "1/35",
+        "sum_p": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "lambda": [
+        "1/5",
+        "2/3",
+        "4/7"
+      ],
+      "max_signed_vs_channel_polynomial_coeff_diff": "0",
+      "n": 3,
+      "name": "n3_signed_permutation_control",
+      "psd_note": "D=Q diag(v) Q^T is PSD because every listed v_i is positive.",
+      "v": [
+        "1/17",
+        "1/19",
+        "1/23"
+      ]
+    },
+    {
+      "atom_count": 8,
+      "entropy_second_derivative_at_zero": {
+        "H2_decimal": "-0.035046169565522884687737787609609541503967577974058202459599473894313733350651350",
+        "min_p": "2/35",
+        "sum_p": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "lambda": [
+        "1/5",
+        "2/3",
+        "4/7"
+      ],
+      "max_signed_vs_channel_polynomial_coeff_diff": "0",
+      "n": 3,
+      "name": "n3_block_hadamard_plus_coordinate",
+      "psd_note": "D=Q diag(v) Q^T is PSD because every listed v_i is positive.",
+      "v": [
+        "1/17",
+        "1/19",
+        "1/23"
+      ]
+    }
+  ],
+  "decimal_precision": 80,
+  "note": "Polynomial coefficients of exact atoms from signed determinants and from the spectral channel agree exactly in all cases.",
+  "status": "EXACT_CHANNEL_SANITY_PASSED",
+  "total_atom_polynomials_checked": 20
+}

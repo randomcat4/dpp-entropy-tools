@@ -1,0 +1,18 @@
+{
+  "index": 1533,
+  "mode": 1,
+  "margin": 0.018584059306675282,
+  "label": "two_edge_clusters",
+  "rho_psd": 0.5443779051096092,
+  "rho_unrestricted": 0.5443779051096092,
+  "unrestricted_same_sign": true,
+  "total_psd_fisher_normalized": -0.45562209489039085,
+  "min_atom": 2.3580151601982536e-08,
+  "normalization_residual": 0.0,
+  "generalized_residual": 2.741033601304553e-16,
+  "direction_min_rate": 0.4358254027333726,
+  "direction_max_rate": 1.0,
+  "chord_step": 0.004264106495427151,
+  "chord_gap": -0.00033821541546075196,
+  "status": "NO_HIT"
+}

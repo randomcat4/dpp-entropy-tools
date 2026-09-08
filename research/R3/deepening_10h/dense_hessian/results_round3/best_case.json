@@ -1,0 +1,22 @@
+{
+  "index": 82,
+  "n": 4,
+  "mode": 0,
+  "margin": 0.23978015082094017,
+  "entropy": 2.6438068715556744,
+  "min_atom": 0.023820007177552175,
+  "normalization_residual": 0.0,
+  "lambda_max_coordinate": -4.636363927039863e-05,
+  "lambda_max": -4.63636388825741e-05,
+  "fisher_along_top": -3.0909086311937495e-05,
+  "acceleration_along_top": -1.5454552569238444e-05,
+  "fisher_max_eigenvalue": -3.09090865710789e-05,
+  "acceleration_max_eigenvalue": 0.3203839088058718,
+  "direction_rank": 4,
+  "direction_singular_1": 1.0000000000000002,
+  "direction_singular_2": 0.9999999916177611,
+  "step": 0.08264559195237205,
+  "gap": -0.00046365004082549177,
+  "endpoint_margin": 0.22574298757680167,
+  "status": "NO_HIT"
+}

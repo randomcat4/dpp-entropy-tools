@@ -1,0 +1,60 @@
+{
+  "status": "CORRECT_REVISED_CORE_AND_GRADIENT; FINITE_OPTIMIZATION_SCOUT_ONLY",
+  "author_hashes_before": {
+    "full_psd_hessian.py": "92697514aeaa7c40c5ed8bd21137635f7aa5033698b7a0e7793b6c8b9df38166",
+    "hessian_scout.json": "b2ce1b3d4ebf6cb8c4eecad86587cae04a84b32fe18e0aa0f198738c260fac7f",
+    "analysis.md": "d4808dcb3acd74ae8ca3641ea2d33450baae3b2b8f59561804dbf43b03c27b3a",
+    "frozen_problem.md": "1fe6a11acd311a0a665edfa85e30fab9007395584f745f46fdeaf85326febb0e",
+    "verdict.md": "9d4add17bde0a883f77d75a410c2ca4072ac3bbf4ff762df8141148e95f14e3e",
+    "run_log.md": "3be0796ccbe6a115a0f2f342605d1f42d11326a48e943f35a24f162afb67822b"
+  },
+  "author_hashes_after": {
+    "full_psd_hessian.py": "92697514aeaa7c40c5ed8bd21137635f7aa5033698b7a0e7793b6c8b9df38166",
+    "hessian_scout.json": "b2ce1b3d4ebf6cb8c4eecad86587cae04a84b32fe18e0aa0f198738c260fac7f",
+    "analysis.md": "d4808dcb3acd74ae8ca3641ea2d33450baae3b2b8f59561804dbf43b03c27b3a",
+    "frozen_problem.md": "1fe6a11acd311a0a665edfa85e30fab9007395584f745f46fdeaf85326febb0e",
+    "verdict.md": "9d4add17bde0a883f77d75a410c2ca4072ac3bbf4ff762df8141148e95f14e3e",
+    "run_log.md": "3be0796ccbe6a115a0f2f342605d1f42d11326a48e943f35a24f162afb67822b"
+  },
+  "gradient_riesz_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "replay": {
+    "seed": 20260908,
+    "rank_one_proposals": 4000,
+    "projected_starts": 400,
+    "steps_per_start": 300,
+    "projected_updates": 120000,
+    "best_value": -2.285098038212576,
+    "rank1_best_value": -2.285098038212576,
+    "best_D": [
+      [
+        0.2830240617429144,
+        -0.3177719349792355,
+        -0.3192842613675311
+      ],
+      [
+        -0.3177719349792355,
+        0.3567859285129332,
+        0.3584839286044074
+      ],
+      [
+        -0.3192842613675311,
+        0.3584839286044074,
+        0.36019000974415233
+      ]
+    ],
+    "maximum_from_rank_one_scan": true,
+    "matches_saved_output": true
+  },
+  "old_issue": "missing off-diagonal factor 1/2 is fixed; initial audit remains valid for initial hash",
+  "core_results": "revision_core_results.json",
+  "elapsed_seconds": 2.556760787963867,
+  "exit_code": 0,
+  "script_sha256": "e6f61b0961bf98dff1a1aa06b30b4ce08a2f4079d9180094a52126de1a4d7ba3"
+}

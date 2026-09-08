@@ -1,0 +1,74 @@
+{
+  "cardinality_uniform_sufficient_condition_sanity": {
+    "E_log_binom_second": "-0.0209166219158422810845284565464955389310770111849930505438751783874649957024209123819392240",
+    "H_count_second": "-0.0149238012896797026831369958237778729414078994088009577323145349875220690187139523298415707",
+    "lambda": [
+      "1/5",
+      "2/7",
+      "3/8",
+      "5/9"
+    ],
+    "n": 4,
+    "note": "Finite sanity for the theorem proof: same-sign rates and c_k=log binomial layer constants give nonpositive second derivative in this case.",
+    "total_second": "-0.0358404232055219837676654523702734118724849105937940082761897133749870647211348647117807947",
+    "v_same_sign": [
+      "1/31",
+      "2/37",
+      "1/41",
+      "3/43"
+    ]
+  },
+  "decimal_precision": 90,
+  "direct_sum_sanity": {
+    "block1_H2": "-0.0118190212373037857802400738688827331486611265004616805170821791320406278855032317636195753",
+    "block2_H2": "-0.0816768099426145242062414702819644622010424041363932371043532330813094703773219703995783458",
+    "block_sum_H2": "-0.0934958311799183099864815441508471953497035306368549176214354122133500982628252021631979211",
+    "full_H2": "-0.0934958311799183099864815441508471953497035306368549176214354122133500982628252021631979213",
+    "full_min_atom": "15/308",
+    "full_minus_block_sum_decimal": "-2E-91",
+    "note": "Block diagonal K gives product exact atoms; Decimal residual is log-rounding only."
+  },
+  "exact_mixture_derivative_case": {
+    "H2_Y": "-0.247225796743571035801622156686535982796898329941605679648413553054811926262174137465161647",
+    "H2_count": "-0.111945815623717782871500624303184300769059944173196201272351189160576675006880946127432436",
+    "H_Y": "2.05533698937844874783274106186194068222138153456285506988777403967438291538768283643069582",
+    "H_conditional_direct": "0.817610033950649835517048155764517372892923795799023042549127352532101697239425913988254371",
+    "H_count": "1.23772695542779891231569290609742330932845773876383202733864668714228121814825692244244144",
+    "H_split_residual_decimal": "9E-90",
+    "Psi2_by_difference": "-0.135279981119853252930121532383351682027838385768409478376062363894235251255293191337729211",
+    "Psi2_formula": "-0.135279981119853252930121532383351682027838385768409478376062363894235251255293191337729211",
+    "Psi2_residual_decimal": "0E-90",
+    "max_signed_vs_channel_derivative_diff": "0",
+    "min_atom": "1213/13720",
+    "n": 3,
+    "sum_p": "1",
+    "sum_p_prime": "0",
+    "sum_p_second": "0"
+  },
+  "generic_Q_blocker_sanity": {
+    "Q": "Householder I - (1/7)(1,2,3)(1,2,3)^T",
+    "lambda": [
+      "3/4",
+      "1/2",
+      "1/2"
+    ],
+    "note": "This is not a positive-entropy candidate; it shows generic fixed-Q layer accelerations are sign-indefinite, so doubly stochasticity alone is not a curvature certificate.",
+    "singleton_atom_second_derivatives": {
+      "001": "2339/2450",
+      "010": "-829/2450",
+      "100": "-167/1225"
+    },
+    "singleton_atom_second_derivatives_float": {
+      "001": 0.9546938775510204,
+      "010": -0.3383673469387755,
+      "100": -0.1363265306122449
+    },
+    "sum_singleton_p2": "12/25",
+    "v": [
+      "1/100",
+      "1",
+      "1"
+    ]
+  },
+  "status": "FRESH_CHANNEL_AUDIT_SANITY_PASSED"
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "additional optimizer unit test after original full replay completed",
+  "original_joint_script_sha256": "e691fb766e5a3a41357205e3656e07bed308f2a27f9b6c884df9f6f91446da9d",
+  "observed_revised_joint_script_sha256": "7a3c2677c10d8e32b40f59cb8b4df81446297b0c9b294f27943a5e8e011faa92",
+  "exception": "NameError: name 'SIMPLEX_DEGENERACY_TOL' is not defined",
+  "cause": "The isolated AST harness loaded a concurrently revised function requiring new module-level helpers; prior audited function required only numpy.",
+  "python_execution": "FAILED before writing output JSON",
+  "exit_code_note": "Python terminated with uncaught exception; the combined shell call then ran Get-FileHash and reported shell exit 0. This is not recorded as a successful Python check.",
+  "resolution": "Bind unit tests to saved original function snapshot, bind mathematical input records to completed original replay JSONs, and guard future author-code replay with initial hashes.",
+  "current_revision_audit": "NOT_PERFORMED"
+}

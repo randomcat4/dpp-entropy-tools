@@ -1,0 +1,17 @@
+{
+  "status": "SCOUT",
+  "bases": 30,
+  "chords": 90,
+  "failures": 0,
+  "float_candidates": 0,
+  "max_curvature": -0.260472213084912,
+  "max_gap": -1.3562478985207349e-05,
+  "max_mobius_error": 2.7560419224581523e-16,
+  "max_hessian_fd_error": 6.728744740835957e-07,
+  "min_cross_block_bridge": 0.036715528269,
+  "min_supported_edge": 0.03460698541,
+  "min_diagonal_separation": 0.007220361344999926,
+  "minimum_exact_margin": 0.000615,
+  "minimum_event_probability": 8.033500083400889e-08,
+  "max_normalization_residual": 4.440892098500626e-16
+}

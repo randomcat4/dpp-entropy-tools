@@ -1,0 +1,176 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "seed": 2026090832,
+  "n_min": 6,
+  "n_max": 6,
+  "trials_per_n": 11,
+  "gap_sign_convention": "Delta=(H_minus+H_plus)/2-H_zero; positive would violate concavity",
+  "finite_search_only": true,
+  "exact_dp_reuse_smoke": {
+    "module_path": "C:\\game\\gameproject\\showa100\\math\\i05-real-20260908\\R3\\repo\\research\\R3\\next_structures\\sparse_schur\\path_schur.py",
+    "n": 5,
+    "direct_mobius_events": 32,
+    "direct_mobius_mismatch_count": 0,
+    "exact_entropy_decimal": "0.630548329225905187723663196766386839900312802389406903422194779739726287100556",
+    "float_entropy": 0.6305483292259062,
+    "absolute_float_vs_exact_entropy": 9.992007221626409e-16
+  },
+  "positive_scouts_gt_1e-10": [],
+  "best_overall": {
+    "n": 6,
+    "bucket": "rank1",
+    "best": {
+      "delta_endpoint_average_minus_midpoint": -0.00011749452660936299,
+      "second_difference_over_relative_norm_squared": -0.23058854863206837,
+      "support_rank_equals_rank_K_perturbation": 1,
+      "relative_step_norm": 0.03192309187687264,
+      "H_minus": 3.445508802284828,
+      "H_zero": 3.454774899016523,
+      "H_plus": 3.463806006694999,
+      "beta": [
+        -0.147742459229,
+        0.394918680696,
+        -0.581089127216,
+        0.434936479733,
+        -0.172549265257
+      ],
+      "tau_zero": [
+        0.406695125841,
+        0.185527484077,
+        0.25263653046,
+        0.381895747571,
+        0.197859538126,
+        0.143845178585
+      ],
+      "tau_displacement": [
+        0.0,
+        0.00592261092,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "per_n": [
+    {
+      "n": 6,
+      "trials": 11,
+      "center_failures": 0,
+      "chord_failures": 0,
+      "buckets": {
+        "rank1": {
+          "support_size": 1,
+          "feasible": 11,
+          "positive_gt_1e-10": 0,
+          "best": {
+            "delta_endpoint_average_minus_midpoint": -0.00011749452660936299,
+            "second_difference_over_relative_norm_squared": -0.23058854863206837,
+            "support_rank_equals_rank_K_perturbation": 1,
+            "relative_step_norm": 0.03192309187687264,
+            "H_minus": 3.445508802284828,
+            "H_zero": 3.454774899016523,
+            "H_plus": 3.463806006694999,
+            "beta": [
+              -0.147742459229,
+              0.394918680696,
+              -0.581089127216,
+              0.434936479733,
+              -0.172549265257
+            ],
+            "tau_zero": [
+              0.406695125841,
+              0.185527484077,
+              0.25263653046,
+              0.381895747571,
+              0.197859538126,
+              0.143845178585
+            ],
+            "tau_displacement": [
+              0.0,
+              0.00592261092,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "rank2": {
+          "support_size": 2,
+          "feasible": 11,
+          "positive_gt_1e-10": 0,
+          "best": {
+            "delta_endpoint_average_minus_midpoint": -0.001035494180575025,
+            "second_difference_over_relative_norm_squared": -0.17931720209179158,
+            "support_rank_equals_rank_K_perturbation": 2,
+            "relative_step_norm": 0.10746767472100587,
+            "H_minus": 3.217170750017055,
+            "H_zero": 3.18612192013686,
+            "H_plus": 3.153002101895515,
+            "beta": [
+              0.426836366684,
+              0.396946024338,
+              -0.228086397079,
+              0.552294672939,
+              -0.517551347827
+            ],
+            "tau_zero": [
+              0.142622229403,
+              0.163993590918,
+              0.261847466834,
+              0.313489853962,
+              0.144005660261,
+              0.148667246305
+            ],
+            "tau_displacement": [
+              0.0,
+              -0.017173382147,
+              0.0,
+              0.0,
+              0.0,
+              -0.003589803944
+            ]
+          }
+        },
+        "full_rank": {
+          "support_size": 6,
+          "feasible": 11,
+          "positive_gt_1e-10": 0,
+          "best": {
+            "delta_endpoint_average_minus_midpoint": -0.003527608940643301,
+            "second_difference_over_relative_norm_squared": -0.198249956181091,
+            "support_rank_equals_rank_K_perturbation": 6,
+            "relative_step_norm": 0.18864646225417622,
+            "H_minus": 3.104004973733322,
+            "H_zero": 3.0330379866736736,
+            "H_plus": 2.9550157817327385,
+            "beta": [
+              -0.444244072889,
+              -0.422971073633,
+              0.616658983654,
+              0.459226335364,
+              -0.691129517313
+            ],
+            "tau_zero": [
+              0.172962845316,
+              0.141392288143,
+              0.152404235754,
+              0.175719196745,
+              0.15782326973,
+              0.16312313332
+            ],
+            "tau_displacement": [
+              -0.01610328537,
+              -0.000728651491,
+              0.003699097541,
+              -0.0078965255,
+              -0.007236889394,
+              -0.024294753977
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

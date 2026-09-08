@@ -1,0 +1,19 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "seed": 2026090811,
+  "n_min": 3,
+  "n_max": 8,
+  "trials_per_n": 200,
+  "chunk": 128,
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "threads": 1,
+  "start_time": 1788839168.1842468,
+  "completed": 1200,
+  "best_lambda": -0.00014958804831416523,
+  "best_gap": -0.00028974112466251256,
+  "best_mechanism_ratio": 0.4399299602172097,
+  "elapsed_seconds": 10.51959776878357,
+  "exit_code": 0,
+  "warning": "float64 scout only; finite non-hit is not a theorem"
+}

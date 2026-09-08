@@ -1,0 +1,445 @@
+{
+  "analytic_subclass_exclusion": {
+    "claim": "If K(t)=diag(k_i+t d_i) is strictly between 0 and I on an interval, then H(K(t))=sum_i h(k_i+t d_i) and H''=-sum_i d_i^2/[x_i(1-x_i)]<=0; strict unless all d_i=0.",
+    "name": "standard-coordinate diagonal product kernels with diagonal PSD/NSD directions",
+    "scope_warning": "This is a narrow coordinate-product subclass. It does not cover arbitrary commuting K,D after rotating the observation basis, because DPP configuration entropy is basis-sensitive."
+  },
+  "date": "2026-09-08",
+  "elapsed_seconds": 2.6571872234344482,
+  "fixed_center": {
+    "best_psd_scout": {
+      "batch": "deterministic_controls",
+      "loop_stats": {
+        "Fisher_positive": 1.0000000000000002,
+        "H": 7.192700077982033,
+        "H2": -0.47389005476130996,
+        "acceleration": 0.5261099452386903,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.5261099452386901,
+        "sum_p1": 2.0672855517277905e-16,
+        "sum_p2": 8.674972632599642e-17,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "name": "full_generalized_direction",
+      "psd": {
+        "condition_if_pd": 14.09106265062013,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 0.15214823757127055,
+        "lambda_min": 0.010797499191061698,
+        "rank_tol_1e-9": 12
+      },
+      "stats": {
+        "Fisher_positive": 1.0,
+        "H2": -0.47389005476130996,
+        "acceleration": 0.52610994523869,
+        "condition_if_pd": 14.09106265062013,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 0.15214823757127055,
+        "lambda_min": 0.010797499191061698,
+        "rank_tol_1e-9": 12,
+        "rho": 0.52610994523869
+      },
+      "strict_chord_gate": {
+        "H0": 7.192700077982028,
+        "H_minus": 7.192733103391651,
+        "H_plus": 7.192667047833508,
+        "center_distribution": {
+          "event_count": 4096,
+          "max_probability": 0.0073462049888275,
+          "min_probability": 3.488201486707941e-14,
+          "sum_minus_one": 0.0
+        },
+        "center_margin": 0.00015956490724191818,
+        "central_second_difference": -0.4738897274592091,
+        "midpoint_gap": -2.3694486372960455e-09,
+        "minus_distribution": {
+          "event_count": 4096,
+          "max_probability": 0.007346006026333217,
+          "min_probability": 3.529362132046652e-14,
+          "sum_minus_one": 2.220446049250313e-16
+        },
+        "minus_margin": 0.0001611704993774521,
+        "operator_norm_D": 0.15214823757127055,
+        "plus_distribution": {
+          "event_count": 4096,
+          "max_probability": 0.007346403935048133,
+          "min_probability": 3.447167990376225e-14,
+          "sum_minus_one": 0.0
+        },
+        "plus_margin": 0.0001579592541962568,
+        "step": 0.0001
+      }
+    },
+    "commuting_with_K_subspace": {
+      "direction_psd": {
+        "condition_if_pd": 7.179898454850705,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 0.1287650650723569,
+        "lambda_min": 0.017934106712242406,
+        "rank_tol_1e-9": 12
+      },
+      "loop_stats": {
+        "Fisher_positive": 1.0000000000000007,
+        "H": 7.192700077982033,
+        "H2": -0.4866419914419735,
+        "acceleration": 0.5133580085580272,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.5133580085580268,
+        "sum_p1": -3.978513753253449e-17,
+        "sum_p2": 3.065581642702764e-17,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "meta": {
+        "fisher_max_eig": 26.55972258287401,
+        "fisher_min_kept_eig": 1.5696701867427634,
+        "fisher_rank": 12,
+        "generalized_residual": 1.4589305105125765e-15
+      },
+      "rates_are_nonnegative_after_sign_choice": true,
+      "rates_max": 0.1287650650723569,
+      "rates_min": 0.017934106712242392,
+      "rho_max": 0.5133580085580258
+    },
+    "event_meta": {
+      "basis_dimension": 78,
+      "event_count": 4096,
+      "max_probability": 0.0073462049888275,
+      "min_probability": 3.488201486707941e-14,
+      "min_signed_atom": 3.488201486707941e-14,
+      "nonpositive_atoms": 0,
+      "sum_p_minus_one": 6.661338147750939e-16
+    },
+    "fixed_center_source": "C:/game/gameproject/showa100/math/i05-real-20260908/R3/repo/research/R3/deepening_10h/dense_hessian/server_round6_analysis/independent_frozen.npz",
+    "frozen_direction": {
+      "loop_stats": {
+        "Fisher_positive": 43.198249448434225,
+        "H": 7.192700077982033,
+        "H2": -20.471220796711293,
+        "acceleration": 22.727028651722932,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.5261099452386884,
+        "sum_p1": -8.668331894293169e-16,
+        "sum_p2": 5.082739784612045e-16,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "psd": {
+        "condition_if_pd": 14.091062650619762,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 1.0000000000000009,
+        "lambda_min": 0.07096696855265336,
+        "rank_tol_1e-9": 12
+      },
+      "quadratic_stats": {
+        "Fisher_positive": 43.19824944843416,
+        "H2": -20.471220796711197,
+        "acceleration": 22.727028651722964,
+        "condition_if_pd": 14.091062650619762,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 1.0000000000000009,
+        "lambda_min": 0.07096696855265336,
+        "rank_tol_1e-9": 12,
+        "rho": 0.5261099452386899
+      }
+    },
+    "full_symmetric_generalized_control": {
+      "direction_psd": {
+        "condition_if_pd": 14.09106265062013,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 0.15214823757127055,
+        "lambda_min": 0.010797499191061698,
+        "rank_tol_1e-9": 12
+      },
+      "loop_stats": {
+        "Fisher_positive": 1.0000000000000002,
+        "H": 7.192700077982033,
+        "H2": -0.47389005476130996,
+        "acceleration": 0.5261099452386903,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.5261099452386901,
+        "sum_p1": 2.0672855517277905e-16,
+        "sum_p2": 8.674972632599642e-17,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "meta": {
+        "fisher_max_eig": 28.67115366600385,
+        "fisher_min_kept_eig": 0.46193760534688194,
+        "fisher_rank": 78,
+        "generalized_residual": 2.312999606825379e-15
+      },
+      "rho_max": 0.5261099452386891
+    },
+    "identity_direction": {
+      "loop_stats": {
+        "Fisher_positive": 246.3258754541799,
+        "H": 7.192700077982033,
+        "H2": -139.31930361048438,
+        "acceleration": 107.00657184369554,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.43441060199784115,
+        "sum_p1": 4.84784738394306e-15,
+        "sum_p2": -2.050443148604586e-15,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "quadratic_stats": {
+        "Fisher_positive": 246.32587545417996,
+        "H2": -139.3193036104843,
+        "acceleration": 107.00657184369567,
+        "condition_if_pd": 1.0,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 1.0,
+        "lambda_min": 1.0,
+        "rank_tol_1e-9": 12,
+        "rho": 0.4344106019978416
+      }
+    },
+    "mobius_vs_signed_det": {
+      "max_abs_diff": 5.656142040774439e-16,
+      "max_relative_diff": 0.007564734476828637,
+      "mobius_sum_minus_one": 0.0,
+      "signed_sum_minus_one": 0.0
+    },
+    "n": 12,
+    "physical_diagonal_subspace": {
+      "diagonal_entries_nonnegative_after_sign_choice": true,
+      "diagonal_max": 0.09768963478140164,
+      "diagonal_min": 0.03084643948251585,
+      "direction_psd": {
+        "condition_if_pd": 3.1669663150838963,
+        "is_nsd_tol_1e-9": false,
+        "is_psd_tol_1e-9": true,
+        "lambda_max": 0.09768963478140164,
+        "lambda_min": 0.03084643948251585,
+        "rank_tol_1e-9": 12
+      },
+      "loop_stats": {
+        "Fisher_positive": 1.0000000000000002,
+        "H": 7.192700077982033,
+        "H2": -0.5428753016699674,
+        "acceleration": 0.4571246983300328,
+        "event_count": 4096,
+        "max_probability": 0.0073462049888275,
+        "min_probability": 3.488201486707941e-14,
+        "rho": 0.45712469833003266,
+        "sum_p1": -9.718686630206391e-17,
+        "sum_p2": 1.1194387430912833e-17,
+        "sum_p_minus_one": 6.661338147750939e-16
+      },
+      "meta": {
+        "fisher_max_eig": 23.228064941475523,
+        "fisher_min_kept_eig": 3.8151434848897066,
+        "fisher_rank": 12,
+        "generalized_residual": 1.3794904636254164e-15
+      },
+      "rho_max": 0.45712469833003244
+    },
+    "positive_gate": {
+      "H2_gt_0_candidates": 0,
+      "rho_gt_1_candidates": 0,
+      "threshold": "rho>1 and H2>0 after strict feasible chord/high-precision gate"
+    },
+    "psd_search_batches": [
+      {
+        "draws": 11,
+        "name": "deterministic_controls"
+      },
+      {
+        "best_rho_after_batch": 0.52610994523869,
+        "draws": 6000,
+        "improved_global_best": false,
+        "name": "commuting_loguniform_positive_rates"
+      },
+      {
+        "best_rho_after_batch": 0.52610994523869,
+        "draws": 9000,
+        "improved_global_best": false,
+        "name": "random_rank_psd"
+      },
+      {
+        "best_rho_after_batch": 0.52610994523869,
+        "draws": 5000,
+        "improved_global_best": false,
+        "name": "random_spd_log_spectrum"
+      },
+      {
+        "accepted": 2111,
+        "best_rho_after_batch": 0.52610994523869,
+        "draws": 2500,
+        "name": "local_factor_walk"
+      }
+    ],
+    "strict_margins": {
+      "lambda_max_K": 0.9998404350927581,
+      "lambda_min_I_minus_K": 0.00015956490724191818,
+      "lambda_min_K": 0.014341059088163553,
+      "margin": 0.00015956490724191818
+    }
+  },
+  "numpy_version": "2.3.5",
+  "seed": 2026090833,
+  "small_n_random_psd_scout": [
+    {
+      "best": {
+        "center_index": 491,
+        "direction_index": 6,
+        "event_meta": {
+          "basis_dimension": 3,
+          "event_count": 4,
+          "max_probability": 0.39338071428249083,
+          "min_probability": 0.07825734617690011,
+          "min_signed_atom": 0.07825734617690011,
+          "nonpositive_atoms": 0,
+          "sum_p_minus_one": -2.220446049250313e-16
+        },
+        "kernel_margin": 0.10153626052019332,
+        "stats": {
+          "Fisher_positive": 65.14195896814958,
+          "H2": -49.393782689878456,
+          "acceleration": 15.748176278271126,
+          "condition_if_pd": 1.581318556071962,
+          "is_nsd_tol_1e-9": false,
+          "is_psd_tol_1e-9": true,
+          "lambda_max": 2.4569429862876495,
+          "lambda_min": 1.5537305730420075,
+          "rank_tol_1e-9": 2,
+          "rho": 0.2417516532772835
+        }
+      },
+      "centers": 500,
+      "directions": 10000,
+      "directions_per_center": 20,
+      "event_denominator": 2000,
+      "event_distributions_built": 500,
+      "n": 2,
+      "rho_gt_1_and_H2_gt_0": 0
+    },
+    {
+      "best": {
+        "center_index": 192,
+        "direction_index": 0,
+        "event_meta": {
+          "basis_dimension": 6,
+          "event_count": 8,
+          "max_probability": 0.28129248638988236,
+          "min_probability": 0.03292303337192709,
+          "min_signed_atom": 0.03292303337192709,
+          "nonpositive_atoms": 0,
+          "sum_p_minus_one": 0.0
+        },
+        "kernel_margin": 0.0985760192120422,
+        "stats": {
+          "Fisher_positive": 99.08648697779728,
+          "H2": -72.25905899543574,
+          "acceleration": 26.82742798236155,
+          "condition_if_pd": 2.283957920138293,
+          "is_nsd_tol_1e-9": false,
+          "is_psd_tol_1e-9": true,
+          "lambda_max": 2.9463239773599126,
+          "lambda_min": 1.2900079950603964,
+          "rank_tol_1e-9": 3,
+          "rho": 0.27074759435535223
+        }
+      },
+      "centers": 260,
+      "directions": 3120,
+      "directions_per_center": 12,
+      "event_denominator": 2080,
+      "event_distributions_built": 260,
+      "n": 3,
+      "rho_gt_1_and_H2_gt_0": 0
+    },
+    {
+      "best": {
+        "center_index": 24,
+        "direction_index": 5,
+        "event_meta": {
+          "basis_dimension": 10,
+          "event_count": 16,
+          "max_probability": 0.35294482447583314,
+          "min_probability": 0.005306968738361751,
+          "min_signed_atom": 0.005306968738361751,
+          "nonpositive_atoms": 0,
+          "sum_p_minus_one": 0.0
+        },
+        "kernel_margin": 0.07415407982624751,
+        "stats": {
+          "Fisher_positive": 261.79179230369095,
+          "H2": -195.48042320519744,
+          "acceleration": 66.3113690984935,
+          "condition_if_pd": 68.03176627906191,
+          "is_nsd_tol_1e-9": false,
+          "is_psd_tol_1e-9": true,
+          "lambda_max": 4.5709239404492,
+          "lambda_min": 0.06718808272152696,
+          "rank_tol_1e-9": 4,
+          "rho": 0.25329812105632843
+        }
+      },
+      "centers": 120,
+      "directions": 960,
+      "directions_per_center": 8,
+      "event_denominator": 1920,
+      "event_distributions_built": 120,
+      "n": 4,
+      "rho_gt_1_and_H2_gt_0": 0
+    },
+    {
+      "best": {
+        "center_index": 42,
+        "direction_index": 4,
+        "event_meta": {
+          "basis_dimension": 15,
+          "event_count": 32,
+          "max_probability": 0.1271652457474067,
+          "min_probability": 0.0028389804325992135,
+          "min_signed_atom": 0.0028389804325992135,
+          "nonpositive_atoms": 0,
+          "sum_p_minus_one": 2.220446049250313e-16
+        },
+        "kernel_margin": 0.05923659130311989,
+        "stats": {
+          "Fisher_positive": 812.5720801701807,
+          "H2": -636.6639063574119,
+          "acceleration": 175.90817381276887,
+          "condition_if_pd": 273.73545612490227,
+          "is_nsd_tol_1e-9": false,
+          "is_psd_tol_1e-9": true,
+          "lambda_max": 9.89223975996291,
+          "lambda_min": 0.036137955601371556,
+          "rank_tol_1e-9": 5,
+          "rho": 0.21648316267023057
+        }
+      },
+      "centers": 60,
+      "directions": 360,
+      "directions_per_center": 6,
+      "event_denominator": 1920,
+      "event_distributions_built": 60,
+      "n": 5,
+      "rho_gt_1_and_H2_gt_0": 0
+    }
+  ],
+  "status": "SCOUT_NO_PSD_FLIP_FOUND_PLUS_DIAGONAL_SUBCLASS_EXCLUSION",
+  "thread_limits_requested": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "copositive_and_sphere_reduction.md": "d27262802f52450b57d49d2618521560cffebc940edd25541cede1818e87304d",
+  "frozen_problem.md": "c327f513e64a3c86ba7d979a7f01e1d8e3e1e5885a760de2d19bc8f8889ac777",
+  "hazards.md": "fa4495cc1da40afa9346280a230fd20ea03630deb63167175e1891edb43fc6ea",
+  "joint_copositive_probe.py": "e691fb766e5a3a41357205e3656e07bed308f2a27f9b6c884df9f6f91446da9d",
+  "joint_probe_results.json": "bbc433f2fe358e6c35138da3845c25e76c1dcbfe1d655016e6f5fa7ea4fce246",
+  "joint_reduction.md": "b1367c48dd07a92ac440fea391c575d8d264ff5ecaed1a3a1330f37d5a02f4a1",
+  "search_report.md": "0e37ab46f4d164d02ff11052f8411db90764ea0fa400ec5a7a01f4d6b976ffbc",
+  "sphere_probe_results.json": "fe3569d4f000e218176584ba063d8883a2f62185faab5540f9e3fc584bf5a9f9",
+  "sphere_support_probe.py": "3c376f113aaa1495d6cf4246f589c5aa98399407cf1dd3bcb011b364564106d9",
+  "verdict.md": "b05c61aef89091f5ec6de1ad20637dfc0e3742bfad138e10a9e302cade2d1324"
+}

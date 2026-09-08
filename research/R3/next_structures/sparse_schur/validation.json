@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "direct_validations": [
+    {
+      "n": 6,
+      "events_checked": 64,
+      "mobius_sum": "1/1",
+      "l_ensemble_sum": "1/1",
+      "mismatch_count": 0,
+      "first_mismatch": null,
+      "min_atom": "20003760/9294488377",
+      "entropy_abs_diff": "4E-89",
+      "Z": "9294488377/20003760",
+      "name": "heterogeneous_path_n6"
+    },
+    {
+      "n": 8,
+      "events_checked": 256,
+      "mobius_sum": "1/1",
+      "l_ensemble_sum": "1/1",
+      "mismatch_count": 0,
+      "first_mismatch": null,
+      "min_atom": "3077443495526400/7139781485523238273",
+      "entropy_abs_diff": "2E-89",
+      "Z": "7139781485523238273/3077443495526400",
+      "name": "heterogeneous_path_n8"
+    }
+  ],
+  "n12_smoke": {
+    "n": 12,
+    "state_count": 78,
+    "full_events": 4096,
+    "Z": "59244255080670167824998909954413/851312961027809280000000000",
+    "det_I_plus_L": "59244255080670167824998909954413/851312961027809280000000000",
+    "entropy": "8.016446877766049101192628361605617771518371554317588584839654406297372",
+    "leading_minors": [
+      "6/5",
+      "167/100",
+      "40264/15125",
+      "208223401/43560000",
+      "35131774609/3680820000",
+      "82453985106523/7214407200000",
+      "56932191275431/3567564000000",
+      "10591786476970556933/415549854720000000",
+      "27516079318401607568333/600469540070400000000",
+      "17815114266865019249511599/194552130982809600000000",
+      "6423826908922303515030237329/58527766070661888000000000",
+      "4310380426545449690151245797849/28093327713917706240000000000"
+    ],
+    "min_interval_det": "6/5"
+  },
+  "notes": [
+    "Exact atom comparisons are rational equalities.",
+    "Entropy differences use Decimal logarithms and are diagnostic.",
+    "The n=12 smoke uses DP only and is not a Mobius enumeration."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "candidate_threshold": 1e-10,
+  "group_size_cases": [[6, 5], [4, 4, 4], [3, 3, 3, 3]],
+  "logit_radius": 4.0,
+  "output_jsonl": "out/search_smoke.jsonl",
+  "radius_fraction": 0.9,
+  "seed": 2026090803,
+  "spectral_margin": 1e-5,
+  "trials": 120
+}

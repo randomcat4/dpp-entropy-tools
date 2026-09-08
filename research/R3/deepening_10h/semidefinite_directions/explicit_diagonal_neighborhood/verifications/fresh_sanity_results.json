@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "mobius_equals_A_formula": {
+    "n=2": true,
+    "n=3": true,
+    "n=4": true
+  },
+  "diagonal_H2_symbolic_checks": [
+    {
+      "n": 2,
+      "total_p2_zero": true,
+      "log_x_coeffs_zero": true,
+      "log_1_minus_x_coeffs_zero": true,
+      "rational_part_equals_formula": true,
+      "formula": "-457/24",
+      "frob2": "905/196"
+    },
+    {
+      "n": 3,
+      "total_p2_zero": true,
+      "log_x_coeffs_zero": true,
+      "log_1_minus_x_coeffs_zero": true,
+      "rational_part_equals_formula": true,
+      "formula": "-3577/216",
+      "frob2": "109/24"
+    },
+    {
+      "n": 4,
+      "total_p2_zero": true,
+      "log_x_coeffs_zero": true,
+      "log_1_minus_x_coeffs_zero": true,
+      "rational_part_equals_formula": true,
+      "formula": "-683/24",
+      "frob2": "597431/88200"
+    }
+  ],
+  "explicit_radius_samples": [
+    {
+      "n": 2,
+      "a": "1/5",
+      "b": "4/5",
+      "E_norm": "1.5811388300841896659994467722163592668597775696626084134287524263962972193196191E-8",
+      "delta": "0.000012135922330097087378640776699029126213592233009708737864077669902912621359223301",
+      "E_norm_le_delta": true,
+      "D_psd_certificate": [
+        "1",
+        "7/18"
+      ],
+      "H2": "-5.5416666078472260785878987683285816682577490020788141515447094252718496632420148",
+      "minus_2_over_n_frob2": "-1.4722222222222222222222222222222222222222222222222222222222222222222222222222222",
+      "bound_holds": true,
+      "atom_floor_min_p": "1066666671999999/8000000000000000"
+    },
+    {
+      "n": 3,
+      "a": "1/5",
+      "b": "4/5",
+      "E_norm": "1.7598926734952396585655197800821032263432287080975526833134408510654583667164762E-10",
+      "delta": "4.8990008403811376764497349813131074151823717400011216342117049566651678571945455E-8",
+      "E_norm_le_delta": true,
+      "D_psd_certificate": [
+        "rank_one_vvt"
+      ],
+      "H2": "-76.166666670973611116808090277651230442486969124561173615663962162742648647412022",
+      "minus_2_over_n_frob2": "-24.000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "bound_holds": true,
+      "atom_floor_min_p": "384000000009599999950566666673/9600000000000000000000000000000"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "scope": "fresh non-author rational exact-event checks plus analytic proof audit; no author module imported",
+  "hashes": {
+    "script_sha256_in_log": "aad8c8f061ebdfa8793515aa993ed0cd4b61c8fccf34b384ff706d1d61e4a07c",
+    "result_sha256_in_log": "161d4cfe0b67102effb589c64a7dddcef06355cbc783df10d584185b7aef0acc",
+    "script_sha256_actual": "aad8c8f061ebdfa8793515aa993ed0cd4b61c8fccf34b384ff706d1d61e4a07c",
+    "result_sha256_actual": "161d4cfe0b67102effb589c64a7dddcef06355cbc783df10d584185b7aef0acc"
+  },
+  "general_jets": [
+    {
+      "n": 2,
+      "theta": [
+        "1/3",
+        "3/5"
+      ],
+      "atom_polynomials": 4,
+      "all_degree_5_coefficients_zero": true,
+      "degree_4_6_formula_matches": true,
+      "nonzero_degree_4_6_terms": 2
+    },
+    {
+      "n": 3,
+      "theta": [
+        "1/5",
+        "2/5",
+        "4/5"
+      ],
+      "atom_polynomials": 8,
+      "all_degree_5_coefficients_zero": true,
+      "degree_4_6_formula_matches": true,
+      "nonzero_degree_4_6_terms": 7
+    },
+    {
+      "n": 4,
+      "theta": [
+        "1/5",
+        "1/3",
+        "3/5",
+        "3/4"
+      ],
+      "atom_polynomials": 16,
+      "all_degree_5_coefficients_zero": true,
+      "degree_4_6_formula_matches": true,
+      "nonzero_degree_4_6_terms": 16
+    }
+  ],
+  "n3_path": {
+    "theta": [
+      "1/5",
+      "2/5",
+      "4/5"
+    ],
+    "weights": {
+      "A01": "2/5",
+      "A12": "-3/7"
+    },
+    "supported_epsilon2_coefficients": [
+      "-25",
+      "-5625/196"
+    ],
+    "missing_epsilon4_coefficient": "-5625/196"
+  },
+  "n3_disconnected_single_edge": {
+    "theta": [
+      "1/5",
+      "2/5",
+      "4/5"
+    ],
+    "present_edge": [
+      0,
+      1
+    ],
+    "cross_component_test_edge": [
+      0,
+      2
+    ],
+    "atom_polynomials": 8,
+    "all_exact_atom_first_cross_derivatives_zero": true,
+    "all_block_marginals_constant_in_cross_variable": true,
+    "checked_block_events": 6
+  },
+  "n4_p4_endpoint_scout": {
+    "status": "SCOUT_ONLY_ONE_ENTRY_NOT_FULL_HESSIAN",
+    "theta": [
+      "1/5",
+      "1/3",
+      "3/5",
+      "3/4"
+    ],
+    "path_weights": [
+      "1/3",
+      "-2/5",
+      "3/7"
+    ],
+    "missing_edge": [
+      0,
+      3
+    ],
+    "atom_polynomials": 16,
+    "missing_curvature_by_epsilon_power": {
+      "6": "-600/49"
+    }
+  },
+  "counts": {
+    "general_centers": 3,
+    "general_atom_polynomials": 28,
+    "single_edge_atom_polynomials": 8,
+    "long_path_atom_polynomials": 16,
+    "total_atom_polynomials": 52,
+    "random_draws": 0,
+    "failed_checks": 0
+  },
+  "analytic_audit_flags": {
+    "f5_zero": "verified by character parity/orthogonality and by exact rational n=2,3,4 jets",
+    "f6_two_classes": "verified by edge-triple incidence classification and exact rational n=2,3,4 jets",
+    "diameter_two_missing_block": "common-neighbor coefficient -6*w_i*w_j*w_k*A_ik^2*A_jk^2 per witness",
+    "p4_probe": "scout only; not used for general connected support"
+  },
+  "elapsed_seconds": 0.05076479911804199,
+  "script_sha256": "b0b409e064ec19177787d6b4a2d321720a8b364a31b58e46f33a80290855ca8e",
+  "author_comparisons": {
+    "author_exit_code_zero": true,
+    "author_counts_match_log_denominator": true,
+    "fresh_general_atom_total_matches_author": true,
+    "fresh_total_atom_denominator_matches_author": true,
+    "n3_path_coefficients_match_author": true,
+    "p4_missing_curvature_matches_author": true
+  }
+}

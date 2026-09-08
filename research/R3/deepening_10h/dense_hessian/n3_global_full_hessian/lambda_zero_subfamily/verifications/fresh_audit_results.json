@@ -1,0 +1,61 @@
+{
+  "constants": {
+    "LH": "35781360/49",
+    "LH_times_epsilon": "1/6",
+    "core_lower": "130032/326041",
+    "core_lower_float": 0.39882100717394436,
+    "core_lower_gt_one_third": true,
+    "epsilon": "49/214688160",
+    "epsilon_lt_1_over_40": true,
+    "epsilon_lt_q_over_6": true,
+    "q_minus_3epsilon_gt_q_over_2": true
+  },
+  "field_identity_F_times_CU_equals_target": true,
+  "field_identity_entries_checked": 18,
+  "fisher_only_proxy_witness": {
+    "classification": "proxy_bound_failure_only_not_entropy_counterexample",
+    "deltaV": "2.64560249626240926832079033881920273579313597697919141907493039016549891579578551663040493",
+    "r": "1-2^-16",
+    "two_thirds_deltaV": "1.76373499750827284554719355921280182386209065131946094604995359344366594386385701108693662",
+    "two_thirds_deltaV_gt_5_over_4": true
+  },
+  "input_hashes": {
+    "derivation.md": "f0dc43ffd3c90240dcc1ae87fd708e6483d084539d7bf5d7ec3d247fe7381b80",
+    "frozen_problem.md": "23ef7719d08a45da72acd1ee92473724f0625d3799a6e308b0698116185fa176",
+    "proof_or_blocker.md": "5040629574676dcd0af9f4c867651134cf88953ddd0455bc53e85137fcc6d43b",
+    "run_log.md": "0d509e28ad1658ff17022cf7e0123e92535aea8ebed43dbdb80a96588c8827d6",
+    "sanity.json": "44919f4c04807385060c1d27277f9397652b24f64c863e1e4d301a826a1196e0",
+    "sanity.py": "0472bb41b49c0625cd5ae543b854857ca9742b76c7359c5742a823eed8f615ba",
+    "verdict.md": "8a78d4e78e39781eceebf4bea38d4be96cfb4e071ae4e2c6779f118e239313e0"
+  },
+  "kstar_B_frobenius_generalized_eigs": [
+    1.977991365669662,
+    4.657111473522205,
+    4.695289966638243,
+    4.730641384987525,
+    6.707345001339696,
+    7.795356411820974
+  ],
+  "kstar_B_ge_one_third_margin": 1.6446580323363287,
+  "kstar_L_matches_claim": true,
+  "kstar_atom_sum": "1/1",
+  "kstar_atoms": {
+    "()": "7/200",
+    "(0, 1)": "1/8",
+    "(0, 1, 2)": "7/200",
+    "(0, 2)": "43/200",
+    "(0,)": "1/8",
+    "(1, 2)": "1/8",
+    "(1,)": "43/200",
+    "(2,)": "1/8"
+  },
+  "kstar_lambda_ratio_exact": "1/1",
+  "kstar_min_atom": "7/200",
+  "not_checked_in_this_minimal_replay": [
+    "full formal proof of Cauchy classification beyond line-by-line algebra review",
+    "all 15 author sanity points and all 270 author field identities",
+    "independent numerical replay of the eight external-field box corners",
+    "global Lambda-zero positivity outside the explicit Kstar ball"
+  ],
+  "status": "CORRECT_SCOPED_MINIMAL_REPLAY"
+}

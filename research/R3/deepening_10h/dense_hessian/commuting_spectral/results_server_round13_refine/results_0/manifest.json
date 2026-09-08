@@ -1,0 +1,18 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "seed": 2026090840,
+  "centers": 5000,
+  "n": 12,
+  "margin_floor": 0.01,
+  "chunk": 32,
+  "threads": 1,
+  "source_rho_recomputed": 0.5464281988363302,
+  "best_rho_psd": 0.5652087255655611,
+  "best_spectrum_margin": 0.02045757522926528,
+  "best_basis_orthogonality_residual": 4.178942555447918e-15,
+  "positive_count": 0,
+  "accepted_count": 3163,
+  "elapsed_seconds": 1083.2304816246033,
+  "exit_code": 0,
+  "warning": "float64 joint basis/spectrum scout only; freeze and replay any signal"
+}

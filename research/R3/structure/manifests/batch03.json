@@ -1,0 +1,15 @@
+{
+  "out": "batch03",
+  "seed": 2026090805,
+  "trials": 320,
+  "validate": false,
+  "sizes": "[[2,2,2,2,3],[2,2,2,2,2,2],[3,3,3,3,3],[2,3,2,3,2,3]]",
+  "numpy": "2.1.2",
+  "threads": 1,
+  "start": 1788798602.5104153,
+  "status": "INCOMPLETE",
+  "exit_code": 0,
+  "completed": 320,
+  "elapsed": 66.6406946182251,
+  "best_curvature": -3.615488035863335e-05
+}

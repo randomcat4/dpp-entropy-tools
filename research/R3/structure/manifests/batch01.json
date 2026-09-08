@@ -1,0 +1,14 @@
+{
+  "out": "batch01",
+  "seed": 2026090803,
+  "trials": 240,
+  "validate": true,
+  "numpy": "2.1.2",
+  "threads": 1,
+  "start": 1788798544.8446932,
+  "status": "INCOMPLETE",
+  "exit_code": 0,
+  "completed": 240,
+  "elapsed": 2.7113447189331055,
+  "best_curvature": -2.5535812126418616e-08
+}
