@@ -32,5 +32,22 @@ PASS: exact degree 4, 6, 7 entropy coefficients; degree 5 is zero
 
 The public proof `proofs/diagonal_perturbation_neighborhood.md` is a
 consolidation of the reviewed candidate.  Its fixed commit-bound review is
-recorded after the freeze commit.  General strict connected `3 x 3` concavity
-remains open.
+recorded below.  General strict connected `3 x 3` concavity remains open.
+
+## Commit-bound public review
+
+The public consolidation and exact script were frozen in:
+
+```text
+commit 6b73114abc6bc262cc1f5b11413782c69c696627
+tree   87676276f50617c83d6b7e427d238b164dcbc9e1
+
+proof blob  4453c18a9ae5904f543ed1efe96024db31742223
+script blob 2467b2367d5075f16c44f56c5cd66a43f7ec7ccf
+```
+
+Two independent contexts used only `git show` on these fixed objects.  Both
+returned `STATUS: CORRECT`, confirmed that the public proof preserved the
+complete uniform analytic argument and its scope limitations, and replayed
+the script blob with the two `PASS` lines above and exit code `0`.  Neither
+read a same-named working-tree file or modified repository contents.
