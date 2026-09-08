@@ -1,0 +1,45 @@
+{
+  "status": "EXACT_SYMBOLIC_IDENTITIES_PASSED_NOT_GLOBAL_CONCAVITY",
+  "records": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "both_polynomial_identities": true,
+      "absent_square_terms": 6,
+      "present_square_terms": 3
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "both_polynomial_identities": true,
+      "absent_square_terms": 6,
+      "present_square_terms": 3
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "both_polynomial_identities": true,
+      "absent_square_terms": 6,
+      "present_square_terms": 3
+    }
+  ],
+  "atom_mass": true,
+  "first_second_mass": true,
+  "diagonal_rank_one_atom_acceleration_zero": true,
+  "artificial_non_DPP_pair": {
+    "N": "I",
+    "Fisher": "Frobenius identity",
+    "rho": "3/2",
+    "B_on_identity": -3,
+    "claim": "algebraic nonimplication only, not DPP realizability"
+  },
+  "source_sha256": "cc750bf832db9751fb6ce430a1c992c4ba9db52de80c4806b8b53b374b038511",
+  "dependency_sha256": "1b171442be0ffa070cfc535e6b3067ca8f3a13ac0861c717a4129d540d52d347",
+  "exit_code": 0
+}
