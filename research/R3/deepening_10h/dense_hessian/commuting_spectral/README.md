@@ -36,6 +36,10 @@ separate evidence levels:
   proposal ledgered at spectrum margin at least `0.02`. Its independently
   gated best has `rho=0.5745947309` and margin `0.0217108`, only
   `1.22078e-5` below H10 despite being visibly interior.
+- `results_server_round20_interior2/`: a deeper diagnostic with every proposal
+  ledgered at margin at least `0.05`. Its independently gated best still has
+  `rho=0.5729410207` and `H''=-64.3600769391...`; the modest decline is a
+  finite profile observation, not a monotonicity theorem.
 
 The generic fixed-`Q` problem in dimension at least three remains open.  A
 finite search miss is not a concavity theorem, and `rho<1` is not a positive
