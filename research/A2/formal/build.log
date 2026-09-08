@@ -1,0 +1,6 @@
+'A2.A_squared' depends on axioms: [propext]
+'A2.B_squared' depends on axioms: [propext]
+'A2.anticommutes' depends on axioms: [propext]
+'A2.product_nonzero' depends on axioms: [propext]
+'A2.noncommutes' depends on axioms: [propext]
+
