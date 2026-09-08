@@ -186,8 +186,10 @@ r in [-min_e a_e^0,min_e a_e^1],
 s_e in [max(0,-r),min(a_e^0,a_e^1-r)].                (11)
 ```
 
-There is no gap, including when some conditional odds vanish: the relevant
-dual interval then simply collapses.  Moreover, (6) implies that
+There is no gap, including when some conditional odds vanish: the affected
+`s_e` or `t_e` box interval collapses, while the common `r` interval may only
+shorten; (11) remains valid without a limiting argument.  Moreover, (6)
+implies that
 
 ```text
 delta:=a_e^1-a_e^0=-theta123
@@ -223,8 +225,9 @@ G(m+delta)=C+(m+delta)tau-mP.
 ```
 
 Duplicate points are removed in degenerate cases.  Thus (9) is exactly four
-explicit signed quadratic-form comparisons, rather than a residual
-two-dimensional optimization.
+explicit piecewise-quadratic comparisons, rather than a residual
+two-dimensional optimization.  On each fixed sign cone of the three
+`sigma_e`, the four expressions are ordinary quadratic forms in `V`.
 
 No proof of (9) for all strict kernels and directions is known here.  Equations
 (2)--(13) expose the remaining general `3 x 3` obstacle without reviving the

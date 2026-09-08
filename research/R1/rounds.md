@@ -325,9 +325,10 @@ equal.  The dual objective is therefore a concave piecewise-linear function
 with only two interior breakpoints, so its maximum is attained among exactly
 four displayed endpoint/breakpoint values (with duplicates removed).
 
-This collapse is valid when conditional odds vanish and uses the signed
-negative part `sum min(sigma_e,0)`.  It turns the remaining sufficient
-condition into four explicit Fisher-versus-log-odds quadratic comparisons,
-but proves none of those comparisons globally.  A four-object exact rational
-sanity check found no failure and is intentionally not promoted as theorem
-evidence.
+This collapse is valid when conditional odds vanish (the affected edge box
+collapses while the common dual interval may only shorten) and uses the signed negative part
+`sum min(sigma_e,0)`.  It turns the remaining sufficient condition into four
+explicit piecewise-quadratic Fisher-versus-log-odds comparisons, ordinary
+quadratic forms on each fixed `sigma` sign cone, but proves none of those
+comparisons globally.  A four-object exact rational sanity check found no
+failure and is intentionally not promoted as theorem evidence.
