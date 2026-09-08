@@ -276,3 +276,41 @@
   `lambda_min(K)=0.0338924...`、`lambda_max(K)=0.99...`，所以它不是
   奇异核。冻结点/账目为 `CORRECT`，有限批为 `SCOUT`；下一轮降低配置
   地板，专门区分机制改善是否由靠近谱边界驱动。
+
+## Round 24：S5 开邻域的显式 full-Hessian 半径
+
+- 对 S5 的非退化有理 `K_*`，逐事件控制 entropy Hessian 的第三导数，
+  得到 `L=160561104/841`；取
+  `delta=36163/16056110400≈2.25229e-6`，恰有 `L delta=43/100`。
+- 整个闭 Frobenius 球内自动保持 strict，八个事件概率至少
+  `87/2500`，并由 S5 基点的 `43/50` 裕量传递为
+  `H''<=-(43/100)||D||_F^2`，覆盖全部实对称、非对易和不定号方向。
+- 非作者独立重推 signed determinant/Mobius、三阶链式法则、`3/6/6`
+  计数和 Frobenius 界，另验 672 个 event jets 全过。证书为 `CORRECT`；
+  半径保守而非最优，全域仍开放。
+
+## Round 25：对角平坦脊旁积聚着 full-Hessian 负定开区
+
+- U2 的四阶径向式经极化给出完整纯 off-diagonal 四阶张量。对
+  `K=X+epsilon A` 作 Hessian 分块：对角块保持严格负常数，交叉块为
+  `O(epsilon^3)`，若 A 每条边均非零，则 off-diagonal 块有严格负的
+  `O(epsilon^2)` 主项，而 Schur 修正仅 `O(epsilon^6)`。
+- 因而任意严格对角 X、任意全边零对角 A 都存在去心小区间，使每个
+  `X+epsilon A` 的完整 Hessian 严格负定；连续性又在每个点周围给普通
+  开邻域。负定现象由此沿整条对角平坦脊积聚，不是孤立点。
+- 非作者独立检查极化、参数余项、Schur 符号并作 n=2,3,4 多变量
+  Fraction exact-event 验算，判为 `CORRECT`。稀疏 A 的高阶图传播仍待
+  分类，全边前提只称充分条件。
+
+## Round 26：full-Hessian 负定性沿一条非退化有理线连续延伸
+
+- 沿 M8 Section 5 的 `K(t)=K_0+tR`，把完整六坐标
+  `B(t)=-Hess H(K(t))` 写成 exact-event 有理函数与 log 的组合，并用
+  有理 subdivision 和 atanh-series log 区间作逐叶 Gershgorin 认证。
+- 证书覆盖整个 `t∈[-6/25,6/25]`：173 个叶全部通过，最小行裕量约
+  `2.6625753e-4`，atom 下界 `63029/5000000`，谱裕量 `1/25`；整段还
+  保持全连接、异质对角和三异谱。
+- 非作者未导入作者模块而独立重建全部叶和结构判别，结论为 `CORRECT`。
+  `49/200` 与 `1/4` 仅是现有 Gershgorin 证书 blocker；浮点谱仍负，
+  所以不当作反例。该结果把 S5 的单点/小球扩成可见的连续线段，但不
+  推出全域凹性。

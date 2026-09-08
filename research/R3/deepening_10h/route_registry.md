@@ -237,6 +237,20 @@
 - 核验：n=2,3,4 独立 Fraction exact-event/Möbius 与旧均匀 U1 常数均
   通过；审计发现并修复一处 Taylor 展示漏加号，修订复审 `PASS`
 
+### D10-U3/S9：穿孔对角脊旁的 full-Hessian 负定开集
+
+- 状态：`CORRECT`（局部与紧致统一版）/ `INCOMPLETE`（稀疏穿孔分类与全域）
+- 结果：任意严格对角 `X` 与每条非对角边均非零的零对角 A，存在
+  `epsilon_0(X,A)>0`，使所有 `0<|epsilon|<epsilon_0` 的
+  `K=X+epsilon A` 都有完整 `Sym(n)` 负定熵 Hessian；每一点又有普通
+  full-Hessian 负定开邻域，因此这些开区在整条对角平坦脊旁积聚
+- 机制：U2 四阶式极化后，对角块为负常数量级，交叉块为
+  `O(epsilon^3)`，边坐标块的主项为严格负的 `O(epsilon^2)`；Schur
+  修正仅 `O(epsilon^6)`，不改变符号
+- 核验：非作者 n=2,3,4 独立多变量 Fraction 检查 28 个 atoms、全部混合
+  四次项消去与 46 个主导 z-Hessian 项，并补齐定量 Schur 小量条件
+- 边界：全边非零是该主项证明的充分条件，不声称必要；稀疏 A 另行分类
+
 ## D10-S：半正定方向
 
 - 状态：`CORRECT`（twin-pair 子类）/ `OPEN`（一般 PSD/NSD）
@@ -289,6 +303,33 @@
 - 核验：非作者独立检查 atom floor、导数计数、链式法则、`2^n` 求和、
   PSD trace 界及 n=2,3,4 exact sanity
 - 边界：半径极保守，仅为局部定量排除，不含 indefinite 方向或全域结论
+
+### D10-S7：非退化三维 full-Hessian 负定闭球的显式半径
+
+- 状态：`CORRECT`
+- 结果：以 S5 有理核 `K_*` 为中心，取
+  `delta=36163/16056110400≈2.25229e-6`；整个闭 Frobenius 球自动严格
+  可行、八个 exact atoms 至少 `87/2500`，且对全部实对称 D 有
+  `H''_K[D,D]<=-(43/100)||D||_F^2`
+- 机制：逐事件三阶导数给 Hessian Lipschitz 常数
+  `L=160561104/841`，恰有 `L delta=43/100`，从 S5 的 `43/50` 基点
+  裕量传递到整球
+- 核验：非作者重建 signed determinant/Mobius、`3/6/6` 混合导数计数、
+  atom floor 与 Frobenius 算子界，并独立检查 672 个 event jets
+- 边界：半径故意保守，不近似最大负定连通区域；全域问题仍开放
+
+### D10-S8：非退化三维 full-Hessian 负定连续线段
+
+- 状态：`CORRECT`（整段证书）/ `INCOMPLETE`（更大区间与全域）
+- 结果：沿 M8 Section 5 的有理线 `K(t)=K_0+tR`，对整个
+  `t∈[-6/25,6/25]`，K 严格可行、全连接、异质对角、三异谱，且完整
+  `Sym(3)` 熵 Hessian 严格负定，覆盖非对易 PSD/NSD 与不定号方向
+- 机制：把 `B(t)=-Hess H(K(t))` 写成六坐标矩阵，以有理 subdivision、
+  natural-log 区间和逐叶 Gershgorin 严格对角占优封闭连续区间
+- 核验：非作者不导入作者模块，重建 173 个叶区间且 0 失败；最小行
+  裕量约 `2.6625753e-4`，atom 下界 `63029/5000000`，谱裕量 `1/25`
+- 边界：`49/200`、`1/4` 只在当前 Gershgorin 方法上失败，浮点仍负，
+  不是反例；不声称 Frobenius 定量常数或最大区间
 
 共同瓶颈：正事件加速度必须压过 Fisher/JS 损失；同时必须尊重 `K`
 空间仿射性，并把精确事件律与严格可行性纳入证书。
