@@ -54,3 +54,18 @@ sufficient regions, and the separate treatment of the product line.
 The reviewers confirmed that the script checks formal identities with zero
 parameter evaluations.  The global sign `Phi>=0`, the double-edge matrix,
 and general connected `3 x 3` concavity remain open.
+
+## Dimension-sensitive single-edge interval
+
+- fixed commit: `d475ffdcac8018073f2967d874b8359eceb23d0d`
+- tree: `90c6ababe2c8c774e76fd9ba1b14f4328ae2ec32`
+- proof blob: `df223ce67e5048fa502ee778d5ba8c4a24141370`
+- interval-script blob: `0f82f0cfa8d4333dbca98f9168b997ff0fbb3d3d`
+
+Two nonauthor fixed-object reviews returned `STATUS: CORRECT`; both scripts
+replayed with exit code `0`.  Review covered the dimension-sensitive
+determinant jet constant, event/complement Fisher bound, monotonicity in the
+normalized odds, the exact endpoint `rho=25`, and the strict enlargement over
+the previous coefficient test.  An imprecise private-draft sentence about
+`exp(1)<3` was replaced before this fixed commit by an explicit convergent-tail
+comparison.  The region beyond the new coefficient test remains open.
