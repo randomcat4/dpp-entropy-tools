@@ -44,6 +44,14 @@ separate evidence levels:
   least `0.10`. Its independently gated best has `rho=0.5313886644` and
   `H''=-56.1447325358...`; the stronger decline is still only a finite profile,
   not a boundary law.
+- `results_server_round22_interior4/`: every proposal is ledgered at margin at
+  least `0.20`. Its independently reconstructed best has `rho=0.3337720601`
+  and `H''=-45.6559259259...`; the 20,004-row accounting and strict chord were
+  independently audited.
+- `results_server_round23_interior5/`: every proposal is ledgered at margin at
+  least `0.30`. Its independently reconstructed best has `rho=0.1521946045`
+  and `H''=-44.2031294195...`; the 20,004-row accounting and strict chord were
+  independently audited.
 
 The generic fixed-`Q` problem in dimension at least three remains open.  A
 finite search miss is not a concavity theorem, and `rho<1` is not a positive

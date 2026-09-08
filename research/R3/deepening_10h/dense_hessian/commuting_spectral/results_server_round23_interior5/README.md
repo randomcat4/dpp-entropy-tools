@@ -41,4 +41,7 @@ margin `0.30`. Together with H10--H14 this extends the finite attenuation
 profile across the central spectral box. It proves neither monotonicity nor a
 global upper bound.
 
-Independent non-author reconstruction is pending under `audit_nonauthor/`.
+A fresh non-author implementation under `audit_nonauthor/` reconstructed the
+20,004-row accounting, 130-digit exact-event gate, three strict chords, and
+rational LDL feasibility certificate. It returned `SCOUT_CORRECT`: the frozen
+batch is correct, while all profile and global interpretations remain SCOUT.
