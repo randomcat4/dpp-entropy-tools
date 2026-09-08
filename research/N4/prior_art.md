@@ -14,3 +14,14 @@ between rank-one directions. The theorem is an inherited exclusion, not an
 N4 contribution. The same report distinguishes cardinality entropy from
 configuration entropy. No current all-real finite-dimensional resolution was
 established by this limited search.
+
+Additional targeted queries for entropy concavity with radial coupling,
+conditional kernels, and star structures did not establish prior occupancy
+of the precisely stated multi-leaf radial extension. This is not a novelty
+certificate. The conditional-kernel literature returned by those queries
+addresses different statements (for example, completeness of sampled
+reproducing kernels), and must not be cited as an entropy concavity result.
+The actual proof antecedents are the baseline checked two-site theorem and
+A1's single fixed radial-column mechanism. The N4 extension should be valued
+as a scoped auxiliary result unless a separate novelty/importance audit says
+otherwise.

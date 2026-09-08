@@ -1,0 +1,18 @@
+{
+  "run_dir": "/root/i05-successors-20260909/N4/repo/research/N4",
+  "mode": "research",
+  "ok": true,
+  "frozen_versions": [
+    "frozen_theorem_v1.md"
+  ],
+  "proof_count": 1,
+  "verification_count": 1,
+  "verification_statuses": {
+    "correct": 1,
+    "critical_gaps": 0,
+    "other": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "note": "Structure only; mathematical correctness, semantic fidelity, literature status, and novelty are not checked."
+}

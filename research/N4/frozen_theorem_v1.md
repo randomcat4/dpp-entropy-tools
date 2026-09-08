@@ -1,6 +1,6 @@
 # Frozen N4 target v1
 
-Status: frozen by route owner. Proof and review agents may not change premises.
+Status: frozen by route owner. Proof and review agents must not change premises.
 
 ## Objects and intent
 For every integer n >= 4, K and D are real symmetric n by n matrices.

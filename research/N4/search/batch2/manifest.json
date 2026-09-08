@@ -1,0 +1,29 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "pid": 158733,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /root/i05-successors-20260909/N4/venv/bin/python research/N4/search/diamond_gain.py",
+  "source_sha256": "0d92e541fab0ffdc8e5a9d80ff7f78ddc36e05ec3e34da50f155f965bb602fce",
+  "core_sha256": "fb5a5239d1ec0e3ce06d294d9d954d41beb535d8d3dd3c3a497c3456179f5da1",
+  "start_time": 1788891865.9170685,
+  "seed": null,
+  "random_calls": 0,
+  "numpy": "2.5.3",
+  "dimensions": [
+    4
+  ],
+  "threads": 1,
+  "exit_code": 0,
+  "completed": 24,
+  "failures": 0,
+  "counts": {
+    "hessian_calls": 24,
+    "entropy_calls": 456,
+    "polynomial_derivative_calls": 24,
+    "kernel_proposals": 24,
+    "rejected": 0
+  },
+  "max_gain": 0.00046388866138862857,
+  "max_full_curvature": -1.5817996445632444e-10,
+  "candidate_files": [],
+  "elapsed_seconds": 0.11700558662414551
+}
