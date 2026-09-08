@@ -474,8 +474,8 @@
 
 ### D10-U10e：一般交换对称路径与双边界尺度
 
-- 状态：`INCOMPLETE`（全域 `sigma>0`）/ `SCOUT`（高精度网格与双尺度
-  profile；fresh non-author audit 进行中）
+- 状态：`INCOMPLETE`（全域 `sigma>0`）/ `PASS`（解析约化恒等式的 fresh
+  audit）/ `SCOUT`（高精度网格与双尺度 profile）
 - 约化：一般
   `K(x,a)=[[x,a,0],[a,x,a],[0,a,x]]` 的 reflection-odd 块全域严格；
   even 四维块精确缩为单个 Schur 标量 `sigma(x,a)>0`，并以
@@ -486,6 +486,27 @@
 - 双尺度：幂律 `s=x^p` 给 `x sigma->1`，真正有限尺度是
   `s=exp(-beta/x)`；冻结 profile 在 `beta≈0.58` 附近仍为正，但尚未把
   极限函数及一致余项闭成定理
+- 核验：异人从 inclusion determinant 与 Möbius 重建 exact atoms，核对
+  even/odd 交块、odd 严格性、Schur determinant 和 full-atom jet；稳定
+  Sherman--Morrison 与直接 sigma 残差低于 `1e-153`。这些通过项不把
+  `phi(beta)>0` 或全域 `sigma>0` 自动升级为定理
+
+### D10-U10i：指数双尺度的闭式极限
+
+- 状态：`SCOPED_CORRECT`（闭式极限与紧 beta 指数楔形）/
+  `INCOMPLETE`（非紧 `beta(x)` 与全路径域）
+- 闭式：在 `s=exp(-beta/x)`、固定 `beta>0` 下，作者通过受限能量极小
+  而非 profile 拟合得到
+  `phi(beta)=(beta+log2+2)(beta+log2)^4/[2 beta^2(log2)^2]`
+- 正性与尺度：`phi>8(log2+2)>0`，两端发散；唯一极小点
+  `beta≈0.5802776353`、极限最小值约 `26.60376012`。旧 `26.581` 是
+  `x=1e-4` 的有限尺度值，两者已明确区分
+- 连续候选：对每个固定紧 `beta` 区间，候选证明给
+  `sigma=phi+O_J(sqrt(x))`，因而足够小 x 的整片连续指数楔形 full
+  Hessian 严格负定；当 `beta(x)->0` 或无穷时尚无统一余项
+- 核验：异人检查受限能量归一化、trial 的两个精确约束、U8 coercivity、
+  singleton/full-atom forcing 与紧区间量词，并独立复算有限/极限数值；
+  未发现 scoped 证明缺口，且明确拒绝向非紧 beta 或全路径外推
 
 ### D10-U10f：交换三角形族的 S3 约化
 
@@ -501,10 +522,25 @@
   `+6.98e-13`；12/12 个冻结 warning 编码又由有理 log 区间严格证正，
   定位为大尺度消去误差而非仅凭阈值丢弃
 
+### D10-U10h：交换三角形四条谱边界带
+
+- 状态：`PASS`（秩一 Fisher 恒等式与四条紧横截边界带）/
+  `INCOMPLETE`（角点、分离的紧中区与全域）/ `SCOUT`（86 点）
+- 结构：二维 invariant Fisher 恰为
+  `diag(u,2v)-kappa(u,-v)(u,-v)^T`，熵加速度只含两个 odds 对数；异人
+  精确核对了 beta 重数导致的 factor 2 与 `n_beta/n_alpha` 的放置
+- 边界定理：横向变量限制在任意 `[r,1-r]` 后，四条谱边界都有统一
+  内邻域 full `Sym(3)` 严格负定；两个基本极限为
+  `alpha Delta_T -> beta^2[2/(beta(1-beta))-2log(4/3)]` 与
+  `beta Delta_T -> 2/(1-alpha)`，另两条由 complement 而非交换参数得到
+- 阻断：`alpha<->beta` 不是熵对称，`C_ab>=0` 也在 `beta->0` 整条路径上
+  失败；正的 `C_bb` 极点仍使 determinant 为正。四角双尺度和中区全局
+  log 不等式仍未闭合
+
 ### D10-U10g：连通 Lambda-zero 子流形
 
-- 状态：`INCOMPLETE`（全域）/ `PROOF_CANDIDATE`（结构恒等式与显式球，
-  fresh non-author audit 进行中）/ `SCOUT`（15 个有理点）
+- 状态：`CORRECT_SCOPED_MINIMAL_REPLAY`（结构恒等式、显式球与外场盒）/
+  `INCOMPLETE`（全域）/ `SCOUT`（作者 15 个有理点）
 - 参数化候选：经 sign gauge，连通 `Lambda=0` 等价于正加权 Cauchy
   `L_ij=w_iw_j/(z_i+z_j)`，`z_i` 两两不同；对角 external-field tilting
   保持该子流形，因而它具有真正三参数连续结构
@@ -512,8 +548,10 @@
   Hessian 等价于一个显式 `3x3` Schur 矩阵 `T>0`；丢弃该修正的
   Fisher-only 充分条件在中心路径边界发散，因此不是可行全域捷径
 - 显式候选：围绕 `K(1/2,3/10)` 的 Frobenius 半径
-  `49/214688160≈2.28238e-7` 球内，作者证明候选给所有
-  `D∈Sym(3)` 的 `B(D,D)>=||D||_F^2/6`；结论等待异人逐项核验
+  `49/214688160≈2.28238e-7` 球内，对所有 `D∈Sym(3)` 有
+  `B(D,D)>=||D||_F^2/6`；异人以 exact Fraction/90 位重建 Kstar、18 个
+  Fisher-field 条目、基点谱下界和全部半径常数，并验证三参数外场盒确实
+  落入该球。完整 15 点账本未复跑，不影响解析球证书的限定结论
 
 ## D10-S：半正定方向
 

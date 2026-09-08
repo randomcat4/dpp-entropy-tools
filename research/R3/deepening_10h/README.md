@@ -354,7 +354,9 @@ Hessian 特征值”，但它们都沿着被压到近零的跨块耦合坐标；
     `c=2a²/x²` 把半域矩形化。`c→0` 极限至少为 4；`c=1-s` 时唯一
     full atom 为 `x³s`，Fisher 的正 rank-one 极点迫使危险方向切向该
     atom。幂律 `s=x^p` 仍使 `sigma→∞`，真正有限尺度是
-    `s=exp(-beta/x)`。当前 profile 为正，但极限函数及一致余项仍待闭合。
+    `s=exp(-beta/x)`。异人已重建 exact atoms、分块、Schur 与 full-atom
+    pole，并确认稳定公式和有限 profile 自洽；但极限函数及一致余项仍待
+    闭合，故全域依旧 `INCOMPLETE`。
 39. **交换三角形族的四个方向已被解析消去。** 对 `K=xI+a(J-I)`，S3
     把完整六维 Hessian 分成二维 invariant 块和四维 standard 块；后者
     对所有 strict `a!=0` 自动严格正。全域只剩一个显式二维 log 行列式。
@@ -362,12 +364,27 @@ Hessian 特征值”，但它们都沿着被压到近零的跨块耦合坐标；
     `-4.55e-13` 经两种输入精确化均为约 `+6.98e-13`，12 个有理 log
     区间证书也全正，明确属于大尺度消去误差。
 40. **连通 `Lambda=0` 已显出高维连续结构而非孤点。** 经 sign gauge，
-    作者候选把全部连通核参数化为加权 Cauchy
+    限定核验通过的结构把全部连通核参数化为加权 Cauchy
     `L_ij=w_iw_j/(z_i+z_j)`；外场 tilting 精确保留 `Lambda=0`，并把
     full-Hessian 问题缩为保留条件信息的 `3x3` Schur 门。围绕
     `K(1/2,0.3)` 的显式半径 `49/214688160` 球内候选下界为
-    `B>=||D||_F²/6`，且含三参数稠密外场盒；该新半径和参数化正在接受
-    非作者审计，全子流形仍 `INCOMPLETE`。
+    `B>=||D||_F²/6`，且含三参数稠密外场盒。异人用 exact Fraction 与
+    90 位全 Hessian 最小复放核验 Kstar、18 个 field identity 和全部
+    半径常数；全子流形仍 `INCOMPLETE`。
+41. **交换三角形的四条谱边界已从采样升级为统一邻域定理。** 二维
+    Fisher 精确写成 complete-data 对角项减一个 missing-information
+    rank-one 项。对任意横向紧区间 `[r,1-r]`，`alpha` 或 `beta` 趋近
+    0/1 的四条边都存在统一内邻域，其中完整 `Sym(3)` Hessian 严格负定；
+    关键正规化 determinant 极限均严格为正。异人核对 factor 2、odds
+    对数放置、complement 和统一余项后通过。四角双尺度及分离紧中区仍
+    开放，所以这不是整个交换三角形域的定理。
+42. **一般对称路径最危险的指数双尺度已有闭式正极限和紧参数楔形。** 令
+    `s=exp(-beta/x)`，作者从 Schur 标量的受限能量极小推出
+    `phi=(beta+log2+2)(beta+log2)^4/[2beta²(log2)²]`，并证明
+    `phi>8(log2+2)`、两端发散、唯一极小值约 `26.60376012`。进一步的
+    一致 `O_J(sqrt x)` 余项给每个紧 beta 区间一整片连续指数楔形，而非
+    离散射线。异人已核对受限极小、coercivity、forcing 与量词，判定该
+    限定结论 `SCOPED_CORRECT`；`beta(x)->0/∞` 与全路径仍开放。
 
 ## 已独立核验的连续区间证书
 

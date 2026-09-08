@@ -1,4 +1,4 @@
-# n=3 full-Hessian program: U8 and U10a–g
+# n=3 full-Hessian program: U8 and U10a–i
 
 **Global status: INCOMPLETE.** This directory studies Shannon entropy of all
 eight exact events of a real symmetric strict DPP kernel, `0<K<I`.
@@ -37,9 +37,11 @@ uniform bound `ρ≤c<1` can hold over the whole connected strict domain.
 | **U10b — information** | **CORRECT_SCOPED:** ridge/Bessel equivalence and a Fisher-only shortcut blocker; no global energy bound constructed. | [Reformulation](scalar_information/proof_or_blocker.md), [non-author audit](scalar_information/audit_nonauthor/verdict.md) |
 | **U10c — falsification** | **SCOUT after fresh repair recheck:** corrected p0 jet; 445 reconstructed attempts, 444 strict valid points, one exact rejection, zero credible `ρ>1`. | [Fresh recheck](scalar_falsification/fresh_repair_audit/verdict.md), [results](scalar_falsification/fresh_repair_audit/results.json) |
 | **U10d — symmetric paths** | **CORRECT for the centered full-Hessian theorem:** `K(1/2,a)` for every `0<8a²<1`. General `K(x,a)`: **INCOMPLETE**. | [Proof](symmetric_path_subfamily/derivation.md), [non-author audit](symmetric_path_subfamily/audit_nonauthor/verdict.md) |
-| **U10e — general symmetric path** | Reflection-odd strictness and reduction of the even block to one scalar `σ(x,a)`; boundary/double-scale analysis is **author-side INCOMPLETE/SCOUT**, with fresh audit pending. | [General reduction](symmetric_path_global/derivation.md), [full-atom boundary](symmetric_path_global/boundary_full_atom/analysis.md) |
+| **U10e — general symmetric path** | Fresh audit passes the reflection split, scalar `σ(x,a)` reduction, full-atom pole and stable Schur identities. Boundary profiles remain **SCOUT** and global `σ>0` is **INCOMPLETE**. | [General reduction](symmetric_path_global/derivation.md), [fresh audit](symmetric_path_global/audit_nonauthor/verdict.md) |
 | **U10f — exchangeable triangle** | **CORRECT, scoped:** exact `S3` split, automatic strictness on the four-dimensional standard block, and a punctured-diagonal compact-neighborhood theorem. The full two-parameter determinant inequality is **INCOMPLETE**. | [Reduction](exchangeable_triangle_subfamily/proof_or_blocker.md), [fresh audit](exchangeable_triangle_subfamily/fresh_audit.md) |
-| **U10g — connected `Λ=0`** | Weighted-Cauchy `L` parameterization, exact field-score identities, a retained `3×3` Schur gate, and an explicit full-Hessian ball are **proof candidates pending fresh audit**; the whole submanifold is **INCOMPLETE**. | [Derivation](lambda_zero_subfamily/derivation.md), [explicit neighborhood](lambda_zero_subfamily/proof_or_blocker.md) |
+| **U10g — connected `Λ=0`** | **CORRECT_SCOPED:** a minimal fresh replay passes the structural identities and the explicit full-Hessian ball/external-field box. The whole submanifold is **INCOMPLETE**. | [Derivation](lambda_zero_subfamily/derivation.md), [fresh audit](lambda_zero_subfamily/verifications/fresh_audit.md) |
+| **U10h — exchangeable edges** | Fresh audit passes the rank-one Fisher identity and four compact-transverse spectral-boundary strips with full `Sym(3)` strictness. Corners and the separated middle remain **INCOMPLETE**. | [Boundary proof](exchangeable_triangle_global_attempt/proof_or_blocker.md), [fresh audit](exchangeable_triangle_global_attempt/audit_nonauthor/verdict.md) |
+| **U10i — exponential path corner** | **SCOPED_CORRECT:** closed limit `φ(β)>0` and compact-`β` exponential wedges. Noncompact `β(x)` regimes/full path remain **INCOMPLETE**. | [Limit proof](symmetric_path_global/boundary_exponential_limit/proof_candidate.md), [fresh audit](symmetric_path_global/boundary_exponential_limit/audit_nonauthor/verdict.md) |
 
 The linked non-author reports determine reviewed scope; older author notes
 may retain their pre-review “pending” labels. Same-author self-review is not
@@ -85,12 +87,13 @@ near-threshold count **69**, and distinguishes 15 top-float attempts from
   representation block is settled.  The remaining global question is exactly
   positivity of the explicit `2×2` invariant-block determinant
   `Delta_T(alpha,beta)`.  Compact punctured neighborhoods of the disconnected
-  diagonal are proved; the rest of the square is open.
+  diagonal and four compact-transverse inner spectral-boundary strips are
+  proved; simultaneous corner approaches and the separated middle are open.
 - **Connected `Lambda=0`:** after sign gauge, the candidate Cauchy
   parameterization is `L_ij=w_iw_j/(z_i+z_j)`.  The full-Hessian question is
-  reduced to a retained `3×3` Schur gate.  An explicit small ball around the
-  centered path blocker is author-proved and awaiting independent review; no
-  global sign over this submanifold is claimed.
+  reduced to a retained `3×3` Schur gate.  A minimal fresh replay validates the
+  explicit small ball around the centered path blocker and its three-parameter
+  external-field box; no global sign over this submanifold is claimed.
 
 For replay files and older U8 data, see [artifact navigation](ARTIFACTS.md).
 Finite non-hits anywhere in this directory are not global concavity proofs.

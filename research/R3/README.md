@@ -58,6 +58,8 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
 
 三维一般问题现在精确缩为一个 rank-one 标量门；中心交换对称路径已在
 完整六维方向上证明严格负定并带开厚化，交换三角形族又缩为单个二维
-log 行列式，连通 `Lambda=0` 族显出加权 Cauchy/外场连续结构。它们说明
-目前找到的“特异点”实际属于曲线、子流形及环境开邻域；但全三维标量门
-和一般实对称反例目标仍为 `INCOMPLETE`，详见该目录 README。
+log 行列式并证明四条紧横截谱边界带，连通 `Lambda=0` 族显出加权
+Cauchy/外场连续结构。一般对称路径的指数双尺度还得到经限定核验的显式
+正极限及紧 beta 参数楔形。它们说明目前找到的“特异点”实际属于曲线、子流形及环境
+开邻域；但全三维标量门和一般实对称反例目标仍为 `INCOMPLETE`，详见
+该目录 README。
