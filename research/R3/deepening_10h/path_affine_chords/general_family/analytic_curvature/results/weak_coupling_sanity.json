@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "purpose": "deterministic sanity for the analytic small-coupling theorem; not a finite global proof",
+  "jet_module": "research\\R3\\deepening_10h\\path_affine_chords\\general_family\\jet_hessian\\jet_hessian.py",
+  "diagonal_cases": [
+    {
+      "n": 3,
+      "H2_formula": -4.356285448075483,
+      "H2_jet": -4.3562854480755,
+      "absolute_error": 1.687538997430238e-14
+    },
+    {
+      "n": 5,
+      "H2_formula": -4.445606495007726,
+      "H2_jet": -4.445606495007766,
+      "absolute_error": 3.9968028886505635e-14
+    },
+    {
+      "n": 8,
+      "H2_formula": -4.382861681073145,
+      "H2_jet": -4.382861681073145,
+      "absolute_error": 0.0
+    },
+    {
+      "n": 12,
+      "H2_formula": -4.40955679238054,
+      "H2_jet": -4.409556792380547,
+      "absolute_error": 7.105427357601002e-15
+    }
+  ],
+  "diagonal_max_abs_error": 3.9968028886505635e-14,
+  "small_coupling_cases": [
+    {
+      "n": 3,
+      "eps": 0.0001,
+      "H2_beta0_formula": -4.356285448075483,
+      "H2_small_beta_jet": -4.356285473763345,
+      "difference_from_beta0": -2.5687861615608654e-08,
+      "negative": true
+    },
+    {
+      "n": 3,
+      "eps": 0.001,
+      "H2_beta0_formula": -4.356285448075483,
+      "H2_small_beta_jet": -4.356288016867653,
+      "difference_from_beta0": -2.5687921700878746e-06,
+      "negative": true
+    },
+    {
+      "n": 3,
+      "eps": 0.01,
+      "H2_beta0_formula": -4.356285448075483,
+      "H2_small_beta_jet": -4.356542377905374,
+      "difference_from_beta0": -0.00025692982989067303,
+      "negative": true
+    },
+    {
+      "n": 5,
+      "eps": 0.0001,
+      "H2_beta0_formula": -4.445606495007726,
+      "H2_small_beta_jet": -4.4456065301704975,
+      "difference_from_beta0": -3.516277136128565e-08,
+      "negative": true
+    },
+    {
+      "n": 5,
+      "eps": 0.001,
+      "H2_beta0_formula": -4.445606495007726,
+      "H2_small_beta_jet": -4.445610011300067,
+      "difference_from_beta0": -3.516292340854932e-06,
+      "negative": true
+    },
+    {
+      "n": 5,
+      "eps": 0.01,
+      "H2_beta0_formula": -4.445606495007726,
+      "H2_small_beta_jet": -4.4459582665425685,
+      "difference_from_beta0": -0.00035177153484244883,
+      "negative": true
+    },
+    {
+      "n": 8,
+      "eps": 0.0001,
+      "H2_beta0_formula": -4.382861681073145,
+      "H2_small_beta_jet": -4.382861724177952,
+      "difference_from_beta0": -4.310480772318215e-08,
+      "negative": true
+    },
+    {
+      "n": 8,
+      "eps": 0.001,
+      "H2_beta0_formula": -4.382861681073145,
+      "H2_small_beta_jet": -4.38286599158036,
+      "difference_from_beta0": -4.310507215166126e-06,
+      "negative": true
+    },
+    {
+      "n": 8,
+      "eps": 0.01,
+      "H2_beta0_formula": -4.382861681073145,
+      "H2_small_beta_jet": -4.383292998913447,
+      "difference_from_beta0": -0.00043131784030236986,
+      "negative": true
+    },
+    {
+      "n": 12,
+      "eps": 0.0001,
+      "H2_beta0_formula": -4.40955679238054,
+      "H2_small_beta_jet": -4.40955682032851,
+      "difference_from_beta0": -2.7947970160369096e-08,
+      "negative": true
+    },
+    {
+      "n": 12,
+      "eps": 0.001,
+      "H2_beta0_formula": -4.40955679238054,
+      "H2_small_beta_jet": -4.409559587202436,
+      "difference_from_beta0": -2.794821895690802e-06,
+      "negative": true
+    },
+    {
+      "n": 12,
+      "eps": 0.01,
+      "H2_beta0_formula": -4.40955679238054,
+      "H2_small_beta_jet": -4.409836517047028,
+      "difference_from_beta0": -0.00027972466648762406,
+      "negative": true
+    }
+  ],
+  "small_coupling_all_negative": true,
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

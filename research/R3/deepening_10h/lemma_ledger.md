@@ -39,6 +39,25 @@
   Decimal/value-only 弦、精确 LDL 和完整 4608 次种子重放核验。
 - 边界：修正扫描无正号是 `SCOUT`，不推出全族凹性。
 
+## L-B4：fixed-beta 路径族的弱耦合统一负曲率
+
+- 陈述：固定 `n`、`0<a<b<1` 与
+  `0<eta<1/a-1/b`，存在 `epsilon(n,a,b,eta)>0`，使全部
+  `tau in [a,b]^n` 且 `|1/tau_1-1/tau_n|>=eta`、全部非零小耦合
+  sign chamber 以及全部方向同时满足 `nabla_tau^2 H<=-2I`；对应的
+  `L` 为严格正定、图连通且异质的三对角路径核。
+- 状态：`CORRECT`；首轮非作者审查否决了错误的严格 `-4` 表述，修订稿
+  补全等号条件、eta 非空范围和图连通/参数分量区别后通过第二轮复审。
+- 边界：这是定性弱耦合区域，不给 sharp epsilon，也不覆盖任意 beta。
+
+## L-B5：路径曲率的 Fisher--残差分解
+
+- 陈述：令 `ell=log det L_S`、`A=ell'`、`B=ell''`，则
+  `H''=-Var(A)-Cov(ell,B)-E[(ell-Eell)(A-EA)^2]`；后两项组成全局
+  翻号所需的唯一残差。
+- 状态：`CORRECT`；解析微分与独立 exact-event 算术核验一致。
+- 边界：残差尚无统一上界，故一般 fixed-beta 路径族仍 `OPEN`。
+
 ## L-C1：弦 gap 的互信息分解
 
 - 陈述：`Delta_E=Delta_A+Delta_B+I_0-(I_-+I_+)/2`。
