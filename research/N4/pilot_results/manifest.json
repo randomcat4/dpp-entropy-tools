@@ -1,0 +1,29 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "pid": 157823,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "baseline": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "seed": null,
+  "deterministic": true,
+  "threads": 1,
+  "command": "python research/N4/pilot.py --out research/N4/pilot_results",
+  "source_sha256": "a0f97256a985f71ffedecf2c0fdeb09ad7d9e5b712d25c6391d61946fe69489e",
+  "baseline_source_sha256": "e4802aa48876202d1ba48f6abc0aac5d6e8fac18787efacbc9994c20dd1f73bf",
+  "start_unix": 1788891371.5786994,
+  "exit_code": 0,
+  "completed_kernels": 36,
+  "actual_hessian_calls": 37,
+  "actual_chords": 108,
+  "event_rows": 576,
+  "gauge_classes": {
+    "K4": 8,
+    "diamond": 4
+  },
+  "elapsed_seconds": 0.045781850814819336,
+  "largest_curvature": -0.0003775804243707932,
+  "largest_ratio": 0.26671853457306155,
+  "largest_gap": -4.69876908670841e-06,
+  "positive_curvatures": 0,
+  "warning": "Finite float scout only. No universal exclusion or strict certificate."
+}
