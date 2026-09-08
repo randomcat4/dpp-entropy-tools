@@ -52,6 +52,13 @@ separate evidence levels:
   least `0.30`. Its independently reconstructed best has `rho=0.1521946045`
   and `H''=-44.2031294195...`; the 20,004-row accounting and strict chord were
   independently audited.
+- `results_server_round24_interior6/`: every proposal is ledgered at margin at
+  least `0.40`. Its independently reconstructed best has `rho=0.03861710868`
+  and `H''=-41.5919048132...`; all 20,004 rows, three strict chords, and exact
+  rational feasibility certificates passed a fresh audit.  Across H10--H16
+  the recorded finite profile is
+  `0.574607, 0.574595, 0.572941, 0.531389, 0.333772, 0.152195, 0.038617`.
+  This is a descriptive scout profile, not a monotonicity or global theorem.
 
 The generic fixed-`Q` problem in dimension at least three remains open.  A
 finite search miss is not a concavity theorem, and `rho<1` is not a positive

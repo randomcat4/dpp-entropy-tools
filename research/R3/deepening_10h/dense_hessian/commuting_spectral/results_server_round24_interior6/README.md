@@ -42,4 +42,16 @@ at margin `0.40`. Together with H10--H15 this completes a finite profile from
 the near-boundary region into the central spectral box. It proves neither
 monotonicity nor a global upper bound.
 
-Independent non-author reconstruction is pending under `audit_nonauthor/`.
+The fresh non-author audit under `audit_nonauthor/` independently checked all
+20,004 ledger rows and rebuilt the strongest case at 160-digit precision.  It
+obtained
+
+```text
+rho = 0.0386171086828367035336126216976...
+H'' = -41.5919048131766516073319767526...
+```
+
+Three actual chords were negative, and exact-rational LDL certificates proved
+the PSD direction and the requested endpoint margins.  The audited status is
+still `SCOUT`: the finite run is internally consistent, but it is neither seed
+regeneration nor a theorem about the whole spectral box.
