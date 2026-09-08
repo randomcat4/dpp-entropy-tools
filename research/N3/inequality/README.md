@@ -31,3 +31,25 @@ the positive residual `R_k`, not a full-direction `Q_k` dominance claim.
 
 Command, version, seed, and exit-status records are in
 [`command_log.md`](command_log.md).
+
+The second proved sublemma is in
+[`optimizer_sherman_morrison_lemma.md`](optimizer_sherman_morrison_lemma.md).
+It gives the exact Sherman-Morrison formula for the true trace-constrained
+optimiser of
+
+```text
+A = F2 + det(N)G + v v^T,
+v(D)=Lambda'[D]/sqrt(Z),
+```
+
+and isolates the real remaining obligation: if `H=F2+det(N)G` has trace-mode
+deficit `alpha-1/det(N)>0`, the rank-one Lambda score closes it exactly when
+
+```text
+beta^2/(1+gamma) >= alpha - 1/det(N).
+```
+
+The same lemma proves that the true `A` optimiser suppresses the normalised
+`Lambda'` score relative to the `H`-only optimiser.  This does not prove the
+frozen inequality; it turns the next step into a concrete DPP alignment
+bound rather than another rho restatement.
