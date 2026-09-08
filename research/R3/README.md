@@ -41,4 +41,6 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
 后续证明、独立核验、精确路径族、一般 Hessian 机制诊断和连续区间证书
 集中在 `deepening_10h/`。目前最清楚的结构结论是：固定块耦合被全局
 排除；均匀核的二阶平坦方向实际四阶严格向下；路径稀疏 `L` 已有任意维
-精确 K-仿射闭包。原始正 gap 目标仍为 `INCOMPLETE`，详见该目录 README。
+精确 K-仿射闭包和经 exact-event 核验的 `O(n^2)` 二阶递推。一次 n=93
+巨大正曲率已被完整追到 `Z^-3` 浮点下溢，并由高精度实际弦否决，而不是
+笼统归为舍入噪声。原始正 gap 目标仍为 `INCOMPLETE`，详见该目录 README。

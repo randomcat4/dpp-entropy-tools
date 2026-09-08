@@ -30,6 +30,15 @@
   为 SPD connected 三对角路径核，方向秩等于 tau 支撑大小。
 - 状态：`CORRECT`。
 
+## L-B3：路径熵二阶 selected-run 递推
+
+- 陈述：在 fixed-beta 族的 $\tau(t)=\tau_0+t\delta$ 线上，可由区间
+  continuant jets 与 selected-run DP 在 $O(n^2)$ 时间计算 $H,H',H''$；
+  最后的 $T/Z$ 必须用稳定商递推，不能显式形成 `Z^-3`。
+- 状态：`CORRECT`；非作者以 n=5 精确有理 Möbius Hessian、n=93
+  Decimal/value-only 弦、精确 LDL 和完整 4608 次种子重放核验。
+- 边界：修正扫描无正号是 `SCOUT`，不推出全族凹性。
+
 ## L-C1：弦 gap 的互信息分解
 
 - 陈述：`Delta_E=Delta_A+Delta_B+I_0-(I_-+I_+)/2`。
