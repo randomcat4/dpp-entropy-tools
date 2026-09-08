@@ -1,0 +1,156 @@
+{
+  "status": "CORRECT",
+  "scope": "non-author audit of S7 transfer proof, conditional on previously verified S5 full-Hessian input",
+  "constants": {
+    "q": "87/1250",
+    "m": "87/2500",
+    "L": "160561104/841",
+    "delta": "36163/16056110400",
+    "delta_decimal": "0.000002252288947888649295784612941",
+    "delta_choices": [
+      "1/10",
+      "29/2500",
+      "36163/16056110400"
+    ],
+    "L_delta": "43/100",
+    "q_minus_3delta": "9311639957/133800920000",
+    "spectral_lower_bound": "3211185917/16056110400",
+    "spectral_upper_bound": "11399874547/16056110400",
+    "exp4_partial_lower": "103/3"
+  },
+  "base": {
+    "atoms": [
+      "87/1250",
+      "4159/35000",
+      "4099/35000",
+      "5631/35000",
+      "3999/35000",
+      "2803/17500",
+      "5591/35000",
+      "497/5000"
+    ],
+    "eigenvalues": [
+      "1/5",
+      "7/10",
+      "71/100"
+    ],
+    "hessian_sanity": {
+      "coordinate_Hessian_float": [
+        [
+          -4.174521733611832,
+          -0.01289759487523534,
+          -0.012017936954466242,
+          -0.007273541862265071,
+          -0.012739029397904084,
+          -0.022864497851033803
+        ],
+        [
+          -0.01289759487523534,
+          -4.168865117497258,
+          -0.01153382555648668,
+          -0.009062162229183211,
+          -0.02283231767288403,
+          -0.017382735514815235
+        ],
+        [
+          -0.012017936954466242,
+          -0.01153382555648668,
+          -4.159585898629368,
+          -0.022813340966772604,
+          -0.017158178014792816,
+          -0.020020057152991395
+        ],
+        [
+          -0.007273541862265071,
+          -0.009062162229183211,
+          -0.022813340966772604,
+          -3.260145842311838,
+          -0.6371630321056158,
+          -0.6447465256683276
+        ],
+        [
+          -0.012739029397904084,
+          -0.02283231767288403,
+          -0.017158178014792816,
+          -0.6371630321056158,
+          -3.1478789250613084,
+          -0.6574549954544571
+        ],
+        [
+          -0.022864497851033803,
+          -0.017382735514815235,
+          -0.020020057152991395,
+          -0.6447465256683276,
+          -0.6574549954544571,
+          -3.0824763621454863
+        ]
+      ],
+      "frob_orthonormal_eigenvalues_float": [
+        -4.193743459777824,
+        -4.158735276026037,
+        -4.151201160463633,
+        -2.2286484229911823,
+        -1.2895466136115992,
+        -1.226348381627505
+      ],
+      "max_eigenvalue_float": -1.226348381627505,
+      "max_eigenvalue_below_minus_43_over_50": true,
+      "coordinate_minus_H_gershgorin_lower_float": [
+        4.106729132670927,
+        4.095156481648654,
+        4.076042559983859,
+        1.9390872394796739,
+        1.8005313724156546,
+        1.7200075505038612
+      ],
+      "min_coordinate_gershgorin_lower_float": 1.7200075505038612
+    }
+  },
+  "independent_sample_jets": {
+    "perturbation_directions": 6,
+    "boundary_points": 12,
+    "directions_per_point": 7,
+    "mixed_jet_cases": 84,
+    "event_jet_checks": 672,
+    "failures": [],
+    "max_abs_H3_over_bound": "0.000067300276898246817278004682846364912812910176334064379195269191680693014865071346",
+    "min_sample_H2_plus_43_over_100_D2": "-5.9753002331567029353302802397306749225437167165725185557886292049152436906082953",
+    "max_sample_H2_plus_43_over_100_D2": "-0.55560925023779481985395724702219355585027934486730081164875570256569412367238655"
+  },
+  "author_sanity": {
+    "script_sha256": "4d22c13059f3e19d13e83f3c0a46101293629cd13a966b73e9763ef446618941",
+    "result_sha256": "e0ef92ca240a6076167d06bfb8ec036f08f2c71cb68d986f95e45a445d1d4ebf",
+    "run_log_script_hash_match": true,
+    "run_log_result_hash_match": true,
+    "counts": {
+      "base_atom_checks": 8,
+      "perturbed_kernels": 12,
+      "directions_per_kernel": 4,
+      "mixed_jet_cases": 48,
+      "exact_atom_jet_checks": 384,
+      "failed_checks": 0,
+      "random_draws": 0
+    },
+    "exit_code": 0
+  },
+  "exact_checks": {
+    "L_exact": true,
+    "delta_exact": true,
+    "delta_loss_exact": true,
+    "strict_radius_exact": true,
+    "atom_floor_exact": true,
+    "exp4_log_bound_exact": true,
+    "base_atoms_exact": true,
+    "base_atom_min_exact": true,
+    "base_atom_sum_exact": true,
+    "signed_det_identity_base": true,
+    "eigen_roots_exact": true,
+    "sample_jet_checks": true,
+    "author_sanity_counts_match": true,
+    "author_hashes_match_run_log": true,
+    "base_hessian_float_sanity": true
+  },
+  "audit_script_sha256": "1abf4879fbe4ec403f470161c4a751962f1630b3b75f8fb73416a456a495d04e",
+  "elapsed_seconds": 0.3260948657989502,
+  "exit_code": 0
+}
