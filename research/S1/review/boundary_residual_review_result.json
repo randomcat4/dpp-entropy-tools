@@ -80,7 +80,8 @@
     }
   ],
   "cases_checked": 4,
-  "command": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\children\\review\\repo\\research\\S1\\review\\boundary_residual_review.py --candidate C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\repo\\research\\S1\\baseline_candidate.json --boundary-json C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\repo\\research\\S1\\main\\boundary_residual_M64.json --out C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\children\\review\\repo\\research\\S1\\review\\boundary_residual_review_result.json",
+  "command": "python research/S1/review/boundary_residual_review.py --candidate <author:a988:research/S1/baseline_candidate.json> --boundary-json <author:a988:research/S1/main/boundary_residual_M64.json> --out research/S1/review/boundary_residual_review_result.json",
+  "command_record_note": "absolute local paths sanitized after the recorded run; PID, exit status, versions, hashes, coverage, and recomputed rational results unchanged",
   "coverage": {
     "corner": "all reported m by m corner entries recomputed exactly",
     "residual_entries": "all reported residual rows and columns for each case",

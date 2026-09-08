@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "actual_hash_checks": 19,
+  "negative_rational_gaps_checked": 2,
+  "checks": [
+    {
+      "output": "main/boundary_residual_result.json",
+      "field": "source_sha256",
+      "source": "main/boundary_residual.py",
+      "ok": true
+    },
+    {
+      "output": "main/boundary_residual_result.json",
+      "field": "candidate_sha256",
+      "source": "baseline_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/boundary_residual_M64.json",
+      "field": "source_sha256",
+      "source": "main/boundary_residual.py",
+      "ok": true
+    },
+    {
+      "output": "main/boundary_residual_M64.json",
+      "field": "candidate_sha256",
+      "source": "baseline_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/baseline_result.json",
+      "field": "source_sha256",
+      "source": "main/baseline_unit.py",
+      "ok": true
+    },
+    {
+      "output": "main/baseline_result.json",
+      "field": "candidate_sha256",
+      "source": "baseline_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/phase_boundary_M64.json",
+      "field": "source_sha256",
+      "source": "main/boundary_residual.py",
+      "ok": true
+    },
+    {
+      "output": "main/phase_boundary_M64.json",
+      "field": "candidate_sha256",
+      "source": "main/phase_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/phase_variational_M64.json",
+      "field": "source_sha256",
+      "source": "main/variational_boundary.py",
+      "ok": true
+    },
+    {
+      "output": "main/phase_variational_M64.json",
+      "field": "input_sha256",
+      "source": "main/phase_boundary_M64.json",
+      "ok": true
+    },
+    {
+      "output": "main/phase_variational_M64.json",
+      "field": "candidate_sha256",
+      "source": "main/phase_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/rational_rate_n8.json",
+      "field": "source_sha256",
+      "source": "main/rational_rate_certificate.py",
+      "ok": true
+    },
+    {
+      "output": "main/rational_rate_n8.json",
+      "field": "boundary_source_sha256",
+      "source": "main/boundary_residual.py",
+      "ok": true
+    },
+    {
+      "output": "main/rational_rate_n8.json",
+      "field": "candidate_sha256",
+      "source": "baseline_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/rational_rate_n8.json",
+      "field": "boundary_sha256",
+      "source": "main/boundary_residual_M64.json",
+      "ok": true
+    },
+    {
+      "output": "main/phase_rate_n8.json",
+      "field": "source_sha256",
+      "source": "main/rational_rate_certificate.py",
+      "ok": true
+    },
+    {
+      "output": "main/phase_rate_n8.json",
+      "field": "boundary_source_sha256",
+      "source": "main/boundary_residual.py",
+      "ok": true
+    },
+    {
+      "output": "main/phase_rate_n8.json",
+      "field": "candidate_sha256",
+      "source": "main/phase_candidate.json",
+      "ok": true
+    },
+    {
+      "output": "main/phase_rate_n8.json",
+      "field": "boundary_sha256",
+      "source": "main/phase_variational_M64.json",
+      "ok": true
+    }
+  ],
+  "note": "File/source integrity and recorded rational gap signs; not a replacement for the mathematical audits."
+}

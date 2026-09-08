@@ -1,6 +1,6 @@
 # S1 rate bounds via extreme pasts
 
-Status: the independent outer-factor implementation numerically excluded the first benchmark as a positive counterexample.  A later route-owner n=8 rational/interval certificate proves the same benchmark has a strict negative entropy-rate gap; my audit of that certificate is `CORRECT`.
+Status: the independent outer-factor implementation numerically excluded the first benchmark as a positive counterexample.  Route-owner rational/interval certificates now prove strict negative entropy-rate gaps for B0 and the selected phase pair P0; my audits of both fixed-pair certificates are `CORRECT`.
 
 This directory contains the rate subtask for the frozen S1 scalar stationary DPP problem.  The route here is independent of finite-window Hessian extrapolation: it bounds the actual entropy rate from finite suffixes and Lyons--Steif extreme-past kernels.
 
@@ -12,6 +12,7 @@ Main files:
 - `artifacts/benchmark_r16.json`: r<=16, n<=12 numerical witness for the supplied benchmark.
 - `artifacts/boundary_compare.json`: numerical agreement of the two boundary-kernel constructions.
 - `author_certificate_audit.md`: independent audit of the route-owner strict n=8 certificate.
+- `phase_variational_audit.md`: independent audit of the P0 variational residual refinement and strict n=8 rate certificate.
 
 For the supplied benchmark
 
@@ -40,3 +41,11 @@ Thus this benchmark is not a positive entropy-rate counterexample.  The route-ow
 ```
 
 so the fixed benchmark is now certified negative, within that separate author artifact and this audit.
+
+For the selected phase pair P0, the frozen route-owner certificate at commit `3c01dc00a663f1fa854c57ee23d52e327b8c1e32` encloses the rate gap in
+
+```text
+[-5.826508824139247e-06, -4.7241912213614966e-06],
+```
+
+also strictly negative.

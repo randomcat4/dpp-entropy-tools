@@ -1,6 +1,6 @@
 # Verdict
 
-Status: `CORRECT` for the audit of the route-owner strict n=8 certificate; `INCOMPLETE` only for this directory's own floating-point `r=16` witness as a standalone certificate.
+Status: `CORRECT` for the audits of the route-owner strict n=8 certificates for B0 and P0; `INCOMPLETE` only for this directory's own floating-point witnesses as standalone certificates.
 
 Mathematical route status:
 
@@ -32,3 +32,19 @@ The route-owner n=8 rational/interval certificate supplies that outward arithmet
 ```
 
 I audited the probability, perturbation, entropy-rate and log-interval chain in `author_certificate_audit.md` and found no critical gaps.  The result excludes only this fixed pair; it does not solve the global conjecture.
+
+For the selected phase pair P0, I audited commit `3c01dc00a663f1fa854c57ee23d52e327b8c1e32`.  The variational identity
+
+```text
+A_X - C_infty = R* T^{-1} R
+```
+
+and the implementation in `variational_boundary.py` are correct for the recorded inputs.  The strict n=8 rate certificate gives:
+
+```text
+-5.826508824139247e-06
+<= (h(f_-)+h(f_+))/2 - h(f_0)
+<= -4.7241912213614966e-06.
+```
+
+No critical gaps were found.  This is a second fixed-pair exclusion, not a family theorem or a global conjecture result.

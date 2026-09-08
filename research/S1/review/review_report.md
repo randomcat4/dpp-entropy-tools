@@ -1,8 +1,8 @@
 # S1 independent review: exact events, phase symmetry, and boundary residuals
 
-Status: `CRITICAL_GAPS` for any claim that the current benchmark gives a positive entropy-rate counterexample.  Status: `CORRECT` for the exact-event determinant semantics, the even-center/odd-direction first-derivative cancellation, the finite entropy parity identity, the M64 boundary residual enclosure, the final n=8 negative rate certificate excluding this one fixed baseline pair, and the two finite-scope phase restriction lemmas.
+Overall status for the final frozen B0 certificate: `CORRECT`.  The n=8 certificate proves a strictly negative entropy-rate gap for the one fixed B0 baseline pair and therefore excludes B0 as a positive counterexample.  The earlier `CRITICAL_GAPS` label applies only to a hypothetical positive-counterexample reading of the benchmark, which the final certificate does not make.
 
-This review is scoped to the frozen fixed scalar Toeplitz DPP setting.  It is not an audit of the global open status of Lyons-Steif Conjecture 9.2, and it does not certify any entropy-rate sign.
+This review is scoped to the frozen fixed scalar Toeplitz DPP setting.  It is not an audit of the global open status of Lyons-Steif Conjecture 9.2.  The early exact-event and finite-window checks alone did not certify a rate sign; the final B0 rate certificate reviewed below certifies only the negative sign for that one fixed pair.
 
 ## Public sources used
 
@@ -69,7 +69,7 @@ requires lower bounds on the endpoints and an upper bound on the center:
 
 `(L_-+L_+)/2 - U_0 > 0`.
 
-The available finite data do the opposite sign, and the coarse route-owner rate interval at `n=12` still straddles zero, roughly from `-0.06089116925` to `0.05929037392`.  Thus the benchmark is currently a negative finite diagnostic, not a candidate positive certificate.
+At the early coarse-bound stage, the available finite data had the opposite sign, and the coarse route-owner rate interval at `n=12` still straddled zero, roughly from `-0.06089116925` to `0.05929037392`.  At that stage the benchmark was only a negative finite diagnostic, not a candidate positive certificate.  The later n=8 certificate changes the status for B0 to a certified negative pair gap.
 
 Common failure modes to avoid:
 
@@ -185,11 +185,11 @@ I also agree with the phase notes' scope limits: the finite negative Hessian bat
 ## Evidence files
 
 - `exact_toeplitz_review.py`, SHA256 `78540D0BAA9E56AB58D15CFE8B52DA80CB56F577ABFDECFF716C9DD26D98B90B`.
-- `exact_toeplitz_review_results.json`, SHA256 `E36CE26802C5550BD3E281EF40E6337E75C7B959207FC710D442221832283A3A`.
-- `baseline_comparison.json`, SHA256 `5DAD3360B0DBC420085A41F5B263C46935630DA6F881DF53A4DC83A9209DDA6E`.
+- `exact_toeplitz_review_results.json`, SHA256 `E7A2F23C30CC038321E990F3DB0817457B94C39A234E8D4834E959092A5DE6FD`.
+- `baseline_comparison.json`, SHA256 `2D3F9F8EFB1B20B51F99A77E571FE7CCAB39D8605144DF758F0E67DBE71CA3DE`.
 - `boundary_residual_review.py`, SHA256 `06EAFEC0C2FEB211BA9CE53DE1BF8E3FD2726496AC91FD5556BFBA5ACFD2323F`.
-- `boundary_residual_review_result.json`, SHA256 `873F62DC31B5744EF92162670CF40B17723091E3B11CA780C5A6E6767875E4F2`.
+- `boundary_residual_review_result.json`, SHA256 `CD2AFDB39955E397D0E044E3BAB3845AF26045D47D688FCC9DA234636CBF6710`.
 - `rate_certificate_decimal_review.py`, SHA256 `0F1858CCBE3D8E5CADF46AF53F19A625F30CB20D8AE1AD954E38DEF418FCD50E`.
-- `rate_certificate_decimal_review_result.json`, SHA256 `7B8A572201EA9EEE9FABA13572167FCFFCB52A957B997106468A866DBADF82EE`.
+- `rate_certificate_decimal_review_result.json`, SHA256 `48459E933F6AE5D28078A335616FABEB653A70B2865E0AB4C669008FC9E81F33`.
 
-Runs were deterministic with no random seed.  Main exact-event run used PID `51024`, exit status `0`, Python `3.12.14`, NumPy `2.3.5`, and BLAS/OpenMP thread variables set to `1`.  Boundary residual review used PID `50440`, exit status `0`, Python `3.12.14`, and exact rational arithmetic.  Rate-certificate Decimal review used PID `66860`, exit status `0`, Python `3.12.14`, exact rational determinants, and Decimal precision `90`.  Review git head before commit was `fa504ec74e16843fafc395880d7ba99b4c1d2129` on branch `research/S1-review-20260909`; the author object audited was frozen at commit `a98811c6597577f73128aaed3fd7dde6169af350`.
+Runs were deterministic with no random seed.  Main exact-event run used PID `51024`, exit status `0`, Python `3.12.14`, NumPy `2.3.5`, and BLAS/OpenMP thread variables set to `1`.  Boundary residual review used PID `50440`, exit status `0`, Python `3.12.14`, and exact rational arithmetic.  Rate-certificate Decimal review used PID `66860`, exit status `0`, Python `3.12.14`, exact rational determinants, and Decimal precision `90`.  Command records in the JSON artifacts use repo-relative paths; those paths were sanitized after the runs and do not indicate a new computation.  Review git head before commit was `fa504ec74e16843fafc395880d7ba99b4c1d2129` on branch `research/S1-review-20260909`; the author object audited was frozen at commit `a98811c6597577f73128aaed3fd7dde6169af350`.

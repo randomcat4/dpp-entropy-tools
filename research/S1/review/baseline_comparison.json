@@ -1,5 +1,6 @@
 {
-  "command": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe - <comparison stdin script>",
+  "command": "python - <comparison stdin script>",
+  "command_record_note": "absolute local Python executable path sanitized after the recorded comparison; PID, hashes, and numerical comparisons unchanged",
   "exit_status": 0,
   "main_git_head": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
   "main_pid": 157942,

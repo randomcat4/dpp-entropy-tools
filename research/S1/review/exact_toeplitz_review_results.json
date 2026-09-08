@@ -1375,7 +1375,8 @@
     }
   },
   "metadata": {
-    "command": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\children\\review\\repo\\research\\S1\\review\\exact_toeplitz_review.py --nmax 12 --exact-deriv-nmax 6 --fd-deriv-nmax 8 --out C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\children\\review\\repo\\research\\S1\\review\\exact_toeplitz_review_results.json",
+    "command": "python research/S1/review/exact_toeplitz_review.py --nmax 12 --exact-deriv-nmax 6 --fd-deriv-nmax 8 --out research/S1/review/exact_toeplitz_review_results.json",
+    "command_record_note": "absolute local paths sanitized after the recorded run; PID, exit status, versions, hashes, coverage, and numerical results unchanged",
     "coverage": {
       "entropy_exact_events_n": "all 2^n exact configurations for n=1..12",
       "exact_first_derivative_n": "all 2^n exact configurations for n=1..6",
@@ -1387,7 +1388,7 @@
     "pid": 51024,
     "platform": "Windows-11-10.0.26200-SP0",
     "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
-    "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\children\\review\\repo\\research\\S1\\review\\exact_toeplitz_review.py",
+    "script": "research/S1/review/exact_toeplitz_review.py",
     "script_sha256": "78540d0baa9e56ab58d15cfe8b52da80cb56f577abfdecff716c9dd26d98b90b",
     "seed": "deterministic-no-random-seed-used",
     "thread_env": {
