@@ -1,8 +1,9 @@
 # Reflection reduction and an entire centered-path proof
 
-AUTHOR PROOF CANDIDATE — pending independent review. The general two-parameter
-family remains INCOMPLETE. The centered theorem below has a complete analytic
-argument; its numerical checks are not its proof.
+INDEPENDENTLY AUDITED CENTERED THEOREM. The general two-parameter family
+remains INCOMPLETE. A fresh non-author implementation reconstructed the exact
+events, symmetry blocks, Schur determinant, and strict one-variable bounds;
+the numerical checks are not the proof.
 
 ## 1. Scope, atoms and invariances
 

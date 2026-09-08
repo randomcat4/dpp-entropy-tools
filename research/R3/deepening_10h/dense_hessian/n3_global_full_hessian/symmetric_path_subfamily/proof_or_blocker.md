@@ -2,7 +2,7 @@
 
 FULL TWO-PARAMETER FAMILY: **INCOMPLETE**.
 
-COMPLETE ANALYTIC SUBCLASS ARGUMENT, PENDING REVIEW:
+COMPLETE ANALYTIC SUBCLASS THEOREM, INDEPENDENTLY AUDITED:
 
 For every nonzero a with 8a²<1, the centered path K(1/2,a) has B>0 on all
 Sym(3). The proof covers the entire open feasible a interval, including

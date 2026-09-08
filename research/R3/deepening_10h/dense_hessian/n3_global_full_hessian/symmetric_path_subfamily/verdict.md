@@ -2,9 +2,10 @@
 
 General symmetric-path family: **INCOMPLETE**.
 
-Centered line x=1/2, all 0<8a²<1: **COMPLETE PROOF CANDIDATE, PENDING
-NON-AUTHOR REVIEW**. The proof concerns the full six-dimensional real-
-symmetric Hessian. The author does not self-award CORRECT.
+Centered line x=1/2, all 0<8a²<1: **CORRECT / INDEPENDENTLY AUDITED**.
+The proof concerns the full six-dimensional real-symmetric Hessian. A fresh
+implementation reconstructed the exact events, both symmetry reductions, the
+Schur determinant identity, and the strict logarithmic bounds.
 
 Also obtained: an explicit positive reflection-odd block for the whole
 family; a uniform existential neighborhood around every compact nonzero
