@@ -19,3 +19,15 @@ failure was retained rather than counted as a new mathematical trial.
 The remote direct public clone initially failed certificate verification.
 The independent checkout was instead made from a public-content Git bundle;
 TLS verification was not disabled and no authentication was transferred.
+
+## Final artifact validation
+
+`structure_validation.json` reports exit 0 and no structural errors. Its
+single warning is a narrow marker match: it recognizes the exact phrase
+"must not", whereas the frozen target explicitly says proof and verification
+instances "may not change or supplement premises". The frozen file was not
+rewritten to silence that parser after its review. Its shallow root proof
+count is one; the other two complete proofs live in analytic/proof.md and
+probe/proof.md. The single independent report covers all three statements
+and gives a separate CORRECT result for each. Structure validation is not a
+mathematical certificate.

@@ -48,3 +48,24 @@ The third direct agent receives frozen statements and anonymous fixed proofs
 only after their authors finish. No author performs the final verification.
 These are auxiliary results; the open general real-concavity question is not
 being certified. No new side task or recurring compute is started.
+
+## 5: independent review complete
+
+Fixed mathematical source: 58ee11adcf0afd8d183057d61f0168127093bcad.
+The fresh non-author verifier returned CORRECT for each of the three objects
+and bound all theorem/proof/code blobs. It separately replayed the author
+checks and an independent implementation (15 radial, 23 standard, 9
+acceleration checks). An initial JSON rendering failure due to Python's
+large-integer string limit is retained; correcting the output limit allowed
+the same mathematical checks to finish with exit code 0.
+
+Original review commit e787ad086a8be98335933ca5f8b99f5dd921983c was integrated
+unchanged as a35ad53. No proof was revised after that review. The main
+integration audit separately confirmed all 12 refinement lists have length
+250, with 2920 evaluated and 80 rejected-domain calls. The conservative total
+including manual rechecks is 5612; unique diagnostic centers are not confused
+with evaluation counts. The original three-point target remains INCOMPLETE.
+
+First milestone complete. No new budget, search, heartbeat, or side task was
+started. Future work can start from the explicit remaining block inequality;
+this run does not silently promote it to a theorem.

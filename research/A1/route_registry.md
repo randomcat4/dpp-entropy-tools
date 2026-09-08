@@ -3,7 +3,7 @@
 ## ROUTE-A1-S: exact triangle structure
 
 - Version: frozen_theorem_v1.
-- Status: SCOUT.
+- Status: PROVED for the frozen standard subspace; full target INCOMPLETE.
 - Method: eight-event polynomial law, sign/permutation invariants, symmetry
   decomposition of the six-dimensional Hessian.
 - Key lemma: a sign-certified block decomposition or exact lower-dimensional
@@ -16,7 +16,8 @@
 ## ROUTE-A1-P: asymmetric cheap falsification
 
 - Version: frozen_theorem_v1.
-- Status: SCOUT.
+- Status: finite scout COMPLETE; original target INCOMPLETE; exact
+  conditional-acceleration shortcut obstruction PROVED and reviewed.
 - Method: small preregistered structured families of triangle centers,
   asymmetry and cycle-sign changes; analytic Hessian, rational reconstruction.
 - Fast falsification: positive full-Hessian direction followed by strict chord
@@ -27,7 +28,8 @@
 
 ## ROUTE-A1-V: independent probability/certificate audit
 
-- Status: RESERVED for the third direct agent in a fresh context.
+- Status: COMPLETE; third direct agent worked in a fresh context and returned
+  CORRECT for all three frozen objects. See verifications/a1_fixed_object_review.md.
 - Method: independent Mobius event calculation, exact feasibility and log
   enclosures; fixed-commit review of whichever structural object survives.
 - Does not create or revise the proof it will verify.
@@ -42,7 +44,7 @@ strictly weaker lemma. This avoids hiding the target in a conditional claim.
 ## ROUTE-A1-C: fixed-site radial slice
 
 - Frozen statement: frozen_radial_slice_v1.md (auxiliary; original unchanged).
-- Status: PROVED_CANDIDATE, pending independent review.
+- Status: PROVED and independently reviewed at fixed commit 58ee11a.
 - Exact object: proofs/radial_slice_v1.md and eight symbolic conditional-law
   identities in main/conditional_check.py.
 - Method: conditioning with acceleration retained, then scalar derivative
@@ -53,3 +55,9 @@ strictly weaker lemma. This avoids hiding the target in a conditional claim.
 - 最快证伪测试: exact conditional event identities and a transverse gradient
   difference test, with the latter explicitly outside the radial premise.
 - 工作单元: one proof unit; no broad search or new computational budget.
+
+## Final disposition
+
+All first-unit routes have checkable outputs. No route is automatically
+continued: the remaining trivial block and the general conditioning
+domination inequality are explicit unresolved objects, not certified signs.
