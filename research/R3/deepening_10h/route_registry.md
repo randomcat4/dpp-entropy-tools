@@ -416,6 +416,47 @@
 - 边界：全域剩余问题已被集中为一个 DPP-specific Fisher 标量不等式；
   尚未证明 `rho<=1`，也未证明整个 n=3 核域全 Hessian 非正
 
+### D10-U10a/U10b：标量门槛的信息投影化与错误捷径排除
+
+- 状态：`CORRECT`（等价重写、充分条件、精确 blocker）/
+  `INCOMPLETE`（全域 `rho<=1`）
+- 结果：`rho` 等价于八个 event score 的 ridge 最小能量；Fisher-only
+  Bessel 界并不普遍成立，补集自适应五分类代理也被严格有理 path 点否定
+- 精确修正：遗漏的条件 Fisher 信息恰为三个正交 rank-one score 项，
+  逐次 Sherman--Morrison 给
+  `rho=R_T-c1-c2-c3`；剩余条件
+  `c1+c2+c3>=R_T-1` 与原标量问题等价，而不是已经推进的弱引理
+- 核验：两个非作者实现分别重建 ridge 归一化、Fisher-only blocker、
+  path 的 log 区间/整弦以及全部三个 rank-one 修正；blocker 只否定证明
+  代理，实际 `B(D)>28.680`
+
+### D10-U10c：修复后的三维标量定向证伪
+
+- 状态：`SCOUT`（fresh non-author corrected recheck）/
+  `INCOMPLETE`（全域与完整 float seed 重放）
+- 修复：首次 Decimal 空事件 jet 把对角 `-1` 错加到三个非对角坐标；
+  已改为 `(-1,-1,-1,0,0,0)`，全部确定性高精度输出重生
+- 结果：38436 次 float 尝试、22023 次 screen 接受；fresh 审计独立重建
+  445 个高精度尝试，其中 444 个 strict valid、1 个精确非严格拒绝、
+  0 个 `rho>1`；最好 `rho=0.9950999446`
+- 风险：普通浮点在 `Lambda≈0` 且 N 近奇异时会把约 `0.5` 伪装成几乎
+  `1`；因此候选必须重算 exact atoms/高精度 Fisher，有限未命中不作定理
+
+### D10-U10d：中心交换对称路径的完整 Hessian 定理
+
+- 状态：`CORRECT`（`x=1/2` 全部 strict path 与紧片厚化）/
+  `INCOMPLETE`（一般二参数 path 与一般 n=3）
+- 结果：对
+  `K=[[1/2,a,0],[a,1/2,a],[0,a,1/2]]` 的每个 `0<8a^2<1`，完整
+  `Sym(3)` 熵 Hessian 严格负定；不是只沿 path 族切向的结论
+- 机制：反射与补集-sign 两个对称把六维 form 分块，核心 3x3 再 Schur
+  成 2x2；其 determinant 由 `(1-r^2)n^2<4` 与 `0<rn-m<2r^2`
+  给严格正下界
+- 邻域：任意远离 `a=0` 与谱边界的紧中心线片段都有统一 x 向开厚化；
+  一般 x 的 odd 块已正，even 块仍精确等价于单个 `sigma(x,a)>0`
+- 核验：非作者从 exact atoms 重建 multiplicity、两次对称、Schur 公式
+  和一元严格界，判定 centered theorem 与量词均无缺口
+
 ## D10-S：半正定方向
 
 - 状态：`CORRECT`（twin-pair 子类）/ `OPEN`（一般 PSD/NSD）
