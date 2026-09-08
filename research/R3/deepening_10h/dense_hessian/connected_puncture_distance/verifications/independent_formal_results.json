@@ -1,0 +1,5860 @@
+{
+  "status": "INDEPENDENT_FORMAL_IDENTITY_CHECK_PASSED",
+  "entropy_symbolic_terms": 94,
+  "likelihood_terms": 16,
+  "mobius_gate_atoms": [
+    "1864441/37500000",
+    "161353/12500000",
+    "1007609/37500000",
+    "86297/12500000",
+    "6071993/75000000",
+    "1543507/75000000",
+    "3116407/75000000",
+    "788093/75000000",
+    "2025153/12500000",
+    "505347/12500000",
+    "1012497/12500000",
+    "252003/12500000",
+    "6013569/25000000",
+    "1487931/25000000",
+    "2933631/25000000",
+    "724869/25000000"
+  ],
+  "formal_entropy": [
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        3,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        3
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        2,
+        4,
+        2
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        3,
+        1,
+        3
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        1
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        2,
+        2
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    },
+    {
+      "edge_exponents": [
+        0,
+        1,
+        3,
+        0,
+        0,
+        3
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        2
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        4,
+        0,
+        0,
+        2
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        3,
+        1,
+        0,
+        0,
+        3
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        3,
+        3,
+        0,
+        0,
+        1
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        2,
+        0,
+        0,
+        2
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    },
+    {
+      "edge_exponents": [
+        1,
+        0,
+        3,
+        0,
+        3,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-12"
+    },
+    {
+      "edge_exponents": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-12"
+    },
+    {
+      "edge_exponents": [
+        1,
+        3,
+        0,
+        3,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        2,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        2,
+        2,
+        0,
+        2
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        4,
+        0,
+        2,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-12"
+    },
+    {
+      "edge_exponents": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        2,
+        0,
+        2,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        2,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        2,
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        3,
+        0,
+        1,
+        0,
+        3,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        3,
+        0,
+        3,
+        0,
+        1,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        3,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        3,
+        3,
+        0,
+        1,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        2,
+        0,
+        2,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "edge_exponents": [
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/2"
+    },
+    {
+      "edge_exponents": [
+        4,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "edge_exponents": [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-1/6"
+    },
+    {
+      "edge_exponents": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "edge_exponents": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "edge_exponents": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "moment_exponents": [
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/12"
+    }
+  ],
+  "formal_likelihood": [
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "character_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "character_exponents": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "character_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "character_exponents": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "character_exponents": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "character_exponents": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "-2"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_exponents": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "1"
+    },
+    {
+      "edge_exponents": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "-2"
+    },
+    {
+      "edge_exponents": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "-2"
+    },
+    {
+      "edge_exponents": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_exponents": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "edge_exponents": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "character_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": "1"
+    }
+  ],
+  "offdiag_matrix": [
+    [
+      {
+        "scale": 2,
+        "first_order": 2,
+        "scaled_terms": [
+          {
+            "power": 2,
+            "weights": [
+              2,
+              0,
+              0
+            ],
+            "moments": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": 6,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": null,
+        "scaled_terms": []
+      }
+    ],
+    [
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": 4,
+        "scaled_terms": [
+          {
+            "power": 4,
+            "weights": [
+              2,
+              2,
+              0
+            ],
+            "moments": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      },
+      {
+        "scale": 5,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": null,
+        "scaled_terms": []
+      }
+    ],
+    [
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 5,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 6,
+        "first_order": 6,
+        "scaled_terms": [
+          {
+            "power": 6,
+            "weights": [
+              2,
+              2,
+              2
+            ],
+            "moments": [
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 5,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      }
+    ],
+    [
+      {
+        "scale": 2,
+        "first_order": 6,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": 2,
+        "scaled_terms": [
+          {
+            "power": 2,
+            "weights": [
+              0,
+              2,
+              0
+            ],
+            "moments": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": 6,
+        "scaled_terms": []
+      }
+    ],
+    [
+      {
+        "scale": 3,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 5,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": 4,
+        "scaled_terms": [
+          {
+            "power": 4,
+            "weights": [
+              0,
+              2,
+              2
+            ],
+            "moments": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      }
+    ],
+    [
+      {
+        "scale": 2,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 4,
+        "first_order": null,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": 6,
+        "scaled_terms": []
+      },
+      {
+        "scale": 3,
+        "first_order": 5,
+        "scaled_terms": []
+      },
+      {
+        "scale": 2,
+        "first_order": 2,
+        "scaled_terms": [
+          {
+            "power": 2,
+            "weights": [
+              0,
+              0,
+              2
+            ],
+            "moments": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-6"
+          }
+        ]
+      }
+    ]
+  ],
+  "mixed_gradient_orders": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "first_order": 3,
+      "forbidden_terms": "{}"
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "first_order": 6,
+      "forbidden_terms": "{}"
+    },
+    {
+      "edge": [
+        0,
+        3
+      ],
+      "first_order": null,
+      "forbidden_terms": "{}"
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "first_order": 3,
+      "forbidden_terms": "{}"
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "first_order": 6,
+      "forbidden_terms": "{}"
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "first_order": 3,
+      "forbidden_terms": "{}"
+    }
+  ],
+  "sanity_matrix": [
+    [
+      "-75/4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-25/2",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-600/49",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-18",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-864/49",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1200/49"
+    ]
+  ],
+  "violations": [],
+  "counts": {
+    "n4_graphs": 38,
+    "n4_reported_targets": 228,
+    "n5_graphs": 4,
+    "n5_targets": 40
+  },
+  "n4_replay": [
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "weights": [
+        "-9/29",
+        "-2/29",
+        "5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-54675/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-5000/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-455625/1414562"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-1822500/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-250000/2121843"
+        }
+      ],
+      "pivots": [
+        "54675/3364",
+        "625/841",
+        "5000/841",
+        "455625/1414562",
+        "1822500/707281",
+        "250000/2121843"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "weights": [
+        "-4/29",
+        "10/29",
+        "-9/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-2700/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-911250/707281"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-20000/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-18225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-1440000/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-486000000/594823321"
+        }
+      ],
+      "pivots": [
+        "2700/841",
+        "911250/707281",
+        "20000/841",
+        "18225/1682",
+        "1440000/707281",
+        "486000000/594823321"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "weights": [
+        "8/29",
+        "-8/29",
+        "-4/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-720000/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-10000/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-12800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-1800/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-245760000/594823321"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-10240000/2121843"
+        }
+      ],
+      "pivots": [
+        "720000/707281",
+        "10000/841",
+        "12800/841",
+        "1800/841",
+        "245760000/594823321",
+        "10240000/2121843"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "weights": [
+        "6/29",
+        "-10/29",
+        "-3/29",
+        "1/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-291600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-750000/707281"
+        }
+      ],
+      "pivots": [
+        "6075/841",
+        "15625/841",
+        "1800/841",
+        "225/1682",
+        "291600/707281",
+        "750000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "11/29",
+        "-5/29",
+        "-10/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-81675/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-10890000/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-17015625/5658248"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-14400/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-1134375000/594823321"
+        }
+      ],
+      "pivots": [
+        "81675/3364",
+        "15625/3364",
+        "10890000/707281",
+        "17015625/5658248",
+        "14400/841",
+        "1134375000/594823321"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "9/29",
+        "7/29",
+        "-5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-1102500/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-50625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 3,
+          "coefficient": "-372093750/594823321"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3600/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-3307500/707281"
+        }
+      ],
+      "pivots": [
+        "1102500/707281",
+        "50625/3364",
+        "9800/841",
+        "372093750/594823321",
+        "3600/841",
+        "3307500/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "-2/29",
+        "5/29",
+        "-11/29",
+        "9/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-675/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-24200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-140625/1414562"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-11664/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-7562500/2121843"
+        }
+      ],
+      "pivots": [
+        "675/841",
+        "15625/3364",
+        "24200/841",
+        "140625/1414562",
+        "11664/841",
+        "7562500/2121843"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "3/29",
+        "-2/29",
+        "5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-50625/1414562"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-202500/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-450/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3600/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-60000/707281"
+        }
+      ],
+      "pivots": [
+        "6075/3364",
+        "50625/1414562",
+        "202500/707281",
+        "450/841",
+        "3600/841",
+        "60000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "-8/29",
+        "3/29",
+        "10/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-405000/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-10000/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-216000000/594823321"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-2025/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-14400/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-540000/707281"
+        }
+      ],
+      "pivots": [
+        "405000/707281",
+        "10000/841",
+        "216000000/594823321",
+        "2025/1682",
+        "14400/841",
+        "540000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "-10/29",
+        "-3/29",
+        "8/29",
+        "-8/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-16875/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-5760000/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-7200/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9216/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-2457600/707281"
+        }
+      ],
+      "pivots": [
+        "16875/841",
+        "5625/3364",
+        "5760000/707281",
+        "7200/841",
+        "9216/841",
+        "2457600/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "9/29",
+        "-10/29",
+        "-3/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-656100/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 3,
+          "coefficient": "-273375000/594823321"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-16200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-11250/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1296/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-540000/707281"
+        }
+      ],
+      "pivots": [
+        "656100/707281",
+        "273375000/594823321",
+        "16200/841",
+        "11250/841",
+        "1296/841",
+        "540000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "9/29",
+        "-9/29",
+        "-5/29",
+        "2/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-54675/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-11390625/5658248"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-16200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-576/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-60000/707281"
+        }
+      ],
+      "pivots": [
+        "54675/3364",
+        "11390625/5658248",
+        "16200/841",
+        "5625/1682",
+        "576/841",
+        "60000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "-11/29",
+        "-4/29",
+        "9/29",
+        "7/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-60775425/5658248"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-75625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-18225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-7056/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-11984200/2121843"
+        }
+      ],
+      "pivots": [
+        "60775425/5658248",
+        "75625/3364",
+        "3200/841",
+        "18225/1682",
+        "7056/841",
+        "11984200/2121843"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "weights": [
+        "10/29",
+        "-6/29",
+        "1/29",
+        "5/29",
+        "-11/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-16875/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-17424/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-1845000/707281"
+        }
+      ],
+      "pivots": [
+        "16875/841",
+        "5625/841",
+        "200/841",
+        "5625/1682",
+        "17424/841",
+        "1845000/707281"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-8/29",
+        "-1/29",
+        "5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-62500/2121843"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-45000/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-6000000/594823321"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10000/2523"
+        }
+      ],
+      "pivots": [
+        "10800/841",
+        "625/3364",
+        "62500/2121843",
+        "45000/707281",
+        "6000000/594823321",
+        "10000/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-3/29",
+        "11/29",
+        "10/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-30250000/2121843"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-24200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 3,
+          "coefficient": "-408375000/594823321"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-980100/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-40000/2523"
+        }
+      ],
+      "pivots": [
+        "6075/3364",
+        "30250000/2121843",
+        "24200/841",
+        "408375000/594823321",
+        "980100/707281",
+        "40000/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "2/29",
+        "9/29",
+        "-7/29",
+        "-8/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-675/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-50625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-455625/1414562"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-176400/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-25600/2523"
+        }
+      ],
+      "pivots": [
+        "675/841",
+        "50625/3364",
+        "9800/841",
+        "455625/1414562",
+        "176400/707281",
+        "25600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "7/29",
+        "2/29",
+        "-3/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-33075/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-275625/1414562"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 3,
+          "coefficient": "-6615000/594823321"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-450/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-21600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1200/841"
+        }
+      ],
+      "pivots": [
+        "33075/3364",
+        "275625/1414562",
+        "6615000/594823321",
+        "450/841",
+        "21600/707281",
+        "1200/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-4/29",
+        "7/29",
+        "2/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-551250/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-2500/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-160000/2121843"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-11025/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-117600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1600/2523"
+        }
+      ],
+      "pivots": [
+        "551250/707281",
+        "2500/841",
+        "160000/2121843",
+        "11025/1682",
+        "117600/707281",
+        "1600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-6/29",
+        "1/29",
+        "-11/29",
+        "7/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-122500/2121843"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-27225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-3557400/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-19600/2523"
+        }
+      ],
+      "pivots": [
+        "6075/841",
+        "625/3364",
+        "122500/2121843",
+        "27225/1682",
+        "3557400/707281",
+        "19600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-10/29",
+        "-6/29",
+        "-11/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 3,
+          "coefficient": "-1633500000/594823321"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-30250000/2121843"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-20000/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-4050/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-2613600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-48400/2523"
+        }
+      ],
+      "pivots": [
+        "1633500000/594823321",
+        "30250000/2121843",
+        "20000/841",
+        "4050/841",
+        "2613600/707281",
+        "48400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "4/29",
+        "-5/29",
+        "-1/29",
+        "-6/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-2700/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-26250/24389"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-5000/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-381600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-4800/841"
+        }
+      ],
+      "pivots": [
+        "2700/841",
+        "26250/24389",
+        "5000/841",
+        "225/1682",
+        "381600/707281",
+        "4800/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-7/29",
+        "9/29",
+        "4/29",
+        "-1/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-551250/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-30625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-16200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-1800/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-9600/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-400/2523"
+        }
+      ],
+      "pivots": [
+        "551250/707281",
+        "30625/3364",
+        "16200/841",
+        "1800/841",
+        "9600/707281",
+        "400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-9/29",
+        "-2/29",
+        "5/29",
+        "9/29",
+        "4/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-54675/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-5000/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-18225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-2600100/707281"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-6400/2523"
+        }
+      ],
+      "pivots": [
+        "54675/3364",
+        "625/841",
+        "5000/841",
+        "18225/1682",
+        "2600100/707281",
+        "6400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-4/29",
+        "-2/29",
+        "9/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-2700/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 3,
+          "coefficient": "-19440000/594823321"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-57600/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-194400/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-576/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        }
+      ],
+      "pivots": [
+        "2700/841",
+        "19440000/594823321",
+        "57600/707281",
+        "194400/707281",
+        "576/841",
+        "10800/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "8/29",
+        "3/29",
+        "-9/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 3,
+          "coefficient": "-174960000/594823321"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-10000/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-4320000/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-437400/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1296/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        }
+      ],
+      "pivots": [
+        "174960000/594823321",
+        "10000/841",
+        "4320000/707281",
+        "437400/707281",
+        "1296/841",
+        "10800/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "6/29",
+        "-10/29",
+        "8/29",
+        "-4/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-10220800/2121843"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-3145650/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9216/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-6400/2523"
+        }
+      ],
+      "pivots": [
+        "6075/841",
+        "15625/841",
+        "10220800/2121843",
+        "3145650/707281",
+        "9216/841",
+        "6400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "2/29",
+        "-10/29",
+        "1/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-360000/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-10000/2121843"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-60000/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-14400/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-400/2523"
+        }
+      ],
+      "pivots": [
+        "360000/707281",
+        "10000/2121843",
+        "800/841",
+        "60000/707281",
+        "14400/841",
+        "400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-7/29",
+        "7/29",
+        "-5/29",
+        "6/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-33075/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-1470000/707281"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9800/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-540000/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3600/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-4800/841"
+        }
+      ],
+      "pivots": [
+        "33075/3364",
+        "1470000/707281",
+        "9800/841",
+        "540000/707281",
+        "3600/841",
+        "4800/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "5/29",
+        "-11/29",
+        "9/29",
+        "11/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-8820900/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-24200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-5880600/707281"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-11664/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-48400/2523"
+        }
+      ],
+      "pivots": [
+        "8820900/707281",
+        "15625/3364",
+        "24200/841",
+        "5880600/707281",
+        "11664/841",
+        "48400/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "3/29",
+        "10/29",
+        "-6/29",
+        "5/29",
+        "-7/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-6075/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-15625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-7200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-2735625/1414562"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3600/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-19600/2523"
+        }
+      ],
+      "pivots": [
+        "6075/3364",
+        "15625/841",
+        "7200/841",
+        "2735625/1414562",
+        "3600/841",
+        "19600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "8/29",
+        "3/29",
+        "10/29",
+        "-2/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-405000/707281"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-5760000/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-2025/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-14400/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1600/2523"
+        }
+      ],
+      "pivots": [
+        "10800/841",
+        "405000/707281",
+        "5760000/707281",
+        "2025/1682",
+        "14400/841",
+        "1600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-3/29",
+        "8/29",
+        "-8/29",
+        "3/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-405000/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-67500/707281"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-7200/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-9216/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1200/841"
+        }
+      ],
+      "pivots": [
+        "405000/707281",
+        "5625/3364",
+        "67500/707281",
+        "7200/841",
+        "9216/841",
+        "1200/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-5/29",
+        "2/29",
+        "-10/29",
+        "-3/29",
+        "8/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-16875/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 2,
+          "coefficient": "-1247500/2121843"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-11250/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-1296/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-25600/2523"
+        }
+      ],
+      "pivots": [
+        "16875/3364",
+        "625/841",
+        "1247500/2121843",
+        "11250/841",
+        "1296/841",
+        "25600/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-9/29",
+        "-5/29",
+        "2/29",
+        "-10/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-291600/707281"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-6750000/707281"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-16200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-576/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-40000/2523"
+        }
+      ],
+      "pivots": [
+        "291600/707281",
+        "6750000/707281",
+        "16200/841",
+        "5625/1682",
+        "576/841",
+        "40000/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "5/29",
+        "-4/29",
+        "9/29",
+        "7/29",
+        "-5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-16875/3364"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 2,
+          "coefficient": "-42171875/16974744"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-3200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-18225/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-7056/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10000/2523"
+        }
+      ],
+      "pivots": [
+        "16875/3364",
+        "42171875/16974744",
+        "3200/841",
+        "18225/1682",
+        "7056/841",
+        "10000/2523"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-6/29",
+        "1/29",
+        "5/29",
+        "-11/29",
+        "9/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 2,
+          "coefficient": "-1483425/1414562"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/841"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-5625/1682"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-17424/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        }
+      ],
+      "pivots": [
+        "1483425/1414562",
+        "5625/841",
+        "200/841",
+        "5625/1682",
+        "17424/841",
+        "10800/841"
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "weights": [
+        "-8/29",
+        "-1/29",
+        "6/29",
+        "10/29",
+        "-6/29",
+        "5/29"
+      ],
+      "targets": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "distance": 1,
+          "coefficient": "-10800/841"
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-625/3364"
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-7200/841"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "distance": 1,
+          "coefficient": "-11250/841"
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-5184/841"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "distance": 1,
+          "coefficient": "-10000/2523"
+        }
+      ],
+      "pivots": [
+        "10800/841",
+        "625/3364",
+        "7200/841",
+        "11250/841",
+        "5184/841",
+        "10000/2523"
+      ]
+    }
+  ],
+  "hashes": {
+    "frozen_claim.md": "28f6358edb6d77a8f97ef2f55ade497dd8715e97419c771b19322195c23c0ddd",
+    "hazards.md": "85f9d03c1be4dc84198c43b750cbc2cca33db2a48dbffdba9234f4666921c244",
+    "proof_candidate.md": "72ddb5f48f410d8abb713e7f671ba0ffb57ada31cf6420ac08f6e6fc00d5e4cd",
+    "run_log.md": "e614c259f916d37ecee6e349a81d215ec165ed715fc0b0e6a9fd33b9318a46a0",
+    "verdict.md": "1658785c0fe3d6e762e19181dc0828a1c724db8a6f1f11d600197f922ed4f7d0",
+    "connected_distance_scout.py": "6edbc8eb33bee157c1c10c8bf468bba8aabceb4d0d551c630abb19ab3c4afdd6",
+    "scout_results.json": "6e13034c0a8392068e44ecf7a8a3ba597a3974520e921e9a915a35fee166f9d6"
+  },
+  "script_sha256": "1031ebdc36caf2319b0cc3fe023723af3d0b91c7987be742810d01f8d911642d",
+  "elapsed": 0.2031714916229248,
+  "exit_code": 0
+}
