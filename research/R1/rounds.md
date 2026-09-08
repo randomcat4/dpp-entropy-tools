@@ -342,3 +342,12 @@ four-dimensional standard sector and on the pure trivial sector.  For mixed
 directions, the only remaining family-level obstacles are one single-edge
 and one double-edge `6 x 6` matrix inequality; their full parameter signs are
 still open.
+
+The single-edge matrix has now been reduced further by its `(23)` stabilizer.
+Its odd `2 x 2` block is automatically positive definite.  Its even `4 x 4`
+block is a positive block diagonal matrix followed by one positive and one
+negative rank-one update, so a Sherman--Morrison argument makes positivity
+equivalent to one explicit scalar `Phi(lambda,mu)>=0`.  The regions `B<=1`
+and `A(1-q23)+(B-A)(1-p123)<=1` are proved analytically; the sign of `Phi`
+outside them remains open.  A dependency-free formal script checks the full
+congruence and determinant identities with zero parameter evaluations.
