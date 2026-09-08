@@ -55,3 +55,26 @@ Research failures / eliminated inferences:
 
 The parent owns final theorem adjudication and external integration. This
 child commits only `research/N3/falsification/`; no issue or PR is published.
+
+## Second unit: rank-two projection obstruction
+
+The parent assigned one new analytic unit rather than an expanded scan.
+The child independently derived the precise finite Fisher-projection limit
+577/18 and the trace constant 2log(325/1372), with a self-contained proof of
+the score-projection identity. The fixed theorem file is
+`rank2_projection_obstruction.md`; this child is its author, not its reviewer.
+
+Exactly one deterministic rational center epsilon=10^-12 was executed by
+`/opt/venv/bin/python research/N3/falsification/rank2_projection_check.py`.
+Server PID 159397, exit 0, elapsed 0.075 seconds, one accepted center, zero
+rejected centers. The same four thread environment variables were all 1.
+Python 3.12.3 and mpmath 1.3.0; no randomization. The script uses exact
+Fraction arithmetic for the probabilities, derivatives and projection
+Fisher, then rigorously bounds each logarithm through an 80-term rational
+atanh series with a geometric remainder after range reduction. A 120-digit
+covariance-projection solve checks the same point by a different formula.
+The rational-log certificate proves F_pair-C<0 and actual B>0 at that point;
+the analytic manuscript separately proves the boundary-family statement.
+
+No failed launch or numerical anomaly occurred in the second unit. The
+foreground process ended normally; no server job remains active for it.
