@@ -172,8 +172,62 @@ enough that
 sigma_e<=0 for all e,       sum_e sigma_e<=tau<=0.      (10)
 ```
 
+The allocation problem admits a sharper exact collapse.  The identity
+
+```text
+a x_+=max_{0<=s<=a} sx
+```
+
+and ordinary linear-program duality give
+
+```text
+D_*=max [r tau+sum_e s_e sigma_e],
+r in [-min_e a_e^0,min_e a_e^1],
+s_e in [max(0,-r),min(a_e^0,a_e^1-r)].                (11)
+```
+
+There is no gap, including when some conditional odds vanish: the relevant
+dual interval then simply collapses.  Moreover, (6) implies that
+
+```text
+delta:=a_e^1-a_e^0=-theta123
+```
+
+is independent of the edge.  Put
+
+```text
+m=min_e a_e^0,
+P=sum_e max(sigma_e,0),
+N=sum_e min(sigma_e,0),
+C=sum_e max(sigma_e,0)a_e^0.
+```
+
+Here `N<=0` is the signed negative part.  Optimizing `s_e` in (11) leaves the
+one-dimensional concave piecewise-linear function
+
+```text
+G(r)=C+r tau+P min(0,delta-r)+N max(0,-r),
+-m<=r<=m+delta.                                        (12)
+```
+
+Its only interior breakpoints are `0` and `delta`, both of which lie in the
+displayed interval.  Consequently
+
+```text
+D_*=max{G(-m),G(0),G(delta),G(m+delta)},               (13)
+
+G(-m)=C-m tau+mN,
+G(0)=C+P min(0,delta),
+G(delta)=C+delta tau+N max(0,-delta),
+G(m+delta)=C+(m+delta)tau-mP.
+```
+
+Duplicate points are removed in degenerate cases.  Thus (9) is exactly four
+explicit signed quadratic-form comparisons, rather than a residual
+two-dimensional optimization.
+
 No proof of (9) for all strict kernels and directions is known here.  Equations
-(2)--(10) expose the remaining general `3 x 3` obstacle without reviving the
+(2)--(13) expose the remaining general `3 x 3` obstacle without reviving the
 retired mutual-information route.
 
 ## Verification
@@ -182,4 +236,6 @@ Dependency-free rational scripts checked the Mobius event jets, the four
 coefficient vectors, edge aggregation, L-ensemble ratios, conditional-odds
 relations, and the beta representation.  Each exited `0`.  Independent
 nonauthor reviews returned `CORRECT` for both exact reductions and confirmed
-that general `3 x 3` concavity remains open.
+that general `3 x 3` concavity remains open.  The additional dual collapse
+(11)--(13) is an exact linear-program calculation; it introduces no finite
+search or new global concavity claim.

@@ -313,3 +313,21 @@ freedoms.  Optimizing the dangerous coefficients gives a scalar sufficient
 condition `F>=D_*` and an exact narrow sign cone with `D_*=0`.  The identities
 and their dependency-free replays received nonauthor `CORRECT` reviews; the
 general Fisher bound remains unproved.
+
+## Round 10: collapsed allocation dual
+
+Status: `EXACT_REDUCTION / FOUR_FISHER_COMPARISONS_OPEN`.
+
+Linear-program duality reduces the two-dimensional definition of `D_*` to a
+single dual coordinate `r`.  The DPP identity that all three present-minus-
+absent conditional log odds coincide makes all three edge breakpoint shifts
+equal.  The dual objective is therefore a concave piecewise-linear function
+with only two interior breakpoints, so its maximum is attained among exactly
+four displayed endpoint/breakpoint values (with duplicates removed).
+
+This collapse is valid when conditional odds vanish and uses the signed
+negative part `sum min(sigma_e,0)`.  It turns the remaining sufficient
+condition into four explicit Fisher-versus-log-odds quadratic comparisons,
+but proves none of those comparisons globally.  A four-object exact rational
+sanity check found no failure and is intentionally not promoted as theorem
+evidence.
