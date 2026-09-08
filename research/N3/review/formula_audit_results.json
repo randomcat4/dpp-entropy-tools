@@ -1,0 +1,235 @@
+{
+  "argv": [
+    "research\\N3\\review\\verify_n3_formulas.py",
+    "--output",
+    "research\\N3\\review\\formula_audit_results.json"
+  ],
+  "boundary_probes": [
+    {
+      "epsilon": 0.0001,
+      "min_eig_A": 12.286240931124947,
+      "min_eig_B": 5.625877368631746,
+      "rho": 0.7859523663425966,
+      "rho_below_one": true,
+      "theta": 0.5,
+      "theta_L_one_minus_rho": 0.9857257809003754
+    },
+    {
+      "epsilon": 1e-06,
+      "min_eig_A": 17.1631049620718,
+      "min_eig_B": 5.662214101007775,
+      "rho": 0.8561796559308857,
+      "rho_below_one": true,
+      "theta": 0.5,
+      "theta_L_one_minus_rho": 0.9934757409684513
+    },
+    {
+      "epsilon": 1e-08,
+      "min_eig_A": 22.039192329834457,
+      "min_eig_B": 5.668849007631162,
+      "rho": 0.891975979812449,
+      "rho_below_one": true,
+      "theta": 0.5,
+      "theta_L_one_minus_rho": 0.994937994276571
+    },
+    {
+      "epsilon": 0.0001,
+      "min_eig_A": 12.729659894671272,
+      "min_eig_B": 12.72965989467119,
+      "rho": 0.8798139222862262,
+      "rho_below_one": true,
+      "theta": 0.9,
+      "theta_L_one_minus_rho": 0.9962592153449739
+    },
+    {
+      "epsilon": 1e-06,
+      "min_eig_A": 17.607217238631442,
+      "min_eig_B": 15.466554875585283,
+      "rho": 0.9192006457212731,
+      "rho_below_one": true,
+      "theta": 0.9,
+      "theta_L_one_minus_rho": 1.004655898903002
+    },
+    {
+      "epsilon": 1e-08,
+      "min_eig_A": 22.483312440007793,
+      "min_eig_B": 15.60520471142019,
+      "rho": 0.9412704367140486,
+      "rho_below_one": true,
+      "theta": 0.9,
+      "theta_L_one_minus_rho": 0.9736546819700306
+    }
+  ],
+  "coverage": {
+    "B_direct_vs_F_minus_2_tr_N_adj": 4,
+    "B_direct_vs_schur_rank_one": 3,
+    "boundary_equal_softening_float_probes": 6,
+    "conditional_covariance_square_exact_fraction_identities": 12,
+    "conditional_covariance_square_float_identities": 24,
+    "event_probability_formula_vs_mobius": 4,
+    "six_coordinate_first_second_jets": 32
+  },
+  "cwd": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo",
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "exact_fraction_square_checks": {
+    "exact_square_identities_checked": 12,
+    "fraction_samples": 2
+  },
+  "executable": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "git_branch": "research/N3-review-20260909",
+  "git_head": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "non_coverage": [
+    "No proof of the global scalar inequality rho(K)<=1.",
+    "No interval or Lean certification.",
+    "No review of any new author proof candidate beyond the frozen definitions and specified old sources.",
+    "Boundary probes cover only fixed theta and all-nonzero u with equal soft eigenvalues; they do not cover unequal rates, theta endpoints, vanishing coordinates, or general interior kernels.",
+    "Disconnected samples are used only to check that inverse-N formulas are not applied when N is singular."
+  ],
+  "numpy": "2.3.5",
+  "pid": 43040,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "N3 independent formula audit; finite deterministic checks only, not a proof of global rho<=1.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "samples": [
+    {
+      "complete_offdiagonal_support": true,
+      "conditional_squares": {
+        "max_absent_square_error": 1.1058862159352145e-17,
+        "max_present_square_error": 3.2526065174565133e-18
+      },
+      "det_N": 0.00030908474978042524,
+      "finite_difference_jets": {
+        "max_first_derivative_error": 3.9034608878552035e-12,
+        "max_second_derivative_error": 2.474681731270967e-06
+      },
+      "logs": {
+        "Lambda": -0.03658804790322852,
+        "l12": -0.09452276660876013,
+        "l13": -0.029456750504633842,
+        "l23": -0.04803733249258548
+      },
+      "max_B_direct_minus_adj": 1.6653345369377348e-16,
+      "max_B_direct_minus_schur": 1.1102230246251565e-16,
+      "max_eta_offdiag_factor_error": 0.0,
+      "max_event_formula_minus_mobius": 8.326672684688674e-17,
+      "max_offdiag_coordinate_B_error": 1.6653345369377348e-16,
+      "max_total_gradient": 2.7755575615628914e-17,
+      "max_total_hessian": 1.1102230246251565e-16,
+      "min_atom": 0.072947,
+      "min_eig_A": 0.25518916270982067,
+      "min_eig_B": 0.2551533900110675,
+      "min_eig_I_minus_K": 0.44479921449121934,
+      "min_eig_K": 0.2862404461447561,
+      "min_eig_N": 0.04250013809874904,
+      "name": "interior_mixed_sign",
+      "rho": 0.06255151119266156,
+      "strict_kernel": true
+    },
+    {
+      "complete_offdiagonal_support": true,
+      "conditional_squares": {
+        "max_absent_square_error": 1.5178830414797062e-17,
+        "max_present_square_error": 3.469446951953614e-18
+      },
+      "det_N": 8.489957117473766e-05,
+      "finite_difference_jets": {
+        "max_first_derivative_error": 6.376845232414219e-12,
+        "max_second_derivative_error": 1.1102230246251563e-06
+      },
+      "logs": {
+        "Lambda": 0.01760430166869399,
+        "l12": -0.10807848755053052,
+        "l13": -0.03984990665758716,
+        "l23": -0.03527481138548019
+      },
+      "max_B_direct_minus_adj": 3.608224830031759e-16,
+      "max_B_direct_minus_schur": 4.163336342344337e-16,
+      "max_eta_offdiag_factor_error": 4.440892098500626e-16,
+      "max_event_formula_minus_mobius": 5.551115123125783e-17,
+      "max_offdiag_coordinate_B_error": 3.885780586188048e-16,
+      "max_total_gradient": 0.0,
+      "max_total_hessian": 0.0,
+      "min_atom": 0.055348999999999995,
+      "min_eig_A": 0.14635171631203403,
+      "min_eig_B": 0.1463445524545899,
+      "min_eig_I_minus_K": 0.3597912468547963,
+      "min_eig_K": 0.27206480849150383,
+      "min_eig_N": 0.024379741899256492,
+      "name": "interior_asymmetric",
+      "rho": 0.049237470704357404,
+      "strict_kernel": true
+    },
+    {
+      "complete_offdiagonal_support": true,
+      "conditional_squares": {
+        "max_absent_square_error": 2.1033522146218786e-17,
+        "max_present_square_error": 4.526544070126981e-18
+      },
+      "det_N": 6.087505508901718e-08,
+      "finite_difference_jets": {
+        "max_first_derivative_error": 6.274980535181385e-12,
+        "max_second_derivative_error": 3.15393461099156e-06
+      },
+      "logs": {
+        "Lambda": -0.0004992221627743097,
+        "l12": -0.0024786589526764827,
+        "l13": -0.005851265026151571,
+        "l23": -0.0035072257934408283
+      },
+      "max_B_direct_minus_adj": 1.2871648191747909e-15,
+      "max_B_direct_minus_schur": 1.2732870313669764e-15,
+      "max_eta_offdiag_factor_error": 1.1102230246251565e-16,
+      "max_event_formula_minus_mobius": 2.7755575615628914e-17,
+      "max_offdiag_coordinate_B_error": 1.2906342661267445e-15,
+      "max_total_gradient": 5.551115123125783e-17,
+      "max_total_hessian": 1.1102230246251565e-16,
+      "min_atom": 0.06562166999999998,
+      "min_eig_A": 0.016429601393882123,
+      "min_eig_B": 0.016429584985378595,
+      "min_eig_I_minus_K": 0.4761324653254931,
+      "min_eig_K": 0.3071421164088853,
+      "min_eig_N": 0.002738149983442463,
+      "name": "connected_small_edges",
+      "rho": 0.003401417033286174,
+      "strict_kernel": true
+    },
+    {
+      "complete_offdiagonal_support": false,
+      "conditional_squares": {
+        "max_absent_square_error": 1.3877787807814457e-17,
+        "max_present_square_error": 3.469446951953614e-18
+      },
+      "finite_difference_jets": {
+        "max_first_derivative_error": 5.106290390521906e-12,
+        "max_second_derivative_error": 2.969574011718601e-06
+      },
+      "logs": {
+        "Lambda": -9.992007221626415e-16,
+        "l12": 4.440892098500625e-16,
+        "l13": 6.661338147750937e-16,
+        "l23": 4.440892098500625e-16
+      },
+      "max_B_direct_minus_adj": 1.110223024625156e-15,
+      "max_event_formula_minus_mobius": 2.7755575615628914e-17,
+      "max_offdiag_coordinate_B_error": 1.110223024625156e-15,
+      "max_total_gradient": 2.7755575615628914e-17,
+      "max_total_hessian": 1.1102230246251565e-16,
+      "min_atom": 0.05714285714285714,
+      "min_eig_I_minus_K": 0.5714285714285714,
+      "min_eig_K": 0.3333333333333333,
+      "min_eig_N": -2.664535259100371e-16,
+      "name": "diagonal_disconnected",
+      "schur_checked": false,
+      "schur_skip_reason": "N is singular or numerically too close to singular; inverse-N representation intentionally not applied.",
+      "strict_kernel": true
+    }
+  ],
+  "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\review\\verify_n3_formulas.py",
+  "script_sha256": "cb9ce09e0fae407cb6f3208d2e5863dff38b2e99f27307bfe2185aeccdeaa9a4",
+  "status": "PASS"
+}
