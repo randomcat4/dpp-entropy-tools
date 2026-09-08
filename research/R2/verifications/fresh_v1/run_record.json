@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "python": "3.12.3",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 timeout 120s python3 verify_transverse_fixtures.py",
+  "resource_limits": {
+    "cpu_threads": 1,
+    "virtual_memory_kib": 33554432,
+    "gpu": false,
+    "timeout_seconds": 120
+  },
+  "stderr_bytes": 0,
+  "dpp_exact_sha256": "3eed2c22606a78a4a15e91220a5227a8a7621823ee74778bfca56fe3bbc0476f",
+  "verify_script_sha256": "ff02806e0ef7a6911268291f6cc5580ad5125441cee6ed449ac6dad31d5c7ab1",
+  "generated_full_report_sha256": "7f2a1e409eb79b4036be8b5e2ac22c347779a7822efb9e30452d552045840818",
+  "coverage": {
+    "fixtures_planned": 2,
+    "fixtures_completed": 2,
+    "plucker_zero_fixtures": 1,
+    "generic_fixtures": 1,
+    "failed_final_checks": 0
+  },
+  "notes": [
+    "The generated full report is ignored because exact rational log bounds expand to about 2.4 MB of decimal integers.",
+    "The two gap intervals are strict rational enclosures, not floating diagnostics.",
+    "Connection and private run-location details are omitted."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "python": "3.12.3",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 timeout 120s python3 check_balanced_family.py --output diagnostic.json",
+  "resource_limits": {
+    "cpu_threads": 1,
+    "virtual_memory_kib": 33554432,
+    "gpu": false,
+    "timeout_seconds": 120
+  },
+  "stderr_bytes": 0,
+  "script_sha256": "24beac3b533ba399b270c89c275e7333229d6e39a16ebeae0bf4c51eeee34859",
+  "result_sha256": "610945c1ff1c1509446acfb64930abed77baf1fad08d54216108a2a2152d350e",
+  "coverage": {
+    "fixtures_planned": 3,
+    "fixtures_completed": 3,
+    "epsilon_values_per_fixture": 10,
+    "chords_completed": 30,
+    "event_masses_checked": 1200,
+    "failed_checks": 0
+  },
+  "notes": [
+    "Matrices and exact-event probabilities were rational.",
+    "Entropy logarithms used 90-digit Decimal arithmetic and are diagnostic, not interval enclosures.",
+    "The run location and connection details are intentionally omitted from the public artifact."
+  ]
+}
