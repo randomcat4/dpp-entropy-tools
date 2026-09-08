@@ -50,3 +50,15 @@ have already been made on exact rationals. No floating sign is accepted.
 
 This checker is not a Lean proof. The separately recorded Lean component
 checks only the fixed integer matrix identities underlying noncommutation.
+
+The [independent replay record](independent_audit_execution.md) retains a
+failed local missing-dependency attempt and the subsequent seven-point
+standard-library check. Its [recorded source](independent_rational_check.py)
+is supplied without rerunning the completed job. The reviewer replay uses
+Decimal entropy only as a cross-check; it does not replace the strict outward
+enclosures above. Replay PIDs were not captured and are explicitly unavailable.
+
+The [structure report](structure_validation.json) checks required artifacts
+only. It passed with no errors and two exact-phrase freeze-marker warnings,
+not mathematical failures. Its two CORRECT entries are two reports by one
+reviewer, as explicitly stated in the main README and verdict.

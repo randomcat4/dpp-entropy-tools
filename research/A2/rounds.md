@@ -48,3 +48,27 @@
 - Five fixed integer matrix identities compiled with exit 0, with only
   propext in their printed axiom dependencies. The entropy and asymptotic
   statements are not Lean-checked. See formal/README.md.
+
+## Final independent gate and first-milestone closure
+
+- One GPT-5.5 xhigh non-author context returned CORRECT for v2 and v3,
+  each bound to its frozen candidate commit and blob SHA256 table.
+- The reviewer independently replayed the same seven rational chords with
+  standard-library rational arithmetic and Decimal entropy as a cross-check.
+  Its first attempt to run the submitted checker failed because the local
+  runtime lacked SymPy. Failure and successful code/output are preserved in
+  artifacts/independent_audit_execution.md. The replay PIDs were not captured
+  and are marked UNAVAILABLE; no missing metadata was fabricated and no
+  computation was repeated to recreate it.
+- Thus there are seven unique finite chords, fourteen evaluations across
+  author and independent implementations, and seven strict outward enclosure
+  certificates from the author implementation. All family conclusions rest
+  on the separately audited proofs.
+- The reviewer also checked that the partial Lean integer matrices match v2.
+- The research structure validator passed with no errors. Two lexical
+  warnings reflect its search for the exact phrase 'must not' in v1/v2;
+  both frozen files already explicitly prohibit premise changes using other
+  wording. Immutable reviewed statements were not edited to silence warnings.
+- First milestone completed. No general real counterexample was obtained;
+  scoped exclusions, error tools, limits and failures are retained in the
+  Draft PR. No computation is left running as part of this milestone.
