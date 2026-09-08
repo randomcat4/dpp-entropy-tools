@@ -37,3 +37,15 @@ No server credentials or private handoff contents are included. No other
 route's jobs, files or environment were modified. Separate child and reviewer
 execution records retain their own runs and coverage rather than inflating
 the number of distinct centers in this ledger.
+
+Final structure validation used the math-theorem research validator and
+exited 0 with no missing-file errors. Its sole warning is lexical: the
+frozen file says agents "may not" change premises, while the validator
+looks for "must not". The audited frozen file was not rewritten to silence
+that warning. Proof/review index counts are structural pointers, not claims
+that the global target has a proof or independent certification.
+
+Final publication encountered a temporary regional GitHub connection failure.
+A process-scoped DNS resolution override to a freshly resolved GitHub address
+restored Git connectivity while retaining HTTP/1.1 and TLS verification.
+No global networking or certificate settings were changed.

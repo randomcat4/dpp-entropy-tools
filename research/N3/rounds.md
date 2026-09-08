@@ -29,5 +29,6 @@ The independently owned 180-center boundary scout and its diagnostic repeats
 are detailed in `falsification/run_log.md`. Its non-hits do not survive as an
 open Q_k sufficient candidate after U6. Two structurally different projection
 schemes now have explicit obstructions; increasing the same scans cannot
-supply the missing coupling argument. Final audit and job closure are the
-remaining administrative work for this round.
+supply the missing coupling argument. Both audit units returned CORRECT for
+the frozen auxiliary claims and CRITICAL_GAPS for the original target.
+The round is frozen STOPPED_SUBSTANTIVE, with all child jobs closed.

@@ -1,15 +1,64 @@
 {
-  "status": "ACTIVE_RESEARCH",
+  "status": "STOPPED_SUBSTANTIVE",
+  "global_result": "INCOMPLETE",
+  "date_utc": "2026-09-08",
   "baseline": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "baseline_tree": "a9c857ef3503b73e21553fb76d69cd5bd1b1b4ec",
+  "baseline_bundle_sha256_verified": "e8305bf822329d8a6fd001facefbed4fc24c0e71c755a7eb10910aed0bcb87b7",
   "target": "frozen_theorem_v1.md",
-  "unit": "U1 conditional score coupling and asymmetric boundary falsification",
-  "existing_N3_jobs": [],
+  "verdict": "verdict.md",
+  "draft_pr": "https://github.com/randomcat4/dpp-entropy-tools/pull/24",
+  "issue": "https://github.com/randomcat4/dpp-entropy-tools/issues/20",
+  "author_frozen_objects": {
+    "stationary_obstruction": "449221bc3639c2de1239707f15dd938d6e230b9d",
+    "rank_two_obstruction": "f8a75e077c4ca449307e251ceef5f5c2bb6d218c",
+    "optimizer_identity": "c0964be794705bc89e6b3ba6ecdc98afa6c81e32",
+    "conditional_score": "424b4efcec0052ad8d79ac71c69b334dcfb03bb8"
+  },
+  "review_commits": [
+    "0fad8560f94fe741a83d44e7021fe50cc063f1b7",
+    "28b5576972d18a41f519b3bb95b76a307f148471"
+  ],
+  "independent_reviewer_contexts": 1,
+  "reviewed_auxiliary_objects": "CORRECT",
+  "reviewed_global_target": "CRITICAL_GAPS",
+  "minimal_remaining_obligation": "DPP-specific lower bound on beta^2/(1+gamma) when alpha>1/d; EQUIVALENT_BLOCKER",
+  "failed_shortcuts": [
+    "max Q_k dominates cofactor for all directions",
+    "max Q_k dominates cofactor at the exact A trace optimizer",
+    "all one/two-point Fisher projection dominates cofactor for all directions"
+  ],
+  "active_children": [],
+  "active_owned_server_jobs": [],
+  "active_owned_local_jobs": [],
+  "completed_server_pids": [
+    157836,
+    158117,
+    158279,
+    158926,
+    159277,
+    159559,
+    158182,
+    158195,
+    158372,
+    158424,
+    158450,
+    158675,
+    159397
+  ],
+  "completed_review_local_pids": [
+    43040,
+    42164,
+    43824
+  ],
   "server_python": "3.12.3",
   "numpy": "2.1.2",
   "scipy": "1.14.1",
   "mpmath": "1.3.0",
-  "initial_compute_concurrency": 2,
-  "threads_per_job": 1,
+  "threads_per_mathematical_job": 1,
   "gpu": false,
-  "global_result": "INCOMPLETE"
+  "unexported_mathematical_results": [],
+  "server_execution_copies": "Owned main and falsification research/N3 directories retain raw run copies; all mathematical artifacts are exported and committed in the route PR",
+  "continuation_scheduled": false,
+  "restart_condition": "Coordinator supplies a distinct evidence-based mathematical unit; do not repeat original scans without new structure"
 }

@@ -1,6 +1,6 @@
 # N3: Fisher and conditional covariance coupling
 
-Status: CLOSING_FOR_SUBSTANTIVE_STOP; final independent audit is being integrated.
+Status: STOPPED_SUBSTANTIVE; final independent audit is integrated.
 The general real three-dimensional claim is INCOMPLETE.
 Baseline: `fa504ec74e16843fafc395880d7ba99b4c1d2129`.
 Coordination: https://github.com/randomcat4/dpp-entropy-tools/issues/20.
