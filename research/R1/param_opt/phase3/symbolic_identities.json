@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_IDENTITIES_CHECKED",
+  "sympy": "1.14.0",
+  "exit_code": 0,
+  "identities": [
+    "F G = I",
+    "det G = P/(2u)",
+    "sum principal order-two minors of G R = 0",
+    "det(F-LR) = [2u+(C+4u^2)L-P L^3]/P",
+    "p10*p01-p00*p11=u"
+  ],
+  "note": "Exact equalities only; the sign proof is in proofs/n2_concavity.md."
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Exact-rational full-event checks for P3-02 block composition",
+  "exit_code": 0,
+  "cases": [
+    {
+      "name": "n4_cross_2plus2",
+      "probability_sums_exact": true,
+      "block_marginals_exact": true,
+      "minimum_endpoint_spectral_margin": 0.2336261024379306,
+      "first_cross_pair_two_point_minus_product": "-1/10000",
+      "delta": -0.0013627917593055372,
+      "sum_block_deltas": -0.0013626161785440516,
+      "sum_block_minus_global": 1.755807614856053e-7
+    },
+    {
+      "name": "n4_no_cross_equality_2plus2",
+      "probability_sums_exact": true,
+      "block_marginals_exact": true,
+      "minimum_endpoint_spectral_margin": 0.2342682753047702,
+      "delta": -0.0013626161785449398,
+      "sum_block_deltas": -0.0013626161785440516,
+      "sum_block_minus_global": 8.881784197001252e-16
+    },
+    {
+      "name": "n5_cross_2plus1plus2",
+      "probability_sums_exact": true,
+      "block_marginals_exact": true,
+      "minimum_endpoint_spectral_margin": 0.23615049494976437,
+      "first_cross_pair_two_point_minus_product": "-1/14400",
+      "delta": -0.0012540977346309212,
+      "sum_block_deltas": -0.0012539697370257397,
+      "sum_block_minus_global": 1.2799760518156234e-7
+    }
+  ],
+  "note": "The exact examples check bookkeeping only; the proof is structural."
+}
