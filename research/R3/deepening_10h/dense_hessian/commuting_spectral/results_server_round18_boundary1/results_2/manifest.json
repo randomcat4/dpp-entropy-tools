@@ -1,0 +1,21 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "seed": 2026090862,
+  "proposal_count": 5000,
+  "ledger_rows_including_source": 5001,
+  "n": 12,
+  "margin_floor": 0.002,
+  "chunk": 32,
+  "threads": 1,
+  "source_status": "NO_HIT",
+  "source_rho": 0.5740468373613397,
+  "source_gap": -0.00011880571419009556,
+  "best_rho_psd": 0.5746069386526107,
+  "best_spectrum_margin": 0.015371444079016916,
+  "best_basis_orthogonality_residual": 5.54012239696602e-15,
+  "positive_count": 0,
+  "accepted_count": 3456,
+  "elapsed_seconds": 1076.5005459785461,
+  "exit_code": 0,
+  "warning": "float64 joint basis/spectrum scout only; freeze and replay any signal"
+}

@@ -1,0 +1,157 @@
+{
+  "status": "AUTHOR_FINITE_MARGIN_DIAGNOSTIC",
+  "proposal_rows": 20000,
+  "configured_margin_floor": 0.002,
+  "previous_source_rho": 0.5740468373613397,
+  "previous_source_margin": 0.010000000000000009,
+  "overall_best": {
+    "shard": 2,
+    "index": 4877,
+    "rho_psd": 0.5746069386526107,
+    "spectrum_margin": 0.015371444079016916,
+    "chord_gap": -0.00024511575569174937,
+    "status": "NO_HIT"
+  },
+  "threshold_profile": [
+    {
+      "minimum_margin": 0.002,
+      "eligible_rows": 20000,
+      "best": {
+        "shard": 2,
+        "index": 4877,
+        "rho_psd": 0.5746069386526107,
+        "spectrum_margin": 0.015371444079016916,
+        "chord_gap": -0.00024511575569174937,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.005,
+      "eligible_rows": 18948,
+      "best": {
+        "shard": 2,
+        "index": 4877,
+        "rho_psd": 0.5746069386526107,
+        "spectrum_margin": 0.015371444079016916,
+        "chord_gap": -0.00024511575569174937,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.01,
+      "eligible_rows": 9575,
+      "best": {
+        "shard": 2,
+        "index": 4877,
+        "rho_psd": 0.5746069386526107,
+        "spectrum_margin": 0.015371444079016916,
+        "chord_gap": -0.00024511575569174937,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.015,
+      "eligible_rows": 1476,
+      "best": {
+        "shard": 2,
+        "index": 4877,
+        "rho_psd": 0.5746069386526107,
+        "spectrum_margin": 0.015371444079016916,
+        "chord_gap": -0.00024511575569174937,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.02,
+      "eligible_rows": 351,
+      "best": {
+        "shard": 3,
+        "index": 4492,
+        "rho_psd": 0.5735366107089594,
+        "spectrum_margin": 0.02136318927013736,
+        "chord_gap": -0.00040325198598623047,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.03,
+      "eligible_rows": 25,
+      "best": {
+        "shard": 0,
+        "index": 466,
+        "rho_psd": 0.5727786088018403,
+        "spectrum_margin": 0.030155817380585037,
+        "chord_gap": -0.0006879981585781181,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "minimum_margin": 0.05,
+      "eligible_rows": 0,
+      "best": null
+    }
+  ],
+  "bin_profile": [
+    {
+      "margin_bin": [
+        0.002,
+        0.005
+      ],
+      "eligible_rows": 1052,
+      "best": {
+        "shard": 2,
+        "index": 631,
+        "rho_psd": 0.5736419781543403,
+        "spectrum_margin": 0.00402946532738413,
+        "chord_gap": -2.1567167549640942e-05,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "margin_bin": [
+        0.005,
+        0.01
+      ],
+      "eligible_rows": 9373,
+      "best": {
+        "shard": 3,
+        "index": 3746,
+        "rho_psd": 0.5743571409699975,
+        "spectrum_margin": 0.009753920359265922,
+        "chord_gap": -0.00011283192660194175,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "margin_bin": [
+        0.01,
+        0.02
+      ],
+      "eligible_rows": 9224,
+      "best": {
+        "shard": 2,
+        "index": 4877,
+        "rho_psd": 0.5746069386526107,
+        "spectrum_margin": 0.015371444079016916,
+        "chord_gap": -0.00024511575569174937,
+        "status": "NO_HIT"
+      }
+    },
+    {
+      "margin_bin": [
+        0.02,
+        0.05
+      ],
+      "eligible_rows": 351,
+      "best": {
+        "shard": 3,
+        "index": 4492,
+        "rho_psd": 0.5735366107089594,
+        "spectrum_margin": 0.02136318927013736,
+        "chord_gap": -0.00040325198598623047,
+        "status": "NO_HIT"
+      }
+    }
+  ],
+  "interpretation": "The best frozen proposal lies in the [0.01,0.02) margin bin, not in either lower-margin bin. This finite run does not support a monotone boundary-driven explanation; it is not a theorem."
+}

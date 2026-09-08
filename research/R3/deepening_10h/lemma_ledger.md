@@ -218,6 +218,18 @@
 - 边界：strongest 贴着本轮配置的 `0.01` 谱裕量地板，故后续另作降低
   地板的机制诊断；有理化对象仍只作 near-commuting PSD 线解释。
 
+## L-M2h：谱裕量地板敏感性账目
+
+- 陈述：从第五轮 strongest 出发，把配置谱裕量地板降为 `0.002` 后，
+  四片各 5000 个 proposal 的新 strongest 有
+  `rho=0.5746069387`、实际谱裕量 `0.0153714`；它比 source 更靠内部。
+- 状态：`CORRECT`（冻结文件、120 位 strongest gate、全账本 margin
+  profile）/ `SCOUT`（有限 20000 proposal）/ `INCOMPLETE`（无全称）。
+- 结果：四个 margin bins 的最好 rho 依次约为 `0.5736420`、`0.5743571`、
+  `0.5746069`、`0.5735366`，不呈朝边界单调增强。
+- 边界：这排除的是该冻结批次的简单边界解释，不排除其他边界机制；
+  有理化线仍只称 near-commuting。
+
 ## L-U1：均匀核 Hessian 与四阶项
 
 - 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为
