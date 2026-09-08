@@ -1,0 +1,14 @@
+{
+  "kind": "request",
+  "schema_version": "0.1",
+  "request_id": "scalar-curvature-001",
+  "kernel_model": "real_symmetric_contraction",
+  "K": [["1/4"]],
+  "D": [["1/2"]],
+  "path": ["0/1", "1/1"],
+  "claim": {"type": "curvature", "scope": "point", "at": "1/2", "predicate": "le_zero"},
+  "precision": {"initial_bits": 64, "max_bits": 256, "absolute_width": "1/1024"},
+  "limits": {"max_cells": 64, "max_seconds": 60, "threads": 1, "memory_mib": 512},
+  "refusal": {"mode": "strict_only", "on_unresolved": "refuse", "zero_probability": "exact_limit_or_refuse"},
+  "include_events": true
+}

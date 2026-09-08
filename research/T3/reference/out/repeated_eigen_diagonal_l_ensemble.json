@@ -1,0 +1,182 @@
+{
+  "certificate_hash": "05681f440030101103edfe56874f426f41eb9415c816796b56c3494ebe698cca",
+  "curvature": {
+    "classification": "CERTIFIED_NEGATIVE",
+    "interval": {
+      "hi_decimal": "-0.02",
+      "hi_exact": "-29577351928351606178432609449864491269948303648770998930475339/1478867596417580308921630472493224563497415182438549946523766960",
+      "lo_decimal": "-0.02",
+      "lo_exact": "-147886759641758030892163047249322456349741518243854994652376697/7394337982087901544608152362466122817487075912192749732618834800",
+      "width_decimal": "0.000000000000000000000000000000000000000000000000000000000000000270477222551202641842728025146600073791244575557",
+      "width_exact": "1/3697168991043950772304076181233061408743537956096374866309417400"
+    },
+    "kind": "rigorous_interval",
+    "rounding": "H'' = -sum p'' log(p) - sum (p')^2/p, with exact rational jets and log intervals.",
+    "zero_terms": []
+  },
+  "entropy_points": [
+    {
+      "entropy": {
+        "interval": {
+          "hi_decimal": "1.38629436111989061883446424291635313615100026872",
+          "hi_exact": "1559375631930219193393243015438493940735778403694378284488304702628699713536329503126247648674242841465072171801/1124851745534410365767977942594007972795116889731611083886347352981839150168231672255829465224372733064748900250",
+          "lo_decimal": "1.38629436111989061883446424291635313615100026872",
+          "lo_exact": "6139274141457555879500956753694858034392828361001489309009073592469057151190342537124648150146920439131667044/4428550179269332148692826545645700680295735786344925527111603751897004528221384536440273485135325720727357875",
+          "width_decimal": "0.00000000000000000000000000000000000000000000000000000000000000901590741837342139475760083822000245970815251856",
+          "width_exact": "1/110915069731318523169122285436991842262306138682891245989282522"
+        },
+        "kind": "rigorous_interval",
+        "rounding": "Exact rational atanh-series log enclosure; remainder has the sign of omitted positive tail.",
+        "zero_probability_rule": "Terms with p=0 contribute lim_{p->0+} -p log(p)=0.",
+        "zero_terms": []
+      },
+      "probabilities": [
+        {
+          "p": "1/4",
+          "p1": "0",
+          "p2": "1/200",
+          "p_decimal": "0.25",
+          "subset": "{}"
+        },
+        {
+          "p": "1/4",
+          "p1": "1/20",
+          "p2": "1/200",
+          "p_decimal": "0.25",
+          "subset": "{0}"
+        },
+        {
+          "p": "1/4",
+          "p1": "-1/20",
+          "p2": "1/200",
+          "p_decimal": "0.25",
+          "subset": "{1}"
+        },
+        {
+          "p": "1/4",
+          "p1": "0",
+          "p2": "-3/200",
+          "p_decimal": "0.25",
+          "subset": "{0,1}"
+        }
+      ],
+      "probability_sum_exact": "1",
+      "t": "0"
+    }
+  ],
+  "feasibility": {
+    "events": [
+      {
+        "bounds": {
+          "bernstein_coefficients": [
+            "1"
+          ],
+          "bounds": {
+            "hi_decimal": "1",
+            "hi_exact": "1",
+            "lo_decimal": "1",
+            "lo_exact": "1",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "degree": 0,
+          "method": "bernstein_power_to_basis"
+        },
+        "polynomial_coefficients": [
+          "1"
+        ],
+        "subset": "{}"
+      },
+      {
+        "bounds": {
+          "bernstein_coefficients": [
+            "4/5",
+            "6/5"
+          ],
+          "bounds": {
+            "hi_decimal": "1.2",
+            "hi_exact": "6/5",
+            "lo_decimal": "0.8",
+            "lo_exact": "4/5",
+            "width_decimal": "0.4",
+            "width_exact": "2/5"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "degree": 1,
+          "method": "bernstein_power_to_basis"
+        },
+        "polynomial_coefficients": [
+          "1",
+          "1/5"
+        ],
+        "subset": "{0}"
+      },
+      {
+        "bounds": {
+          "bernstein_coefficients": [
+            "6/5",
+            "4/5"
+          ],
+          "bounds": {
+            "hi_decimal": "1.2",
+            "hi_exact": "6/5",
+            "lo_decimal": "0.8",
+            "lo_exact": "4/5",
+            "width_decimal": "0.4",
+            "width_exact": "2/5"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "degree": 1,
+          "method": "bernstein_power_to_basis"
+        },
+        "polynomial_coefficients": [
+          "1",
+          "-1/5"
+        ],
+        "subset": "{1}"
+      },
+      {
+        "bounds": {
+          "bernstein_coefficients": [
+            "24/25",
+            "26/25",
+            "24/25"
+          ],
+          "bounds": {
+            "hi_decimal": "1.04",
+            "hi_exact": "26/25",
+            "lo_decimal": "0.96",
+            "lo_exact": "24/25",
+            "width_decimal": "0.08",
+            "width_exact": "2/25"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "degree": 2,
+          "method": "bernstein_power_to_basis"
+        },
+        "polynomial_coefficients": [
+          "1",
+          "0",
+          "-1/25"
+        ],
+        "subset": "{0,1}"
+      }
+    ],
+    "interval": [
+      "-1",
+      "1"
+    ],
+    "mode": "l_ensemble",
+    "rationale": "L-ensemble interval feasibility checks nonnegative determinant weights; det(I+L) is positive once all weights are nonnegative because the empty-subset weight is 1.",
+    "status": "CERTIFIED_NONNEGATIVE"
+  },
+  "labels": {
+    "determinants_and_jets": "exact",
+    "entropy_and_gap": "rigorous_interval",
+    "float_diagnostics": "diagnostic_only"
+  },
+  "mode": "l_ensemble",
+  "name": "repeated_eigen_diagonal_l_ensemble",
+  "status": "CANDIDATE"
+}

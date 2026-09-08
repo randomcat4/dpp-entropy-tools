@@ -1,0 +1,12 @@
+{
+  "K": [["1/5", "1/15"], ["1/15", "2/5"]],
+  "D": [["2/5", "1/30"], ["1/30", "-1/5"]],
+  "interval": ["0", "1"],
+  "event_family": "all",
+  "require_event_mass_one": true,
+  "chord": {"t": "1/2"},
+  "curvature": {"t": "1/2"},
+  "bernstein_depth": 4,
+  "log_bits": 120,
+  "max_n": 6
+}

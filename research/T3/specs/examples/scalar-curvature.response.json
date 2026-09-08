@@ -1,0 +1,55 @@
+{
+  "kind": "response",
+  "schema_version": "0.1",
+  "request_id": "scalar-curvature-001",
+  "attempt_id": null,
+  "resume_of": null,
+  "artifact_kind": "illustrative",
+  "state": "CANDIDATE",
+  "math_status": "INCOMPLETE",
+  "outcome": "not_run",
+  "claim": {"type": "curvature", "scope": "point", "at": "1/2", "predicate": "le_zero"},
+  "result": {"bounds": ["-1/1", "-1/1"], "feasible": true, "units": "nats_per_t_squared"},
+  "evidence": {
+    "strict": false,
+    "arithmetic": "none",
+    "rounding_rationale": null,
+    "precision_bits_used": [],
+    "artifacts": []
+  },
+  "coverage": {
+    "unit": "unique_request",
+    "planned_manifest_hash": null,
+    "planned": 1,
+    "started": 0,
+    "completed": 0,
+    "failed": 0,
+    "certified": 0,
+    "events_planned": 2,
+    "events_completed": 0,
+    "events_represented": 0,
+    "cells_planned": 1,
+    "cells_completed": 0,
+    "cells_unresolved": 1
+  },
+  "provenance": {
+    "input_hash": null,
+    "certificate_hash": null,
+    "implementation_commit": null,
+    "dirty": null,
+    "interpreter": null,
+    "dependencies": {},
+    "platform": null,
+    "command": [],
+    "command_redacted": false,
+    "exit_code": null,
+    "elapsed_ms": null,
+    "peak_memory_mib": null
+  },
+  "failures": [],
+  "notes": [
+    "Illustrative expected response only; no strict implementation was executed.",
+    "At t=1/2 the exact event jets are (1/2,-1/2,0) and (1/2,1/2,0).",
+    "Hand substitution suggests H''=-1; bounds and feasibility above are expectations, not certified results."
+  ]
+}

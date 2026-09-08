@@ -1,0 +1,7 @@
+{
+  "certificate_hash": "7ada4d07287b86be1ca4d7c03560510c8c7523873e0bee030fd599bd0e092cda",
+  "error": "K is not symmetric at (0,1)",
+  "error_type": "ReferenceInputError",
+  "name": "invalid_nonsymmetric_input",
+  "status": "REJECTED_INPUT"
+}

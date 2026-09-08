@@ -1,0 +1,64 @@
+{
+  "certificate_hash": "977944fed6e8084bbe6c78b5f1f6db88e03d72c717563c16b0aae7699d8464dd",
+  "feasibility": {
+    "events": [
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "1",
+            "hi_exact": "1",
+            "lo_decimal": "1",
+            "lo_exact": "1",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_POSITIVE",
+          "coefficients": [
+            "1"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "1"
+        ],
+        "subset": "{}"
+      },
+      {
+        "bounds": {
+          "bounds": {
+            "hi_decimal": "-0.5",
+            "hi_exact": "-1/2",
+            "lo_decimal": "-0.5",
+            "lo_exact": "-1/2",
+            "width_decimal": "0",
+            "width_exact": "0"
+          },
+          "classification": "CERTIFIED_NEGATIVE",
+          "coefficients": [
+            "-1/2"
+          ],
+          "method": "point"
+        },
+        "polynomial_coefficients": [
+          "-1/2"
+        ],
+        "subset": "{0}"
+      }
+    ],
+    "interval": [
+      "0",
+      "0"
+    ],
+    "mode": "l_ensemble",
+    "rationale": "L-ensemble interval feasibility checks nonnegative determinant weights; det(I+L) is positive once all weights are nonnegative because the empty-subset weight is 1.",
+    "status": "REJECTED"
+  },
+  "labels": {
+    "determinants_and_jets": "exact",
+    "entropy_and_gap": "rigorous_interval",
+    "float_diagnostics": "diagnostic_only"
+  },
+  "mode": "l_ensemble",
+  "name": "invalid_negative_l_weight",
+  "status": "REJECTED_INPUT"
+}
