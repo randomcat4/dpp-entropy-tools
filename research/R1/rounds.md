@@ -332,3 +332,13 @@ explicit piecewise-quadratic Fisher-versus-log-odds comparisons, ordinary
 quadratic forms on each fixed `sigma` sign cone, but proves none of those
 comparisons globally.  A four-object exact rational sanity check found no
 failure and is intentionally not promoted as theorem evidence.
+
+Inside the already proved compound-symmetric family, complementation and the
+common conditional costs reduce the four values further to
+`A(S-tau), AP, AP+(B-A)tau, Btau`.  Log-determinant concavity plus Fisher data
+processing proves the stronger sufficient condition for every `tau<=0`
+direction.  Representation splitting also proves it on the full
+four-dimensional standard sector and on the pure trivial sector.  For mixed
+directions, the only remaining family-level obstacles are one single-edge
+and one double-edge `6 x 6` matrix inequality; their full parameter signs are
+still open.
