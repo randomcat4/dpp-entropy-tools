@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "method": "exact-event atoms via Mobius inversion from inclusion determinants; Fraction arithmetic",
+  "checks": [
+    "p0 equals heterogeneous product Bernoulli law at diagonal K0",
+    "p1/p0 equals diagonal score and ignores off-diagonal D",
+    "sum_S pS''=0 and sum_{S containing i} pS''=0 exactly",
+    "H'' equals -sum_i Dii^2/[xi(1-xi)]",
+    "PSD/NSD Frobenius bound checked on cone examples",
+    "zero-diagonal indefinite off-diagonal case has nonzero atom accelerations but zero Hessian"
+  ],
+  "cases": [
+    {
+      "name": "n2_heterogeneous_psd",
+      "n": 2,
+      "x": [
+        "1/3",
+        "3/5"
+      ],
+      "cone_kind": "PSD",
+      "p0_product_law": "PASS",
+      "mass_derivatives": {
+        "sum_p0": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "singleton_first_derivatives": [
+        "2/5",
+        "1/4"
+      ],
+      "singleton_second_derivatives": [
+        "0",
+        "0"
+      ],
+      "score_identity_errors": {},
+      "fisher": "2353/2400",
+      "H2_from_exact_atoms": "-2353/2400",
+      "H2_formula": "-2353/2400",
+      "p2_nonzero_atom_masks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frob_square": "5161/19600",
+      "diag_square": "89/400",
+      "box": {
+        "a": "1/3",
+        "b": "3/5",
+        "M": "1/4",
+        "m": "2"
+      },
+      "cone_bound_checked": true,
+      "cone_trace_frobenius_margin_n_diag2_minus_frob2": "3561/19600",
+      "cone_bound_rhs": "-5161/9800",
+      "hessian_minus_bound_rhs": "-10673/23520",
+      "status": "PASS"
+    },
+    {
+      "name": "n2_zero_diagonal_indefinite_offdiag",
+      "n": 2,
+      "x": [
+        "2/7",
+        "5/8"
+      ],
+      "cone_kind": "INDEFINITE",
+      "p0_product_law": "PASS",
+      "mass_derivatives": {
+        "sum_p0": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "singleton_first_derivatives": [
+        "0",
+        "0"
+      ],
+      "singleton_second_derivatives": [
+        "0",
+        "0"
+      ],
+      "score_identity_errors": {},
+      "fisher": "0",
+      "H2_from_exact_atoms": "0",
+      "H2_formula": "0",
+      "p2_nonzero_atom_masks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frob_square": "32/81",
+      "diag_square": "0",
+      "box": {
+        "a": "2/7",
+        "b": "5/8",
+        "M": "1/4",
+        "m": "2"
+      },
+      "cone_bound_checked": false,
+      "cone_trace_frobenius_margin_n_diag2_minus_frob2": "-32/81",
+      "cone_bound_rhs": null,
+      "hessian_minus_bound_rhs": null,
+      "status": "PASS"
+    },
+    {
+      "name": "n3_heterogeneous_spd",
+      "n": 3,
+      "x": [
+        "1/4",
+        "2/5",
+        "7/10"
+      ],
+      "cone_kind": "PSD",
+      "p0_product_law": "PASS",
+      "mass_derivatives": {
+        "sum_p0": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "singleton_first_derivatives": [
+        "3/5",
+        "1/2",
+        "2/5"
+      ],
+      "singleton_second_derivatives": [
+        "0",
+        "0",
+        "0"
+      ],
+      "score_identity_errors": {},
+      "fisher": "5213/1400",
+      "H2_from_exact_atoms": "-5213/1400",
+      "H2_formula": "-5213/1400",
+      "p2_nonzero_atom_masks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frob_square": "1463/1800",
+      "diag_square": "77/100",
+      "box": {
+        "a": "1/4",
+        "b": "7/10",
+        "M": "1/4",
+        "m": "4/3"
+      },
+      "cone_bound_checked": true,
+      "cone_trace_frobenius_margin_n_diag2_minus_frob2": "539/360",
+      "cone_bound_rhs": "-1463/1350",
+      "hessian_minus_bound_rhs": "-99787/37800",
+      "status": "PASS"
+    },
+    {
+      "name": "n3_heterogeneous_nsd",
+      "n": 3,
+      "x": [
+        "3/10",
+        "1/2",
+        "4/5"
+      ],
+      "cone_kind": "NSD",
+      "p0_product_law": "PASS",
+      "mass_derivatives": {
+        "sum_p0": "1",
+        "sum_p1": "0",
+        "sum_p2": "0"
+      },
+      "singleton_first_derivatives": [
+        "-3/5",
+        "-1/2",
+        "-2/5"
+      ],
+      "singleton_second_derivatives": [
+        "0",
+        "0",
+        "0"
+      ],
+      "score_identity_errors": {},
+      "fisher": "26/7",
+      "H2_from_exact_atoms": "-26/7",
+      "H2_formula": "-26/7",
+      "p2_nonzero_atom_masks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frob_square": "1463/1800",
+      "diag_square": "77/100",
+      "box": {
+        "a": "3/10",
+        "b": "4/5",
+        "M": "1/4",
+        "m": "4/3"
+      },
+      "cone_bound_checked": true,
+      "cone_trace_frobenius_margin_n_diag2_minus_frob2": "539/360",
+      "cone_bound_rhs": "-1463/1350",
+      "hessian_minus_bound_rhs": "-24859/9450",
+      "status": "PASS"
+    }
+  ]
+}
