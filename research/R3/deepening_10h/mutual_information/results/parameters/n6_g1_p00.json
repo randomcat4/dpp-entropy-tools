@@ -1,0 +1,241 @@
+{
+  "u": [
+    2,
+    -2,
+    -1,
+    2,
+    1,
+    -2
+  ],
+  "v": [
+    -3,
+    1,
+    2,
+    -3,
+    -2,
+    -3
+  ],
+  "c": "1/2",
+  "gamma": "2",
+  "n": 6,
+  "proposal": 0,
+  "certificate_center": {
+    "margin": "80073/1000000",
+    "margin_float": 0.080073,
+    "positive_ldl_minima": [
+      "6318467/21000000",
+      "181318197437289769993387015295216946194969/826036484340264212095134649403699247000000"
+    ],
+    "float_spectral_margin": 0.16014677035452626
+  },
+  "chords": [
+    {
+      "step": "22377/500000",
+      "fraction": 0.2,
+      "minus_certificate": {
+        "margin": "83237/1000000",
+        "margin_float": 0.083237,
+        "positive_ldl_minima": [
+          "24642601/84000000",
+          "32799371931246553961199980821767853721161/139531017697871068323001836184584388625000"
+        ],
+        "float_spectral_margin": 0.1664751456807481
+      },
+      "plus_certificate": {
+        "margin": "38289/500000",
+        "margin_float": 0.076578,
+        "positive_ldl_minima": [
+          "8644313/28000000",
+          "1264451918892394646405843166869282827577/6374235136712641680949573288907128687500"
+        ],
+        "float_spectral_margin": 0.15315658129563223
+      },
+      "record": {
+        "id": "n6_g1_p00",
+        "n": 6,
+        "gamma": "2",
+        "proposal": 0,
+        "c": "1/2",
+        "kind": "CHORD",
+        "status": "NO_SIGNAL",
+        "rank": 2,
+        "eigenvalue_ratio": 0.4576152412537268,
+        "step": "22377/500000",
+        "Delta_E": -0.0007928590956973736,
+        "Delta_A": -0.0002656656723338813,
+        "Delta_B": -0.00028094052078664333,
+        "I_minus": 0.005326532161202319,
+        "I_0": 0.00612903864947761,
+        "I_plus": 0.007424050942904822,
+        "MI_bump": -0.0002462529025759599,
+        "marginal_deficit_sum": 0.0005466061931205246,
+        "bump_to_deficit_ratio": -0.45051246340646944,
+        "information_identity_residual": -8.890457814381136e-16,
+        "geometry_term": -0.00014317559607107027,
+        "KL_cost": 1.3128640207097544e-06,
+        "JS_cost": 0.0006483706356057439,
+        "geometry_identity_residual": 1.5037884132373946e-16,
+        "curvature_E": -0.7894087097364269,
+        "curvature_A": -0.2652250422949461,
+        "curvature_B": -0.27981657904005497,
+        "curvature_I": 0.24436708840142574,
+        "min_probability": 0.006261632241713918,
+        "normalization_residual": 0.0,
+        "mobius_max_error": null,
+        "marginal_kernel_max_error": 5.551115123125783e-17,
+        "quadratic_event_max_error": 2.7755575615628914e-17,
+        "cross_norm_min": 0.2433773899523696,
+        "second_cross_singular_lower_bound": 0.13663411139467987,
+        "margin_min": 0.076578,
+        "direction_norm_A": 0.36535962327683075,
+        "direction_norm_B": 0.5806818044546354,
+        "direction_norm_X": 0.5277777777777778
+      }
+    },
+    {
+      "step": "22377/200000",
+      "fraction": 0.5,
+      "minus_certificate": {
+        "margin": "8727/100000",
+        "margin_float": 0.08727,
+        "positive_ldl_minima": [
+          "9502237/33600000",
+          "1188012520048068342399053570089/4871534287318450564826272350000"
+        ],
+        "float_spectral_margin": 0.17454073630245326
+      },
+      "plus_certificate": {
+        "margin": "70767/1000000",
+        "margin_float": 0.070767,
+        "positive_ldl_minima": [
+          "39710952862698967418245682147960664946741/135363948064043375210008806205230991687500",
+          "123364400249795406347128842960393476229559/801340168715905864771594106277755320500000"
+        ],
+        "float_spectral_margin": 0.14153597118086808
+      },
+      "record": {
+        "id": "n6_g1_p00",
+        "n": 6,
+        "gamma": "2",
+        "proposal": 0,
+        "c": "1/2",
+        "kind": "CHORD",
+        "status": "NO_SIGNAL",
+        "rank": 2,
+        "eigenvalue_ratio": 0.4576152412537268,
+        "step": "22377/200000",
+        "Delta_E": -0.005032708212642234,
+        "Delta_A": -0.0016621646843724136,
+        "Delta_B": -0.0017794856689037353,
+        "I_minus": 0.004931725431145376,
+        "I_0": 0.00612903864947761,
+        "I_plus": 0.01050846758654062,
+        "MI_bump": -0.0015910578593653878,
+        "marginal_deficit_sum": 0.003441650353276149,
+        "bump_to_deficit_ratio": -0.4622950317573197,
+        "information_identity_residual": -6.973588373426765e-16,
+        "geometry_term": -0.0008948474754436941,
+        "KL_cost": 5.137309128100897e-05,
+        "JS_cost": 0.004086487645917458,
+        "geometry_identity_residual": -7.28583859910259e-17,
+        "curvature_E": -0.7894087097364269,
+        "curvature_A": -0.2652250422949461,
+        "curvature_B": -0.27981657904005497,
+        "curvature_I": 0.24436708840142574,
+        "min_probability": 0.006001527223467289,
+        "normalization_residual": 1.1102230246251565e-16,
+        "mobius_max_error": null,
+        "marginal_kernel_max_error": 5.551115123125783e-17,
+        "quadratic_event_max_error": 2.7755575615628914e-17,
+        "cross_norm_min": 0.24101386023394836,
+        "second_cross_singular_lower_bound": 0.10192568332863482,
+        "margin_min": 0.070767,
+        "direction_norm_A": 0.36535962327683075,
+        "direction_norm_B": 0.5806818044546354,
+        "direction_norm_X": 0.5277777777777778
+      }
+    },
+    {
+      "step": "38041/200000",
+      "fraction": 0.85,
+      "minus_certificate": {
+        "margin": "90549/1000000",
+        "margin_float": 0.090549,
+        "positive_ldl_minima": [
+          "137043259/504000000",
+          "191299584212166059142985992644213837/788039143728404578763838186529968750"
+        ],
+        "float_spectral_margin": 0.1810991686454393
+      },
+      "plus_certificate": {
+        "margin": "1543/31250",
+        "margin_float": 0.049376,
+        "positive_ldl_minima": [
+          "170237720525873363056100944684574057033/572019102833563088314801482894667625000",
+          "72602984851314225720879591982580159273/701937653791034335906059192974026375000"
+        ],
+        "float_spectral_margin": 0.09875287002635336
+      },
+      "record": {
+        "id": "n6_g1_p00",
+        "n": 6,
+        "gamma": "2",
+        "proposal": 0,
+        "c": "1/2",
+        "kind": "CHORD",
+        "status": "NO_SIGNAL",
+        "rank": 2,
+        "eigenvalue_ratio": 0.4576152412537268,
+        "step": "38041/200000",
+        "Delta_E": -0.015088299709502095,
+        "Delta_A": -0.004815164308949349,
+        "Delta_B": -0.005298753304985304,
+        "I_minus": 0.00563644115333585,
+        "I_0": 0.00612903864947761,
+        "I_plus": 0.016570400336754183,
+        "MI_bump": -0.004974382095567406,
+        "marginal_deficit_sum": 0.010113917613934653,
+        "bump_to_deficit_ratio": -0.4918353387330198,
+        "information_identity_residual": -3.642919299551295e-17,
+        "geometry_term": -0.0025861228005168158,
+        "KL_cost": 0.00043089012988617697,
+        "JS_cost": 0.012071286779099744,
+        "geometry_identity_residual": 6.418476861114186e-16,
+        "curvature_E": -0.7894087097364269,
+        "curvature_A": -0.2652250422949461,
+        "curvature_B": -0.27981657904005497,
+        "curvature_I": 0.24436708840142574,
+        "min_probability": 0.003958914487216463,
+        "normalization_residual": 2.220446049250313e-16,
+        "mobius_max_error": 1.1796119636642288e-16,
+        "marginal_kernel_max_error": 5.551115123125783e-17,
+        "quadratic_event_max_error": 3.469446951953614e-17,
+        "cross_norm_min": 0.24101386023394836,
+        "second_cross_singular_lower_bound": 0.06143225873891249,
+        "margin_min": 0.049376,
+        "direction_norm_A": 0.36535962327683075,
+        "direction_norm_B": 0.5806818044546354,
+        "direction_norm_X": 0.5277777777777778
+      }
+    }
+  ],
+  "meta": {
+    "rank": 2,
+    "inertia": [
+      1,
+      1,
+      4
+    ],
+    "nonzero_eigenvalue_ratio": 0.4576152412537268,
+    "direction_norm_A": 0.36535962327683075,
+    "direction_norm_B": 0.5806818044546354,
+    "direction_norm_X": 0.5277777777777778
+  },
+  "step_limit": 0.22377142857137766,
+  "curvature": {
+    "E": -0.7894087097364269,
+    "A": -0.2652250422949461,
+    "B": -0.27981657904005497,
+    "I": 0.24436708840142574
+  }
+}
