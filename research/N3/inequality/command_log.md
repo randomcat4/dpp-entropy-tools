@@ -140,10 +140,31 @@ the Python sanity checks.
     warnings; status showed three modified tracked files and one untracked
     optimiser lemma
   - exit status: 0
+- Ran `git add research/N3/inequality; git diff --cached --check; git diff
+  --cached --stat; git commit -m "Add N3 optimiser Sherman Morrison note";
+  git rev-parse HEAD; git status --short`.
+  - PID: `47668`
+  - result: commit `c0964be794705bc89e6b3ba6ecdc98afa6c81e32`; worktree
+    clean after commit
+  - exit status: 0
+- Ran `git status --short; git rev-parse HEAD` before final closure edits.
+  - PID: `39824`
+  - result: worktree clean; head
+    `c0964be794705bc89e6b3ba6ecdc98afa6c81e32`
+  - exit status: 0
+- Ran `Get-Content` on README, verdict, optimiser lemma head, command log
+  tail, plus `git status --short`, after an initial closure patch context
+  mismatch.
+  - PID: `68064`
+  - result: gathered exact patch context; no partial failed-patch modification
+    remained
+  - exit status: 0
 
 ## Notes
 
 No GPU was used.  No system dependencies were installed.  No global Git,
 SSH, proxy, or environment settings were modified.  The only Git
 configuration change was repo-local author identity in this isolated
-checkout.  No command accessed `C:\canglan\`.
+checkout.  No command accessed `C:\canglan\`.  This route started no
+background local jobs and did not run computation in the server checkout, so
+there are no active local or server jobs owned by this route.

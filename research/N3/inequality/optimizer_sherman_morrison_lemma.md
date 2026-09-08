@@ -5,7 +5,9 @@
 `PROVED_HERE` as a finite-dimensional optimisation lemma.
 
 `INCOMPLETE` as a proof of the frozen N3 inequality, because the needed DPP
-alignment bound is still open.
+alignment bound is still open.  In the final closure, the `SM-close`
+condition below is classified as `EQUIVALENT_BLOCKER`, not as a solved
+subproblem.
 
 ## Setup
 
@@ -106,6 +108,9 @@ then the retained `v v^T` term closes that deficit exactly when
 ```text
 beta^2/(1+gamma) >= alpha - 1/d.                 (SM-close)
 ```
+
+This is an exact equivalence for rank-one repair at the optimiser.  It is not
+progress unless a separate DPP argument lower bounds the left side.
 
 Finally, the stronger statement
 
@@ -244,3 +249,4 @@ Dropping `v v^T` removes the rare-event Fisher pole.  The optimisation lemma
 shows what has to replace it: either the scalar `F2-at-DA` condition, or the
 alignment inequality `(SM-close)` for the actual DPP `H`, `v`, and `c`.
 No corresponding lower bound on `beta^2/(1+gamma)` is proved in this unit.
+Thus `(SM-close)` is an `EQUIVALENT_BLOCKER` for the frozen theorem.

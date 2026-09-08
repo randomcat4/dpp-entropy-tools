@@ -1,6 +1,6 @@
 # N3 inequality first unit
 
-Status for the frozen N3 target: `INCOMPLETE`.
+Status for the frozen N3 target: `STOPPED_SUBSTANTIVE / INCOMPLETE`.
 
 This route proves a new exact Fisher lower bound from the two conditional
 covariance square identities.  It is a strict loss of information from the
@@ -53,3 +53,13 @@ The same lemma proves that the true `A` optimiser suppresses the normalised
 `Lambda'` score relative to the `H`-only optimiser.  This does not prove the
 frozen inequality; it turns the next step into a concrete DPP alignment
 bound rather than another rho restatement.
+
+Final closure update: the old maxQ candidate is now disproved even at the
+true `A`-optimising direction, by the main instance's strict frozen
+obstruction `449221bc3639c2de1239707f15dd938d6e230b9d`
+(`main/stationary_obstruction_v1.md`).  This route keeps the original Qk
+lemma as historical Fisher information only.  The Sherman-Morrison
+`SM-close` condition is marked `EQUIVALENT_BLOCKER`; without a separate DPP
+alignment lower bound for `beta^2/(1+gamma)`, it is the original trace
+optimisation condition rewritten through the rank-one projection.  No active
+local or server jobs were left by this route.
