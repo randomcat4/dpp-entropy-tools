@@ -319,6 +319,26 @@
   一致量词及从低维径向扇区到环境正测度必须借助开放性的关键一步
 - 边界：不声称负定集在整个严格核域稠密，也不分类所有稀疏角方向
 
+### D10-U7：任意维连通支撑的完整小穿孔分类
+
+- 状态：`CORRECT`
+- 结果：对每个固定有限 n、任意严格对角 X、任意零对角实对称 A，沿
+  `X+epsilon A` 的所有足够小非零点拥有完整 `Sym(n)` 负定 Hessian，
+  当且仅当 A 的非零支撑图 connected；任意树、任意图直径和任意非零
+  实边权均包含在内
+- 精确主项：令 `d_e` 为坐标边 e 两端在支撑图中的距离，则
+  `H_ee=-6 epsilon^(2d_e) sum_P[(prod_v w_v)(prod_{a in P}A_a^2)]`
+  加高一阶余项；`e!=f` 的混合项比 `epsilon^(d_e+d_f)` 至少高一阶，
+  图距离合同后的极限因此严格负对角
+- 机制：exact-likelihood 系数中每个活跃顶点度至少 4；cross-block
+  Hessian 恒零给 residual-support 局部性；等号情形只允许 doubled
+  geodesic，通用 doubled-cycle 熵系数为 `-3`，二阶导后为 `-6`
+- 核验：非作者逐条攻击局部性是否误用逐项相消、同距多最短路/共享端点/
+  chord 等号情形、matching/chromatic 系数及余项量词，判定无缺口；独立
+  Fraction 小图只作补充 sanity，不承担一般性
+- 边界：阈值依赖固定的 X 与全部非零边权；不覆盖 epsilon=0、边界对角、
+  随 n 一致阈值或远离对角脊的全域 Hessian 符号
+
 ## D10-S：半正定方向
 
 - 状态：`CORRECT`（twin-pair 子类）/ `OPEN`（一般 PSD/NSD）
