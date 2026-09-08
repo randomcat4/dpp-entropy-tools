@@ -102,3 +102,42 @@ optimizer direction, did not run Lean, did not produce an interval-global
 certificate, and did not turn finite or boundary probes into a full-domain
 theorem.
 
+## Second Review Unit
+
+| Field | Value |
+| --- | --- |
+| Main stationary commit | `449221bc3639c2de1239707f15dd938d6e230b9d` |
+| Falsification rank2 commit | `f8a75e077c4ca449307e251ceef5f5c2bb6d218c` |
+| Sherman-Morrison commit | `c0964be794705bc89e6b3ba6ecdc98afa6c81e32` |
+| Review script | `research/N3/review/verify_second_unit.py` |
+| Review script SHA256 | `450e2bb8e3d3a7d065df6675b7046bb8c5ed569625a7446e070162b5ff8fe429` |
+
+```powershell
+$env:OMP_NUM_THREADS='1'
+$env:OPENBLAS_NUM_THREADS='1'
+$env:MKL_NUM_THREADS='1'
+$env:NUMEXPR_NUM_THREADS='1'
+& 'C:\Users\UIO\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  'research\N3\review\verify_second_unit.py' `
+  --output 'research\N3\review\second_unit_audit_results.json'
+```
+
+Exit status: `0`.
+
+Recorded PID: `43824`.
+
+Actual coverage:
+
+| Check | Count |
+| --- | ---: |
+| Main stationary fixed objects | 4 |
+| Stationary exact centers | 1 |
+| Stationary interval precision | 180 dyadic bits |
+| Falsification rank2 fixed objects | 3 |
+| Rank2 exact epsilon points | 1 |
+| Pair-score identity rational samples | 1 |
+| Sherman-Morrison rational instances | 1 |
+
+The second unit did not prove global `rho<=1`, did not provide the DPP
+alignment lower bound, and did not turn either local obstruction into an
+entropy counterexample.
