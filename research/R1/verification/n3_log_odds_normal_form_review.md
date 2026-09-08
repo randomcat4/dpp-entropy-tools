@@ -18,5 +18,23 @@ dependency-free script exited `0` with
 
 The public consolidation is
 `proofs/n3_hessian_log_odds_normal_form.md`.  A commit-bound review is recorded
-after freezing that object.  The result is an exact reduction and sufficient
-condition, not a proof of general `3 x 3` concavity.
+below.  The result is an exact reduction and sufficient condition, not a proof
+of general `3 x 3` concavity.
+
+## Commit-bound public review
+
+The public consolidation was frozen in:
+
+```text
+commit ce023af28b1a46ef559a4dc0d43f430b564f2824
+tree   2c5a7e84a7e1f7e8273e58a86f924606adf4d086
+blob   3594a73915b164a24dc43ff5e463ce8a534243b1
+```
+
+Two independent contexts used only `git show` on the fixed blob.  Both
+returned `STATUS: CORRECT`.  They checked the four-dimensional normal form,
+edge/Fisher decomposition, the exact rigid-route obstruction, all six
+conditional odds, the beta gauge, the direction of `Lambda>=-D_*`, and the
+fact that `F>=D_*` is only sufficient.  Both confirmed that the document keeps
+the general residual open and does not revive the retired mutual-information
+route.  Neither reviewer modified files.
