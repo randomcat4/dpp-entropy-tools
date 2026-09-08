@@ -86,6 +86,18 @@ stated exclusion.  This proves an existential full-dimensional neighborhood
 around each non-product equicorrelation kernel, not a uniform radius or global
 `n=3` concavity.
 
+The reviewed corollary was then frozen without content changes in:
+
+```text
+commit 941556fb754134c25d1b53e52500ff509d02626e
+tree   dc02d4a272580810015e7244d42b6c93301812a4
+blob   6a4aa765d046ed1ebe382f67d56bd89a0ea47cdd
+```
+
+Both reviewers independently read that blob with `git show` and recomputed
+SHA-256 `8774578D...BA679`; both returned `MATCH/CORRECT`.  Thus their original
+mathematical reviews apply byte-for-byte to the public fixed object.
+
 ## Infrastructure failures retained
 
 A low-frequency text-only Codex OAuth review attempt timed out after 600
