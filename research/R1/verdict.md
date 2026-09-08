@@ -73,5 +73,11 @@ The phase-3 theorem/proof commit is
 the fixed Git objects.  The `n=2` and block-composition reviews both returned
 `CORRECT` and record every relevant blob ID.
 
+The equicorrelation theorem/proof commit is
+`c5aca64cc85c57113db0ea79ebaf65908cedbe90`, tree
+`fff31fdf785675b5c95e5f77628c120af30e000b`.  Two non-author reviewers read
+the fixed proof and exact-certificate blobs via `git show`; both returned
+`CORRECT`, and both exact blob replays exited `0` with `PASS`.
+
 General real-symmetric DPP entropy concavity in dimension at least three
 remains unresolved by R1.

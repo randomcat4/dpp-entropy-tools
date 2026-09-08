@@ -77,5 +77,35 @@ neither changed a reviewed file.
 
 ## Commit-bound consolidated review
 
-Pending the freeze commit.  This section is updated only after reviewers read
-the fixed Git objects rather than the working tree.
+The consolidated public proof and dependency-free certificate were frozen in:
+
+```text
+commit c5aca64cc85c57113db0ea79ebaf65908cedbe90
+tree   fff31fdf785675b5c95e5f77628c120af30e000b
+
+proof blob      a0299cc6ec5a7777876007d6561f5dc0e343021c
+certificate blob 20356c6590884ef2a1c738874f4cef4724ac2f29
+```
+
+Two independent reviewer contexts were instructed to use `git show` on those
+fixed objects, not the working tree.  Both returned:
+
+```text
+STATUS: CORRECT
+```
+
+Both reviewers confirmed that the public consolidation faithfully proves the
+two stated results, preserves every parameter and strictness boundary, and
+does not claim either general connected `n=3` concavity or the finite chord
+that leaves the equicorrelation family.  Each piped the certificate blob
+directly from `git show`; both replays returned
+
+```text
+PASS: exact rational determinant reduction and positivity rewrites verified
+```
+
+with exit code `0`.  Neither reviewer read a same-named working-tree file or
+modified repository contents.  One first attempt to query the tree omitted
+PowerShell quoting and failed at the shell layer; the reviewer corrected the
+query and recorded the tree above.  This did not affect a Git object or the
+mathematical verdict.
