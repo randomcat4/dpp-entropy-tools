@@ -1,0 +1,4 @@
+{"name":"radial_author_check","command":"/opt/venv/bin/python research/A1/main/conditional_check.py research/A1/verifications/radial_author_check.json","start_utc":"2026-09-08T06:33:48Z","end_utc":"2026-09-08T06:33:49Z","exit_code":0}
+{"name":"standard_author_verify","command":"/opt/venv/bin/python research/A1/analytic/verify.py","start_utc":"2026-09-08T06:33:49Z","end_utc":"2026-09-08T06:33:50Z","exit_code":0}
+{"name":"a1_direct_replay","command":"/opt/venv/bin/python research/A1/verifications/a1_direct_replay.py research/A1/verifications/a1_direct_replay.json","start_utc":"2026-09-08T06:33:50Z","end_utc":"2026-09-08T06:33:52Z","exit_code":1}
+{"name":"a1_direct_replay_rerun","command":"/opt/venv/bin/python research/A1/verifications/a1_direct_replay.py research/A1/verifications/a1_direct_replay.json","start_utc":"2026-09-08T06:35:58Z","end_utc":"2026-09-08T06:36:00Z","exit_code":0}
