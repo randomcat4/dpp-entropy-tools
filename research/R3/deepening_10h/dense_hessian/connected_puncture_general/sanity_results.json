@@ -1,0 +1,797 @@
+{
+  "status": "EXACT_SYMBOLIC_SCOUT_ONLY",
+  "cycles": [
+    {
+      "m": 3,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "-6",
+          "entropy_contribution": "-1"
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "2",
+          "entropy_contribution": "-1"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "12",
+          "entropy_contribution": "2"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "24",
+          "entropy_contribution": "-2"
+        }
+      ]
+    },
+    {
+      "m": 5,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "-30",
+          "entropy_contribution": "-5"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "-120",
+          "entropy_contribution": "10"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "-120",
+          "entropy_contribution": "-6"
+        }
+      ]
+    },
+    {
+      "m": 6,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "2",
+          "entropy_contribution": "-1"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "60",
+          "entropy_contribution": "10"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "480",
+          "entropy_contribution": "-40"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "1080",
+          "entropy_contribution": "54"
+        },
+        {
+          "power": 6,
+          "raw_coefficient": "720",
+          "entropy_contribution": "-24"
+        }
+      ]
+    },
+    {
+      "m": 7,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "-126",
+          "entropy_contribution": "-21"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "-1680",
+          "entropy_contribution": "140"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "-6720",
+          "entropy_contribution": "-336"
+        },
+        {
+          "power": 6,
+          "raw_coefficient": "-10080",
+          "entropy_contribution": "336"
+        },
+        {
+          "power": 7,
+          "raw_coefficient": "-5040",
+          "entropy_contribution": "-120"
+        }
+      ]
+    },
+    {
+      "m": 8,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "2",
+          "entropy_contribution": "-1"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "252",
+          "entropy_contribution": "42"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "5544",
+          "entropy_contribution": "-462"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "35280",
+          "entropy_contribution": "1764"
+        },
+        {
+          "power": 6,
+          "raw_coefficient": "90720",
+          "entropy_contribution": "-3024"
+        },
+        {
+          "power": 7,
+          "raw_coefficient": "100800",
+          "entropy_contribution": "2400"
+        },
+        {
+          "power": 8,
+          "raw_coefficient": "40320",
+          "entropy_contribution": "-720"
+        }
+      ]
+    },
+    {
+      "m": 9,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "-510",
+          "entropy_contribution": "-85"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "-17640",
+          "entropy_contribution": "1470"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "-168840",
+          "entropy_contribution": "-8442"
+        },
+        {
+          "power": 6,
+          "raw_coefficient": "-665280",
+          "entropy_contribution": "22176"
+        },
+        {
+          "power": 7,
+          "raw_coefficient": "-1239840",
+          "entropy_contribution": "-29520"
+        },
+        {
+          "power": 8,
+          "raw_coefficient": "-1088640",
+          "entropy_contribution": "19440"
+        },
+        {
+          "power": 9,
+          "raw_coefficient": "-362880",
+          "entropy_contribution": "-5040"
+        }
+      ]
+    },
+    {
+      "m": 10,
+      "matching_part": "-1",
+      "full_doubled_cycle_coefficient": "-3",
+      "terms": [
+        {
+          "power": 1,
+          "raw_coefficient": "0",
+          "entropy_contribution": "0"
+        },
+        {
+          "power": 2,
+          "raw_coefficient": "2",
+          "entropy_contribution": "-1"
+        },
+        {
+          "power": 3,
+          "raw_coefficient": "1020",
+          "entropy_contribution": "170"
+        },
+        {
+          "power": 4,
+          "raw_coefficient": "54960",
+          "entropy_contribution": "-4580"
+        },
+        {
+          "power": 5,
+          "raw_coefficient": "763560",
+          "entropy_contribution": "38178"
+        },
+        {
+          "power": 6,
+          "raw_coefficient": "4339440",
+          "entropy_contribution": "-144648"
+        },
+        {
+          "power": 7,
+          "raw_coefficient": "12096000",
+          "entropy_contribution": "288000"
+        },
+        {
+          "power": 8,
+          "raw_coefficient": "17539200",
+          "entropy_contribution": "-313200"
+        },
+        {
+          "power": 9,
+          "raw_coefficient": "12700800",
+          "entropy_contribution": "176400"
+        },
+        {
+          "power": 10,
+          "raw_coefficient": "3628800",
+          "entropy_contribution": "-40320"
+        }
+      ]
+    }
+  ],
+  "cycle_determinants": [
+    {
+      "m": 3,
+      "determinant_monomials": 5,
+      "permutations_checked": 6
+    },
+    {
+      "m": 4,
+      "determinant_monomials": 8,
+      "permutations_checked": 24
+    },
+    {
+      "m": 5,
+      "determinant_monomials": 12,
+      "permutations_checked": 120
+    },
+    {
+      "m": 6,
+      "determinant_monomials": 19,
+      "permutations_checked": 720
+    },
+    {
+      "m": 7,
+      "determinant_monomials": 30,
+      "permutations_checked": 5040
+    }
+  ],
+  "graph_probes": [
+    {
+      "name": "P6_distance5_endpoint",
+      "n": 6,
+      "weights": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "value": "1/3"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "value": "-2/5"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "value": "3/7"
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "value": "-4/9"
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "value": "5/11"
+        }
+      ],
+      "targets": [
+        [
+          0,
+          5
+        ]
+      ],
+      "kind": "diagonal",
+      "x_scope": "arbitrary strict x: vertex moments retained as independent formal symbols",
+      "distances": [
+        5
+      ],
+      "residual_order_checked_through": 10,
+      "all_lower_and_mixed_terms_zero": true,
+      "terms": [
+        {
+          "power": 10,
+          "vertex_moment_orders": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "-128/160083"
+        }
+      ],
+      "stats": {
+        "likelihood_terms": 18,
+        "power_sizes": [
+          18,
+          120,
+          378,
+          540,
+          505,
+          336
+        ]
+      }
+    },
+    {
+      "name": "P6_remote_mixed_distances5_and3",
+      "n": 6,
+      "weights": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "value": "1/3"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "value": "-2/5"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "value": "3/7"
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "value": "-4/9"
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "value": "5/11"
+        }
+      ],
+      "targets": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "kind": "mixed",
+      "x_scope": "arbitrary strict x: vertex moments retained as independent formal symbols",
+      "distances": [
+        5,
+        3
+      ],
+      "residual_order_checked_through": 8,
+      "all_lower_and_mixed_terms_zero": true,
+      "terms": [],
+      "stats": {
+        "likelihood_terms": 16,
+        "power_sizes": [
+          16,
+          106,
+          242,
+          245,
+          126
+        ]
+      }
+    },
+    {
+      "name": "C6_two_shortest_paths",
+      "n": 6,
+      "weights": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "value": "1/3"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "value": "-2/5"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "value": "3/7"
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "value": "-4/9"
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "value": "5/11"
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "value": "6/13"
+        }
+      ],
+      "targets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "kind": "diagonal",
+      "x_scope": "arbitrary strict x: vertex moments retained as independent formal symbols",
+      "distances": [
+        3
+      ],
+      "residual_order_checked_through": 6,
+      "all_lower_and_mixed_terms_zero": true,
+      "terms": [
+        {
+          "power": 6,
+          "vertex_moment_orders": [
+            2,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-24/1225"
+        },
+        {
+          "power": 6,
+          "vertex_moment_orders": [
+            2,
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "-3200/61347"
+        }
+      ],
+      "stats": {
+        "likelihood_terms": 23,
+        "power_sizes": [
+          23,
+          160,
+          254,
+          175
+        ]
+      }
+    },
+    {
+      "name": "C6_distinct_same_distance_pairs",
+      "n": 6,
+      "weights": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "value": "1/3"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "value": "-2/5"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "value": "3/7"
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "value": "-4/9"
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "value": "5/11"
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "value": "6/13"
+        }
+      ],
+      "targets": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "kind": "mixed",
+      "x_scope": "arbitrary strict x: vertex moments retained as independent formal symbols",
+      "distances": [
+        3,
+        3
+      ],
+      "residual_order_checked_through": 6,
+      "all_lower_and_mixed_terms_zero": true,
+      "terms": [],
+      "stats": {
+        "likelihood_terms": 24,
+        "power_sizes": [
+          24,
+          171,
+          242,
+          120
+        ]
+      }
+    },
+    {
+      "name": "C6_unequal_distance_pairs",
+      "n": 6,
+      "weights": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "value": "1/3"
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "value": "-2/5"
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "value": "3/7"
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "value": "-4/9"
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "value": "5/11"
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "value": "6/13"
+        }
+      ],
+      "targets": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "kind": "mixed",
+      "x_scope": "arbitrary strict x: vertex moments retained as independent formal symbols",
+      "distances": [
+        3,
+        2
+      ],
+      "residual_order_checked_through": 5,
+      "all_lower_and_mixed_terms_zero": true,
+      "terms": [],
+      "stats": {
+        "likelihood_terms": 25,
+        "power_sizes": [
+          25,
+          112,
+          97
+        ]
+      }
+    }
+  ],
+  "locality_cancellation": {
+    "name": "disconnected_residual_support_cross_Hessian",
+    "through_residual_degree": 6,
+    "terms": [],
+    "stats": {
+      "likelihood_terms": 4,
+      "power_sizes": [
+        4,
+        9,
+        10,
+        5
+      ]
+    }
+  },
+  "direct_mobius_gate": {
+    "n": 4,
+    "x": [
+      "1/5",
+      "1/3",
+      "3/5",
+      "3/4"
+    ],
+    "variables": [
+      "1/100",
+      "1/200",
+      "-1/150"
+    ],
+    "atoms": [
+      "56663870449/1063125000000",
+      "99223013357/7441875000000",
+      "794126545553/29767500000000",
+      "28370896921/4252500000000",
+      "14173663571/177187500000",
+      "24802962253/1240312500000",
+      "397154200649/9922500000000",
+      "14179170193/1417500000000",
+      "170100219551/1063125000000",
+      "297809286643/7441875000000",
+      "2381334746947/29767500000000",
+      "85059815579/4252500000000",
+      "42530352679/177187500000",
+      "74413768997/1240312500000",
+      "1190468951851/9922500000000",
+      "42494842307/1417500000000"
+    ],
+    "all_16_equal": true
+  },
+  "scope": "Finite tests support but do not prove the general analytic argument.",
+  "script_sha256": "46e075f8dc25814bbe5ab5571bc671552ecd740f8fb87bc93644b5837e5e0970",
+  "elapsed_seconds": 0.2434694766998291,
+  "exit_code": 0
+}
