@@ -90,6 +90,19 @@
   均完整在账，故不改变本批零命中；当前脚本已改为冻结 source 与每个
   candidate。精确有理化仍只认证 near-commuting PSD 线
 
+### D10-H6：修复记账后的第二轮联合细化
+
+- 状态：`CORRECT`（账目/冻结点）/ `SCOUT`（20000 新提议）/
+  `INCOMPLETE`（完整 seed 重放与连续空间）
+- 结果：四片各显式记录 1 个 source 与 5000 个 proposal；20000 个新
+  提议中正 status/正 gap 均为 0，最大 gap `-6.16597e-5`，最好
+  `rho=0.5715404865<1`
+- 核验：非作者不导入作者 gate，90 位 Möbius exact-event 给
+  `H''=-29.1832216087...`，三条实际弦均负；Fraction LDL 证明 D 正定
+  且 `|t|<=1/200` 上有 `1/2000` 裕量，CSV/manifest/JSON/NPZ/log 对账
+- 边界：没有重跑完整 20000 次 proposal 生成；外层仍为有限 joint
+  basis/spectrum heuristic，有理化冻结线仍只称 near-commuting PSD
+
 ### D10-M3：固定谱基的投影 DPP 通道约化
 
 - 状态：`CORRECT`（表示/分解/所列子类）/ `INCOMPLETE`（generic Q）
