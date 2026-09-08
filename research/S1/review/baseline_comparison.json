@@ -1,0 +1,122 @@
+{
+  "command": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe - <comparison stdin script>",
+  "exit_status": 0,
+  "main_git_head": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "main_pid": 157942,
+  "max_abs_finite_gap_diff": 3.375077994860476e-14,
+  "max_abs_increment_gap_diff": 3.2862601528904634e-14,
+  "pid": 63932,
+  "review_git_head": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "review_pid": 51024,
+  "rows": [
+    {
+      "finite_gap_diff": 0.0,
+      "increment_gap_diff": 0.0,
+      "main_finite_gap": 0.0,
+      "main_increment_gap": 0.0,
+      "n": 1,
+      "review_finite_gap": 0.0,
+      "review_increment_gap": 0.0
+    },
+    {
+      "finite_gap_diff": -4.440892098500626e-16,
+      "increment_gap_diff": -4.440892098500626e-16,
+      "main_finite_gap": -2.045261074812288e-05,
+      "main_increment_gap": -2.045261074812288e-05,
+      "n": 2,
+      "review_finite_gap": -2.045261074856697e-05,
+      "review_increment_gap": -2.045261074856697e-05
+    },
+    {
+      "finite_gap_diff": 0.0,
+      "increment_gap_diff": 4.440892098500626e-16,
+      "main_finite_gap": -4.3997499530323836e-05,
+      "main_increment_gap": -2.3544888782200957e-05,
+      "n": 3,
+      "review_finite_gap": -4.3997499530323836e-05,
+      "review_increment_gap": -2.3544888781756868e-05
+    },
+    {
+      "finite_gap_diff": 4.440892098500626e-16,
+      "increment_gap_diff": 4.440892098500626e-16,
+      "main_finite_gap": -7.005254063141564e-05,
+      "main_increment_gap": -2.6055041101091803e-05,
+      "n": 4,
+      "review_finite_gap": -7.005254063097155e-05,
+      "review_increment_gap": -2.6055041100647713e-05
+    },
+    {
+      "finite_gap_diff": 4.440892098500626e-16,
+      "increment_gap_diff": 0.0,
+      "main_finite_gap": -9.616467648454474e-05,
+      "main_increment_gap": -2.6112135853129104e-05,
+      "n": 5,
+      "review_finite_gap": -9.616467648410065e-05,
+      "review_increment_gap": -2.6112135853129104e-05
+    },
+    {
+      "finite_gap_diff": -8.881784197001252e-16,
+      "increment_gap_diff": -1.3322676295501878e-15,
+      "main_finite_gap": -0.00012228726704499593,
+      "main_increment_gap": -2.6122590560451187e-05,
+      "n": 6,
+      "review_finite_gap": -0.0001222872670458841,
+      "review_increment_gap": -2.6122590561783454e-05
+    },
+    {
+      "finite_gap_diff": -1.7763568394002505e-15,
+      "increment_gap_diff": -8.881784197001252e-16,
+      "main_finite_gap": -0.00014841133183995936,
+      "main_increment_gap": -2.612406479496343e-05,
+      "n": 7,
+      "review_finite_gap": -0.00014841133184173572,
+      "review_increment_gap": -2.612406479585161e-05
+    },
+    {
+      "finite_gap_diff": -7.993605777301127e-15,
+      "increment_gap_diff": -6.217248937900877e-15,
+      "main_finite_gap": -0.0001745355115492231,
+      "main_increment_gap": -2.612417970926373e-05,
+      "n": 8,
+      "review_finite_gap": -0.0001745355115572167,
+      "review_increment_gap": -2.6124179715480977e-05
+    },
+    {
+      "finite_gap_diff": 8.881784197001252e-16,
+      "increment_gap_diff": 8.881784197001252e-15,
+      "main_finite_gap": -0.00020065970530502852,
+      "main_increment_gap": -2.6124193755805436e-05,
+      "n": 9,
+      "review_finite_gap": -0.00020065970530414035,
+      "review_increment_gap": -2.6124193746923652e-05
+    },
+    {
+      "finite_gap_diff": 0.0,
+      "increment_gap_diff": -8.881784197001252e-16,
+      "main_finite_gap": -0.00022678390057695452,
+      "main_increment_gap": -2.6124195271926e-05,
+      "n": 10,
+      "review_finite_gap": -0.00022678390057695452,
+      "review_increment_gap": -2.6124195272814177e-05
+    },
+    {
+      "finite_gap_diff": 8.881784197001252e-16,
+      "increment_gap_diff": 8.881784197001252e-16,
+      "main_finite_gap": -0.00025290809599987085,
+      "main_increment_gap": -2.612419542291633e-05,
+      "n": 11,
+      "review_finite_gap": -0.0002529080959989827,
+      "review_increment_gap": -2.612419542202815e-05
+    },
+    {
+      "finite_gap_diff": 3.375077994860476e-14,
+      "increment_gap_diff": 3.2862601528904634e-14,
+      "main_finite_gap": -0.00027903229144143893,
+      "main_increment_gap": -2.6124195441568077e-05,
+      "n": 12,
+      "review_finite_gap": -0.00027903229140768815,
+      "review_increment_gap": -2.6124195408705475e-05
+    }
+  ],
+  "status": "COMPLETED_COMPARISON_TO_MAIN_FLOAT_DIAGNOSTIC"
+}

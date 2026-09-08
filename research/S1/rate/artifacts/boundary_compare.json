@@ -1,0 +1,42 @@
+{
+  "comparisons": [
+    {
+      "complement_symbol": false,
+      "frobenius_corner_difference": 1.1025081138231913e-15,
+      "max_abs_corner_difference": 6.106226635438361e-16,
+      "operator_error_upper_float": 1.185858141392691e-11,
+      "outer_factor_reconstruction_error": 6.661338147750939e-16,
+      "t": "0"
+    },
+    {
+      "complement_symbol": true,
+      "frobenius_corner_difference": 2.100285392478759e-15,
+      "max_abs_corner_difference": 1.1657341758564144e-15,
+      "operator_error_upper_float": 2.357193088863124e-22,
+      "outer_factor_reconstruction_error": 1.1102230246251565e-15,
+      "t": "0"
+    },
+    {
+      "complement_symbol": false,
+      "frobenius_corner_difference": 1.5304095850538504e-15,
+      "max_abs_corner_difference": 8.326672684688674e-16,
+      "operator_error_upper_float": 2.0123568718409805e-11,
+      "outer_factor_reconstruction_error": 7.771561172376096e-16,
+      "t": "1/4"
+    },
+    {
+      "complement_symbol": true,
+      "frobenius_corner_difference": 7.574089559749866e-16,
+      "max_abs_corner_difference": 3.274586369593837e-16,
+      "operator_error_upper_float": 2.5470632056604613e-21,
+      "outer_factor_reconstruction_error": 3.152475129099665e-16,
+      "t": "1/4"
+    }
+  ],
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "residual_json_basename": "boundary_residual_M64.json",
+  "residual_sha256": "90c313c56ef3a5bf522c7906c1bb782a0ff61b50ed6fe256aba098ac15f4ad6b",
+  "script_sha256": "aaaab5d30d772967dc3260e7edfd552e59cd79888f28b432a930946dda30230f",
+  "status": "NUMERICAL_CROSS_CHECK_ONLY"
+}
