@@ -41,4 +41,8 @@ margin `0.20`. Together with H10--H13 this gives a broad finite profile: the
 near-boundary mechanism remains negative everywhere checked and weakens in the
 central box. This is neither a monotonicity proof nor a global upper bound.
 
-Independent non-author reconstruction is pending under `verifications/`.
+A fresh non-author implementation under `audit_nonauthor/` independently
+reconstructed the 20,004-row accounting, the 130-digit exact-event gate,
+four strict chords, and the rational LDL feasibility certificate.  It returned
+`CORRECT` for the frozen computation and retained `SCOUT` for every profile or
+global inference.
