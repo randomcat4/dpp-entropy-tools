@@ -1,0 +1,23 @@
+{
+  "run_dir": "research/A2",
+  "mode": "research",
+  "ok": true,
+  "frozen_versions": [
+    "frozen_theorem_v1.md",
+    "frozen_theorem_v2.md",
+    "frozen_theorem_v3.md"
+  ],
+  "proof_count": 2,
+  "verification_count": 2,
+  "verification_statuses": {
+    "correct": 2,
+    "critical_gaps": 0,
+    "other": 0
+  },
+  "errors": [],
+  "warnings": [
+    "no explicit premise-freeze marker: frozen_theorem_v1.md",
+    "no explicit premise-freeze marker: frozen_theorem_v2.md"
+  ],
+  "note": "Structure only; mathematical correctness, semantic fidelity, literature status, and novelty are not checked."
+}
