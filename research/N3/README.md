@@ -1,6 +1,7 @@
 # N3: Fisher and conditional covariance coupling
 
-Status: ACTIVE_RESEARCH; the general real three-dimensional claim is INCOMPLETE.
+Status: CLOSING_FOR_SUBSTANTIVE_STOP; final independent audit is being integrated.
+The general real three-dimensional claim is INCOMPLETE.
 Baseline: `fa504ec74e16843fafc395880d7ba99b4c1d2129`.
 Coordination: https://github.com/randomcat4/dpp-entropy-tools/issues/20.
 
@@ -18,3 +19,10 @@ All public artifacts exclude private handoffs and connection information.
 Success means either a complete proof, a strictly feasible positive entropy
 chord certificate, or a new exact coupling lemma / explicit obstruction with
 the smallest unclosed obligation. Finite non-hits do not certify the target.
+
+This round derived an exact conditional-score decomposition, strictly refuted
+its sufficient condition both for arbitrary directions and at the actual
+trace optimizer, and found an analytic rare-atom obstruction to the richer
+one/two-point Fisher projection. The missing DPP alignment bound remains open.
+Read `verdict.md` and `checkpoint.json` for the final status; individual frozen
+author versions and early scout non-hits are retained as historical evidence.
