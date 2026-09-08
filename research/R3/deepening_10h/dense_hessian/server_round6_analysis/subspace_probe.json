@@ -1,0 +1,149 @@
+{
+  "status": "BOUNDED_SUBSPACE_DIAGNOSTIC",
+  "center_count": 1,
+  "subspaces": [
+    {
+      "subspace": "commuting_with_K",
+      "dimension": 12,
+      "rho_max": 0.5133580085580268,
+      "directional_recheck": {
+        "H": 7.192700077982028,
+        "Fisher_positive": 60.31202310649966,
+        "acceleration": 30.961660074058386,
+        "H2": -29.350363032441273,
+        "rho": 0.5133580085580272,
+        "normalization_error": 0.0,
+        "sum_p1": -1.1102230246251565e-16,
+        "sum_p2": 3.3306690738754696e-16,
+        "min_probability": 3.488201486707941e-14
+      },
+      "direction_eigenvalues": [
+        0.13927773579087455,
+        0.17352632241333468,
+        0.30155182286289023,
+        0.37324564908501134,
+        0.4525349881959549,
+        0.4683016398376851,
+        0.4875934102292865,
+        0.7885845199787562,
+        0.8093476051743174,
+        0.9336250068357823,
+        0.9496156479717311,
+        0.9999999999999998
+      ],
+      "commutator_frobenius": 1.0455753898679445e-15
+    },
+    {
+      "subspace": "physical_diagonal",
+      "dimension": 12,
+      "rho_max": 0.4571246983300331,
+      "directional_recheck": {
+        "H": 7.192700077982028,
+        "Fisher_positive": 104.78594347470882,
+        "acceleration": 47.90024280010417,
+        "H2": -56.88570067460465,
+        "rho": 0.4571246983300331,
+        "normalization_error": 0.0,
+        "sum_p1": -6.661338147750939e-16,
+        "sum_p2": 1.9984014443252818e-15,
+        "min_probability": 3.488201486707941e-14
+      },
+      "direction_eigenvalues": [
+        0.3157595946749188,
+        0.3728724336132836,
+        0.5574531154342643,
+        0.5766910747398397,
+        0.6210250936711696,
+        0.6428238353899177,
+        0.670332513803653,
+        0.7763525520268141,
+        0.8667567892556715,
+        0.8737994385087223,
+        0.9153662373663274,
+        1.0
+      ],
+      "commutator_frobenius": 0.38491432180284
+    },
+    {
+      "subspace": "identity_only",
+      "dimension": 1,
+      "rho_max": 0.43441060199784165,
+      "directional_recheck": {
+        "H": 7.192700077982028,
+        "Fisher_positive": 246.32587545417988,
+        "acceleration": 107.00657184369567,
+        "H2": -139.3193036104842,
+        "rho": 0.4344106019978417,
+        "normalization_error": 0.0,
+        "sum_p1": -3.3306690738754696e-16,
+        "sum_p2": 8.881784197001252e-16,
+        "min_probability": 3.488201486707941e-14
+      },
+      "direction_eigenvalues": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "commutator_frobenius": 0.0
+    },
+    {
+      "subspace": "frozen_direction_commuting_projection",
+      "dimension": 1,
+      "directional_recheck": {
+        "H": 7.192700077982028,
+        "Fisher_positive": 41.674757710402965,
+        "acceleration": 21.331133075578936,
+        "H2": -20.343624634824028,
+        "rho": 0.5118478006233064,
+        "normalization_error": 0.0,
+        "sum_p1": -4.440892098500626e-16,
+        "sum_p2": 7.771561172376096e-16,
+        "min_probability": 3.488201486707941e-14
+      },
+      "removed_offdiagonal_frobenius": 0.5215803452963308,
+      "full_direction_frobenius": 1.9714700661349072
+    }
+  ],
+  "full_rho": 0.5261099452386904,
+  "decomposition": {
+    "commuting_part": {
+      "H": 7.192700077982028,
+      "Fisher_positive": 41.674757710402965,
+      "acceleration": 21.331133075578936,
+      "H2": -20.343624634824028,
+      "rho": 0.5118478006233064,
+      "normalization_error": 0.0,
+      "sum_p1": -4.440892098500626e-16,
+      "sum_p2": 7.771561172376096e-16,
+      "min_probability": 3.488201486707941e-14
+    },
+    "noncommuting_part": {
+      "H": 7.192700077982028,
+      "Fisher_positive": 0.7418903867122291,
+      "acceleration": -0.20405551055057686,
+      "H2": -0.9459458972628059,
+      "rho": -0.27504805858837433,
+      "normalization_error": 0.0,
+      "sum_p1": -5.551115123125783e-17,
+      "sum_p2": -2.949029909160572e-17,
+      "min_probability": 3.488201486707941e-14
+    },
+    "mixed_bilinear": {
+      "Fisher_positive": 0.39080067565946974,
+      "acceleration": 0.7999755433473041,
+      "H2": 0.4091748676878344
+    }
+  },
+  "random_draws": 0,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3943240642547607
+}
