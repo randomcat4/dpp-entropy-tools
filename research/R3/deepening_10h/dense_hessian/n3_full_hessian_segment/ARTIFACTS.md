@@ -26,3 +26,17 @@ SHA-256 is
 The tracked `s8b_preconditioned_certificate.json`, independent checker, and
 fresh audit report retain the complete reproducible inputs, author leaf data,
 summary counts, and verification method.
+
+The S8c author probe deterministically regenerates
+`s8c_boundary_asymptotic/boundary_probe_results.json`. The expanded bridge and
+endpoint-asymptotic trace is 4,802,765 bytes and is excluded from Git. Its
+audited local SHA-256 is
+
+```text
+2c257777b29d33b38c1ae5de9c2e0aba775bf43e13ab5038dfbf41c361ee45da
+```
+
+The tracked independent checker and its compact JSON record reconstruct the
+eight exact-event atoms, the six-coordinate Hessian, all bridge leaves and the
+tail majorant without importing the author module. The fresh audit also binds
+the expanded author artifact by the same hash.
