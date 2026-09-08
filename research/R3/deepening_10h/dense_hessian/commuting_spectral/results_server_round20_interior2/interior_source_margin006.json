@@ -1,0 +1,25 @@
+{
+  "status": "AUTHOR_INTERIOR_SOURCE",
+  "construction": "affine spectral contraction toward 1/2",
+  "seed": 2026090869,
+  "target_margin": 0.06,
+  "scale": 0.9079118319056304,
+  "source_spectrum_margin": 0.015371444079016916,
+  "interior_spectrum_margin": 0.06000000000000005,
+  "metrics": {
+    "rho_psd": 0.5316300785224816,
+    "rho_unrestricted": 0.5316300785224816,
+    "unrestricted_same_sign": true,
+    "total_psd_fisher_normalized": -0.46836992147751844,
+    "min_atom": 5.533395423403962e-07,
+    "normalization_residual": -2.220446049250313e-16,
+    "generalized_residual": 2.5157116661378873e-16,
+    "direction_min_rate": 0.7934544822234658,
+    "direction_max_rate": 1.0,
+    "chord_step": 0.01,
+    "chord_gap": -0.0023590706611855694,
+    "spectrum_margin": 0.06000000000000005,
+    "basis_orthogonality_residual": 5.5671437743919595e-15
+  },
+  "output": "interior_source_margin006.npz"
+}
