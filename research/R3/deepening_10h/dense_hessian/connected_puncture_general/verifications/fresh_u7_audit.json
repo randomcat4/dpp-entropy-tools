@@ -1,0 +1,525 @@
+{
+  "author_input_hashes": {
+    "frozen_claim.md": {
+      "bytes": 1769,
+      "sha256": "FBCD270F26F2BCCAED3C4641AE4531BF89A7C982C36E124D56F4B1F85C5D2DFE"
+    },
+    "general_sanity.py": {
+      "bytes": 9318,
+      "sha256": "46E075F8DC25814BBE5AB5571BC671552ECD740F8FB87BC93644B5837E5E0970"
+    },
+    "hazards.md": {
+      "bytes": 2126,
+      "sha256": "3D3331E0B5C4A67B3CC147492F46C9816ADF1B8E2BD16A13E1901814E4ADBD5E"
+    },
+    "proof_candidate.md": {
+      "bytes": 16216,
+      "sha256": "2952FE94A42D135E8092E1F9347257BD5EBC77270E2F825C86D186FCDD9085A2"
+    },
+    "run_log.md": {
+      "bytes": 3311,
+      "sha256": "FDD7DB6D16D7CE0E43EC15479FB9F9395944464976F8FE581CFCA6089D1B709B"
+    },
+    "sanity_results.json": {
+      "bytes": 16775,
+      "sha256": "C288BC03BF9D63EC17E382D4AE61FC2C2CB851D259718407D2B04D7C637BD16D"
+    },
+    "verdict.md": {
+      "bytes": 2009,
+      "sha256": "5C6CC9F872C6CE6F423CBB12E4021A5CE961AB2B3594F6EEB0B4141FA3E80B91"
+    }
+  },
+  "cycle_coefficients": [
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "0",
+          "k": 2,
+          "raw": "0"
+        },
+        {
+          "contribution": "-1",
+          "k": 3,
+          "raw": "-6"
+        }
+      ],
+      "m": 3,
+      "matching_part": "-1",
+      "pass": true
+    },
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "-1",
+          "k": 2,
+          "raw": "2"
+        },
+        {
+          "contribution": "2",
+          "k": 3,
+          "raw": "12"
+        },
+        {
+          "contribution": "-2",
+          "k": 4,
+          "raw": "24"
+        }
+      ],
+      "m": 4,
+      "matching_part": "-1",
+      "pass": true
+    },
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "0",
+          "k": 2,
+          "raw": "0"
+        },
+        {
+          "contribution": "-5",
+          "k": 3,
+          "raw": "-30"
+        },
+        {
+          "contribution": "10",
+          "k": 4,
+          "raw": "-120"
+        },
+        {
+          "contribution": "-6",
+          "k": 5,
+          "raw": "-120"
+        }
+      ],
+      "m": 5,
+      "matching_part": "-1",
+      "pass": true
+    },
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "-1",
+          "k": 2,
+          "raw": "2"
+        },
+        {
+          "contribution": "10",
+          "k": 3,
+          "raw": "60"
+        },
+        {
+          "contribution": "-40",
+          "k": 4,
+          "raw": "480"
+        },
+        {
+          "contribution": "54",
+          "k": 5,
+          "raw": "1080"
+        },
+        {
+          "contribution": "-24",
+          "k": 6,
+          "raw": "720"
+        }
+      ],
+      "m": 6,
+      "matching_part": "-1",
+      "pass": true
+    },
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "0",
+          "k": 2,
+          "raw": "0"
+        },
+        {
+          "contribution": "-21",
+          "k": 3,
+          "raw": "-126"
+        },
+        {
+          "contribution": "140",
+          "k": 4,
+          "raw": "-1680"
+        },
+        {
+          "contribution": "-336",
+          "k": 5,
+          "raw": "-6720"
+        },
+        {
+          "contribution": "336",
+          "k": 6,
+          "raw": "-10080"
+        },
+        {
+          "contribution": "-120",
+          "k": 7,
+          "raw": "-5040"
+        }
+      ],
+      "m": 7,
+      "matching_part": "-1",
+      "pass": true
+    },
+    {
+      "full_with_oriented_q2": "-3",
+      "ledger": [
+        {
+          "contribution": "0",
+          "k": 1,
+          "raw": "0"
+        },
+        {
+          "contribution": "-1",
+          "k": 2,
+          "raw": "2"
+        },
+        {
+          "contribution": "42",
+          "k": 3,
+          "raw": "252"
+        },
+        {
+          "contribution": "-462",
+          "k": 4,
+          "raw": "5544"
+        },
+        {
+          "contribution": "1764",
+          "k": 5,
+          "raw": "35280"
+        },
+        {
+          "contribution": "-3024",
+          "k": 6,
+          "raw": "90720"
+        },
+        {
+          "contribution": "2400",
+          "k": 7,
+          "raw": "100800"
+        },
+        {
+          "contribution": "-720",
+          "k": 8,
+          "raw": "40320"
+        }
+      ],
+      "m": 8,
+      "matching_part": "-1",
+      "pass": true
+    }
+  ],
+  "elapsed_seconds": 0.21310758590698242,
+  "exact_event_gate": {
+    "all_atoms_positive": true,
+    "atoms": 16,
+    "n": 4,
+    "shifted_equals_mobius": true,
+    "sum_atoms": "1"
+  },
+  "first_derivative_scout": {
+    "distances": [
+      4
+    ],
+    "expected": {
+      "0": "0",
+      "1": "0",
+      "2": "0",
+      "3": "0",
+      "4": "0",
+      "5": "0",
+      "6": "0",
+      "7": "0",
+      "8": "0"
+    },
+    "n": 5,
+    "name": "P5_endpoint_first_derivative_locality",
+    "pass": true,
+    "series": {},
+    "support_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "targets": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "hessian_scout_cases": [
+    {
+      "distances": [
+        4
+      ],
+      "expected": {
+        "0": "0",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "0",
+        "6": "0",
+        "7": "0",
+        "8": "-263671875/20939776"
+      },
+      "n": 5,
+      "name": "P5_endpoint_distance4_diagonal",
+      "pass": true,
+      "series": {
+        "8": "-263671875/20939776"
+      },
+      "support_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "distances": [
+        2,
+        2
+      ],
+      "expected": {
+        "0": "0",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "n": 5,
+      "name": "P5_same_distance_shared_vertex_cross",
+      "pass": true,
+      "series": {},
+      "support_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "distances": [
+        3,
+        3
+      ],
+      "expected": {
+        "0": "0",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "0",
+        "6": "0"
+      },
+      "n": 5,
+      "name": "P5_same_distance_overlapping_cross",
+      "pass": true,
+      "series": {},
+      "support_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "distances": [
+        2
+      ],
+      "expected": {
+        "0": "0",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "-1269164425/16032016"
+      },
+      "n": 4,
+      "name": "C4_two_shortest_paths_diagonal",
+      "pass": true,
+      "series": {
+        "4": "-1269164425/16032016"
+      },
+      "support_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "distances": [
+        2
+      ],
+      "expected": {
+        "0": "0",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "-390625/9801"
+      },
+      "n": 4,
+      "name": "Chord_shortens_path_uses_true_geodesic",
+      "pass": true,
+      "series": {
+        "4": "-390625/9801"
+      },
+      "support_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "targets": [
+        [
+          0,
+          3
+        ]
+      ]
+    }
+  ],
+  "scope": "finite exact Fraction sanity only; not a proof of the general theorem",
+  "status": "PASS"
+}
