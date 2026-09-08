@@ -172,6 +172,19 @@
 - 边界：一般 `B(theta,Q;v)>=0` 仍 `INCOMPLETE`；本条不含 mixed-sign
   速率或非对易 PSD 方向，也不把有限 sanity 分母当作全称证明。
 
+## L-M8：三维补集层的联合乘积屏障
+
+- 陈述：设 `alpha=Pr/R`、`beta=Ps/T`。互补加速度可精确写成
+  `A=2 sum_{j<k}v_jv_k C_i`，且
+  `C_i>=log(27 min_a alpha_a beta_a)`。若该最小乘积大于 `1/27`，则
+  对每个非零 one-sign fixed-Q 谱速率有 `H''<0`。
+- 状态：`CORRECT`；补集索引、随机矩阵行列约定、AM--GM 符号、单速率
+  count-Fisher 严格性、显式常数与有理区间实例经非作者独立核验。
+- 定量：谱裕量 `epsilon`、乘积裕量 `m>=m0>1/27` 时，`-H''` 至少为
+  `2 log(27m0) epsilon(1-epsilon)||v||^2/9`。
+- 边界：`C_i` 条件外一般 n=3 fixed-Q 全域仍 `INCOMPLETE`；六中心和
+  12 次区间尝试只作 `SCOUT/exact sanity`，不含非对易 PSD 方向。
+
 ## L-M2e：第三轮 fixed-Q 邻域联合细化账目与冻结点
 
 - 陈述：从已核验的第二轮 strongest 出发，修复 source 记账后的联合
@@ -242,3 +255,26 @@
   有理例均通过。
 - 边界：这是严格核域内的局部邻域存在定理；任意 indefinite 方向不在
   严格界内，零对角方向在对角核处二阶平坦。
+
+## L-S5：非退化三维核上的 full-Hessian 负定证书
+
+- 陈述：在 M7 equation (19) 的三异谱、异质对角、全连接有理 K* 上，
+  对每个非零实对称 D 有
+  `H''[D,D]<=-(43/50)||D||_F^2<0`；并存在 K* 周围的 full-Hessian
+  统一负定开邻域。
+- 状态：`CORRECT`；非作者以六变量 exact-event 多项式、独立有理 log
+  区间和 Gershgorin 证书重建，最小行裕量严格大于 `43/25`。
+- 审计修订：可选 PSD scout 的 off-diagonal Frobenius 梯度因子曾错误，
+  修复并全量重跑后复审通过；定理证书不依赖该 scout。
+- 边界：结论局部而非全域；精确 PSD-cone 最大方向仍未分类。
+
+## L-S6：紧对角盒 PSD/NSD 邻域的显式半径
+
+- 陈述：对固定 `n>=2`、`0<a<=b<1`，令 `s=min(a,1-b)`、`q=s^n`、
+  `m=q/2`，并以证明中的逐事件三阶导数界定义 L。半径
+  `delta=min(q/(2n),2/(nL))` 内，对全部 PSD/NSD D 有
+  `H''_K[D,D]<=-2||D||_F^2/n`。
+- 状态：`CORRECT`；determinant 混合导数计数、entropy 三阶链式法则、
+  atom floor、PSD trace 不等式和小维 exact sanity 均经独立核验。
+- 边界：显式常数极保守，只覆盖对角盒附近的定号方向，不含全域或
+  indefinite 方向。

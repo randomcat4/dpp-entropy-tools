@@ -166,6 +166,21 @@
 - 边界：只覆盖 fixed-Q/commuting 的 one-sign spectral directions；不
   覆盖任意非对易 PSD，也未解决充分区域之外的全局残差
 
+### D10-M8：三维补集乘积屏障
+
+- 状态：`CORRECT`（解析充分条件与精确区间证书）/ `SCOUT`（六个有理
+  中心）/ `INCOMPLETE`（条件外一般 fixed-Q 全域）
+- 结果：互补层加速度精确为 `A=2 sum v_jv_k C_i`；若
+  `m=min_a alpha_a beta_a>1/27`，则
+  `C_i>=log(27m)>0`，从而所有非零 one-sign fixed-Q 谱速率严格负曲率
+- 定量：谱在 `[epsilon,1-epsilon]` 且 `m>=m0>1/27` 时，屏障至少
+  `2 log(27m0) epsilon(1-epsilon)||v||^2/9`；两层原子均至少 `1/5`
+  是简单充分子区，并严格扩张旧 `[1/4,4/9]`
+- 非退化区间：三异谱、异质、全连接有理 K 与 rank-3 D 在
+  `|t|<=1/100` 上由精确六次多项式覆盖，谱裕量 `29/150`
+- 核验：非作者重建 48 个事件多项式/192 系数与 12 个区间尝试；10 个
+  通过、2 个失败完整保留。只限 commuting one-sign，不覆盖非对易 PSD
+
 ### D10-H7：第三轮联合谱/谱基局部细化
 
 - 状态：`CORRECT`（冻结点/已存账目）/ `SCOUT`（20000 个新提议）/
@@ -236,6 +251,32 @@
   `H''_K[D,D]<=-c||D||_F^2` 对全部 PSD/NSD D 成立
 - 核验：非作者从 exact-event Möbius 语义独立重推，并以 n=2,3 异质
   Fraction 例核验；半径只作存在性，不外推为全严格核域定理
+
+### D10-S5：非退化三维核的完整 Hessian 负定邻域
+
+- 状态：`CORRECT`（full Hessian/开邻域）/ `SCOUT`（有限 PSD 优化）
+- 结果：在一个三异谱、异质对角、全连接有理 K* 上，`-Hessian` 的
+  六坐标有理区间矩阵严格对角占优，最小 Gershgorin 行裕量
+  `>43/25`；故对全部实对称 D，
+  `H''<=-(43/50)||D||_F^2<0`
+- 邻域：完整 Hessian 的矩阵连续性给 K* 周围统一负定开邻域，覆盖非
+  对易 PSD/NSD，而非只覆盖 fixed-Q 方向；未给显式半径
+- 审查轨迹：首轮发现可选 projected PSD scout 的 off-diagonal
+  Frobenius 梯度漏除 2；修复后全量重跑与修订复审通过，核心证书从未
+  依赖该优化器
+- 边界：局部三维结论，不推出全域凹性；精确 PSD-cone optimizer 未解
+
+### D10-S6：对角盒 PSD/NSD 的显式半径
+
+- 状态：`CORRECT`
+- 结果：令 `s=min(a,1-b)`、`q=s^n`、`m=q/2`，以 determinant 一至三阶
+  混合导数的逐事件界定义显式 `L`，取
+  `delta=min(q/(2n),2/(nL))`；若严格 K 距 `[a,b]^n` 中某对角核不超过
+  delta，则全部 PSD/NSD D 满足
+  `H''_K[D,D]<=-2||D||_F^2/n`
+- 核验：非作者独立检查 atom floor、导数计数、链式法则、`2^n` 求和、
+  PSD trace 界及 n=2,3,4 exact sanity
+- 边界：半径极保守，仅为局部定量排除，不含 indefinite 方向或全域结论
 
 共同瓶颈：正事件加速度必须压过 Fisher/JS 损失；同时必须尊重 `K`
 空间仿射性，并把精确事件律与严格可行性纳入证书。

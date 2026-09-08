@@ -47,3 +47,13 @@ Loewner 单调耦合并未补齐这个缺口。S-T 的固定条件权重和二�
 交付：frozen_claim.md、derivation.md、prior_scope.md、sanity.py、results/。
 使用技能：math-theorem；其角色边界要求本作者只提供候选证明，最终
 CORRECT/CRITICAL GAPS 由新上下文给出。
+
+## 后续已核验扩展
+
+后续 D10-S5 在一个三异谱、异质对角、全连接有理三维核上证明完整
+`Sym(3)` Hessian 严格负定，显式界为
+`H''<=-(43/50)||D||_F^2`，并由连续性扩成开邻域；这覆盖非对易
+PSD/NSD，但仍是局部结论。D10-S6 又把紧对角盒附近的 PSD/NSD 排除
+从抽象存在半径升级为显式、虽极保守的可计算半径。两项均经非作者
+exact-event 审计为 `CORRECT`，详见各自子目录；一般全域问题仍
+`INCOMPLETE`。

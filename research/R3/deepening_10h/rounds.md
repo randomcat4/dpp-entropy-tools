@@ -225,3 +225,39 @@
   `|t|<=1/200` 的 `1/2000` 谱裕量通过。
 - 冻结点与存储账目为 `CORRECT`，有限批为 `SCOUT`；未重跑完整 seed
   proposals，故再生成层 `INCOMPLETE`。有理化证书仍限 near-commuting。
+
+## Round 20：三维补集屏障的乘积扩区
+
+- 先合并 singleton/pair 的互补加速度，得到三个点态系数 `C_i` 及
+  `A=2 sum v_jv_k C_i`。AM--GM 给
+  `C_i>=log(27 min_a alpha_a beta_a)`，从而把旧矩形充分区扩成联合乘积
+  条件 `min alpha_a beta_a>1/27`。
+- 两层每个条件原子至少 `1/5` 是更简单的充分子区；一个三异谱、异质、
+  全连接有理核则在该简单盒外仍满足乘积条件，并在 `|t|<=1/100` 整段
+  获得精确六次多项式证书，谱裕量 `29/150`。
+- 非作者从 rational K+tD 重建 48 个事件多项式/192 系数，核对六中心、
+  三系数与 12 个区间尝试；10 通过、2 失败完整保留。解析扩区为
+  `CORRECT`，有限分母为 `SCOUT`，条件外一般 fixed-Q 问题 `INCOMPLETE`。
+
+## Round 21：对角盒排除的显式半径
+
+- 对每个 exact atom 的 determinant 一至三阶混合导数作统一列展开界，
+  先在对角盒到 K 的线段上保护 atom floor，再界熵 Hessian 的 Lipschitz
+  常数 L。
+- 显式取 `delta=min(q/(2n),2/(nL))`，其中 `q=min(a,1-b)^n`；该半径内
+  对任意非零 PSD/NSD D 有 `H''<=-2||D||_F^2/n`。半径很小但可计算，
+  不再只依赖“存在某邻域”的紧致性说法。
+- 非作者逐项重推 determinant/Möbius、链式系数、trace 界，并作 n=2,3,4
+  exact sanity；状态 `CORRECT`。全域 PSD/NSD 与不定号方向仍未解决。
+
+## Round 22：非退化三维点的完整 Hessian 负定邻域
+
+- 在一个三异谱、异质对角、全连接有理 K* 上，六变量 exact-event
+  多项式与有理 log 区间给出 `-Hessian` 的严格 Gershgorin 证书，最小
+  行裕量 `>43/25`。因此对全部实对称 D，
+  `H''<=-(43/50)||D||_F^2<0`，覆盖非对易 PSD/NSD。
+- 由 Hessian 矩阵连续性得到 K* 周围整个 full-Hessian 负定的开邻域；
+  这不是单点或仅 fixed-Q 结论，但仍是局部三维区域。
+- 首轮审计发现可选 PSD projected scout 的非对角 Frobenius 梯度漏除 2；
+  修复后同参数全量重跑，最佳值未变且仍来自 rank-one scan。修订复审
+  通过；定理为 `CORRECT`，有限优化仅 `SCOUT`，全域问题仍开放。

@@ -17,6 +17,9 @@ separate evidence levels:
   region with strict negative curvature for every nonzero one-sign fixed-Q
   spectral direction, including a connected distinct-spectrum rational
   whole-interval certificate;
+- `n3_complement_barrier_refine/`: a verified larger product region
+  `min_a alpha_a beta_a>1/27`, an exact pointwise coefficient test, and a
+  connected distinct-spectrum rational interval beyond the earlier box;
 - `results_server_round9/`: a 20,000-center float64 scout plus a high-precision
   gate for its strongest frozen point.
 - `results_server_round13_refine/`, `results_server_round14_refine2/`,
