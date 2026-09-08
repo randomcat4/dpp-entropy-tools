@@ -12,3 +12,5 @@
   independent exact/interval verification.
 - Failing to certify strict interior endpoints.
 - Omitting the denominator, seed, rejected candidate counts, or exit status.
+- Applying the proved `2 x 2` concavity theorem to a conditional DPP kernel
+  whose dependence on the original chord parameter is non-affine.

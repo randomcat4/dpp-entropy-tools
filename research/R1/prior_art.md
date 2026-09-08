@@ -18,3 +18,12 @@ Status: lightweight route audit, not a complete novelty certification.
 
 This is not a complete novelty certification. The auxiliary diagonal-center
 lemmas use elementary entropy inequalities; no novelty claim is made for them.
+
+A phase-3 targeted search across arXiv, PMLR, and Project Euclid found standard
+DPP definitions, entropy uses, and negative-association background, but no
+direct theorem matching the complete-event Shannon entropy concavity statement
+for the marginal kernel.  This negative search result is not exhaustive and
+is not a novelty claim.  A convenient public definition remains the AMS
+Notices survey ["DPPs: Determinantal Point Processes"](https://doi.org/10.1090/NOTI2202),
+which states the inclusion-probability convention and the independent
+Bernoulli interpretation of diagonal kernels.

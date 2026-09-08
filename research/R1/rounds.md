@@ -128,3 +128,53 @@ search read the fixed result, ledger, summary, source, and best-object blobs.
 The reviewer independently reconciled all counts, checked the Mobius and
 complement signs, and returned `STATUS: CORRECT`; see
 `verification/phase2_param_commit_review.md`.
+
+## Round 5: global `n=2` concavity and block composition
+
+Status: `VERIFIED / GENERAL_N_GE_3_OPEN`.
+
+Two theorem statements were frozen before proof.  For `n=2`, exact event
+coordinates reduce the entropy Hessian to `-(G-2LQ)`.  Under
+`A+B+C+D=1`, its determinant pencil is
+
+```text
+det(G-sQ)=[16r+4sE-s^3P]/(16rP).
+```
+
+The quadratic coefficient cancels.  The inequalities `sqrt(P)L<=r` and
+`E>4r^2` keep the determinant positive over the full path `0<=s<=2L`, so
+inertia remains positive definite.  The diagonal locus is handled directly
+by `H''=-F<=0`.  This proves global concavity in dimension two and strict
+midpoint loss for every nonzero chord.
+
+Independently, Shannon subadditivity proves that at a block-diagonal center the
+global gap is bounded by the sum of principal-block gaps.  A nonzero
+cross-block kernel entry makes both endpoint block laws dependent, hence the
+bound strict; no cross-block entry gives product laws and equality.  Combining
+the two results covers all block-diagonal centers with blocks of size at most
+two in arbitrary real-symmetric directions.
+
+The fixed theorem/proof commit is
+`603300c06059518961766c724377c3b9d1198fc5`, tree
+`9c1a4db5462dddaf4a3b7cc37c010927254cbda4`.  Two reviewers who did not author
+the corresponding proof read only the fixed Git objects.  Both returned
+`CORRECT`; their reports record the theorem, proof, symbolic, and sanity blob
+IDs.
+
+The preregistered `n=2` falsification search completed 122,832 formal calls and
+32 optimization restarts, all `OK`, plus two successful 90-digit checks.  The
+raw floating maximum `1.455e-11` became `-5.227e-12` at high precision.  A
+separate event-coordinate probe made 200,000 random checks and a rational
+kernel/direction probe made 100,000 checks, also without a counterexample.
+None of these finite denominators is used in the proof.
+
+Two attractive but insufficient routes are retained.  A Cramer--Rao bound
+using only the two marginal means is too weak and its required matrix
+inequality fails on legal negatively associated four-event laws.  Replacing
+the exact log odds by the one-sided bound `L<=c^2/(AD)` likewise demands a
+strictly stronger false matrix inequality.  Neither failed route is a
+counterexample to entropy concavity.
+
+The first commit attempt failed because this checkout lacked local author
+identity.  Setting repository-local identity to match prior R1 commits fixed
+the transport issue; no global Git setting was changed.

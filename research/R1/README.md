@@ -1,6 +1,6 @@
 # R1: unrestricted real-symmetric finite DPP entropy
 
-Status: **VERIFIED_FOR_STRUCTURAL_FAMILIES / no counterexample found**. Tracking issue: #7.
+Status: **N2_CONCAVITY_PROVED / VERIFIED_FOR_BLOCKS_OF_SIZE_AT_MOST_TWO / no general counterexample found**. Tracking issue: #7.
 
 R1 studies dimensions `3 <= n <= 10` without restricting the real-symmetric
 strict positive-contraction kernel to previously tested symmetry families.
@@ -19,6 +19,23 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
 ```
 
 ## Current result
+
+- The complete-event Shannon entropy of every strictly feasible real
+  symmetric `2 x 2` DPP is globally concave in its marginal kernel.  The proof
+  reduces the Hessian to a Fisher matrix pencil whose cubic determinant has an
+  exact cancellation, then controls it by elementary log and AM--GM bounds.
+  A non-author commit-bound review returned `CORRECT`.
+- If a strict midpoint is block diagonal with every block of size one or two,
+  every feasible real-symmetric chord has nonpositive midpoint gap, strict for
+  every nontrivial chord.  The composition theorem actually bounds the global
+  gap by the sum of all principal-block gaps and is strict whenever a
+  cross-block entry is present.  A separate non-author commit-bound review
+  returned `CORRECT`.
+- A preregistered `n=2` boundary attack made 122,832 formal calls and two
+  successful 90-digit rechecks.  It found no robust positive Hessian.  The
+  largest raw floating value, `1.46e-11`, became `-5.23e-12` at 90 digits.
+  This finite search is falsification evidence only; it is not used by the
+  proof.
 
 - Three bounded optimizer batches made 55,780 formal objective calls in 240
   restarts across `n=3,...,10`. Each call computed the maximum eigenvalue of
