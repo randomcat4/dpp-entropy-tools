@@ -1,0 +1,21 @@
+{
+  "start_epoch": 1788836023.0769372,
+  "wall_seconds": 1.4912383556365967,
+  "before": [
+    [
+      4,
+      0,
+      0,
+      "SCAN calls"
+    ]
+  ],
+  "after": [
+    [
+      4,
+      0,
+      0,
+      "SCAN calls USING COVERING INDEX calls_status_idx"
+    ]
+  ],
+  "note": "Only a covering index was added. No row, objective, source code, deadline, or cap changed."
+}

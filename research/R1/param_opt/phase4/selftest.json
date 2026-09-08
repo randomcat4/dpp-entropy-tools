@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "seed": 20260908401,
+  "local_kernels": 24,
+  "remote_kernels": 24,
+  "formal_budget_included": false,
+  "local_max_errors": {
+    "signed_full_events": 1.1102230246251565e-16,
+    "complement_probabilities": 1.1102230246251565e-16,
+    "complement_gradient": 1.1102230246251565e-16,
+    "complement_hessian": 5.551115123125783e-17,
+    "first_mass": 1.1102230246251565e-16,
+    "second_mass": 0.0,
+    "probability_second_difference": 7.220589792744647e-9,
+    "entropy_second_difference": 3.1530709527771705e-6
+  },
+  "remote_max_errors": {
+    "signed_full_events": 6.989038254384683e-17,
+    "complement_probabilities": 2.0572736222912447e-17,
+    "complement_gradient": 3.7655696703137176e-17,
+    "complement_hessian": 5.551115123125783e-17,
+    "first_mass": 5.421010862427522e-20,
+    "second_mass": 0.0,
+    "probability_second_difference": 2.7052305843567118e-12,
+    "entropy_second_difference": 3.1658645563642854e-6
+  },
+  "note": "Local NumPy 2.3.5; remote NumPy 2.1.2. Remote selftest was run twice (before each smoke), 48 total remote kernels. No high-precision library is available locally."
+}

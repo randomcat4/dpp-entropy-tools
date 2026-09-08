@@ -1,0 +1,93 @@
+{
+  "status": "INCOMPLETE",
+  "task": "P4-03 n=3 equicorrelation midpoint audit",
+  "resource_limits_used": {
+    "cpu_threads": 2,
+    "gpu": false,
+    "system_dependencies_installed": false,
+    "subagents_spawned": false
+  },
+  "inputs_read": [
+    "R1/phase4_scope.md",
+    "R1/frozen_n3_equicorrelation_v1.md",
+    "research/R1/proofs/n2_concavity.md from commit 603300c06059518961766c724377c3b9d1198fc5, used only as a tool"
+  ],
+  "runs": [
+    {
+      "name": "symbolic_s3_identities",
+      "command": "python scripts/symbolic_s3_identities.py > logs/symbolic_s3_identities.json",
+      "exit_code": 0,
+      "output": "logs/symbolic_s3_identities.json",
+      "result": "Mobius event probabilities and S3 block identities emitted; trivial-standard Hessian cross terms are exactly zero."
+    },
+    {
+      "name": "hessian_probe_small",
+      "command": "python scripts/equicorr_hessian_probe.py --samples 2000 --grid 21 --seed 20260908 --stop-on-positive --out logs/probe_small.json",
+      "exit_code": 0,
+      "output": "logs/probe_small.json",
+      "centers_checked": 2441,
+      "positive_count": 0
+    },
+    {
+      "name": "hessian_probe_medium",
+      "command": "python scripts/equicorr_hessian_probe.py --samples 12000 --grid 51 --seed 2026090802 --out logs/probe_hessian_medium.json",
+      "exit_code": 0,
+      "output": "logs/probe_hessian_medium.json",
+      "centers_checked": 14601,
+      "positive_count": 0,
+      "best_max_hessian_eig": 9.699750208000549e-13,
+      "best_note": "Best value is at c=0 and is treated as floating zero, below positive_tol=1e-8."
+    },
+    {
+      "name": "chord_probe_small",
+      "command": "python scripts/equicorr_chord_probe.py --trials 10000 --seed 2026090801 --stop-on-positive --out logs/chord_probe_small.json",
+      "exit_code": 0,
+      "output": "logs/chord_probe_small.json",
+      "trials_checked": 10000,
+      "positive_count": 0
+    },
+    {
+      "name": "chord_probe_medium",
+      "command": "python scripts/equicorr_chord_probe.py --trials 30000 --seed 2026090803 --out logs/chord_probe_medium.json",
+      "exit_code": 0,
+      "output": "logs/chord_probe_medium.json",
+      "trials_checked": 30000,
+      "positive_count": 0,
+      "best_gap": 2.220446049250313e-15,
+      "best_note": "Best value is floating roundoff near a spectral boundary, below positive_tol=1e-10."
+    },
+    {
+      "name": "hessian_optimization_probe",
+      "command": "python scripts/equicorr_optimize_probe.py --mode hessian --seed 4403 --maxiter 60 --popsize 8 --local-iter 300 --out logs/opt_hessian.json",
+      "exit_code": 0,
+      "output": "logs/opt_hessian.json",
+      "best_max_hessian_eig": 2.2582328047195602e-14,
+      "best_note": "Optimizer converged to c approximately zero, interpreted as numerical nullspace."
+    },
+    {
+      "name": "gap_optimization_probe",
+      "command": "python scripts/equicorr_optimize_probe.py --mode gap --seed 4404 --maxiter 80 --popsize 8 --local-iter 500 --out logs/opt_gap.json",
+      "exit_code": 0,
+      "output": "logs/opt_gap.json",
+      "best_gap": 3.3306690738754696e-15,
+      "best_note": "Unconstrained optimizer drove t to nearly zero and exposed only floating roundoff."
+    },
+    {
+      "name": "gap_optimization_probe_min_fraction",
+      "command": "python scripts/equicorr_optimize_probe.py --mode gap --seed 4405 --maxiter 120 --popsize 8 --local-iter 500 --min-fraction 0.05 --eps 1e-5 --out logs/opt_gap_minfrac.json",
+      "exit_code": 0,
+      "output": "logs/opt_gap_minfrac.json",
+      "best_gap": -9.031404096804252e-17,
+      "best_note": "With non-tiny t fraction, best gap stayed nonpositive up to floating noise."
+    },
+    {
+      "name": "py_compile",
+      "command": "python -m py_compile scripts/*.py",
+      "exit_code": 0,
+      "result": "All scripts parsed successfully."
+    }
+  ],
+  "counterexample": null,
+  "proof_certificate": null,
+  "limitation": "No certified strict counterexample found, but no symbolic all-domain negative-semidefinite block certificate or finite midpoint-gap proof was completed."
+}

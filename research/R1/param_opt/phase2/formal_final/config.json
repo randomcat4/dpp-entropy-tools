@@ -1,0 +1,45 @@
+{
+  "mode": "formal",
+  "seed": 20260908210,
+  "dimensions": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "bands": [
+    [
+      0.2,
+      0.4
+    ],
+    [
+      0.05,
+      0.2
+    ],
+    [
+      0.01,
+      0.05
+    ],
+    [
+      0.001,
+      0.01
+    ]
+  ],
+  "restarts": 2,
+  "per_restart": 750,
+  "scouts": 16,
+  "max_calls": 48000,
+  "wall_seconds": 5400,
+  "threads": 1,
+  "memory_bytes": 12884901888,
+  "positive_threshold": 1e-06,
+  "deadline_semantics": "absolute wall-clock deadline from initial run, including interruptions",
+  "source_sha256": {
+    "engine.py": "ed5fcb2ecacfb4afd98b19ebd2f1a60c48d0495f3516f60eecdd10e68de4283d",
+    "numerics.py": "c9c51953b065fe807cf6e915d6a7ed3963e0a199780c16a88b4831a87cee4e4b"
+  }
+}

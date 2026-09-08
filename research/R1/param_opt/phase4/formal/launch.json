@@ -1,0 +1,22 @@
+{
+  "supervisor_pid": 142497,
+  "worker_pid": 142498,
+  "command": [
+    "/opt/venv/bin/python",
+    "attack.py",
+    "--out",
+    "formal",
+    "--scan",
+    "100000",
+    "--restarts",
+    "24",
+    "--optcalls",
+    "1000",
+    "--cap",
+    "150000",
+    "--deadline",
+    "1788839016.9372492"
+  ],
+  "start_epoch": 1788835416.9372492,
+  "absolute_deadline": 1788839016.9372492
+}

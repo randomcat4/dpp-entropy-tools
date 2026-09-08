@@ -1,0 +1,42 @@
+{
+  "status": "FINITE_PROBE",
+  "note": "Random finite chord scan only; positive candidates need high-precision/rational certification.",
+  "seed": 2026090801,
+  "eps": 1e-06,
+  "trials_requested": 10000,
+  "trials_checked": 10000,
+  "infeasible_radius": 0,
+  "elapsed_seconds": 12.568580150604248,
+  "positive_tol": 1e-10,
+  "best": {
+    "trial": 8787,
+    "lambda1": 1.2826184231138656e-06,
+    "lambda2": 0.9998769445403224,
+    "a": 0.6665850572330226,
+    "c": -0.33329188730729975,
+    "radius": 1.4406032859777814e-06,
+    "fraction": 2.8570814771386095e-06,
+    "t": 4.115920964272134e-12,
+    "gap": 2.6645352591003757e-15,
+    "endpoint_margin": 1.282614758672806e-06,
+    "V": [
+      [
+        -0.2610511571885191,
+        -0.32467376254244323,
+        0.03256673165168205
+      ],
+      [
+        -0.32467376254244323,
+        -0.2873941968178268,
+        -0.7673172403828441
+      ],
+      [
+        0.03256673165168205,
+        -0.7673172403828441,
+        -0.003708263437525681
+      ]
+    ]
+  },
+  "positive_count": 0,
+  "positives": []
+}

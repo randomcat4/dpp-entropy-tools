@@ -1,0 +1,140 @@
+{
+  "status": "INCOMPLETE_FINITE_BATCH_COMPLETE",
+  "seed": 20260908210,
+  "formal_calls": 42578,
+  "validation_calls": 823,
+  "combined_calls": 43401,
+  "formal_states": {
+    "OK": 42578
+  },
+  "formal_failures": 0,
+  "validation_failures": 2,
+  "distinct_call_ids": 42578,
+  "min_call_id": 1,
+  "max_call_id": 42578,
+  "unique_contiguous_ids": true,
+  "sqlite_quick_check": "ok",
+  "sqlite_sha256": "91580af731055418d4ff81314a014fca17e61f3c03240a8d581c0d36b916ec2e",
+  "sqlite_wal_bytes": 0,
+  "finished_restarts": 64,
+  "converged_restarts": 15,
+  "restart_call_limit_terminations": 49,
+  "actual_exit_code": 0,
+  "program_wall_seconds": 705.8111944198608,
+  "supervised_wall_seconds": 705.912392616272,
+  "absolute_deadline_epoch": 1788811983.331578,
+  "absolute_deadline_utc": "2026-09-07T20:13:03.331578+00:00",
+  "process_states": [
+    {
+      "role": "pid",
+      "pid": 141145,
+      "exists": false,
+      "live": false
+    },
+    {
+      "role": "supervisor_pid",
+      "pid": 141144,
+      "exists": false,
+      "live": false
+    }
+  ],
+  "promotion_threshold": 0.000001,
+  "promoted_candidates": 0,
+  "best_hessian": 5.930937647366978e-15,
+  "best_chords": [
+    {
+      "t": 0.00047033894450213036,
+      "delta": -1.138755756358023e-12,
+      "minus_margin": 0.006651320067137645,
+      "plus_margin": 0.006651320076497269
+    },
+    {
+      "t": 0.0018813557780085215,
+      "delta": -2.9154478831117103e-10,
+      "minus_margin": 0.0066471635500175985,
+      "plus_margin": 0.006647163587455429
+    }
+  ],
+  "dimension_margin_calls": [
+    {
+      "n": 3,
+      "counts": [
+        446,
+        509,
+        230,
+        797
+      ],
+      "total": 1982
+    },
+    {
+      "n": 4,
+      "counts": [
+        1189,
+        1221,
+        1182,
+        1104
+      ],
+      "total": 4696
+    },
+    {
+      "n": 5,
+      "counts": [
+        1414,
+        1500,
+        1486,
+        1500
+      ],
+      "total": 5900
+    },
+    {
+      "n": 6,
+      "counts": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "total": 6000
+    },
+    {
+      "n": 7,
+      "counts": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "total": 6000
+    },
+    {
+      "n": 8,
+      "counts": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "total": 6000
+    },
+    {
+      "n": 9,
+      "counts": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "total": 6000
+    },
+    {
+      "n": 10,
+      "counts": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "total": 6000
+    }
+  ]
+}
