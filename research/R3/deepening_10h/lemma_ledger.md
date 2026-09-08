@@ -83,3 +83,12 @@
   严格为负。
 - 状态：`CORRECT`；非作者重推条件化 Schur 补、Shepp--Olkin 接口与
   rank-one 分支，并新增 n=4 有理 exact-event 核验。
+
+## L-S3：原观察坐标对角 PSD/NSD 排除
+
+- 陈述：若 `K(t)=diag(k_i+t d_i)` 整段严格可行，则
+  `H''=-sum d_i^2/[x_i(t)(1-x_i(t))]`，且非零 D 时严格为负。
+- 状态：`CORRECT`；非作者从包含概率 Möbius 反演、乘积 Bernoulli 熵和
+  有理小维事件独立验缝。
+- 边界：只覆盖固定观察坐标下的对角核/方向，不覆盖正交旋转后的任意
+  对易对；一般 PSD/NSD 问题仍 `OPEN`。
