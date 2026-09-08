@@ -207,6 +207,17 @@
 - 边界：精确有理化对象只作 near-commuting PSD 线解释；不改变翻号
   门槛 `rho>1`。
 
+## L-M2g：第五轮 fixed-Q 邻域联合细化账目与冻结点
+
+- 陈述：从第四轮 strongest 再作四片各 5000 个联合谱/谱基 proposal，
+  每片显式保留 source 行，并冻结最大机制比点。
+- 状态：`CORRECT`（20004 个存储行与 strongest）/ `SCOUT`（20000 个
+  新 proposal）/ `INCOMPLETE`（未全 seed 再生、无全称）。
+- 结果：最好 `rho=0.5740468374<1`；非作者 95 位全事件复算给
+  `H''=-39.3902501599...`，实际弦、Fraction LDL 与谱裕量均通过。
+- 边界：strongest 贴着本轮配置的 `0.01` 谱裕量地板，故后续另作降低
+  地板的机制诊断；有理化对象仍只作 near-commuting PSD 线解释。
+
 ## L-U1：均匀核 Hessian 与四阶项
 
 - 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为

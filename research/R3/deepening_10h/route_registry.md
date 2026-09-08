@@ -206,6 +206,18 @@
 - 边界：未全量再生 20000 个 proposal；有理化线 near-commuting 而非
   精确 fixed-Q，有限负号不升级为全域定理
 
+### D10-H9：第五轮联合谱/谱基局部细化与边界诊断
+
+- 状态：`CORRECT`（冻结点/已存账目）/ `SCOUT`（20000 个新提议）/
+  `INCOMPLETE`（完整 seed 重放与一般问题）
+- 结果：四片各含 1 个 source 行与 5000 个 proposal；所有 status/gap
+  均非正，最大 gap `-4.78406e-5`，最好 `rho=0.5740468374<1`
+- 核验：非作者不导入作者 gate，以 95 位 Möbius exact-event 重建
+  strongest 得 `H''=-39.3902501599...`；三弦全负，Fraction LDL 认证
+  D 正定及 `|t|<=1/200` 有 `1/2000` 严格可行裕量
+- 边界：strongest 恰贴搜索配置的 `0.01` 谱裕量地板，但实际 K 仍
+  strict；这提示单独降低地板检验机制，而不构成奇异点或全域结论
+
 ## D10-U：均匀核的四阶平坦脊
 
 - 状态：`CORRECT`
