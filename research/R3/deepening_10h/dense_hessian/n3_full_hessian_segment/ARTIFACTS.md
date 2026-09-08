@@ -14,3 +14,15 @@ The independently generated compact record
 interval, all independent leaf summaries needed for the verdict, exact
 structural checks, and hashes.  The non-author report records the matching
 locations and hash of the expanded author artifact.
+
+The S8b independent checker likewise regenerates an expanded 6,542,798-byte
+leaf-by-leaf interval trace, which is excluded from Git.  Its audited local
+SHA-256 is
+
+```text
+0b8e9a81a242a501801c01c95b7839687ce4d3de9653ed4c6b509f1e2751e157
+```
+
+The tracked `s8b_preconditioned_certificate.json`, independent checker, and
+fresh audit report retain the complete reproducible inputs, author leaf data,
+summary counts, and verification method.
