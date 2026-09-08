@@ -158,6 +158,20 @@
   v3 指定回归通过，但相对残差仍不是逐约束最优性证书，故只作浮点
   scout。`Psi''<=0` 是已被精确正例否定的更强充分条件。
 
+## L-M7：三维近均匀补集层的显式严格屏障
+
+- 陈述：若 fixed-Q 三维严格核的 singleton/pair 条件原子均落在
+  `[1/4,4/9]`，则对每个非零 one-sign 谱速率有 `H''<0`；谱裕量
+  `epsilon` 上，`-H''` 至少为
+  `2 log(81/64) epsilon(1-epsilon)||v||^2/9`。
+- 状态：`CORRECT`；成对 jet 的 `L1` 常数 6、count/Fisher 边界、实
+  uniform-layer signed-exchangeable 分类、紧参数邻域与全区间有理实例
+  均经非作者独立 exact-event 核验。
+- 非退化证书：三异谱、异质对角、全连接 K 与 rank-3 non-thinning PSD
+  D 在 `|t|<=1/20` 内满足全部 12 条条件界，谱裕量为 `19/100`。
+- 边界：一般 `B(theta,Q;v)>=0` 仍 `INCOMPLETE`；本条不含 mixed-sign
+  速率或非对易 PSD 方向，也不把有限 sanity 分母当作全称证明。
+
 ## L-M2e：第三轮 fixed-Q 邻域联合细化账目与冻结点
 
 - 陈述：从已核验的第二轮 strongest 出发，修复 source 记账后的联合

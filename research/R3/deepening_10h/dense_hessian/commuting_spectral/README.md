@@ -13,6 +13,10 @@ separate evidence levels:
   closed sufficient subclasses;
 - `low_dim_exact/`: a verified strict-negative theorem in dimension two and a
   precise dimension-three proof-method blocker;
+- `n3_complement_barrier/`: a verified explicit near-uniform conditional-layer
+  region with strict negative curvature for every nonzero one-sign fixed-Q
+  spectral direction, including a connected distinct-spectrum rational
+  whole-interval certificate;
 - `results_server_round9/`: a 20,000-center float64 scout plus a high-precision
   gate for its strongest frozen point.
 - `results_server_round13_refine/`, `results_server_round14_refine2/`, and
