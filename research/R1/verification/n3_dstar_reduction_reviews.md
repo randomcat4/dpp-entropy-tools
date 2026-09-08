@@ -34,3 +34,23 @@ Both reviews explicitly confirmed the scope boundary: these are exact
 reductions and partial family results.  The two parameterized matrix signs,
 the global sufficient inequality `F>=D_*`, and general connected `3 x 3`
 entropy concavity remain open.
+
+## Single-edge scalar reduction
+
+- fixed commit: `6612bccb93389cbf403ec04e22ca19c221462488`
+- tree: `bb2540c2eab6178458d2e66dda18cab179ab523d`
+- proof blob: `31034eda6461efab6b912cff5ef4aeb6a1b094cd`
+- formal-script blob: `27fa65ac22970f253e95a743e9886663210a1cde`
+- paths: `research/R1/proofs/n3_equicorrelation_single_edge_reduction.md`
+  and `research/R1/certificate/phase4/scripts/equicorrelation_single_edge_symbolic.py`
+
+Two nonauthor reviewers read only the fixed Git objects and returned
+`STATUS: CORRECT`.  Both replayed the fixed dependency-free script with exit
+code `0`.  They checked the stabilizer odd/even decomposition, positivity of
+the base trivial and standard blocks without circular use of the target,
+the rank-one downdate equivalence, the cleared scalar `Phi`, the two Fisher
+sufficient regions, and the separate treatment of the product line.
+
+The reviewers confirmed that the script checks formal identities with zero
+parameter evaluations.  The global sign `Phi>=0`, the double-edge matrix,
+and general connected `3 x 3` concavity remain open.
