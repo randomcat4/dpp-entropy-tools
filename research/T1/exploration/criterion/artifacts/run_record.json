@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "python": "3.12.3",
+  "writer_pid": 136805,
+  "commands": [
+    {
+      "command": "python3 -m unittest -v test_bridge_certificate.py",
+      "exit_status": 0,
+      "tests_completed": 11
+    },
+    {
+      "command": "python3 diagnostic.py",
+      "exit_status": 1,
+      "reason": "initial NumPy import unavailable; retained failure; implementation replaced with stdlib"
+    },
+    {
+      "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 diagnostic.py",
+      "exit_status": 0,
+      "cases_completed": 4,
+      "full_events_diagnostic_only": 84
+    }
+  ],
+  "resource_limits": {
+    "process_count": 1,
+    "blas_openmp_threads": 1,
+    "address_space_limit_gib": 8,
+    "gpu": false
+  },
+  "certification_scope": "exact rational premises only; theorem independent verification pending; diagnostic logs are floating point",
+  "dependencies_installed": false
+}

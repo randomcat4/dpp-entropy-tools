@@ -1,0 +1,122 @@
+{
+  "status": "COMPLETED_EXACT_FIXTURES_NOT_INDEPENDENT_CERTIFICATION",
+  "fixture_count": 7,
+  "assertions_passed": 23,
+  "event_values_evaluated": 80,
+  "max_matrix_dimension": 3,
+  "random_samples": 0,
+  "parameter_searches": 0,
+  "python": "3.12.3",
+  "pid": 136326,
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "elapsed_seconds": 0.0005961060523986816,
+  "cpu_seconds": 0.021574,
+  "peak_rss_kib": 11284,
+  "fixtures": [
+    {
+      "name": "pure_imaginary_c=0",
+      "p": {
+        "00": "1/4",
+        "10": "1/4",
+        "01": "1/4",
+        "11": "1/4"
+      },
+      "p_prime": "all zero",
+      "p_second": {
+        "00": "-2",
+        "10": "2",
+        "01": "2",
+        "11": "-2"
+      },
+      "odds_ratio": "1",
+      "H_second_exact": "2 log(1)",
+      "H_second_float_diagnostic": 0.0
+    },
+    {
+      "name": "pure_imaginary_c=1/8",
+      "p": {
+        "00": "15/64",
+        "10": "17/64",
+        "01": "17/64",
+        "11": "15/64"
+      },
+      "p_prime": "all zero",
+      "p_second": {
+        "00": "-2",
+        "10": "2",
+        "01": "2",
+        "11": "-2"
+      },
+      "odds_ratio": "225/289",
+      "H_second_exact": "2 log(225/289)",
+      "H_second_float_diagnostic": -0.500652571816024
+    },
+    {
+      "name": "pure_imaginary_c=1/4",
+      "p": {
+        "00": "3/16",
+        "10": "5/16",
+        "01": "5/16",
+        "11": "3/16"
+      },
+      "p_prime": "all zero",
+      "p_second": {
+        "00": "-2",
+        "10": "2",
+        "01": "2",
+        "11": "-2"
+      },
+      "odds_ratio": "9/25",
+      "H_second_exact": "2 log(9/25)",
+      "H_second_float_diagnostic": -2.043302495063963
+    },
+    {
+      "name": "same_center_rank_one_direction",
+      "p": {
+        "00": "1/4",
+        "10": "1/4",
+        "01": "1/4",
+        "11": "1/4"
+      },
+      "p_prime": {
+        "00": "-1/2",
+        "10": "1/2",
+        "01": "-1/2",
+        "11": "1/2"
+      },
+      "H_second_exact": "-4"
+    },
+    {
+      "name": "infeasible_affine_projection_tangent",
+      "t": "1/16",
+      "determinant_polynomials": {
+        "00": "-1/256",
+        "10": "257/256",
+        "01": "1/256",
+        "11": "-1/256"
+      }
+    },
+    {
+      "name": "nonlinear_projection",
+      "t": "1/16",
+      "p": {
+        "00": "0",
+        "10": "256/257",
+        "01": "1/257",
+        "11": "0"
+      },
+      "entropy_exact": "log(1+t^2)-t^2/(1+t^2)*log(t^2)"
+    },
+    {
+      "name": "affine_boundary_fixed_face",
+      "support": [
+        "100",
+        "110"
+      ]
+    }
+  ]
+}

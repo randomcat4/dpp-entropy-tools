@@ -1,0 +1,361 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "artifact triangles_2",
+      "result": {
+        "status": "APPLICABLE",
+        "curvature_sign": "negative",
+        "theorem": "frozen_theorem_v1",
+        "n": 6,
+        "bridges": [
+          [
+            2,
+            3
+          ]
+        ],
+        "active_edges": [
+          [
+            2,
+            3
+          ]
+        ],
+        "K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "27/55",
+          "4309/8640",
+          "21329/43090",
+          "83763/170632"
+        ],
+        "I_minus_K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "22/45",
+          "3511/7040",
+          "17379/35110",
+          "67969/139032"
+        ],
+        "event_probabilities_evaluated": 0,
+        "arithmetic": "exact rational; sign relies on the cited theorem"
+      }
+    },
+    {
+      "name": "artifact triangles_10",
+      "result": {
+        "status": "APPLICABLE",
+        "curvature_sign": "negative",
+        "theorem": "frozen_theorem_v1",
+        "n": 30,
+        "bridges": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            26,
+            27
+          ]
+        ],
+        "active_edges": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            26,
+            27
+          ]
+        ],
+        "K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "27/55",
+          "4309/8640",
+          "21329/43090",
+          "83763/170632",
+          "8354971/16752600",
+          "4135604/8354971",
+          "812064789/1654241600",
+          "809996987/1624129578",
+          "80187633911/161999397400",
+          "196819962732/400938169555",
+          "31411006403209/62982388074240",
+          "155480472314189/314110064032090",
+          "610601096930175/1243843778513512",
+          "60904629220703311/122120219386035000",
+          "30147014061886568/60904629220703311",
+          "5919650095402196289/12058805624754627200",
+          "5904576588371253005/11839300190804392578",
+          "584538008741723104211/1180915317674250601000",
+          "1434744280192575235437/2922690043708615521055",
+          "228974546822070314565709/459118169661624075339840",
+          "1133394779868810970945049/2289745468220703145657090",
+          "4451054756537899894839867/9067158238950487767560392",
+          "443972080873921178513041651/890210951307579978967973400",
+          "219760513058691639309100892/443972080873921178513041651",
+          "43152046150341374691719947389/87904205223476655723640356800",
+          "43042165893812028872065396943/86304092300682749383439894778",
+          "4261064543230861512514819746911/8608433178762405774413079388600",
+          "10458751851041940959723445980142/21305322716154307562574098734555"
+        ],
+        "I_minus_K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "22/45",
+          "3511/7040",
+          "17379/35110",
+          "67969/139032",
+          "6779521/13593800",
+          "3355776/6779521",
+          "656219399/1342310400",
+          "654541511/1312438798",
+          "64797931701/130908302200",
+          "158389817278/323989658505",
+          "25277572832779/50684741528960",
+          "125120745625671/252775728327790",
+          "489345298952653/1000965965005368",
+          "48809409149639629/97869059790530600",
+          "24160031925343488/48809409149639629",
+          "4724475540044739611/9664012770137395200",
+          "4712395524082067867/9448951080089479222",
+          "466515076868162047089/942479104816413573400",
+          "1140333276740065729222/2332575384340810235445",
+          "181986809201542354628431/364906648556821033351040",
+          "900811379793791247308379/1819868092015423546284310",
+          "3523059359508037994305705/7206491038350329978467032",
+          "351405124571010008183262121/704611871901607598861141000",
+          "173941032605750985094478208/351405124571010008183262121",
+          "34014034273438222451395694879/69576413042300394037791283200",
+          "33927063757135346958848455775/68028068546876444902791389758",
+          "3358692341440096473433449882621/6785412751427069391769691155000",
+          "8209871091387088148832316482478/16793461707200482367167249413105"
+        ],
+        "event_probabilities_evaluated": 0,
+        "arithmetic": "exact rational; sign relies on the cited theorem"
+      }
+    },
+    {
+      "name": "disconnected graph with isolated vertices",
+      "result": {
+        "status": "APPLICABLE",
+        "curvature_sign": "negative",
+        "theorem": "frozen_theorem_v1",
+        "n": 4,
+        "bridges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "active_edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "K_ldl_pivots": [
+          "1/2",
+          "12/25",
+          "1/2",
+          "1/2"
+        ],
+        "I_minus_K_ldl_pivots": [
+          "1/2",
+          "12/25",
+          "1/2",
+          "1/2"
+        ],
+        "event_probabilities_evaluated": 0,
+        "arithmetic": "exact rational; sign relies on the cited theorem"
+      }
+    },
+    {
+      "name": "path with two active bridges",
+      "result": {
+        "status": "APPLICABLE",
+        "curvature_sign": "negative",
+        "theorem": "frozen_theorem_v1",
+        "n": 3,
+        "bridges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "active_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "887/1782"
+        ],
+        "I_minus_K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "887/1782"
+        ],
+        "event_probabilities_evaluated": 0,
+        "arithmetic": "exact rational; sign relies on the cited theorem"
+      }
+    },
+    {
+      "name": "zero direction",
+      "result": {
+        "status": "APPLICABLE",
+        "curvature_sign": "zero",
+        "theorem": "frozen_theorem_v1",
+        "n": 6,
+        "bridges": [
+          [
+            2,
+            3
+          ]
+        ],
+        "active_edges": [],
+        "K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "27/55",
+          "4309/8640",
+          "21329/43090",
+          "83763/170632"
+        ],
+        "I_minus_K_ldl_pivots": [
+          "1/2",
+          "99/200",
+          "22/45",
+          "3511/7040",
+          "17379/35110",
+          "67969/139032"
+        ],
+        "event_probabilities_evaluated": 0,
+        "arithmetic": "exact rational; sign relies on the cited theorem"
+      }
+    },
+    {
+      "name": "active edge inside triangle cycle",
+      "result": {
+        "status": "INCONCLUSIVE",
+        "reason": "active non-bridge or absent edge",
+        "unsupported_edges": [
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "active absent edge",
+      "result": {
+        "status": "INCONCLUSIVE",
+        "reason": "active non-bridge or absent edge",
+        "unsupported_edges": [
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "nonsymmetric K",
+      "result": {
+        "status": "INVALID_INPUT",
+        "reason": "K must be real symmetric"
+      }
+    },
+    {
+      "name": "nonskew A",
+      "result": {
+        "status": "INVALID_INPUT",
+        "reason": "A must be real skew-symmetric; D=iA"
+      }
+    },
+    {
+      "name": "float rejected",
+      "result": {
+        "status": "INVALID_INPUT",
+        "reason": "use integer entries or exact rational strings; floats rejected"
+      }
+    },
+    {
+      "name": "not strict contraction",
+      "result": {
+        "status": "OUTSIDE_DOMAIN",
+        "reason": "strict contraction required"
+      }
+    }
+  ],
+  "exhaustive_graph_cases_n_le_5": 1099,
+  "role": "adversarial checker-domain tests only; not a proof of theorem"
+}

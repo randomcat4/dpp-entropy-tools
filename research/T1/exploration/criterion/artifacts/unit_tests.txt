@@ -1,0 +1,16 @@
+test_asymmetric_invalid (test_bridge_certificate.CertificateTests.test_asymmetric_invalid) ... ok
+test_boundary_invalid (test_bridge_certificate.CertificateTests.test_boundary_invalid) ... ok
+test_cycle_not_applicable (test_bridge_certificate.CertificateTests.test_cycle_not_applicable) ... ok
+test_dense_blocks_with_bridge (test_bridge_certificate.CertificateTests.test_dense_blocks_with_bridge) ... ok
+test_float_rejected (test_bridge_certificate.CertificateTests.test_float_rejected) ... ok
+test_iterative_long_path (test_bridge_certificate.CertificateTests.test_iterative_long_path) ... ok
+test_new_edge_not_applicable (test_bridge_certificate.CertificateTests.test_new_edge_not_applicable) ... ok
+test_non_skew_invalid (test_bridge_certificate.CertificateTests.test_non_skew_invalid) ... ok
+test_nonzero_two_point (test_bridge_certificate.CertificateTests.test_nonzero_two_point) ... ok
+test_tree_multiple_directions (test_bridge_certificate.CertificateTests.test_tree_multiple_directions) ... ok
+test_zero_and_disconnected (test_bridge_certificate.CertificateTests.test_zero_and_disconnected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.004s
+
+OK

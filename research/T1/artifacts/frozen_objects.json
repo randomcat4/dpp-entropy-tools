@@ -1,0 +1,48 @@
+{
+  "candidate_commit": "a71d52bc8c5b45df9ea4795343c290899a2d1f84",
+  "objects": [
+    {
+      "path": "research/T1/frozen_theorem_v1.md",
+      "sha256": "94ebb6017e5e185552806739d29ec40333bfcfae9706fd1965c8a1a3d0da89de",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/proofs/criterion_v1.md",
+      "sha256": "141f626b3ffea65607da9a2ed48fe6235bf1db4f9158751998c90ee23013f416",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/hazards.md",
+      "sha256": "3832ce03d9f0cda17a6b73f6694879e588beb897608283d5673b1928628416e2",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/lemma_ledger.md",
+      "sha256": "4527a2a45b79623c608f351a7177c9f030e9a18fc159e174528488e931c5b842",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/tools/bridge_check.py",
+      "sha256": "cc282e1d5062caa3c77db915ea0de1220814df1dea11dde02182d9d8aad60b92",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/tools/validate_bridge.py",
+      "sha256": "73f2819bb14db30c5f32a812241533c9eaa932c5ca058fe8903d2457cf2797b9",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/artifacts/triangles_2.json",
+      "sha256": "33fc7a4a01efe14b074095d0f3ba07eb43e7c85b443b81052512d42093e903b6",
+      "unchanged_since_candidate": true
+    },
+    {
+      "path": "research/T1/artifacts/triangles_10.json",
+      "sha256": "e33f9b047132891205ac7f09f147a4cf431a386fd0e1538b60b3928848c6d08f",
+      "unchanged_since_candidate": true
+    }
+  ],
+  "first_review_commit": "6cdeaf556870426beb41e8bb7436d84fa2656b32",
+  "domain_review_commit": "c4b756937f30035b08f54c510fef649fcaccbf19",
+  "scope": "byte-integrity record, not a new mathematical verification"
+}

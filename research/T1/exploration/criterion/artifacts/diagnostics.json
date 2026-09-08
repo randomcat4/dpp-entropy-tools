@@ -1,0 +1,59 @@
+{
+  "status": "DIAGNOSTICS_PASSED_NOT_A_PROOF",
+  "pid": 136644,
+  "python": "3.12.3",
+  "third_party_dependencies": [],
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "elapsed_seconds": 0.04833006393164396,
+  "cases": [
+    {
+      "name": "two_point",
+      "n": 2,
+      "full_events_diagnostic_only": 4,
+      "direct_curvature": -0.08000266682667867,
+      "bridge_formula_curvature": -0.08000266682667803,
+      "absolute_difference": 6.38378239159465e-16,
+      "p_prime_exactly_zero": true,
+      "probability_sum_exact": "1",
+      "exact_premise_certificate": "THEOREM_CONDITIONS_SATISFIED"
+    },
+    {
+      "name": "three_path",
+      "n": 3,
+      "full_events_diagnostic_only": 8,
+      "direct_curvature": -0.16002133845479705,
+      "bridge_formula_curvature": -0.16002133845479652,
+      "absolute_difference": 5.273559366969494e-16,
+      "p_prime_exactly_zero": true,
+      "probability_sum_exact": "1",
+      "exact_premise_certificate": "THEOREM_CONDITIONS_SATISFIED"
+    },
+    {
+      "name": "two_triangles",
+      "n": 6,
+      "full_events_diagnostic_only": 64,
+      "direct_curvature": -0.0800356541182764,
+      "bridge_formula_curvature": -0.08003565411827598,
+      "absolute_difference": 4.163336342344337e-16,
+      "p_prime_exactly_zero": true,
+      "probability_sum_exact": "1",
+      "exact_premise_certificate": "THEOREM_CONDITIONS_SATISFIED"
+    },
+    {
+      "name": "diagonal_zero_direction",
+      "n": 3,
+      "full_events_diagnostic_only": 8,
+      "direct_curvature": 0.0,
+      "bridge_formula_curvature": 0.0,
+      "absolute_difference": 0.0,
+      "p_prime_exactly_zero": true,
+      "probability_sum_exact": "1",
+      "exact_premise_certificate": "THEOREM_CONDITIONS_SATISFIED"
+    }
+  ]
+}

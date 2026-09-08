@@ -1,0 +1,1 @@
+Initial diagnostic attempt: python3 diagnostic.py exited 1 because NumPy was unavailable. No dependency was installed. The diagnostic was rewritten with exact rational elimination in the Python standard library. This failure was an environment dependency failure, not a mathematical counterexample.
