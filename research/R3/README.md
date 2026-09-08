@@ -22,3 +22,16 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
 首次 verifier 在 `19a8271` 发现精确实现只覆盖标量 `a`；否决记录保留。
 修订后 verifier 对固定提交 `f9a9e23` 输出 `CORRECT`，其范围仅是冻结的
 分组计数约化，不包含反例、弦 gap、族内凹性或全实域结论。
+
+## 下一结构轮
+
+后续三路换结构结果整理在 `next_structures/`：
+
+- 解耦四阶局部引理经非作者验证为 `CORRECT`，说明近解耦的浮点微小正
+  gap 位于一类理论上局部严格向下的近零带内；
+- 路径稀疏正定 `L` 的 `O(n^2)` 精确熵递推经非作者验证为 `CORRECT`，
+  但尚未解决 `K` 空间仿射弦闭包；
+- 不可约三块缺陷族完成非退化有限探针而无正候选，保留
+  `SCOUT / PAUSED`。
+
+这些结果没有完成原实反例目标，也没有给出全实域凹性结论。
