@@ -40,6 +40,10 @@ separate evidence levels:
   ledgered at margin at least `0.05`. Its independently gated best still has
   `rho=0.5729410207` and `H''=-64.3600769391...`; the modest decline is a
   finite profile observation, not a monotonicity theorem.
+- `results_server_round21_interior3/`: every proposal is ledgered at margin at
+  least `0.10`. Its independently gated best has `rho=0.5313886644` and
+  `H''=-56.1447325358...`; the stronger decline is still only a finite profile,
+  not a boundary law.
 
 The generic fixed-`Q` problem in dimension at least three remains open.  A
 finite search miss is not a concavity theorem, and `rho<1` is not a positive

@@ -259,6 +259,20 @@
   同时提示随 margin 增大可能衰减；只有三个有限批次，不能声称单调或
   边界渐近定律，更不改变正曲率门槛 `rho>1`
 
+### D10-H13：谱裕量至少 0.10 的深内区剖面
+
+- 状态：`CORRECT`（冻结账目/strongest）/ `SCOUT`（20000 个新 proposal
+  与跨裕量剖面）/ `INCOMPLETE`（完整 seed 重放与一般问题）
+- 结果：source 谱裕量 `0.12`，全部 proposal 记录裕量至少 `0.10`；
+  20004 行无 positive gap 或 `rho>=1`，最好 shard 0 index 70，
+  `rho=0.5313886644`
+- 核验：非作者独立 120 位 direct-Mobius 得
+  `H''=-56.1447325358...`，全部 4096 atoms 与 signed determinant 一致，
+  三弦全负；Fraction LDL 认证 D 正定及整段 `|t|<=1/200` 可行
+- 解释：H10--H13 当前最好随实际 margin 约
+  `.015,.0217,.05,.10` 为 `.574607,.574595,.572941,.531389`；这支持
+  “到 0.10 后机制明显衰减”的有限观察，不证明单调性或边界渐近公式
+
 ## D10-U：均匀核的四阶平坦脊
 
 - 状态：`CORRECT`
@@ -352,6 +366,28 @@
   Fraction 小图只作补充 sanity，不承担一般性
 - 边界：阈值依赖固定的 X 与全部非零边权；不覆盖 epsilon=0、边界对角、
   随 n 一致阈值或远离对角脊的全域 Hessian 符号
+
+### D10-U8/M10：三维全域 Hessian 的一维 Schur 化
+
+- 状态：`CORRECT`（结构化简、五维严格子空间、秩一边界族）/
+  `SCOUT`（510+30 点）/ `INCOMPLETE`（全域标量界与 n=3 全域）
+- 结构：以三个条件 odds 对数 `l_ij<=0` 和三体交互 Lambda 定义
+  `N=-diag(l23,l13,l12)-Lambda K`；任意严格 K 有 `N>=0`，connected 时
+  `N>0`，包括 Lambda=0 的非数值严格性论证
+- 化简：`B=-Hess H=Fisher-2 tr(N adj D)`；经 N 合同后，完整六维正定
+  问题等价于显式 positive-form-minus-rank-one 的单标量 `rho<1`。因而在
+  `tr(N^-1 D)=0` 的五维超平面上曲率已严格为负，整个 Hessian 至多只剩
+  一个可能坏方向
+- 边界：对稠密秩一族
+  `K_epsilon=epsilon I+(theta-epsilon)uu^T` 及补集，已证足够小 epsilon
+  时 full Hessian 负定，且
+  `rho=1-1/[theta log(1/epsilon)]+O(log^-2)` 从下方趋近 1；这否定统一
+  `rho<=c<1` 的证明路线，却没有给出越过 1 的信号
+- 核验：主审计独立核对 exact atoms、odds 恒等式、N 的两个符号分支、
+  adjugate/Schur 与 off-diagonal Frobenius 因子；另一审计独立核对移动
+  切/法空间、1+2+3 块缩放及补集。有限定向中心无正候选仍只作 SCOUT
+- 边界：全域剩余问题已被集中为一个 DPP-specific Fisher 标量不等式；
+  尚未证明 `rho<=1`，也未证明整个 n=3 核域全 Hessian 非正
 
 ## D10-S：半正定方向
 
