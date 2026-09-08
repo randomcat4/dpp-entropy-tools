@@ -1,6 +1,6 @@
 # D10-U10c scalar-rho falsification search
 
-AUTHOR VERDICT: SCOUT_NO_COUNTEREXAMPLE_FOUND.
+STATUS: REPAIRED_SCOUT_FRESHLY_RECHECKED / NO_COUNTEREXAMPLE_FOUND.
 
 This unit deliberately searched for a connected strict three-dimensional DPP
 kernel with the U8 scalar threshold
@@ -44,12 +44,12 @@ C:\Users\UIO\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\pyt
 
 Exit code: `0`.
 
-The final run took `27.63113284111023` seconds.
+The repaired final run took `27.824203968048096` seconds.
 
 ## Denominator
 
 Float-stage attempts: `38436`.
-Accepted strict connected cases: `22023`.
+Cases accepted by the float strict/connected screen: `22023`.
 
 | route | attempted | accepted | rejected / reason |
 |---|---:|---:|---|
@@ -69,11 +69,12 @@ p12: 530, p13: 551, p23: 615, p123: 4299.
 
 Decimal-stage checks:
 
-- `15` top-float rechecks;
+- `15` top-float recheck attempts: `14` valid and one exact non-strict
+  rejection;
 - `280` rational-Q rank-one/eigenvalue-rate boundary probes;
 - `150` Decimal-only `Lambda≈0` near-disconnected path probes;
 - `0` Decimal `rho>1` results;
-- `54` Decimal near-threshold records with `rho>0.95`.
+- `69` Decimal near-threshold records with `rho>0.95`.
 
 ## Best observed values
 
