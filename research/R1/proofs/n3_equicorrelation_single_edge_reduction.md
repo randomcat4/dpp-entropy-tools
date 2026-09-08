@@ -167,12 +167,71 @@ It yields the additional sufficient region
 A(1-q)+delta(1-p3)<=1.                                 (8)
 ```
 
+The determinant estimate can be sharpened by dimension.  If `q=det J` for a
+positive definite `k x k` block and `X=J^(-1/2)WJ^(-1/2)`, then
+
+```text
+q'=q tr X,
+q''=q[(tr X)^2-tr(X^2)]
+   <=((k-1)/k)(q')^2/q.                                (9)
+```
+
+This is `tr(X^2)>=(tr X)^2/k`.  Combining (9) with Fisher Cauchy on an
+inclusion event and its complement gives
+
+```text
+sigma23<=(1-q)F/2,       tau<=2(1-p3)F/3.
+```
+
+Consequently the stronger sufficient region is
+
+```text
+A(1-q)/2+2delta(1-p3)/3<=1.                            (10)
+```
+
+It contains an exact whole odds interval.  With
+
+```text
+rho=lambda(1-mu)/(mu(1-lambda))>=1,
+L(rho)=A/2+2delta/3=(4B-A)/6,
+```
+
+the one-odds derivatives give
+
+```text
+L'=(4rho-1)A'/6,       A'=2(rho-1)/[rho(rho+2)(2rho+1)].
+```
+
+Thus `L` is increasing.  At `rho=25`,
+
+```text
+exp(6L)=(81/17)^4/(289/225)=9685512225/24137569,
+sum_(k=0)^16 6^k/k!=353291401/875875,
+```
+
+and the second rational exceeds the first by
+`44297548672294/21141493247875>0`.  Since the sum is below `exp(6)`, this
+proves `L(25)<1`.  Therefore (1) is positive semidefinite throughout
+
+```text
+1<=rho<=25,                                             (11)
+```
+
+and positive definite when `mu<lambda`.  This strictly enlarges (8): at
+`lambda=1/2,mu=1/26`, the old left side is greater than
+`(1/5)(47/52)+103/104=609/520>1`, while (11) applies.  Here
+`A>1/5` follows from `exp(1/5)<5/4<289/225`; and `delta>1` follows from
+`exp(delta)=18225/4913>3>exp(1)`, where
+`exp(1)<2+sum_(j>=0)(1/2)3^(-j)=11/4<3`.
+
 On the product line `mu=lambda`, `A=delta=c=0` and (1) reduces directly to
 `F>=0`; the inverse formulas above are not used there.  Outside (8), the sign
-of the exact scalar (6) remains open.  The double-edge matrix and general
-connected `3 x 3` concavity also remain open.
+of the exact scalar (6) remains open unless (10) applies.  In particular the
+remaining region has `rho>25` and violates (10).  The double-edge matrix and
+general connected `3 x 3` concavity also remain open.
 
 The dependency-free formal script in `certificate/phase4/scripts` checks all
 36 congruence entries, the odd determinant, `det E=36 Phi`, and the Gram
 identity.  It performs zero parameter evaluations and does not certify the
-open sign of `Phi`.
+open sign of `Phi`.  A second dependency-free script checks the one rational
+monotonicity endpoint used in (11); it is not a parameter scan.

@@ -351,3 +351,11 @@ equivalent to one explicit scalar `Phi(lambda,mu)>=0`.  The regions `B<=1`
 and `A(1-q23)+(B-A)(1-p123)<=1` are proved analytically; the sign of `Phi`
 outside them remains open.  A dependency-free formal script checks the full
 congruence and determinant identities with zero parameter evaluations.
+
+A dimension-sensitive determinant identity improves the event-jet bounds by
+factors `1/2` for an edge and `2/3` for the full triple.  The resulting Fisher
+bound proves the single-edge matrix positive semidefinite throughout the
+whole normalized odds interval `1<=rho<=25`, and positive definite off the
+product line.  Monotonicity is analytic; one rational endpoint certificate
+uses an exact finite exponential-series lower bound and no parameter scan.
+The region `rho>25` outside the strengthened coefficient test remains open.
