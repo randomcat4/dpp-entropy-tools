@@ -208,3 +208,39 @@ read-only 20,000-sample replay lost its captured session output after the
 process ended, so a second identical replay was run and exited 0 with the
 recorded summary.  These validation replays are outside the 136,898-call
 formal denominator.
+
+## Round 7: exact equicorrelation Hessian closure
+
+Status: `VERIFIED_LOCAL_HESSIAN / STRICT_CONCAVITY_INSIDE_FAMILY / GENERAL_N3_OPEN`.
+
+The two logarithms in the standard `S_3` block were reduced to functions of
+the odds ratio `rho`.  Complementation restricts the proof to `rho>=1`.
+Monotonicity in `W=-U` lowers the determinant to
+
+```text
+2c^2 q0+R q1 T+R^2 lambda mu T^2,
+```
+
+where exact factorization proves `q0,q1>0` off the product diagonal.
+
+The remaining trivial determinant was then parameterized by fixed `rho` and
+written as a degree-four Bernstein polynomial in `lambda`.  Each of its five
+coefficients is nonnegative using `0<=A<=B`, `A<1/3`, and a rational upper
+bound obtained from `log y<=(y-1)/sqrt(y)`.  A new dependency-free exact
+certificate rebuilds the Fisher formulas, determinant substitution,
+Bernstein expansion, and coefficient identities with rational arithmetic;
+replay exits `0`.
+
+Two nonauthor contexts independently reviewed both block proofs and returned
+`CORRECT`.  Consequently the full six-dimensional Hessian is negative
+semidefinite at every strict compound-symmetric `3 x 3` kernel, and negative
+definite away from `lambda=mu`.  Because the compound-symmetric parameter
+domain is convex and the kernel map affine, the trivial-block result also
+integrates to strict global concavity along every nonconstant chord contained
+in that family; two reviewers returned `CORRECT` for this corollary.
+
+This round does not prove the frozen arbitrary-direction finite-midpoint claim
+at a compound-symmetric center and does not resolve a general connected
+`3 x 3` kernel.  A low-frequency text-only reviewer timed out without a
+verdict; that infrastructure failure was not treated as a mathematical
+decision.

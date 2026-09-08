@@ -174,3 +174,33 @@ python scripts/equicorr_optimize_probe.py --mode gap --seed 4405 --maxiter 120 -
 ```
 
 All recorded runs exited with code `0`.
+
+## Subsequent exact closure of the two Hessian blocks
+
+The earlier `INCOMPLETE` verdict above is retained as the outcome of the
+original P4-03 audit.  Subsequent analytic work closed both local block signs.
+
+For the standard block, an odds-ratio reduction makes both logarithms
+one-variable functions.  Monotonicity in `W=-U` lowers the determinant to a
+quadratic in `T` whose three coefficients are nonnegative and whose first two
+are strictly positive off the product diagonal.
+
+For the trivial block, fixing the odds ratio reduces the determinant to a
+quartic in `lambda`.  All five degree-four Bernstein coefficients are proved
+nonnegative by elementary logarithmic bounds.  The dependency-free replay
+
+```text
+python scripts/equicorrelation_trivial_symbolic.py
+```
+
+reconstructs the Fisher determinant reduction and all coefficient rewrites
+using exact `fractions.Fraction` arithmetic.  It exits `0` with:
+
+```text
+PASS: exact rational determinant reduction and positivity rewrites verified
+```
+
+Two independent nonauthor reviews returned `CORRECT` for both block proofs.
+See `../../proofs/n3_equicorrelation_hessian.md` and
+`../../verification/n3_equicorrelation_reviews.md`.  The frozen
+arbitrary-direction finite-midpoint statement remains open.

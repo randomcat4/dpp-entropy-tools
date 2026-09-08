@@ -1,6 +1,6 @@
 # R1: unrestricted real-symmetric finite DPP entropy
 
-Status: **N2_CONCAVITY_PROVED / VERIFIED_FOR_BLOCKS_OF_SIZE_AT_MOST_TWO / no general counterexample found**. Tracking issue: #7.
+Status: **N2_CONCAVITY_PROVED / N3_EQUICORRELATION_HESSIAN_PROVED / VERIFIED_FOR_BLOCKS_OF_SIZE_AT_MOST_TWO / no general counterexample found**. Tracking issue: #7.
 
 R1 studies dimensions `3 <= n <= 10` without restricting the real-symmetric
 strict positive-contraction kernel to previously tested symmetry families.
@@ -42,12 +42,19 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
   none passed the independent directional and finite-chord gate.  The raw
   maximum `0.0119709` became `-1.53765e-14` at 140 digits.  This is finite
   falsification evidence, not a proof.
-- At a compound-symmetric `3 x 3` center, exact `S_3` symmetry splits the full
-  six-dimensional Hessian into two `2 x 2` sign problems.  The two diagonal
-  entries of the trivial block are proved strictly negative, but its
-  determinant, the standard block, and the finite-midpoint step remain open.
-  Separate probes checked 17,042 centers and 40,000 strict feasible chords
-  without a robust positive.
+- At every strict compound-symmetric `3 x 3` kernel, the full six-dimensional
+  Hessian is negative semidefinite; it is negative definite away from the
+  product diagonal.  The proof closes both exact `S_3` blocks using one-odds
+  reductions, a positive quadratic expansion for the standard block, and a
+  five-coefficient Bernstein certificate for the trivial block.  Two
+  independent nonauthor reviews returned `CORRECT`.
+- On the entire strict compound-symmetric two-parameter family, entropy is
+  globally strictly concave, hence every nontrivial family-preserving chord
+  has strict negative midpoint gap.  This does not settle a chord that leaves
+  the family, or a general connected `3 x 3` kernel.
+- Before the proof, separate probes checked 17,042 compound-symmetric centers
+  and 40,000 strict feasible chords without a robust positive.  Those finite
+  probes are retained as falsification evidence only.
 
 - Three bounded optimizer batches made 55,780 formal objective calls in 240
   restarts across `n=3,...,10`. Each call computed the maximum eigenvalue of

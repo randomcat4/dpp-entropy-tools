@@ -6,7 +6,7 @@ No real-symmetric strict counterexample was found.  Global concavity is now
 proved in dimension two, but remains unresolved for a general connected
 real-symmetric kernel in dimension three or higher.
 
-Five explicit results are independently verified:
+Six explicit results are independently verified:
 
 1. If the midpoint `D` is a diagonal strict contraction, every nontrivial
    feasible real-symmetric chord `D+-tV` has
@@ -26,6 +26,11 @@ Five explicit results are independently verified:
    strict loss for any cross-block entry.  Therefore every midpoint assembled
    from `1 x 1` and `2 x 2` blocks has nonpositive gap in every direction,
    strict for every nontrivial chord.
+6. At every strict compound-symmetric `3 x 3` kernel, the full real-symmetric
+   Hessian is negative semidefinite, and is negative definite away from the
+   product diagonal.  Restricted to the full compound-symmetric two-parameter
+   family, entropy is globally strictly concave and every nontrivial
+   family-preserving chord has strict midpoint loss.
 
 ## Evidence and limits
 
@@ -44,11 +49,11 @@ Five explicit results are independently verified:
   calls.  All 8,053 floating positives above `1e-8` received 90/140-digit
   review; none survived the independent formula and finite-chord gate.  The
   largest raw floating value `0.0119709` became `-1.53765e-14` at 140 digits.
-- At the compound-symmetric `n=3` center the six-dimensional Hessian is
-  exactly reduced to a trivial `2 x 2` block and two copies of a standard
-  `2 x 2` block.  This is a reduction, not a concavity theorem: one explicit
-  trivial-block determinant inequality, the standard-block signs, and the
-  finite midpoint step remain unresolved.
+- At a compound-symmetric `n=3` center the six-dimensional Hessian reduces to
+  a trivial `2 x 2` block and two copies of a standard `2 x 2` block.  Exact
+  one-odds proofs close both blocks and two independent nonauthor reviews
+  returned `CORRECT`.  The arbitrary-direction finite midpoint step remains
+  unresolved, as does a general connected `3 x 3` kernel.
 - The rational certificate tool passed strict-negative, exact-zero-uncertain,
   and infeasible-endpoint tests, plus a near-boundary phase-2 stress suite. It
   received no positive candidate.
