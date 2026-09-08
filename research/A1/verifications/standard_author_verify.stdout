@@ -1,0 +1,2 @@
+{"pid": 145976, "command": "python verify.py", "seed": null, "python": "3.12.3", "sympy": "1.13.3"}
+{"status": "PASS", "exact_identity_checks": 24, "exit_code": 0}

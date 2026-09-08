@@ -1,0 +1,17 @@
+{
+  "status": "EXACT_CHECKS_PASSED",
+  "symbolic_event_identities": 8,
+  "normalization_identities": 1,
+  "acceleration_matrix_identities": 2,
+  "rankone_affine_event_identities": 4,
+  "exact_chord_kernel_count": 3,
+  "gap_80digit_diagnostic": "-0.0092275626836810921333510898145176233999451221977628841508494738582106505211263677",
+  "gap_diagnostic_is_certificate": false,
+  "seed": null,
+  "random_trials": 0,
+  "pid": 145973,
+  "python": "3.12.3",
+  "sympy": "1.13.3",
+  "elapsed_seconds": 0.24702239036560059,
+  "exit_code": 0
+}
