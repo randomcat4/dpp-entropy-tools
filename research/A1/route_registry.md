@@ -1,6 +1,6 @@
 # Route registry
 
-## A1-S: exact triangle structure
+## ROUTE-A1-S: exact triangle structure
 
 - Version: frozen_theorem_v1.
 - Status: SCOUT.
@@ -13,7 +13,7 @@
 - Risk: proving only symmetry-preserving directions.
 - Work units: one initial unit; continue only with a checkable object.
 
-## A1-P: asymmetric cheap falsification
+## ROUTE-A1-P: asymmetric cheap falsification
 
 - Version: frozen_theorem_v1.
 - Status: SCOUT.
@@ -25,7 +25,7 @@
   at most 6000 total objective calls; one CPU thread initially.
 - Risk: cancellation near a block limit and confusion of gap sign.
 
-## A1-V: independent probability/certificate audit
+## ROUTE-A1-V: independent probability/certificate audit
 
 - Status: RESERVED for the third direct agent in a fresh context.
 - Method: independent Mobius event calculation, exact feasibility and log
@@ -38,3 +38,18 @@
 Condition on one site and retain both conditional-kernel acceleration terms.
 No work unit is allocated until the exact unconditional routes expose a useful
 strictly weaker lemma. This avoids hiding the target in a conditional claim.
+
+## ROUTE-A1-C: fixed-site radial slice
+
+- Frozen statement: frozen_radial_slice_v1.md (auxiliary; original unchanged).
+- Status: PROVED_CANDIDATE, pending independent review.
+- Exact object: proofs/radial_slice_v1.md and eight symbolic conditional-law
+  identities in main/conditional_check.py.
+- Method: conditioning with acceleration retained, then scalar derivative
+  monotonicity along the same rank-one line.
+- Scope: four-parameter connected three-point slices and full finite chords.
+- 共同瓶颈: transverse coupling acceleration has no sign from ordinary
+  two-point concavity; the separate rational obstruction tests this shortcut.
+- 最快证伪测试: exact conditional event identities and a transverse gradient
+  difference test, with the latter explicitly outside the radial premise.
+- 工作单元: one proof unit; no broad search or new computational budget.

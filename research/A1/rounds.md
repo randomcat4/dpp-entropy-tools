@@ -14,3 +14,37 @@ artifacts include sanitized seed, version, denominator and result records.
 The initial local combined setup command was rejected by automatic review
 without a specific reason; fixed-path setup succeeded. A stale local proxy
 was disabled only for affected command processes. Neither affects math.
+
+## 1: exact radial slice
+
+Frozen auxiliary statement and complete proof added in commit 7162c90.
+The original target remains frozen and unresolved. Eight generic symbolic
+complete-event identities, normalization, conditional acceleration formulas,
+and rank-one affine-event identities passed. A connected rational chord's
+three kernels passed exact feasibility and event tests. Its 80-digit gap is
+diagnostic only. One wrapper exit-record failure was corrected and replayed;
+both mathematical outputs were retained.
+
+## 2: independent analytic unit
+
+Author commit e5a099d127d3471e4d88a75e8b530a5d578431d4 integrated unchanged
+as 8558362. New object: exact full-six-dimensional S3 Hessian decomposition,
+and a complete four-dimensional standard-mode sign proof at half filling.
+The remaining two-dimensional trivial block is explicitly UNPROVED.
+Twenty-four exact symbolic checks passed; failures in locating the initial
+Python/SymPy environment are recorded in analytic/run_log.md.
+
+## 3: asymmetric falsification unit
+
+The preregistered structured search is complete; the final per-stage counts
+and fixed outputs are being integrated. No broad follow-up search is running.
+The owner separately froze a concrete positive conditional-acceleration
+obstruction; it does not change the existential target or assert a positive
+total entropy Hessian.
+
+## 4: final review gate
+
+The third direct agent receives frozen statements and anonymous fixed proofs
+only after their authors finish. No author performs the final verification.
+These are auxiliary results; the open general real-concavity question is not
+being certified. No new side task or recurring compute is started.
