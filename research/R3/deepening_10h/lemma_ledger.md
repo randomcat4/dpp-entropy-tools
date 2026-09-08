@@ -1,0 +1,68 @@
+# 引理依赖账
+
+## L-A1：块边缘核
+
+- 陈述：DPP 在坐标子集上的边缘仍为 DPP，核为相应主子矩阵。
+- 状态：`KNOWN`；相对 FT-A 严格更弱。
+- 核验义务：只用包含概率定义即可推出。
+
+## L-A2：熵次可加与等号条件
+
+- 陈述：有限随机变量 `U,V` 满足 `H(U,V)<=H(U)+H(V)`，等号当且仅当
+  独立。
+- 状态：`KNOWN`；相对 FT-A 严格更弱。
+
+## L-A3：非零跨块项破坏独立
+
+- 陈述：若某个 `X_ij!=0`，则单点包含事件的联合概率为
+  `A_ii B_jj-X_ij^2`，不等于边缘乘积。
+- 状态：`CORRECT`；非作者已从 singleton inclusion 独立验缝。
+
+## L-B1：三点路径闭包对象
+
+- 陈述：FT-B 所述三元组在任意维存在，且可取 full-rank、connected、
+  heterogeneous rational 数据。
+- 状态：`CORRECT`；`S(tau)` 构造与 n=6 独立 exact-event/DP 复算通过。
+
+## L-B2：一般 fixed-beta 路径族
+
+- 陈述：`Omega_beta` 是非空开凸域；`K(tau)` 对 tau 线性，`L(tau)`
+  为 SPD connected 三对角路径核，方向秩等于 tau 支撑大小。
+- 状态：`CORRECT`。
+
+## L-C1：弦 gap 的互信息分解
+
+- 陈述：`Delta_E=Delta_A+Delta_B+I_0-(I_-+I_+)/2`。
+- 状态：`CORRECT`；FT-C 与 KL/JS 等价分解均经非作者验缝。
+
+## L-C2：非退化互信息中点隆起机制
+
+- 陈述：存在一个明确结构族，使互信息中点隆起严格压过边缘熵 deficit，
+  或证明某冻结族中不可能。
+- 状态：`OPEN`（一般族）；294 次非退化评价未命中。固定十一维 PSD 族
+  的 `|t|<=1/32` 排除为 `CORRECT`，全部 2048 事件及余项链条已验缝。
+
+## L-M1：一般实方向 Hessian 分解
+
+- 陈述：`H''=-sum (p')^2/p-sum p'' log p`，并可在全部实对称坐标上
+  分成 Fisher 与事件加速度矩阵。
+- 状态：`CORRECT`；n=3、n=5 独立实现与有限差分通过。
+
+## L-U1：均匀核 Hessian 与四阶项
+
+- 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为
+  `-8 sum_{i<j}D_ij^4`。
+- 状态：`CORRECT`；独立 n=3 exact symbolic 复算通过。
+
+## L-S1：半正定方向符号
+
+- 陈述：严格核上的非零 `D>=0` 或 `D<=0` 是否总有 `H''<=0`。
+- 状态：`OPEN`；不得从 0.501403 的有限机制比值外推。
+
+## L-S2：twin-pair 条件化排除
+
+- 陈述：固定余部、两个坐标外耦合相同且二点方向
+  `[[d,e],[e,d]]` 为 PSD/NSD 时，`H''<=-4(d^2-e^2)log2`，非零方向
+  严格为负。
+- 状态：`CORRECT`；非作者重推条件化 Schur 补、Shepp--Olkin 接口与
+  rank-one 分支，并新增 n=4 有理 exact-event 核验。

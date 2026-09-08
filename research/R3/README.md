@@ -35,3 +35,10 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
   `SCOUT / PAUSED`。
 
 这些结果没有完成原实反例目标，也没有给出全实域凹性结论。
+
+## 十小时深化轮
+
+后续证明、独立核验、精确路径族、一般 Hessian 机制诊断和连续区间证书
+集中在 `deepening_10h/`。目前最清楚的结构结论是：固定块耦合被全局
+排除；均匀核的二阶平坦方向实际四阶严格向下；路径稀疏 `L` 已有任意维
+精确 K-仿射闭包。原始正 gap 目标仍为 `INCOMPLETE`，详见该目录 README。

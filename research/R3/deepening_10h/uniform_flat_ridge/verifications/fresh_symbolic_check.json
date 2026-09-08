@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "n": 3,
+  "normalization_general": [
+    "1/1",
+    "0/1",
+    "0/1",
+    "0/1"
+  ],
+  "normalization_zero_diag": [
+    "1/1",
+    "0/1",
+    "0/1",
+    "0/1"
+  ],
+  "general_direction_H_t2": "-469/1800",
+  "expected_general_H_t2": "-469/1800",
+  "general_hessian": "-469/900",
+  "expected_general_hessian": "-469/900",
+  "zero_diag_H_t4": "-37303568/121550625",
+  "expected_zero_diag_H_t4": "-37303568/121550625",
+  "zero_diag_radial_second_t2": "-149214272/40516875",
+  "expected_zero_diag_radial_second_t2": "-149214272/40516875",
+  "complement_parity_zero_diag": true
+}
