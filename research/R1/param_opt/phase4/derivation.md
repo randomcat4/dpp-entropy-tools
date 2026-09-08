@@ -1,0 +1,23 @@
+# P4-01 numerical falsification contract
+
+Status: INCOMPLETE. A finite scan is not a concavity proof.
+
+For each subset A of {1,2,3}, q_A = det K_A is an inclusion probability, never the full event probability. The full event is p_S = sum_{A containing S} (-1)^(|A|-|S|) q_A. The eight probabilities and their first and second derivatives are obtained by the same Boolean Mobius transform. The empty inclusion has q=1 and zero derivatives.
+
+The six real symmetric coordinate matrices are E_ii and (E_ij+E_ji)/sqrt(2), an orthonormal Frobenius basis. Every mixed Hessian entry is retained. The full entropy Hessian is
+
+`H_ab = -sum_S [(g_Sa*g_Sb)/p_S + (1+log p_S)*h_Sab]`.
+
+Primary derivatives use the degree-three determinant polynomial, evaluated in long double. For trace(K)>1.5, the complement kernel I-K is used: p_S(K)=p_{S^c}(I-K), first derivatives reverse sign and second derivatives do not. Signed full-event determinants are independently compared. Positive diagonal congruence is used only for the optimizer score, not for physical curvature or acceptance. Its scale floor is 1e-12 times the maximum absolute Hessian entry; this prevents a tiny flat diagonal from dominating the score.
+
+Fixed-decimal 90- and 140-digit recomputations instead obtain inclusion derivatives from determinant/inverse trace identities and Mobius inversion. A second directional calculation uses the signed full-event matrix K-diag(1_{i absent}), independently of the Mobius derivative assembly. Feasible finite chords use t in {0.01,0.05,0.2} times min(lambda_min(K),1-lambda_max(K))/||V||op. Acceptance requires largest physical Hessian and alternate directional value both >1e-8 at both precisions and a strictly positive finite-chord gap. Such an object would be frozen and reported only as DISPROVED_CANDIDATE for independent review.
+
+Connected centers are spectral-affine normalized raw symmetric matrices. Path centers have exactly one zero edge; triangle centers have all three nonzero. General and near-block strata differ by weak nonzero edge scales. Sampling has deterministic per-index seed sequences; optimizer restarts retain six seeds per path/triangle and weak/general group. The spectral margin parameter ranges from 1e-12 to 0.25; width and optional complement cover near-zero and near-one spectra. These parameterized samples do not exhaust all connected kernels.
+
+Every full floating or high-precision Hessian objective reserves an integer call ID in a FULL-synchronous SQLite transaction before evaluation. Exceptions are FAILED rows and consume budget. No automatic restart/reuse is implemented; an existing ledger is refused. The formal cap is 150000 objective calls, including all high-precision reviews. Selftests and the two smoke runs are separate ledgers and not part of the formal denominator. Checkpoint/audit operations make no objective calls. Formal launch deadline is min(global epoch 1788864618, launch+3600 seconds). One CPU numerical thread, 10 GiB address-space limit, no GPU.
+
+An early smoke run exposed amplification of cancellation by almost-flat congruence diagonals; its 166 calls and results remain intact. The scale floor was changed before the second smoke and before formal launch. Formal sources are unchanged after launch. Shell quoting caused one read-only review-display failure (exit 1); it did not invoke any objective or mutate the ledger.
+
+During formal execution, the budget COUNT query became slow because each row stores a full object. A covering index on `calls(status)` was added transactionally in 1.491 seconds. Query planning changed from a table scan to a covering-index scan. This added no objective call and changed no record, formula, seed, deadline or cap; it is logged in `formal/ledger_index.json`. The original scan/optimization process completed before a sequential terminal-only high-precision audit started. The latter refuses concurrent use while either original process remains alive and uses the same ledger, cap and deadline.
+
+The stated numerical denominator is full Hessian objective evaluations. An MP objective additionally checks an independent directional formula and three finite chords (nine internal entropy evaluations: two endpoints and one repeated midpoint per chord); these auxiliary calculations are not misrepresented as independent sampled kernels. Repeated MP precisions and repeated kernels each receive distinct budget IDs. A fixed decimal kernel means the exact decimal strings obtained from the saved floats, not the exact dyadic expansion of those binary floats. No rigorous interval certificate or independent non-author certification is claimed.

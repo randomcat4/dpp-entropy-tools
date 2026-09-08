@@ -27,3 +27,9 @@ is not a novelty claim.  A convenient public definition remains the AMS
 Notices survey ["DPPs: Determinantal Point Processes"](https://doi.org/10.1090/NOTI2202),
 which states the inclusion-probability convention and the independent
 Bernoulli interpretation of diagonal kernels.
+
+The phase-4 trivial `S_3` reduction uses Hillion and Johnson,
+["A proof of the Shepp--Olkin entropy concavity conjecture"](https://arxiv.org/abs/1503.01570),
+only for concavity of the entropy of a sum of independent Bernoulli variables.
+The complete subset entropy has an additional nonconstant, indefinite-Hessian
+term, so that theorem does not close the DPP statement by itself.

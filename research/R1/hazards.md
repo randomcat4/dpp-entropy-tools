@@ -14,3 +14,9 @@
 - Omitting the denominator, seed, rejected candidate counts, or exit status.
 - Applying the proved `2 x 2` concavity theorem to a conditional DPP kernel
   whose dependence on the original chord parameter is non-affine.
+- Treating negative semidefiniteness of the Hessian only at a symmetric
+  midpoint as a finite midpoint theorem; a line integral needs curvature on
+  the whole chord, or a separate finite-event inequality.
+- Using a large raw Hessian eigenvalue near a spectral/event boundary without
+  high-precision replay.  Phase 4 retained raw values as large as `0.01197`
+  that became strictly negative at 140 digits.

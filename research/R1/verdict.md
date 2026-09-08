@@ -40,6 +40,15 @@ Five explicit results are independently verified:
 - The phase-3 `n=2` attack added 122,832 formal calls, 32 optimization
   restarts, and two successful 90-digit rechecks.  The apparent floating
   maximum `1.46e-11` became `-5.23e-12`; no object crossed the `1e-8` gate.
+- The phase-4 connected `n=3` attack added 136,898 continuous successful
+  calls.  All 8,053 floating positives above `1e-8` received 90/140-digit
+  review; none survived the independent formula and finite-chord gate.  The
+  largest raw floating value `0.0119709` became `-1.53765e-14` at 140 digits.
+- At the compound-symmetric `n=3` center the six-dimensional Hessian is
+  exactly reduced to a trivial `2 x 2` block and two copies of a standard
+  `2 x 2` block.  This is a reduction, not a concavity theorem: one explicit
+  trivial-block determinant inequality, the standard-block signs, and the
+  finite midpoint step remain unresolved.
 - The rational certificate tool passed strict-negative, exact-zero-uncertain,
   and infeasible-endpoint tests, plus a near-boundary phase-2 stress suite. It
   received no positive candidate.

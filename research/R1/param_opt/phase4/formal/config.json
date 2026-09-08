@@ -1,0 +1,16 @@
+{
+  "out": "formal",
+  "seed": 20260908411,
+  "scan": 100000,
+  "restarts": 24,
+  "optcalls": 1000,
+  "cap": 150000,
+  "deadline": 1788839016.9372492,
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "numpy": "2.1.2",
+  "start_epoch": 1788835417.0030963,
+  "threads": 1,
+  "positive_threshold": 1e-8,
+  "objective": "largest eigenvalue of positive-diagonally congruent full 6x6 entropy Hessian",
+  "notes": "Finite samples are not a proof. All high-precision calls count."
+}

@@ -1,0 +1,13 @@
+{
+  "algorithm": "SHA256",
+  "unchanged_after_formal_launch": true,
+  "sources": {
+    "n3core.py": "7be9d7aac9d0b971a5801b76d0d99a86acc2865905dccc32a9734dbc748b16a2",
+    "attack.py": "af25cc4a17eaf84fc98a5a82a0887e362a1685a613aa955daf2e57177162a4b2",
+    "launch.py": "c63da8c526f634beabb1b3b316cca216f168e156511e255531407dbf66b44c1f"
+  },
+  "remote_python": "/opt/venv/bin/python",
+  "numpy": "2.1.2",
+  "scipy": "1.14.1",
+  "mpmath": "1.3.0"
+}

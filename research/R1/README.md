@@ -36,6 +36,18 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
   largest raw floating value, `1.46e-11`, became `-5.23e-12` at 90 digits.
   This finite search is falsification evidence only; it is not used by the
   proof.
+- The phase-4 connected `n=3` attack completed 136,898 continuous formal
+  calls, all successful: 120,724 floating Hessians and 16,174 fixed-decimal
+  90/140-digit reviews.  All 8,053 floating values above `1e-8` were reviewed;
+  none passed the independent directional and finite-chord gate.  The raw
+  maximum `0.0119709` became `-1.53765e-14` at 140 digits.  This is finite
+  falsification evidence, not a proof.
+- At a compound-symmetric `3 x 3` center, exact `S_3` symmetry splits the full
+  six-dimensional Hessian into two `2 x 2` sign problems.  The two diagonal
+  entries of the trivial block are proved strictly negative, but its
+  determinant, the standard block, and the finite-midpoint step remain open.
+  Separate probes checked 17,042 centers and 40,000 strict feasible chords
+  without a robust positive.
 
 - Three bounded optimizer batches made 55,780 formal objective calls in 240
   restarts across `n=3,...,10`. Each call computed the maximum eigenvalue of

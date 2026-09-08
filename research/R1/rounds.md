@@ -178,3 +178,33 @@ counterexample to entropy concavity.
 The first commit attempt failed because this checkout lacked local author
 identity.  Setting repository-local identity to match prior R1 commits fixed
 the transport issue; no global Git setting was changed.
+
+## Round 6: the connected `n=3` obstacle
+
+Status: `FINITE_NO_HIT / EXACT_REDUCTION / GENERAL_N_GE_3_OPEN`.
+
+The preregistered connected-center attack completed 136,898 continuous unique
+objective calls, all `OK`: 120,724 floating Hessians and 16,174 fixed-decimal
+90/140-digit Hessian reviews.  All 8,053 floating values above `1e-8` were
+reviewed at both precisions and none passed the independent directional and
+finite-chord gate.  The raw maximum `0.0119708909` became
+`-1.53765354e-14` at 140 digits.  All processes exited normally.  These finite
+denominators do not prove the frozen `n=3` statement.
+
+For a compound-symmetric center, Boolean Mobius inversion and exact `S_3`
+symmetry split the six-dimensional Hessian into one trivial `2x2` block and
+two copies of one standard `2x2` block; all trivial-standard entries vanish
+exactly.  Independent probes checked 17,042 centers and 40,000 strict feasible
+chords without a robust positive.  Shepp--Olkin concavity plus direct affine
+differentiation proves both diagonal entries of the trivial block strictly
+negative.  Its determinant remains one explicit scalar obstruction; the
+standard block signs and finite-midpoint step also remain open.  Repeated-grid
+work was retired rather than promoted.
+
+During public replay, the base Python lacked `sympy` and the first symbolic
+invocation exited 1.  No dependency was installed; an already available
+SymPy 1.14 runtime then reproduced the exact identities with exit 0.  One
+read-only 20,000-sample replay lost its captured session output after the
+process ended, so a second identical replay was run and exited 0 with the
+recorded summary.  These validation replays are outside the 136,898-call
+formal denominator.
