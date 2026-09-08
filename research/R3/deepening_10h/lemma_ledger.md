@@ -268,6 +268,20 @@
 - 边界：一般直径大于 2 的连通图仍 `INCOMPLETE`；P4 单项探针非全
   Hessian 证明。
 
+## L-U5：三维交换三角形的全域 full-Hessian 定号
+
+- 陈述：若 `K=xI+a(J-I)` 严格可行且 `a!=0`，则对每个非零
+  `D∈Sym(3)` 都有 `H''_K[D,D]<0`。等价谱参数
+  `alpha=x+2a,beta=x-a` 的 invariant determinant 在整个
+  `0<alpha,beta<1,alpha!=beta` 上严格为正。
+- 状态：`CORRECT`；一份审计从 Fisher/missing-information 式重建，
+  另一份从四层八事件熵直接二次微分，均得到同一正分母四次式及五个
+  正系数。
+- 退化：`a=0` 不是浮点误差；它是一整条二阶零脊。固定 x 的边方向
+  四阶导为 `-36/[x^2(1-x)^2]`，且 determinant 以
+  `(alpha-beta)^2` 的正系数离开零脊。
+- 边界：交换对称子族定理，不推出一般连通 `n=3` 或任意维凹性。
+
 ## L-S1：半正定方向符号
 
 - 陈述：严格核上的非零 `D>=0` 或 `D<=0` 是否总有 `H''<=0`。

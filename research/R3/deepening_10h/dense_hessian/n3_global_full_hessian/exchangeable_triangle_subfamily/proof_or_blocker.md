@@ -3,7 +3,10 @@
 AUTHOR STATUS:
 
 ```text
-INCOMPLETE for the full exchangeable triangle domain.
+INCOMPLETE for the full exchangeable triangle domain at this unit's freeze.
+The later [U10k unit](../exchangeable_triangle_global_closed/proof.md) closes
+the remaining determinant globally; the scoped results below are retained as
+the reviewed reduction on which that proof depends.
 PROVED_CANDIDATE for the S3 block reduction and the punctured diagonal
 neighborhood theorem below.
 ```
@@ -268,4 +271,3 @@ What is frozen for non-author review:
    inequality (2);
 4. punctured diagonal compact-neighborhood theorem candidate;
 5. finite `SCOUT_NO_COUNTEREXAMPLE` ledger.
-

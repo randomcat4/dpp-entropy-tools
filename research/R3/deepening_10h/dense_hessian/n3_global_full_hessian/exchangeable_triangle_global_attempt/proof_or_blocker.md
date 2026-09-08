@@ -1,6 +1,9 @@
 # Rank-one missing Fisher information and four strict boundary strips
 
-AUTHOR PROOF CANDIDATES; not self-certified. Global Delta_T>0 is INCOMPLETE.
+AUTHOR PROOF CANDIDATES; not self-certified at this unit's freeze.  The later
+[U10k unit](../exchangeable_triangle_global_closed/proof.md) proves global
+`Delta_T>0`; this file remains the reviewed source for the Fisher identity and
+boundary strips imported there.
 
 ## 1. Notation and two logarithms
 

@@ -550,6 +550,24 @@
   失败；正的 `C_bb` 极点仍使 determinant 为正。四角双尺度和中区全局
   log 不等式仍未闭合
 
+### D10-U10k：交换三角形全域闭门
+
+- 状态：`CORRECT`（两份相互独立的 exact 重建）
+- 变换：令 `q=beta/(1-beta)`，`t=odds(alpha)/odds(beta)`；把
+  `Delta_T` 乘以严格正分母后，恰为关于 `q` 的四次多项式
+  `sum_{k=0}^4 c_k(t)q^k`
+- 定号：两个 log deficit 均为 `log(1+正量)`；complement 实现
+  `(t,q)->(1/t,1/q)` 并交换两 deficit。五个系数在 `t!=1` 时逐项严格
+  为正，小 `t` 的无界 deficit 用 `log(1+z)<=sqrt(z)` 控制
+- 定理：对全部 `0<alpha,beta<1`、`alpha!=beta`，二维 invariant 块
+  正定；结合 U10f 已证 standard 块，完整 `Sym(3)` 负熵 Hessian 严格
+  正定。U10h 留下的四角和分离中区均已关闭
+- 退化脊：`alpha=beta=x` 上 determinant 精确为零，null 方向为
+  `(2,-1)`；固定 x 改变交换边参数时二阶为零、四阶导为
+  `-36/[x^2(1-x)^2]`。这是真实正维退化脊，不是舍入噪声或孤立翻号点
+- 边界：只关闭交换对称三角形族；一般连通 `n=3` 的 `rho<1`、一般
+  对称路径和完整 `Lambda=0` 子流形仍未解决
+
 ### D10-U10g：连通 Lambda-zero 子流形
 
 - 状态：`CORRECT_SCOPED_MINIMAL_REPLAY`（结构恒等式、显式球与外场盒）/
