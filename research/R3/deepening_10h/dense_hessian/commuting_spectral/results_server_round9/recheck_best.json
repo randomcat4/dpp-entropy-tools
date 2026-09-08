@@ -1,0 +1,234 @@
+{
+  "status": "HIGH_PRECISION_STABLE_NEGATIVE",
+  "scope": "20,000-row float scout plus one frozen strongest-case gate; finite evidence only",
+  "ledger": {
+    "row_count": 20000,
+    "positive_status_count": 0,
+    "best_row": {
+      "index": "1033",
+      "mode": "1",
+      "margin": "0.015565584764664901",
+      "label": "two_edge_clusters",
+      "rho_psd": "0.5464281988363302",
+      "rho_unrestricted": "0.5464281988363302",
+      "unrestricted_same_sign": "True",
+      "total_psd_fisher_normalized": "-0.4535718011636698",
+      "min_atom": "6.464606708579662e-09",
+      "normalization_residual": "-2.220446049250313e-16",
+      "generalized_residual": "3.895874133140696e-16",
+      "direction_min_rate": "0.29202896006404805",
+      "direction_max_rate": "1.0",
+      "chord_step": "0.0038860925981574566",
+      "chord_gap": "-0.00024496617428049206",
+      "status": "NO_HIT"
+    },
+    "manifests": [
+      {
+        "status": "SCOUT_COMPLETE",
+        "seed": 2026090816,
+        "centers": 5000,
+        "n": 12,
+        "margin_floor": 0.01,
+        "chunk": 32,
+        "threads": 1,
+        "best_rho_psd": 0.5462674565836086,
+        "best_gap": -0.00031433376559686366,
+        "positive_count": 0,
+        "elapsed_seconds": 1090.3703055381775,
+        "exit_code": 0,
+        "warning": "float64 targeted scout only; finite non-hit is not a theorem"
+      },
+      {
+        "status": "SCOUT_COMPLETE",
+        "seed": 2026090817,
+        "centers": 5000,
+        "n": 12,
+        "margin_floor": 0.01,
+        "chunk": 32,
+        "threads": 1,
+        "best_rho_psd": 0.5457807373665273,
+        "best_gap": -0.00031277064231893803,
+        "positive_count": 0,
+        "elapsed_seconds": 1110.2051711082458,
+        "exit_code": 0,
+        "warning": "float64 targeted scout only; finite non-hit is not a theorem"
+      },
+      {
+        "status": "SCOUT_COMPLETE",
+        "seed": 2026090818,
+        "centers": 5000,
+        "n": 12,
+        "margin_floor": 0.01,
+        "chunk": 32,
+        "threads": 1,
+        "best_rho_psd": 0.5443779051096092,
+        "best_gap": -0.00033821541546075196,
+        "positive_count": 0,
+        "elapsed_seconds": 1073.7631092071533,
+        "exit_code": 0,
+        "warning": "float64 targeted scout only; finite non-hit is not a theorem"
+      },
+      {
+        "status": "SCOUT_COMPLETE",
+        "seed": 2026090819,
+        "centers": 5000,
+        "n": 12,
+        "margin_floor": 0.01,
+        "chunk": 32,
+        "threads": 1,
+        "best_rho_psd": 0.5464281988363302,
+        "best_gap": -0.00024496617428049206,
+        "positive_count": 0,
+        "elapsed_seconds": 1109.3310747146606,
+        "exit_code": 0,
+        "warning": "float64 targeted scout only; finite non-hit is not a theorem"
+      }
+    ]
+  },
+  "strongest_shard": 3,
+  "hashes": {
+    "source_npz": "e614dff920277e60929a6f8e1cfb37bd19d7c8d30a6a61a9488c424a8eb7ff3f",
+    "best_case_npz": "807ac23ae9b0c54c39d909ca543b72f69d95a9cc986cb7d4ff8295444d73cc01",
+    "search_script": "dd55e9f05afd128a4e64e06ab705ba031fb0f32f0ea4a44a0169b625b9050a37"
+  },
+  "symmetrization": {
+    "kernel_max_asymmetry": 5.551115123125783e-17,
+    "direction_max_asymmetry": 5.551115123125783e-17
+  },
+  "spectra_and_commutation": {
+    "K_min": 0.01556558476466493,
+    "K_max": 0.9819902269471583,
+    "D_min": 0.2920289600640483,
+    "D_max": 0.9999999999999989,
+    "commutator_frobenius": 1.0549575094216618e-15
+  },
+  "event_semantics_float": {
+    "event_count": 4096,
+    "sum_p_minus_one": -3.3306690738754696e-16,
+    "min_probability": 6.464606708579662e-09,
+    "mobius_max_abs_difference": 1.9088570386689382e-16,
+    "mobius_max_relative_difference": 1.3325139318460435e-09
+  },
+  "directional_float": {
+    "fisher": 71.51393574097023,
+    "acceleration": 39.0772310986353,
+    "H2": -32.436704642334924,
+    "rho": 0.5464281988363285,
+    "sum_p": 0.9999999999999997,
+    "sum_p1": -8.229082842461954e-16,
+    "sum_p2": 6.612684575260652e-16,
+    "min_atom": 6.464606708579662e-09
+  },
+  "decimal_directional": [
+    {
+      "precision": 50,
+      "entropy": "7.4445756289115748858641885796089091521200814795844",
+      "fisher": "71.513935740970311612003591205261539565488843675382",
+      "acceleration": "39.077231098635438544203197372959791467398551202883",
+      "H2": "-32.436704642334873067800393832301748098090292472499",
+      "rho": "0.54642819883632981150963149792330965561296853801486",
+      "sum_p": "0.99999999999999999999999999999999999999999999999987",
+      "sum_p1": "-5.2369052E-49",
+      "sum_p2": "-2.611296E-48",
+      "min_atom": "6.4646067085796608429368618785763793689449192679968E-9"
+    },
+    {
+      "precision": 70,
+      "entropy": "7.444575628911574885864188579608909152120081479584669153097964789969899",
+      "fisher": "71.51393574097031161200359120526153956548884367536761243217635504512915",
+      "acceleration": "39.07723109863543854420319737295979146739855120291151253009186981700596",
+      "H2": "-32.43670464233487306780039383230174809809029247245609990208448522812319",
+      "rho": "0.5464281988363298115096314979233096556129685380153657237042112337604612",
+      "sum_p": "0.9999999999999999999999999999999999999999999999999999999999999999999984",
+      "sum_p1": "-1.5248665E-69",
+      "sum_p2": "2.055431E-68",
+      "min_atom": "6.464606708579660842936861878576379368944919267993475612191731443707719E-9"
+    }
+  ],
+  "decimal_chords": [
+    {
+      "step": "0.0038860925981574566",
+      "Hminus": "7.443869752299829581643309834727112813092280727608822864555855847990294",
+      "Hplus": "7.444791573174753874038256751736955006462335297272312373122874537910366",
+      "midpoint_gap": "-0.000244966174283158023405286376875242342773467144101534258599597019569",
+      "central_H2": "-32.44216477787241566610768307331758433926655642477012895885496295622000"
+    },
+    {
+      "step": "0.001",
+      "Hminus": "7.444440847970345021136859509775227553782418130639439193567293375863195",
+      "Hplus": "7.444677972786898864312878751688358796623980739421551119878324447077147",
+      "midpoint_gap": "-0.000016218532952943139319448877115976916882044554173996375155878499729",
+      "central_H2": "-32.43706590588627863889775423195383376408910834799275031175699946"
+    },
+    {
+      "step": "0.0001",
+      "Hminus": "7.444563610786433591973568607960791935016044872989291972048926154307258",
+      "Hplus": "7.444587322669633632109962472062677134039754071829853609710700578840287",
+      "midpoint_gap": "-1.62183541273822423039597174617592182007175096362218151423396129E-7",
+      "central_H2": "-32.436708254764484607919434923518436401435019272443630284679226"
+    }
+  ],
+  "exact_fraction_feasibility": {
+    "interpretation": "symmetrized float entries interpreted as exact decimal rationals",
+    "uniform_interval": [
+      "-1/200",
+      "1/200"
+    ],
+    "strict_spectral_margin": "1/2000",
+    "endpoint_LDL": [
+      {
+        "step": "-1/200",
+        "K_minus_margin_I": {
+          "count": 12,
+          "all_positive": true,
+          "minimum_float": 0.031159523929937823,
+          "minimum_numerator_digits": 216,
+          "minimum_denominator_digits": 217
+        },
+        "I_minus_K_minus_margin_I": {
+          "count": 12,
+          "all_positive": true,
+          "minimum_float": 0.06096728082000459,
+          "minimum_numerator_digits": 177,
+          "minimum_denominator_digits": 178
+        }
+      },
+      {
+        "step": "1/200",
+        "K_minus_margin_I": {
+          "count": 12,
+          "all_positive": true,
+          "minimum_float": 0.039864433424034465,
+          "minimum_numerator_digits": 216,
+          "minimum_denominator_digits": 217
+        },
+        "I_minus_K_minus_margin_I": {
+          "count": 12,
+          "all_positive": true,
+          "minimum_float": 0.052092893498763795,
+          "minimum_numerator_digits": 176,
+          "minimum_denominator_digits": 177
+        }
+      }
+    ],
+    "D_positive_definite": {
+      "count": 12,
+      "all_positive": true,
+      "minimum_float": 0.4682077744831205,
+      "minimum_numerator_digits": 141,
+      "minimum_denominator_digits": 141
+    }
+  },
+  "checks": {
+    "all_20000_rows_accounted": true,
+    "no_float_candidate_status": true,
+    "best_rho_below_one": true,
+    "decimal_rho_below_one": true,
+    "decimal_H2_negative": true,
+    "all_decimal_chords_negative": true,
+    "exact_interval_feasible": true,
+    "direction_exact_positive_definite": true
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 23.910009145736694
+}

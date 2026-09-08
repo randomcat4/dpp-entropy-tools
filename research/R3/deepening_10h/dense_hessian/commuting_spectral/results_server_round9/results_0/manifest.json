@@ -1,0 +1,15 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "seed": 2026090816,
+  "centers": 5000,
+  "n": 12,
+  "margin_floor": 0.01,
+  "chunk": 32,
+  "threads": 1,
+  "best_rho_psd": 0.5462674565836086,
+  "best_gap": -0.00031433376559686366,
+  "positive_count": 0,
+  "elapsed_seconds": 1090.3703055381775,
+  "exit_code": 0,
+  "warning": "float64 targeted scout only; finite non-hit is not a theorem"
+}
