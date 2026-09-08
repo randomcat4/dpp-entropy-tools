@@ -1,0 +1,12 @@
+{
+  "id": "S1-U1-B0",
+  "p": "1/2",
+  "a": ["9/50", "-3/25", "2/25"],
+  "b": ["1/10", "2/25", "-3/50"],
+  "tau": "1/4",
+  "uniform_margin": "3/50",
+  "formula": "f_t(x)=p+sum_{k=1}^3(a[k-1]*cos(2*pi*k*x)+t*b[k-1]*sin(2*pi*k*x))",
+  "fourier_convention": "fhat(k)=integral f(x)*exp(-2*pi*i*k*x) dx; K[i,j]=fhat(i-j)",
+  "parameter_independent_of_window": true,
+  "role": "fixed rational diagnostic baseline; no positive gap claimed"
+}
