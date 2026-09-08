@@ -2,10 +2,11 @@
 
 ## Status
 
-`INCOMPLETE` for the frozen N3 inequality.
+`STOPPED_SUBSTANTIVE / INCOMPLETE` for the frozen N3 inequality.
 
 `PROVED_HERE` for the slice Fisher covariance lemma and the optimiser
-Sherman-Morrison lemma.
+Sherman-Morrison lemma, with the Sherman-Morrison close condition now marked
+`EQUIVALENT_BLOCKER`.
 
 ## What was proved
 
@@ -160,6 +161,34 @@ alone is insufficient, and treating the full condition
 `alpha-beta^2/(1+gamma)<=1/d` as the result would collapse back to the old
 rho-equivalent formulation.
 
+Final closure update: main has strictly disproved the old maxQ candidate at
+the true `A`-optimising direction as well, frozen at
+`449221bc3639c2de1239707f15dd938d6e230b9d`
+(`main/stationary_obstruction_v1.md`).  Therefore both maxQ closure variants
+are closed as false:
+
+```text
+DISPROVED: max_k Q_k(D) >= 2 tr(N adj D) for all D.
+DISPROVED: max_k Q_k(D_A) >= 2 tr(N adj D_A) at the true A optimiser.
+```
+
+The first-unit Qk lemma remains a correct historical Fisher projection
+identity, but it is not a viable closure route.
+
+The `SM-close` condition
+
+```text
+beta^2/(1+gamma) >= alpha - 1/d
+```
+
+is now explicitly classified as `EQUIVALENT_BLOCKER`: it exactly states how
+the retained Lambda rank-one term must repair the `H=F2+det(N)G` trace-mode
+deficit, but no independent DPP lower bound on that alignment was found.  The
+Lambda suppression statement remains only general rank-one algebra; it is
+not a DPP coupling theorem.
+
+This route stops here without widening computation or restarting scans.
+
 ## Boundary and premise checks
 
 The proof assumes only strict positivity of the eight event probabilities,
@@ -171,3 +200,7 @@ lemma.
 
 No stronger pointwise nonpositivity of individual cofactor pieces is used.
 No artificial independent `F,N` pair is introduced.
+
+No active local or server jobs are owned by this route.  This route did not
+start background jobs, did not use the server checkout for computation, and
+has no pending process to stop.
