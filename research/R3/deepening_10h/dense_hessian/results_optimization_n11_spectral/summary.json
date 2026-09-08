@@ -1,0 +1,36 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "source": "research\\R3\\deepening_10h\\dense_hessian\\results_round5\\best_mechanism_case.npz",
+  "seed": 2026090814,
+  "n": 11,
+  "spectral_only": true,
+  "scales": [
+    1.0,
+    0.5,
+    0.2,
+    0.1,
+    0.05,
+    0.02
+  ],
+  "trials_per_scale": 12,
+  "evaluated": 73,
+  "accepted": 33,
+  "rejected_gate": 0,
+  "atom_floor": 1e-14,
+  "logit_bound": 9.0,
+  "initial_ratio": 0.4864785143135077,
+  "best": {
+    "ratio": 0.501403166302712,
+    "mechanism_fisher": -0.9999999999999998,
+    "mechanism_acceleration": 0.5014031663027119,
+    "mechanism_total": -0.4985968336972879,
+    "top_total_coordinate": -1.329005362613067,
+    "min_atom": 3.6494054340575838e-09,
+    "margin": 0.009787423572275425
+  },
+  "elapsed_seconds": 96.48542976379395,
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "threads": 1,
+  "warning": "float64 local mechanism optimization; not a theorem or counterexample certificate"
+}

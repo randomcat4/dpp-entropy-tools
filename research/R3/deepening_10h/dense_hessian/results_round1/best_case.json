@@ -1,0 +1,19 @@
+{
+  "index": 7,
+  "n": 4,
+  "mode": 3,
+  "margin": 0.277311394996965,
+  "entropy": 2.711269926851789,
+  "min_atom": 0.03212978796719382,
+  "normalization_residual": 0.0,
+  "lambda_max": -0.00044611182260683867,
+  "fisher_along_top": -0.0002974078839901414,
+  "acceleration_along_top": -0.0001487039386178779,
+  "direction_rank": 4,
+  "direction_singular_1": 0.9999999999999999,
+  "direction_singular_2": 0.9999999937796916,
+  "step": 0.09446816687529433,
+  "gap": -0.0006434880855801239,
+  "endpoint_margin": 0.27168152435639153,
+  "status": "NO_HIT"
+}
