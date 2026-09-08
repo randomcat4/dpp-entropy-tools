@@ -40,3 +40,25 @@ The tracked independent checker and its compact JSON record reconstruct the
 eight exact-event atoms, the six-coordinate Hessian, all bridge leaves and the
 tail majorant without importing the author module. The fresh audit also binds
 the expanded author artifact by the same hash.
+
+The S8d author probe deterministically regenerates
+`s8d_negative_boundary_asymptotic/negative_results.json`. Its full negative
+bridge and endpoint-asymptotic trace is 44,894,276 bytes and is excluded from
+Git. Its audited local SHA-256 is
+
+```text
+7df360071af07b77c1e6ebdac95da5f7ca936a1fffe2b1bac90276cb1e83918d
+```
+
+The fresh S8d verifier independently regenerates a 3,993,227-byte expanded
+record at
+`s8d_negative_boundary_asymptotic/verifications/fresh_audit.json`, also
+excluded from Git. Its SHA-256 is
+
+```text
+f74269354c971ca1979a7abfe6318ce2680d23e026975e3d2304986eeeb026eb
+```
+
+The tracked author/verifier scripts and audit report retain the exact
+construction, accepted/rejected leaf counts, minimum margins, dependency
+hashes and reproduction commands.
