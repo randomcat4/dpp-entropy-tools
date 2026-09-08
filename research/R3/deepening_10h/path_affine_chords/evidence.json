@@ -1,0 +1,644 @@
+{
+  "status": "PASS",
+  "precision_decimal_digits": 100,
+  "scope": "explicit exact rational FT-B triples for n=3 and n=4; not an exhaustive nonexistence theorem",
+  "prior_art_blocker": {
+    "source_as_given_by_parent": "https://sevenkplus.com/data/dpp.pdf",
+    "claim_recorded_not_reproved": "Gu, Theorem 7 / Corollary 6: K-space rank-one directions and chords from 0 to K are concavity directions.",
+    "relevance": "the constructed perturbations have rank n, not rank 1, so they are not excluded by the rank-one blocker; no chord-to-origin claim is made."
+  },
+  "denominator_of_attempts": [
+    "Exact fixed-beta innovation family tried for n=3 and n=4: succeeds for FT-B closure.",
+    "No exhaustive finite search was run.",
+    "No attempt is made here to certify a positive entropy gap; Decimal gaps are scout-only."
+  ],
+  "cases": [
+    {
+      "name": "n3_exact_markov_chord",
+      "n": 3,
+      "construction": "fixed-beta Gaussian-Markov covariance S(tau)=R^{-1}diag(tau)R^{-T}; L(tau)=S(tau)^(-1)-I",
+      "beta": [
+        "1/3",
+        "-2/5"
+      ],
+      "tau_minus": [
+        "1/40",
+        "1/45",
+        "1/50"
+      ],
+      "tau_zero": [
+        "19/880",
+        "8/315",
+        "11/600"
+      ],
+      "tau_plus": [
+        "1/55",
+        "1/35",
+        "1/60"
+      ],
+      "shared_path_schur_dependency": "C:\\game\\gameproject\\showa100\\math\\i05-real-20260908\\R3\\repo\\research\\R3\\next_structures\\sparse_schur\\path_schur.py",
+      "K_midpoint_identity_exact": true,
+      "S_midpoint_identity_exact": true,
+      "L_zero_is_endpoint_average": false,
+      "not_an_L_line": true,
+      "K_plus_minus_K_minus_rank_exact": 3,
+      "S_plus_minus_S_minus_rank_exact": 3,
+      "all_points_pass_FT_B_shape": true,
+      "all_direct_mobius_validations_pass": true,
+      "points": {
+        "minus": {
+          "tau": [
+            "1/40",
+            "1/45",
+            "1/50"
+          ],
+          "L_diagonal": [
+            "44/1",
+            "52/1",
+            "49/1"
+          ],
+          "L_edge": [
+            "-15/1",
+            "20/1"
+          ],
+          "L_matrix": [
+            [
+              "44/1",
+              "-15/1",
+              "0/1"
+            ],
+            [
+              "-15/1",
+              "52/1",
+              "20/1"
+            ],
+            [
+              "0/1",
+              "20/1",
+              "49/1"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "39/40",
+              "-1/120",
+              "1/300"
+            ],
+            [
+              "-1/120",
+              "39/40",
+              "1/100"
+            ],
+            [
+              "1/300",
+              "1/100",
+              "122/125"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "44/1",
+            "2063/1",
+            "83487/1"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "1/40",
+            "1/1800",
+            "1/90000"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.34702261232666184403320960481864335927359082284456879295492707447993831200579063852816887795573144",
+          "direct_mobius_validation": {
+            "n": 3,
+            "events_checked": 8,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "1/90000",
+            "entropy_abs_diff": "1.5E-99",
+            "Z": "90000/1"
+          }
+        },
+        "zero": {
+          "tau": [
+            "19/880",
+            "8/315",
+            "11/600"
+          ],
+          "L_diagonal": [
+            "7553/152",
+            "4145/88",
+            "589/11"
+          ],
+          "L_edge": [
+            "-105/8",
+            "240/11"
+          ],
+          "L_matrix": [
+            [
+              "7553/152",
+              "-105/8",
+              "0/1"
+            ],
+            [
+              "-105/8",
+              "4145/88",
+              "240/11"
+            ],
+            [
+              "0/1",
+              "240/11",
+              "589/11"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "861/880",
+              "-19/2640",
+              "19/6600"
+            ],
+            [
+              "-19/2640",
+              "53899/55440",
+              "1541/138600"
+            ],
+            [
+              "19/6600",
+              "1541/138600",
+              "677213/693000"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "7553/152",
+            "1812685/836",
+            "77285915/836"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "19/880",
+            "19/34650",
+            "19/1890000"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.33981838284417196136076138705169025919507120178196848528573537178263616198013905743803020423904494",
+          "direct_mobius_validation": {
+            "n": 3,
+            "events_checked": 8,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "19/1890000",
+            "entropy_abs_diff": "4.2E-99",
+            "Z": "1890000/19"
+          }
+        },
+        "plus": {
+          "tau": [
+            "1/55",
+            "1/35",
+            "1/60"
+          ],
+          "L_diagonal": [
+            "521/9",
+            "218/5",
+            "59/1"
+          ],
+          "L_edge": [
+            "-35/3",
+            "24/1"
+          ],
+          "L_matrix": [
+            [
+              "521/9",
+              "-35/3",
+              "0/1"
+            ],
+            [
+              "-35/3",
+              "218/5",
+              "24/1"
+            ],
+            [
+              "0/1",
+              "24/1",
+              "59/1"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "54/55",
+              "-1/165",
+              "2/825"
+            ],
+            [
+              "-1/165",
+              "3359/3465",
+              "212/17325"
+            ],
+            [
+              "2/825",
+              "212/17325",
+              "339029/346500"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "521/9",
+            "107453/45",
+            "4839247/45"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "1/55",
+            "1/1925",
+            "1/115500"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.33170301375362310592898911118541168158382438747506797324063498969529293335704570546506830009582962",
+          "direct_mobius_validation": {
+            "n": 3,
+            "events_checked": 8,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "1/115500",
+            "entropy_abs_diff": "1.06E-98",
+            "Z": "115500/1"
+          }
+        }
+      },
+      "entropy_gap": {
+        "delta_endpoint_average_minus_midpoint": "-0.00045556980402948637966202904966273876636359662215010218795433969502053929872088544141161521326441",
+        "sign_is_only_decimal_scout": true,
+        "strict_positive_gap_certified": false
+      }
+    },
+    {
+      "name": "n4_exact_markov_chord",
+      "n": 4,
+      "construction": "fixed-beta Gaussian-Markov covariance S(tau)=R^{-1}diag(tau)R^{-T}; L(tau)=S(tau)^(-1)-I",
+      "beta": [
+        "1/4",
+        "-1/3",
+        "2/7"
+      ],
+      "tau_minus": [
+        "1/30",
+        "1/36",
+        "1/42",
+        "1/48"
+      ],
+      "tau_zero": [
+        "1/36",
+        "23/792",
+        "97/4620",
+        "29/1248"
+      ],
+      "tau_plus": [
+        "1/45",
+        "1/33",
+        "1/55",
+        "1/39"
+      ],
+      "shared_path_schur_dependency": "C:\\game\\gameproject\\showa100\\math\\i05-real-20260908\\R3\\repo\\research\\R3\\next_structures\\sparse_schur\\path_schur.py",
+      "K_midpoint_identity_exact": true,
+      "S_midpoint_identity_exact": true,
+      "L_zero_is_endpoint_average": false,
+      "not_an_L_line": true,
+      "K_plus_minus_K_minus_rank_exact": 4,
+      "S_plus_minus_S_minus_rank_exact": 4,
+      "all_points_pass_FT_B_shape": true,
+      "all_direct_mobius_validations_pass": true,
+      "points": {
+        "minus": {
+          "tau": [
+            "1/30",
+            "1/36",
+            "1/42",
+            "1/48"
+          ],
+          "L_diagonal": [
+            "125/4",
+            "119/3",
+            "2201/49",
+            "47/1"
+          ],
+          "L_edge": [
+            "-9/1",
+            "14/1",
+            "-96/7"
+          ],
+          "L_matrix": [
+            [
+              "125/4",
+              "-9/1",
+              "0/1",
+              "0/1"
+            ],
+            [
+              "-9/1",
+              "119/3",
+              "14/1",
+              "0/1"
+            ],
+            [
+              "0/1",
+              "14/1",
+              "2201/49",
+              "-96/7"
+            ],
+            [
+              "0/1",
+              "0/1",
+              "-96/7",
+              "47/1"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "29/30",
+              "-1/120",
+              "1/360",
+              "1/1260"
+            ],
+            [
+              "-1/120",
+              "1397/1440",
+              "43/4320",
+              "43/15120"
+            ],
+            [
+              "1/360",
+              "43/4320",
+              "88259/90720",
+              "-2461/317520"
+            ],
+            [
+              "1/1260",
+              "43/15120",
+              "-2461/317520",
+              "2171413/2222640"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "125/4",
+            "13903/12",
+            "26999003/588",
+            "1140823093/588"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "1/30",
+            "1/1080",
+            "1/45360",
+            "1/2177280"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.51467633243192354350167690766990226711528956531509343346382069415751467339869768891514923946515173",
+          "direct_mobius_validation": {
+            "n": 4,
+            "events_checked": 16,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "1/2177280",
+            "entropy_abs_diff": "6.7E-99",
+            "Z": "2177280/1"
+          }
+        },
+        "zero": {
+          "tau": [
+            "1/36",
+            "23/792",
+            "97/4620",
+            "29/1248"
+          ],
+          "L_diagonal": [
+            "1709/46",
+            "259199/6693",
+            "6911407/137837",
+            "1219/29"
+          ],
+          "L_edge": [
+            "-198/23",
+            "1540/97",
+            "-2496/203"
+          ],
+          "L_matrix": [
+            [
+              "1709/46",
+              "-198/23",
+              "0/1",
+              "0/1"
+            ],
+            [
+              "-198/23",
+              "259199/6693",
+              "1540/97",
+              "0/1"
+            ],
+            [
+              "0/1",
+              "1540/97",
+              "6911407/137837",
+              "-2496/203"
+            ],
+            [
+              "0/1",
+              "0/1",
+              "-2496/203",
+              "1219/29"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "35/36",
+              "-1/144",
+              "1/432",
+              "1/1512"
+            ],
+            [
+              "-1/144",
+              "2047/2112",
+              "65/6336",
+              "65/22176"
+            ],
+            [
+              "1/432",
+              "65/6336",
+              "649037/665280",
+              "-16243/2328480"
+            ],
+            [
+              "1/1512",
+              "65/22176",
+              "-16243/2328480",
+              "206545597/211891680"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "1709/46",
+            "18267581/13386",
+            "1123468800611/19021506",
+            "43300039518397/19021506"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "1/36",
+            "23/28512",
+            "2231/131725440",
+            "64699/164393349120"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.49685688409319199844175956572878490013365200786696221827488223540303019518768906740602627362275484",
+          "direct_mobius_validation": {
+            "n": 4,
+            "events_checked": 16,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "64699/164393349120",
+            "entropy_abs_diff": "4.2E-99",
+            "Z": "164393349120/64699"
+          }
+        },
+        "plus": {
+          "tau": [
+            "1/45",
+            "1/33",
+            "1/55",
+            "1/39"
+          ],
+          "L_diagonal": [
+            "737/16",
+            "343/9",
+            "2802/49",
+            "38/1"
+          ],
+          "L_edge": [
+            "-33/4",
+            "55/3",
+            "-78/7"
+          ],
+          "L_matrix": [
+            [
+              "737/16",
+              "-33/4",
+              "0/1",
+              "0/1"
+            ],
+            [
+              "-33/4",
+              "343/9",
+              "55/3",
+              "0/1"
+            ],
+            [
+              "0/1",
+              "55/3",
+              "2802/49",
+              "-78/7"
+            ],
+            [
+              "0/1",
+              "0/1",
+              "-78/7",
+              "38/1"
+            ]
+          ],
+          "K_matrix": [
+            [
+              "44/45",
+              "-1/180",
+              "1/540",
+              "1/1890"
+            ],
+            [
+              "-1/180",
+              "7669/7920",
+              "251/23760",
+              "251/83160"
+            ],
+            [
+              "1/540",
+              "251/23760",
+              "69733/71280",
+              "-221/35640"
+            ],
+            [
+              "1/1890",
+              "251/83160",
+              "-221/35640",
+              "1577167/1621620"
+            ]
+          ],
+          "P_equals_inverse_S": true,
+          "Phi_L_equals_I_minus_S": true,
+          "tridiagonal": true,
+          "connected_nonzero_adjacent_edges": true,
+          "heterogeneous_diagonal": true,
+          "L_leading_minors": [
+            "737/16",
+            "121495/72",
+            "571616155/7056",
+            "10121531365/3528"
+          ],
+          "L_spd_by_sylvester": true,
+          "S_leading_minors": [
+            "1/45",
+            "1/1485",
+            "1/81675",
+            "1/3185325"
+          ],
+          "S_spd_by_sylvester": true,
+          "entropy": "0.47735441697851459718633676983496320298386363658266402188657409625257594362122846661717166279835487",
+          "direct_mobius_validation": {
+            "n": 4,
+            "events_checked": 16,
+            "mobius_sum": "1/1",
+            "l_ensemble_sum": "1/1",
+            "mismatch_count": 0,
+            "first_mismatch": null,
+            "min_atom": "1/3185325",
+            "entropy_abs_diff": "3.0E-99",
+            "Z": "3185325/1"
+          }
+        }
+      },
+      "entropy_gap": {
+        "delta_endpoint_average_minus_midpoint": "-0.00084150938797292809775272697635216508407540691808349059968484019798488667772598963986582249100154",
+        "sign_is_only_decimal_scout": true,
+        "strict_positive_gap_certified": false
+      }
+    }
+  ]
+}
