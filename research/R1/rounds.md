@@ -285,3 +285,31 @@ and returned `CORRECT`.  A dependency-free exact script separately checked
 all eight event polynomials and the degree four, six, and seven entropy terms,
 with degree five absent; it exited `0`.  This is a local tube theorem, not
 general connected `3 x 3` concavity.
+
+## Round 9: general `3 x 3` four-interaction normal form
+
+Status: `EXACT_REDUCTION / GENERAL_RESIDUAL_OPEN`.
+
+The complete-event acceleration space has dimension four: three pair-minor
+second jets and one determinant second jet.  Its dual log potential consists
+of three pair atom interactions and one three-body interaction, giving the
+exact scalar normal form
+
+```text
+D2H=-F-sum sigma_ij theta_ij-tau theta_123.
+```
+
+The proved `n=2` theorem and Fisher data processing peel off any nonnegative
+edge weighting of total mass at most one, leaving an explicit three-body
+residual.  A natural rigid attempt to cancel all pair log terms is obstructed
+at a simple strict rational point: its forced weights make the Fisher bracket
+about `-16.68539`.  This retires only that decomposition, not the entropy
+claim.
+
+In normalized L-ensemble correlations, the four theta coordinates become six
+conditional pair log odds, all nonpositive.  Their present-minus-absent
+differences all equal the same three-body theta, leaving two allocation
+freedoms.  Optimizing the dangerous coefficients gives a scalar sufficient
+condition `F>=D_*` and an exact narrow sign cone with `D_*=0`.  The identities
+and their dependency-free replays received nonauthor `CORRECT` reviews; the
+general Fisher bound remains unproved.

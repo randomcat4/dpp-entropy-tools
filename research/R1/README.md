@@ -42,6 +42,12 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
   none passed the independent directional and finite-chord gate.  The raw
   maximum `0.0119709` became `-1.53765e-14` at 140 digits.  This is finite
   falsification evidence, not a proof.
+- For a general strict `3 x 3` kernel, the exact Hessian obstruction has been
+  reduced to four log-linear interactions: three pair terms and one three-body
+  term.  In L-ensemble coordinates the same functional is a two-free-parameter
+  allocation among six nonpositive conditional pair odds.  This yields an
+  explicit optimized scalar sufficient condition `F>=D_*`, but that Fisher
+  inequality remains open.
 - At every strict compound-symmetric `3 x 3` kernel, the full six-dimensional
   Hessian is negative semidefinite; it is negative definite away from the
   product diagonal.  The proof closes both exact `S_3` blocks using one-odds
