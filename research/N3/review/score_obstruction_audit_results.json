@@ -1,0 +1,234 @@
+{
+  "argv": [
+    "research\\N3\\review\\verify_score_obstruction.py",
+    "--output",
+    "research\\N3\\review\\score_obstruction_audit_results.json"
+  ],
+  "author_certificate_comparison": {
+    "author_source_sha256": "a418ee92a2d72bf861970d14de5acb48ac3e8da820959b1ffb405e6cfe017b8b",
+    "author_status": "EXACT_SHORTCUT_COUNTEREXAMPLE_NOT_ENTROPY_COUNTEREXAMPLE",
+    "matches_author_certificate": true,
+    "mismatches": []
+  },
+  "auxiliary_score_projection_checks": {
+    "auxiliary_samples": 2,
+    "checks": [
+      {
+        "F_minus_Q_equals_residual": [
+          true,
+          true,
+          true
+        ],
+        "all_square_specializations_ok": true,
+        "chain_rule_ok": [
+          true,
+          true,
+          true
+        ],
+        "dpp_mass_ok": [
+          true,
+          true,
+          true
+        ],
+        "feasible_strict_K": true,
+        "name": "small_edges_mixed_direction",
+        "residuals_nonnegative": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "F_minus_Q_equals_residual": [
+          true,
+          true,
+          true
+        ],
+        "all_square_specializations_ok": true,
+        "chain_rule_ok": [
+          true,
+          true,
+          true
+        ],
+        "dpp_mass_ok": [
+          true,
+          true,
+          true
+        ],
+        "feasible_strict_K": true,
+        "name": "asymmetric_diagonal_direction",
+        "residuals_nonnegative": [
+          true,
+          true,
+          true
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "conditioning_coordinates_per_sample": 3,
+    "dpp_square_and_derivative_specializations_per_sample": 6,
+    "exact_obstruction_centers": 1,
+    "exact_score_projection_samples": 3,
+    "fixed_commit_objects_read": 4,
+    "log_interval_terms": 70,
+    "table_projection_identities_per_sample": 6
+  },
+  "cwd": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo",
+  "elapsed_seconds": 0.2520101070404053,
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "executable": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "non_coverage": [
+    "No proof of global rho(K)<=1 or full n=3 entropy concavity.",
+    "No certification of optimizer-direction claims; the displayed obstruction direction is not the trace-constrained minimizer.",
+    "No claim that max_k Q_k(D_*) >= C(D_*) holds for the optimizer direction.",
+    "No interval certification beyond the single displayed rational obstruction.",
+    "No Lean certification."
+  ],
+  "obstruction_recompute": {
+    "K": [
+      [
+        "3/10",
+        "29/100",
+        "3/20"
+      ],
+      [
+        "29/100",
+        "33/100",
+        "1/10"
+      ],
+      [
+        "3/20",
+        "1/10",
+        "4/25"
+      ]
+    ],
+    "Q_intervals": [
+      [
+        "2520813269377/500000000000",
+        "1008325307751/200000000000"
+      ],
+      [
+        "2348542522277/500000000000",
+        "939417008911/200000000000"
+      ],
+      [
+        "902068209987/1000000000000",
+        "225517052497/250000000000"
+      ]
+    ],
+    "cofactor_interval": [
+      "1738331266181/250000000000",
+      "278133002589/40000000000"
+    ],
+    "d": [
+      "1",
+      "1",
+      "1/3",
+      "0",
+      "0",
+      "0"
+    ],
+    "exact_feasibility": true,
+    "fisher_interval": [
+      "7589722484007/200000000000",
+      "9487153105009/250000000000"
+    ],
+    "leading_minors": {
+      "I_minus_K": [
+        "7/10",
+        "3849/10000",
+        "292541/1000000"
+      ],
+      "I_minus_K_minus_tD": [
+        "70001/100000",
+        "3849137001/10000000000",
+        "292553466129667/1000000000000000"
+      ],
+      "I_minus_K_plus_tD": [
+        "69999/100000",
+        "3848863001/10000000000",
+        "877585602388999/3000000000000000"
+      ],
+      "K": [
+        "3/10",
+        "149/10000",
+        "659/1000000"
+      ],
+      "K_minus_tD": [
+        "29999/100000",
+        "148937001/10000000000",
+        "658267370333/1000000000000000"
+      ],
+      "K_plus_tD": [
+        "30001/100000",
+        "149063001/10000000000",
+        "659732703667/1000000000000000"
+      ]
+    },
+    "log_series_terms": 70,
+    "max_scaled_log_z_abs": "12857/44107",
+    "p_bitmask_order": [
+      "292541/1000000",
+      "260259/1000000",
+      "272959/1000000",
+      "14241/1000000",
+      "92359/1000000",
+      "24841/1000000",
+      "42141/1000000",
+      "659/1000000"
+    ],
+    "score_projection": {
+      "F_minus_Q_equals_residual": [
+        true,
+        true,
+        true
+      ],
+      "all_square_specializations_ok": true,
+      "chain_rule_ok": [
+        true,
+        true,
+        true
+      ],
+      "dpp_mass_ok": [
+        true,
+        true,
+        true
+      ],
+      "residuals_nonnegative": [
+        true,
+        true,
+        true
+      ]
+    },
+    "shortcut_gap_interval": [
+      "-191169852597/100000000000",
+      "-1911698525969/1000000000000"
+    ],
+    "status": "EXACT_SHORTCUT_COUNTEREXAMPLE_NOT_ENTROPY_COUNTEREXAMPLE",
+    "t": "1/100000",
+    "true_B_interval": [
+      "30995287355311/1000000000000",
+      "1937205459707/62500000000"
+    ]
+  },
+  "pid": 42164,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "Non-author audit of fixed conditional-score lower bound and shortcut obstruction; not a global theorem certification.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\review\\verify_score_obstruction.py",
+  "script_sha256": "c466b23943fe1495d9cdb278c975879eca13454aaf6aac8a12f97c61d4b1d13e",
+  "status": "PASS",
+  "target_blobs": {
+    "research/N3/frozen_theorem_v1.md": "3edfa72b1a5cc11db28e419b70e633b9f683aefa",
+    "research/N3/main/certify_score_obstruction.py": "b27a15fcff15a98d78b94a9d663f7b512b5bbcf7",
+    "research/N3/main/conditional_score_lemma_v1.md": "7202917271534297bf6ac7527e830e50946f66fd",
+    "research/N3/main/score_obstruction_certificate.json": "f51a96cf32faf70a170824e93eeb383e380f5c22"
+  },
+  "target_commit": "424b4efcec0052ad8d79ac71c69b334dcfb03bb8"
+}

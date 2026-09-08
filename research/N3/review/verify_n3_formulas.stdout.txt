@@ -1,0 +1,4 @@
+STATUS PASS
+wrote research\N3\review\formula_audit_results.json
+pid 43040
+coverage {"B_direct_vs_F_minus_2_tr_N_adj": 4, "B_direct_vs_schur_rank_one": 3, "boundary_equal_softening_float_probes": 6, "conditional_covariance_square_exact_fraction_identities": 12, "conditional_covariance_square_float_identities": 24, "event_probability_formula_vs_mobius": 4, "six_coordinate_first_second_jets": 32}
