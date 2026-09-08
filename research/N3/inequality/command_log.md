@@ -110,6 +110,36 @@ the Python sanity checks.
   - PID: `66044`
   - result: repo-local author identity set to `Codex <codex@local>`
   - exit status: 0
+- Ran `git add research/N3/inequality; git diff --cached --check; git commit
+  -m "Add N3 slice Fisher inequality note"; git rev-parse HEAD; git status
+  --short`.
+  - PID: `42108`
+  - result: commit `cafbcaec27e881468f39013079684bbcb2aaa258`; worktree
+    clean after commit
+  - exit status: 0
+- Ran a one-point Sherman-Morrison matrix sanity check for
+  `K=(1/100)[[30,29,15],[29,33,10],[15,10,16]]` using bundled Python.
+  - PID: `37076`
+  - Python: `3.12.14`
+  - NumPy: `2.3.5`
+  - result: `detN=2.4429101938261777`,
+    `alpha=0.20425865117804817`, `beta=0.038934504578526256`,
+    `gamma=0.9842540583580244`, `s=0.2034946887003654`;
+    `c(D_A)=1.0000000000000002`, `A(D_A)=1/s=4.914133171664467`;
+    normalised suppression ratio `0.5058597255353982`
+  - exit status: 0
+- Ran `Get-Content` on this command log tail and checked `git status --short`
+  after a failed patch attempt.
+  - PID: `55776`
+  - result: worktree was clean; no partial failed-patch modification remained
+  - exit status: 0
+- Ran `git diff --check; git diff --stat; git diff -- research/N3/inequality;
+  git status --short` after adding the optimiser lemma.
+  - PID: `67060`
+  - result: `git diff --check` passed; Git printed normal Windows line-ending
+    warnings; status showed three modified tracked files and one untracked
+    optimiser lemma
+  - exit status: 0
 
 ## Notes
 

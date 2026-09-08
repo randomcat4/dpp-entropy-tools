@@ -4,7 +4,8 @@
 
 `INCOMPLETE` for the frozen N3 inequality.
 
-`PROVED_HERE` for the slice Fisher covariance lemma.
+`PROVED_HERE` for the slice Fisher covariance lemma and the optimiser
+Sherman-Morrison lemma.
 
 ## What was proved
 
@@ -106,6 +107,58 @@ Equivalently, one needs either:
 
 The present unit does not close either statement.  It supplies the exact
 Fisher lower-bound lemma and identifies the false unrestricted closure.
+
+## Second optimisation unit
+
+The follow-up unit proves a separate finite-dimensional lemma for the score
+projection
+
+```text
+F = F2 + v v^T,        v(D)=Lambda'[D]/sqrt(Z).
+```
+
+Let
+
+```text
+H = F2 + det(N)G,
+A = H + v v^T,
+c(D)=tr(N^-1 D),
+d=det(N),
+alpha=c(H^-1 c), beta=v(H^-1 c), gamma=v(H^-1 v).
+```
+
+For the true `A`-minimising trace-normalised direction `D_A`, the lemma gives
+
+```text
+D_A = (H^-1 c - (beta/(1+gamma))H^-1 v)
+      /(alpha - beta^2/(1+gamma)).
+```
+
+It proves normalised `Lambda'` suppression:
+
+```text
+|v(D_A)| <= |v(H^-1 c/alpha)|.
+```
+
+It also identifies the exact rank-one repair condition:
+
+```text
+beta^2/(1+gamma) >= alpha - 1/d
+```
+
+whenever `H` alone has deficit `alpha>1/d`.  The stronger `F2`-alone claim at
+the true optimiser is equivalent to the scalar condition
+
+```text
+alpha - ((2+gamma) beta^2)/(1+gamma)^2
+  >= d (alpha - beta^2/(1+gamma))^2.
+```
+
+The unresolved DPP-specific gap is now an alignment lower bound for
+`beta^2/(1+gamma)` or the displayed `F2` condition.  Positivity of `v v^T`
+alone is insufficient, and treating the full condition
+`alpha-beta^2/(1+gamma)<=1/d` as the result would collapse back to the old
+rho-equivalent formulation.
 
 ## Boundary and premise checks
 
