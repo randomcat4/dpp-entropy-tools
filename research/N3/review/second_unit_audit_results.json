@@ -1,0 +1,219 @@
+{
+  "argv": [
+    "research\\N3\\review\\verify_second_unit.py",
+    "--output",
+    "research\\N3\\review\\second_unit_audit_results.json"
+  ],
+  "coverage": {
+    "pair_score_identity_rational_samples": 1,
+    "rank2_exact_epsilon_points": 1,
+    "rank2_fixed_objects": 3,
+    "sherman_morrison_rational_instances": 1,
+    "stationary_exact_centers": 1,
+    "stationary_fixed_objects": 4,
+    "stationary_interval_bits": 180
+  },
+  "cwd": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo",
+  "elapsed_seconds": 0.4923379421234131,
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "executable": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "non_coverage": [
+    "No proof of the frozen N3 entropy theorem or global rho<=1.",
+    "No DPP alignment lower bound for the Sherman-Morrison beta term.",
+    "No claim that either obstruction is an entropy counterexample.",
+    "No global parameter scan, Lean proof, or all-domain interval certificate."
+  ],
+  "pair_score_identity": {
+    "P1_equals_P2_min_value": true,
+    "all_orthogonality_checks_passed": true,
+    "degree_le_2_orthogonality": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "mass_preserving_score": true,
+    "status": "PASS",
+    "variational_derivative_zero": true
+  },
+  "pid": 43824,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "Second N3 non-author review unit; local obstructions and finite-dimensional lemma only.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "rank2_projection_obstruction": {
+    "all_author_json_compared_fields_match": true,
+    "author_json_matches_recompute": {
+      "C_interval": true,
+      "F_pair_exact": true,
+      "F_pair_minus_C_interval": true,
+      "actual_B_interval": true,
+      "p": true,
+      "v": true
+    },
+    "independent_recompute": {
+      "B0_constant": "325/1372",
+      "B0_matches_325_over_1372": true,
+      "C_interval": [
+        "52.381642979996939300177623991838",
+        "52.381642979996939300177623991839"
+      ],
+      "F_pair_exact": "14086914062729091045673449453425479381483173078071981971153317562500000147120192307717230769230763/439453125016112530048122924128605676243990384583777043269324490384615353375000000000000000000000",
+      "F_pair_minus_C_interval": [
+        "-20.326087425095389917440103297042",
+        "-20.326087425095389917440103297041"
+      ],
+      "actual_B_interval": [
+        "249999999964.951476678055395201064953440915",
+        "249999999964.951476678055395201064953440916"
+      ],
+      "actual_B_positive": true,
+      "epsilon": "1/1000000000000",
+      "gap_negative": true,
+      "limit_577_over_18": "577/18",
+      "limit_matches_577_over_18": true,
+      "p": [
+        "999999999999/4000000000000",
+        "3249999999997/14000000000000",
+        "4999999999997/28000000000000",
+        "2249999999999/14000000000000",
+        "1250000000001/14000000000000",
+        "2000000000003/28000000000000",
+        "250000000003/14000000000000",
+        "1/4000000000000"
+      ],
+      "probabilities_positive": true,
+      "status": "PASS",
+      "sum_p_one": true,
+      "sum_v_zero": true,
+      "v": [
+        "-1249999999999/1000000000000",
+        "-3000000000001/14000000000000",
+        "-375000000001/3500000000000",
+        "7999999999991/14000000000000",
+        "999999999991/14000000000000",
+        "1374999999999/3500000000000",
+        "3999999999999/14000000000000",
+        "250000000001/1000000000000"
+      ]
+    },
+    "status": "PASS",
+    "target_blobs": {
+      "research/N3/falsification/rank2_projection_check.json": "e524b3d0edc2a2956564fe26d95375858e58e8b7",
+      "research/N3/falsification/rank2_projection_check.py": "f7bfb2a20461c9449a222ff48bc08a98351db276",
+      "research/N3/falsification/rank2_projection_obstruction.md": "32e9b69ab4d0af2b13f14d4efc3887c97cb15d85"
+    },
+    "target_commit": "f8a75e077c4ca449307e251ceef5f5c2bb6d218c"
+  },
+  "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\review\\verify_second_unit.py",
+  "script_sha256": "450e2bb8e3d3a7d065df6675b7046bb8c5ed569625a7446e070162b5ff8fe429",
+  "sherman_morrison": {
+    "A_DA_DA_equals_one_over_s": true,
+    "DA_formula_matches_direct_A_solve": true,
+    "F2_at_DA_scalar_equivalence": true,
+    "H_DA_numerator_formula": true,
+    "SM_close_equivalence": true,
+    "alpha": "18055658627/9280908126",
+    "beta": "-54175223681/464045406300",
+    "c_DA_equals_one": true,
+    "cauchy_beta2_le_alpha_gamma": true,
+    "full_scalar_equivalence": true,
+    "gamma": "249510129917/530337607200",
+    "s": "33294094853055781/17195642603429850",
+    "status": "PASS",
+    "suppression_holds": true,
+    "suppression_ratio_formula": true,
+    "target_blobs": {
+      "research/N3/inequality/optimizer_sherman_morrison_lemma.md": "ebd8a7c3da419233ed134f3a3efeba173fae1924"
+    },
+    "target_commit": "c0964be794705bc89e6b3ba6ecdc98afa6c81e32",
+    "v_DA_formula": true
+  },
+  "stationary_obstruction": {
+    "A_minus_F_00_interval": [
+      "700526447177/200000000000",
+      "1751316117943/500000000000"
+    ],
+    "A_solve_pivots_positive": true,
+    "A_uses_F_plus_detN_G_not_F_only": true,
+    "N_inverse_pivots_positive": true,
+    "all_gap_over_A_below_minus_0_1015": true,
+    "all_normalized_gaps_negative": true,
+    "all_raw_gaps_negative": true,
+    "author_certificate_exact_match": true,
+    "author_certificate_mismatched_fields": [],
+    "d_intervals": [
+      [
+        "58256882247/1000000000000",
+        "7282110281/125000000000"
+      ],
+      [
+        "14873690303/250000000000",
+        "59494761213/1000000000000"
+      ],
+      [
+        "11536544793/200000000000",
+        "28841361983/500000000000"
+      ],
+      [
+        "180771239/500000000000",
+        "361542479/1000000000000"
+      ],
+      [
+        "3083257239/500000000000",
+        "6166514479/1000000000000"
+      ],
+      [
+        "1215102041/1000000000000",
+        "607551021/500000000000"
+      ]
+    ],
+    "dyadic_precision_bits": 180,
+    "exact_feasibility": true,
+    "gap_over_A_intervals": [
+      [
+        "-25458327439/250000000000",
+        "-20366661951/200000000000"
+      ],
+      [
+        "-12696242809/125000000000",
+        "-101569942471/1000000000000"
+      ],
+      [
+        "-50983727841/500000000000",
+        "-101967455681/1000000000000"
+      ]
+    ],
+    "normalizer_interval": [
+      "104491002917/500000000000",
+      "41796401167/200000000000"
+    ],
+    "normalizer_positive": true,
+    "rho_interval": [
+      "452438504813/1000000000000",
+      "226219252407/500000000000"
+    ],
+    "status": "PASS",
+    "target_blobs": {
+      "research/N3/main/certify_stationary_obstruction.py": "1a5003eb9b565e65bb897cead9c81df6d22a43b2",
+      "research/N3/main/pair_score_identity_v1.md": "8dd133e448974338c4c038ea1ffc2c6f945c766e",
+      "research/N3/main/stationary_obstruction_certificate.json": "c919239301a6c3755dad6d7a6da00688310442ff",
+      "research/N3/main/stationary_obstruction_v1.md": "cc55d5ab4a43ef373789b6fcd195dd117b1bdeb3"
+    },
+    "target_commit": "449221bc3639c2de1239707f15dd938d6e230b9d",
+    "true_B_over_A_interval": [
+      "273780747593/500000000000",
+      "547561495187/1000000000000"
+    ],
+    "true_B_positive_normalized": true,
+    "true_B_positive_raw": true
+  },
+  "status": "PASS"
+}
