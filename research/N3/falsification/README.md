@@ -84,3 +84,30 @@ failure at its actual A minimizer. The finite 180-point evidence does not
 control all joint rates, cancellation patterns, or general interior centers.
 The full entropy theorem remains unproved regardless of this lower-bound
 lemma's eventual status. No further scan or background job is active.
+
+## Second unit: an analytic obstruction for the full pair-score projection
+
+The distinct bounded second unit produces the author proof
+[rank2_projection_obstruction.md](rank2_projection_obstruction.md). On the
+nonexchangeable rank-two boundary family
+K_epsilon=(I-uu^T)/2+epsilon uu^T, u=(1,2,3)/sqrt(14), the direction I has
+
+    F_pair -> 577/18,
+    C(I)=2log(1/epsilon)+2log(325/1372)+o(1).
+
+Thus the universal sufficient inequality F_pair>=C fails. The full Fisher
+retains a 1/(4epsilon) pole and its actual negative entropy Hessian is
+positive eventually. This is an auxiliary obstruction, not an entropy
+counterexample. The proof is frozen for fresh nonauthor review.
+
+One exact rational point epsilon=10^-12 passed the rational-log certificate
+[rank2_projection_check.json](rank2_projection_check.json):
+F_pair-C lies between -20.326087425095389917440103297042 and
+-20.326087425095389917440103297041, while the actual B is positive.
+No new parameter scan was performed.
+
+The parent separately reports an interior obstruction to the earlier
+A-optimal max-Q candidate. Consequently the first unit's non-hit remains
+only its original finite evidence, and that candidate must not be promoted
+to a universal lemma from this document. Its separate certification is
+owned by the parent.
