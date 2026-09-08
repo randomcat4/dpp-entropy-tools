@@ -1,4 +1,4 @@
-# n=3 full-Hessian program: U8 and U10a–i
+# n=3 full-Hessian program: U8 and U10a–j
 
 **Global status: INCOMPLETE.** This directory studies Shannon entropy of all
 eight exact events of a real symmetric strict DPP kernel, `0<K<I`.
@@ -42,6 +42,7 @@ uniform bound `ρ≤c<1` can hold over the whole connected strict domain.
 | **U10g — connected `Λ=0`** | **CORRECT_SCOPED:** a minimal fresh replay passes the structural identities and the explicit full-Hessian ball/external-field box. The whole submanifold is **INCOMPLETE**. | [Derivation](lambda_zero_subfamily/derivation.md), [fresh audit](lambda_zero_subfamily/verifications/fresh_audit.md) |
 | **U10h — exchangeable edges** | Fresh audit passes the rank-one Fisher identity and four compact-transverse spectral-boundary strips with full `Sym(3)` strictness. Corners and the separated middle remain **INCOMPLETE**. | [Boundary proof](exchangeable_triangle_global_attempt/proof_or_blocker.md), [fresh audit](exchangeable_triangle_global_attempt/audit_nonauthor/verdict.md) |
 | **U10i — exponential path corner** | **SCOPED_CORRECT:** closed limit `φ(β)>0` and compact-`β` exponential wedges. Noncompact `β(x)` regimes/full path remain **INCOMPLETE**. | [Limit proof](symmetric_path_global/boundary_exponential_limit/proof_candidate.md), [fresh audit](symmetric_path_global/boundary_exponential_limit/audit_nonauthor/verdict.md) |
+| **U10j — noncompact exponential scales** | `x^θ≤β≤x^-θ`, `θ<1/12`, is a quantified **PROOF_CANDIDATE**; a minimal audit found no quantifier loop but did not certify all constants. Algebraic `s=x^p` and faster drifts remain open. | [Candidate](symmetric_path_global/boundary_noncompact_scales/proof_candidate.md), [minimal audit](symmetric_path_global/boundary_noncompact_scales/audit_nonauthor/verdict.md) |
 
 The linked non-author reports determine reviewed scope; older author notes
 may retain their pre-review “pending” labels. Same-author self-review is not

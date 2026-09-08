@@ -367,7 +367,7 @@ Hessian 特征值”，但它们都沿着被压到近零的跨块耦合坐标；
     限定核验通过的结构把全部连通核参数化为加权 Cauchy
     `L_ij=w_iw_j/(z_i+z_j)`；外场 tilting 精确保留 `Lambda=0`，并把
     full-Hessian 问题缩为保留条件信息的 `3x3` Schur 门。围绕
-    `K(1/2,0.3)` 的显式半径 `49/214688160` 球内候选下界为
+    `K(1/2,0.3)` 的显式半径 `49/214688160` 球内下界为
     `B>=||D||_F²/6`，且含三参数稠密外场盒。异人用 exact Fraction 与
     90 位全 Hessian 最小复放核验 Kstar、18 个 field identity 和全部
     半径常数；全子流形仍 `INCOMPLETE`。
@@ -385,6 +385,12 @@ Hessian 特征值”，但它们都沿着被压到近零的跨块耦合坐标；
     一致 `O_J(sqrt x)` 余项给每个紧 beta 区间一整片连续指数楔形，而非
     离散射线。异人已核对受限极小、coercivity、forcing 与量词，判定该
     限定结论 `SCOPED_CORRECT`；`beta(x)->0/∞` 与全路径仍开放。
+43. **指数楔形已提出向非紧参数扩张的定量候选。** 以
+    `R=2+beta+1/beta` 追踪 U10i 的每个常数，候选界为
+    `|sigma-phi|<=C sqrt(x)R^6`，前提 `xR^6<=c` 且
+    `exp(-beta/x)<=x²`。这将覆盖任意固定 `theta<1/12` 的连续区
+    `x^theta<=beta<=x^-theta`。五分钟异审确认量词和非循环估计骨架，
+    但未重建全部常数，故保持 `PROOF_CANDIDATE`；代数率 `s=x^p` 仍开放。
 
 ## 已独立核验的连续区间证书
 

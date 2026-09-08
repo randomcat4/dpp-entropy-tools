@@ -501,12 +501,25 @@
 - 正性与尺度：`phi>8(log2+2)>0`，两端发散；唯一极小点
   `beta≈0.5802776353`、极限最小值约 `26.60376012`。旧 `26.581` 是
   `x=1e-4` 的有限尺度值，两者已明确区分
-- 连续候选：对每个固定紧 `beta` 区间，候选证明给
+- 连续结论：对每个固定紧 `beta` 区间，已审证明给
   `sigma=phi+O_J(sqrt(x))`，因而足够小 x 的整片连续指数楔形 full
   Hessian 严格负定；当 `beta(x)->0` 或无穷时尚无统一余项
 - 核验：异人检查受限能量归一化、trial 的两个精确约束、U8 coercivity、
   singleton/full-atom forcing 与紧区间量词，并独立复算有限/极限数值；
   未发现 scoped 证明缺口，且明确拒绝向非紧 beta 或全路径外推
+
+### D10-U10j：非紧指数尺度的定量扩张
+
+- 状态：`PROOF_CANDIDATE_NO_BLOCKER_FOUND`（五分钟最小异审）/
+  `INCOMPLETE`（完整常数审计、代数率和全路径）
+- 候选界：令 `R=2+beta+1/beta`；在 `xR^6<=c`、
+  `exp(-beta/x)<=x^2` 下，作者候选给
+  `|sigma-phi(beta)|<=C sqrt(x)R^6`
+- 推论候选：每个固定 `0<theta<1/12` 的连续区
+  `x^theta<=beta<=x^(-theta)` 最终严格负定；`theta=1/24` 给
+  `O(x^1/4)` 误差。最小异审确认量词推出和 R^6 估计骨架无循环
+- 边界：异审未重建全部 universal constants、cofactor/eigenvalue 界和
+  线性求解，因此未升为 `CORRECT`；`s=x^p` 对应的更小 beta 仍在域外
 
 ### D10-U10f：交换三角形族的 S3 约化
 
@@ -541,13 +554,13 @@
 
 - 状态：`CORRECT_SCOPED_MINIMAL_REPLAY`（结构恒等式、显式球与外场盒）/
   `INCOMPLETE`（全域）/ `SCOUT`（作者 15 个有理点）
-- 参数化候选：经 sign gauge，连通 `Lambda=0` 等价于正加权 Cauchy
+- 参数化：经 sign gauge，连通 `Lambda=0` 等价于正加权 Cauchy
   `L_ij=w_iw_j/(z_i+z_j)`，`z_i` 两两不同；对角 external-field tilting
   保持该子流形，因而它具有真正三参数连续结构
 - 精确门：外场 score 给 `F^{-1}eta=D_f`，保留三条条件 score 后完整
   Hessian 等价于一个显式 `3x3` Schur 矩阵 `T>0`；丢弃该修正的
   Fisher-only 充分条件在中心路径边界发散，因此不是可行全域捷径
-- 显式候选：围绕 `K(1/2,3/10)` 的 Frobenius 半径
+- 显式邻域：围绕 `K(1/2,3/10)` 的 Frobenius 半径
   `49/214688160≈2.28238e-7` 球内，对所有 `D∈Sym(3)` 有
   `B(D,D)>=||D||_F^2/6`；异人以 exact Fraction/90 位重建 Kstar、18 个
   Fisher-field 条目、基点谱下界和全部半径常数，并验证三参数外场盒确实
