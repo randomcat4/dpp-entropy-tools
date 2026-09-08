@@ -45,6 +45,7 @@ python research/R3/artifacts/search_group_chords.py --config research/R3/artifac
 充分小但非零耦合的 connected heterogeneous 路径核形成一整片统一严格
 负曲率区域；固定特征向量 PSD 谱速率路线在二维也已被完整排除，而三维
 已找到“单个事件二阶导可转正但总熵仍负”的最小证明法阻断；一般固定
-谱基路线则已精确约化为基数条件下的 projection-DPP 通道熵曲率。一次 n=93
+谱基路线则已精确约化为基数条件下的 projection-DPP 通道熵曲率，三维
+又缩成 singleton/pair 补集层的联合抵消问题。一次 n=93
 巨大正曲率已被完整追到 `Z^-3` 浮点下溢，并由高精度实际弦否决，而不是
 笼统归为舍入噪声。原始正 gap 目标仍为 `INCOMPLETE`，详见该目录 README。

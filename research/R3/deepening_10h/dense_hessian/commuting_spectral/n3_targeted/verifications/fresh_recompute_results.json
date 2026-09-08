@@ -1,0 +1,220 @@
+{
+  "author_json_recheck": {
+    "denominator": {
+      "local_accepted": 1590,
+      "local_steps_completed": 22000,
+      "local_steps_requested": 22000,
+      "positive_candidates_len": 0,
+      "random_draws_completed": 180000,
+      "random_draws_requested": 180000,
+      "seed": 2026090835,
+      "status": "SCOUT_NO_POSITIVE_FOUND",
+      "total_completed": 202000
+    },
+    "record_rechecks": {
+      "best": {
+        "all_v_nonnegative": true,
+        "chord_gate_abs_diffs": {
+          "central_second_difference": 0.0,
+          "h": 0.0,
+          "max_symmetric_spectral_step": 0.0,
+          "midpoint_gap": 0.0,
+          "one_minus_theta_minus_min": 1.1102230246251565e-16,
+          "one_minus_theta_plus_min": 0.0,
+          "theta_minus_min": 0.0,
+          "theta_plus_min": 0.0
+        },
+        "field_abs_diffs": {
+          "H2": 0.0,
+          "acceleration": 2.2464962983388037e-16,
+          "count_H2": 0.0,
+          "fisher_positive": 2.220446049250313e-16,
+          "min_atom": 0.0,
+          "pair_cond_H2": 2.7755575615628914e-17,
+          "psi_H2": 0.0,
+          "rho": 1.6846399052827062e-16,
+          "singleton_cond_H2": 1.6653345369377348e-16,
+          "sum_p1": 8.326672684688674e-17,
+          "sum_p2": 1.0582492401338322e-16,
+          "sum_p_minus_one": 0.0
+        },
+        "label": "local_probe_21948",
+        "matrix_checks": {
+          "P_col_sum_max_abs_error": 3.552713678800501e-15,
+          "P_min_entry": 0.000936557944015954,
+          "P_row_sum_max_abs_error": 4.218847493575595e-15,
+          "orthogonality_max_abs_error": 3.552713678800501e-15
+        },
+        "max_p1_diff": 5.551115123125783e-17,
+        "max_p2_diff": 2.185508654879446e-16,
+        "max_p_diff": 1.3877787807814457e-17,
+        "max_pair_s2_diff": 0.0,
+        "max_singleton_r2_diff": 1.127259414733497e-16,
+        "min_v": 5.878874516212553e-13
+      },
+      "best_pair_cond_H2": {
+        "all_v_nonnegative": true,
+        "field_abs_diffs": {
+          "H2": 0.0,
+          "acceleration": 4.829470157119431e-15,
+          "count_H2": 1.1368683772161603e-13,
+          "fisher_positive": 0.0,
+          "min_atom": 0.0,
+          "pair_cond_H2": 6.217248937900877e-15,
+          "psi_H2": 0.0,
+          "rho": 8.267041565201971e-19,
+          "singleton_cond_H2": 0.0,
+          "sum_p1": 1.6695935244756478e-16,
+          "sum_p2": 2.2638141361497333e-16,
+          "sum_p_minus_one": 0.0
+        },
+        "label": "random_174033",
+        "matrix_checks": {
+          "P_col_sum_max_abs_error": 2.220446049250313e-16,
+          "P_min_entry": 0.0015344667437434747,
+          "P_row_sum_max_abs_error": 0.0,
+          "orthogonality_max_abs_error": 2.671474153004283e-16
+        },
+        "max_p1_diff": 2.168404344971009e-19,
+        "max_p2_diff": 2.220446049250313e-16,
+        "max_p_diff": 4.336808689942018e-19,
+        "max_pair_s2_diff": 0.0,
+        "max_singleton_r2_diff": 0.0,
+        "min_v": 0.29472594426812815
+      },
+      "best_psi_H2": {
+        "all_v_nonnegative": true,
+        "chord_gate_abs_diffs": {
+          "central_second_difference": 1.1102238204330206e-06,
+          "h": 0.0,
+          "max_symmetric_spectral_step": 0.0,
+          "midpoint_gap": 2.220446049250313e-16,
+          "one_minus_theta_minus_min": 2.2199039481640703e-17,
+          "one_minus_theta_plus_min": 2.2199039481640703e-17,
+          "theta_minus_min": 0.0,
+          "theta_plus_min": 0.0
+        },
+        "field_abs_diffs": {
+          "H2": 0.0,
+          "acceleration": 0.0,
+          "count_H2": 1.8189894035458565e-12,
+          "fisher_positive": 0.0,
+          "min_atom": 0.0,
+          "pair_cond_H2": 5.421010862427522e-20,
+          "psi_H2": 1.8189894035458565e-12,
+          "rho": 0.0,
+          "singleton_cond_H2": 4.440892098500626e-16,
+          "sum_p1": 5.5480538931148465e-17,
+          "sum_p2": 0.0,
+          "sum_p_minus_one": 1.1102230246251565e-16
+        },
+        "label": "random_104585",
+        "matrix_checks": {
+          "P_col_sum_max_abs_error": 2.220446049250313e-16,
+          "P_min_entry": 0.008776329471501115,
+          "P_row_sum_max_abs_error": 1.1102230246251565e-16,
+          "orthogonality_max_abs_error": 2.220446049250313e-16
+        },
+        "max_p1_diff": 5.551115123125783e-17,
+        "max_p2_diff": 0.0,
+        "max_p_diff": 0.0,
+        "max_pair_s2_diff": 0.0,
+        "max_singleton_r2_diff": 0.0,
+        "min_v": 0.0
+      },
+      "best_singleton_cond_H2": {
+        "all_v_nonnegative": true,
+        "field_abs_diffs": {
+          "H2": 3.865352482534945e-12,
+          "acceleration": 3.903211087674663e-12,
+          "count_H2": 1.9042545318370685e-12,
+          "fisher_positive": 2.2737367544323206e-13,
+          "min_atom": 0.0,
+          "pair_cond_H2": 2.0463630789890885e-12,
+          "psi_H2": 2.0463630789890885e-12,
+          "rho": 2.252321593121387e-15,
+          "singleton_cond_H2": 1.4210854715202004e-14,
+          "sum_p1": 3.838753316956489e-18,
+          "sum_p2": 5.114103585057705e-13,
+          "sum_p_minus_one": 1.1102230246251565e-16
+        },
+        "label": "random_81801",
+        "matrix_checks": {
+          "P_col_sum_max_abs_error": 2.220446049250313e-16,
+          "P_min_entry": 0.0006061842681571484,
+          "P_row_sum_max_abs_error": 2.220446049250313e-16,
+          "orthogonality_max_abs_error": 2.220446049250313e-16
+        },
+        "max_p1_diff": 5.551115123125783e-17,
+        "max_p2_diff": 2.631228568361621e-13,
+        "max_p_diff": 3.469446951953614e-18,
+        "max_pair_s2_diff": 4.960476474025199e-13,
+        "max_singleton_r2_diff": 1.5265566588595902e-14,
+        "min_v": 0.3168055363353479
+      }
+    },
+    "summary_values": {
+      "best_H2": -1.3335172052461775,
+      "best_psi_H2": -4.754838300868869e-09,
+      "best_record_chord_gap": -6.66758648293353e-09,
+      "best_record_chord_second_difference": -1.333517296586706,
+      "max_pair_cond_H2": 3.0505478033779925,
+      "max_singleton_cond_H2": 3.6342121993267824,
+      "opposite_pair_at_singleton_max": -1581.138293130891,
+      "opposite_singleton_at_pair_max": -4968.276571221124
+    }
+  },
+  "exact_layer_reduction": {
+    "Q": "Householder I - (1/7)(1,2,3)(1,2,3)^T",
+    "atoms_by_mask": {
+      "000": "12/77",
+      "001": "1674/18865",
+      "010": "246/1715",
+      "011": "1539/18865",
+      "100": "3656/18865",
+      "101": "1776/18865",
+      "110": "3104/18865",
+      "111": "6/77"
+    },
+    "max_reduced_vs_full_channel_diff": "0",
+    "max_reduced_vs_signed_atom_diff": "0",
+    "min_atom": "6/77",
+    "sum_atoms": "1",
+    "theta": [
+      "2/7",
+      "3/5",
+      "5/11"
+    ]
+  },
+  "notes": [
+    "The 202000 count is confirmed from the author script/result ledger, not by rerunning the 30s random scan.",
+    "All finite search conclusions remain SCOUT only."
+  ],
+  "r2_blocker": {
+    "matches_author_r2": true,
+    "positive_r2_indices": [
+      0
+    ],
+    "r2": [
+      "11/1250",
+      "-23/2500",
+      "-23/2500"
+    ],
+    "s2": [
+      "9/1250",
+      "-27/2500",
+      "-27/2500"
+    ],
+    "theta": [
+      "3/5",
+      "1/5",
+      "1/5"
+    ],
+    "v": [
+      "1/100",
+      "1/10",
+      "1/10"
+    ]
+  },
+  "status": "FRESH_RECOMPUTE_PASS"
+}

@@ -107,6 +107,15 @@
 - 边界：generic Q 的条件层熵曲率仍 `OPEN`；doubly stochastic 不提供
   二阶符号。
 
+## L-M5：三维 singleton/pair 补集层联合符号
+
+- 陈述目标：对 `P=q^2`、严格三维谱和 one-sign 速率，控制
+  `G_P(r)''+G_P(s)''`，或至少证明它不超过 `-H(|Y|)''`。
+- 状态：`OPEN`；exact layer reduction 与 202000 次搜索账为
+  `CORRECT/SCOUT`，无全称证明。
+- 已知阻断：`r_i''` 可正，且 singleton、pair 条件层分别可正，所以逐
+  事件或逐层凹性均不是可行证明法；有限样本中两层正号尚未同时发生。
+
 ## L-U1：均匀核 Hessian 与四阶项
 
 - 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为

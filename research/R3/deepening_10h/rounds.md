@@ -114,3 +114,14 @@
   为 `H(Y||Y|)` 的曲率，Poisson-binomial 基数项本身已知凹。
 - 该表示、完整二阶导数和 cardinality-uniform/低维直和子类由第二位
   非作者独立核验为 `CORRECT`；generic Q 的条件通道项仍未闭合。
+
+## Round 11：三维条件层联合结构
+
+- 三维 exact atoms 被进一步写成 empty/full、singleton `Pr` 与补集
+  pair `Ps` 四层，未决条件熵正是 `G_P(r)+G_P(s)`。
+- 180000 个 random 加 22000 个 local PSD 谱速率方向中，singleton 和
+  pair 条件层分别出现正曲率 `3.6342`、`3.0505`，但对方层同时强负；
+  最好条件和仍为 `-4.75484e-9`，正总曲率计数为 0。
+- 非作者以三路 exact atom 表示和四个冻结极值重算核验账目；约化为
+  `CORRECT`、有限结果为 `SCOUT`。下一步直接攻击补集两层抵消，不把
+  202000 次未命中升级成定理。
