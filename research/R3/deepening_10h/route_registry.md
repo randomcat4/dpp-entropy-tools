@@ -64,6 +64,17 @@
   与 K 对易的正定方向子空间已有 `rho=0.5133580`
 - 下一参数化：固定 Q、改变异质正谱速率；门槛保持 `rho>1`
 
+### D10-M3：固定谱基的投影 DPP 通道约化
+
+- 状态：`CORRECT`（表示/分解/所列子类）/ `INCOMPLETE`（generic Q）
+- 结果：`K=Q diag(theta) Q^T` 的事件律精确等于独立谱子集经固定
+  projection-DPP 通道的输出；`H(Y)=H(|Z|)+H(Y||Y|)`
+- 瓶颈：Poisson-binomial 基数项已知凹，正曲率只能来自固定基数条件
+  通道熵；doubly stochastic 只保证点态熵增，不能保证沿 t 的二阶符号
+- 闭合子类：signed permutation、任意二维固定谱块、1x1/2x2 观察块
+  直和、cardinality-uniform 投影通道；均按陈述经非作者 exact-event
+  和高精度导数核验
+
 ### D10-M4：二维固定谱基 PSD 速率排除
 
 - 状态：`CORRECT`（n=2 定理与 n=3 方法阻断）/ `INCOMPLETE`（n>=3）

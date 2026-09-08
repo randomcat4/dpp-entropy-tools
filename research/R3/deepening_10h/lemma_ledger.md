@@ -94,6 +94,19 @@
   `2339/2450>0`；该例总 H'' 仍严格负，因此只阻断二维证明法。
 - 边界：`n>=3` 的固定谱基 PSD/NSD 方向符号仍 `OPEN`。
 
+## L-M4：谱子集到观察集的固定投影通道
+
+- 陈述：固定 `Q` 时，`K=Q diag(theta) Q^T` 的 DPP 可表示为独立
+  Bernoulli 谱子集 `Z` 经过
+  `T_Q(S|R)=det(Q_{S,R})^2` 的 projection-DPP 通道；通道保基数，故
+  `H(Y)=H(|Z|)+H(Y||Y|)`，并有显式 `p,p',p'',H''` 公式。
+- 状态：`CORRECT`；Cauchy--Binet、包含概率到 exact atoms 的 Möbius
+  识别、Fraction 导数及 90 位熵分解残差均经非作者核验。
+- 推论：signed permutation、1x1/2x2 观察块直和与
+  cardinality-uniform 通道给出已闭合凹子类。
+- 边界：generic Q 的条件层熵曲率仍 `OPEN`；doubly stochastic 不提供
+  二阶符号。
+
 ## L-U1：均匀核 Hessian 与四阶项
 
 - 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为
