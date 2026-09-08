@@ -155,6 +155,19 @@
 - 结果：Hessian 零空间为零对角方向；所有非零零对角射线四阶严格向下，
   且足够近的去心径向邻域曲率严格为负
 
+### D10-U2：异质对角核的全局 fiber 最大与四阶平坦脊
+
+- 状态：`CORRECT`
+- 全局结果：固定全部 singleton 边缘 `K_ii=x_i` 后，
+  `H(K)<=sum h(x_i)`，等号 iff K 对角；任一非零 off-diagonal 由 pair
+  inclusion `x_ix_j-K_ij^2` 破坏独立性
+- 局部接触：在 `X=diag(x)` 与 `diag D=0` 处，前三阶熵导数为零，且
+  `H''''=-12 sum_{i<j}D_ij^4/[x_i(1-x_i)x_j(1-x_j)]<0`
+- 一致性：紧对角盒及单位零对角方向上有显式统一四阶负界，并由紧致
+  连续性给统一小步径向下降；不把它写成附近所有 Hessian 都负
+- 核验：n=2,3,4 独立 Fraction exact-event/Möbius 与旧均匀 U1 常数均
+  通过；审计发现并修复一处 Taylor 展示漏加号，修订复审 `PASS`
+
 ## D10-S：半正定方向
 
 - 状态：`CORRECT`（twin-pair 子类）/ `OPEN`（一般 PSD/NSD）

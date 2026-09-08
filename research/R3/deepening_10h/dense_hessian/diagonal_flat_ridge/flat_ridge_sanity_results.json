@@ -1,0 +1,316 @@
+{
+  "status": "PASS",
+  "method": "exact-event Mobius atoms from inclusion determinants; standard-library Fraction arithmetic",
+  "checks": [
+    "p0 is heterogeneous product Bernoulli",
+    "all pS'(0) vanish for zero-diagonal D",
+    "mass and singleton derivatives of orders 1..4 vanish",
+    "pair inclusion second derivative equals -2*dij^2",
+    "pS''(0)/pS(0) equals -2*sum_edges dij^2*zeta_i*zeta_j",
+    "H''=H'''=0 by logged linear-term cancellation",
+    "H''''=-12*sum_edges dij^4/[xi(1-xi)xj(1-xj)]<0",
+    "explicit compact-box fourth-order bound is satisfied",
+    "uniform x_i=1/2 case reduces to old U1 coefficient"
+  ],
+  "cases": [
+    {
+      "name": "n2_heterogeneous_zero_diag",
+      "n": 2,
+      "x": [
+        "1/3",
+        "3/5"
+      ],
+      "p0_product_errors": {},
+      "p1_nonzero_atoms": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_derivatives": {
+        "(0, 1)": "-2/49"
+      },
+      "pair_second_errors": {},
+      "q_over_p_explicit_formula_errors": {},
+      "nonzero_D_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonzero_p2_atom_count": 4,
+      "sum_p2_squared_over_p0": "75/2401",
+      "explicit_sum_p2_squared_over_p0": "75/2401",
+      "H4": "-225/2401",
+      "explicit_H4_edge_sum": "-225/2401",
+      "t4_coefficient": "-75/19208",
+      "frob_square": "2/49",
+      "box_M_max_x1mx": "1/4",
+      "uniform_H4_bound_rhs": "-192/2401",
+      "H4_minus_bound_rhs": "-33/2401",
+      "uniform_relation": null,
+      "status": "PASS"
+    },
+    {
+      "name": "n3_heterogeneous_zero_diag",
+      "n": 3,
+      "x": [
+        "1/4",
+        "2/5",
+        "7/10"
+      ],
+      "p0_product_errors": {},
+      "p1_nonzero_atoms": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_derivatives": {
+        "(0, 1)": "-2/25",
+        "(0, 2)": "-2/49",
+        "(1, 2)": "-1/18"
+      },
+      "pair_second_errors": {},
+      "q_over_p_explicit_formula_errors": {},
+      "nonzero_D_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nonzero_p2_atom_count": 8,
+      "sum_p2_squared_over_p0": "150563113/612615150",
+      "explicit_sum_p2_squared_over_p0": "150563113/612615150",
+      "H4": "-150563113/204205050",
+      "explicit_H4_edge_sum": "-150563113/204205050",
+      "t4_coefficient": "-150563113/4900921200",
+      "frob_square": "3889/22050",
+      "box_M_max_x1mx": "1/4",
+      "uniform_H4_bound_rhs": "-60497284/121550625",
+      "H4_minus_bound_rhs": "-1223191897/5105126250",
+      "uniform_relation": null,
+      "status": "PASS"
+    },
+    {
+      "name": "n4_heterogeneous_zero_diag",
+      "n": 4,
+      "x": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "4/5"
+      ],
+      "p0_product_errors": {},
+      "p1_nonzero_atoms": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_derivatives": {
+        "(0, 1)": "-2/25",
+        "(0, 2)": "-2/49",
+        "(0, 3)": "-2/121",
+        "(1, 2)": "-1/18",
+        "(1, 3)": "-2/169",
+        "(2, 3)": "-2/81"
+      },
+      "pair_second_errors": {},
+      "q_over_p_explicit_formula_errors": {},
+      "nonzero_D_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nonzero_p2_atom_count": 16,
+      "sum_p2_squared_over_p0": "92906287699743863/316189602828026928",
+      "explicit_sum_p2_squared_over_p0": "92906287699743863/316189602828026928",
+      "H4": "-92906287699743863/105396534276008976",
+      "explicit_H4_edge_sum": "-92906287699743863/105396534276008976",
+      "t4_coefficient": "-92906287699743863/2529516822624215424",
+      "frob_square": "931036549/4058104050",
+      "box_M_max_x1mx": "1/4",
+      "uniform_H4_bound_rhs": "-1733658111147658802/4117052120156600625",
+      "H4_minus_bound_rhs": "-10109300011325791181/21957611307501870000",
+      "uniform_relation": null,
+      "status": "PASS"
+    },
+    {
+      "name": "n3_uniform_old_U1_relation",
+      "n": 3,
+      "x": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "p0_product_errors": {},
+      "p1_nonzero_atoms": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_derivatives": {
+        "(0, 1)": "-2/9",
+        "(0, 2)": "-8/25",
+        "(1, 2)": "-2/49"
+      },
+      "pair_second_errors": {},
+      "q_over_p_explicit_formula_errors": {},
+      "nonzero_D_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nonzero_p2_atom_count": 8,
+      "sum_p2_squared_over_p0": "298428544/121550625",
+      "explicit_sum_p2_squared_over_p0": "298428544/121550625",
+      "H4": "-298428544/40516875",
+      "explicit_H4_edge_sum": "-298428544/40516875",
+      "t4_coefficient": "-37303568/121550625",
+      "frob_square": "6428/11025",
+      "box_M_max_x1mx": "1/4",
+      "uniform_H4_bound_rhs": "-661106944/121550625",
+      "H4_minus_bound_rhs": "-234178688/121550625",
+      "uniform_relation": {
+        "sum_dij_fourth": "4662946/121550625",
+        "expected_H4_old_U1": "-298428544/40516875",
+        "expected_t4_coefficient_old_U1": "-37303568/121550625",
+        "H4_matches_old_U1": true,
+        "t4_matches_old_U1": true
+      },
+      "status": "PASS"
+    }
+  ]
+}

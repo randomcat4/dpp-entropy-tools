@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "independence": "does not import author sanity or author gate",
+  "global_fiber_checks": [
+    {
+      "name": "n2_strict_fixed_diagonal",
+      "n": 2,
+      "strict_K": true,
+      "strict_I_minus_K": true,
+      "min_K_ldl_pivot": "2/7",
+      "min_I_minus_K_ldl_pivot": "3361/9000",
+      "atom_sum": "1",
+      "min_atom": "341/3150",
+      "marginal_errors": [
+        "0",
+        "0"
+      ],
+      "pair_inclusion_errors": {
+        "(0, 1)": "0"
+      },
+      "pair_minus_product": {
+        "(0, 1)": "-1/900"
+      },
+      "has_nonzero_pair_product_gap": true,
+      "entropy_K_decimal": "1.2598199319670372259376394495178966462711825432882604204400600985005681560704900",
+      "entropy_diagonal_decimal": "1.2598328267432392946957488594129248293774171784808295991105720887955267610329349",
+      "entropy_gap_diagonal_minus_K": "0.00001289477620206875810940989503",
+      "status": "PASS"
+    },
+    {
+      "name": "n3_strict_fixed_diagonal",
+      "n": 3,
+      "strict_K": true,
+      "strict_I_minus_K": true,
+      "min_K_ldl_pivot": "2/9",
+      "min_I_minus_K_ldl_pivot": "34789/209748",
+      "atom_sum": "1",
+      "min_atom": "70577/4410000",
+      "marginal_errors": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_inclusion_errors": {
+        "(0, 1)": "0",
+        "(0, 2)": "0",
+        "(1, 2)": "0"
+      },
+      "pair_minus_product": {
+        "(0, 1)": "-1/2500",
+        "(0, 2)": "-1/3600",
+        "(1, 2)": "-1/4900"
+      },
+      "has_nonzero_pair_product_gap": true,
+      "entropy_K_decimal": "1.6631713942671480636187077455627360609882589326914664551165283887470663764477741",
+      "entropy_diagonal_decimal": "1.6631755126244308649899756032022344163013028951118796281628934861532975146029938",
+      "entropy_gap_diagonal_minus_K": "0.000004118357282801371267857639498",
+      "status": "PASS"
+    },
+    {
+      "name": "n4_strict_fixed_diagonal",
+      "n": 4,
+      "strict_K": true,
+      "strict_I_minus_K": true,
+      "min_K_ldl_pivot": "3/11",
+      "min_I_minus_K_ldl_pivot": "1524218633818551469/2897884454454639000",
+      "atom_sum": "1",
+      "min_atom": "224335096620500269/11016867994704000000",
+      "marginal_errors": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_inclusion_errors": {
+        "(0, 1)": "0",
+        "(0, 2)": "0",
+        "(0, 3)": "0",
+        "(1, 2)": "0",
+        "(1, 3)": "0",
+        "(2, 3)": "0"
+      },
+      "pair_minus_product": {
+        "(0, 1)": "-1/6400",
+        "(0, 2)": "-1/8100",
+        "(0, 3)": "-1/10000",
+        "(1, 2)": "-1/12100",
+        "(1, 3)": "-1/14400",
+        "(2, 3)": "-1/16900"
+      },
+      "has_nonzero_pair_product_gap": true,
+      "entropy_K_decimal": "2.6214863138053261279330122178917379543277509407592203348555851645975236693441123",
+      "entropy_diagonal_decimal": "2.6214869640193519018898596061447935336636742964092816998838609034562497669626400",
+      "entropy_gap_diagonal_minus_K": "6.502140257739568473882530556E-7",
+      "status": "PASS"
+    }
+  ],
+  "jet_checks": [
+    {
+      "name": "n2_fraction_edge",
+      "n": 2,
+      "atom_count": 4,
+      "p0_product_errors": {},
+      "p1_nonzero": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_errors": {},
+      "q_over_p_errors": {},
+      "distinct_edge_orthogonality_errors": {},
+      "sum_q_squared_over_p0": "1323/31250",
+      "explicit_sum_q_squared_over_p0": "1323/31250",
+      "H4_from_minus3_fisher4": "-3969/31250",
+      "explicit_H4_edge_formula": "-3969/31250",
+      "frob_norm_squared": "9/200",
+      "M_box_value": "1/4",
+      "uniform_bound_rhs": "-243/2500",
+      "H4_minus_bound_rhs": "-1863/62500",
+      "formal_entropy_derivative_zero_reason": "p'(0)=0 and the mass/singleton derivative sums annihilate the affine log p_S(0) coefficients through orders 2,3,4",
+      "status": "PASS"
+    },
+    {
+      "name": "n3_fraction_mixed_signs",
+      "n": 3,
+      "atom_count": 8,
+      "p0_product_errors": {},
+      "p1_nonzero": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_errors": {},
+      "q_over_p_errors": {},
+      "distinct_edge_orthogonality_errors": {},
+      "sum_q_squared_over_p0": "1676041/21262500",
+      "explicit_sum_q_squared_over_p0": "1676041/21262500",
+      "H4_from_minus3_fisher4": "-1676041/7087500",
+      "explicit_H4_edge_formula": "-1676041/7087500",
+      "frob_norm_squared": "13/162",
+      "M_box_value": "1/4",
+      "uniform_bound_rhs": "-676/6561",
+      "H4_minus_bound_rhs": "-76609321/574087500",
+      "formal_entropy_derivative_zero_reason": "p'(0)=0 and the mass/singleton derivative sums annihilate the affine log p_S(0) coefficients through orders 2,3,4",
+      "status": "PASS"
+    },
+    {
+      "name": "n4_fraction_all_edges",
+      "n": 4,
+      "atom_count": 16,
+      "p0_product_errors": {},
+      "p1_nonzero": {},
+      "mass_derivatives_1_to_4": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0"
+      },
+      "singleton_derivatives_1_to_4": {
+        "1": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "2": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "pair_second_errors": {},
+      "q_over_p_errors": {},
+      "distinct_edge_orthogonality_errors": {},
+      "sum_q_squared_over_p0": "12422497945225499/813004016025600000",
+      "explicit_sum_q_squared_over_p0": "12422497945225499/813004016025600000",
+      "H4_from_minus3_fisher4": "-12422497945225499/271001338675200000",
+      "explicit_H4_edge_formula": "-12422497945225499/271001338675200000",
+      "frob_norm_squared": "826921/12700800",
+      "M_box_value": "90/361",
+      "uniform_bound_rhs": "-89113283498547361/2613227194368000000",
+      "H4_minus_bound_rhs": "-429451253625779311/36585180721152000000",
+      "formal_entropy_derivative_zero_reason": "p'(0)=0 and the mass/singleton derivative sums annihilate the affine log p_S(0) coefficients through orders 2,3,4",
+      "status": "PASS"
+    }
+  ],
+  "layer_status": {
+    "fixed_diagonal_global_maximum_semantics": "PASS",
+    "zero_diagonal_exact_event_jet": "PASS",
+    "compact_box_fourth_order_constant": "PASS"
+  }
+}
