@@ -57,6 +57,12 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
   `3 x 3` kernels on which entropy is strictly concave.  This existential
   radius follows from the proved negative-definite Hessian and analyticity;
   two nonauthor reviews returned `CORRECT`.
+- More generally, for every fixed spectral margin `eta`, there is a uniform
+  full-dimensional convex tube around the entire product-diagonal cube
+  `d_i in (eta,1-eta)` on which the Hessian is negative semidefinite and the
+  entropy is strictly concave.  Connected centers in the tube have a
+  negative-definite Hessian; disconnected block strata have the exact kernels
+  forced by block structure.  Two nonauthor reviews returned `CORRECT`.
 - Before the proof, separate probes checked 17,042 compound-symmetric centers
   and 40,000 strict feasible chords without a robust positive.  Those finite
   probes are retained as falsification evidence only.

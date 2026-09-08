@@ -6,7 +6,7 @@ No real-symmetric strict counterexample was found.  Global concavity is now
 proved in dimension two, but remains unresolved for a general connected
 real-symmetric kernel in dimension three or higher.
 
-Six explicit results are independently verified:
+Seven explicit results are independently verified:
 
 1. If the midpoint `D` is a diagonal strict contraction, every nontrivial
    feasible real-symmetric chord `D+-tV` has
@@ -33,6 +33,11 @@ Six explicit results are independently verified:
    family-preserving chord has strict midpoint loss.  Every non-product point
    in that family lies inside a full-dimensional open neighborhood of general
    `3 x 3` kernels on which entropy is strictly concave.
+7. For every fixed interior spectral margin, a uniform full-dimensional convex
+   tube around the corresponding product-diagonal `3 x 3` cube has
+   negative-semidefinite Hessian and globally strict chord concavity.  The
+   Hessian is negative definite at connected centers; on single-edge and
+   product strata its kernel is exactly the block-forced cross directions.
 
 ## Evidence and limits
 
@@ -80,6 +85,11 @@ The equicorrelation theorem/proof commit is
 `fff31fdf785675b5c95e5f77628c120af30e000b`.  Two non-author reviewers read
 the fixed proof and exact-certificate blobs via `git show`; both returned
 `CORRECT`, and both exact blob replays exited `0` with `PASS`.
+
+The product-diagonal neighborhood theorem is proved in
+`proofs/diagonal_perturbation_neighborhood.md`; two non-author reviewers
+returned `CORRECT` for the full analytic weighted-remainder argument.  Its
+exact event/Taylor replay uses only rational arithmetic and exits `0`.
 
 General real-symmetric DPP entropy concavity in dimension at least three
 remains unresolved by R1.

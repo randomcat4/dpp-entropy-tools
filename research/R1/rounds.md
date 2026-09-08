@@ -253,3 +253,35 @@ small convex ball of general real-symmetric kernels on which the Hessian stays
 negative definite and every nonconstant chord has strict midpoint loss.  Two
 independent nonauthor reviews returned `CORRECT`.  No uniform radius or global
 connected-`n=3` coverage is claimed.
+
+## Round 8: a convex strict-concavity tube near product diagonals
+
+Status: `VERIFIED_LOCAL_TUBE / GENERAL_N3_OPEN`.
+
+For `K=diag(d)+E`, the exact event law relative to the product Bernoulli law
+has density `1+g`, where `g` is a quadratic pair term plus the cubic triangle
+term.  The entropy correction begins with negative edge quartics and a
+negative `x^2y^2z^2` term.  Exact block-axis cancellation and diagonal-sign
+symmetry classify every remaining analytic monomial into four types.
+
+Using the anisotropic weights
+
+```text
+x^2+y^2z^2,        y^2+x^2z^2,        z^2+x^2y^2,
+```
+
+the complete analytic remainder Hessian is uniformly smaller by a factor
+`epsilon^2` than the leading negative form, even when edge ratios approach
+zero arbitrarily fast.  The diagonal block remains uniformly negative and the
+mixed block is absorbed by Young's inequality.  Thus, for each fixed interior
+margin, a sufficiently small whole convex tube around the product-diagonal
+cube has negative-semidefinite Hessian; connected centers have a
+negative-definite Hessian.  Despite exact block kernels on disconnected
+strata, every nonconstant chord in the tube has strict negative curvature
+except at at most isolated points, hence strict finite-chord concavity.
+
+Two independent nonauthor contexts audited the full uniform analytic argument
+and returned `CORRECT`.  A dependency-free exact script separately checked
+all eight event polynomials and the degree four, six, and seven entropy terms,
+with degree five absent; it exited `0`.  This is a local tube theorem, not
+general connected `3 x 3` concavity.
