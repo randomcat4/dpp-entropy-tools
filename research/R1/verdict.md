@@ -30,7 +30,9 @@ Six explicit results are independently verified:
    Hessian is negative semidefinite, and is negative definite away from the
    product diagonal.  Restricted to the full compound-symmetric two-parameter
    family, entropy is globally strictly concave and every nontrivial
-   family-preserving chord has strict midpoint loss.
+   family-preserving chord has strict midpoint loss.  Every non-product point
+   in that family lies inside a full-dimensional open neighborhood of general
+   `3 x 3` kernels on which entropy is strictly concave.
 
 ## Evidence and limits
 

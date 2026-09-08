@@ -68,6 +68,24 @@ compressed `sigma=1` strictness is explicitly
 Neither review promotes the still-open arbitrary-direction finite-midpoint
 claim at an equicorrelation center, nor general connected `3 x 3` concavity.
 
+## Full-dimensional neighborhood corollary
+
+The exact reviewed corollary text has SHA-256
+
+```text
+8774578DFF6EF846A725FEE598C7247D0EFA0AB0BF05FFEA26430544D99BA679
+```
+
+and is published as
+`proofs/equicorrelation_open_neighborhood_corollary.md`.  Two independent
+nonauthor contexts returned `CORRECT`; both hashes were unchanged before and
+after review.  They checked positive L-ensemble event probabilities,
+analyticity on `0<K<I`, openness of negative definiteness, existence of a
+convex ball inside the strict domain, strict chord integration, and every
+stated exclusion.  This proves an existential full-dimensional neighborhood
+around each non-product equicorrelation kernel, not a uniform radius or global
+`n=3` concavity.
+
 ## Infrastructure failures retained
 
 A low-frequency text-only Codex OAuth review attempt timed out after 600

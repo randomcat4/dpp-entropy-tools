@@ -52,6 +52,11 @@ Delta = (H(K_-) + H(K_+))/2 - H(K_0) > 0.
   globally strictly concave, hence every nontrivial family-preserving chord
   has strict negative midpoint gap.  This does not settle a chord that leaves
   the family, or a general connected `3 x 3` kernel.
+- Every non-product strict compound-symmetric kernel also has a
+  full-dimensional open neighborhood in the space of general real-symmetric
+  `3 x 3` kernels on which entropy is strictly concave.  This existential
+  radius follows from the proved negative-definite Hessian and analyticity;
+  two nonauthor reviews returned `CORRECT`.
 - Before the proof, separate probes checked 17,042 compound-symmetric centers
   and 40,000 strict feasible chords without a robust positive.  Those finite
   probes are retained as falsification evidence only.

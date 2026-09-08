@@ -244,3 +244,12 @@ at a compound-symmetric center and does not resolve a general connected
 `3 x 3` kernel.  A low-frequency text-only reviewer timed out without a
 verdict; that infrastructure failure was not treated as a mathematical
 decision.
+
+The negative-definite conclusion off `lambda=mu` has a full-dimensional
+continuity consequence.  Strict kernels have strictly positive L-ensemble
+event probabilities, so entropy is real analytic on `0<K<I`.  Negative
+definiteness is open; hence every non-product compound-symmetric kernel has a
+small convex ball of general real-symmetric kernels on which the Hessian stays
+negative definite and every nonconstant chord has strict midpoint loss.  Two
+independent nonauthor reviews returned `CORRECT`.  No uniform radius or global
+connected-`n=3` coverage is claimed.
