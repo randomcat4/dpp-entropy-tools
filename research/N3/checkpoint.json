@@ -1,0 +1,15 @@
+{
+  "status": "ACTIVE_RESEARCH",
+  "baseline": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "target": "frozen_theorem_v1.md",
+  "unit": "U1 conditional score coupling and asymmetric boundary falsification",
+  "existing_N3_jobs": [],
+  "server_python": "3.12.3",
+  "numpy": "2.1.2",
+  "scipy": "1.14.1",
+  "mpmath": "1.3.0",
+  "initial_compute_concurrency": 2,
+  "threads_per_job": 1,
+  "gpu": false,
+  "global_result": "INCOMPLETE"
+}
