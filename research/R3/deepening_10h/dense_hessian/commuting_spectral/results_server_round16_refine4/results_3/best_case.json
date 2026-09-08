@@ -1,0 +1,21 @@
+{
+  "index": 4985,
+  "label": "one_basis_rotation",
+  "spectral_scale": 0.09,
+  "basis_scale": 0.03,
+  "accepted": true,
+  "rho_psd": 0.5730855864646438,
+  "rho_unrestricted": 0.5730855864646438,
+  "unrestricted_same_sign": true,
+  "total_psd_fisher_normalized": -0.4269144135353562,
+  "min_atom": 1.795080185802217e-08,
+  "normalization_residual": -2.220446049250313e-16,
+  "generalized_residual": 2.3815669938370134e-16,
+  "direction_min_rate": 0.4116065267226401,
+  "direction_max_rate": 1.0,
+  "chord_step": 0.003995783469678381,
+  "chord_gap": -0.00027308587909313786,
+  "spectrum_margin": 0.01644690555490058,
+  "basis_orthogonality_residual": 5.545426556940093e-15,
+  "status": "NO_HIT"
+}

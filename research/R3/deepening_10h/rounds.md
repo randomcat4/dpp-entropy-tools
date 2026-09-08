@@ -212,3 +212,16 @@
 - 非作者独立重建 8 个 exact events、通道分解、常数、分类和区间证书，
   结果 `PASS`。子类为 `CORRECT`；充分区域之外的一般 n=3 fixed-Q
   屏障仍 `INCOMPLETE`，任意非对易 PSD 不在量词内。
+
+## Round 19：第四轮联合谱/谱基细化
+
+- 从第三轮 strongest 出发，四个单线程分片各记录 1 个 source 与 5000
+  个新 proposal；共 20004 个存储行、恰有 20000 个新提议，所有
+  status/gap 均非正。最大 gap 约 `-4.52e-5`，最好机制比提高到
+  `0.5735840442`，仍小于翻号阈值 1。
+- 非作者不导入作者 gate，独立对账 CSV/manifest/log/JSON/NPZ，并以
+  90 位重建全 4096 exact events；strongest 的
+  `H''=-42.1913416922...`，三条实际弦全负，Fraction LDL 与
+  `|t|<=1/200` 的 `1/2000` 谱裕量通过。
+- 冻结点与存储账目为 `CORRECT`，有限批为 `SCOUT`；未重跑完整 seed
+  proposals，故再生成层 `INCOMPLETE`。有理化证书仍限 near-commuting。

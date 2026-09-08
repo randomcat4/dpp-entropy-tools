@@ -183,6 +183,17 @@
 - 边界：有理化对象因取整一般只 near-commuting；本条不是 fixed-Q 全域
   定理，也不是 PSD/NSD 一般定理。
 
+## L-M2f：第四轮 fixed-Q 邻域联合细化账目与冻结点
+
+- 陈述：从第三轮 strongest 再作四片各 5000 个联合谱/谱基 proposal，
+  每片显式保留 source 行，并冻结最大机制比点。
+- 状态：`CORRECT`（20004 个存储行与 strongest）/ `SCOUT`（20000 个
+  新 proposal）/ `INCOMPLETE`（未全 seed 再生、无全称）。
+- 结果：最好 `rho=0.5735840442<1`；非作者 90 位全事件复算给
+  `H''=-42.1913416922...`，实际弦、Fraction LDL 与谱裕量均通过。
+- 边界：精确有理化对象只作 near-commuting PSD 线解释；不改变翻号
+  门槛 `rho>1`。
+
 ## L-U1：均匀核 Hessian 与四阶项
 
 - 陈述：`H''(I/2)[D,D]=-4 sum D_ii^2`；若 `diag(D)=0`，四阶项为
