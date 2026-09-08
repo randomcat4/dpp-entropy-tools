@@ -1,7 +1,9 @@
 # U10a result and blocker
 
 GLOBAL rho(K)<=1: INCOMPLETE. No strict real-DPP positive-curvature candidate
-was produced. The author does not self-certify these new lemmas.
+was produced. A fresh non-author implementation under `audit_nonauthor/`
+returned `CORRECT` for the scoped identities, sufficient conditions, and exact
+path blocker; it did not certify the still-open global scalar inequality.
 
 New candidate results are:
 

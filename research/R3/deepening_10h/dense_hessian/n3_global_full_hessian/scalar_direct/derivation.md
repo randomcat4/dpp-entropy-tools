@@ -1,8 +1,10 @@
 # Direct event-score certificates for the remaining scalar
 
-AUTHOR THEOREM CANDIDATES — pending independent review. Global rho<=1 remains
-INCOMPLETE. U8's reviewed reduction and boundary expansions are inputs, not
-newly claimed discoveries here.
+AUDITED SCOPED IDENTITIES AND BLOCKERS. Global rho<=1 remains INCOMPLETE.
+A fresh non-author implementation independently reconstructed the core
+identities, sufficient conditions, path blocker, and three score corrections.
+U8's reviewed reduction and boundary expansions are inputs, not newly claimed
+discoveries here.
 
 ## 1. Definitions and a strengthened nondegeneracy fact
 

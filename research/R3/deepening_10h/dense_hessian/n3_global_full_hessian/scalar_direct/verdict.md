@@ -2,7 +2,7 @@
 
 GENERAL CONJECTURE: **INCOMPLETE**.
 
-NEW ANALYTIC RESULTS: **PROOF_CANDIDATES_PENDING_INDEPENDENT_REVIEW**.
+NEW ANALYTIC RESULTS: **CORRECT_SCOPED_AFTER_INDEPENDENT_REVIEW**.
 
 The main advance is an explicit eight-event projection form and an exact
 three-contrast correction formula for its scalar. Trace-only and fixed
