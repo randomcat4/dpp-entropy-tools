@@ -32,6 +32,10 @@ separate evidence levels:
   Its new strongest has `rho=0.5746069387`, high-precision
   `H''=-40.2752548454...`, and actual spectrum margin `0.0153714`, farther
   inside than the prior `0.01`-margin source despite permitting `0.002`.
+- `results_server_round19_interior1/`: a strict-interior diagnostic with every
+  proposal ledgered at spectrum margin at least `0.02`. Its independently
+  gated best has `rho=0.5745947309` and margin `0.0217108`, only
+  `1.22078e-5` below H10 despite being visibly interior.
 
 The generic fixed-`Q` problem in dimension at least three remains open.  A
 finite search miss is not a concavity theorem, and `rho<1` is not a positive
