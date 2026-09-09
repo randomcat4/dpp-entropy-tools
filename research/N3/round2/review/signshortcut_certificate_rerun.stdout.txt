@@ -1,0 +1,48 @@
+{
+  "status": "EXACT_SIGN_SHORTCUT_OBSTRUCTION_NOT_B0_COUNTEREXAMPLE",
+  "K": [
+    [
+      "1/2",
+      "1/25",
+      "3/50"
+    ],
+    [
+      "1/25",
+      "1/2",
+      "2/25"
+    ],
+    [
+      "3/50",
+      "2/25",
+      "1/2"
+    ]
+  ],
+  "direction": [
+    "1",
+    "1",
+    "1",
+    "-3824639319575184888399/113394806345511264244256",
+    "0",
+    "0"
+  ],
+  "Lambda_direction_derivative": "0",
+  "Fisher": "622020682373563094772134501090727105361338125/50228055102093756558446582766937869761050756",
+  "cofactor_interval": [
+    "376241571363/1000000000000",
+    "94060392841/250000000000"
+  ],
+  "true_B_interval": [
+    "12007687710971/1000000000000",
+    "3001921927743/250000000000"
+  ],
+  "source_sha256": "1cf5b8977b65867b9c20babf19ac5fd3f1b96da32ad9568cf688426573cfad13",
+  "dependency_sha256": "d17831a60b718e21ea10e0b6ed7289d4121c4a11d2edc9cfe86577b5f18ff03f",
+  "pid": 29592,
+  "threads": 1,
+  "seed": null,
+  "deterministic": true,
+  "executed_centers": 1,
+  "command": "python research/N3/round2/main/lambda_tangent_certificate.py",
+  "elapsed_seconds": 0.010210037231445312,
+  "exit_code": 0
+}
