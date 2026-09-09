@@ -1,16 +1,16 @@
 # Status
 
-All three fresh independent FIRST reviews and their current bounded
-follow-ups are complete. PR60 Claims 1-3 now close against audited C2
-raw evidence; PR58 finite fixtures and PR60's radial obstruction retain
-their distinct computation gates.
+All three fresh independent source FIRST reviews are complete. PR60
+Claims 1-3 close against C2 PR64 and Claim 4 independently closes against
+C2 PR71. PR58's original finite packet PR72 is under source/evidence
+audit; the new additive witness remains a distinct finite unit.
 
 | Unit | Mathematical FIRST | Static code | Independent computation | Readiness for C3 SECOND |
 |---|---|---|---|---|
 | PR58 original analytic packet, repaired at 7d3dd405 | Analytic compensation/conditional criteria/centering ACCEPTED_SCOPED; original wording finding CLOSED | CORRECT at static level | Corridor and W/curvature certificates pending C2's separately claimed reconstruction | Original analytic scope READY; no whole-packet finite acceptance |
 | PR58 additive analytic delta, domain repaired at 5ab3cae1 | Joint-additive projection, normal equations and rank-four structure CORRECT / ACCEPTED_SCOPED; domain finding CLOSED | CORRECT at static level | New s=9/10 finite witness pending a distinct C2 unit | Analytic delta READY for C3 independent SECOND; finite witness receives no inherited acceptance |
 | PR59 at 892a121a | CORRECT / ACCEPTED_SCOPED for all scoped analytic claims | CORRECT; both author outputs inspected, not executed | No finite computation is load-bearing for the accepted analytic theorem | READY for C3 independent second at the exact frozen head |
-| PR60 at f869fd25 with C2 PR64 evidence at 5b40617f | Claims 1-3 CORRECT / ACCEPTED_SCOPED: full Lambda-zero strictness, conditional entropy and stated center-dependent nonzero band; perspective identities accepted separately | CORRECT; original author static review and C2 source/evidence audit separate | Full-r independent certificate gate CLOSED; Claim 4 radial obstruction remains a separate exact unit | Claims 1-3 READY for C3 independent SECOND; no radial-obstruction acceptance inherited |
+| PR60 at f869fd25 with C2 PR64 at 5b40617f and separate PR71 at 8878516c | Claims 1-4 CORRECT / ACCEPTED_SCOPED; perspective identities accepted separately | CORRECT; original static, full-r and auxiliary evidence audits remain distinct | Full-r and separate radial-obstruction gates CLOSED after raw evidence audits | Claims 1-3 and separate Claim 4 READY for C3 independent SECOND |
 
 ## Findings and precise limits
 
@@ -40,8 +40,11 @@ audited by the original FIRST. The source/run binding, matrix bridges,
 two determinants, fresh P before author comparison, two Q transforms,
 full coefficient box, seed, leaf symmetry and scaling are covered.
 The main analytic lift and its conditional/band consequences therefore
-pass. The radial auxiliary obstruction still needs its separate exact
-event-jet/log/Jensen check. No entropy counterexample is certified.
+pass. Claim 4 separately passes the PR71 exact event-jet/log/Jensen audit:
+negative radial derivative of the negative Hessian, positive actual
+negative Hessian, and negative complete entropy Jensen difference.
+This refutes the auxiliary monotonicity law. No entropy counterexample
+is certified. Claim 4 inherits no evidence from the full-r packet.
 
 Missing computation is an evidence-status gap, not a proof of falsity.
 Full per-claim dispositions are in the mathematical and code reports;

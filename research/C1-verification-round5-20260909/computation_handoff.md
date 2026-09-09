@@ -104,3 +104,22 @@ of the negative Hessian; positive -H''(K*;D*); and the negative complete
 entropy Jensen difference. This only refutes an auxiliary monotonicity
 law. It is not an entropy counterexample. C3 coordinates this separate
 public computation assignment; C1 neither duplicates it nor assumes PASS.
+
+### Closed by separate PR71 source/evidence FIRST
+
+C2 PR71 is frozen at 8878516c0ad12e60884419fc03525b2a7caa7be3, with
+successful executable source ee8f0a105798494474b1afd41f69af96794c8f5f.
+The original PR60 FIRST read the implementation, all raw certificate and
+run artifacts, and checked all 31 file bindings. Claim 4 is now
+CORRECT / ACCEPTED_SCOPED and READY for a separate C3 SECOND.
+
+The independent construction covers all eight complete events and all
+six mixed jets, both determinant/inclusion-exclusion constructions,
+normalizations, exact legal radial bounds and Jensen segment, rational
+logarithm tails with outward endpoints, all four derivative terms, the
+positive actual negative Hessian and the negative full Jensen difference.
+The one successful bounded run has no failures or repairs and no live
+arithmetic remains. See units/pr60/aux_scope.md, aux_review_report.md,
+aux_code_review.md and both AUX bindings. This closes only the auxiliary
+monotonicity refutation; it does not prove an entropy counterexample,
+general nonzero-Lambda concavity or the remaining perspective inequality.

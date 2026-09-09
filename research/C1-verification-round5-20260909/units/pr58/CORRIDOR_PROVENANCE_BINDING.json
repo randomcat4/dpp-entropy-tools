@@ -1,0 +1,31 @@
+{
+  "note": "Source hashes establish provenance only. Original finite scope only; original FIRST source/evidence audit is separate. No C1 arithmetic.",
+  "machine_packet_commit": "e557d93e864582c9f9e7bd4384ed21d6ae2f66e2",
+  "implementation_inputs_guard_unchanged_since_success": true,
+  "machine_branch_base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+  "author_commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "author_base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "matched_author_inputs": [
+    {
+      "blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "copy": "research/C2/pr58_corridor50/inputs/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "source": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md"
+    },
+    {
+      "blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a",
+      "copy": "research/C2/pr58_corridor50/inputs/RESULT.md",
+      "source": "research/I05-23-middle-20260909/RESULT.md"
+    },
+    {
+      "blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "copy": "research/C2/pr58_corridor50/inputs/author_checker_reference.py",
+      "source": "research/I05-23-middle-20260909/code/verify_middle_compensation.py"
+    },
+    {
+      "blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "copy": "research/C2/pr58_corridor50/inputs/author_output_reference.txt",
+      "source": "research/I05-23-middle-20260909/output/verify_middle_compensation.txt"
+    }
+  ],
+  "successful_source_commit": "86617882b7db97f5db39bf613d876a5d5bcf9107"
+}

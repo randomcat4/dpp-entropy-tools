@@ -1,15 +1,16 @@
 # C1 independent first reviews: PR58, PR59 and PR60
 
-Status: all three fresh non-author FIRST reviews and their current
-follow-ups are complete. PR59 and PR60 Claims 1-3 are ACCEPTED_SCOPED and
+Status: all three fresh non-author source FIRST reviews are complete.
+PR59 and PR60 Claims 1-4 are ACCEPTED_SCOPED and
 READY for C3's independent second. PR58's original analytic scope is also
 READY after its wording repair at 7d3dd405. Its additive analytic scope is
 READY after the norm-domain repair at 5ab3cae1. The two PR58 finite fixtures
-and PR60's separate radial obstruction retain their exact-evidence gates.
+retain distinct exact-evidence gates. The original PR58 finite packet has
+arrived as C2 PR72 and is under original-FIRST source/evidence audit.
 
 - [PR58 original first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md): compensation, conditional interval criterion and conditional centering pass. The corridor and W/curvature signs need C2 reconstruction. Original wording is [closed](units/pr58/wording_review.md). The [additive delta](units/pr58/delta_review_report.md) passes projection/normal equations/rank-four structure after its [domain repair](units/pr58/domain_repair_review.md); the finite example remains separately gated. [Delta code review](units/pr58/delta_code_review.md) is static only.
 - [PR59 first report](units/pr59/review_report.md) and [static code review](units/pr59/code_review.md): compact tube, five-term Hessian, qualitative finite-state interface, beam-splitter obstruction and explicit family pass. Error constants and the transverse radius remain existential; no rate computation ran.
-- [PR60 original first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md) are preserved. The [machine-evidence follow-up](units/pr60/machine_review_report.md) and [machine source/evidence audit](units/pr60/machine_code_review.md) close Claims 1-3 against frozen C2 PR64 raw materials. Full Lambda-zero strictness, conditional entropy and the stated center-dependent nonzero band are READY. Perspective identities pass separately; the radial obstruction still needs its own exact check.
+- [PR60 original first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md) are preserved. The [machine-evidence follow-up](units/pr60/machine_review_report.md) and [machine source/evidence audit](units/pr60/machine_code_review.md) close Claims 1-3 against frozen C2 PR64 raw materials. Full Lambda-zero strictness, conditional entropy and the stated center-dependent nonzero band are READY. The separate [Claim 4 auxiliary FIRST](units/pr60/aux_review_report.md) and [source/evidence audit](units/pr60/aux_code_review.md) close the radial derivative, true negative-Hessian and full Jensen signs against C2 PR71. This refutes only the auxiliary monotonicity law; it is not an entropy counterexample. Perspective identities pass separately with their remaining inequality open.
 
 | Unit | Frozen head | Full packet |
 |---|---|---|

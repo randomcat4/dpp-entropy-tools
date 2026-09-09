@@ -21,7 +21,7 @@
 | PR60 | Determinant/chart coefficient positivity | CLOSED: independent C2 PR64 at 5b40617f passes original-FIRST source/evidence audit |
 | PR60 | Conditional entropy and quantified nonzero-Lambda band | CORRECT / ACCEPTED_SCOPED; stated center-dependent band, no uniform global extension |
 | PR60 | One-sided perspective identities and scale reduction | CORRECT / ACCEPTED_SCOPED; remaining inequality open |
-| PR60 | Radial obstruction, true curvature and Jensen signs | INCOMPLETE pending separate exact event/interval reconstruction |
+| PR60 | Claim 4 radial obstruction, true curvature and Jensen signs | CORRECT / ACCEPTED_SCOPED after separate C2 PR71 at 8878516c raw-source/evidence audit; only auxiliary monotonicity refuted |
 | PR60 | Three scripts and certificate claims | CORRECT static consistency; no independent C1 arithmetic |
 
 These are first verdicts, not second-review acceptance or integration

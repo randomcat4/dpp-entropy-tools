@@ -85,3 +85,24 @@ C3 reported an isolated PR60 SECOND underway, with no C1 FIRST material
 provided to that context. The next explicit C1 assignment starts fresh
 author-only FIRSTs for PR62 and PR66 in a separate round-six packet; it
 does not expand this packet's theorem scope or interrupt web tasks.
+
+## Separate PR60 Claim 4 evidence closure
+
+The original PR60 FIRST completed a bounded audit of all 31 C2 PR71
+auxiliary files at 8878516c0ad12e60884419fc03525b2a7caa7be3. The
+successful source is ee8f0a105798494474b1afd41f69af96794c8f5f; its
+implementation, literal inputs and execution guard did not change after
+the successful run. Both copied author inputs match f869fd25. The
+machine branch base a9b69fce is provenance only and supplies no r=0 premise.
+
+The three auxiliary reports preserve all original and full-r reports.
+Claim 4 is CORRECT / ACCEPTED_SCOPED after actual implementation and raw
+event/jet/log/legality/Jensen/run review. Claims 1-3 are untouched. The
+result refutes an auxiliary radial monotonicity law, while the actual
+negative Hessian is positive and the full entropy Jensen difference is
+negative. C3 owns independent SECOND; no C1 arithmetic or author edit ran.
+
+C2's original PR58 finite packet has also arrived as PR72 at e557d93e;
+its 30 files and four copied author inputs are hash-bound. The original
+PR58 FIRST is auditing those raw artifacts and the printed-decimal
+endpoint wording. No finite acceptance is inferred from receipt alone.

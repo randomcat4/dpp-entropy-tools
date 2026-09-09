@@ -1,0 +1,191 @@
+{
+  "unit": "pr72_corridor",
+  "file_count": 30,
+  "base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+  "computation": "C1 source/evidence review only; no arithmetic execution",
+  "prefix": "research/C2/pr58_corridor50/",
+  "commit": "e557d93e864582c9f9e7bd4384ed21d6ae2f66e2",
+  "files": [
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "f38ced463e6c9f2ee81a3104a573bda12de50af3",
+      "path": "research/C2/pr58_corridor50/.gitattributes"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 30,
+      "blob": "51f9d14c00c9161be344ed9e9c00233e45b8fb0e",
+      "path": "research/C2/pr58_corridor50/README.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 27,
+      "blob": "94df28df760f877adf745bbcd4aa003a37a5182c",
+      "path": "research/C2/pr58_corridor50/STATUS.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 42,
+      "blob": "358ef427d78a44901e2439a1dd2e6304cf8d3b93",
+      "path": "research/C2/pr58_corridor50/execution/RUN_LEDGER.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 54,
+      "blob": "cb2fc2772d4fe1bcfeabf33a6bc0e7288767618a",
+      "path": "research/C2/pr58_corridor50/execution/run_guard.sh"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 9,
+      "blob": "5149a4eea41dbf3da4d1ea35af5c3de6d99de0d5",
+      "path": "research/C2/pr58_corridor50/frozen_contract.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1605,
+      "blob": "e05abed862626fb55d7bb2bc64d192605f9e2b15",
+      "path": "research/C2/pr58_corridor50/implementation/independent_pr58_certificate.py"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 137,
+      "blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "path": "research/C2/pr58_corridor50/inputs/ADDENDUM_CONDITIONAL_CENTERING.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 309,
+      "blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a",
+      "path": "research/C2/pr58_corridor50/inputs/RESULT.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 31,
+      "blob": "ccf2d33ec2c71792c8b9260f0c722055f6630da6",
+      "path": "research/C2/pr58_corridor50/inputs/SOURCE_BINDING.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 173,
+      "blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "path": "research/C2/pr58_corridor50/inputs/author_checker_reference.py"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 30,
+      "blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "path": "research/C2/pr58_corridor50/inputs/author_output_reference.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 69,
+      "blob": "271fd09ae2d69a8ea2c0154ea7594d4780881ae9",
+      "path": "research/C2/pr58_corridor50/machine_notes.md"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 48,
+      "blob": "53a589eebf7e6f0a33bbd46dac5a5147b97b1ab8",
+      "path": "research/C2/pr58_corridor50/outputs/run01/MACHINE_PASS.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "f3ff91be4c05243a00c65433e7b0a9acf8cdb721",
+      "path": "research/C2/pr58_corridor50/outputs/run01/MACHINE_PASS.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "4d0c78a29d0e113b6359c9e4e9a53411cf9821a0",
+      "path": "research/C2/pr58_corridor50/outputs/run01/arithmetic_pid.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 20159,
+      "blob": "4d682d580fd765bb43263a2858e3171bd3d253d5",
+      "path": "research/C2/pr58_corridor50/outputs/run01/corridor.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "path": "research/C2/pr58_corridor50/outputs/run01/cpu_affinity.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "cd10cc444788db327cf9a6a7fe53be0cff3ed0a3",
+      "path": "research/C2/pr58_corridor50/outputs/run01/deadline_utc.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 6220,
+      "blob": "2204039dd0401120d2f66fb75473bb7bec30eff2",
+      "path": "research/C2/pr58_corridor50/outputs/run01/events.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "ec01c32477db6f251b8a6b9f84ac60244b7e1937",
+      "path": "research/C2/pr58_corridor50/outputs/run01/exit.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 2705,
+      "blob": "0fbfd03f9fe3df61fe2ce6b3f7bc16ed5a3e87ab",
+      "path": "research/C2/pr58_corridor50/outputs/run01/identities.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 212,
+      "blob": "4003d8844c85469463ba35a1b5ad61c49dc01b70",
+      "path": "research/C2/pr58_corridor50/outputs/run01/inputs.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 583,
+      "blob": "8003558caacab71716050e52ad523ec94c55a9f8",
+      "path": "research/C2/pr58_corridor50/outputs/run01/reference_compare.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 33063,
+      "blob": "86830b2814f59d410c9397acf7d590db74cc2570",
+      "path": "research/C2/pr58_corridor50/outputs/run01/s10.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "87bdeb576755d80ee9ca1420caf1c197cb7e65b4",
+      "path": "research/C2/pr58_corridor50/outputs/run01/start_utc.txt"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 48,
+      "blob": "53a589eebf7e6f0a33bbd46dac5a5147b97b1ab8",
+      "path": "research/C2/pr58_corridor50/outputs/run01/state.json"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "research/C2/pr58_corridor50/outputs/run01/stderr.log"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 6,
+      "blob": "4570b94675d5cd92f458d78b585820bccb8b1ebe",
+      "path": "research/C2/pr58_corridor50/outputs/run01/stdout.log"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "58e4736c2e6c78d40de3cee5aaca861d37a97538",
+      "path": "research/C2/pr58_corridor50/outputs/run01/timeout_pid.txt"
+    }
+  ],
+  "origin": "public immutable GitHub commit"
+}
