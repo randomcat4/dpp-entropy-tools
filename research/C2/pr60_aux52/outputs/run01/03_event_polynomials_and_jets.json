@@ -1,0 +1,640 @@
+{
+  "checkpoint": "03_event_polynomials_and_jets",
+  "checkpoint_epoch_ns": "1788969545420023243",
+  "payload": {
+    "events": [
+      {
+        "jet": {
+          "p": "1069/12500000",
+          "pC": "-434223/50000000",
+          "pD": "-733/25000000",
+          "pDC": "1191/6250000",
+          "pDD": "-17/62500",
+          "pDDC": "66/3125"
+        },
+        "label": "0",
+        "mask": "0",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "1069/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "1069",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "-434223/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "-434223",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "-434223/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "-434223",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "-733/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "-733",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "1191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "1191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "-17/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "-17",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "30503/6250000",
+          "pC": "433323/50000000",
+          "pD": "-8767/25000000",
+          "pDC": "-4191/6250000",
+          "pDD": "-783/62500",
+          "pDDC": "-66/3125"
+        },
+        "label": "1",
+        "mask": "1",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "30503/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "30503",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "433323/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "433323",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "433323/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "433323",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "-8767/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "-8767",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "-4191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "-4191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "-3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "-3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "-783/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "-783",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "-33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "-33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "53/6250000",
+          "pC": "-1377/50000000",
+          "pD": "733/25000000",
+          "pDC": "-1191/6250000",
+          "pDD": "17/62500",
+          "pDDC": "-66/3125"
+        },
+        "label": "2",
+        "mask": "2",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "53/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "53",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "-1377/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "-1377",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "-1377/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "-1377",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "733/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "733",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "-1191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "-1191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "-3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "-3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "17/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "17",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "-33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "-33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "319/12500000",
+          "pC": "2277/50000000",
+          "pD": "8767/25000000",
+          "pDC": "4191/6250000",
+          "pDD": "783/62500",
+          "pDDC": "66/3125"
+        },
+        "label": "12",
+        "mask": "3",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "319/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "319",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "2277/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "2277",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "2277/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "2277",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "8767/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "8767",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "4191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "4191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "783/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "783",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "5534153/6250000",
+          "pC": "434223/50000000",
+          "pD": "445733/25000000",
+          "pDC": "-1191/6250000",
+          "pDD": "-124983/62500",
+          "pDDC": "-66/3125"
+        },
+        "label": "3",
+        "mask": "4",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "5534153/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "5534153",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "434223/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "434223",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "434223/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "434223",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "445733/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "445733",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "-1191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "-1191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "-3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "-3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "-124983/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "-124983",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "-33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "-33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "1307119/12500000",
+          "pC": "-433323/50000000",
+          "pD": "63767/25000000",
+          "pDC": "4191/6250000",
+          "pDD": "125783/62500",
+          "pDDC": "66/3125"
+        },
+        "label": "13",
+        "mask": "5",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "1307119/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "1307119",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "-433323/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "-433323",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "-433323/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "-433323",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "63767/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "63767",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "4191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "4191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "125783/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "125783",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "55519/12500000",
+          "pC": "1377/50000000",
+          "pD": "-445733/25000000",
+          "pDC": "1191/6250000",
+          "pDD": "124983/62500",
+          "pDDC": "66/3125"
+        },
+        "label": "23",
+        "mask": "6",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "55519/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "55519",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "1377/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "1377",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "1377/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "1377",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "-445733/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "-445733",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "1191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "1191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "124983/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "124983",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      },
+      {
+        "jet": {
+          "p": "1639/3125000",
+          "pC": "-2277/50000000",
+          "pD": "-63767/25000000",
+          "pDC": "-4191/6250000",
+          "pDD": "-125783/62500",
+          "pDDC": "-66/3125"
+        },
+        "label": "123",
+        "mask": "7",
+        "signed_determinant_polynomial": [
+          {
+            "coefficient": "1639/3125000",
+            "coefficient_denominator": "3125000",
+            "coefficient_numerator": "1639",
+            "delta_degree": "0",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^0"
+          },
+          {
+            "coefficient": "-2277/50000000",
+            "coefficient_denominator": "50000000",
+            "coefficient_numerator": "-2277",
+            "delta_degree": "1",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^1"
+          },
+          {
+            "coefficient": "-2277/100000000",
+            "coefficient_denominator": "100000000",
+            "coefficient_numerator": "-2277",
+            "delta_degree": "2",
+            "epsilon_degree": "0",
+            "monomial": "epsilon^0*delta^2"
+          },
+          {
+            "coefficient": "-63767/25000000",
+            "coefficient_denominator": "25000000",
+            "coefficient_numerator": "-63767",
+            "delta_degree": "0",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^0"
+          },
+          {
+            "coefficient": "-4191/6250000",
+            "coefficient_denominator": "6250000",
+            "coefficient_numerator": "-4191",
+            "delta_degree": "1",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^1"
+          },
+          {
+            "coefficient": "-3861/12500000",
+            "coefficient_denominator": "12500000",
+            "coefficient_numerator": "-3861",
+            "delta_degree": "2",
+            "epsilon_degree": "1",
+            "monomial": "epsilon^1*delta^2"
+          },
+          {
+            "coefficient": "-125783/125000",
+            "coefficient_denominator": "125000",
+            "coefficient_numerator": "-125783",
+            "delta_degree": "0",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^0"
+          },
+          {
+            "coefficient": "-33/3125",
+            "coefficient_denominator": "3125",
+            "coefficient_numerator": "-33",
+            "delta_degree": "1",
+            "epsilon_degree": "2",
+            "monomial": "epsilon^2*delta^1"
+          }
+        ]
+      }
+    ],
+    "status": "done"
+  },
+  "run": {
+    "deadline_epoch_ns": "1788970145000000000",
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788970145",
+    "input_root": "<TASK_ROOT>/source",
+    "start_epoch_ns": "1788969545414117114",
+    "wall_seconds_requested": "600"
+  }
+}

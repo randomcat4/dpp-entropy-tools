@@ -1,0 +1,46 @@
+{
+  "checkpoint": "01_inputs_resolved",
+  "checkpoint_epoch_ns": "1788969545414869842",
+  "payload": {
+    "input_meta": {
+      "claim_issue_comment": "5604627611",
+      "construction_source": "literal rational matrices in this source, with input text used only for frozen target checks",
+      "forbidden_reference_not_imported_or_executed": true,
+      "forbidden_reference_path": "<TASK_ROOT>/source/inputs/continuation_exact_reference.py",
+      "inputs": "<TASK_ROOT>/source/inputs",
+      "prefix": "<TASK_ROOT>/source",
+      "request_issue_comment": "5604536353",
+      "source_binding": {
+        "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604627611",
+        "construction": "literal rational matrices and displayed definitions; author checker is not imported or executed",
+        "inputs": [
+          {
+            "blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282",
+            "source": "research/I05-22-R3-lambda-zero-global/continuation.md"
+          },
+          {
+            "blob": "615d360fa591e86ae115d37ee8519438fab1811c",
+            "source": "research/I05-22-R3-lambda-zero-global/continuation_exact.py"
+          }
+        ],
+        "publication_base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+        "resource_bound": {
+          "cpu_threads": 1,
+          "gpu": false,
+          "memory_gib": 16,
+          "processes": 1,
+          "total_wall_seconds": 600
+        },
+        "source_commit": "f869fd251c0d6fdad737b6d5efa287307795a87d"
+      }
+    },
+    "status": "done"
+  },
+  "run": {
+    "deadline_epoch_ns": "1788970145000000000",
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788970145",
+    "input_root": "<TASK_ROOT>/source",
+    "start_epoch_ns": "1788969545414117114",
+    "wall_seconds_requested": "600"
+  }
+}
