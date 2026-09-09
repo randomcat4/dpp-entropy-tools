@@ -1,6 +1,6 @@
-# Authoritative equilibrium bridge
+# Expanded equilibrium bridge and sign audit
 
-This note replaces the informal argument in `proof.md`, Section 5. It is the load-bearing identification of the DPP with the finite-first-moment interaction constructed there. No hereditary-uniqueness hypothesis and no spectral entropy formula are used.
+This note expands `proof.md`, Section 5. It gives the load-bearing identification of the DPP with the finite-first-moment interaction constructed there. No hereditary-uniqueness hypothesis and no spectral entropy formula are used.
 
 ## Setup
 
@@ -143,9 +143,9 @@ P(U_t)=0,
 \tag{B.6}
 \]
 
-For finite-first-moment one-dimensional interactions, the Dobrushin–Cassandro–Olivieri theorem supplies the unique Gibbs/equilibrium state and analytic dependence of pressure and local expectations. Thus the equilibrium branch selected by that theorem is exactly the DPP branch `\nu_t`.
+Dobrushin's general theorem for one-dimensional classical systems with finite-first-moment interactions supplies uniqueness and analytic dependence of pressure and local expectations. The equilibrium branch selected by that theorem is therefore exactly the DPP branch `\nu_t`.
 
-This proves the identification needed in `proof.md`, Sections 6–8. Fernández–Maillard's LIS-to-specification theorem is consistent with the construction—our variation is summable—but is not needed for (B.6).
+Cassandro–Olivieri's finite-first-moment decimation theorem is a useful independent mechanism check, but its concrete lattice-gas coordinates are not used here to represent arbitrary interval functions. Fernández–Maillard's LIS-to-specification construction is likewise consistent with the summable variation obtained above, but neither result is needed for (B.6).
 
 ## 4. Entropy as an analytic pressure derivative
 
@@ -155,7 +155,7 @@ The parity gauge proves that `U_t` is an even holomorphic interaction curve. Wri
 F(s,\lambda)=P(\lambda U_s).
 \]
 
-The finite-first-moment analyticity theorem makes `F` holomorphic near `(0,1)`. Pressure differentiation at the unique equilibrium state gives
+Dobrushin's finite-first-moment analyticity theorem makes `F` holomorphic near `(0,1)`. Pressure differentiation at the unique equilibrium state gives
 
 \[
 \partial_\lambda F(s,1)
