@@ -48,9 +48,10 @@ author output is relabeled as independent computation or a formal proof.
 C2 subsequently reported full-r MACHINE_PASS in
 [issue 52](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604494688).
 The complete PR64 packet is frozen at
-5b40617fe7172aa266614aa28688d310218cb387. C1's original PR60 FIRST will
-check the implementation and raw evidence against the original contract;
-this update does not accept a status summary as the certificate. The
+5b40617fe7172aa266614aa28688d310218cb387. C1's original PR60 FIRST has
+checked the implementation and raw evidence against the original contract
+and CLOSED the finite gate for Claims 1-3. See the separate mathematical
+machine-evidence report and source/evidence code review. The
 author source remains f869fd251c0d6fdad737b6d5efa287307795a87d. No C1
 arithmetic is launched and no prior C2 time window is reopened.
 

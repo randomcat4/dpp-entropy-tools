@@ -1,14 +1,15 @@
 # C1 independent first reviews: PR58, PR59 and PR60
 
-Status: all three fresh non-author FIRST reviews are complete. PR59 is
-ACCEPTED_SCOPED and READY for C3's independent second. PR58 and PR60 have
-accepted analytic subclaims but remain incomplete as whole packets pending
-independent finite evidence. PR58's original wording repair is closed at
-7d3dd405; its additive delta has one new norm-domain typo to fix.
+Status: all three fresh non-author FIRST reviews and their current
+follow-ups are complete. PR59 and PR60 Claims 1-3 are ACCEPTED_SCOPED and
+READY for C3's independent second. PR58's original analytic scope is also
+READY after its wording repair at 7d3dd405. Its additive delta has one new
+norm-domain typo; the two PR58 finite fixtures and PR60's separate radial
+obstruction remain pending independent exact evidence.
 
 - [PR58 original first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md): compensation, conditional interval criterion and conditional centering pass. The corridor and W/curvature signs need C2 reconstruction. The original wording issue is [closed](units/pr58/wording_review.md). The [additive delta review](units/pr58/delta_review_report.md) accepts projection/rank-four structure, requests the line 99 norm-domain fix, and retains a separate finite-example gate; [delta code review](units/pr58/delta_code_review.md) is static only.
 - [PR59 first report](units/pr59/review_report.md) and [static code review](units/pr59/code_review.md): compact tube, five-term Hessian, qualitative finite-state interface, beam-splitter obstruction and explicit family pass. Error constants and the transverse radius remain existential; no rate computation ran.
-- [PR60 first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md): no analytic source flaw found in the main chain, but its determinant/chart evidence is INCOMPLETE_PENDING_C2. Conditional entropy and the nonzero band inherit that gate. Perspective identities pass separately; the radial obstruction needs another exact check.
+- [PR60 original first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md) are preserved. The [machine-evidence follow-up](units/pr60/machine_review_report.md) and [machine source/evidence audit](units/pr60/machine_code_review.md) close Claims 1-3 against frozen C2 PR64 raw materials. Full Lambda-zero strictness, conditional entropy and the stated center-dependent nonzero band are READY. Perspective identities pass separately; the radial obstruction still needs its own exact check.
 
 | Unit | Frozen head | Full packet |
 |---|---|---|
@@ -38,8 +39,8 @@ Routine progress, findings and scoped READY handoffs use public PRs/issues.
 Follow-up checkpoint: PR58's three additions at a4f05cc9 are reviewed;
 the later two-sentence RESULT repair at 7d3dd405 is separately closed.
 All formulas, code, outputs and additive files are unchanged by that
-repair. C2's PR60 full-r machine packet is frozen in PR64 at 5b40617f
-and remains under original-FIRST evidence review. C3 reports that the
+repair. C2's PR60 full-r machine packet at 5b40617f has passed the
+original-FIRST source/evidence audit. C3 reports that the
 isolated PR59 SECOND and the original PR58 analytic SECOND have started.
 
 The source-snapshots aliases in exported reports denote the immutable

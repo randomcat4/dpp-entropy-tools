@@ -17,9 +17,9 @@
 | PR59 | Finite-state true-rate interface | CORRECT / ACCEPTED_SCOPED as qualitative exponential error; constants existential |
 | PR59 | Beam-splitter obstruction and explicit family | CORRECT / ACCEPTED_SCOPED |
 | PR59 | Both checkers, outputs and run record | CORRECT static consistency; no execution or theorem dependency |
-| PR60 | Domain, fixed physical direction, leaf exchange and analytic lift | Source-consistent; main conclusion conditional on C2 evidence |
-| PR60 | Determinant/chart coefficient positivity | INCOMPLETE_PENDING_C2; same-head full-r contract already claimed |
-| PR60 | Conditional entropy and quantified nonzero-Lambda band | Analytically sound conditional on main theorem; INCOMPLETE_PENDING_C2 |
+| PR60 | Domain, fixed physical direction, leaf exchange and analytic lift | CORRECT / ACCEPTED_SCOPED after C2 raw-evidence gate closure |
+| PR60 | Determinant/chart coefficient positivity | CLOSED: independent C2 PR64 at 5b40617f passes original-FIRST source/evidence audit |
+| PR60 | Conditional entropy and quantified nonzero-Lambda band | CORRECT / ACCEPTED_SCOPED; stated center-dependent band, no uniform global extension |
 | PR60 | One-sided perspective identities and scale reduction | CORRECT / ACCEPTED_SCOPED; remaining inequality open |
 | PR60 | Radial obstruction, true curvature and Jensen signs | INCOMPLETE pending separate exact event/interval reconstruction |
 | PR60 | Three scripts and certificate claims | CORRECT static consistency; no independent C1 arithmetic |

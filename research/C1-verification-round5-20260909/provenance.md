@@ -39,3 +39,11 @@ at a4f05cc9 and C2's newly frozen PR64 machine packet at 5b40617f. Original
 reports remain historical; follow-up dispositions require their own
 source bindings. C3 reported that PR59 SECOND has independently started.
 No first-review conclusions or reports were supplied by C1 to that second.
+
+Both bounded follow-ups are now complete. PR58's original wording repair
+is closed and its additive delta has separately recorded analytic, typo,
+static-code and pending finite-witness dispositions. PR60's raw machine
+evidence closes Claims 1-3. The original reports remain unchanged.
+Metadata checks establish source and execution provenance; the mathematical
+acceptance relies on the separately reported source/evidence audit of the
+independent C2 construction. It is not inferred from hashes or PASS text.

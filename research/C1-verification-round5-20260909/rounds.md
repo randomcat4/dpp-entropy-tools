@@ -55,3 +55,19 @@ remain unchanged. The original FIRST separately accepts both repairs.
 Old line 94 literally said strictly weaker; old line 142 had distinct
 unlike W>=0 wording. The closure report clarifies the original report's
 grouped description without rewriting the original historical report.
+## PR60 machine-evidence FIRST closure
+
+The original PR60 FIRST has completed the source/evidence audit of C2
+PR64 at 5b40617f, bound to author f869fd25 and successful executable
+ee333720. All 52 packet blobs match the frozen binding. The six copied
+author inputs and accepted-main STRUCTURE match their original blobs;
+the implementation, inputs and guard did not change after the successful
+run. The retained run01 indexing failure is separately assessed and is
+not used for the successful determinant/P/Q conclusion.
+
+Actual raw matrix, determinant/P, full Q box, layer, seed, symmetry,
+scaling and execution artifacts were read alongside the independent
+implementation. Claims 1-3 are now CORRECT / ACCEPTED_SCOPED and READY
+for C3 SECOND. Claim 4 retains the separate radial exact gate; Claim 5
+stays accepted and the remaining general Claim 6 remains open. No C1
+arithmetic, coefficient diagnostic or formal check was run.

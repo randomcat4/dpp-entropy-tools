@@ -1,15 +1,16 @@
 # Status
 
-All three fresh independent FIRST reviews are complete. This completes
-C1's source/static-code audit; it does not close missing independent
-machine evidence or certify all author claims.
+All three fresh independent FIRST reviews and their current bounded
+follow-ups are complete. PR60 Claims 1-3 now close against audited C2
+raw evidence; PR58 finite fixtures and PR60's radial obstruction retain
+their distinct computation gates.
 
 | Unit | Mathematical FIRST | Static code | Independent computation | Readiness for C3 SECOND |
 |---|---|---|---|---|
 | PR58 original analytic packet, repaired at 7d3dd405 | Analytic compensation/conditional criteria/centering ACCEPTED_SCOPED; original wording finding CLOSED | CORRECT at static level | Corridor and W/curvature certificates pending C2's separately claimed reconstruction | Original analytic scope READY; no whole-packet finite acceptance |
 | PR58 additive delta at a4f05cc9, unchanged by 7d3dd405 | Joint-additive projection/rank-four structure ACCEPTED_SCOPED; normal-equation norm-domain typo NEEDS_FIX | CORRECT at static level | New s=9/10 finite witness pending a distinct C2 unit | No whole-delta READY; line 99 domain must be fixed and finite scope separately gated |
 | PR59 at 892a121a | CORRECT / ACCEPTED_SCOPED for all scoped analytic claims | CORRECT; both author outputs inspected, not executed | No finite computation is load-bearing for the accepted analytic theorem | READY for C3 independent second at the exact frozen head |
-| PR60 at f869fd25 | Main theorem and conditional/nonzero-band consequences INCOMPLETE_PENDING_C2; perspective identities ACCEPTED_SCOPED | CORRECT at static level | C2 full-r contract claimed; radial obstruction needs a separate exact unit | Main theorem not READY until C2 evidence closes; perspective unit may be separately frozen by C3 |
+| PR60 at f869fd25 with C2 PR64 evidence at 5b40617f | Claims 1-3 CORRECT / ACCEPTED_SCOPED: full Lambda-zero strictness, conditional entropy and stated center-dependent nonzero band; perspective identities accepted separately | CORRECT; original author static review and C2 source/evidence audit separate | Full-r independent certificate gate CLOSED; Claim 4 radial obstruction remains a separate exact unit | Claims 1-3 READY for C3 independent SECOND; no radial-obstruction acceptance inherited |
 
 ## Findings and precise limits
 
@@ -33,22 +34,24 @@ arithmetic. The compact tube's transverse radius is also existential; the
 theorem does not cover arbitrary distant centers or endpoints. The two
 checkers are not DPP rate computations.
 
-PR60's determinant identity and all-r coefficient array are load-bearing.
-No analytic source flaw was found in the domain, fixed-direction, symmetry,
-inertia/integration or conditional-band deductions, but author output
-cannot replace independent reconstruction. The radial auxiliary obstruction
-needs an additional exact event-jet/log/Jensen check. No entropy
-counterexample was discovered or certified by this review.
+PR60's load-bearing determinant identity and all-r coefficient array are
+now supported by C2's independently constructed raw packet at 5b40617f,
+audited by the original FIRST. The source/run binding, matrix bridges,
+two determinants, fresh P before author comparison, two Q transforms,
+full coefficient box, seed, leaf symmetry and scaling are covered.
+The main analytic lift and its conditional/band consequences therefore
+pass. The radial auxiliary obstruction still needs its separate exact
+event-jet/log/Jensen check. No entropy counterexample is certified.
 
 Missing computation is an evidence-status gap, not a proof of falsity.
 Full per-claim dispositions are in the mathematical and code reports;
 precise C2 contracts are in computation_handoff.md. Novelty and formal
 proof are unassessed.
 
-The original source FIRSTs, PR58 additive delta and PR58 wording-repair
-review are complete. PR60's raw C2 machine-evidence closure at PR64 head
-5b40617f remains assigned to its original reviewer. Follow-up dispositions
-are separately source-bound and preserve the original reports.
+The original source FIRSTs, PR58 additive delta/wording closure and PR60
+raw C2 evidence closure are complete. Follow-up dispositions are separately
+source-bound and preserve the original reports. Any later finite packet
+or one-line repair requires a bounded original-reviewer follow-up.
 No C1 arithmetic or formal job is running. No descendant, second review,
 author edit or main merge was performed.
 C3 owns independent-second scope coordination and sole main integration.
