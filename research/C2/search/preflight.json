@@ -1,0 +1,16 @@
+{
+  "exact_probability_calibration": true,
+  "exact_normalization": true,
+  "independent_jet_errors": [
+    4.0245584642661925e-16,
+    2.914335439641036e-16,
+    4.996003610813204e-16
+  ],
+  "fd1_error": 1.5847429410409397e-09,
+  "fd2_error": 6.241874173085193e-08,
+  "normalization_jet": [
+    2.220446049250313e-16,
+    1.249000902703301e-16,
+    1.6653345369377348e-16
+  ]
+}
