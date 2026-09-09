@@ -95,3 +95,14 @@ direct spectral-gap citation, and Section 7's s-linear/t-squared heading.
 The original theorem source remains untouched; the first verdict binds
 only abdd660a. No computation or new Lean proof ran. C3 may now start
 its reserved fresh second of this unit.
+
+At publication, PR53's remote head was
+`73cdbd09ad9aa975354a116a01f1e0f4955a8c27`. The exact ten-commit
+comparison from abdd660a contains seven added/modified files and does not
+change finite_range_local_theorem.md. The new exponential_wiener_extension.md
+entered at `371ca773ec8a942b9df2e01d000d5bba71a551bb` and is 268 lines.
+The other additions are code/check_rudin_shapiro_example.py (80 lines),
+output/rudin_shapiro_exact.json (64 lines), RESULT.md (54 lines), and
+verification.md (136 lines), plus modifications to README.md and sources.md.
+This is substantive new scope, not an automatic extension of the FR verdict.
+No C1 reviewer was assigned to it and no added checker was run by C1.

@@ -6,6 +6,7 @@
 |---|---|---|---|
 | PR53, original five-file packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED | READY after C3 second, per C3; no C1 second |
 | PR53 new Theorem FR, separate 473-line file | abdd660a6c7761c7a8a53cb8671b4d2543530a5c | COMPLETE: CORRECT / ACCEPTED_SCOPED | READY FOR C3 fresh second; no C1 second |
+| PR53 later exponential-Wiener extension and added checker/reporting files | 73cdbd09ad9aa975354a116a01f1e0f4955a8c27 | UNREVIEWED by C1; outside assigned FR unit | No review claimed here |
 | PR54, original three-file packet | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: core results ACCEPTED_SCOPED; original Section 5 findings retained in historical report | Reserved to C3 after repair closure |
 | PR54 Section 5 three-request repair | a1e7f7208262565bb3db0509ff0cccffab757e98, parent c8486bcdb18a85f93dd27930686cc1d4146804f5 | CLOSED / ACCEPTED_SCOPED by original first reviewer | READY FOR C3 fresh original-unit second |
 
@@ -49,6 +50,14 @@ O(1) chain-rule boundary error and analytic quartic conversion. It recommends
 three non-blocking exposition improvements: write the exponent `0<b<a` and
 interpolation step, cite the precise RPF source, and rename the Section 7
 heading to the vanishing s-linear / t-squared term.
+
+At handoff, PR53 had advanced to 73cdbd09. Its exact comparison against
+abdd660a leaves finite_range_local_theorem.md unchanged, so the reviewed
+FR source object is still the same. The later commits add a distinct
+268-line exponential_wiener_extension.md, an exact example checker/output,
+RESULT.md and verification.md, and modify README.md and sources.md. Those
+seven changed/added files are outside this FR first verdict; in particular,
+the exponentially weighted infinite-range extension is not accepted here.
 
 ## Remaining limits
 
