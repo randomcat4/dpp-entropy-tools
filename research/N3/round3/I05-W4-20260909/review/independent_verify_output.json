@@ -1,0 +1,113 @@
+{
+  "environment": {
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "exact_constants": {
+    "C_P": "81408/15625",
+    "C_Q": "63488/15625",
+    "c_S": "3643291/4992000",
+    "c_S_minus_7_10": "148891/4992000",
+    "c_U": "25029/13312",
+    "c_U_minus_7_10": "78553/66560",
+    "c_V": "439/624",
+    "c_V_minus_7_10": "11/3120"
+  },
+  "numerical_stress": {
+    "commutator_12": -0.2875,
+    "deterministic_centers": 36,
+    "directions_per_center": "entire 6x6 quadratic form via polarization",
+    "extreme_high_precision": {
+      "cases": [
+        {
+          "e": [
+            "0.25",
+            "-0.25",
+            "0.25"
+          ],
+          "min_curvature_eigenvalue": 0.36060964757139913,
+          "min_normalized_gap_eigenvalue": 0.3,
+          "x": [
+            "1e-30",
+            "0.333333333333333333333333333333",
+            "0.999999999999999999999999999999"
+          ]
+        },
+        {
+          "e": [
+            "-0.25",
+            "0.125",
+            "0.25"
+          ],
+          "min_curvature_eigenvalue": 0.09498877742834183,
+          "min_normalized_gap_eigenvalue": 0.3,
+          "x": [
+            "1e-24",
+            "2e-24",
+            "3e-24"
+          ]
+        },
+        {
+          "e": [
+            "0.003",
+            "0",
+            "0.173"
+          ],
+          "min_curvature_eigenvalue": 3.332087897898209e-30,
+          "min_normalized_gap_eigenvalue": 0.3,
+          "x": [
+            "0.999999999999999999999999",
+            "0.999999999999999999999998",
+            "0.999999999999999999999997"
+          ]
+        },
+        {
+          "e": [
+            "0",
+            "0.25",
+            "-0.25"
+          ],
+          "min_curvature_eigenvalue": 0.005860329295653226,
+          "min_normalized_gap_eigenvalue": 0.3,
+          "x": [
+            "1e-20",
+            "0.99999999999999999999",
+            "0.5"
+          ]
+        }
+      ],
+      "decimal_precision": 110
+    },
+    "high_precision_fallbacks": 159,
+    "min_complement_eigenvalue": 9.514327536805154e-06,
+    "min_kernel_eigenvalue": 9.499138235685265e-06,
+    "min_normalized_gap_eigenvalue": -2.601592420810561e-82,
+    "min_unweighted_curvature_eigenvalue": -2.6015268637063284e-82,
+    "random_centers": 3000,
+    "seed": 20260909,
+    "total_centers": 3036,
+    "worst_e": [
+      0.0,
+      -0.11010510701714504,
+      0.0
+    ],
+    "worst_x": [
+      0.9999890755566743,
+      0.999988345890337,
+      0.7643497127688261
+    ]
+  },
+  "scope": "fresh symbolic reconstruction plus numerical all-direction stress test; not a novelty review and numerical sampling is not a proof",
+  "status": "PASS",
+  "symbolic": {
+    "acceleration_state_equalities": 8,
+    "density_state_equalities": 8,
+    "event_mass_checks": 3,
+    "principal_minor_identity": "T^2-4uvw == 0 with two affine derivatives",
+    "rayleigh_square": "(e12 - e13*e23*sk)**2",
+    "score_state_equalities": 8
+  }
+}
