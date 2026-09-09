@@ -1,19 +1,29 @@
-# PR58 joint-additive fixed witness
+# PR58 joint-additive fixed witness: literal-bound discrepancy
 
-READY FOR FIRST EXECUTION. Separate independent machine unit for section3 of PR58 numerical
-source a4f05cc962985015b71635bf633acce9dfe76866 at s=9/10.
+The independent run stopped at the first exact discrepancy: the strict upper
+bound on T in equation(3.5) is false at its printed decimal endpoint. The
+qualitative separation survives the raw interval checks, but the original
+literal certificate does not receive MACHINE_PASS.
 
-[The public request](inputs/REQUEST.md), [frozen contract](frozen_contract.md),
-and [source binding](inputs/SOURCE_BINDING.json) fix all literal matrices,
-the64-event law and dual table. Author code/output are retained as references;
-the checker is never imported or executed. The independent implementation
-will verify the literal strict decimal bounds with rational outward intervals.
+[Status](STATUS.md), [machine notes](machine_notes.md), and the
+[run ledger](execution/RUN_LEDGER.json) describe the result and provenance.
+The [first mismatch](outputs/run01/final.json),
+[complete scalar intervals](outputs/run01/07_scalar_enclosures_N80.json),
+[ordered comparisons](outputs/run01/08_comparisons_N80.json), and
+[all64events](outputs/run01/04_events.json) retain exact numerator/denominator
+strings and outward decimals. Inputs and independent source were frozen before
+launch; no author checker was read, imported or executed.
 
-The new bound is600seconds total wall clock from first launch, one arithmetic
-process/CPU/thread,16GiB,noGPU, including repairs. C2 executes serially after
-the original PR58 corridor unit. No arithmetic has started here.
+A [post-launch correction](execution/CONTRACT_CORRECTION.md) fixes C3's request:
+run01's W means V=E_mu[y psi]=s^2 W_author. The failed T upper bound does not
+depend on this naming error. The author W decimal comparison is unverified;
+the request-caused scale mismatch is not an author discrepancy.
 
-A first exact mismatch is preserved and stops this unit. Qualitative signs
-do not excuse a failed strict decimal endpoint. C1 finite-witness FIRST and
-C3's second gate remain separate. This is not an entropy-concavity counterexample,
-original corridor expansion, issue63 whole-chord scan, novelty, or Lean work.
+Run01 ended with exit20 at16:22:48UTC, before its unchanged16:31:24UTC deadline.
+All arithmetic stopped, with no repair, retry, overlap or expansion. C1/C3 own
+the source repair and subsequent review decision. This finite machine packet
+is not an entropy-concavity counterexample or a whole-chord result.
+
+The [original frozen request](inputs/REQUEST.md),
+[post-launch request correction](inputs/REQUEST_CORRECTION.md), and
+[source binding](inputs/SOURCE_BINDING.json) preserve the contract history.

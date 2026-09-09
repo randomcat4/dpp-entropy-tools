@@ -1,0 +1,62 @@
+{
+  "status": "STOPPED_FIRST_EXACT_MISMATCH",
+  "raw_status": "LITERAL_BOUND_CERTIFIED_FALSE",
+  "author_source_commit": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "checker_source_public_commit": "bbc9bc19b915ebad0ea8e8bea00580d4eebc5246",
+  "checker_source_local_commit": "de8bb9ff35c9b7854ef4fdb948546095647b1e6c",
+  "checker_path": "implementation/independent_pr58_additive52_checker.py",
+  "argv": [
+    "--input-root",
+    "<TASK_ROOT>/source",
+    "--out",
+    "<TASK_ROOT>/runs/run01",
+    "--wall-seconds",
+    "600"
+  ],
+  "runtime": "Existing isolated Python3.12.3 standard-library Fraction, no package changes",
+  "first_start_utc": "2026-09-09T16:21:24Z",
+  "absolute_deadline_utc": "2026-09-09T16:31:24Z",
+  "finished_utc": "2026-09-09T16:22:48Z",
+  "duration_note": "84seconds between guard UTC markers at1second resolution",
+  "run_count": 1,
+  "literal_discrepancy_run_count": 1,
+  "infrastructure_failure_count": 0,
+  "repair_count": 0,
+  "retry_count": 0,
+  "arithmetic_pid": 174687,
+  "timeout_pid": 174685,
+  "wrapper_pid": 174671,
+  "exit_code": 20,
+  "pid_absent_confirmed_utc": "2026-09-09T16:24:10Z",
+  "no_live_arithmetic": true,
+  "first_mismatch": {
+    "scalar": "T",
+    "status": "CERTIFIED_FALSE_DISJOINT",
+    "claimed_upper": "166.44125195305153",
+    "equation": "3.5",
+    "outward_upper": "166.441251953051540106785813",
+    "unaffected_by_W_V_correction": true,
+    "outward_lower": "166.441251953051540106785812"
+  },
+  "contract_correction": {
+    "correction_applied_to_arithmetic": false,
+    "comment_url": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5605146225",
+    "published_utc": "2026-09-09T16:22:08Z",
+    "reason": "Stopped at first unaffected literal mismatch(3.5); no further arithmetic",
+    "run01_W_means": "V=E_mu[y psi]=s^2 W_author",
+    "arrived_after_launch": true,
+    "author_equation_3_6_correctly_certified": false
+  },
+  "bound": {
+    "total_wall_seconds": 600,
+    "processes": 1,
+    "memory_gib": 16,
+    "gpu": false,
+    "cpu_threads": 1
+  },
+  "valid_json_packets_at_collection": 11,
+  "precision_passes": [
+    80
+  ],
+  "metadata_redaction": "Private task paths generalized to <TASK_ROOT>; exact mathematical fractions unchanged"
+}
