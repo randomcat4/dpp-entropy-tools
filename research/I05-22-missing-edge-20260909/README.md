@@ -18,11 +18,9 @@ has `H''(K;D)<0` for every nonzero real symmetric three-point direction D. The e
 
 ## Complete code/input/output packet and access boundary
 
-[Actually uploaded full reproduction ZIP](https://drive.google.com/file/d/16qxPPMZvLfJgZcAvyJIVrNsv8uTN7d6v/view?usp=drivesdk).
+The author's separately delivered reproduction packet is private and is not part of this public repository. Its storage locator and account metadata are omitted from public-main packaging; no private file was retrieved and no sharing permission was changed.
 
-The Drive upload was followed by metadata readback: file ID `16qxPPMZvLfJgZcAvyJIVrNsv8uTN7d6v`, MIME application/zip, 37522 bytes, shared=false. No sharing permission was changed. This link is private to the connected account, not asserted to be public. A downloadable local copy accompanies the user-facing task result.
-
-This fallback was used after the GitHub Python-file creation was blocked by a tool safety-state check. The blocked code write was not retried through another GitHub endpoint. The mathematical proof text is committed on this research branch, not main.
+The author's GitHub Python-file creation was blocked by its tool safety-state check and was not retried through another endpoint. Public mathematical source is sufficient for independent review; [the independent review packet](../../docs/verification_round3_20260909/pr51/README.md) supplies a separately written public checker. The packet inventory, commands and author outputs below remain author-provided reproduction information, not independent certification of private archive contents.
 
 The ZIP contains 22 files: full proof and continuation, source/route record, two exact mathematical verifiers, a JSON-transport verifier, their actual outputs, dependency files, the exact rational matrix input, and clearly labeled bounded exploratory source. No pickle or executable serialized object is included.
 

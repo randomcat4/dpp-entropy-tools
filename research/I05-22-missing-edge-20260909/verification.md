@@ -6,11 +6,11 @@ Status: author-side exact algebra and rational interval computation completed. *
 
 - `proof_half_filled.md`: exact quantified theorem and complete proof.
 - `sources_and_routes.md`: repository freeze, primary literature, load-bearing identity audit, failed routes and remaining gap.
-- Python verifier: [actual uploaded Drive file](https://drive.google.com/file/d/1Me4juAQJSyA3PZvYwzHm05iBfdr2-Vo1/view?usp=drivesdk).
+- Author Python verifier: separately delivered private artifact, not a public repository file. [Independent public reviews and checker](../../docs/verification_round3_20260909/pr51/README.md) were produced from the mathematical text.
 
-The attempted GitHub creation of `verify_exact.py` was blocked with: “OpenAI could not determine the request's safety state.” The code was **not** pushed using a different GitHub API as a workaround. Following the user's explicit fallback instruction, `I05-22_verify_exact.py` was actually uploaded to the connected Drive account. Read-back confirmed file ID `1Me4juAQJSyA3PZvYwzHm05iBfdr2-Vo1`, MIME `text/x-python`, size 5996 bytes, and `shared=false`. No permissions were changed. Reviewers without access to that account will need the task's local artifact package; this private Drive link is not claimed to be publicly accessible.
+The author's GitHub code write was blocked by its tool safety-state check and was not bypassed. The private verifier's storage locator and account metadata are omitted from public-main packaging. No private file was retrieved or uploaded here, and no access permission was changed. The following commands and output describe the author's private reproduction artifact, not an independently rerun author script.
 
-Save the uploaded file as `verify_exact.py`. Requirements: Python >=3.10 and `sympy==1.14.0`. Run without Python's `-O` option:
+For users who already have the private artifact, save it as `verify_exact.py`. Requirements: Python >=3.10 and `sympy==1.14.0`. Run without Python's `-O` option:
 
 ```sh
 python -m pip install sympy==1.14.0
