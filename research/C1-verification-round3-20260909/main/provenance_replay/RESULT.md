@@ -20,3 +20,11 @@ High-precision curvature values are diagnostics and do not prove universal
 concavity. The fixture's KL compression is supported analytically by exact
 likelihood constancy on each fiber; a floating equality check alone would not
 be an exact logarithmic identity certificate.
+
+The same directory also contains a guarded replay of the original channel
+short-check script. It completed with wrapper PID 172291, arithmetic PID
+172295 and observed exit 0; see `channels_execution.txt` and
+`channels_stdout.txt`. Use `bash run_channels.sh` to reproduce that fixed
+four-state/structural check. The first run's absent PID and unenforced planned
+guards remain documented in the channel unit's historical execution record.
+No full 256-event run or LP was repeated.

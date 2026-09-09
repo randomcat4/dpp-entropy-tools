@@ -6,12 +6,16 @@ and [claim ledger](lemma_ledger.md). Unit reports keep distinct conclusions.
 - PR41 [first review](units/pr41/review_report.md) and
   [fresh second review](units/pr41_second/review_report.md): READY within scope.
 - [PR43 channel/extension first review](units/pr43_channels/verification_report.md):
-  D/I–N accepted, fresh second review running.
+  D/I–N accepted, confirmed by the [fresh second review](units/pr43_channels_second/review_report.md).
 - [PR43 rank-two first review, corrected report](units/pr43_rank2/review_report_v2.md):
   E–H concavity/identities accepted, H's correlation descriptor needs η≠0.
+- [PR43 rank-two fresh second review](units/pr43_rank2_second/review_report.md):
+  confirms the same scope and descriptor correction.
 - [Fixed-check process-record repair](main/provenance_replay/RESULT.md):
   same script/input passed with observed PID and exit; original failed metadata retained.
 - [Formal feasibility](formal/README.md): environment probe only, no new formal proof.
+- [Final result and handoff](RESULT.md).
+- [C2 public evidence alignment](main/c2_evidence_read.md).
 - [External dependencies](prior_art.md): no novelty certification.
 - [Known handoff hazards](hazards.md).
 

@@ -23,3 +23,12 @@ failure or timeout. Do not retry again automatically. This is C1's own root
 
 Publication uses this portable mathematical script and a portable runner.
 Private launch details remain outside the review packet.
+
+## Second fixed record repair: four-state channel check
+
+The original channel runner directly recorded exit 0, but omitted PID and
+did not enforce its planned thread/memory/time guards. Replay its identical
+short_exact_checks.py once with the same guard and metadata scheme, writing
+separate channels_execution/stdout/stderr files. Its inputs are the same
+two four-state obstructions and low-cost 3+5 structural facts. No 256-event
+enumeration, author verifier or LP is run. Stop after this one guarded run.
