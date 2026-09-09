@@ -106,3 +106,11 @@ output/rudin_shapiro_exact.json (64 lines), RESULT.md (54 lines), and
 verification.md (136 lines), plus modifications to README.md and sources.md.
 This is substantive new scope, not an automatic extension of the FR verdict.
 No C1 reviewer was assigned to it and no added checker was run by C1.
+
+C3 subsequently assigned C1 the bounded EW FIRST at exactly 73cdbd09,
+including all seven changed/added files. C1 reused the eligible original
+PR53 non-author first context with a separate EW output directory. No FR
+first report or C3 second artifact was supplied as proof. The seven immutable
+head blobs were downloaded and individually hash-verified. C3 retains EW's
+fresh second after first pass and has separately started the FR second.
+No source change or computation is implied by this new freeze.

@@ -1,0 +1,59 @@
+{
+  "unchanged_FR_blob": "c65a4e22ed6ee5c69d1b084cfd04d8e77e8d6263",
+  "origin": "public immutable GitHub commit",
+  "scope": "EW first review and all seven companion changes; no repeat FR first",
+  "base": "abdd660a6c7761c7a8a53cb8671b4d2543530a5c",
+  "files": [
+    {
+      "path": "research/I05-DPP-21-20260909/README.md",
+      "deletions": 27,
+      "additions": 69,
+      "blob": "e37316a3ebbf6567da270dd45f0283ed7f78e79b",
+      "status": "modified"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/RESULT.md",
+      "deletions": 0,
+      "additions": 54,
+      "blob": "57d2b50386295a9a522bdddeb52887e5affae07b",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/code/check_rudin_shapiro_example.py",
+      "deletions": 0,
+      "additions": 80,
+      "blob": "0ebe92fb2ff75999326e6f57e4dbe2239bd19b2e",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "deletions": 0,
+      "additions": 268,
+      "blob": "3cab8005f6e018b3d02d4e4459b41ca6ba5fc9d6",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/output/rudin_shapiro_exact.json",
+      "deletions": 0,
+      "additions": 64,
+      "blob": "4054bc14b0cd4550bc8b6fa88127eb54cd00e138",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/sources.md",
+      "deletions": 12,
+      "additions": 32,
+      "blob": "5677092d6e94517a2e741074e313a92ee9e4be52",
+      "status": "modified"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/verification.md",
+      "deletions": 0,
+      "additions": 136,
+      "blob": "bdb4a3904f06a05905136e64519da1981ff871cf",
+      "status": "added"
+    }
+  ],
+  "pr": 53,
+  "commit": "73cdbd09ad9aa975354a116a01f1e0f4955a8c27"
+}

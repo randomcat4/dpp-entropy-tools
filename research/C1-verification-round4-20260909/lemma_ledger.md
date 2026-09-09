@@ -7,7 +7,7 @@
 | PR53 §4 | Uniform inverse and explicit banded inverse decay | CORRECT / ACCEPTED_SCOPED |
 | PR53 §5 | Balanced beam-splitter reduction | CORRECT / ACCEPTED_SCOPED; occupation inequality unproved |
 | PR53 new Theorem FR | Finite-range Hölder/RPF analyticity and local quartic strict entropy-rate concavity | CORRECT / ACCEPTED_SCOPED at abdd660a; independent FIRST complete, C3 second pending |
-| PR53 later exponential-Wiener extension | Infinite Fourier range with exponential weight, separate fixture and reporting increments | UNREVIEWED by C1; FR file itself unchanged through 73cdbd09 |
+| PR53 exponential-Wiener extension | Infinite Fourier range with exponential weight, separate fixture and reporting increments | Separate FIRST RUNNING at 73cdbd09; FR file unchanged and C3 second separate |
 | PR54 §1 | Explicit rank-two local strict curvature | CORRECT / ACCEPTED_SCOPED |
 | PR54 fixture | Exact rational 3+3 consistency fixture | ACCEPTED_SCOPED as fixture; not rerun |
 | PR54 §2 | SCP moment bound, matching deficit, stationary two-layer rate bound | CORRECT / ACCEPTED_SCOPED |

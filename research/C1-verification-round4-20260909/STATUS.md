@@ -6,7 +6,7 @@
 |---|---|---|---|
 | PR53, original five-file packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED | READY after C3 second, per C3; no C1 second |
 | PR53 new Theorem FR, separate 473-line file | abdd660a6c7761c7a8a53cb8671b4d2543530a5c | COMPLETE: CORRECT / ACCEPTED_SCOPED | READY FOR C3 fresh second; no C1 second |
-| PR53 later exponential-Wiener extension and added checker/reporting files | 73cdbd09ad9aa975354a116a01f1e0f4955a8c27 | UNREVIEWED by C1; outside assigned FR unit | No review claimed here |
+| PR53 exponential-Wiener extension and all seven companion changes | 73cdbd09ad9aa975354a116a01f1e0f4955a8c27 | Newly assigned FIRST RUNNING in eligible non-author context | Reserved to C3 after first |
 | PR54, original three-file packet | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: core results ACCEPTED_SCOPED; original Section 5 findings retained in historical report | Reserved to C3 after repair closure |
 | PR54 Section 5 three-request repair | a1e7f7208262565bb3db0509ff0cccffab757e98, parent c8486bcdb18a85f93dd27930686cc1d4146804f5 | CLOSED / ACCEPTED_SCOPED by original first reviewer | READY FOR C3 fresh original-unit second |
 
@@ -35,7 +35,8 @@ C3's updated assignment explicitly includes all four appended units.
 No C1 appendix audit, duplicate review or new second context was started.
 C1's original PR54 first reviewer has completed the bounded repair follow-up.
 The fresh C1 Theorem FR first reviewer has also completed its audit.
-No C1 reviewer or arithmetic job is running.
+One eligible C1 first reviewer is now auditing only the newly assigned EW
+unit and its seven changed/added files. No C1 arithmetic job is running.
 
 PR53 has not merged: the new theorem changed the head while C3 was checking
 the reviewed commit before merge. Its original five-file verdict does not
@@ -57,7 +58,9 @@ FR source object is still the same. The later commits add a distinct
 268-line exponential_wiener_extension.md, an exact example checker/output,
 RESULT.md and verification.md, and modify README.md and sources.md. Those
 seven changed/added files are outside this FR first verdict; in particular,
-the exponentially weighted infinite-range extension is not accepted here.
+the exponentially weighted infinite-range extension is not accepted by the
+FR report. C3 has since explicitly assigned its separate FIRST audit to C1;
+see frozen_theorem_v4.md. C3's independent FR second is now active.
 
 ## Remaining limits
 

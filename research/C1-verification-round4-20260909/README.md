@@ -1,7 +1,8 @@
 # C1 first reviews: PR53 and PR54
 
-Status: original FIRST reviews, PR54 repair closure, and new PR53 Theorem FR
-FIRST review COMPLETE. Theorem FR is ready for C3's fresh second.
+Status: original FIRST reviews, PR54 repair closure, and Theorem FR FIRST
+complete. C3's FR second is active; the separate EW FIRST is now RUNNING
+under frozen_theorem_v4.md with all seven companion changes.
 This successor packet does not amend merged PR49.
 
 The [Theorem FR first report](units/pr53_fr/review_report.md) independently
