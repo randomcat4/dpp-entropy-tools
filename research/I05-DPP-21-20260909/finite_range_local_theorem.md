@@ -273,7 +273,7 @@ It follows that `q_{r,z}` converges uniformly to a limit `q_z` on the one-sided 
 |q_z(x)-q_z(y)|<=2A exp(-ar).                          (5.9)
 ```
 
-Thus `q_z` is Hölder. Cauchy's formula on a slightly larger disk applies also to the difference in (5.8), so the convergence holds in a Hölder norm and
+Fix `0<b<min(a,1)` and use the norm `||F||_b=||F||_infinity+sup_{m>=0} exp(bm) var_m(F)` on the one-sided tail space, where `var_m` compares tails agreeing in their first `m` symbols. Applying (5.8) also at shorter truncations gives a uniform stronger `a`-variation bound for `q_{r,z}` and `q_z`. Together with the sup-norm error in (5.8), this yields `||q_{r,z}-q_z||_b<=C exp(-(a-b)r)` on each smaller disk. The finite-cylinder maps are holomorphic in this fixed space; Cauchy's formula on disks `|z|<=r_1<r_2<r_0` gives convergence there also for parameter derivatives. Therefore
 
 ```text
 z -> q_z                                                    (5.10)
@@ -304,7 +304,7 @@ with `s -> G_s` holomorphic near `0` in a Hölder space.
 
 ## 6. Transfer operator and an analytic true entropy rate
 
-We use the following standard Ruelle-Perron-Frobenius fact for the mixing full shift on the finite alphabet `{0,1}`.
+We use the following standard Ruelle-Perron-Frobenius fact for the mixing full shift on the finite alphabet `{0,1}`, in the fixed Hölder space chosen above. The simple eigenvalue and spectral gap follow, for example, from Cioletti-Silva, Theorem 2.1, as recorded in `sources.md`. Their integral operator with the uniform prior on `{0,1}` and potential `log(2G_s)` is exactly the sum operator (6.1). We use their Hölder theorem, not a spectral-gap assertion for the full Walters class.
 
 > A strictly positive normalized Hölder `g`-function has a unique `g`-measure. Its transfer operator on a Hölder space has the simple isolated eigenvalue `1` and a spectral gap. For a Banach-holomorphic family of such functions, the normalized eigenmeasure is holomorphic as a functional on Hölder observables.
 
@@ -340,7 +340,7 @@ R(t)=nu_s(log(G_s/G_0)),       s=t^2.                 (6.4)
 
 Both sides are analytic near zero. This is a volume-uniform derivation of the rate formula; it does not differentiate a sequence `H_n/n`.
 
-## 7. The quadratic term in `s` vanishes
+## 7. The linear term in `s` vanishes
 
 Write the right side of (6.4) as `mathcal R(s)`. Since `G_0/G_0=1`,
 

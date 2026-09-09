@@ -32,7 +32,7 @@ The bibliography is separated from mathematical acceptance. A cited paper is not
 
 7. Leandro Cioletti and Eduardo A. Silva, **Spectral Properties of the Ruelle Operator on the Walters Class over Compact Spaces**, Nonlinearity 29 (2016), 2253–2278, arXiv:1511.01579.
 
-   Consulted for analytic dependence of the Ruelle operator on Hölder/Walters spaces and the spectral-gap framework. The only perturbative step used in the proof is also supplied directly: a contour Riesz projection around the simple isolated eigenvalue gives the holomorphic normalized eigenmeasure.
+   Theorem 2.1 supplies the simple maximal eigenvalue and spectral gap for Hölder potentials with exponent in `(0,1)`; Lemma 2.4, Proposition 2.6 and Corollary 2.7 give the operator/dual analyticity framework. With the uniform prior on `{0,1}` and potential `log(2G_s)`, its integral operator equals the normalized sum operator used here. The proof uses this Hölder result, not a gap for the general Walters class. A contour Riesz projection around the simple isolated eigenvalue directly gives the holomorphic normalized eigenmeasure.
 
 The entropy and relative-entropy rate formulas are not imported as a black box. They follow from the finite right-to-left chain rules plus the exponentially summable, configuration-uniform conditional error proved in the branch.
 

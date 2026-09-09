@@ -206,7 +206,7 @@ where
 S_F=M_F-E_FN M_N^{-1}E_NF.                           (4.3)
 ```
 
-The inverse `S_F^{-1}` is the `FF` block of `M_R^{-1}` plus the equivalent standard block correction, so (3.4) bounds it in the same weighted localization calculus. More directly, either Schur formula expresses every factor in (4.2) through blocks of matrices covered by (3.4).
+With `S_F=M_F-E_FN M_N^{-1}E_NF`, the block inverse formula gives exactly `S_F^{-1}=[M_R^{-1}]_{FF}`. Restricting rows and columns cannot increase the weighted Schur norm, so (3.4) bounds this inverse uniformly. The opposite Schur formula also writes it as `M_F^{-1}` plus the standard correction; no additional correction is added to the `FF` block itself.
 
 Multiplying a row localized at site zero by `M_N^{-1}E_NF` produces a row on `F` whose ordinary `l^1` norm is `O(exp(-ar))`: in the weighted norm, every index of `F` has distance at least `r` from zero. The analogous column on the right has the same bound. Terms in the full quadratic form involving the direct tails `b_F` or `d_F` are also `O(exp(-ar))`. Therefore, on every smaller disk `|z|<=r_1<r_0`,
 
@@ -217,7 +217,7 @@ sup_x |q_{R,z}(x)-q_{r,z}(x_1,...,x_r)|
 
 for some `A<infinity` and `a'>0` independent of `R,r,x`.
 
-Equation (4.4) proves uniform convergence to a Hölder limit `q_z` on the one-sided tail space. Cauchy's formula on a slightly larger disk gives the same estimate for all parameter derivatives, so `z->q_z` is holomorphic as a Hölder-space-valued map.
+Equation (4.4) proves uniform convergence to a limit `q_z` on the one-sided tail space. Fix `0<b<min(a',1)` and use `||F||_b=||F||_infinity+sup_{m>=0} exp(bm) var_m(F)`, where `var_m` compares tails agreeing in their first `m` symbols. Applying (4.4) also at shorter truncations gives uniform stronger `a'`-variation bounds for the finite conditionals and their limit. Interpolation with the sup-norm error gives `||q_{r,z}-q_z||_b<=C exp(-(a'-b)r)` on each smaller disk. The finite-cylinder maps are holomorphic in this fixed space. Cauchy's formula on disks `|z|<=r_1<r_2<r_0` gives convergence in the same norm for parameter derivatives, so `z->q_z` is Banach-holomorphic in this fixed weaker Hölder space.
 
 For real sufficiently small `t`, (1.1) gives a strict spectral margin for `c+tg`. The complete-event accretivity argument gives a uniform conditional bound away from zero and one. Hence
 
