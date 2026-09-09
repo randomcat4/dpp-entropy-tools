@@ -1,0 +1,4 @@
+Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)
+Lake version 5.0.0-src+8c9756b (Lean version 4.32.0)
+lean_exit=0
+lake_exit=0

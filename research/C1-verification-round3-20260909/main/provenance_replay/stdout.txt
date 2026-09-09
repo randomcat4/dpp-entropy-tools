@@ -1,0 +1,12 @@
+ARITHMETIC_PID=172195
+python=3.12.3 platform=Linux-6.8.0-79-generic-x86_64-with-glibc2.39
+sympy=1.13.3 numpy=2.1.2 mpmath=1.3.0
+fixture=./continuation_fixture.json
+symbolic three-point cycle and two-point odds: exact pass
+dense 3+3 fixture structure and radius: exact pass
+rank-two exterior likelihood, KL compression, and A moments: exact pass
+t=1/100: all 64 events positive; min p=0.007484516000000000000000000000000000000000
+t=1/100: diagnostic H''=-134.59773013465206324903578112706278965981484068528511904557457690570216962873432345245890897151520085138693602
+t=1/50: all 64 events positive; min p=0.005120000000000000000000000000000000000000
+t=1/50: diagnostic H''=-584.10369225727325037756581032083880354778705670653362114988133287026594409608521820770459961864843127291987754
+ALL INDEPENDENT PR43 RANK-TWO CHECKS PASSED

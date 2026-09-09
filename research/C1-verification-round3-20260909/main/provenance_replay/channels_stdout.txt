@@ -1,0 +1,18 @@
+ARITHMETIC_PID=172295
+INPUT commit_current=7bd5962bbb2020ce47fbe286adda7dfe02f9645d
+INPUT commit_historical_proof=4e1369ef2a59ccfaba3ca8fce95d85e78857bf78
+ALGORITHM exact Fraction arithmetic from complete-event determinant p(S)=(-1)^(n-|S|) det(K-E_{S^c}); no author code import
+CHECK M mu_00_10_01_11= [Fraction(6, 25), Fraction(13, 50), Fraction(13, 50), Fraction(6, 25)]
+CHECK M mu_sum= 1
+CHECK M signed_inverse_offdiag= [Fraction(-5, 12), Fraction(-5, 13), Fraction(-5, 13), Fraction(-5, 12)]
+CHECK M inner_d_G12= -125/78
+CHECK N input_p_plus= [Fraction(6, 25), Fraction(13, 50), Fraction(13, 50), Fraction(6, 25)]
+CHECK N input_p_minus= [Fraction(6, 25), Fraction(13, 50), Fraction(13, 50), Fraction(6, 25)]
+CHECK N output_offdiag_plus_minus= [Fraction(3, 20), Fraction(1, 20)]
+CHECK N output_p11_plus_minus= [Fraction(91, 400), Fraction(99, 400)]
+CHECK I active_B_rank= 2
+CHECK I row2_minus_row1_minus_row3= [0, 0, 0]
+CHECK I first_three_active_columns_nonzero= [True, True, True]
+CHECK I frobenius_sq_unscaled= 22
+CHECK I frobenius_sq_scaled= 11/5000
+STOPPING_CONDITION completed fixed four-state and low-cost fixture checks
