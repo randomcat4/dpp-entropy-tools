@@ -168,7 +168,7 @@ The checker verifies exactly that `0<A,C<I`, `rank B=2`, every entry of `B` is n
 s=t^2=9/10. \tag{3.1}
 \]
 
-To lower-bound the **minimum** residual `R_add` without numerically solving the normal equations, use the integer 8x8 interaction table
+To lower-bound the **minimum** residual `R_add` without numerically solving the normal equations, use the integer 8x8 interaction table below. Rows and columns both use subset-mask order `0,1,...,7`, where bit `i` records the presence of coordinate `i+1` in the corresponding three-coordinate block
 
 ```text
 [-20,-14,-10,  9,-26, -9, 15, 55]
