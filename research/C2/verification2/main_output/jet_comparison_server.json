@@ -1,0 +1,22 @@
+{
+  "status": "PASS_EXACT_ALL_EVENT_JETS",
+  "pid": 168910,
+  "python": "3.12.3",
+  "centers": [
+    "D_boundary_mid",
+    "D_inset_mid",
+    "D_low_high_high",
+    "D_low_low_high",
+    "D_scalar_half",
+    "H123_boundary_mid",
+    "H123_low_low_high_boundary",
+    "Mix_inset_mid",
+    "Mix_low_high_high",
+    "R12_boundary_mid",
+    "R12_inset_mid",
+    "R13_boundary_mid"
+  ],
+  "events_per_center": 32,
+  "exact_scalar_comparisons": 10752,
+  "scope": "Exact event-derivative implementation check only; not a Hessian sign certificate."
+}

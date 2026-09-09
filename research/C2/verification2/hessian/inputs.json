@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "status": "frozen_after_main_comparison_centers",
+  "coordinate_order": ["a11", "a22", "a33", "a12", "a13", "a23"],
+  "u_matrix": {
+    "denominator": 1045,
+    "numerators": [
+      [615, 120, -702],
+      [240, 735, 246],
+      [-630, 30, -71],
+      [480, -620, 492],
+      [-170, -390, -540]
+    ]
+  },
+  "target_spectral_band": {
+    "lower": "1/4",
+    "upper": "3/4"
+  },
+  "domain_required_for_whole_box": {
+    "lower": "0",
+    "upper": "1"
+  },
+  "rotations": {
+    "I": [
+      ["1", "0", "0"],
+      ["0", "1", "0"],
+      ["0", "0", "1"]
+    ],
+    "R12_3_4_5": [
+      ["3/5", "-4/5", "0"],
+      ["4/5", "3/5", "0"],
+      ["0", "0", "1"]
+    ],
+    "R13_5_12_13": [
+      ["5/13", "0", "-12/13"],
+      ["0", "1", "0"],
+      ["12/13", "0", "5/13"]
+    ],
+    "R12_3_4_5_times_R23_5_12_13": [
+      ["3/5", "-4/13", "48/65"],
+      ["4/5", "3/13", "-36/65"],
+      ["0", "12/13", "5/13"]
+    ],
+    "Householder_v123": [
+      ["6/7", "-2/7", "-3/7"],
+      ["-2/7", "3/7", "-6/7"],
+      ["-3/7", "-6/7", "-2/7"]
+    ]
+  },
+  "centers": [
+    {
+      "name": "D_scalar_half",
+      "eigenvalues": ["1/2", "1/2", "1/2"],
+      "rotation": "I",
+      "reason": "main-comparison scalar center and W3 near-scalar anchor"
+    },
+    {
+      "name": "D_boundary_mid",
+      "eigenvalues": ["1/4", "1/2", "3/4"],
+      "rotation": "I",
+      "reason": "explicit requested diagonal spectral-band boundary center"
+    },
+    {
+      "name": "R12_boundary_mid",
+      "eigenvalues": ["1/4", "1/2", "3/4"],
+      "rotation": "R12_3_4_5",
+      "reason": "non-diagonal rational rotation of the requested boundary center"
+    },
+    {
+      "name": "R13_boundary_mid",
+      "eigenvalues": ["1/4", "1/2", "3/4"],
+      "rotation": "R13_5_12_13",
+      "reason": "second non-commuting rational rotation of the requested boundary center"
+    },
+    {
+      "name": "H123_boundary_mid",
+      "eigenvalues": ["1/4", "1/2", "3/4"],
+      "rotation": "Householder_v123",
+      "reason": "main-comparison Householder rotation of the requested boundary center"
+    },
+    {
+      "name": "D_inset_mid",
+      "eigenvalues": ["13/50", "1/2", "37/50"],
+      "rotation": "I",
+      "reason": "light inward move from the 1/4 and 3/4 spectral faces"
+    },
+    {
+      "name": "R12_inset_mid",
+      "eigenvalues": ["13/50", "1/2", "37/50"],
+      "rotation": "R12_3_4_5",
+      "reason": "non-diagonal light-inward center"
+    },
+    {
+      "name": "Mix_inset_mid",
+      "eigenvalues": ["13/50", "1/2", "37/50"],
+      "rotation": "R12_3_4_5_times_R23_5_12_13",
+      "reason": "fully mixed light-inward center"
+    },
+    {
+      "name": "D_low_low_high",
+      "eigenvalues": ["13/50", "13/50", "37/50"],
+      "rotation": "I",
+      "reason": "near the lower-lower-upper spectral edge"
+    },
+    {
+      "name": "H123_low_low_high_boundary",
+      "eigenvalues": ["1/4", "1/4", "3/4"],
+      "rotation": "Householder_v123",
+      "reason": "main-comparison Householder center on the lower-lower-upper spectral boundary"
+    },
+    {
+      "name": "D_low_high_high",
+      "eigenvalues": ["13/50", "37/50", "37/50"],
+      "rotation": "I",
+      "reason": "near the lower-upper-upper spectral edge"
+    },
+    {
+      "name": "Mix_low_high_high",
+      "eigenvalues": ["13/50", "37/50", "37/50"],
+      "rotation": "R12_3_4_5_times_R23_5_12_13",
+      "reason": "non-diagonal near lower-upper-upper spectral edge"
+    }
+  ],
+  "main_comparison_output": {
+    "relative_server_path": "verification2/main_output/independent_events.json",
+    "centers_expected": [
+      "D_scalar_half",
+      "D_boundary_mid",
+      "H123_boundary_mid",
+      "H123_low_low_high_boundary"
+    ],
+    "purpose": "compare exact 32-event probability jets only; not a substitute for interval Hessian sign certification"
+  },
+  "radius_schedule": [
+    "1/256",
+    "1/512",
+    "1/1024",
+    "1/2048",
+    "1/4096",
+    "1/8192",
+    "1/16384",
+    "1/32768",
+    "1/65536",
+    "1/131072",
+    "1/262144"
+  ],
+  "max_total_attempts": 128,
+  "log_series_terms_initial": 96,
+  "log_series_terms_max": 512,
+  "strict_interval_engine": "rational_fraction_with_atanh_log_bounds",
+  "hessian_formula": "H_ab = -sum_nonzero_events p_a p_b / p - sum_nonzero_events p_ab log(p); six |S|>3 events are identically zero"
+}

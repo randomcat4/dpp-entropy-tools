@@ -1,0 +1,42 @@
+{
+  "pid": 169539,
+  "started_utc": "20260909T071002Z",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "config_path": "inputs.json",
+  "output_dir": "output/run_20260909T071002Z_pid169539",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "log_series_terms": 96,
+  "max_total_attempts": 1,
+  "radius_plan_path": "server_radius_plan.json",
+  "radius_plan": {
+    "schema_version": 1,
+    "status": "frozen_after_local_debug_before_limited_server_run",
+    "budget_accounting": {
+      "local_debug_attempts_counted_by_main": 78,
+      "interrupted_server_attempts": 5,
+      "remaining_attempts_for_this_server_run": 45,
+      "note": "Debug accepts are not final certificates; these radii are used only to avoid repeating known larger failed radii on the server."
+    },
+    "direct_first_radius": {
+      "D_scalar_half": "1/4096",
+      "D_boundary_mid": "1/2048",
+      "R12_boundary_mid": "1/2048",
+      "R13_boundary_mid": "1/4096",
+      "H123_boundary_mid": "1/4096",
+      "D_inset_mid": "1/2048",
+      "R12_inset_mid": "1/2048"
+    },
+    "fallback_policy": "If a direct radius fails on the server, continue with smaller radii from inputs.json; centers not listed use the original radius_schedule."
+  },
+  "write_exact_gershgorin": false,
+  "only_center": "R12_boundary_mid",
+  "original_center_count": 12,
+  "active_center_count": 1
+}

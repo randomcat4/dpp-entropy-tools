@@ -1,0 +1,10 @@
+started_utc=20260909T071002Z
+runner_pid=169533
+python_version=Python 3.12.3
+working_dir=/root/i05-seven-fronts-20260909/C2/verification2/hessian
+input=inputs.json
+radius_plan=server_radius_plan.json
+only_center=R12_boundary_mid
+max_total_attempts=1
+log_terms=from_inputs
+checkpoint=accepted_box_attempt_*.json

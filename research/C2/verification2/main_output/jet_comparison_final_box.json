@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXACT_ALL_EVENT_JETS",
+  "pid": 169968,
+  "python": "3.12.3",
+  "centers": [
+    "R12_boundary_mid"
+  ],
+  "events_per_center": 32,
+  "exact_scalar_comparisons": 896,
+  "scope": "Exact event-derivative implementation check only; not a Hessian sign certificate."
+}
