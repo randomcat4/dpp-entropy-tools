@@ -12,6 +12,7 @@
 运行作者自检：
 
 ```sh
+python -m pip install -r requirements.txt
 python code/verify_symbolic.py
 ```
 
