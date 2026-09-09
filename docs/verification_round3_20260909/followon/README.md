@@ -51,3 +51,11 @@ PR53 itself awaits separate first/second review of the exponential Wiener extens
 FR source clarification at`ebecc412467939591e018a295a18c49a0a341ce9` has an explicit [closure by the same independent second](pr53_fr_second/source_delta_review.md). The historical comments above are preserved; this closure fixes the weaker-Hölder/RPF exposition and s-linear heading without changing theorem scope. C1 first-review delta closures and the separate EW second are tracked in the current queue.
 
 PR55 has now merged as a [partial archive](../archived_pr55.md). Its new r=0 first remains INCOMPLETE; no certificate second or extra arithmetic was started after that unmet gate.
+
+## PR53 Theorem EW: independent second and source-delta closure
+
+The seven-file exponential-Wiener successor at`73cdbd09ad9aa975354a116a01f1e0f4955a8c27` has [C1 FIRST](https://github.com/randomcat4/dpp-entropy-tools/blob/aaac8a064cc72e513a97bb0f25736edab122bb6d/research/C1-verification-round4-20260909/units/pr53_ew/review_report.md) and [independent C3 SECOND](pr53_ew_second/review_report.md), both ACCEPTED_SCOPED. [Second frozen scope](pr53_ew_second/frozen_scope.md). It accepts arbitrary-mean strict exponential-Wiener half-period centers and nonzero half-period odd directions, with true local quartic strict entropy-rate concavity and no small-Wiener hypothesis. It does not establish the whole legal interval, arbitrary measurable symbols or arbitrary scalar chords.
+
+The same independent second has [closed the precise three-file exposition delta](pr53_ew_second/source_delta_review.md) at`ebecc412467939591e018a295a18c49a0a341ce9`: exact far Schur inverse, fixed weaker Hölder norm/interpolation, primary RPF Hölder theorem and operator normalization, plus the inherited s-linear heading. No theorem quantifier, numerical constant, checker or output changed. C1's original first reviewers are separately closing their portions before final integration.
+
+The second report's opening line count175 is a metadata typo, explicitly corrected to268 in its closure; its mathematical review and line anchors are unchanged. The closure directly checks primary Cioletti-Silva Theorem2.1 and its uniform-prior/log(2G_s) normalization. No arithmetic or first-review artifact was used by this second. The exact example script/output were statically reviewed only.

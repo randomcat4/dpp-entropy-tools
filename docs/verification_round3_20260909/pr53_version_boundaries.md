@@ -6,7 +6,7 @@ This is a source-identity and ownership record, not an additional mathematical r
 | --- | --- | --- |
 | Original parity/likelihood/inverse/beam-splitter packet, five files | `e0688fbb713e55f93acf791b83437ddf2cc06b7f` | C1 FIRST and C3 independent SECOND accepted within scope |
 | New finite-range true local entropy-rate theorem, one added 473-line file | `abdd660a6c7761c7a8a53cb8671b4d2543530a5c` | C1 FIRST and C3 separate source-only SECOND ACCEPTED_SCOPED |
-| Exponential Wiener extension and six companion changes | `73cdbd09ad9aa975354a116a01f1e0f4955a8c27` | C1 FIRST assigned separately; C3 SECOND reserved after acceptance |
+| Exponential Wiener extension and six companion changes | `73cdbd09ad9aa975354a116a01f1e0f4955a8c27` | C1 FIRST and independent C3 SECOND ACCEPTED_SCOPED |
 
 [C1 FR first report](https://github.com/randomcat4/dpp-entropy-tools/blob/a136a57316ce5e866588881b43ce561c0e25657c/research/C1-verification-round4-20260909/units/pr53_fr/review_report.md) and [original independent second](followon/pr53_second/review_report.md) are distinct units. No first report, reviewer code or conclusion is supplied to the new second reviewer. PR53 remains unmerged at this checkpoint.
 
@@ -25,3 +25,5 @@ All bytes in the three frozen prefix snapshots were checked against their declar
 The new theorem claims remain local in the path parameter. Arbitrary measurable symbols, whole-legal-interval concavity and broad novelty remain unaccepted. The exact Rudin-Shapiro script checks finite Fourier constants only; the older floating probe does not prove a rate theorem. A version identity check does not replace a proof audit.
 
 The completed [FR independent second report](followon/pr53_fr_second/review_report.md) confirms the exact local rate scope; its nonblocking source note does not extend the reviewed object.
+
+Final exposition successor:`ebecc412467939591e018a295a18c49a0a341ce9`. It changes only FR, EW and sources.md. The [FR same-second closure](followon/pr53_fr_second/source_delta_review.md) and [EW same-second closure](followon/pr53_ew_second/source_delta_review.md) accept the explicit weaker Hölder norms, exact Schur inverse, scoped primary RPF citation and s-linear heading. The original first reviewers are separately closing those deltas. The seven-file table above remains the immutable73c version record; it is not a claim that all three clarified source blobs stayed unchanged.
