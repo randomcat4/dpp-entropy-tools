@@ -1,0 +1,32 @@
+{
+  "adjugate_linearity": {
+    "difference": "0",
+    "numerator": "g11*v12*v22 - g12*v11*v22 - g12*v12*v21 + g22*v11*v21"
+  },
+  "arithmetic": "symbolic/rational assertions only",
+  "curvature_identity": {
+    "Phi": "4*u**2/(u + 1) + 2*u*log(u + 1)",
+    "difference": "0",
+    "psi": "8*u/(u + 1) + 10*log(u + 1)",
+    "psi_prime": "2*(5*u + 9)/(u + 1)**2"
+  },
+  "status": "PASS",
+  "two_point_fixture": {
+    "C": [
+      ["1/2", "1/10"],
+      ["1/10", "1/2"]
+    ],
+    "events": [
+      {"G12": "-5/12", "d": "25/6", "d_plus_10_G12": "0", "p": "6/25", "state": "00"},
+      {"G12": "5/13", "d": "-50/13", "d_plus_10_G12": "0", "p": "13/50", "state": "01"},
+      {"G12": "5/13", "d": "-50/13", "d_plus_10_G12": "0", "p": "13/50", "state": "10"},
+      {"G12": "-5/12", "d": "25/6", "d_plus_10_G12": "0", "p": "6/25", "state": "11"}
+    ],
+    "farkas_rhs": "-1",
+    "pointwise_relation": "det(G) = -10*G12"
+  },
+  "versions": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  }
+}
