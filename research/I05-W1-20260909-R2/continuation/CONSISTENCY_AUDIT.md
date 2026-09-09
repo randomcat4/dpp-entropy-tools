@@ -34,7 +34,17 @@
 - 更新 `sources_continuation.md`，明确哪些步骤自包含、哪些是外部输入；
 - 将 `RESULT_CONTINUATION.md` 标记为历史快照。
 
-## 3. 没有做的事情
+## 3. 先前本地归档的状态
+
+另行检查了先前交付的 `I05-W1-20260909-R2-continuation_result.zip`。该归档有 21 个条目，但属于较早快照：
+
+- 根 `RESULT.md`／`frozen_statement.md` 只覆盖第二轮原 `m x 2` 等结果；
+- 归档中没有 `04_three_point_indefinite_rank2.md`、`05_diagonal_and_feature_routes.md`、`06_correlated_3plus3_family.md`、`RESULT_FINAL.md` 或 `frozen_statement_v3.md`；
+- 包内 `continuation/proof.md` 指向 `proof_continuation.md`，但该文件不在归档中。
+
+因此该 ZIP 不是当前完整、自包含的最终审阅对象。按用户本次明确要求，没有重新打包；PR #43 的冻结 commit 及本目录权威入口是当前完整来源。
+
+## 4. 没有做的事情
 
 - 没有修改 `../proof/04_three_point_indefinite_rank2.md`、`05_diagonal_and_feature_routes.md`、`06_correlated_3plus3_family.md` 的数学正文；
 - 没有新增一个超出这些证明文件的定理；
@@ -42,7 +52,7 @@
 - 没有修改 `main`，没有合并 PR；
 - 没有重新打包 ZIP。
 
-## 4. 审计后的权威入口
+## 5. 审计后的权威入口
 
 - `README_v3.md`
 - `RESULT_FINAL.md`

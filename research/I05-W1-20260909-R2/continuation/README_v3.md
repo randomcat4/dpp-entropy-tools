@@ -2,6 +2,8 @@
 
 总体状态：**PARTIAL / PR #43 NEW CLAIMS NOT YET INDEPENDENTLY REVIEWED**。
 
+先前交付的 `I05-W1-20260909-R2-continuation_result.zip` 是不完整的历史快照：缺少三点、外幂充分统计、相关 `3+3` 和 v3 入口，且其中一个证明索引引用了未收录文件。按当前指令不重新打包；审阅应固定本 PR commit。
+
 ## 权威入口
 
 1. `RESULT_FINAL.md`：一致性审计后的准确摘要，区分既有外部输入、PR #43 作者级主张和开放范围。
