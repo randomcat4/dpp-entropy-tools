@@ -70,9 +70,26 @@ Compare exact outputs only after reconstruction; preserve the first
 event or interval mismatch. See the full numbered contract in the
 [PR58 report](units/pr58/review_report.md#c2-contract).
 
-The new additive fixed example at a4f05cc9 is a separate finite obligation;
-the bounded delta FIRST will specify its contract. It inherits no finite
-pass from the original fixture or conditional-centering theorem.
+The original-fixture contract was subsequently
+[claimed separately by C2](https://github.com/randomcat4/dpp-entropy-tools/issues/50#issuecomment-5604628245),
+with its own fixed 2700-second first-launch window, one arithmetic
+process/CPU/thread, 16 GiB and no GPU. It explicitly excludes the new
+additive fixture and the long whole-chord task. No C1 computation is run.
+
+The additive fixed example at a4f05cc9 is a separate finite obligation.
+The completed [delta FIRST contract](units/pr58/delta_review_report.md#c2-handoff-contract-for-the-finite-witness)
+requires independent re-entry of the new A,C,U,V matrix literals at
+s=9/10, strict marginal/full-kernel legality, all 64 complete events,
+and their a,b,q,y,Phi,psi, A2, P0, W and full t^2 I'' quantities.
+Independently verify the integer dual table's zero row/column sums,
+its additive-annihilation interpretation, the certified residual lower
+bound and its strict comparison with the criterion threshold. Enclose
+every logarithm with rational tails and separately prove W<0 and
+t^2 I''>0, hence H''<0. Preserve raw fractions, every Fisher/acceleration
+term and the first mismatch. The code and saved decimal output are
+downstream comparison targets, not an independent implementation.
+This unit is queued for a distinct C2 contract; it inherits no pass or
+time budget from the original fixture, full-r certificate or radial unit.
 
 ## PR60 separate radial-obstruction unit
 

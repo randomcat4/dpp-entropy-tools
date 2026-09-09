@@ -7,15 +7,16 @@ unit bindings. Original reports are preserved when new evidence arrives.
 | Unit | Accepted FIRST scope | Remaining gate / next owner |
 |---|---|---|
 | PR59 at 892a121a | Compact analytic tube; analytic extension of h''/t^2; five-term RPF Hessian; qualitative exponential finite-state interface; beam-splitter second-order obstruction; existential explicit-family neighborhood | READY for independent C3 SECOND, which C3 reports has started. Error constants and transverse radius are existential. No numerical true-rate certificate is claimed. |
-| PR58 original four files at 1770ed29 | Full-law compensation; interval corollary as a conditional criterion; conditional-centering appendix | Author repair: RESULT.md lines 94 and 142. C2: fixed corridor and strict W-negative/full-curvature signs. C3 may independently second-review the passed analytic units. |
-| PR58 three-file additive delta at a4f05cc9 | No inherited verdict | Original FIRST performs a bounded delta audit. Joint-additive analytic projection/normal equations/rank claim and static code are separate from the new fixed finite example. |
+| PR58 original four files, wording repaired at 7d3dd405 | Full-law compensation; conditional interval criterion; conditional-centering appendix; wording repair CLOSED | Original analytic scope READY for C3 SECOND. C2 separately owns fixed corridor and W-negative/full-curvature evidence. |
+| PR58 three-file additive delta at a4f05cc9, unchanged by 7d3dd405 | Joint-additive projection, Cauchy criterion, rank-at-most-four reduction; static code consistent | Fix ADDENDUM_JOINT_ADDITIVE.md line 99 norm domain from U to U to V to U. New s=9/10 witness requires its own independent C2 unit. |
 | PR60 at f869fd25, Claims 1-3 | Analytic bridge is source-sound conditional on the full-r certificate | Original FIRST now checks raw C2 evidence from PR64 at 5b40617f before closing the gate. MACHINE_PASS summary alone is insufficient. |
 | PR60 Claim 4 | Auxiliary radial-obstruction interpretation only | Separate C2 exact atom-jet/log/legality/Jensen unit; not covered by the full-r certificate. C3 coordinates that public assignment. |
 | PR60 Claim 5 | One-sided perspective identities and scale reduction | May be separately frozen for C3 SECOND; the remaining coupled inequality stays open. |
 
-The PR58 wording should say a different compensation criterion that can
-apply when E[y psi]<0. The displayed proof and example do not establish
-W>=0 implies the new criterion, so they do not establish strictly weaker.
+The PR58 original wording repair is accepted at 7d3dd405. The addendum's
+new norm-domain typo is a separate one-line repair; its finite witness
+does not inherit the original fixture's computation contract. See the
+full delta report for the exact new finite-evidence obligations.
 
 C1 does not run arithmetic, edit author sources, start SECOND or merge
 main. C2 owns bounded independent finite reconstruction; C3 owns SECOND

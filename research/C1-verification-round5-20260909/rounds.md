@@ -40,3 +40,18 @@ the immutable implementation, full artifacts and run evidence and check
 contract coverage. Claim 4 remains a separate exact obligation. The
 original PR58 FIRST separately reviews the additive delta; its new finite
 example is not accepted by inheritance. No new theory route is opened.
+## PR58 additive FIRST and original wording closure
+
+The original FIRST completed the three-file additive delta: joint
+projection, weighted Cauchy compensation and rank-at-most-four reduction
+pass; the normal-equation norm at ADDENDUM_JOINT_ADDITIVE.md line 99 has
+domain U to U although K_s maps V to U and needs a one-line repair.
+The new s=9/10 dual residual and W/full-curvature signs retain a separate
+independent finite-evidence gate. Static code has no blocking defect.
+
+C3 then changed exactly two RESULT.md sentences at 7d3dd405, parent
+a4f05cc9. All mathematical formulas, checkers, outputs and additive files
+remain unchanged. The original FIRST separately accepts both repairs.
+Old line 94 literally said strictly weaker; old line 142 had distinct
+unlike W>=0 wording. The closure report clarifies the original report's
+grouped description without rewriting the original historical report.

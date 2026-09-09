@@ -5,9 +5,13 @@
 | PR58 | Full-law weighted Cauchy compensation | CORRECT / ACCEPTED_SCOPED |
 | PR58 | Interval envelope as a conditional analytic criterion | CORRECT / ACCEPTED_SCOPED |
 | PR58 | Conditional-centering identities and optimality | CORRECT / ACCEPTED_SCOPED |
-| PR58 | New criterion strictly weaker than W>=0 | NEEDS_FIX: logical implication not proved |
+| PR58 | Original strict-weakness/compensation wording | CLOSED at 7d3dd405: different sufficient criterion, no automatic implication, inequality still requires verification |
 | PR58 | Fixed corridor and W-negative / positive-negative-Hessian point | INCOMPLETE_PENDING_C2: exact interval/event evidence missing |
 | PR58 | Script and stored interval output | CORRECT static consistency; author output only |
+| PR58 additive delta | Joint-additive projection, Cauchy bound and rank-at-most-four reduction | CORRECT / ACCEPTED_SCOPED at a4f05cc9, unchanged by 7d3dd405 |
+| PR58 additive delta | Normal equations | Structure sound; NEEDS_FIX line 99 norm domain V to U, not U to U |
+| PR58 additive delta | New s=9/10 residual witness and W/full-curvature signs | INCOMPLETE_PENDING_C2; separate from original corridor contract |
+| PR58 additive delta | New checker and saved output | CORRECT static consistency; author output only |
 | PR59 | Joint compact tube, parity quotient and quartic margin transport | CORRECT / ACCEPTED_SCOPED |
 | PR59 | Arbitrary-center five-term RPF Hessian | CORRECT / ACCEPTED_SCOPED; no general sign claim |
 | PR59 | Finite-state true-rate interface | CORRECT / ACCEPTED_SCOPED as qualitative exponential error; constants existential |

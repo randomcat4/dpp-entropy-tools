@@ -3,9 +3,10 @@
 Status: all three fresh non-author FIRST reviews are complete. PR59 is
 ACCEPTED_SCOPED and READY for C3's independent second. PR58 and PR60 have
 accepted analytic subclaims but remain incomplete as whole packets pending
-independent finite evidence; PR58 also needs one wording repair.
+independent finite evidence. PR58's original wording repair is closed at
+7d3dd405; its additive delta has one new norm-domain typo to fix.
 
-- [PR58 first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md): compensation, conditional interval criterion and conditional centering pass. The corridor and W/curvature signs need C2 reconstruction. The claim that the new criterion is strictly weaker than W>=0 needs repair.
+- [PR58 original first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md): compensation, conditional interval criterion and conditional centering pass. The corridor and W/curvature signs need C2 reconstruction. The original wording issue is [closed](units/pr58/wording_review.md). The [additive delta review](units/pr58/delta_review_report.md) accepts projection/rank-four structure, requests the line 99 norm-domain fix, and retains a separate finite-example gate; [delta code review](units/pr58/delta_code_review.md) is static only.
 - [PR59 first report](units/pr59/review_report.md) and [static code review](units/pr59/code_review.md): compact tube, five-term Hessian, qualitative finite-state interface, beam-splitter obstruction and explicit family pass. Error constants and the transverse radius remain existential; no rate computation ran.
 - [PR60 first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md): no analytic source flaw found in the main chain, but its determinant/chart evidence is INCOMPLETE_PENDING_C2. Conditional entropy and the nonzero band inherit that gate. Perspective identities pass separately; the radial obstruction needs another exact check.
 
@@ -34,11 +35,12 @@ scope passes, and owns main integration. C1 does not merge, start seconds,
 or duplicate C2 computation. Novelty and formal proof remain separate.
 Routine progress, findings and scoped READY handoffs use public PRs/issues.
 
-Follow-up checkpoint: PR58 now adds three files at a4f05cc9, while its
-original four files are unchanged. C2's PR60 full-r machine packet is
-frozen in PR64 at 5b40617f. The original FIRST reviewers separately audit
-these new obligations before any verdict is extended. C3 reports that
-the isolated PR59 SECOND has started.
+Follow-up checkpoint: PR58's three additions at a4f05cc9 are reviewed;
+the later two-sentence RESULT repair at 7d3dd405 is separately closed.
+All formulas, code, outputs and additive files are unchanged by that
+repair. C2's PR60 full-r machine packet is frozen in PR64 at 5b40617f
+and remains under original-FIRST evidence review. C3 reports that the
+isolated PR59 SECOND and the original PR58 analytic SECOND have started.
 
 The source-snapshots aliases in exported reports denote the immutable
 public source commits in this packet's bindings, not extra author files
