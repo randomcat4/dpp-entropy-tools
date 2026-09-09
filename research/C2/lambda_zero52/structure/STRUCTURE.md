@@ -294,7 +294,7 @@ Verified from the literal issue52 rational formula:
 
 - the identities `e^2=v-mu e` and `f^2=w-nu f`;
 - the conditional-polynomial map `q_ij dot zeta = m+p e+q f+h ef`;
-- the Gram representation `Fmat = 4*T^T G T` at the quadratic-form level;
+- the Gram representation `zeta^T Fmat zeta = 4*y^T G y`;
 - the reflection identity `S D^{-1}S=D`;
 - the positivity of `n1,n2,n3,d_alpha,d_beta`;
 - the exact cancellation of the `alpha beta` term on the Fisher-invisible
@@ -309,3 +309,35 @@ Not verified or not proved here:
 - any exact rational negative direction;
 - any entropy Hessian or Jensen counterexample.
 
+## Determinant bookkeeping: reviewed supplement
+
+Let `T` in this paragraph be the six-by-six forward linear coordinate map
+`zeta=(alpha,beta,gamma,eta,xi,omega)` to
+`x=(alpha,beta,m,p,q,h)`. This matrix is distinct from the scalar polynomial
+`T(e,f)` above. Let `M_red` represent the already formed quadratic form in the
+new coordinates. Since `x=T zeta`, the orientation is
+
+```text
+M_red = T^{-T} M T^{-1},
+M = T^T M_red T.
+```
+
+The first two coordinates are unchanged. The remaining pivots, in the output
+order `(m,p,q,h)`, are `1,-2ua,-2ub,2u^2ab`; the corresponding permutation has
+positive sign. Thus
+
+```text
+det T = 8*u^4*a^2*b^2,
+det M_red = d_alpha*d_beta*det Rstar,
+det M = (det T)^2*det M_red
+      = 16*n1*n2*u^12*a^5*b^5*v*w*det Rstar.
+```
+
+Every prefactor is strictly positive in the stated open domain. This gives
+equivalence of determinant signs and nonvanishing there; it does not prove
+that the remaining determinant is nonzero.
+
+The supplement was checked in the separate first-review addendum and derived
+afresh in [C3's second analytic audit](https://github.com/randomcat4/dpp-entropy-tools/blob/7f705d608e2f77ca6749b660ec2e7f97e29fe615/docs/verification_round3_20260909/followon/pr55_structure_second/review_report.md).
+The prior reduction is unchanged; the Gram summary above now uses its explicit
+quadratic-form notation to avoid reusing `T` for a four-row map.
