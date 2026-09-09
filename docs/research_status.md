@@ -2,6 +2,10 @@
 
 ## 服务器独立核验与后继整合
 
+第四批已合入 [PR29](https://github.com/randomcat4/dpp-entropy-tools/pull/29) 和独立审核 [PR36](https://github.com/randomcat4/dpp-entropy-tools/pull/36)、[PR37](https://github.com/randomcat4/dpp-entropy-tools/pull/37)。C3 原作者未自批：C1 新非作者分别接受其[径向有限/真实熵率定理](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)和[固定 C3-M1 真实熵率负 gap 证书](../research/C1-verification-20260909/children/c3/review_rate_certificate.md)，后者服务器重放六个边界及每边界 66 残差行，并独立以置换行列式复算 288 项，gap 上端约 `-8.4037273824e-7<0`。径向基础与 W2 去重，固定弦证书单独记账。符号输入说明中“conjugate-transpose”的一句非阻塞文案不精确；实际脚本负号转换得到真 Fourier 系数，冻结源未改，审阅已明确解释。
+
+PR37 已补入 [PR30 新审阅及 cert60 服务器证据](../research/C2/verification2/beta/REVIEW.md)；前一批 docs 中的副本是同一报告，不另计审稿人。PR36 还接受 [W1 首轮固定严格块、rank-one 交叉块的全弦定理](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)。PR32 已新增真实第二轮文稿，仍单独审查中；首轮接受不覆盖新稿，当前未整体合入 PR32。
+
 第三批已合入 PR22、23、31、35、30，均保留 merge 祖先关系。[基础三项非作者审定](verification_20260909/base_prs.md)、[PR30 新鲜非作者审阅](verification_20260909/pr30_fresh.md)、[W3 审阅及精确服务器输出](../research/C2/verification2/w3/REVIEW.md)给出下列 **ACCEPTED_SCOPED** 结果。合并不升级任何超出范围的作者候选。
 
 | 已合 PR | 可用结果 | 仍未覆盖 |

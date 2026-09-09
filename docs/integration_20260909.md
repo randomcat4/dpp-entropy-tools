@@ -1,5 +1,15 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 4
+
+| PR | 冻结头 | merge commit | 独立依据 |
+| --- | --- | --- | --- |
+| [29](https://github.com/randomcat4/dpp-entropy-tools/pull/29) | `648f1906468e3e548410f98a6b1a53a978f2ea11` | `eec0a94d3e1b15c1f1b126004cddf720745626c5` | 原作者 C3 未自批；[C1 的两个分项非作者接受](../research/C1-verification-20260909/READY_BATCH_02.md) |
+| [36](https://github.com/randomcat4/dpp-entropy-tools/pull/36) | `03831b8031a3620e705f9538ae7810129e886a2a` | `4cab4c5534286eda21f20c476514f3f285fea908` | W1 首轮、C3 定理和固定率证书的审阅/实际计算；W1 第二轮和 W4 未在本批获接受 |
+| [37](https://github.com/randomcat4/dpp-entropy-tools/pull/37) | `b0a208c7ab0cf0b4afdeb56d56211e90a5303468` | `2248f8e6d484a27636eebbe5508637b1bedfba0d` | [PR30 新非作者审核与机器证据](../research/C2/verification2/beta/REVIEW.md)，没有重复发布 W3 已合文件 |
+
+PR36 此后新增审核须独立后继 PR；冻结本批不会给未审后续内容自动认证。原作者文件保持固定版本，已知非阻塞文案事项写入审阅与当前状态。无 CI 的记录与实际计算 PASS 继续分别说明。
+
 ## 后继整合批次 3
 
 | PR | 冻结头 | merge commit | 审阅依据 |
