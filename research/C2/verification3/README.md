@@ -12,4 +12,4 @@ This packet reconstructs exact computational claims in PR41 and PR43. C1 owns an
 
 The initial units are separate computational tasks. A newly constructed certificate is subsequently reviewed in a fresh nonauthor context before its status is promoted. Source changes require a new recorded scope; acceptance is not transferred to a moving PR head.
 
-See `STATUS.md` for current outputs and limitations, `frozen_contract.md` for bounds, and `provenance.md` for responsibility.
+See `STATUS.md` for current outputs and limitations, `frozen_contract.md` for bounds, `provenance.md` for responsibility, and `reproduce.md` for portable replay commands.

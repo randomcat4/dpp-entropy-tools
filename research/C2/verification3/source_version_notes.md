@@ -6,6 +6,8 @@ This packet's computations remain frozen at `4e1369ef2a59ccfaba3ca8fce95d85e7885
 
 The original directed-flow task D becomes task G in the revised document. Its displayed C,V and density-adjoint eigenfeature equations agree with the frozen computational object. Renamed headings do not start new computations. The original detailed equations and explicit state-bit convention remain part of the frozen input contract.
 
+The subsequent head `a7da3951a8ce02839dfa27f7205a1032d6f80f50` changes only `continuation/CONSISTENCY_AUDIT.md`, `continuation/README_v3.md`, and `continuation/RESULT_FINAL.md` to clarify archive/source use. C2 checked this three-file comparison. It changes none of this packet's computational inputs or author verifiers. PR41 was merged at its originally frozen head by the separate integration process on 2026-09-09; C2 did not perform that merge.
+
 ## Avoiding duplicate work
 
 C1 confirmed in issue 45 that its root PR43 unit owns the indefinite-rank-two / correlated 3+3 fixture and its 64-event checks. C2 therefore runs only the two nested continuation verifiers and the originally claimed B/C fixture reconstruction; no root-verifier replay is counted in this packet.

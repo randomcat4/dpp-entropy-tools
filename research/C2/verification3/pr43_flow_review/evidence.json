@@ -1,0 +1,830 @@
+{
+  "asymmetry_certificate": {
+    "difference_r_xy_minus_r_yx": "-10820517324948991/539204267981520000",
+    "r_xy": "420677961406813/8696843031960000",
+    "r_yx": "8656153/126480000",
+    "x": "000",
+    "y": "001"
+  },
+  "bindings": {
+    "certificate_path": "frozen_f249_flow_certificate.json",
+    "instance_path": "frozen_f249_instance.json",
+    "local_frozen_candidate_commit_actually_checked": "f249f897c212e49e66ec62a34fba715c47b9bce5",
+    "public_pr47_source_commit_from_handoff": "d1c64ef49c7055df42a496d736742d4fb9aaa904",
+    "task": "CODEX_VERIFICATION_TASKS_v2.md:D",
+    "upstream_pr43_task_commit": "4e1369ef2a59ccfaba3ca8fce95d85e78857bf78"
+  },
+  "computed_G": {
+    "000": [
+      [
+        "-22280/4059",
+        "-14560/4059"
+      ],
+      [
+        "-14560/4059",
+        "-19790/4059"
+      ]
+    ],
+    "001": [
+      [
+        "680/4491",
+        "-8840/4491"
+      ],
+      [
+        "-8840/4491",
+        "-19810/4491"
+      ]
+    ],
+    "010": [
+      [
+        "-14920/2981",
+        "-5840/2981"
+      ],
+      [
+        "-5840/2981",
+        "1790/2981"
+      ]
+    ],
+    "011": [
+      [
+        "520/2869",
+        "-6760/2869"
+      ],
+      [
+        "-6760/2869",
+        "1810/2869"
+      ]
+    ],
+    "100": [
+      [
+        "680/6491",
+        "11560/6491"
+      ],
+      [
+        "11560/6491",
+        "1790/6491"
+      ]
+    ],
+    "101": [
+      [
+        "20920/6559",
+        "11840/6559"
+      ],
+      [
+        "11840/6559",
+        "1810/6559"
+      ]
+    ],
+    "110": [
+      [
+        "520/4469",
+        "8840/4469"
+      ],
+      [
+        "8840/4469",
+        "16210/4469"
+      ]
+    ],
+    "111": [
+      [
+        "13880/4081",
+        "3760/4081"
+      ],
+      [
+        "3760/4081",
+        "16190/4081"
+      ]
+    ]
+  },
+  "constraints": {
+    "all_exact_residuals_zero": true,
+    "balance": {
+      "000": {
+        "incoming": "17819461/107880000",
+        "outgoing": "17819461/107880000",
+        "residual": "0"
+      },
+      "001": {
+        "incoming": "1000506519404521/6232413239160000",
+        "outgoing": "1000506519404521/6232413239160000",
+        "residual": "0"
+      },
+      "010": {
+        "incoming": "221777006869/2604007440000",
+        "outgoing": "221777006869/2604007440000",
+        "residual": "0"
+      },
+      "011": {
+        "incoming": "523827910057/4523340510000",
+        "outgoing": "523827910057/4523340510000",
+        "residual": "0"
+      },
+      "100": {
+        "incoming": "6073947693515761/36918903482280000",
+        "outgoing": "6073947693515761/36918903482280000",
+        "residual": "0"
+      },
+      "101": {
+        "incoming": "312201841/1941840000",
+        "outgoing": "312201841/1941840000",
+        "residual": "0"
+      },
+      "110": {
+        "incoming": "170706097801/1619463240000",
+        "outgoing": "170706097801/1619463240000",
+        "residual": "0"
+      },
+      "111": {
+        "incoming": "168949319/970920000",
+        "outgoing": "168949319/970920000",
+        "residual": "0"
+      }
+    },
+    "balance_constraint_count": 8,
+    "feature_constraint_count": 32,
+    "feature_equations": {
+      "G11": {
+        "000": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "22280/4059",
+          "flow_lhs": "557/900",
+          "flow_residual": "0",
+          "flow_rhs": "557/900",
+          "target_value": "22280/4059"
+        },
+        "001": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-680/4491",
+          "flow_lhs": "-17/900",
+          "flow_residual": "0",
+          "flow_rhs": "-17/900",
+          "target_value": "-680/4491"
+        },
+        "010": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "14920/2981",
+          "flow_lhs": "373/900",
+          "flow_residual": "0",
+          "flow_rhs": "373/900",
+          "target_value": "14920/2981"
+        },
+        "011": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-520/2869",
+          "flow_lhs": "-13/900",
+          "flow_residual": "0",
+          "flow_rhs": "-13/900",
+          "target_value": "-520/2869"
+        },
+        "100": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-680/6491",
+          "flow_lhs": "-17/900",
+          "flow_residual": "0",
+          "flow_rhs": "-17/900",
+          "target_value": "-680/6491"
+        },
+        "101": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-20920/6559",
+          "flow_lhs": "-523/900",
+          "flow_residual": "0",
+          "flow_rhs": "-523/900",
+          "target_value": "-20920/6559"
+        },
+        "110": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-520/4469",
+          "flow_lhs": "-13/900",
+          "flow_residual": "0",
+          "flow_rhs": "-13/900",
+          "target_value": "-520/4469"
+        },
+        "111": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-13880/4081",
+          "flow_lhs": "-347/900",
+          "flow_residual": "0",
+          "flow_rhs": "-347/900",
+          "target_value": "-13880/4081"
+        }
+      },
+      "G12": {
+        "000": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "14560/4059",
+          "flow_lhs": "91/225",
+          "flow_residual": "0",
+          "flow_rhs": "91/225",
+          "target_value": "14560/4059"
+        },
+        "001": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "8840/4491",
+          "flow_lhs": "221/900",
+          "flow_residual": "0",
+          "flow_rhs": "221/900",
+          "target_value": "8840/4491"
+        },
+        "010": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "5840/2981",
+          "flow_lhs": "73/450",
+          "flow_residual": "0",
+          "flow_rhs": "73/450",
+          "target_value": "5840/2981"
+        },
+        "011": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "6760/2869",
+          "flow_lhs": "169/900",
+          "flow_residual": "0",
+          "flow_rhs": "169/900",
+          "target_value": "6760/2869"
+        },
+        "100": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-11560/6491",
+          "flow_lhs": "-289/900",
+          "flow_residual": "0",
+          "flow_rhs": "-289/900",
+          "target_value": "-11560/6491"
+        },
+        "101": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-11840/6559",
+          "flow_lhs": "-74/225",
+          "flow_residual": "0",
+          "flow_rhs": "-74/225",
+          "target_value": "-11840/6559"
+        },
+        "110": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-8840/4469",
+          "flow_lhs": "-221/900",
+          "flow_residual": "0",
+          "flow_rhs": "-221/900",
+          "target_value": "-8840/4469"
+        },
+        "111": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-3760/4081",
+          "flow_lhs": "-47/450",
+          "flow_residual": "0",
+          "flow_rhs": "-47/450",
+          "target_value": "-3760/4081"
+        }
+      },
+      "G22": {
+        "000": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "19790/4059",
+          "flow_lhs": "1979/3600",
+          "flow_residual": "0",
+          "flow_rhs": "1979/3600",
+          "target_value": "19790/4059"
+        },
+        "001": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "19810/4491",
+          "flow_lhs": "1981/3600",
+          "flow_residual": "0",
+          "flow_rhs": "1981/3600",
+          "target_value": "19810/4491"
+        },
+        "010": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-1790/2981",
+          "flow_lhs": "-179/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-179/3600",
+          "target_value": "-1790/2981"
+        },
+        "011": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-1810/2869",
+          "flow_lhs": "-181/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-181/3600",
+          "target_value": "-1810/2869"
+        },
+        "100": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-1790/6491",
+          "flow_lhs": "-179/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-179/3600",
+          "target_value": "-1790/6491"
+        },
+        "101": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-1810/6559",
+          "flow_lhs": "-181/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-181/3600",
+          "target_value": "-1810/6559"
+        },
+        "110": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-16210/4469",
+          "flow_lhs": "-1621/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-1621/3600",
+          "target_value": "-16210/4469"
+        },
+        "111": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-16190/4081",
+          "flow_lhs": "-1619/3600",
+          "flow_residual": "0",
+          "flow_rhs": "-1619/3600",
+          "target_value": "-16190/4081"
+        }
+      },
+      "d": {
+        "000": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-37600/1353",
+          "flow_lhs": "-47/15",
+          "flow_residual": "0",
+          "flow_rhs": "-47/15",
+          "target_value": "-37600/1353"
+        },
+        "001": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "13600/1497",
+          "flow_lhs": "17/15",
+          "flow_residual": "0",
+          "flow_rhs": "17/15",
+          "target_value": "13600/1497"
+        },
+        "010": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "40800/2981",
+          "flow_lhs": "17/15",
+          "flow_residual": "0",
+          "flow_rhs": "17/15",
+          "target_value": "40800/2981"
+        },
+        "011": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "31200/2869",
+          "flow_lhs": "13/15",
+          "flow_residual": "0",
+          "flow_rhs": "13/15",
+          "target_value": "31200/2869"
+        },
+        "100": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "40800/6491",
+          "flow_lhs": "17/15",
+          "flow_residual": "0",
+          "flow_rhs": "17/15",
+          "target_value": "40800/6491"
+        },
+        "101": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "31200/6559",
+          "flow_lhs": "13/15",
+          "flow_residual": "0",
+          "flow_rhs": "13/15",
+          "target_value": "31200/6559"
+        },
+        "110": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "31200/4469",
+          "flow_lhs": "13/15",
+          "flow_residual": "0",
+          "flow_rhs": "13/15",
+          "target_value": "31200/4469"
+        },
+        "111": {
+          "density_adjoint_residual": "0",
+          "density_adjoint_value": "-103200/4081",
+          "flow_lhs": "-43/15",
+          "flow_residual": "0",
+          "flow_rhs": "-43/15",
+          "target_value": "-103200/4081"
+        }
+      }
+    },
+    "total_constraint_count": 40
+  },
+  "det_C_minus_E_Tc": {
+    "000": "-451/4000",
+    "001": "499/4000",
+    "010": "2981/36000",
+    "011": "-2869/36000",
+    "100": "6491/36000",
+    "101": "-6559/36000",
+    "110": "-4469/36000",
+    "111": "4081/36000"
+  },
+  "failures": [],
+  "features": {
+    "G11": {
+      "000": "-22280/4059",
+      "001": "680/4491",
+      "010": "-14920/2981",
+      "011": "520/2869",
+      "100": "680/6491",
+      "101": "20920/6559",
+      "110": "520/4469",
+      "111": "13880/4081"
+    },
+    "G12": {
+      "000": "-14560/4059",
+      "001": "-8840/4491",
+      "010": "-5840/2981",
+      "011": "-6760/2869",
+      "100": "11560/6491",
+      "101": "11840/6559",
+      "110": "8840/4469",
+      "111": "3760/4081"
+    },
+    "G22": {
+      "000": "-19790/4059",
+      "001": "-19810/4491",
+      "010": "1790/2981",
+      "011": "1810/2869",
+      "100": "1790/6491",
+      "101": "1810/6559",
+      "110": "16210/4469",
+      "111": "16190/4081"
+    },
+    "d": {
+      "000": "18800/1353",
+      "001": "-6800/1497",
+      "010": "-20400/2981",
+      "011": "-15600/2869",
+      "100": "-20400/6491",
+      "101": "-15600/6559",
+      "110": "-15600/4469",
+      "111": "51600/4081"
+    }
+  },
+  "flow": {
+    "r_000_001": "420677961406813/8696843031960000",
+    "r_000_010": "1526906051/72333540000",
+    "r_000_011": "129080505697/32242675455000",
+    "r_000_100": "641230019767249/17393686063920000",
+    "r_000_101": "4795483/142640000",
+    "r_000_110": "756327/35660000",
+    "r_000_111": "0",
+    "r_001_000": "8656153/126480000",
+    "r_001_010": "399560777/84804840000",
+    "r_001_011": "2595724722349/68932616490000",
+    "r_001_100": "7387399780886969/269602133990760000",
+    "r_001_101": "0",
+    "r_001_110": "54136011/2424880000",
+    "r_001_111": "0",
+    "r_010_000": "390511/6472800",
+    "r_010_001": "0",
+    "r_010_011": "64674431569/2604007440000",
+    "r_010_100": "0",
+    "r_010_101": "0",
+    "r_010_110": "0",
+    "r_010_111": "0",
+    "r_011_000": "0",
+    "r_011_001": "1487831720240921/64520929034640000",
+    "r_011_010": "0",
+    "r_011_100": "0",
+    "r_011_101": "284395363/9949140000",
+    "r_011_110": "0",
+    "r_011_111": "2068549/32240000",
+    "r_100_000": "12923581/354960000",
+    "r_100_001": "0",
+    "r_100_010": "21337974647/714002040000",
+    "r_100_011": "0",
+    "r_100_101": "949587863/13960890000",
+    "r_100_110": "310977319/10293840000",
+    "r_100_111": "0",
+    "r_101_000": "0",
+    "r_101_001": "1539500158611863/19732517378460000",
+    "r_101_010": "0",
+    "r_101_011": "0",
+    "r_101_100": "1861181307415759/78930069513840000",
+    "r_101_110": "0",
+    "r_101_111": "478807/8091000",
+    "r_110_000": "0",
+    "r_110_001": "20911035396297389/3471575106757680000",
+    "r_110_010": "0",
+    "r_110_011": "3050091110141/486760390740000",
+    "r_110_100": "82183525390461691/1936070732614860000",
+    "r_110_101": "0",
+    "r_110_111": "41262277/814320000",
+    "r_111_000": "0",
+    "r_111_001": "10471743716129927/2069592852105540000",
+    "r_111_010": "85337791/2896560000",
+    "r_111_011": "222301337951/5164566480000",
+    "r_111_100": "35416739313011903/1034796426052770000",
+    "r_111_101": "367318567/12021877500",
+    "r_111_110": "60974221/1925640000"
+  },
+  "flow_key_check": {
+    "all_entries_nonnegative": true,
+    "exact_order_match": true,
+    "expected_key_count": 56,
+    "extra_keys": [],
+    "missing_keys": [],
+    "nonzero_flow_field": {
+      "matches_positive_entries": true,
+      "positive_entry_count": 33,
+      "provided": true
+    },
+    "supplied_key_count": 56
+  },
+  "input": {
+    "C": [
+      [
+        "1/2",
+        "1/12",
+        "1/15"
+      ],
+      [
+        "1/12",
+        "2/5",
+        "1/20"
+      ],
+      [
+        "1/15",
+        "1/20",
+        "3/5"
+      ]
+    ],
+    "V": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "bit_to_coordinate_convention": {
+      "b2": "coordinate_2",
+      "example": "001 occupies coordinate_1 only",
+      "leftmost_bit_b3": "coordinate_3",
+      "rightmost_bit_b1": "coordinate_1",
+      "state_string": "b3b2b1"
+    },
+    "state_order": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  "mobius_full_event_law": {
+    "all_mu_positive": true,
+    "inclusion_determinants": {
+      "000": "1",
+      "001": "1/2",
+      "010": "2/5",
+      "011": "139/720",
+      "100": "3/5",
+      "101": "133/450",
+      "110": "19/80",
+      "111": "4081/36000"
+    },
+    "mu": {
+      "000": "451/4000",
+      "001": "499/4000",
+      "010": "2981/36000",
+      "011": "2869/36000",
+      "100": "6491/36000",
+      "101": "6559/36000",
+      "110": "4469/36000",
+      "111": "4081/36000"
+    },
+    "sum_mu": "1"
+  },
+  "optional_instance_comparison": {
+    "all_checks_pass": true,
+    "checks": {
+      "G_matches_recomputed": true,
+      "c_matches_task_literal": true,
+      "detG_matches_recomputed": true,
+      "features_match_recomputed": true,
+      "mu_matches_recomputed": true,
+      "state_order_matches": true,
+      "v_matches_task_literal": true,
+      "variables_match_ordered_edges": true
+    },
+    "path": "frozen_f249_instance.json",
+    "provided": true
+  },
+  "orientation_check": {
+    "all_density_adjoint_eigen_residuals_zero": true,
+    "density_adjoint_values": {
+      "G11": {
+        "000": "22280/4059",
+        "001": "-680/4491",
+        "010": "14920/2981",
+        "011": "-520/2869",
+        "100": "-680/6491",
+        "101": "-20920/6559",
+        "110": "-520/4469",
+        "111": "-13880/4081"
+      },
+      "G12": {
+        "000": "14560/4059",
+        "001": "8840/4491",
+        "010": "5840/2981",
+        "011": "6760/2869",
+        "100": "-11560/6491",
+        "101": "-11840/6559",
+        "110": "-8840/4469",
+        "111": "-3760/4081"
+      },
+      "G22": {
+        "000": "19790/4059",
+        "001": "19810/4491",
+        "010": "-1790/2981",
+        "011": "-1810/2869",
+        "100": "-1790/6491",
+        "101": "-1810/6559",
+        "110": "-16210/4469",
+        "111": "-16190/4081"
+      },
+      "d": {
+        "000": "-37600/1353",
+        "001": "13600/1497",
+        "010": "40800/2981",
+        "011": "31200/2869",
+        "100": "40800/6491",
+        "101": "31200/6559",
+        "110": "31200/4469",
+        "111": "-103200/4081"
+      }
+    },
+    "eigenvalues": {
+      "G11": "-1",
+      "G12": "-1",
+      "G22": "-1",
+      "d": "-2"
+    },
+    "method": "Direct density adjoint diag(mu)^-1 Q^T diag(mu), independently of stored A,b."
+  },
+  "q_generator": {
+    "000": {
+      "000": "-39511/26970",
+      "001": "932767098463/2174210757990",
+      "010": "3385601/18083385",
+      "011": "1144838188/32242675455",
+      "100": "1421796052699/4348421515980",
+      "101": "10633/35660",
+      "110": "1677/8915",
+      "111": "0"
+    },
+    "001": {
+      "000": "17347/31620",
+      "001": "-2005023084979/1558103309790",
+      "010": "800723/21201210",
+      "011": "10403706302/34466308245",
+      "100": "14804408378531/67400533497690",
+      "101": "0",
+      "110": "108489/606220",
+      "111": "0"
+    },
+    "010": {
+      "000": "655/899",
+      "001": "0",
+      "010": "-74396849/72333540",
+      "011": "21695549/72333540",
+      "100": "0",
+      "101": "0",
+      "110": "0",
+      "111": "0"
+    },
+    "011": {
+      "000": "0",
+      "001": "518588957909/1792248028740",
+      "010": "0",
+      "011": "-365164106/251296695",
+      "100": "0",
+      "101": "99127/276365",
+      "110": "0",
+      "111": "6489/8060"
+    },
+    "100": {
+      "000": "1991/9860",
+      "001": "0",
+      "010": "3287317/19833390",
+      "011": "0",
+      "100": "-935749143971/1025525096730",
+      "101": "292586/775605",
+      "110": "47909/285940",
+      "111": "0"
+    },
+    "101": {
+      "000": "0",
+      "001": "234715682057/548125482735",
+      "010": "0",
+      "011": "0",
+      "100": "283759918801/2192501930940",
+      "101": "-47599/53940",
+      "110": "0",
+      "111": "292/899"
+    },
+    "110": {
+      "000": "0",
+      "001": "4679130766681/96432641854380",
+      "010": "0",
+      "011": "682499689/13521121965",
+      "100": "18389690174639/53779742572635",
+      "101": "0",
+      "110": "-38197829/44985090",
+      "111": "9233/22620"
+    },
+    "111": {
+      "000": "0",
+      "001": "2565974936567/57488690336265",
+      "010": "20911/80460",
+      "011": "54472271/143460180",
+      "100": "17356892581726/57488690336265",
+      "101": "2160168/8014585",
+      "110": "14941/53490",
+      "111": "-41399/26970"
+    }
+  },
+  "repo_metadata": {
+    "head": "c170ea9b32b30d691fca9ecb708214876e87e1ba",
+    "local_frozen_commit_present": true,
+    "public_pr47_commit_present_in_local_checkout": false,
+    "status_short": "M research/C2/verification3/README.md\n?? research/C2/verification3/pr43_flow_review/\n?? research/C2/verification3/reproduce.md"
+  },
+  "run": {
+    "elapsed_seconds": 0.125,
+    "finished_at_utc": "2026-09-09T10:33:37.315891+00:00",
+    "pid": 21732,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "started_at_utc": "2026-09-09T10:33:37.194640+00:00",
+    "thread_limits": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "scope": "Exact verification of the PR43 task D directed stationary flow certificate only; no entropy curvature, concavity, or novelty claim is certified.",
+  "stationary_generator_checks": {
+    "all_row_sums_zero": true,
+    "finite_generator_semigroup_basis": "Off-diagonal rates are nonnegative and row sums are zero, so Q is a finite continuous-time Markov generator. The exact identity mu Q = 0 makes mu stationary for exp(tQ).",
+    "mu_Q": {
+      "000": "0",
+      "001": "0",
+      "010": "0",
+      "011": "0",
+      "100": "0",
+      "101": "0",
+      "110": "0",
+      "111": "0"
+    },
+    "mu_stationary": true,
+    "off_diagonal_nonnegative": true,
+    "row_sums": {
+      "000": "0",
+      "001": "0",
+      "010": "0",
+      "011": "0",
+      "100": "0",
+      "101": "0",
+      "110": "0",
+      "111": "0"
+    }
+  },
+  "strict_kernel_checks": {
+    "C_positive_definite": true,
+    "C_principal_minors": {
+      "{1,2,3}": "4081/36000",
+      "{1,2}": "139/720",
+      "{1,3}": "133/450",
+      "{1}": "1/2",
+      "{2,3}": "19/80",
+      "{2}": "2/5",
+      "{3}": "3/5"
+    },
+    "I_minus_C_positive_definite": true,
+    "I_minus_C_principal_minors": {
+      "{1,2,3}": "451/4000",
+      "{1,2}": "211/720",
+      "{1,3}": "44/225",
+      "{1}": "1/2",
+      "{2,3}": "19/80",
+      "{2}": "3/5",
+      "{3}": "2/5"
+    }
+  },
+  "verdict": "CORRECT_WITH_SCOPE"
+}

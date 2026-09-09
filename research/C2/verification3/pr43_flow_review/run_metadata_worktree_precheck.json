@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "./verify_pr43_flow_independent.py",
+    "--certificate",
+    "../pr43_flow/flow_certificate.json",
+    "--instance",
+    "../pr43_flow/instance.json",
+    "--repo-root",
+    "../../../..",
+    "--output-dir",
+    "."
+  ],
+  "evidence_path": "evidence.json",
+  "exit_code": 0,
+  "note": "Single-thread exact rational run; no LP resolve/search performed.",
+  "pid": 57268,
+  "verdict": "CORRECT_WITH_SCOPE",
+  "path_normalization": "Only machine-specific path strings normalized for publication; raw invocation retained privately."
+}
