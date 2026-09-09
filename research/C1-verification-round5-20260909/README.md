@@ -5,11 +5,19 @@ PR59 and PR60 Claims 1-4 are ACCEPTED_SCOPED and
 READY for C3's independent second. PR58's original analytic scope is also
 READY after its wording repair at 7d3dd405. Its additive analytic scope is
 READY after the norm-domain repair at 5ab3cae1. PR58's original finite
-corridor and s=10 signs now pass the PR72 source/evidence audit, with one
-remaining rounded-decimal wording repair at RESULT (5.1). Its new additive
-finite witness remains a distinct PR76 evidence-review unit.
+corridor and s=10 signs pass the PR72 source/evidence audit; the final
+rounded-decimal wording and dual mask-order repairs are CLOSED at ce9ade6d.
+Its new additive finite witness is ACCEPTED_SCOPED and READY after the
+one-file bounds repair at 89aa874c. The old false threshold and uncertified
+author-W decimal remain in the historical review; the latest source uses
+a supported coarser T bound and qualitative W<0. PR76 remains a stopped
+first-mismatch packet, not a new machine PASS.
 
-- [PR58 original first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md): compensation, conditional interval criterion and conditional centering pass. The [corridor finite FIRST](units/pr58/corridor_review_report.md) and [independent-source audit](units/pr58/corridor_code_review.md) accept the original four-interval corridor and s=10 W/complete-curvature signs. RESULT (5.1) still needs its printed decimal labeled approximate; (5.2)'s strict lower bound passes separately. The older comparison wording is [closed](units/pr58/wording_review.md). The [additive delta](units/pr58/delta_review_report.md) passes projection/normal equations/rank-four structure after its [domain repair](units/pr58/domain_repair_review.md); its new finite example remains separately gated. [Delta code review](units/pr58/delta_code_review.md) is static only.
+The final [bounds repair closure](units/pr58/bounds_repair_review.md)
+supersedes the two original literal-claim findings described below:
+the threshold is repaired and the former author-W decimal withdrawn.
+
+- [PR58 original first report](units/pr58/review_report.md) and [static code review](units/pr58/code_review.md) are preserved. The [corridor finite FIRST](units/pr58/corridor_review_report.md) and [independent-source audit](units/pr58/corridor_code_review.md) accept the original four-interval corridor and s=10 signs. The [presentation closure](units/pr58/presentation_repair_review.md) closes (5.1)'s approximate-decimal wording and the additive mask order; (5.2)'s strict bound already passed. Older [comparison wording](units/pr58/wording_review.md) and [norm domain](units/pr58/domain_repair_review.md) remain closed. The [additive analytic delta](units/pr58/delta_review_report.md) passes. Its separate [PR76 finite audit](units/pr58/additive_machine_review.md) supports qualitative criterion failure with favorable true entropy curvature, but rejects (3.5)'s printed threshold and leaves the corrected author-W decimal unverified. [Machine code review](units/pr58/additive_machine_code_review.md) preserves the stopped-first-mismatch status.
 - [PR59 first report](units/pr59/review_report.md) and [static code review](units/pr59/code_review.md): compact tube, five-term Hessian, qualitative finite-state interface, beam-splitter obstruction and explicit family pass. Error constants and the transverse radius remain existential; no rate computation ran.
 - [PR60 original first report](units/pr60/review_report.md) and [static code review](units/pr60/code_review.md) are preserved. The [machine-evidence follow-up](units/pr60/machine_review_report.md) and [machine source/evidence audit](units/pr60/machine_code_review.md) close Claims 1-3 against frozen C2 PR64 raw materials. Full Lambda-zero strictness, conditional entropy and the stated center-dependent nonzero band are READY. The separate [Claim 4 auxiliary FIRST](units/pr60/aux_review_report.md) and [source/evidence audit](units/pr60/aux_code_review.md) close the radial derivative, true negative-Hessian and full Jensen signs against C2 PR71. This refutes only the auxiliary monotonicity law; it is not an entropy counterexample. Perspective identities pass separately with their remaining inequality open.
 

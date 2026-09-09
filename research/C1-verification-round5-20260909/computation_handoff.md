@@ -83,9 +83,9 @@ C2 PR72 e557d93e864582c9f9e7bd4384ed21d6ae2f66e2, executed source
 the independent implementation and all raw event/identity/corridor/s10/
 comparison/run artifacts. All 30 files and four copied author inputs
 are bound. The finite corridor and s=10 signs are ACCEPTED_SCOPED.
-One author publication repair remains: RESULT (5.1)'s decimal must be
-identified as approximate/rounded, with the rational endpoint governing.
-The distinct (5.2) strict lower bound passes. See the three corridor
+The subsequent ce9ade6d author repair closes RESULT (5.1)'s approximate
+decimal wording; the exact rational endpoint governs. The distinct
+(5.2) strict lower bound passes. See the three corridor
 reports and both CORRIDOR bindings in units/pr58. No new arithmetic is
 requested for this wording repair.
 
@@ -101,8 +101,28 @@ every logarithm with rational tails and separately prove W<0 and
 t^2 I''>0, hence H''<0. Preserve raw fractions, every Fisher/acceleration
 term and the first mismatch. The code and saved decimal output are
 downstream comparison targets, not an independent implementation.
-This unit is queued for a distinct C2 contract; it inherits no pass or
-time budget from the original fixture, full-r certificate or radial unit.
+This unit was separately claimed and frozen as PR76 at a7979c33b6e82431b6ddf1d39ac69e254d7b655a,
+executed source bbc9bc19b915ebad0ea8e8bea00580d4eebc5246. It inherits no
+pass or time budget from the original fixture, full-r or radial unit.
+The original FIRST read the independent source and raw artifacts and
+accepts the retained qualitative witness. The run correctly stopped at
+the first literal mismatch in (3.5), whose printed upper bound is false.
+Run-labelled W is V=s^2 W_author because the original request used the
+wrong name; that is not an author defect, and it leaves the old (3.6)
+author-W decimal uncertified. The existing raw intervals support a coarser
+T upper bound and qualitative W<0 by positive scaling, without a rerun.
+See additive_machine_review.md and additive_machine_code_review.md for
+the precise accepted evidence, soundness audit and repair options.
+
+The subsequent author-only repair at 89aa874c24dd5a3ea98f8474826392560b1d0397,
+parent ce9ade6d57469f0a4a67365604c66eb4cc290fc5, is CLOSED by the original
+FIRST. It uses T<166.441251953051541 and qualitative W<0, withdraws the
+uncertified author-W decimal, and explicitly cites retained T/V/complete-
+curvature enclosures. The revised fixed witness is ACCEPTED_SCOPED and
+READY for C3 SECOND. This requires no new C2 run: the existing evidence
+supports the revised claims. The original stopped packet is not relabeled
+as a new all-literals PASS. See bounds_repair_scope.md and
+bounds_repair_review.md, with BOUNDS_REPAIR_SOURCE_BINDING.json.
 
 ## PR60 separate radial-obstruction unit
 

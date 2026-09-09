@@ -1,0 +1,209 @@
+{
+  "commit": "a7979c33b6e82431b6ddf1d39ac69e254d7b655a",
+  "computation": "C1 source/evidence review only; no arithmetic execution",
+  "prefix": "research/C2/pr58_additive52/",
+  "unit": "pr76_additive",
+  "file_count": 33,
+  "files": [
+    {
+      "download_hash_verified": true,
+      "blob": "f38ced463e6c9f2ee81a3104a573bda12de50af3",
+      "path": "research/C2/pr58_additive52/.gitattributes",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "fa073feb95594f2c16695e3426daf24827cd38f6",
+      "path": "research/C2/pr58_additive52/README.md",
+      "lines": 29
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "d76a888a6088507629ef8a7b74423a0e9b675f87",
+      "path": "research/C2/pr58_additive52/STATUS.md",
+      "lines": 36
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "80d2202b4a86e7ac5c8d214bb295db486303dc4d",
+      "path": "research/C2/pr58_additive52/execution/CONTRACT_CORRECTION.md",
+      "lines": 26
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "07677734cfe7519827111997487e3567d1018635",
+      "path": "research/C2/pr58_additive52/execution/RUN_LEDGER.json",
+      "lines": 62
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "c247b99b61a033a48795cd4098e458c3e8100505",
+      "path": "research/C2/pr58_additive52/execution/run_guard.sh",
+      "lines": 54
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "b6050079741d8bd8eacef81c597f8c587323c6c7",
+      "path": "research/C2/pr58_additive52/frozen_contract.md",
+      "lines": 7
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "c84e11513d708469704c6cd2a40339fb7c9e6873",
+      "path": "research/C2/pr58_additive52/implementation/independent_pr58_additive52_checker.py",
+      "lines": 1313
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "b6125440919706e2a202d65176d5538c86f4449c",
+      "path": "research/C2/pr58_additive52/inputs/ADDENDUM_JOINT_ADDITIVE.md",
+      "lines": 251
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "38360a635369d5adec4c3bd53c37566ef3fecf5f",
+      "path": "research/C2/pr58_additive52/inputs/REQUEST.md",
+      "lines": 32
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "27ef6b16d0a0943b7d783ac0d38750cfbfbd2606",
+      "path": "research/C2/pr58_additive52/inputs/REQUEST_CORRECTION.md",
+      "lines": 3
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "ce1fc3c6a5c364b01f5de65cc0c6f6829c7e6c3b",
+      "path": "research/C2/pr58_additive52/inputs/SOURCE_BINDING.json",
+      "lines": 28
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "path": "research/C2/pr58_additive52/inputs/author_checker_reference.py",
+      "lines": 117
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "path": "research/C2/pr58_additive52/inputs/author_output_reference.txt",
+      "lines": 11
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "33d2f159e1adba40c8fb715405e0bec54bd18dd8",
+      "path": "research/C2/pr58_additive52/machine_notes.md",
+      "lines": 45
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "6611a60e659b210a2b33b2ed8ff639628edadbab",
+      "path": "research/C2/pr58_additive52/outputs/run01/00_metadata.json",
+      "lines": 63
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "870c12f1e0107468a06e160baa375e5235149642",
+      "path": "research/C2/pr58_additive52/outputs/run01/01_literal_inputs.json",
+      "lines": 350
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "e77cd67a34e4d8ba85099a76bfcca18f4b54b5ac",
+      "path": "research/C2/pr58_additive52/outputs/run01/02_linear_algebra.json",
+      "lines": 663
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "0036770914dec6e38ae51bcc9ae9be53777aa9e7",
+      "path": "research/C2/pr58_additive52/outputs/run01/03_block_marginals.json",
+      "lines": 80
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "16eeb520af574325fb7b96ca914a45b1e93e13a2",
+      "path": "research/C2/pr58_additive52/outputs/run01/04_events.json",
+      "lines": 8184
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "237cbef41029bcde6201cbc2037735074c5cdf77",
+      "path": "research/C2/pr58_additive52/outputs/run01/05_cancellations.json",
+      "lines": 299
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "e7c90c12566b82a9b272df0c123776b45840a715",
+      "path": "research/C2/pr58_additive52/outputs/run01/06_forms.json",
+      "lines": 1335
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "d06006a34a6cb30893792eda0ed3e9435c7c0424",
+      "path": "research/C2/pr58_additive52/outputs/run01/07_scalar_enclosures_N80.json",
+      "lines": 5061
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "d0d3fb8a519b8486ed4d16b507d4e48d42faf458",
+      "path": "research/C2/pr58_additive52/outputs/run01/08_comparisons_N80.json",
+      "lines": 207
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "7ca6aa515c12fc9d765d5650e09983bf1b5fbf3c",
+      "path": "research/C2/pr58_additive52/outputs/run01/arithmetic_pid.txt",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "path": "research/C2/pr58_additive52/outputs/run01/cpu_affinity.txt",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "9b6b15ef357cf7255b5462564ee26a080caff6ab",
+      "path": "research/C2/pr58_additive52/outputs/run01/deadline_utc.txt",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "250069ed796e765053ed1cfd207dd6d4ee0a9438",
+      "path": "research/C2/pr58_additive52/outputs/run01/exit.json",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "92eeea82ace6dd4a9064245e3dfecbf11cdba469",
+      "path": "research/C2/pr58_additive52/outputs/run01/final.json",
+      "lines": 36
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "6d99f40e493c0d455fa81540d80ec271f9636ae4",
+      "path": "research/C2/pr58_additive52/outputs/run01/start_utc.txt",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "research/C2/pr58_additive52/outputs/run01/stderr.log",
+      "lines": 0
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "c4813287bcb9883a0c99d5c80895379f535da453",
+      "path": "research/C2/pr58_additive52/outputs/run01/stdout.log",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "dea9bf28150d33c02aaafb741b202a8f7f975b5e",
+      "path": "research/C2/pr58_additive52/outputs/run01/timeout_pid.txt",
+      "lines": 1
+    }
+  ],
+  "origin": "public immutable GitHub commit",
+  "base": "28c24dee643f8a2049c143f79d4d63798907d2f1"
+}

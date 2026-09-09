@@ -121,3 +121,27 @@ wording: its decimal is approximate, while the exact rational endpoint
 governs the negative sign certificate. The (5.2) strict lower bound is
 accepted separately. The new additive s=9/10 evidence remains a distinct
 PR76 review and inherits no status from this closure.
+
+## PR76 finite FIRST and final PR58 author repairs
+
+The original reviewer audited all 33 frozen PR76 files at a7979c33, with
+executed source bbc9bc19 and author numeric freeze a4f05cc9. The run stopped
+at the first exact mismatch: (3.5)'s literal T upper bound is false. The
+separate request-caused W/V label discrepancy is not an author defect;
+the original author-W decimal was not certified. All original stopped
+records, source and outputs are preserved. The static interval-engine
+audit covers rational atanh/log2 tails, signed operations, division,
+squaring, outward display and comparison gates. Retained raw evidence
+supports the qualitative witness and favorable complete entropy curvature.
+
+The exact two-sentence author repair ce9ade6d, parent 5ab3cae1, closes
+RESULT (5.1)'s approximate-decimal wording and the additive table's mask
+order. The exact one-file four-line repair 89aa874c, parent ce9ade6d,
+then replaces the false T bound by 166.441251953051541, withdraws the
+author-W decimal in favor of W<0, and explicitly describes deductions
+from the retained PR76 enclosures. That repair is ACCEPTED_SCOPED.
+
+Original and revised finite scopes are now READY for C3 independent
+SECOND under their exact bindings. The PR76 first-mismatch status is
+unchanged; no rerun or new all-literals PASS exists. No C1 arithmetic,
+author edit, formal check, SECOND or main integration was performed.

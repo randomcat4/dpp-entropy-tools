@@ -51,6 +51,10 @@ independent C2 construction. It is not inferred from hashes or PASS text.
 Later bounded evidence follow-ups independently close PR60 Claim 4 using
 PR71 at 8878516c and the original PR58 finite corridor/s=10 units using
 PR72 at e557d93e. Each has separate raw-source/evidence reports and input/
-run bindings; the prior reports remain historical. Original PR58 retains
-only a rounded-decimal wording repair at RESULT (5.1). The new additive
-finite witness is separate and receives no inherited machine pass.
+run bindings; the prior reports remain historical. Original PR58's last
+rounded-decimal wording repair closes at ce9ade6d, with explicit additive
+mask order. The new additive finite witness receives its own PR76 raw
+source/evidence audit and subsequent one-file bounds repair at 89aa874c.
+The revised finite claims are ACCEPTED_SCOPED, while the original false
+T bound and request-caused W/V mismatch remain historically recorded.
+No new machine pass or arithmetic is inferred from the source repair.

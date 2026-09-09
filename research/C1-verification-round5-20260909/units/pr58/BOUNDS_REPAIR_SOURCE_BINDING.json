@@ -1,0 +1,15 @@
+{
+  "parent": "ce9ade6d57469f0a4a67365604c66eb4cc290fc5",
+  "scope": "One-file revised literal bounds and explicit retained-evidence interpretation. Matrix/formulas/code/output unchanged; no rerun/new MACHINE_PASS.",
+  "commit": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+  "files": [
+    {
+      "path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "additions": 4,
+      "download_hash_verified": true,
+      "blob": "09ab0a14f2a096e732730561c194fd730a14a8ef",
+      "deletions": 4
+    }
+  ],
+  "file_count": 1
+}
