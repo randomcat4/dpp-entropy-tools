@@ -1,6 +1,6 @@
 # PR58 original 64-event corridor and s10 signs
 
-PREPARING. Source frozen at 1770ed29e8487b8f39aebb4c9466406c7493e580.
+READY FOR FIRST EXECUTION. Source frozen at 1770ed29e8487b8f39aebb4c9466406c7493e580.
 
 This is a separately named independent machine-evidence unit. An independent
 implementation reconstructs complete-event determinant polynomials from
