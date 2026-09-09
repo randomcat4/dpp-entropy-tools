@@ -1,6 +1,6 @@
 # Primary sources and scope actually used
 
-The bibliography is separated from mathematical acceptance. A cited paper is not evidence that the new bridges in `proof.md` or `finite_range_local_theorem.md` have been independently reviewed.
+The bibliography is separated from mathematical acceptance. A cited paper is not evidence that the new bridges in `proof.md`, `finite_range_local_theorem.md`, or `exponential_wiener_extension.md` have been independently reviewed.
 
 ## Stationary determinantal processes
 
@@ -18,7 +18,7 @@ The bibliography is separated from mathematical acceptance. A cited paper is not
 
 4. Shilei Fan, Lingmin Liao, and Yanqi Qiu, **Stationary determinantal processes: psi-mixing property and L^q-dimensions**, arXiv:1911.04718 (2019).
 
-   This paper proves, in particular, psi-mixing under a strict pointwise margin and an `H^{1/2}` Fourier condition, with a Fourier-tail bound. It is comparison evidence that strict finite-range symbols are strongly mixing. The proof of Theorem FR does not infer analyticity or curvature merely from psi-mixing; it derives a configuration-uniform complete-event conditional limit directly.
+   This paper proves, in particular, psi-mixing under a strict pointwise margin and an `H^{1/2}` Fourier condition, with a Fourier-tail bound. It is comparison evidence that strict finite-range symbols are strongly mixing. The proofs here do not infer analyticity or curvature merely from psi-mixing; they derive a configuration-uniform complete-event conditional limit directly.
 
 5. Tomoyuki Shirai and Yoichiro Takahashi, **Random point fields associated with certain Fredholm determinants II: Fermion shifts and their ergodic and Gibbs properties**, Ann. Probab. 31 (2003), 1533–1564.
 
@@ -28,13 +28,13 @@ The bibliography is separated from mathematical acceptance. A cited paper is not
 
 6. Peter Walters, **Ruelle's Operator Theorem and g-Measures**, Trans. Amer. Math. Soc. 214 (1975), 375–387, DOI 10.1090/S0002-9947-1975-0412389-8.
 
-   Used for the Ruelle-Perron-Frobenius/g-measure theorem on a mixing finite shift: a strictly positive Hölder normalized `g`-function has a unique `g`-measure and the normalized transfer operator has a simple leading eigendatum. `finite_range_local_theorem.md` maps the DPP one-sided complete-event conditionals to this hypothesis.
+   Used for the Ruelle-Perron-Frobenius/g-measure theorem on a mixing finite shift: a strictly positive Hölder normalized `g`-function has a unique `g`-measure and the normalized transfer operator has a simple leading eigendatum. The proof maps the DPP one-sided complete-event conditionals to this hypothesis.
 
-7. Leandro Cioletti and Eduardo A. Silva, **Spectral Properties of the Ruelle Operator on the Walters Class over Compact Spaces**, Nonlinearity 29 (2016), 2253–2280, arXiv:1511.01579.
+7. Leandro Cioletti and Eduardo A. Silva, **Spectral Properties of the Ruelle Operator on the Walters Class over Compact Spaces**, Nonlinearity 29 (2016), 2253–2278, arXiv:1511.01579.
 
    Consulted for analytic dependence of the Ruelle operator on Hölder/Walters spaces and the spectral-gap framework. The only perturbative step used in the proof is also supplied directly: a contour Riesz projection around the simple isolated eigenvalue gives the holomorphic normalized eigenmeasure.
 
-The entropy and relative-entropy rate formulas in Section 6 are not imported as a black box. They follow from the finite right-to-left chain rules plus the exponentially summable, configuration-uniform conditional error established in Section 5.
+The entropy and relative-entropy rate formulas are not imported as a black box. They follow from the finite right-to-left chain rules plus the exponentially summable, configuration-uniform conditional error proved in the branch.
 
 ## Gauge-invariant quasifree states and maps
 
@@ -52,14 +52,14 @@ The entropy and relative-entropy rate formulas in Section 6 are not imported as 
 
 ## Matrix inverse decay
 
-The explicit estimate in Lemma 4.2 of both proof files is proved from the finite Neumann series identity
+The explicit estimate in Lemma 4.2 of the finite-range proof is proved from the finite Neumann series identity
 
 ```text
 M^{-1}=M sum_{r>=0}(I-M^2)^r
 ```
 
-and bandwidth support. No external inverse-decay theorem is required for the stated constants. The weighted Schur algebra in Section 5 then gives a common complex neighborhood for all volumes and all complete configurations.
+and bandwidth support. No external inverse-decay theorem is required for the stated constants. The exponentially weighted extension obtains a uniform inverse algebra by band truncation followed by another Neumann series.
 
 ## Source boundary
 
-No source above is cited for whole-legal-interval concavity. The new finite-range theorem is an author proof assembled from the stated standard transfer theorem and the complete derivations in the branch; it has not been independently reviewed. No numerical experiment is promoted to a rate theorem. Main-reviewed PR29/34/39 remain the only accepted repository inputs used as mathematical theorems.
+No source above is cited for whole-legal-interval concavity. The new scoped theorems are author proofs assembled from the stated standard transfer theorem and the complete derivations in the branch; they have not been independently reviewed. No numerical experiment is promoted to a rate theorem. Main-reviewed PR29/34/39 remain the only accepted repository inputs used as mathematical theorems.
