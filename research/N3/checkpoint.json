@@ -60,5 +60,9 @@
   "unexported_mathematical_results": [],
   "server_execution_copies": "Owned main and falsification research/N3 directories retain raw run copies; all mathematical artifacts are exported and committed in the route PR",
   "continuation_scheduled": false,
-  "restart_condition": "Coordinator supplies a distinct evidence-based mathematical unit; do not repeat original scans without new structure"
+  "restart_condition": "Coordinator supplies a distinct evidence-based mathematical unit; do not repeat original scans without new structure",
+  "current_round": "round2",
+  "latest_round_checkpoint": "round2/checkpoint.json",
+  "latest_round_verdict": "round2/verdict.md",
+  "round1_final_commit": "e476db1bb056af57e883a47f470ea0f4443c1837"
 }

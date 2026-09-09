@@ -21,6 +21,12 @@ round-one substantive stop. B0's premises have not changed during round two.
    is stronger than B0 and remained unproved. A final fixed-input check
    was authorized because this adds a real nonnegative term, rather than
    repeating the old residual-deleted Qk condition.
+6. Final locked-bound test: exactly four existing rational kernels and
+   eight deterministic starts, followed by one strict rational-log
+   certificate, refuted the new max-Qlock dominance on an exact Lambda
+   tangent. The true full Fisher curvature remains strictly positive.
+   Thus arbitrary convex weights on these same three bounds cannot repair
+   the sufficient condition. No further scan follows this failure.
 
 Non-author review is tied to the frozen author objects in `provenance.md`.
 It preserves all failed versions and treats any correction as a new file.

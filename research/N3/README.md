@@ -1,7 +1,12 @@
 # N3: Fisher and conditional covariance coupling
 
-Status: STOPPED_SUBSTANTIVE; final independent audit is integrated.
-The general real three-dimensional claim is INCOMPLETE.
+Status: STOPPED_SUBSTANTIVE after the second round; the general real
+three-dimensional claim and the exact beta-zero subproblem are INCOMPLETE.
+The current result is in `round2/verdict.md`, with execution state in
+`round2/checkpoint.json` and fixed reviews in `round2/verifications/index.md`.
+Round two preserves a strict beta-zero existence certificate, a restricted
+weak-edge nonvanishing mechanism and a new locked-odds dominance obstruction.
+The following paragraphs describe the preserved first-round record.
 Baseline: `fa504ec74e16843fafc395880d7ba99b4c1d2129`.
 Coordination: https://github.com/randomcat4/dpp-entropy-tools/issues/20.
 

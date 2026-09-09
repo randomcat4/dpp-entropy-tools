@@ -1,11 +1,73 @@
 {
-  "status": "ACTIVE_RESEARCH",
+  "status": "STOPPED_SUBSTANTIVE",
+  "global_result": "INCOMPLETE",
+  "beta_zero_result": "INCOMPLETE",
+  "date_utc": "2026-09-09",
   "baseline": "e476db1bb056af57e883a47f470ea0f4443c1837",
   "target": "frozen_theorem_v1.md",
-  "candidate": "exact beta=0 implies det(N)*alpha<=1",
-  "existing_owned_jobs": [],
-  "threads_per_job": 1,
+  "verdict": "verdict.md",
+  "review_index": "verifications/index.md",
+  "issue": "https://github.com/randomcat4/dpp-entropy-tools/issues/20",
+  "draft_pr": "https://github.com/randomcat4/dpp-entropy-tools/pull/24",
+  "author_frozen_objects": {
+    "weak_edge": "3087eb189237ec0a2d60127d0c35128f0cbcd91c",
+    "beta_root": "ab914ec2f73577907314ab3119c4d9f499b17e10",
+    "sign_obstruction": "2af65386ff56bed167e165ec1228b7517554e6ac",
+    "locked_bound": "99205d9ac552355c148f011bb053731a8b1349f0",
+    "locked_obstruction": "c6568dfe1c0c57aaf0b627e84601c35b79b22434",
+    "degeneracy_addendum": "0b6c89ef15db01385a37302e78509e0203838a74"
+  },
+  "review_commits": [
+    "89d35427619c785d8315d62b340665098f8044ad",
+    "338391e4be651098deefb7c7d2c41500abae8633"
+  ],
+  "independent_reviewer_contexts": 1,
+  "reviewed_exact_certificates": "CORRECT",
+  "locked_bound_review": "CORRECT_WITH_ADDENDUM",
+  "weak_edge_review": "BOUNDED_FIXED_OBJECT_REVIEW_NO_SEPARATE_UNIFORM_REMAINDER_THEOREM",
+  "minimal_remaining_obligation": "Complete Fisher control at the actual H-stationary trace direction on exact beta-zero kernels; scalar restatement is EQUIVALENT_BLOCKER",
+  "strict_root_dalpha_enclosure": [
+    "0.6615279258817643",
+    "0.6615279260967083"
+  ],
+  "locked_gap_enclosure": [
+    "-0.482450470481640975",
+    "-0.482450470481640973"
+  ],
+  "active_children": [],
+  "active_owned_server_jobs": [],
+  "active_owned_local_jobs": [],
+  "completed_server_pids": [
+    160670,
+    160749,
+    161284,
+    160926,
+    161034,
+    161752,
+    161832
+  ],
+  "completed_review_local_pids": [
+    9708,
+    64148,
+    37660,
+    47096,
+    23608,
+    42080,
+    65244,
+    29592
+  ],
+  "completed_inequality_sanity_pid": 40996,
+  "failed_run_pids_not_reconstructed": true,
+  "threads_per_mathematical_job": 1,
   "initial_max_parallel_compute_jobs": 2,
   "gpu": false,
-  "global_result": "INCOMPLETE"
+  "server_python": "3.12.3",
+  "server_numpy": "2.1.2",
+  "server_scipy": "1.14.1",
+  "server_mpmath": "1.3.0",
+  "unexported_mathematical_results": [],
+  "continuation_scheduled": false,
+  "lean": "NO_ROUND2_FORMAL_PROOF",
+  "novelty": "NOT_CERTIFIED",
+  "restart_condition": "Distinct coordinator-authorized evidence-based unit; no repetition of the refuted locked-bound dominance or old scans"
 }

@@ -17,6 +17,14 @@ checked before execution. Private connection details are excluded here.
 | falsification/beta_affine_probe.py | 160926 | 12 segments times 9 parameters =108 evaluations | exit 0 |
 | falsification/beta_root_certificate.py | 161034 | 42 bisection selectors +5 interval evaluations | exit 0 |
 | inequality locked-odds formula sanity check, local | 40996 | 20 random kernels, seed 20260909 | exit 0 |
+| falsification/locked_probe.py | 161752 | 4 existing kernels, 8 starts, 196 objective calls | exit 0 |
+| falsification/locked_certificate.py | 161832 | 1 exact rational center/direction | exit 0 |
+
+The first locked-probe launch failed before any optimizer call because the
+library determinant routine mishandled a singular two-by-two cofactor.
+The exact two-by-two polynomial replaced that routine, with the failed
+source and missing short-lived PID disclosed in `falsification/locked_run_log.md`.
+This is a runtime failure, not a rejected mathematical counterexample.
 
 Main probe decimal precisions were 100 and 120 respectively; they are
 diagnostics, not interval certificates. Their inputs are deterministic and
@@ -36,3 +44,11 @@ many points. Child `run_log.md`/`command_log.md` files preserve finer details.
 The final locked-bound test and independent reviewer runs are separately
 logged by their owners. The final checkpoint records their frozen commits,
 remaining live jobs and transport verification.
+
+Final integration checks passed: six groups of proof/certificate files
+match their original frozen Git objects exactly; the mathematical-run
+structure validator reported no errors or warnings. Its one proof index
+and one verification index are indexing conventions, not counts of
+independent proofs or reviewers. The validator checks structure only.
+All child mathematical jobs are complete, and no background continuation
+is scheduled. Reviewed run failures remain in the final reviewer ledger.

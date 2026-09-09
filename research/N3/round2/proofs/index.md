@@ -11,5 +11,9 @@ This file is an index, not an additional proof or independent proof count.
   remaining optimizing-direction obligation; B0 INCOMPLETE.
 - `../inequality/lambda_tangent_locked_odds_lemma.md`: Fisher lower bound
   under a conditional-odds lock; cofactor dominance INCOMPLETE.
+- `../falsification/locked_obstruction.md`: the proposed locked-bound
+  cofactor dominance is now strictly refuted, while F>=Qlock remains valid.
+- `../inequality/locked_odds_degeneracy_addendum.md`: explicit zero-norm
+  convention for the valid projection, preserving the historical first draft.
 
 Review results and corrections take precedence over author status labels.

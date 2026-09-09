@@ -17,6 +17,15 @@ review units; there is no two-reviewer certification of a main theorem.
 | tangent sign obstruction | 2af6538 | same |
 | square optimizer note | 8b104c215515e18c7c0e7eaebeb76df096b47fbc | 4b41905 |
 | locked-odds bound v1 | 99205d9ac552355c148f011bb053731a8b1349f0 | 56869de |
+| locked dominance obstruction | c6568dfe1c0c57aaf0b627e84601c35b79b22434 | 58f808c |
+| zero-residual-norm convention addendum | 0b6c89ef15db01385a37302e78509e0203838a74 | 26d8a5b |
+
+First independent review: 89d35427619c785d8315d62b340665098f8044ad,
+integrated as 01886a0. It audits definitions and the frozen weak-edge
+candidate; the final review expands the scope to the later exact objects.
+Final independent review: 338391e4be651098deefb7c7d2c41500abae8633,
+integrated as d12c728. Its scope and weak-edge limitation are summarized in
+`verifications/index.md`. Both review units are from the same nonauthor.
 
 Cherry-picks preserve the original child objects and identical owned file
 content; they do not erase author history. Later corrections and reviews

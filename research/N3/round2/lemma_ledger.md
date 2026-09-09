@@ -11,8 +11,8 @@
 | one strict connected beta-zero root bracket with det(N)*alpha<1 | strictly partial existence | rational interval certificate, review required |
 | beta>0 on the entire strict connected domain | possible emptiness shortcut | refuted by negative endpoint |
 | Lambda'[D]=0 implies cofactor<=0 | stronger sign shortcut | exact tangent obstruction |
-| Lambda'[D]=0 implies F(D,D)>=Qlock_k(D) | actual Fisher lower bound | Gram proof; degenerate wording under review |
-| max_k Qlock_k(D)>=cofactor on that hyperplane | sufficient for a stronger tangent theorem | final bounded certificate pending |
+| Lambda'[D]=0 implies F(D,D)>=Qlock_k(D) | actual Fisher lower bound | Gram proof with explicit 0b6c89e degeneracy addendum |
+| max_k Qlock_k(D)>=cofactor on that hyperplane | sufficient for a stronger tangent theorem | strictly refuted by c6568df; review required |
 | B(D,D)>=0 on every Lambda tangent | stronger than B0 | INCOMPLETE |
 
 外部定理条件核验: the real symmetric principal-minor theorem is used only
