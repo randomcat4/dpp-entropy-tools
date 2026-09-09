@@ -1,0 +1,17 @@
+{
+  "pid": 61236,
+  "started_utc": "20260909T064857Z",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "config_path": "C:\\game\\gameproject\\showa100\\math\\i05-seven-fronts-20260909\\runs\\C2\\verification2\\hessian\\inputs.json",
+  "output_dir": "C:\\game\\gameproject\\showa100\\math\\i05-seven-fronts-20260909\\runs\\C2\\verification2\\hessian\\output\\run_20260909T064857Z_pid61236",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "log_series_terms": 32,
+  "max_total_attempts": 24
+}

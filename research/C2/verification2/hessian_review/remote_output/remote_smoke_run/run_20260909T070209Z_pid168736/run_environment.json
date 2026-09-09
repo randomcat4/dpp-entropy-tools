@@ -1,0 +1,19 @@
+{
+  "pid": 168736,
+  "started_utc": "20260909T070209Z",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "config_path": "inputs.json",
+  "output_dir": "remote_smoke_run/run_20260909T070209Z_pid168736",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "log_series_terms": 32,
+  "max_total_attempts": 6,
+  "radius_plan_path": null,
+  "radius_plan": null
+}

@@ -1,0 +1,9 @@
+started_utc=20260909T070659Z
+runner_pid=169409
+python_version=Python 3.12.3
+working_dir=/root/i05-seven-fronts-20260909/C2/verification2/hessian
+input=inputs.json
+output_root=output
+max_total_attempts=45
+log_terms=from_inputs
+radius_plan=server_radius_plan.json

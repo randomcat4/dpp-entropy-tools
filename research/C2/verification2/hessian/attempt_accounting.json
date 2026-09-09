@@ -1,0 +1,134 @@
+[
+  {
+    "surface": "local_debug",
+    "run": "run_20260909T064359Z_pid33316",
+    "log_rows": 9,
+    "distinct_attempt_numbers": 9,
+    "status_counts": [
+      {
+        "status": "FAILED_GERSHGORIN",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "surface": "local_debug",
+    "run": "run_20260909T064548Z_pid28272",
+    "log_rows": 27,
+    "distinct_attempt_numbers": 17,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 10
+      },
+      {
+        "status": "FAILED_EXCEPTION",
+        "count": 10
+      },
+      {
+        "status": "FAILED_GERSHGORIN",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "surface": "local_debug",
+    "run": "run_20260909T064857Z_pid61236",
+    "log_rows": 10,
+    "distinct_attempt_numbers": 7,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 3
+      },
+      {
+        "status": "FAILED_EXCEPTION",
+        "count": 3
+      },
+      {
+        "status": "FAILED_GERSHGORIN",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "surface": "local_debug",
+    "run": "run_20260909T065021Z_pid35572",
+    "log_rows": 32,
+    "distinct_attempt_numbers": 32,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 7
+      },
+      {
+        "status": "FAILED_GERSHGORIN",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "surface": "server",
+    "run": "run_20260909T065621Z_pid168296",
+    "log_rows": 2,
+    "distinct_attempt_numbers": 2,
+    "status_counts": [
+      {
+        "status": "FAILED_GERSHGORIN",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "surface": "server",
+    "run": "run_20260909T065952Z_pid168584",
+    "log_rows": 3,
+    "distinct_attempt_numbers": 3,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "surface": "server",
+    "run": "run_20260909T070659Z_pid169415",
+    "log_rows": 1,
+    "distinct_attempt_numbers": 1,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "surface": "server",
+    "run": "run_20260909T071002Z_pid169539",
+    "log_rows": 2,
+    "distinct_attempt_numbers": 1,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 1
+      },
+      {
+        "status": "FAILED_EXCEPTION",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "surface": "server",
+    "run": "run_20260909T071241Z_pid169650",
+    "log_rows": 1,
+    "distinct_attempt_numbers": 1,
+    "status_counts": [
+      {
+        "status": "ACCEPTED",
+        "count": 1
+      }
+    ]
+  }
+]
