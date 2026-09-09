@@ -1,0 +1,30 @@
+{
+  "label": "balanced_mixed_cycle_boundary",
+  "status": "PASS",
+  "connected": true,
+  "active": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "zero_rows": [],
+  "zero_rows_symbolic": true,
+  "K_leading_minors": [
+    "1/2",
+    "63/256",
+    "243/2048"
+  ],
+  "I_minus_K_leading_minors": [
+    "1/2",
+    "63/256",
+    "245/2048"
+  ],
+  "min_event_probability": "243/2048",
+  "min_decimal_ldl_pivot_lower_endpoint": "0.335898087150373889425705260559656089135410861683893077786319824665911983696921528367257041",
+  "min_decimal_ldl_pivot_lower_diagnostic": "3.358980871503738894E-1",
+  "max_decimal_pivot_width_diagnostic": "3.240E-47",
+  "diagnostic_min_residual_eig_active": 0.32484346639462164
+}

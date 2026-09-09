@@ -1,0 +1,9 @@
+run_shell_pid=168709
+workdir=/root/i05-seven-fronts-20260909/C1/verification/w4
+ulimit_v=8388608
+command=timeout 240 /opt/venv/bin/python -u minimal_w4_certificate.py
+Python 3.12.3
+python_executable /opt/venv/bin/python
+platform Linux-6.8.0-79-generic-x86_64-with-glibc2.39
+numpy 2.1.2
+sympy 1.13.3

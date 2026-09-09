@@ -1,0 +1,31 @@
+{
+  "label": "balanced_one_edge_12",
+  "status": "PASS",
+  "connected": false,
+  "active": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "zero_rows": [
+    4,
+    5
+  ],
+  "zero_rows_symbolic": true,
+  "K_leading_minors": [
+    "1/2",
+    "63/256",
+    "63/512"
+  ],
+  "I_minus_K_leading_minors": [
+    "1/2",
+    "63/256",
+    "63/512"
+  ],
+  "min_event_probability": "63/512",
+  "min_decimal_ldl_pivot_lower_endpoint": "0.331321224077467752083675280074150482645274865247076531156372401258626095415291149970784552",
+  "min_decimal_ldl_pivot_lower_diagnostic": "3.313212240774677521E-1",
+  "max_decimal_pivot_width_diagnostic": "3.464E-47",
+  "diagnostic_min_residual_eig_active": 0.3313212240774678
+}
