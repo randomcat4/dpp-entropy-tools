@@ -13,6 +13,11 @@
 | 已覆盖 | 固定五点有理框架下 R12_boundary_mid 中心的六坐标半径 1/2048 小盒，全盒与全部非零实对称方向上的严格负曲率 | [单盒冻结范围与严格核验](../research/C2/verification2/hessian_review/REVIEW_single_box_R12_boundary_mid.md) |
 | 已覆盖 | W4 三维 `|K_ij|<=sqrt(v_i v_j)/4` 归一化子域的完整六方向界和闭包弦凹性；连通两边图也足以使 Hessian 负定 | [W4 最终审核](../research/C1-verification-20260909/READY_BATCH_04.md) |
 | 已覆盖 | PR41 等幅强耦合三点缺边中心 `0<8*kappa^2<1` 的全六方向严格负曲率；严格二点块加孤立点的全方向半负定恒等式及二点条件熵引理 | [首审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41/review_report.md)、[新鲜独立第二审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41_second/review_report.md) |
+| 已覆盖 | 任意严格实三点核的不定秩二仿射方向全合法熵凹性；逐条件判据及相关非坐标 3+3 特殊族 | [PR43 E/G/H 双审范围](verification_round3_20260909/accepted_pr43.md) |
+| 已覆盖 | 任意维/秩的对角活动坐标扇区、逐条件严格对角锚点的全合法径向熵凹性 | [PR43 I/J 坐标与严格性前提](verification_round3_20260909/accepted_pr43.md) |
+| 固定存在性已证 | 指定三点 C、V 的非可逆有向平稳生成元，四种外幂特征收缩方程精确成立；仍待完整耗散曲率 | [PR47 非作者证书](../research/C2/verification3/pr43_flow_review/REVIEW.md) |
+| 普遍可逆机制已否定 | 相关两点核的外幂特征内积为 -125/78；只排除具有所需不同特征值的可逆核/生成元，不排除非可逆机制 | [PR43 M 双审](verification_round3_20260909/accepted_pr43.md) |
+| 统一占据配置通道已否定 | 相同输入占据分布经相关准自由衰减得到满事件 91/400 与 99/400；不是量子通道或熵凹性的反例 | [PR43 N 双审](verification_round3_20260909/accepted_pr43.md) |
 | 充分条件已否定 | `max Qlock>=C` 及仅由相同三个投影组成的凸组合；完整 Fisher 在反例点仍大于 C | [N3 审核和复算](verification_20260909/pr24.md) |
 | 统一余量已否定 | 连通严格 beta 零集上不存在固定正安全余量；已证稀疏族从 `d alpha<1` 一侧趋近阈值 | [C1 解析与有限证书分离审核](../research/C2/verification2/beta/REVIEW.md) |
 | 充分条件已否定 | N4 最高层预算、W1 的有害 Q 对数项非负断言；低层/其余曲率项在所给例子仍补偿 | [N4/C2](verification_20260909/base_prs.md)、[W1](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md) |
@@ -21,7 +26,7 @@
 
 仍开放：一般非恒定中心标量弦、全实三维 beta 零集界、一般固定框架中谱带、任意稠密两边均大于二的 rank-two 交叉块，以及更高维一般实核问题。固定无命中、有限盒或特定符号的严格证书不能关闭这些全域问题。普通 Fourier 平方可和尾也不能直接替代体积一致的算子尾控制。
 
-PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 已认证 R12_boundary_mid 单盒；其余 11 中心及整个中间谱带仍未关闭。PR41 的完整强耦合等幅三点族与独立块结果已通过两名独立审稿并合入，覆盖范围如上；一般缺边的条件坐标只关闭恒等式推导，剩余 6×6 不等式仍开放。PR43 继续按[第三轮队列](verification_round3_20260909.md)分项复审；相关 3+3 等候选尚未升为 main 接受，一般实三维和任意相关秩二块均未关闭。
+PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 已认证 R12_boundary_mid 单盒；其余 11 中心及整个中间谱带仍未关闭。PR41 的完整强耦合等幅三点族与独立块结果已通过两名独立审稿并合入，覆盖范围如上；一般缺边的条件坐标只关闭恒等式推导，剩余 6×6 不等式仍开放。PR43 已按[第三轮队列](verification_round3_20260909.md)分项双审接受，并覆盖指定相关 3+3、对角活动扇区和条件锚点等结构。一般实三维、任意相关秩二块及一般生成元的熵耗散曲率均未关闭。PR51 新不等强半填充族仍在独立审阅，尚未用于扩大接受范围。
 
 更新于 2026-09-09。这里“关闭”必须带上范围：定理覆盖只排除所述区域；方法被反例否定只否定该方法。有限搜索没有命中，不能关闭数学上的反例空间。
 
