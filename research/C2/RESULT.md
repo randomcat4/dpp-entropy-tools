@@ -1,6 +1,6 @@
 # I05-C2-20260909 result
 
-Status: **PARTIAL** for the original real five-point/full finite concavity question. No counterexample was found. The work produces restricted compensation theorems; independent review status is stated in verification.md.
+Status: **PARTIAL** for the original real five-point/full finite concavity question. No counterexample was found. The restricted compensation theorems below have been accepted by two fresh, non-author GPT-5.5 xhigh reviewers, each reporting CORRECT. Their exact scope and independent computations are recorded in verification.md.
 
 For the exact five-point frame in frozen_statement.md, all symmetric V obey
 

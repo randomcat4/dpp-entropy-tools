@@ -14,6 +14,9 @@ cd ../search
 python search.py
 cd ../reviews/first
 python independent_c2_verify.py
+python candidate_constant_check.py
+cd ../second
+python independent_check.py
 ```
 
 Each script writes into its current or containing directory. Work from a copy to preserve the published evidence. The search rerun uses the same deterministic 24 center records; it is not an instruction for further exploration. The retained run.sh files document actual relative invocations on the compute host; direct Python invocation avoids assumptions about virtual-environment layout.
@@ -22,6 +25,6 @@ main_check.py independently constructs both the low-degree law and the inclusion
 
 search.py outputs full matrices/directions and two interval negative-chord certificates. All exact probabilities and Sylvester determinants are included. Its mpmath interval logarithms use 70 decimal digits and outward intervals. The interval endpoints, rather than rounded display values, determine the sign. These are computational certificates, not proof-assistant objects.
 
-Reviewer output is separately identified. A non-author independently reconstructs the formulas before reading the main implementation. Further candidate-review checks, when completed, are named in verification.md.
+Reviewer output is separately identified. The first non-author independently reconstructed the formulas before reading the main implementation; both reviewers then ran distinct candidate checks. All actual scopes are named in verification.md. The second reviewer carries a local copy of the optional rational negative fixture, so its script is self-contained.
 
 Formal verification scope: the inherited unrelated research/A2/formal project pins Lean 4.32.0 and imports Std only. That version was probed locally; the compute host exposes no Lean command. This round contains no Lean/Mathlib encoding of its analytic matrix and entropy theorems and claims no mechanical proof. Recompiling the old A2 integer example would not verify C2. Exact rational verification and two human-readable model reviews are reported at their actual scope.
