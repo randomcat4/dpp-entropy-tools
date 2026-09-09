@@ -8,7 +8,6 @@ It uses every complete configuration of a dense correlated 3+3 rank-two example.
 from __future__ import annotations
 
 from itertools import combinations
-from fractions import Fraction
 import sympy as sp
 
 Q = sp.Rational
@@ -68,7 +67,7 @@ assert len(left_null) == len(right_null) == 1
 assert all(x != 0 for x in left_null[0])
 assert all(x != 0 for x in right_null[0])
 # PR43's special family would force the unique left null vector n of B
-# to be an eigenvector of A.  This exact fixture deliberately violates that.
+# to be an eigenvector of A. This exact fixture deliberately violates that.
 n_left = left_null[0]
 An = A * n_left
 assert An[0] * n_left[1] != An[1] * n_left[0]
@@ -146,6 +145,31 @@ assert L3 > 0
 delta = min(delta0, 3 * sigma_star2 / (10 * L3))
 assert delta > 0
 
+# Exact rank-two endpoint discriminants without matrix square roots.
+M_K = B.T * A.inv() * B
+S_K = C.inv() * M_K
+tr_K = sp.trace(S_K)
+disc_K = sp.simplify(2 * sp.trace(S_K * S_K) - tr_K**2)
+
+M_IK = B.T * (sp.eye(3) - A).inv() * B
+S_IK = (sp.eye(3) - C).inv() * M_IK
+tr_IK = sp.trace(S_IK)
+disc_IK = sp.simplify(2 * sp.trace(S_IK * S_IK) - tr_IK**2)
+
+assert disc_K > 0 and disc_IK > 0
+
+# The top roots are (tr + sqrt(disc))/2. These rational square
+# comparisons certify rho_K < 1/25 < 1/20 < rho_IK, so I-K reaches
+# the legal endpoint first and its nullity is exactly one.
+rho_K_upper = Q(1, 25)
+rho_IK_lower = Q(1, 20)
+rhs_K = 2 * rho_K_upper - tr_K
+rhs_IK = 2 * rho_IK_lower - tr_IK
+sep_K = sp.simplify(rhs_K**2 - disc_K)
+sep_IK = sp.simplify(disc_IK - rhs_IK**2)
+assert rhs_K > 0 and sep_K > 0
+assert rhs_IK > 0 and sep_IK > 0
+
 # A size-three matching gives a global entropy-deficit certificate.
 matching = [(0,0), (1,1), (2,2)]
 W = sum(B[i,j]**2 for i,j in matching)
@@ -163,5 +187,8 @@ print("sigma_*^2 lower bound =", sigma_star2)
 print("U =", Umax, "; V =", Vmax)
 print("certified s-radius delta =", delta)
 print("therefore H''(t) <= -3*sigma_*^2*t^2 < 0 for 0<|t|<=sqrt(delta)")
+print("endpoint Delta_K =", disc_K, "; Delta_I-K =", disc_IK)
+print("exact endpoint separation: rho_K < 1/25 < 1/20 < rho_I-K: PASS")
+print("therefore the legal positive endpoint is simple for I-K and H'' -> -infinity")
 print("matching W =", W)
 print("global entropy deficit: H(0)-H(t) >=", gap_coeff, "* t^4")
