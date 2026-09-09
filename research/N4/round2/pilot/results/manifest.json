@@ -1,0 +1,23 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "pid": 160788,
+  "threads": 1,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "source_sha256": "fe80c43d3eca0a0c9e0c5fc79eb9a5f01b87e794fda0ed9ccb95fa3e103e4ad2",
+  "source_commit": "edc5d9b (frozen definition); new pilot source bound by SHA256",
+  "command": "python research/N4/round2/pilot/face_pilot.py",
+  "start_unix": 1788912124.0582893,
+  "exit_code": 0,
+  "centers": 12,
+  "face_hessians": 12,
+  "exact_support_event_masses": 192,
+  "retained_chords": 36,
+  "finite_difference_checks": 12,
+  "entropy_calls": 120,
+  "max_curvature": -0.023370328019006653,
+  "max_gap": -5.529352635091911e-05,
+  "elapsed_seconds": 0.025493860244750977,
+  "warning": "finite scout only; no face-class theorem or positive certificate"
+}

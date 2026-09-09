@@ -1,0 +1,61 @@
+{
+  "H_greater_than_3_over_2": true,
+  "H_lower_decimal": "1.9001618764609496",
+  "H_lower_minus_3_over_2_decimal": "0.40016187646094964",
+  "H_upper_decimal": "1.9001618764609496",
+  "all_q_positive": true,
+  "argv": [
+    "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N4\\round2_children\\review\\repo\\research\\N4\\round2\\review\\n5_projection_q_check.py",
+    "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N4\\round2_children\\review\\repo\\research\\N4\\round2\\review\\n5_projection_q_certificate.json",
+    "180"
+  ],
+  "exit_status": 0,
+  "log_interval_calls": 10,
+  "log_terms": 180,
+  "pid": 54680,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "script_sha256": "b5d8cba12817158463c1eb9b0e6dfe7c1d6e87319e727e1ea9ce4f4ffdd07033",
+  "sum_q": "1",
+  "weights": [
+    {
+      "S": "123",
+      "q": "123201/1092025"
+    },
+    {
+      "S": "124",
+      "q": "374544/1092025"
+    },
+    {
+      "S": "125",
+      "q": "1296/43681"
+    },
+    {
+      "S": "134",
+      "q": "144/3025"
+    },
+    {
+      "S": "135",
+      "q": "49284/1092025"
+    },
+    {
+      "S": "145",
+      "q": "254016/1092025"
+    },
+    {
+      "S": "234",
+      "q": "576/9025"
+    },
+    {
+      "S": "235",
+      "q": "30276/1092025"
+    },
+    {
+      "S": "245",
+      "q": "28224/1092025"
+    },
+    {
+      "S": "345",
+      "q": "3136/43681"
+    }
+  ]
+}

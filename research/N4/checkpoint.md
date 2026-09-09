@@ -1,5 +1,11 @@
 # N4 checkpoint — 2026-09-09
 
+Latest state: round two is also `STOPPED_SUBSTANTIVE`; see its
+[checkpoint](round2/checkpoint.md), [verdict](round2/verdict.md), and
+[execution ledger](round2/run_ledger.md). The current remaining obligation is
+the fixed-face cross-layer entropy budget. The first-round checkpoint below
+is preserved as historical evidence, not as the latest restart proposal.
+
 State: `STOPPED_SUBSTANTIVE`. Global real-kernel concavity: `INCOMPLETE`.
 Public collaboration: issue #21 and Draft PR #23. No automatic retry/heartbeat.
 

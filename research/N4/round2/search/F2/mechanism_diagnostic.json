@@ -1,0 +1,2786 @@
+{
+  "status": "F2_DIAGNOSTIC_NO_NEW_CENTERS",
+  "centers": 24,
+  "directions": 48,
+  "layer_convention": "curvature C_k=-sum(dp^2/p+ddp*logp); sum C_k=Hsecond; literal layer entropy second=C_k-mass_second",
+  "noncommuting_directions": 48,
+  "geometry_nonpositive": 17,
+  "geometry_positive_within_top_fisher": 21,
+  "geometry_exceeds_top_fisher": 10,
+  "positive_top_total": 25,
+  "positive_literal_top_entropy_second": 22,
+  "positive_total_acceleration": 30,
+  "highest_curvature": {
+    "index": 15,
+    "frame": 1,
+    "spectrum": "cluster_mid",
+    "direction": "hessian_top",
+    "curvature": -0.34258674598360633,
+    "acceleration": -0.09862196347855622,
+    "negative_fisher": -0.24396478250505013,
+    "entropy_q": 1.715884041676051,
+    "geometry": -0.8505565808380496,
+    "top_fisher": 0.00041496374442791137,
+    "geometry_over_fisher": -2049.7129984468093,
+    "top_base_acceleration": -1.0309688390777618,
+    "top_total": -1.8819403836602395,
+    "lower_total": 1.5393536376766332,
+    "literal_top_entropy_second": -1.386244543976785,
+    "literal_lower_entropy_second": 1.0436577979931787,
+    "layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -4.429837533094887e-05,
+        "acceleration": -1.0481206600059194,
+        "curvature": -1.0481649583812505,
+        "mass_second": -0.503942535368931,
+        "literal_layer_entropy_second": -0.5442224230123195
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -0.007238959793873959,
+        "acceleration": 1.234326328291904,
+        "curvature": 1.2270873684980301,
+        "mass_second": 0.5121892310544075,
+        "literal_layer_entropy_second": 0.7148981374436226
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -0.23626656059141732,
+        "acceleration": 1.5966977881512707,
+        "curvature": 1.3604312275598536,
+        "mass_second": 0.48744914399797795,
+        "literal_layer_entropy_second": 0.8729820835618756
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -0.00041496374442791137,
+        "acceleration": -1.8815254199158116,
+        "curvature": -1.8819403836602395,
+        "mass_second": -0.49569583968345443,
+        "literal_layer_entropy_second": -1.386244543976785
+      }
+    ],
+    "commutator_norm": 0.008979078072932929,
+    "geometry_exceeds_top_fisher": false
+  },
+  "highest_geometry_ratio": {
+    "index": 23,
+    "frame": 2,
+    "spectrum": "cluster_mid",
+    "direction": "acceleration_top",
+    "curvature": -3.5821193087798378,
+    "acceleration": 0.3967175066482417,
+    "negative_fisher": -3.9788368154280795,
+    "entropy_q": 1.9692789678720306,
+    "geometry": 1.9421025951718622,
+    "top_fisher": 1.48555467281582,
+    "geometry_over_fisher": 1.3073248872696626,
+    "top_base_acceleration": 2.0511394662469127,
+    "top_total": 2.507687388602955,
+    "lower_total": -6.089806697382793,
+    "literal_top_entropy_second": 1.5214875525937046,
+    "literal_lower_entropy_second": -5.103606861373542,
+    "layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -1.4880765426275728,
+        "acceleration": 2.0527095158455153,
+        "curvature": 0.5646329732179425,
+        "mass_second": 0.9869547250268662,
+        "literal_layer_entropy_second": -0.42232175180892373
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -0.5016568859688468,
+        "acceleration": -2.5241533030249426,
+        "curvature": -3.0258101889937894,
+        "mass_second": -0.9877096140444822,
+        "literal_layer_entropy_second": -2.0381005749493073
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -0.5035487140158398,
+        "acceleration": -3.125080767591106,
+        "curvature": -3.6286294816069455,
+        "mass_second": -0.9854449469916343,
+        "literal_layer_entropy_second": -2.6431845346153113
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -1.48555467281582,
+        "acceleration": 3.993242061418775,
+        "curvature": 2.507687388602955,
+        "mass_second": 0.9861998360092503,
+        "literal_layer_entropy_second": 1.5214875525937046
+      }
+    ],
+    "commutator_norm": 0.0010577323191354058,
+    "geometry_exceeds_top_fisher": true
+  },
+  "highest_top_total": {
+    "index": 12,
+    "frame": 1,
+    "spectrum": "two_zero",
+    "direction": "acceleration_top",
+    "curvature": -973.6942298621976,
+    "acceleration": 9.483464673385589,
+    "negative_fisher": -983.1776945355832,
+    "entropy_q": 1.715884041676051,
+    "geometry": 0.727508461734137,
+    "top_fisher": 2.420851162591407,
+    "geometry_over_fisher": 0.30051763320937647,
+    "top_base_acceleration": 6.955797609407208,
+    "top_total": 5.262454908549938,
+    "lower_total": -978.9566847707476,
+    "literal_top_entropy_second": 4.8384702778498845,
+    "literal_lower_entropy_second": -978.5327001400475,
+    "layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -3.415575908565045,
+        "acceleration": 2.1370626755103146,
+        "curvature": -1.2785132330547306,
+        "mass_second": 1.5403420664029586,
+        "literal_layer_entropy_second": -2.818855299457689
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -1.0797957799615694,
+        "acceleration": -6.888183440148705,
+        "curvature": -7.967979220110274,
+        "mass_second": -2.656699502105863,
+        "literal_layer_entropy_second": -5.3112797180044105
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -976.2614716844652,
+        "acceleration": 6.551279366882633,
+        "curvature": -969.7101923175826,
+        "mass_second": 0.69237280500285,
+        "literal_layer_entropy_second": -970.4025651225854
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -2.420851162591407,
+        "acceleration": 7.683306071141345,
+        "curvature": 5.262454908549938,
+        "mass_second": 0.42398463070005427,
+        "literal_layer_entropy_second": 4.8384702778498845
+      }
+    ],
+    "commutator_norm": 0.014574101256190759,
+    "geometry_exceeds_top_fisher": false
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "entropy_q": 1.9001618764609496,
+      "maximum_curvature": -0.3943419339175157
+    },
+    {
+      "frame": 1,
+      "entropy_q": 1.715884041676051,
+      "maximum_curvature": -0.34258674573445985
+    },
+    {
+      "frame": 2,
+      "entropy_q": 1.9692789678720306,
+      "maximum_curvature": -0.378425812531382
+    }
+  ],
+  "all_rows": [
+    {
+      "index": 0,
+      "frame": 0,
+      "spectrum": "moderate",
+      "direction": "hessian_top",
+      "curvature": -1.153163226134601,
+      "acceleration": -0.41039203424670456,
+      "negative_fisher": -0.7427711918878965,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -0.34706552802574986,
+      "top_fisher": 0.003760474861545129,
+      "geometry_over_fisher": -92.29300575171118,
+      "top_base_acceleration": -0.5308043091834763,
+      "top_total": -0.8816303120707714,
+      "lower_total": -0.27153291406382984,
+      "literal_top_entropy_second": -0.6989798061716849,
+      "literal_lower_entropy_second": -0.45418341996291633,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.17471332029462813,
+          "acceleration": -2.348910602589014,
+          "curvature": -2.523623922883642,
+          "mass_second": -0.8082634267505808,
+          "literal_layer_entropy_second": -1.7153604961330613
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.4047584436028847,
+          "acceleration": 3.782424796038036,
+          "curvature": 3.3776663524351513,
+          "mass_second": 1.4338763476020753,
+          "literal_layer_entropy_second": 1.943790004833076
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.15953895312883853,
+          "acceleration": -0.9660363904865006,
+          "curvature": -1.125575343615339,
+          "mass_second": -0.44296241495240796,
+          "literal_layer_entropy_second": -0.6826129286629311
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.003760474861545129,
+          "acceleration": -0.8778698372092262,
+          "curvature": -0.8816303120707714,
+          "mass_second": -0.18265050589908646,
+          "literal_layer_entropy_second": -0.6989798061716849
+        }
+      ],
+      "commutator_norm": 0.3746224201214354,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 0,
+      "frame": 0,
+      "spectrum": "moderate",
+      "direction": "acceleration_top",
+      "curvature": -5.140249145451707,
+      "acceleration": 2.13657094256698,
+      "negative_fisher": -7.276820088018687,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 1.7961548293219733,
+      "top_fisher": 2.5096656083691338,
+      "geometry_over_fisher": 0.7156948811555719,
+      "top_base_acceleration": 2.747051050526916,
+      "top_total": 2.0335402714797555,
+      "lower_total": -7.173789416931464,
+      "literal_top_entropy_second": 1.088276159209852,
+      "literal_lower_entropy_second": -6.22852530466156,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.2857534283099032,
+          "acceleration": 2.6606143890839395,
+          "curvature": 0.3748609607740365,
+          "mass_second": 0.9155211360588145,
+          "literal_layer_entropy_second": -0.5406601752847779
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.3004836508659186,
+          "acceleration": -2.035905356885618,
+          "curvature": -3.336389007751537,
+          "mass_second": -0.8857781598477255,
+          "literal_layer_entropy_second": -2.4506108479038113
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.1809174004737322,
+          "acceleration": -3.031343969480231,
+          "curvature": -4.212261369953963,
+          "mass_second": -0.9750070884809924,
+          "literal_layer_entropy_second": -3.237254281472971
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.5096656083691338,
+          "acceleration": 4.543205879848889,
+          "curvature": 2.0335402714797555,
+          "mass_second": 0.9452641122699034,
+          "literal_layer_entropy_second": 1.088276159209852
+        }
+      ],
+      "commutator_norm": 0.0589861488624256,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 1,
+      "frame": 0,
+      "spectrum": "sparse",
+      "direction": "hessian_top",
+      "curvature": -4.510143392723426,
+      "acceleration": -0.517334659710669,
+      "negative_fisher": -3.992808733012757,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -0.0013365519211514455,
+      "top_fisher": 3.937770480711112e-05,
+      "geometry_over_fisher": -33.94184419072798,
+      "top_base_acceleration": -0.01295689411635922,
+      "top_total": -0.014332823742317776,
+      "lower_total": -4.495810568981109,
+      "literal_top_entropy_second": -0.013629435290150337,
+      "literal_lower_entropy_second": -4.496513957433276,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.0009293891456432286,
+          "acceleration": -0.05332578697007621,
+          "curvature": -0.054255176115719436,
+          "mass_second": -0.9986981047807441,
+          "literal_layer_entropy_second": 0.9444429286650247
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -3.6947658166541246,
+          "acceleration": 10.846363340835797,
+          "curvature": 7.151597524181673,
+          "mass_second": 1.9966928211093207,
+          "literal_layer_entropy_second": 5.1549047030723525
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.29707414950818184,
+          "acceleration": -11.29607876753888,
+          "curvature": -11.593152917047062,
+          "mass_second": -0.9972913278764092,
+          "literal_layer_entropy_second": -10.595861589170653
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.937770480711112e-05,
+          "acceleration": -0.014293446037510664,
+          "curvature": -0.014332823742317776,
+          "mass_second": -0.0007033884521674399,
+          "literal_layer_entropy_second": -0.013629435290150337
+        }
+      ],
+      "commutator_norm": 0.04766743811443319,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 1,
+      "frame": 0,
+      "spectrum": "sparse",
+      "direction": "acceleration_top",
+      "curvature": -914.0311132347767,
+      "acceleration": 1.5753594778829696,
+      "negative_fisher": -915.6064727126598,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 0.058551891484472006,
+      "top_fisher": 0.368883622208214,
+      "geometry_over_fisher": 0.1587272732087378,
+      "top_base_acceleration": 0.5676177979103706,
+      "top_total": 0.2572860671866286,
+      "lower_total": -914.2883993019634,
+      "literal_top_entropy_second": 0.22647190750380997,
+      "literal_lower_entropy_second": -914.2575851422805,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.8991661310355106,
+          "acceleration": 0.10203926752694238,
+          "curvature": -2.797126863508568,
+          "mass_second": 1.91101583085042,
+          "literal_layer_entropy_second": -4.708142694358989
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -847.1842786541483,
+          "acceleration": -21.96907084829457,
+          "curvature": -869.1533495024429,
+          "mass_second": -3.791217502018021,
+          "literal_layer_entropy_second": -865.3621320004248
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -65.15414430526765,
+          "acceleration": 22.816221369255757,
+          "curvature": -42.33792293601189,
+          "mass_second": 1.8493875114847826,
+          "literal_layer_entropy_second": -44.18731044749668
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.368883622208214,
+          "acceleration": 0.6261696893948426,
+          "curvature": 0.2572860671866286,
+          "mass_second": 0.03081415968281864,
+          "literal_layer_entropy_second": 0.22647190750380997
+        }
+      ],
+      "commutator_norm": 0.0002683964893295502,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 2,
+      "frame": 0,
+      "spectrum": "dense",
+      "direction": "hessian_top",
+      "curvature": -19.08280339087747,
+      "acceleration": -0.5250666430002076,
+      "negative_fisher": -18.55773674787726,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -0.6638144307573712,
+      "top_fisher": 0.690785693578185,
+      "geometry_over_fisher": -0.960955672545698,
+      "top_base_acceleration": -0.018653448677296052,
+      "top_total": -1.3732535730128523,
+      "lower_total": -17.709549817864616,
+      "literal_top_entropy_second": -1.0239073204747657,
+      "literal_lower_entropy_second": -18.058896070402703,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.00040331537838761905,
+          "acceleration": -0.006064429245702154,
+          "curvature": -0.006467744624089773,
+          "mass_second": -0.00032921851966264315,
+          "literal_layer_entropy_second": -0.00613852610442713
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.37607000563629756,
+          "acceleration": -3.5542587123043967,
+          "curvature": -3.9303287179406943,
+          "mass_second": -0.3486878154987612,
+          "literal_layer_entropy_second": -3.581640902441933
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -17.49047773328439,
+          "acceleration": 3.717724377984559,
+          "curvature": -13.772753355299832,
+          "mass_second": 0.6983632865565104,
+          "literal_layer_entropy_second": -14.471116641856343
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.690785693578185,
+          "acceleration": -0.6824678794346674,
+          "curvature": -1.3732535730128523,
+          "mass_second": -0.3493462525380865,
+          "literal_layer_entropy_second": -1.0239073204747657
+        }
+      ],
+      "commutator_norm": 0.020220698406667337,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 2,
+      "frame": 0,
+      "spectrum": "dense",
+      "direction": "acceleration_top",
+      "curvature": -269.6809199901073,
+      "acceleration": 4.349685598042498,
+      "negative_fisher": -274.0306055881498,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 3.3577286780389235,
+      "top_fisher": 2.760875005464847,
+      "geometry_over_fisher": 1.2161827940028689,
+      "top_base_acceleration": 0.09435350704356268,
+      "top_total": 0.6912071796176392,
+      "lower_total": -270.37212716972493,
+      "literal_top_entropy_second": -1.075867888898466,
+      "literal_lower_entropy_second": -268.60505210120886,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.46277686573242294,
+          "acceleration": 0.452226026671917,
+          "curvature": -0.01055083906050589,
+          "mass_second": 0.024549908494580795,
+          "literal_layer_entropy_second": -0.03510074755508669
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -143.86217437384894,
+          "acceleration": 19.696477762577356,
+          "curvature": -124.1656966112716,
+          "mass_second": 1.7179752515269437,
+          "literal_layer_entropy_second": -125.88367186279854
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -126.94477934310358,
+          "acceleration": -19.25110037628926,
+          "curvature": -146.19587971939285,
+          "mass_second": -3.5096002285376295,
+          "literal_layer_entropy_second": -142.6862794908552
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.760875005464847,
+          "acceleration": 3.4520821850824865,
+          "curvature": 0.6912071796176392,
+          "mass_second": 1.7670750685161054,
+          "literal_layer_entropy_second": -1.075867888898466
+        }
+      ],
+      "commutator_norm": 0.0012486422861681806,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 3,
+      "frame": 0,
+      "spectrum": "one_zero",
+      "direction": "hessian_top",
+      "curvature": -2.338763604553584,
+      "acceleration": -0.8009751033906702,
+      "negative_fisher": -1.5377885011629135,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -0.012751328120617411,
+      "top_fisher": 0.00042576619156993917,
+      "geometry_over_fisher": -29.949132582836356,
+      "top_base_acceleration": -0.07067724927032265,
+      "top_total": -0.08385434358251,
+      "lower_total": -2.254909260971074,
+      "literal_top_entropy_second": -0.07714368999105559,
+      "literal_lower_entropy_second": -2.2616199145625284,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.18886325226245806,
+          "acceleration": -1.9742247877365802,
+          "curvature": -2.1630880399990384,
+          "mass_second": -0.9797626915249732,
+          "literal_layer_entropy_second": -1.1833253484740651
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.048311703653928,
+          "acceleration": 4.243585262490566,
+          "curvature": 3.1952735588366377,
+          "mass_second": 1.9528147294584919,
+          "literal_layer_entropy_second": 1.2424588293781458
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.3001877790549574,
+          "acceleration": -2.9869070007537157,
+          "curvature": -3.2870947798086734,
+          "mass_second": -0.9663413843420644,
+          "literal_layer_entropy_second": -2.320753395466609
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.00042576619156993917,
+          "acceleration": -0.08342857739094006,
+          "curvature": -0.08385434358251,
+          "mass_second": -0.006710653591454404,
+          "literal_layer_entropy_second": -0.07714368999105559
+        }
+      ],
+      "commutator_norm": 0.3707327194843845,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 3,
+      "frame": 0,
+      "spectrum": "one_zero",
+      "direction": "acceleration_top",
+      "curvature": -1262.7686611185322,
+      "acceleration": 7.105049277919101,
+      "negative_fisher": -1269.8737103964513,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 1.6121552944757342,
+      "top_fisher": 1259.5336444760744,
+      "geometry_over_fisher": 0.0012799620729038478,
+      "top_base_acceleration": 8.93575167483141,
+      "top_total": -1248.9857375067672,
+      "lower_total": -13.78292361176504,
+      "literal_top_entropy_second": -1249.834168008635,
+      "literal_lower_entropy_second": -12.934493109897288,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.712521791086841,
+          "acceleration": 2.0356701836677153,
+          "curvature": 0.32314839258087413,
+          "mass_second": 1.0102566387559402,
+          "literal_layer_entropy_second": -0.687108246175066
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5970059522150409,
+          "acceleration": -3.051062290690106,
+          "curvature": -3.648068242905147,
+          "mass_second": -1.1720827756441279,
+          "literal_layer_entropy_second": -2.475985467261019
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -8.030538177075117,
+          "acceleration": -2.4274655843656516,
+          "curvature": -10.458003761440768,
+          "mass_second": -0.6866043649795652,
+          "literal_layer_entropy_second": -9.771399396461202
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1259.5336444760744,
+          "acceleration": 10.547906969307144,
+          "curvature": -1248.9857375067672,
+          "mass_second": 0.8484305018677528,
+          "literal_layer_entropy_second": -1249.834168008635
+        }
+      ],
+      "commutator_norm": 0.023300473482316623,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 4,
+      "frame": 0,
+      "spectrum": "two_zero",
+      "direction": "hessian_top",
+      "curvature": -5.294264976810376,
+      "acceleration": 0.08052629030157349,
+      "negative_fisher": -5.3747912671119495,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 1.5114556967253425e-05,
+      "top_fisher": 1.4311304746144173e-05,
+      "geometry_over_fisher": 1.0561271131708427,
+      "top_base_acceleration": 0.00013049733555038786,
+      "top_total": 0.0001313005877714971,
+      "lower_total": -5.294396277398147,
+      "literal_top_entropy_second": 0.00012334623548473074,
+      "literal_lower_entropy_second": -5.294388323045861,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -4.008949065210816,
+          "acceleration": 0.0187246563697417,
+          "curvature": -3.990224408841074,
+          "mass_second": 0.013496270472444569,
+          "literal_layer_entropy_second": -4.003720679313519
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.319428296324859,
+          "acceleration": -0.05892303238149517,
+          "curvature": -1.378351328706354,
+          "mass_second": -0.02698458659260237,
+          "literal_layer_entropy_second": -1.3513667421137516
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.04639959427152881,
+          "acceleration": 0.12057905442080932,
+          "curvature": 0.07417946014928051,
+          "mass_second": 0.013480361767871037,
+          "literal_layer_entropy_second": 0.060699098381409466
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.4311304746144173e-05,
+          "acceleration": 0.00014561189251764128,
+          "curvature": 0.0001313005877714971,
+          "mass_second": 7.954352286766367e-06,
+          "literal_layer_entropy_second": 0.00012334623548473074
+        }
+      ],
+      "commutator_norm": 0.0008938564794718901,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 4,
+      "frame": 0,
+      "spectrum": "two_zero",
+      "direction": "acceleration_top",
+      "curvature": -1465.8063601607014,
+      "acceleration": 9.54481091778395,
+      "negative_fisher": -1475.3511710784853,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 0.7893998738689479,
+      "top_fisher": 2.5805399987143587,
+      "geometry_over_fisher": 0.30590491690197863,
+      "top_base_acceleration": 6.815587148660532,
+      "top_total": 5.024447023815121,
+      "lower_total": -1470.8308071845165,
+      "literal_top_entropy_second": 4.609008800552162,
+      "literal_lower_entropy_second": -1470.4153689612535,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.4535650441118197,
+          "acceleration": 2.136342498586142,
+          "curvature": -1.3172225455256776,
+          "mass_second": 1.539822980638995,
+          "literal_layer_entropy_second": -2.8570455261646726
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -6.498715632606831,
+          "acceleration": -7.020895806041349,
+          "curvature": -13.519611438648178,
+          "mass_second": -2.66420773801503,
+          "literal_layer_entropy_second": -10.855403700633149
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1462.8183504030524,
+          "acceleration": 6.824377202709678,
+          "curvature": -1455.9939732003427,
+          "mass_second": 0.7089465341130761,
+          "literal_layer_entropy_second": -1456.7029197344557
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.5805399987143587,
+          "acceleration": 7.60498702252948,
+          "curvature": 5.024447023815121,
+          "mass_second": 0.4154382232629594,
+          "literal_layer_entropy_second": 4.609008800552162
+        }
+      ],
+      "commutator_norm": 0.01867478301886349,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 5,
+      "frame": 0,
+      "spectrum": "one_one",
+      "direction": "hessian_top",
+      "curvature": -2.5648301365591877,
+      "acceleration": -0.8373865367622839,
+      "negative_fisher": -1.7274435997969035,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -1.8416515072863788,
+      "top_fisher": 0.023131185401914212,
+      "geometry_over_fisher": -79.61768821125672,
+      "top_base_acceleration": -1.9529564323691992,
+      "top_total": -3.8177391250574924,
+      "lower_total": 1.2529089884983045,
+      "literal_top_entropy_second": -2.848531432754743,
+      "literal_lower_entropy_second": 0.2837012961955552,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.00026774091750235196,
+          "acceleration": -0.14365517121601898,
+          "curvature": -0.14392291213352135,
+          "mass_second": -0.013639751130730082,
+          "literal_layer_entropy_second": -0.13028316100279128
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.16432013140558235,
+          "acceleration": -2.4324042937464494,
+          "curvature": -2.596724425152032,
+          "mass_second": -0.9419281900412891,
+          "literal_layer_entropy_second": -1.6547962351107426
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.5397245420719048,
+          "acceleration": 5.533280867855762,
+          "curvature": 3.9935563257838576,
+          "mass_second": 1.9247756334747685,
+          "literal_layer_entropy_second": 2.068780692309089
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.023131185401914212,
+          "acceleration": -3.794607939655578,
+          "curvature": -3.8177391250574924,
+          "mass_second": -0.9692076923027493,
+          "literal_layer_entropy_second": -2.848531432754743
+        }
+      ],
+      "commutator_norm": 0.4560698226052629,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 5,
+      "frame": 0,
+      "spectrum": "one_one",
+      "direction": "acceleration_top",
+      "curvature": -1244.6892398540986,
+      "acceleration": 7.180944101671961,
+      "negative_fisher": -1251.8701839557705,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 2.030728676770668,
+      "top_fisher": 1.8792721699775485,
+      "geometry_over_fisher": 1.0805931728318676,
+      "top_base_acceleration": 2.153460964794336,
+      "top_total": 2.3049174715874554,
+      "lower_total": -1246.994157325686,
+      "literal_top_entropy_second": 1.2362039572668235,
+      "literal_lower_entropy_second": -1245.9254438113653,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1245.3749914778787,
+          "acceleration": 8.793350760623346,
+          "curvature": -1236.5816407172554,
+          "mass_second": 0.8349098397562182,
+          "literal_layer_entropy_second": -1237.4165505570115
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -4.0669268822974,
+          "acceleration": -1.765533111275322,
+          "curvature": -5.832459993572722,
+          "mass_second": -0.6011061651918046,
+          "literal_layer_entropy_second": -5.231353828380917
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.5489934256168771,
+          "acceleration": -4.031063189241067,
+          "curvature": -4.580056614857944,
+          "mass_second": -1.3025171888850455,
+          "literal_layer_entropy_second": -3.2775394259728987
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.8792721699775485,
+          "acceleration": 4.184189641565004,
+          "curvature": 2.3049174715874554,
+          "mass_second": 1.0687135143206319,
+          "literal_layer_entropy_second": 1.2362039572668235
+        }
+      ],
+      "commutator_norm": 0.02660612256099635,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 6,
+      "frame": 0,
+      "spectrum": "split_extreme",
+      "direction": "hessian_top",
+      "curvature": -3.9905526768404784,
+      "acceleration": 0.022281804336609475,
+      "negative_fisher": -4.012834481177088,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 0.003361052749641919,
+      "top_fisher": 0.005973818208054616,
+      "geometry_over_fisher": 0.5626305710324673,
+      "top_base_acceleration": 0.01751770762477009,
+      "top_total": 0.014904942166357394,
+      "lower_total": -4.005457619006836,
+      "literal_top_entropy_second": 0.013136117735513703,
+      "literal_lower_entropy_second": -4.003688794575992,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.005455665273028605,
+          "acceleration": 0.016556815927937833,
+          "curvature": 0.011101150654909228,
+          "mass_second": 0.001671799823220463,
+          "literal_layer_entropy_second": 0.009429350831688766
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -2.0007510425503097,
+          "acceleration": -0.012971597968743302,
+          "curvature": -2.0137226405190534,
+          "mass_second": -0.0015747752155972354,
+          "literal_layer_entropy_second": -2.012147865303456
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -2.000653955145695,
+          "acceleration": -0.0021821739969970643,
+          "curvature": -2.002836129142692,
+          "mass_second": -0.0018658490384669193,
+          "literal_layer_entropy_second": -2.000970280104225
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.005973818208054616,
+          "acceleration": 0.02087876037441201,
+          "curvature": 0.014904942166357394,
+          "mass_second": 0.001768824430843691,
+          "literal_layer_entropy_second": 0.013136117735513703
+        }
+      ],
+      "commutator_norm": 0.005982077451400528,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 6,
+      "frame": 0,
+      "spectrum": "split_extreme",
+      "direction": "acceleration_top",
+      "curvature": -3740.6562262926127,
+      "acceleration": 15.47596547244372,
+      "negative_fisher": -3756.1321917650566,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 1.881103053796995,
+      "top_fisher": 1887.6253447848646,
+      "geometry_over_fisher": 0.0009965447110540822,
+      "top_base_acceleration": 9.804253536927868,
+      "top_total": -1875.9399881941397,
+      "lower_total": -1864.716238098473,
+      "literal_top_entropy_second": -1876.9299580893892,
+      "literal_lower_entropy_second": -1863.7262682032235,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1856.3772882228166,
+          "acceleration": 9.750949659110908,
+          "curvature": -1846.6263385637055,
+          "mass_second": 0.9845876155949771,
+          "literal_layer_entropy_second": -1847.6109261793006
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -5.354478221826846,
+          "acceleration": -2.7037996840916594,
+          "curvature": -8.058277905918505,
+          "mass_second": -0.9792053359405303,
+          "literal_layer_entropy_second": -7.079072569977975
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -6.775080535548481,
+          "acceleration": -3.256541093300392,
+          "curvature": -10.031621628848873,
+          "mass_second": -0.9953521749038707,
+          "literal_layer_entropy_second": -9.036269453945001
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1887.6253447848646,
+          "acceleration": 11.685356590724863,
+          "curvature": -1875.9399881941397,
+          "mass_second": 0.9899698952494239,
+          "literal_layer_entropy_second": -1876.9299580893892
+        }
+      ],
+      "commutator_norm": 0.008974612423163048,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 7,
+      "frame": 0,
+      "spectrum": "cluster_mid",
+      "direction": "hessian_top",
+      "curvature": -0.3943419336313091,
+      "acceleration": -0.117453832335918,
+      "negative_fisher": -0.2768881012953911,
+      "entropy_q": 1.9001618764609496,
+      "geometry": -0.9594177526563074,
+      "top_fisher": 6.90301101068689e-05,
+      "geometry_over_fisher": -13898.540088824799,
+      "top_base_acceleration": -1.0501405166017181,
+      "top_total": -2.009627299368132,
+      "lower_total": 1.6152853657368231,
+      "literal_top_entropy_second": -1.5047136051500256,
+      "literal_lower_entropy_second": 1.1103716715187166,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.0007653257165712006,
+          "acceleration": -1.0283588699672246,
+          "curvature": -1.0291241956837958,
+          "mass_second": -0.49444095129036486,
+          "literal_layer_entropy_second": -0.5346832443934308
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.002491322794007692,
+          "acceleration": 1.2414083122033333,
+          "curvature": 1.2389169894093255,
+          "mass_second": 0.4839682083626233,
+          "literal_layer_entropy_second": 0.7549487810467022
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.2735624226747054,
+          "acceleration": 1.6790549946859987,
+          "curvature": 1.4054925720112934,
+          "mass_second": 0.5153864371458481,
+          "literal_layer_entropy_second": 0.8901061348654453
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -6.90301101068689e-05,
+          "acceleration": -2.0095582692580254,
+          "curvature": -2.009627299368132,
+          "mass_second": -0.5049136942181065,
+          "literal_layer_entropy_second": -1.5047136051500256
+        }
+      ],
+      "commutator_norm": 0.010073325715430001,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 7,
+      "frame": 0,
+      "spectrum": "cluster_mid",
+      "direction": "acceleration_top",
+      "curvature": -3.5879338524962323,
+      "acceleration": 0.3792177318370742,
+      "negative_fisher": -3.9671515843333065,
+      "entropy_q": 1.9001618764609496,
+      "geometry": 1.8721002393314898,
+      "top_fisher": 1.484066881707579,
+      "geometry_over_fisher": 1.261466219889926,
+      "top_base_acceleration": 2.049126469693375,
+      "top_total": 2.4371598273172856,
+      "lower_total": -6.0250936798135175,
+      "literal_top_entropy_second": 1.4519278518088226,
+      "literal_lower_entropy_second": -5.039861704305055,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4883498285464176,
+          "acceleration": 2.052346901671562,
+          "curvature": 0.5639970731251442,
+          "mass_second": 0.986780378014012,
+          "literal_layer_entropy_second": -0.42278330488886773
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.4954070518722019,
+          "acceleration": -2.5123233285692783,
+          "curvature": -3.00773038044148,
+          "mass_second": -0.9883287805195609,
+          "literal_layer_entropy_second": -2.0194015999219195
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.49932782220710775,
+          "acceleration": -3.0820325502900743,
+          "curvature": -3.581360372497182,
+          "mass_second": -0.9836835730029143,
+          "literal_layer_entropy_second": -2.597676799494268
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.484066881707579,
+          "acceleration": 3.921226709024865,
+          "curvature": 2.4371598273172856,
+          "mass_second": 0.9852319755084632,
+          "literal_layer_entropy_second": 1.4519278518088226
+        }
+      ],
+      "commutator_norm": 0.0008811279301719303,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 8,
+      "frame": 1,
+      "spectrum": "moderate",
+      "direction": "hessian_top",
+      "curvature": -0.6628772768183201,
+      "acceleration": -0.16585944648192563,
+      "negative_fisher": -0.4970178303363945,
+      "entropy_q": 1.715884041676051,
+      "geometry": -0.23501310132400394,
+      "top_fisher": 7.937035911054099e-06,
+      "geometry_over_fisher": -29609.680988931344,
+      "top_base_acceleration": -0.3980317343281596,
+      "top_total": -0.6330527726880746,
+      "lower_total": -0.029824504130245844,
+      "literal_top_entropy_second": -0.49608949567406,
+      "literal_lower_entropy_second": -0.16678778114426018,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.005841769279676658,
+          "acceleration": -2.507818088175558,
+          "curvature": -2.5136598574552345,
+          "mass_second": -0.862943715006307,
+          "literal_layer_entropy_second": -1.6507161424489274
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.4503255606098365,
+          "acceleration": 4.158708597607435,
+          "curvature": 3.7083830369975987,
+          "mass_second": 1.5889241529985991,
+          "literal_layer_entropy_second": 2.1194588839989996
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.04084256341097029,
+          "acceleration": -1.1837051202616398,
+          "curvature": -1.2245476836726101,
+          "mass_second": -0.5890171609782777,
+          "literal_layer_entropy_second": -0.6355305226943324
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -7.937035911054099e-06,
+          "acceleration": -0.6330448356521635,
+          "curvature": -0.6330527726880746,
+          "mass_second": -0.1369632770140146,
+          "literal_layer_entropy_second": -0.49608949567406
+        }
+      ],
+      "commutator_norm": 0.37478482207894065,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 8,
+      "frame": 1,
+      "spectrum": "moderate",
+      "direction": "acceleration_top",
+      "curvature": -6.1650943317746,
+      "acceleration": 2.038770570069542,
+      "negative_fisher": -8.203864901844142,
+      "entropy_q": 1.715884041676051,
+      "geometry": 1.317342524350632,
+      "top_fisher": 2.5149627023397656,
+      "geometry_over_fisher": 0.5238020123022334,
+      "top_base_acceleration": 2.2311272295778264,
+      "top_total": 1.0335070515886928,
+      "lower_total": -7.198601383363292,
+      "literal_top_entropy_second": 0.2657730483842159,
+      "literal_lower_entropy_second": -6.430867380158816,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.441739688900559,
+          "acceleration": 2.2177949974948943,
+          "curvature": -0.22394469140566492,
+          "mass_second": 0.7631463634800416,
+          "literal_layer_entropy_second": -0.9870910548857066
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.6980687965715047,
+          "acceleration": -1.3445201175526769,
+          "curvature": -3.0425889141241815,
+          "mass_second": -0.7585587237556063,
+          "literal_layer_entropy_second": -2.284030190368575
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.5490937140323124,
+          "acceleration": -2.3829740638011336,
+          "curvature": -3.932067777833446,
+          "mass_second": -0.7723216429289123,
+          "literal_layer_entropy_second": -3.159746134904534
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.5149627023397656,
+          "acceleration": 3.548469753928458,
+          "curvature": 1.0335070515886928,
+          "mass_second": 0.7677340032044769,
+          "literal_layer_entropy_second": 0.2657730483842159
+        }
+      ],
+      "commutator_norm": 0.019622531674779228,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 9,
+      "frame": 1,
+      "spectrum": "sparse",
+      "direction": "hessian_top",
+      "curvature": -5.81668685238368,
+      "acceleration": -1.0286689468011547,
+      "negative_fisher": -4.788017905582525,
+      "entropy_q": 1.715884041676051,
+      "geometry": -0.021634625339643204,
+      "top_fisher": 0.054985557438340556,
+      "geometry_over_fisher": -0.39346014385511574,
+      "top_base_acceleration": -0.23225609465271113,
+      "top_total": -0.3088762774306949,
+      "lower_total": -5.507810574952985,
+      "literal_top_entropy_second": -0.2962678348936859,
+      "literal_lower_entropy_second": -5.520419017489994,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.005795633795163144,
+          "acceleration": -0.052502675686013606,
+          "curvature": -0.05829830948117675,
+          "mass_second": -0.9832826795967098,
+          "literal_layer_entropy_second": 0.924984370115533
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.1576889292417052,
+          "acceleration": 9.959415217680373,
+          "curvature": 8.801726288438669,
+          "mass_second": 1.9539569166564106,
+          "literal_layer_entropy_second": 6.847769371782258
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -3.5695477851073165,
+          "acceleration": -10.68169076880316,
+          "curvature": -14.251238553910477,
+          "mass_second": -0.9580657945226918,
+          "literal_layer_entropy_second": -13.293172759387785
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.054985557438340556,
+          "acceleration": -0.25389071999235435,
+          "curvature": -0.3088762774306949,
+          "mass_second": -0.012608442537008975,
+          "literal_layer_entropy_second": -0.2962678348936859
+        }
+      ],
+      "commutator_norm": 0.037715681920504,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 9,
+      "frame": 1,
+      "spectrum": "sparse",
+      "direction": "acceleration_top",
+      "curvature": -271.5389093589522,
+      "acceleration": 2.249642556863246,
+      "negative_fisher": -273.78855191581545,
+      "entropy_q": 1.715884041676051,
+      "geometry": 0.052940362760631944,
+      "top_fisher": 0.3330703363701167,
+      "geometry_over_fisher": 0.1589464956188809,
+      "top_base_acceleration": 0.5683353287265652,
+      "top_total": 0.2882053551170805,
+      "lower_total": -271.8271147140693,
+      "literal_top_entropy_second": 0.25735224297500325,
+      "literal_lower_entropy_second": -271.7962616019272,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.9049403218169587,
+          "acceleration": 0.10231719863290127,
+          "curvature": -2.8026231231840577,
+          "mass_second": 1.9162209911406285,
+          "literal_layer_entropy_second": -4.718844114324686
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -229.83298215494227,
+          "acceleration": -20.180837172817647,
+          "curvature": -250.0138193277599,
+          "mass_second": -3.8015888701391796,
+          "literal_layer_entropy_second": -246.21223045762073
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -40.71755910268612,
+          "acceleration": 21.706886839560795,
+          "curvature": -19.010672263125322,
+          "mass_second": 1.8545147668564739,
+          "literal_layer_entropy_second": -20.865187029981797
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.3330703363701167,
+          "acceleration": 0.6212756914871972,
+          "curvature": 0.2882053551170805,
+          "mass_second": 0.030853112142077244,
+          "literal_layer_entropy_second": 0.25735224297500325
+        }
+      ],
+      "commutator_norm": 0.001995189401156457,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 10,
+      "frame": 1,
+      "spectrum": "dense",
+      "direction": "hessian_top",
+      "curvature": -12.294882523932683,
+      "acceleration": -1.4659822628835475,
+      "negative_fisher": -10.828900261049135,
+      "entropy_q": 1.715884041676051,
+      "geometry": -1.3777644358657908,
+      "top_fisher": 0.22433931517434322,
+      "geometry_over_fisher": -6.141431049636012,
+      "top_base_acceleration": -0.04287361292009738,
+      "top_total": -1.6449773639602314,
+      "lower_total": -10.649905159972452,
+      "literal_top_entropy_second": -0.842030077079464,
+      "literal_lower_entropy_second": -11.45285244685322,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.00039913105524462327,
+          "acceleration": -0.004049746484545753,
+          "curvature": -0.004448877539790376,
+          "mass_second": -0.00021984781891816414,
+          "literal_layer_entropy_second": -0.004229029720872212
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -3.121955928269583,
+          "acceleration": -8.124348426986685,
+          "curvature": -11.246304355256267,
+          "mass_second": -0.802507591242931,
+          "literal_layer_entropy_second": -10.443796764013337
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -7.4822058865499645,
+          "acceleration": 8.083053959373572,
+          "curvature": 0.6008480728236067,
+          "mass_second": 1.6056747259426167,
+          "literal_layer_entropy_second": -1.00482665311901
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.22433931517434322,
+          "acceleration": -1.4206380487858883,
+          "curvature": -1.6449773639602314,
+          "mass_second": -0.8029472868807674,
+          "literal_layer_entropy_second": -0.842030077079464
+        }
+      ],
+      "commutator_norm": 0.01960101906102294,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 10,
+      "frame": 1,
+      "spectrum": "dense",
+      "direction": "acceleration_top",
+      "curvature": -1354.5134379019228,
+      "acceleration": 3.086506310430389,
+      "negative_fisher": -1357.5999442123532,
+      "entropy_q": 1.715884041676051,
+      "geometry": 3.3587185546168916,
+      "top_fisher": 2.941698094527194,
+      "geometry_over_fisher": 1.1417618146694022,
+      "top_base_acceleration": 0.10451743089717895,
+      "top_total": 0.5215378909868764,
+      "lower_total": -1355.0349757929096,
+      "literal_top_entropy_second": -1.4358895767434856,
+      "literal_lower_entropy_second": -1353.0775483251794,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.3278008350534136,
+          "acceleration": 0.627729310535427,
+          "curvature": 0.29992847548201335,
+          "mass_second": 0.034077421961808595,
+          "literal_layer_entropy_second": 0.26585105352020477
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -107.30160209804706,
+          "acceleration": 22.36940258674229,
+          "curvature": -84.93219951130477,
+          "mass_second": 1.889272623806745,
+          "literal_layer_entropy_second": -86.82147213511152
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1247.0288431847255,
+          "acceleration": -23.3738615723614,
+          "curvature": -1270.402704757087,
+          "mass_second": -3.8807775134989155,
+          "literal_layer_entropy_second": -1266.521927243588
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.941698094527194,
+          "acceleration": 3.4632359855140704,
+          "curvature": 0.5215378909868764,
+          "mass_second": 1.957427467730362,
+          "literal_layer_entropy_second": -1.4358895767434856
+        }
+      ],
+      "commutator_norm": 0.000767318571174555,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 11,
+      "frame": 1,
+      "spectrum": "one_zero",
+      "direction": "hessian_top",
+      "curvature": -2.343842666552738,
+      "acceleration": -0.7360887012543764,
+      "negative_fisher": -1.6077539652983612,
+      "entropy_q": 1.715884041676051,
+      "geometry": -0.036036592374283465,
+      "top_fisher": 3.9099123107411194e-05,
+      "geometry_over_fisher": -921.6726491610951,
+      "top_base_acceleration": -0.22119260324045759,
+      "top_total": -0.25726829473784846,
+      "lower_total": -2.0865743718148893,
+      "literal_top_entropy_second": -0.2362665303417629,
+      "literal_lower_entropy_second": -2.107576136210975,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.04299899059851176,
+          "acceleration": -1.9572601286329119,
+          "curvature": -2.0002591192314236,
+          "mass_second": -0.9713435185070567,
+          "literal_layer_entropy_second": -1.028915600724367
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.4129739043269307,
+          "acceleration": 4.640114789694632,
+          "curvature": 3.227140885367701,
+          "mass_second": 1.9216852726180278,
+          "literal_layer_entropy_second": 1.305455612749673
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.15174197124981137,
+          "acceleration": -3.1617141667013553,
+          "curvature": -3.3134561379511664,
+          "mass_second": -0.9293399897148856,
+          "literal_layer_entropy_second": -2.3841161482362807
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.9099123107411194e-05,
+          "acceleration": -0.25722919561474106,
+          "curvature": -0.25726829473784846,
+          "mass_second": -0.021001764396085552,
+          "literal_layer_entropy_second": -0.2362665303417629
+        }
+      ],
+      "commutator_norm": 0.46607375590929034,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 11,
+      "frame": 1,
+      "spectrum": "one_zero",
+      "direction": "acceleration_top",
+      "curvature": -1273.267085020274,
+      "acceleration": 6.781993184397111,
+      "negative_fisher": -1280.049078204671,
+      "entropy_q": 1.715884041676051,
+      "geometry": 1.4564781895583625,
+      "top_fisher": 1267.38968813201,
+      "geometry_over_fisher": 0.0011491952342653567,
+      "top_base_acceleration": 8.939863097079765,
+      "top_total": -1256.993346845372,
+      "lower_total": -16.273738174902164,
+      "literal_top_entropy_second": -1257.842167717985,
+      "literal_lower_entropy_second": -15.42491730228906,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.6365355722728745,
+          "acceleration": 1.963712595292873,
+          "curvature": 0.3271770230199984,
+          "mass_second": 0.9745457304035989,
+          "literal_layer_entropy_second": -0.6473687073836005
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.7273747667970512,
+          "acceleration": -3.0954459264875083,
+          "curvature": -3.822820693284559,
+          "mass_second": -1.1002705881940955,
+          "literal_layer_entropy_second": -2.7225501050904635
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -10.295479733591222,
+          "acceleration": -2.482614771046381,
+          "curvature": -12.778094504637602,
+          "mass_second": -0.7230960148226057,
+          "literal_layer_entropy_second": -12.054998489814997
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1267.38968813201,
+          "acceleration": 10.396341286638128,
+          "curvature": -1256.993346845372,
+          "mass_second": 0.8488208726131024,
+          "literal_layer_entropy_second": -1257.842167717985
+        }
+      ],
+      "commutator_norm": 0.039336036429337994,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 12,
+      "frame": 1,
+      "spectrum": "two_zero",
+      "direction": "hessian_top",
+      "curvature": -5.291202785365352,
+      "acceleration": 0.08752357654926937,
+      "negative_fisher": -5.378726361914621,
+      "entropy_q": 1.715884041676051,
+      "geometry": 3.1867019936231387e-06,
+      "top_fisher": 5.737049921310165e-06,
+      "geometry_over_fisher": 0.5554600425884728,
+      "top_base_acceleration": 3.046844851302561e-05,
+      "top_total": 2.791810058533858e-05,
+      "lower_total": -5.291230703465938,
+      "literal_top_entropy_second": 2.6060922643109796e-05,
+      "literal_lower_entropy_second": -5.2912288462879955,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -4.009565625330149,
+          "acceleration": 0.019641486730083473,
+          "curvature": -3.989924138600065,
+          "mass_second": 0.01415709918279233,
+          "literal_layer_entropy_second": -4.004081237782858
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.3189746313531028,
+          "acceleration": -0.057393704784458814,
+          "curvature": -1.3763683361375616,
+          "mass_second": -0.02831234118764243,
+          "literal_layer_entropy_second": -1.3480559949499191
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.050180368181448644,
+          "acceleration": 0.12524213945313806,
+          "curvature": 0.07506177127168942,
+          "mass_second": 0.014153384826907872,
+          "literal_layer_entropy_second": 0.06090838644478155
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -5.737049921310165e-06,
+          "acceleration": 3.3655150506648745e-05,
+          "curvature": 2.791810058533858e-05,
+          "mass_second": 1.8571779422287847e-06,
+          "literal_layer_entropy_second": 2.6060922643109796e-05
+        }
+      ],
+      "commutator_norm": 0.00105992832509267,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 12,
+      "frame": 1,
+      "spectrum": "two_zero",
+      "direction": "acceleration_top",
+      "curvature": -973.6942298621976,
+      "acceleration": 9.483464673385589,
+      "negative_fisher": -983.1776945355832,
+      "entropy_q": 1.715884041676051,
+      "geometry": 0.727508461734137,
+      "top_fisher": 2.420851162591407,
+      "geometry_over_fisher": 0.30051763320937647,
+      "top_base_acceleration": 6.955797609407208,
+      "top_total": 5.262454908549938,
+      "lower_total": -978.9566847707476,
+      "literal_top_entropy_second": 4.8384702778498845,
+      "literal_lower_entropy_second": -978.5327001400475,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.415575908565045,
+          "acceleration": 2.1370626755103146,
+          "curvature": -1.2785132330547306,
+          "mass_second": 1.5403420664029586,
+          "literal_layer_entropy_second": -2.818855299457689
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.0797957799615694,
+          "acceleration": -6.888183440148705,
+          "curvature": -7.967979220110274,
+          "mass_second": -2.656699502105863,
+          "literal_layer_entropy_second": -5.3112797180044105
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -976.2614716844652,
+          "acceleration": 6.551279366882633,
+          "curvature": -969.7101923175826,
+          "mass_second": 0.69237280500285,
+          "literal_layer_entropy_second": -970.4025651225854
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.420851162591407,
+          "acceleration": 7.683306071141345,
+          "curvature": 5.262454908549938,
+          "mass_second": 0.42398463070005427,
+          "literal_layer_entropy_second": 4.8384702778498845
+        }
+      ],
+      "commutator_norm": 0.014574101256190759,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 13,
+      "frame": 1,
+      "spectrum": "one_one",
+      "direction": "hessian_top",
+      "curvature": -1.4062668829133937,
+      "acceleration": -0.6555824829386132,
+      "negative_fisher": -0.7506843999747804,
+      "entropy_q": 1.715884041676051,
+      "geometry": -1.7085147812254065,
+      "top_fisher": 0.0008853860765579998,
+      "geometry_over_fisher": -1929.6833623896334,
+      "top_base_acceleration": -2.006349129508018,
+      "top_total": -3.715749296809982,
+      "lower_total": 2.309482413896588,
+      "literal_top_entropy_second": -2.720044027847545,
+      "literal_lower_entropy_second": 1.3137771449341509,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.3888868852692283e-06,
+          "acceleration": -0.04523118617648966,
+          "curvature": -0.045232575063374934,
+          "mass_second": -0.00429460434715101,
+          "literal_layer_entropy_second": -0.040937970716223925
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.010994161724345905,
+          "acceleration": -2.682297545346591,
+          "curvature": -2.6932917070709372,
+          "mass_second": -0.9871160602681354,
+          "literal_layer_entropy_second": -1.706175646802802
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.7388034632869913,
+          "acceleration": 5.786810159317891,
+          "curvature": 5.0480066960309005,
+          "mass_second": 1.9871159335777235,
+          "literal_layer_entropy_second": 3.0608907624531767
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.0008853860765579998,
+          "acceleration": -3.714863910733424,
+          "curvature": -3.715749296809982,
+          "mass_second": -0.9957052689624374,
+          "literal_layer_entropy_second": -2.720044027847545
+        }
+      ],
+      "commutator_norm": 0.47204019493234683,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 13,
+      "frame": 1,
+      "spectrum": "one_one",
+      "direction": "acceleration_top",
+      "curvature": -1267.8426761179733,
+      "acceleration": 7.3086570215076465,
+      "negative_fisher": -1275.151333139481,
+      "entropy_q": 1.715884041676051,
+      "geometry": 1.8990440425044541,
+      "top_fisher": 2.012601457359615,
+      "geometry_over_fisher": 0.9435767998478248,
+      "top_base_acceleration": 2.230092126474568,
+      "top_total": 2.116534711619407,
+      "lower_total": -1269.9592108295928,
+      "literal_top_entropy_second": 1.0097909012104618,
+      "literal_lower_entropy_second": -1268.852467019184,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1267.964538953698,
+          "acceleration": 8.645392185616135,
+          "curvature": -1259.319146768082,
+          "mass_second": 0.8208614896434254,
+          "literal_layer_entropy_second": -1260.1400082577254
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -4.7457920087499765,
+          "acceleration": -1.603143554180579,
+          "curvature": -6.3489355629305555,
+          "mass_second": -0.5349791688779056,
+          "literal_layer_entropy_second": -5.81395639405265
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.42840071967339494,
+          "acceleration": -3.862727778906931,
+          "curvature": -4.291128498580326,
+          "mass_second": -1.392626131174465,
+          "literal_layer_entropy_second": -2.898502367405861
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.012601457359615,
+          "acceleration": 4.129136168979023,
+          "curvature": 2.116534711619407,
+          "mass_second": 1.1067438104089453,
+          "literal_layer_entropy_second": 1.0097909012104618
+        }
+      ],
+      "commutator_norm": 0.006548251342891429,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 14,
+      "frame": 1,
+      "spectrum": "split_extreme",
+      "direction": "hessian_top",
+      "curvature": -3.9859848154631847,
+      "acceleration": 0.020231782379810895,
+      "negative_fisher": -4.006216597842996,
+      "entropy_q": 1.715884041676051,
+      "geometry": 0.0014081280841183098,
+      "top_fisher": 0.0037833741104222785,
+      "geometry_over_fisher": 0.37218843366276105,
+      "top_base_acceleration": 0.008127308975768528,
+      "top_total": 0.0057520629494645596,
+      "lower_total": -3.9917368784126492,
+      "literal_top_entropy_second": 0.004931420033091918,
+      "literal_lower_entropy_second": -3.9909162354962766,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.0035726349844408894,
+          "acceleration": 0.0073371132906642975,
+          "curvature": 0.0037644783062234077,
+          "mass_second": 0.0007408540842435304,
+          "literal_layer_entropy_second": 0.003023624221979877
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.999518012072076,
+          "acceleration": 0.02316826408302595,
+          "curvature": -1.97634974798905,
+          "mass_second": -0.000661065252114419,
+          "literal_layer_entropy_second": -1.9756886827369355
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.9993425766760564,
+          "acceleration": -0.01980903205376619,
+          "curvature": -2.019151608729823,
+          "mass_second": -0.0009004317485017514,
+          "literal_layer_entropy_second": -2.018251176981321
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.0037833741104222785,
+          "acceleration": 0.009535437059886838,
+          "curvature": 0.0057520629494645596,
+          "mass_second": 0.0008206429163726416,
+          "literal_layer_entropy_second": 0.004931420033091918
+        }
+      ],
+      "commutator_norm": 0.03143705380151252,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 14,
+      "frame": 1,
+      "spectrum": "split_extreme",
+      "direction": "acceleration_top",
+      "curvature": -4002.607225570426,
+      "acceleration": 14.74224555691286,
+      "negative_fisher": -4017.3494711273393,
+      "entropy_q": 1.715884041676051,
+      "geometry": 1.6542602585494683,
+      "top_fisher": 1926.4187115918785,
+      "geometry_over_fisher": 0.0008587231055197162,
+      "top_base_acceleration": 9.547912863327744,
+      "top_total": -1915.2165384700013,
+      "lower_total": -2087.390687100425,
+      "literal_top_entropy_second": -1916.180624747611,
+      "literal_lower_entropy_second": -2086.426600822815,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1947.7197052425827,
+          "acceleration": 9.595335687404344,
+          "curvature": -1938.1243695551784,
+          "mass_second": 0.968874726623935,
+          "literal_layer_entropy_second": -1939.0932442818023
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -102.54765620876341,
+          "acceleration": -2.8458505862246803,
+          "curvature": -105.3935067949881,
+          "mass_second": -0.9736631756381018,
+          "literal_layer_entropy_second": -104.41984361934999
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -40.663398084114554,
+          "acceleration": -3.209412666144016,
+          "curvature": -43.87281075025857,
+          "mass_second": -0.9592978285956015,
+          "literal_layer_entropy_second": -42.91351292166297
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1926.4187115918785,
+          "acceleration": 11.202173121877212,
+          "curvature": -1915.2165384700013,
+          "mass_second": 0.9640862776097683,
+          "literal_layer_entropy_second": -1916.180624747611
+        }
+      ],
+      "commutator_norm": 0.041131353669038764,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 15,
+      "frame": 1,
+      "spectrum": "cluster_mid",
+      "direction": "hessian_top",
+      "curvature": -0.34258674598360633,
+      "acceleration": -0.09862196347855622,
+      "negative_fisher": -0.24396478250505013,
+      "entropy_q": 1.715884041676051,
+      "geometry": -0.8505565808380496,
+      "top_fisher": 0.00041496374442791137,
+      "geometry_over_fisher": -2049.7129984468093,
+      "top_base_acceleration": -1.0309688390777618,
+      "top_total": -1.8819403836602395,
+      "lower_total": 1.5393536376766332,
+      "literal_top_entropy_second": -1.386244543976785,
+      "literal_lower_entropy_second": 1.0436577979931787,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -4.429837533094887e-05,
+          "acceleration": -1.0481206600059194,
+          "curvature": -1.0481649583812505,
+          "mass_second": -0.503942535368931,
+          "literal_layer_entropy_second": -0.5442224230123195
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.007238959793873959,
+          "acceleration": 1.234326328291904,
+          "curvature": 1.2270873684980301,
+          "mass_second": 0.5121892310544075,
+          "literal_layer_entropy_second": 0.7148981374436226
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.23626656059141732,
+          "acceleration": 1.5966977881512707,
+          "curvature": 1.3604312275598536,
+          "mass_second": 0.48744914399797795,
+          "literal_layer_entropy_second": 0.8729820835618756
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.00041496374442791137,
+          "acceleration": -1.8815254199158116,
+          "curvature": -1.8819403836602395,
+          "mass_second": -0.49569583968345443,
+          "literal_layer_entropy_second": -1.386244543976785
+        }
+      ],
+      "commutator_norm": 0.008979078072932929,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 15,
+      "frame": 1,
+      "spectrum": "cluster_mid",
+      "direction": "acceleration_top",
+      "curvature": -3.6516002450399827,
+      "acceleration": 0.30639651329298284,
+      "negative_fisher": -3.957996758332966,
+      "entropy_q": 1.715884041676051,
+      "geometry": 1.6771937894651243,
+      "top_fisher": 1.4777913090301533,
+      "geometry_over_fisher": 1.1349327738067665,
+      "top_base_acceleration": 2.0329447481666447,
+      "top_total": 2.2323472286016157,
+      "lower_total": -5.883947473641599,
+      "literal_top_entropy_second": 1.2548955193201043,
+      "literal_lower_entropy_second": -4.906495764360088,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4775036216942254,
+          "acceleration": 2.0327729345551613,
+          "curvature": 0.5552693128609356,
+          "mass_second": 0.9773691002935525,
+          "literal_layer_entropy_second": -0.4220997874326169
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5017132685492971,
+          "acceleration": -2.4607918838473486,
+          "curvature": -2.9625051523966457,
+          "mass_second": -0.9772864913055935,
+          "literal_layer_entropy_second": -1.9852186610910523
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.5009885590592897,
+          "acceleration": -2.9757230750465986,
+          "curvature": -3.4767116341058886,
+          "mass_second": -0.9775343182694703,
+          "literal_layer_entropy_second": -2.4991773158364183
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.4777913090301533,
+          "acceleration": 3.710138537631769,
+          "curvature": 2.2323472286016157,
+          "mass_second": 0.9774517092815114,
+          "literal_layer_entropy_second": 1.2548955193201043
+        }
+      ],
+      "commutator_norm": 0.0012269941846498164,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 16,
+      "frame": 2,
+      "spectrum": "moderate",
+      "direction": "hessian_top",
+      "curvature": -1.025901548431506,
+      "acceleration": -0.3771750207882452,
+      "negative_fisher": -0.6487265276432608,
+      "entropy_q": 1.9692789678720306,
+      "geometry": -1.4525812131007083,
+      "top_fisher": 0.00011089096289383926,
+      "geometry_over_fisher": -13099.184777494695,
+      "top_base_acceleration": -2.1436147700432238,
+      "top_total": -3.5963068741068263,
+      "lower_total": 2.57040532567532,
+      "literal_top_entropy_second": -2.8586860307428497,
+      "literal_lower_entropy_second": 1.832784482311344,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.0032257561990898225,
+          "acceleration": -0.7623728426893023,
+          "curvature": -0.7655985988883921,
+          "mass_second": -0.26233356246698014,
+          "literal_layer_entropy_second": -0.503265036421412
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.15438454137695456,
+          "acceleration": -0.031058011724288296,
+          "curvature": -0.18544255310124286,
+          "mass_second": -0.21295371843001623,
+          "literal_layer_entropy_second": 0.027511165328773374
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.49100533910432254,
+          "acceleration": 4.0124518167692775,
+          "curvature": 3.521446477664955,
+          "mass_second": 1.2129081242609727,
+          "literal_layer_entropy_second": 2.3085383534039825
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.00011089096289383926,
+          "acceleration": -3.5961959831439323,
+          "curvature": -3.5963068741068263,
+          "mass_second": -0.7376208433639765,
+          "literal_layer_entropy_second": -2.8586860307428497
+        }
+      ],
+      "commutator_norm": 0.538606781809456,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 16,
+      "frame": 2,
+      "spectrum": "moderate",
+      "direction": "acceleration_top",
+      "curvature": -5.501314657996598,
+      "acceleration": 1.6764742282209253,
+      "negative_fisher": -7.177788886217524,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 1.8891124599806823,
+      "top_fisher": 2.305626695000775,
+      "geometry_over_fisher": 0.8193487974774023,
+      "top_base_acceleration": 2.787816154418709,
+      "top_total": 2.3713019193986167,
+      "lower_total": -7.872616577395216,
+      "literal_top_entropy_second": 1.412010477809706,
+      "literal_lower_entropy_second": -6.913325135806305,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.3955134023342977,
+          "acceleration": 2.7904766159427883,
+          "curvature": 0.39496321360849035,
+          "mass_second": 0.9602069101239075,
+          "literal_layer_entropy_second": -0.5652436965154171
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.1795403485527127,
+          "acceleration": -2.674897457611836,
+          "curvature": -3.854437806164549,
+          "mass_second": -0.9611223786589042,
+          "literal_layer_entropy_second": -2.8933154275056445
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.2971084403297386,
+          "acceleration": -3.1160335445094183,
+          "curvature": -4.413141984839157,
+          "mass_second": -0.9583759730539141,
+          "literal_layer_entropy_second": -3.4547660117852432
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.305626695000775,
+          "acceleration": 4.676928614399391,
+          "curvature": 2.3713019193986167,
+          "mass_second": 0.9592914415889108,
+          "literal_layer_entropy_second": 1.412010477809706
+        }
+      ],
+      "commutator_norm": 0.04862067966272809,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 17,
+      "frame": 2,
+      "spectrum": "sparse",
+      "direction": "hessian_top",
+      "curvature": -4.578484839996107,
+      "acceleration": -1.011434271647516,
+      "negative_fisher": -3.5670505683485905,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 0.0015032674324141663,
+      "top_fisher": 0.0026862804816014493,
+      "geometry_over_fisher": 0.5596092599824053,
+      "top_base_acceleration": 0.014061598126549332,
+      "top_total": 0.012878585077362049,
+      "lower_total": -4.591363425073469,
+      "literal_top_entropy_second": 0.012115225768224365,
+      "literal_lower_entropy_second": -4.590600065764333,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.007714120263483154,
+          "acceleration": -0.05318041720933652,
+          "curvature": -0.06089453747281967,
+          "mass_second": -0.9959755850995132,
+          "literal_layer_entropy_second": 0.9350810476266935
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.8033856339633304,
+          "acceleration": 9.938654390004574,
+          "curvature": 9.135268756041244,
+          "mass_second": 1.992714529508164,
+          "literal_layer_entropy_second": 7.14255422653308
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -2.7532645336401758,
+          "acceleration": -10.912473110001716,
+          "curvature": -13.665737643641894,
+          "mass_second": -0.9975023037177886,
+          "literal_layer_entropy_second": -12.668235339924106
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.0026862804816014493,
+          "acceleration": 0.015564865558963498,
+          "curvature": 0.012878585077362049,
+          "mass_second": 0.0007633593091376848,
+          "literal_layer_entropy_second": 0.012115225768224365
+        }
+      ],
+      "commutator_norm": 0.04121872093105898,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 17,
+      "frame": 2,
+      "spectrum": "sparse",
+      "direction": "acceleration_top",
+      "curvature": -339.229686423907,
+      "acceleration": 3.424454707550944,
+      "negative_fisher": -342.654141131458,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 0.06912005422090463,
+      "top_fisher": 0.4474626448057372,
+      "geometry_over_fisher": 0.1544711162446032,
+      "top_base_acceleration": 0.6465505764192471,
+      "top_total": 0.2682079858344145,
+      "lower_total": -339.49789440974143,
+      "literal_top_entropy_second": 0.2331088173831338,
+      "literal_lower_entropy_second": -339.46279524129017,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.9219656273093175,
+          "acceleration": 0.10362881558692973,
+          "curvature": -2.8183368117223875,
+          "mass_second": 1.9407852674619805,
+          "literal_layer_entropy_second": -4.759122079184368
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -258.00541351187667,
+          "acceleration": -20.501383563641195,
+          "curvature": -278.50679707551785,
+          "mass_second": -3.8464713664726804,
+          "literal_layer_entropy_second": -274.6603257090452
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -81.27929934746625,
+          "acceleration": 23.106538824965057,
+          "curvature": -58.172760522501186,
+          "mass_second": 1.8705869305594192,
+          "literal_layer_entropy_second": -60.043347453060605
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.4474626448057372,
+          "acceleration": 0.7156706306401518,
+          "curvature": 0.2682079858344145,
+          "mass_second": 0.03509916845128072,
+          "literal_layer_entropy_second": 0.2331088173831338
+        }
+      ],
+      "commutator_norm": 0.0007805577820887038,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 18,
+      "frame": 2,
+      "spectrum": "dense",
+      "direction": "hessian_top",
+      "curvature": -12.415251767738605,
+      "acceleration": -1.4684290459903737,
+      "negative_fisher": -10.946822721748232,
+      "entropy_q": 1.9692789678720306,
+      "geometry": -1.634243122960332,
+      "top_fisher": 0.19191956233185525,
+      "geometry_over_fisher": -8.51525036376699,
+      "top_base_acceleration": -0.0443110938628868,
+      "top_total": -1.870473779155074,
+      "lower_total": -10.544777988583531,
+      "literal_top_entropy_second": -1.0406050050391005,
+      "literal_lower_entropy_second": -11.374646762699506,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.001064834722122235,
+          "acceleration": -0.02434035082860129,
+          "curvature": -0.025405185550723523,
+          "mass_second": -0.0013213600065563479,
+          "literal_layer_entropy_second": -0.024083825544167176
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -3.0878228367036,
+          "acceleration": -8.363488243073883,
+          "curvature": -11.451311079777483,
+          "mass_second": -0.827226054102861,
+          "literal_layer_entropy_second": -10.624085025674622
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -7.666015487990654,
+          "acceleration": 8.59795376473533,
+          "curvature": 0.9319382767446759,
+          "mass_second": 1.6584161882253912,
+          "literal_layer_entropy_second": -0.7264779114807153
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.19191956233185525,
+          "acceleration": -1.6785542168232188,
+          "curvature": -1.870473779155074,
+          "mass_second": -0.8298687741159737,
+          "literal_layer_entropy_second": -1.0406050050391005
+        }
+      ],
+      "commutator_norm": 0.025765367245838645,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 18,
+      "frame": 2,
+      "spectrum": "dense",
+      "direction": "acceleration_top",
+      "curvature": -277.58116821878605,
+      "acceleration": 4.268913439082749,
+      "negative_fisher": -281.85008165786877,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 3.774069980886836,
+      "top_fisher": 2.90575241991222,
+      "geometry_over_fisher": 1.2988270972517497,
+      "top_base_acceleration": 0.10233065497944227,
+      "top_total": 0.9706482159540581,
+      "lower_total": -278.5518164347401,
+      "literal_top_entropy_second": -0.9458247888660929,
+      "literal_lower_entropy_second": -276.63534342991994,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.412362996226553,
+          "acceleration": 0.5672527430255421,
+          "curvature": 0.15488974679898912,
+          "mass_second": 0.030794342017559533,
+          "literal_layer_entropy_second": 0.12409540478142958
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -120.98594283829095,
+          "acceleration": 21.254675754815985,
+          "curvature": -99.73126708347498,
+          "mass_second": 1.8548843207850318,
+          "literal_layer_entropy_second": -101.58615140426001
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -157.54602340343905,
+          "acceleration": -21.429415694625053,
+          "curvature": -178.9754390980641,
+          "mass_second": -3.8021516676227423,
+          "literal_layer_entropy_second": -175.17328743044135
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.90575241991222,
+          "acceleration": 3.876400635866278,
+          "curvature": 0.9706482159540581,
+          "mass_second": 1.916473004820151,
+          "literal_layer_entropy_second": -0.9458247888660929
+        }
+      ],
+      "commutator_norm": 0.0024995534950827698,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 19,
+      "frame": 2,
+      "spectrum": "one_zero",
+      "direction": "hessian_top",
+      "curvature": -1.8523648251927793,
+      "acceleration": -0.6341275364005563,
+      "negative_fisher": -1.218237288792223,
+      "entropy_q": 1.9692789678720306,
+      "geometry": -0.0023539981565608363,
+      "top_fisher": 0.00024505071003303196,
+      "geometry_over_fisher": -9.606167459149683,
+      "top_base_acceleration": -0.012589651071357387,
+      "top_total": -0.015188699937951255,
+      "lower_total": -1.8371761252548282,
+      "literal_top_entropy_second": -0.013993339506562234,
+      "literal_lower_entropy_second": -1.8383714856862174,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.2782976030123132,
+          "acceleration": -2.002264310822558,
+          "curvature": -2.2805619138348714,
+          "mass_second": -0.9936780667033441,
+          "literal_layer_entropy_second": -1.2868838471315271
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.6748592186594048,
+          "acceleration": 4.386432063704589,
+          "curvature": 3.7115728450451844,
+          "mass_second": 1.9861607729752992,
+          "literal_layer_entropy_second": 1.7254120720698851
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.264835416410472,
+          "acceleration": -3.003351640054669,
+          "curvature": -3.268187056465141,
+          "mass_second": -0.991287345840566,
+          "literal_layer_entropy_second": -2.2768997106245754
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.00024505071003303196,
+          "acceleration": -0.014943649227918224,
+          "curvature": -0.015188699937951255,
+          "mass_second": -0.0011953604313890208,
+          "literal_layer_entropy_second": -0.013993339506562234
+        }
+      ],
+      "commutator_norm": 0.3443771660415704,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 19,
+      "frame": 2,
+      "spectrum": "one_zero",
+      "direction": "acceleration_top",
+      "curvature": -1504.4596040062588,
+      "acceleration": 7.31556399252501,
+      "negative_fisher": -1511.7751679987837,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 1.5258849290754959,
+      "top_fisher": 1275.0305900384294,
+      "geometry_over_fisher": 0.0011967437808919595,
+      "top_base_acceleration": 8.160736565813425,
+      "top_total": -1265.3439685435405,
+      "lower_total": -239.11563546271816,
+      "literal_top_entropy_second": -1266.1188130190922,
+      "literal_lower_entropy_second": -238.3407909871666,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.1466876883952972,
+          "acceleration": 2.2109962480352454,
+          "curvature": 0.06430855963994807,
+          "mass_second": 1.0972669618894841,
+          "literal_layer_entropy_second": -1.0329584022495362
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.4489403447612586,
+          "acceleration": -3.063391598779725,
+          "curvature": -3.512331943540984,
+          "mass_second": -1.419689448227421,
+          "literal_layer_entropy_second": -2.092642495313563
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -234.1489499271977,
+          "acceleration": -1.5186621516194303,
+          "curvature": -235.66761207881711,
+          "mass_second": -0.45242198921361054,
+          "literal_layer_entropy_second": -235.2151900896035
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1275.0305900384294,
+          "acceleration": 9.68662149488892,
+          "curvature": -1265.3439685435405,
+          "mass_second": 0.7748444755515473,
+          "literal_layer_entropy_second": -1266.1188130190922
+        }
+      ],
+      "commutator_norm": 0.06283701335870188,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 20,
+      "frame": 2,
+      "spectrum": "two_zero",
+      "direction": "hessian_top",
+      "curvature": -5.284896160397594,
+      "acceleration": 0.10183404628042755,
+      "negative_fisher": -5.386730206678021,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 2.6420460015545534e-05,
+      "top_fisher": 2.4447234943288702e-05,
+      "geometry_over_fisher": 1.0807136298576998,
+      "top_base_acceleration": 0.00022010502393861493,
+      "top_total": 0.00022207824901087177,
+      "lower_total": -5.2851182386466045,
+      "literal_top_entropy_second": 0.00020866193753515686,
+      "literal_lower_entropy_second": -5.285104822335129,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -4.010842888419273,
+          "acceleration": 0.021388690919174988,
+          "curvature": -3.9894541975000974,
+          "mass_second": 0.015416440867944579,
+          "literal_layer_entropy_second": -4.004870638368042
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.3181450498089045,
+          "acceleration": -0.061961523733920394,
+          "curvature": -1.3801065735428248,
+          "mass_second": -0.030819465424413446,
+          "literal_layer_entropy_second": -1.3492871081184115
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.05771782121490126,
+          "acceleration": 0.1421603536112188,
+          "curvature": 0.08444253239631754,
+          "mass_second": 0.01538960824499315,
+          "literal_layer_entropy_second": 0.06905292415132439
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.4447234943288702e-05,
+          "acceleration": 0.0002465254839541605,
+          "curvature": 0.00022207824901087177,
+          "mass_second": 1.3416311475714909e-05,
+          "literal_layer_entropy_second": 0.00020866193753515686
+        }
+      ],
+      "commutator_norm": 0.0005629848068948728,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 20,
+      "frame": 2,
+      "spectrum": "two_zero",
+      "direction": "acceleration_top",
+      "curvature": -1542.1554438738176,
+      "acceleration": 11.344383044950487,
+      "negative_fisher": -1553.4998269187681,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 0.8299298809941804,
+      "top_fisher": 2.774043455777653,
+      "geometry_over_fisher": 0.2991769574718232,
+      "top_base_acceleration": 6.914025577757303,
+      "top_total": 4.96991200297383,
+      "lower_total": -1547.1253558767914,
+      "literal_top_entropy_second": 4.548473550355312,
+      "literal_lower_entropy_second": -1546.7039174241731,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.41864351128672,
+          "acceleration": 2.133963516633599,
+          "curvature": -1.2846799946531213,
+          "mass_second": 1.5381082691245838,
+          "literal_layer_entropy_second": -2.822788263777705
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.06466713408159601,
+          "acceleration": -5.20776682750428,
+          "curvature": -5.272433961585875,
+          "mass_second": -2.6547780856306495,
+          "literal_layer_entropy_second": -2.6176558759552258
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1547.2424728176222,
+          "acceleration": 6.674230897069684,
+          "curvature": -1540.5682419205525,
+          "mass_second": 0.6952313638875481,
+          "literal_layer_entropy_second": -1541.2634732844401
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.774043455777653,
+          "acceleration": 7.743955458751484,
+          "curvature": 4.96991200297383,
+          "mass_second": 0.4214384526185178,
+          "literal_layer_entropy_second": 4.548473550355312
+        }
+      ],
+      "commutator_norm": 0.019680010671241917,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 21,
+      "frame": 2,
+      "spectrum": "one_one",
+      "direction": "hessian_top",
+      "curvature": -1.4747200630615003,
+      "acceleration": -0.5688002351027305,
+      "negative_fisher": -0.9059198279587697,
+      "entropy_q": 1.9692789678720306,
+      "geometry": -1.9608461674478792,
+      "top_fisher": 0.015378770163507938,
+      "geometry_over_fisher": -127.50344446272712,
+      "top_base_acceleration": -2.0063744266261008,
+      "top_total": -3.9825993642374877,
+      "lower_total": 2.5078793011759872,
+      "literal_top_entropy_second": -2.9868815408928673,
+      "literal_lower_entropy_second": 1.512161477831367,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -5.2886382716370356e-05,
+          "acceleration": -0.041157344726456976,
+          "curvature": -0.041210231109173344,
+          "mass_second": -0.0039078018181912845,
+          "literal_layer_entropy_second": -0.037302429290982056
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.02581152610185633,
+          "acceleration": -2.2816991562915274,
+          "curvature": -2.3075106823933837,
+          "mass_second": -0.987902219708238,
+          "literal_layer_entropy_second": -1.3196084626851459
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.8646766453106891,
+          "acceleration": 5.721276859989234,
+          "curvature": 4.8566002146785445,
+          "mass_second": 1.9875278448710498,
+          "literal_layer_entropy_second": 2.869072369807495
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.015378770163507938,
+          "acceleration": -3.96722059407398,
+          "curvature": -3.9825993642374877,
+          "mass_second": -0.9957178233446206,
+          "literal_layer_entropy_second": -2.9868815408928673
+        }
+      ],
+      "commutator_norm": 0.4652881937430748,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 21,
+      "frame": 2,
+      "spectrum": "one_one",
+      "direction": "acceleration_top",
+      "curvature": -1288.292901995033,
+      "acceleration": 6.592370543933802,
+      "negative_fisher": -1294.8852725389668,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 2.0961966209409817,
+      "top_fisher": 1.876913448228246,
+      "geometry_over_fisher": 1.1168317979285263,
+      "top_base_acceleration": 2.1448675389513054,
+      "top_total": 2.3641507116640414,
+      "lower_total": -1290.657052706697,
+      "literal_top_entropy_second": 1.2997019184054122,
+      "literal_lower_entropy_second": -1289.5926039134383,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1277.169067782782,
+          "acceleration": 8.78064875202178,
+          "curvature": -1268.3884190307601,
+          "mass_second": 0.8337038112177451,
+          "literal_layer_entropy_second": -1269.2221228419778
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -15.226288347620368,
+          "acceleration": -1.8282648939799109,
+          "curvature": -17.054553241600278,
+          "mass_second": -0.6029588291768607,
+          "literal_layer_entropy_second": -16.451594412423418
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.6130029603362821,
+          "acceleration": -4.601077474000353,
+          "curvature": -5.214080434336635,
+          "mass_second": -1.2951937752995135,
+          "literal_layer_entropy_second": -3.9188866590371214
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.876913448228246,
+          "acceleration": 4.241064159892288,
+          "curvature": 2.3641507116640414,
+          "mass_second": 1.0644487932586293,
+          "literal_layer_entropy_second": 1.2997019184054122
+        }
+      ],
+      "commutator_norm": 0.02480544650953195,
+      "geometry_exceeds_top_fisher": true
+    },
+    {
+      "index": 22,
+      "frame": 2,
+      "spectrum": "split_extreme",
+      "direction": "hessian_top",
+      "curvature": -3.9902132225187823,
+      "acceleration": 0.023215538023149112,
+      "negative_fisher": -4.013428760541932,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 0.003567256766980059,
+      "top_fisher": 0.006191230542053539,
+      "geometry_over_fisher": 0.5761789587303678,
+      "top_base_acceleration": 0.01793988576954995,
+      "top_total": 0.01531591199447647,
+      "lower_total": -4.005529134513259,
+      "literal_top_entropy_second": 0.01350445875439298,
+      "literal_lower_entropy_second": -4.003717681273176,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.005729436170929347,
+          "acceleration": 0.01710200540803973,
+          "curvature": 0.011372569237110384,
+          "mass_second": 0.001726849518791339,
+          "literal_layer_entropy_second": 0.009645719718319045
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -2.0007975793134944,
+          "acceleration": -0.006640299206758228,
+          "curvature": -2.0074378785202525,
+          "mass_second": -0.0016422457974991892,
+          "literal_layer_entropy_second": -2.0057956327227533
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -2.0007105145154545,
+          "acceleration": -0.008753310714662399,
+          "curvature": -2.009463825230117,
+          "mass_second": -0.0018960569613756394,
+          "literal_layer_entropy_second": -2.0075677682687414
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.006191230542053539,
+          "acceleration": 0.021507142536530008,
+          "curvature": 0.01531591199447647,
+          "mass_second": 0.001811453240083489,
+          "literal_layer_entropy_second": 0.01350445875439298
+        }
+      ],
+      "commutator_norm": 0.005435027672039983,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 22,
+      "frame": 2,
+      "spectrum": "split_extreme",
+      "direction": "acceleration_top",
+      "curvature": -3701.4918468972096,
+      "acceleration": 15.444004098458619,
+      "negative_fisher": -3716.9358509956683,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 1.9526509159055487,
+      "top_fisher": 1865.5498658239023,
+      "geometry_over_fisher": 0.0010466892103380893,
+      "top_base_acceleration": 9.819964378064197,
+      "top_total": -1853.7772505299324,
+      "lower_total": -1847.714596367277,
+      "literal_top_entropy_second": -1854.7688068039608,
+      "literal_lower_entropy_second": -1846.7230400932488,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1841.2701922487176,
+          "acceleration": 9.781025695736542,
+          "curvature": -1831.4891665529813,
+          "mass_second": 0.987624498588226,
+          "literal_layer_entropy_second": -1832.4767910515695
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -5.3108023069244945,
+          "acceleration": -2.704237282197495,
+          "curvature": -8.01503958912199,
+          "mass_second": -0.9836927231481206,
+          "literal_layer_entropy_second": -7.03134686597387
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -4.80499061612359,
+          "acceleration": -3.405399609050173,
+          "curvature": -8.210390225173763,
+          "mass_second": -0.9954880494684368,
+          "literal_layer_entropy_second": -7.214902175705326
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1865.5498658239023,
+          "acceleration": 11.772615293969746,
+          "curvature": -1853.7772505299324,
+          "mass_second": 0.9915562740283315,
+          "literal_layer_entropy_second": -1854.7688068039608
+        }
+      ],
+      "commutator_norm": 0.008044601808926662,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 23,
+      "frame": 2,
+      "spectrum": "cluster_mid",
+      "direction": "hessian_top",
+      "curvature": -0.3784258124433609,
+      "acceleration": -0.1124042280021351,
+      "negative_fisher": -0.2660215844412258,
+      "entropy_q": 1.9692789678720306,
+      "geometry": -0.9907857065627339,
+      "top_fisher": 0.00010405970347253202,
+      "geometry_over_fisher": -9521.319718389024,
+      "top_base_acceleration": -1.0464121053009137,
+      "top_total": -2.03730187156712,
+      "lower_total": 1.658876059123759,
+      "literal_top_entropy_second": -1.5341808192799675,
+      "literal_lower_entropy_second": 1.1557550068366065,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.677909844823658e-05,
+          "acceleration": -1.0332290269915765,
+          "curvature": -1.0332458060900247,
+          "mass_second": -0.4967825512340993,
+          "literal_layer_entropy_second": -0.5364632548559254
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.003638630349108105,
+          "acceleration": 1.3168885011583509,
+          "curvature": 1.3132498708092428,
+          "mass_second": 0.4904440501810459,
+          "literal_layer_entropy_second": 0.822805820628197
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.26226211529019694,
+          "acceleration": 1.6411341096947378,
+          "curvature": 1.378871994404541,
+          "mass_second": 0.509459553340206,
+          "literal_layer_entropy_second": 0.8694124410643349
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.00010405970347253202,
+          "acceleration": -2.0371978118636473,
+          "curvature": -2.03730187156712,
+          "mass_second": -0.5031210522871526,
+          "literal_layer_entropy_second": -1.5341808192799675
+        }
+      ],
+      "commutator_norm": 0.008197998912790707,
+      "geometry_exceeds_top_fisher": false
+    },
+    {
+      "index": 23,
+      "frame": 2,
+      "spectrum": "cluster_mid",
+      "direction": "acceleration_top",
+      "curvature": -3.5821193087798378,
+      "acceleration": 0.3967175066482417,
+      "negative_fisher": -3.9788368154280795,
+      "entropy_q": 1.9692789678720306,
+      "geometry": 1.9421025951718622,
+      "top_fisher": 1.48555467281582,
+      "geometry_over_fisher": 1.3073248872696626,
+      "top_base_acceleration": 2.0511394662469127,
+      "top_total": 2.507687388602955,
+      "lower_total": -6.089806697382793,
+      "literal_top_entropy_second": 1.5214875525937046,
+      "literal_lower_entropy_second": -5.103606861373542,
+      "layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4880765426275728,
+          "acceleration": 2.0527095158455153,
+          "curvature": 0.5646329732179425,
+          "mass_second": 0.9869547250268662,
+          "literal_layer_entropy_second": -0.42232175180892373
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5016568859688468,
+          "acceleration": -2.5241533030249426,
+          "curvature": -3.0258101889937894,
+          "mass_second": -0.9877096140444822,
+          "literal_layer_entropy_second": -2.0381005749493073
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.5035487140158398,
+          "acceleration": -3.125080767591106,
+          "curvature": -3.6286294816069455,
+          "mass_second": -0.9854449469916343,
+          "literal_layer_entropy_second": -2.6431845346153113
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.48555467281582,
+          "acceleration": 3.993242061418775,
+          "curvature": 2.507687388602955,
+          "mass_second": 0.9861998360092503,
+          "literal_layer_entropy_second": 1.5214875525937046
+        }
+      ],
+      "commutator_norm": 0.0010577323191354058,
+      "geometry_exceeds_top_fisher": true
+    }
+  ]
+}

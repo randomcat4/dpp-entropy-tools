@@ -1,0 +1,4795 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NO_NEW_CENTERS",
+  "centers": 72,
+  "layer_convention": "curvature C_k=-sum(dp^2/p+ddp*logp); sum C_k=Hsecond; literal layer entropy second=C_k-mass_second",
+  "max_curvature_record": {
+    "index": 48,
+    "frame": 4,
+    "spectrum": "isotropic",
+    "lambda_max": -0.017906046570135996,
+    "top_acceleration": -0.006618767867259955,
+    "top_negative_fisher": -0.011287278731586716,
+    "top_triple": {
+      "cardinality": 3,
+      "mass": 0.064,
+      "negative_fisher": -1.3852713442771261e-125,
+      "acceleration": -1.278523341151602,
+      "curvature": -1.278523341151602,
+      "mass_second": -0.4000000006413489,
+      "literal_layer_entropy_second": -0.878523340510253
+    },
+    "acceleration_max": 0.0778259070364263,
+    "acceleration_max_direction_raw_basis": [
+      0.6918054398074532,
+      0.6918054398074529,
+      0.14733359820093164,
+      -0.007358063890283767,
+      -0.07244824969999851,
+      -0.07244824969999861
+    ],
+    "acceleration_max_direction_negative_fisher": -4.0942118213012,
+    "acceleration_max_direction_curvature": -4.016385914264775,
+    "acceleration_max_direction_layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -1.4062745964928847,
+        "acceleration": 1.2355971710404503,
+        "curvature": -0.17067742545243436,
+        "mass_second": 0.8062745964928844,
+        "literal_layer_entropy_second": -0.9769520219453187
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -0.5825434838394663,
+        "acceleration": -2.304154440777643,
+        "curvature": -2.8866979246171094,
+        "mass_second": -1.0750327953238457,
+        "literal_layer_entropy_second": -1.811665129293264
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -1.1678773433069256,
+        "acceleration": -0.5716849721279148,
+        "curvature": -1.7395623154348405,
+        "mass_second": -0.26875819883096147,
+        "literal_layer_entropy_second": -1.4708041166038792
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -0.9375163976619234,
+        "acceleration": 1.7180681489015341,
+        "curvature": 0.7805517512396107,
+        "mass_second": 0.5375163976619228,
+        "literal_layer_entropy_second": 0.24303535357768782
+      }
+    ]
+  },
+  "max_top_acceleration_record": {
+    "index": 53,
+    "frame": 4,
+    "spectrum": "two_zero",
+    "lambda_max": -5.283508229938687,
+    "top_acceleration": 0.10496273168473153,
+    "top_negative_fisher": -5.38847096894168,
+    "top_triple": {
+      "cardinality": 3,
+      "mass": 7.5e-08,
+      "negative_fisher": -3.130616710724317e-05,
+      "acceleration": 0.0002709979397483904,
+      "curvature": 0.00023969177264114724,
+      "mass_second": 1.6079896792959845e-05,
+      "literal_layer_entropy_second": 0.0002236118758481874
+    },
+    "acceleration_max": 11.125070856532565,
+    "acceleration_max_direction_raw_basis": [
+      -0.5761987173196627,
+      -0.615948304909995,
+      -0.5292938699711701,
+      -0.061935252897901895,
+      -0.019670776265380798,
+      -0.0015641399876156088
+    ],
+    "acceleration_max_direction_negative_fisher": -1074.8809119650646,
+    "acceleration_max_direction_curvature": -1063.755841108532,
+    "acceleration_max_direction_layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -3.420943429819443,
+        "acceleration": 2.1368902964102907,
+        "curvature": -1.2840531334091523,
+        "mass_second": 1.5402178197993477,
+        "literal_layer_entropy_second": -2.8242709532085
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -0.051621447721168445,
+        "acceleration": -4.183823084030234,
+        "curvature": -4.235444531751401,
+        "mass_second": -2.657294714056861,
+        "literal_layer_entropy_second": -1.5781498176945405
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -1068.7293415629083,
+        "acceleration": 6.040719126501278,
+        "curvature": -1062.688622436407,
+        "mass_second": 0.6939359687156792,
+        "literal_layer_entropy_second": -1063.3825584051228
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -2.6790055246156412,
+        "acceleration": 7.13128451765123,
+        "curvature": 4.452278993035589,
+        "mass_second": 0.42314092554183436,
+        "literal_layer_entropy_second": 4.029138067493754
+      }
+    ]
+  },
+  "max_acceleration_eigenvalue_record": {
+    "index": 57,
+    "frame": 4,
+    "spectrum": "split_low",
+    "lambda_max": -11.755639710634128,
+    "top_acceleration": -9.732865574336381,
+    "top_negative_fisher": -2.0227741521931035,
+    "top_triple": {
+      "cardinality": 3,
+      "mass": 9.99e-07,
+      "negative_fisher": -4.552311116596761e-07,
+      "acceleration": -0.001975409692355669,
+      "curvature": -0.0019758649234673286,
+      "mass_second": -0.00013848969455742847,
+      "literal_layer_entropy_second": -0.0018373752289099002
+    },
+    "acceleration_max": 16.860559986852525,
+    "acceleration_max_direction_raw_basis": [
+      0.46186281431297405,
+      0.6584719618158862,
+      0.5835763554204828,
+      -0.06271165676614575,
+      0.0062832633899888735,
+      0.04791446057829761
+    ],
+    "acceleration_max_direction_negative_fisher": -2204.5221311954783,
+    "acceleration_max_direction_curvature": -2187.6615712086254,
+    "acceleration_max_direction_layers": [
+      {
+        "cardinality": 0,
+        "negative_fisher": -473.7916536268982,
+        "acceleration": 9.618700207024297,
+        "curvature": -464.1729534198739,
+        "mass_second": 1.3904063940167433,
+        "literal_layer_entropy_second": -465.56335981389066
+      },
+      {
+        "cardinality": 1,
+        "negative_fisher": -0.11386037719404231,
+        "acceleration": -2.956150123570856,
+        "curvature": -3.070010500764898,
+        "mass_second": -2.2679060378324687,
+        "literal_layer_entropy_second": -0.8021044629324297
+      },
+      {
+        "cardinality": 2,
+        "negative_fisher": -1697.8569796187946,
+        "acceleration": 2.881935094658794,
+        "curvature": -1694.975044524136,
+        "mass_second": 0.3645928936147062,
+        "literal_layer_entropy_second": -1695.3396374177507
+      },
+      {
+        "cardinality": 3,
+        "negative_fisher": -32.759637572590634,
+        "acceleration": 7.316074808740292,
+        "curvature": -25.443562763850345,
+        "mass_second": 0.5129067502010186,
+        "literal_layer_entropy_second": -25.956469514051363
+      }
+    ]
+  },
+  "negative_top_acceleration_count": 54,
+  "positive_top_triple_acceleration_count": 19,
+  "positive_top_triple_total_count": 13,
+  "positive_acceleration_eigenvalue_count": 72,
+  "frames": [
+    {
+      "frame": 0,
+      "z": [
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "1/2"
+      ],
+      "q": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "entropy_q": 1.3862943611198906,
+      "min_abs_z": 0.5,
+      "best_index": 4,
+      "best_spectrum": "one_zero",
+      "lambda_max": -0.08967130918658986,
+      "top_negative_fisher": -0.04769204958861651,
+      "top_acceleration": -0.04197925964361126
+    },
+    {
+      "frame": 1,
+      "z": [
+        "-4/15",
+        "-8/15",
+        "-4/5",
+        "-1/15"
+      ],
+      "q": [
+        0.07111111111111111,
+        0.28444444444444444,
+        0.6400000000000001,
+        0.0044444444444444444
+      ],
+      "entropy_q": 0.855286837627533,
+      "min_abs_z": 0.06666666666666667,
+      "best_index": 12,
+      "best_spectrum": "isotropic",
+      "lambda_max": -0.023370328019005557,
+      "top_negative_fisher": -0.01538855906864192,
+      "top_acceleration": -0.007981768975007809
+    },
+    {
+      "frame": 2,
+      "z": [
+        "-5/14",
+        "-5/14",
+        "-5/14",
+        "-11/14"
+      ],
+      "q": [
+        0.12755102040816327,
+        0.12755102040816327,
+        0.12755102040816327,
+        0.6173469387755102
+      ],
+      "entropy_q": 1.0857353588105134,
+      "min_abs_z": 0.35714285714285715,
+      "best_index": 24,
+      "best_spectrum": "isotropic",
+      "lambda_max": -0.33607896389605296,
+      "top_negative_fisher": -0.23378615117620388,
+      "top_acceleration": -0.1022928123478775
+    },
+    {
+      "frame": 3,
+      "z": [
+        "-1/11",
+        "-2/11",
+        "-4/11",
+        "10/11"
+      ],
+      "q": [
+        0.008264462809917356,
+        0.03305785123966942,
+        0.1322314049586777,
+        0.8264462809917354
+      ],
+      "entropy_q": 0.5774135571742188,
+      "min_abs_z": 0.09090909090909091,
+      "best_index": 36,
+      "best_spectrum": "isotropic",
+      "lambda_max": -0.034103972874147535,
+      "top_negative_fisher": -0.02373912720607613,
+      "top_acceleration": -0.010364845632062686
+    },
+    {
+      "frame": 4,
+      "z": [
+        "-4/17",
+        "-4/17",
+        "-16/17",
+        "1/17"
+      ],
+      "q": [
+        0.05536332179930796,
+        0.05536332179930796,
+        0.8858131487889274,
+        0.0034602076124567475
+      ],
+      "entropy_q": 0.4474361521316675,
+      "min_abs_z": 0.058823529411764705,
+      "best_index": 48,
+      "best_spectrum": "isotropic",
+      "lambda_max": -0.017906046570135996,
+      "top_negative_fisher": -0.011287278731586716,
+      "top_acceleration": -0.006618767867259955
+    },
+    {
+      "frame": 5,
+      "z": [
+        "-4/13",
+        "-8/13",
+        "-8/13",
+        "5/13"
+      ],
+      "q": [
+        0.09467455621301776,
+        0.37869822485207105,
+        0.37869822485207105,
+        0.14792899408284024
+      ],
+      "entropy_q": 1.2413167631622481,
+      "min_abs_z": 0.3076923076923077,
+      "best_index": 60,
+      "best_spectrum": "isotropic",
+      "lambda_max": -0.33596151188577184,
+      "top_negative_fisher": -0.236559846690268,
+      "top_acceleration": -0.0994016650955137
+    }
+  ],
+  "all_rows": [
+    {
+      "index": 0,
+      "frame": 0,
+      "spectrum": "isotropic",
+      "lambda_max": -0.6024093170412088,
+      "top_acceleration": -0.18574265034268755,
+      "top_negative_fisher": -0.4166666665952083,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -4e-19,
+        "acceleration": -1.6540666224132696,
+        "curvature": -1.6540666224132696,
+        "mass_second": -0.39999999993139995,
+        "literal_layer_entropy_second": -1.2540666224818697
+      },
+      "acceleration_max": 0.3714853007490848,
+      "acceleration_max_direction_raw_basis": [
+        0.5773502691896257,
+        0.5773502691896255,
+        0.5773502691896255,
+        5.332748166413977e-62,
+        2.1564212581841572e-62,
+        -4.81809367833136e-61
+      ],
+      "acceleration_max_direction_negative_fisher": -4.166666666666664,
+      "acceleration_max_direction_curvature": -3.795181365917579,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.7999999999999987,
+          "acceleration": 1.8389722455575652,
+          "curvature": 0.03897224555756651,
+          "mass_second": 1.199999999999999,
+          "literal_layer_entropy_second": -1.1610277544424326
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.09999999999999992,
+          "acceleration": -3.5609984829726655,
+          "curvature": -3.6609984829726656,
+          "mass_second": -1.599999999999999,
+          "literal_layer_entropy_second": -2.060998482972667
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.066666666666666,
+          "acceleration": -1.2146217072296979,
+          "curvature": -2.2812883738963636,
+          "mass_second": -0.3999999999999998,
+          "literal_layer_entropy_second": -1.8812883738963637
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.199999999999999,
+          "acceleration": 3.3081332453938828,
+          "curvature": 2.1081332453938835,
+          "mass_second": 0.7999999999999995,
+          "literal_layer_entropy_second": 1.308133245393884
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "frame": 0,
+      "spectrum": "moderate",
+      "lambda_max": -1.2625208423835623,
+      "top_acceleration": -0.37128726960374153,
+      "top_negative_fisher": -0.8912335739738777,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.002336962093064932,
+        "acceleration": -1.824677687641936,
+        "curvature": -1.8270146497350008,
+        "mass_second": -0.4250935453346595,
+        "literal_layer_entropy_second": -1.4019211044003415
+      },
+      "acceleration_max": 1.7245538572439354,
+      "acceleration_max_direction_raw_basis": [
+        0.6115429576266639,
+        0.5060023431963095,
+        0.5851798652040212,
+        -0.07253311571964839,
+        -0.04830915737805076,
+        -0.07858660792948681
+      ],
+      "acceleration_max_direction_negative_fisher": -7.1220167244230215,
+      "acceleration_max_direction_curvature": -5.397462867179086,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.3336733371713656,
+          "acceleration": 2.785638269942195,
+          "curvature": 0.4519649327708293,
+          "mass_second": 0.9585420284915737,
+          "literal_layer_entropy_second": -0.5065770957207444
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.2572389541096716,
+          "acceleration": -2.3897749992041675,
+          "curvature": -3.647013953313839,
+          "mass_second": -0.9763530944530641,
+          "literal_layer_entropy_second": -2.6706608588607748
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.2828326173715063,
+          "acceleration": -2.7093166150647656,
+          "curvature": -3.9921492324362724,
+          "mass_second": -0.9229198965685927,
+          "literal_layer_entropy_second": -3.069229335867679
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.2482718157704773,
+          "acceleration": 4.0380072015706725,
+          "curvature": 1.7897353858001952,
+          "mass_second": 0.9407309625300828,
+          "literal_layer_entropy_second": 0.8490044232701124
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "frame": 0,
+      "spectrum": "sparse",
+      "lambda_max": -4.430666459944794,
+      "top_acceleration": -0.8709872061949604,
+      "top_negative_fisher": -3.5596792531566637,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.004160608734837916,
+        "acceleration": -0.011885505116981903,
+        "curvature": -0.016046113851819817,
+        "mass_second": -0.0006000666459129446,
+        "literal_layer_entropy_second": -0.015446047205906872
+      },
+      "acceleration_max": 3.079383679775522,
+      "acceleration_max_direction_raw_basis": [
+        -0.6345648472039839,
+        -0.522445026753852,
+        -0.5363350525111752,
+        0.05789049916764765,
+        -0.0452385127663987,
+        -0.11385889139324243
+      ],
+      "acceleration_max_direction_negative_fisher": -218.19962254824847,
+      "acceleration_max_direction_curvature": -215.12023886847294,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.8301367313461903,
+          "acceleration": 0.09822504211077479,
+          "curvature": -2.7319116892354156,
+          "mass_second": 1.8395821041157243,
+          "literal_layer_entropy_second": -4.57149379335114
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -159.53198553912566,
+          "acceleration": -17.998278521793246,
+          "curvature": -177.5302640609189,
+          "mass_second": -3.651329272348832,
+          "literal_layer_entropy_second": -173.87893478857006
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -55.39404640034227,
+          "acceleration": 20.42811127737973,
+          "curvature": -34.96593512296254,
+          "mass_second": 1.7839122323504917,
+          "literal_layer_entropy_second": -36.74984735531303
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.4434538774343586,
+          "acceleration": 0.5513258820782596,
+          "curvature": 0.10787200464390101,
+          "mass_second": 0.027834935882616107,
+          "literal_layer_entropy_second": 0.0800370687612849
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "frame": 0,
+      "spectrum": "dense",
+      "lambda_max": -14.91702183530215,
+      "top_acceleration": -1.2462296540519324,
+      "top_negative_fisher": -13.670792175821669,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -0.34223956717670817,
+        "acceleration": -0.9889044995911633,
+        "curvature": -1.3311440667678716,
+        "mass_second": -0.6868872680574285,
+        "literal_layer_entropy_second": -0.6442567987104431
+      },
+      "acceleration_max": 4.8932642387811995,
+      "acceleration_max_direction_raw_basis": [
+        0.5557661736417435,
+        0.6132824521810869,
+        0.5435209125086542,
+        -0.027949160226116807,
+        -0.08933146135536782,
+        -0.03217981244247699
+      ],
+      "acceleration_max_direction_negative_fisher": -196.2174594521818,
+      "acceleration_max_direction_curvature": -191.32419521340063,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.43358279183088705,
+          "acceleration": 0.600729697651639,
+          "curvature": 0.16714690582075192,
+          "mass_second": 0.03261169910068946,
+          "literal_layer_entropy_second": 0.13453520672006247
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -100.26581193578052,
+          "acceleration": 20.722599778725733,
+          "curvature": -79.5432121570548,
+          "mass_second": 1.8350593263188468,
+          "literal_layer_entropy_second": -81.37827148337364
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -92.63284977916676,
+          "acceleration": -19.16588263320451,
+          "curvature": -111.79873241237128,
+          "mass_second": -3.7679537499397604,
+          "literal_layer_entropy_second": -108.0307786624315
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.88521494540363,
+          "acceleration": 2.735817395608345,
+          "curvature": -0.14939754979528486,
+          "mass_second": 1.900282724520225,
+          "literal_layer_entropy_second": -2.04968027431551
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "frame": 0,
+      "spectrum": "one_zero",
+      "lambda_max": -0.08967130918658986,
+      "top_acceleration": -0.04197925964361126,
+      "top_negative_fisher": -0.04769204958861651,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -0.00034472544221128955,
+        "acceleration": -0.1062273686169722,
+        "curvature": -0.10657209405918348,
+        "mass_second": -0.008912895408623516,
+        "literal_layer_entropy_second": -0.09765919865055997
+      },
+      "acceleration_max": 6.754424268173881,
+      "acceleration_max_direction_raw_basis": [
+        -0.4841781077604312,
+        -0.7057761013279867,
+        -0.4768556123834251,
+        -0.004554303257166539,
+        -0.14140409671181495,
+        -0.003785446350069666
+      ],
+      "acceleration_max_direction_negative_fisher": -1410.58676066005,
+      "acceleration_max_direction_curvature": -1403.832336391876,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.482824135849784,
+          "acceleration": 1.8472448631978002,
+          "curvature": 0.3644207273480162,
+          "mass_second": 0.9167454538686738,
+          "literal_layer_entropy_second": -0.5523247265206576
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.7120250331719664,
+          "acceleration": -2.7595485094502896,
+          "curvature": -3.471573542622256,
+          "mass_second": -0.9719813806510242,
+          "literal_layer_entropy_second": -2.499592161971232
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -84.8856780783535,
+          "acceleration": -2.6010791118165,
+          "curvature": -87.48675719017001,
+          "mass_second": -0.806273600303974,
+          "literal_layer_entropy_second": -86.68048358986603
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1323.5062334126749,
+          "acceleration": 10.267807026242869,
+          "curvature": -1313.238426386432,
+          "mass_second": 0.861509527086324,
+          "literal_layer_entropy_second": -1314.0999359135183
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "frame": 0,
+      "spectrum": "two_zero",
+      "lambda_max": -5.290269101897281,
+      "top_acceleration": 0.08901987892806786,
+      "top_negative_fisher": -5.379288975247831,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -6.154998305072312e-06,
+        "acceleration": 3.8802678542485605e-05,
+        "curvature": 3.2647680237413294e-05,
+        "mass_second": 2.180897107325914e-06,
+        "literal_layer_entropy_second": 3.046678313008738e-05
+      },
+      "acceleration_max": 8.051115096123526,
+      "acceleration_max_direction_raw_basis": [
+        0.5634336854938291,
+        0.5662527484643046,
+        0.571103159925587,
+        0.042661705876122995,
+        -0.0947401060385507,
+        0.08411322710952694
+      ],
+      "acceleration_max_direction_negative_fisher": -1281.3435794695024,
+      "acceleration_max_direction_curvature": -1273.2924643733786,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.468734602295055,
+          "acceleration": 2.0963343343807024,
+          "curvature": -1.3724002679143528,
+          "mass_second": 1.5109860826708619,
+          "literal_layer_entropy_second": -2.883386350585215
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -19.40272225282761,
+          "acceleration": -7.6450510815846044,
+          "curvature": -27.04777333441221,
+          "mass_second": -2.6402730053494334,
+          "literal_layer_entropy_second": -24.407500329062774
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1256.7431679677932,
+          "acceleration": 6.80861287414006,
+          "curvature": -1249.934555093653,
+          "mass_second": 0.7475877626862817,
+          "literal_layer_entropy_second": -1250.6821428563394
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.7289546465866186,
+          "acceleration": 6.791218969187371,
+          "curvature": 5.062264322600752,
+          "mass_second": 0.3816991599922901,
+          "literal_layer_entropy_second": 4.680565162608462
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "frame": 0,
+      "spectrum": "one_one",
+      "lambda_max": -3.0582235525130765,
+      "top_acceleration": -1.0140888677037836,
+      "top_negative_fisher": -2.044134685576548,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.007598821738317879,
+        "acceleration": -3.1602894183879204,
+        "curvature": -3.1678882401262385,
+        "mass_second": -0.9291423416195147,
+        "literal_layer_entropy_second": -2.238745898506724
+      },
+      "acceleration_max": 7.111954592483025,
+      "acceleration_max_direction_raw_basis": [
+        -0.57184072639984,
+        -0.48120300193076376,
+        -0.6443182073936417,
+        0.07068783392283726,
+        -0.05405988241314482,
+        -0.07230982188443578
+      ],
+      "acceleration_max_direction_negative_fisher": -1236.8212844855564,
+      "acceleration_max_direction_curvature": -1229.709329893073,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1230.9589002040486,
+          "acceleration": 8.910553183310997,
+          "curvature": -1222.0483470207375,
+          "mass_second": 0.8460379590146214,
+          "literal_layer_entropy_second": -1222.8943849797522
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -3.4659807777647007,
+          "acceleration": -1.7697316865720336,
+          "curvature": -5.235712464336735,
+          "mass_second": -0.6570763361983066,
+          "literal_layer_entropy_second": -4.578636128138427
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.6265343437263661,
+          "acceleration": -3.549208277134265,
+          "curvature": -4.175742620860631,
+          "mass_second": -1.2239612046472508,
+          "literal_layer_entropy_second": -2.9517814162133806
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.7698691600163203,
+          "acceleration": 3.5203413728783293,
+          "curvature": 1.750472212862009,
+          "mass_second": 1.0349995818309354,
+          "literal_layer_entropy_second": 0.7154726310310735
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "frame": 0,
+      "spectrum": "two_one",
+      "lambda_max": -5.291168091216253,
+      "top_acceleration": 0.08744209538357549,
+      "top_negative_fisher": -5.378610187326834,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.009498109495073,
+        "acceleration": 0.038971550878815125,
+        "curvature": -3.9705265586162577,
+        "mass_second": 0.014050438849238251,
+        "literal_layer_entropy_second": -3.984576997465496
+      },
+      "acceleration_max": 10.12384228336426,
+      "acceleration_max_direction_raw_basis": [
+        -0.6506642123910032,
+        -0.5341709146021582,
+        -0.5327647508059301,
+        -0.038956753914681556,
+        -0.005087651713934922,
+        -0.04675580848579985
+      ],
+      "acceleration_max_direction_negative_fisher": -951.1873268175277,
+      "acceleration_max_direction_curvature": -941.0634845341633,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.638114626164167,
+          "acceleration": 6.7826487996899205,
+          "curvature": 4.144534173525754,
+          "mass_second": 0.4134304946733169,
+          "literal_layer_entropy_second": 3.731103678852437
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -944.0066624076129,
+          "acceleration": 6.0933434415783845,
+          "curvature": -937.9133189660345,
+          "mass_second": 0.7098578561955036,
+          "literal_layer_entropy_second": -938.62317682223
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.098919222865995,
+          "acceleration": -7.014530465593767,
+          "curvature": -8.113449688459761,
+          "mass_second": -2.660007196410959,
+          "literal_layer_entropy_second": -5.453442492048803
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.4436305608846283,
+          "acceleration": 4.262380507689715,
+          "curvature": 0.8187499468050872,
+          "mass_second": 1.536718845542137,
+          "literal_layer_entropy_second": -0.7179688987370498
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "frame": 0,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.9813933239601638,
+      "top_acceleration": 0.0330678275404424,
+      "top_negative_fisher": -4.014461155425983,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.008277438397540707,
+        "acceleration": 0.019030264373556077,
+        "curvature": 0.01075282597601537,
+        "mass_second": 0.001685603490866354,
+        "literal_layer_entropy_second": 0.009067222485149016
+      },
+      "acceleration_max": 15.498635529717053,
+      "acceleration_max_direction_raw_basis": [
+        0.571815556334352,
+        0.5896949912318076,
+        0.5681049810468517,
+        -0.010147320537794506,
+        -0.02300290553750123,
+        -0.025291439316317624
+      ],
+      "acceleration_max_direction_negative_fisher": -3559.027693133146,
+      "acceleration_max_direction_curvature": -3543.5290576034286,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1716.1898710013472,
+          "acceleration": 9.75333891593214,
+          "curvature": -1706.4365320854151,
+          "mass_second": 0.9848288672431654,
+          "literal_layer_entropy_second": -1707.4213609526582
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -4.632205385736202,
+          "acceleration": -2.673247089781689,
+          "curvature": -7.305452475517892,
+          "mass_second": -0.9629167249102288,
+          "literal_layer_entropy_second": -6.342535750607663
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -2.103775100543841,
+          "acceleration": -2.947443417216464,
+          "curvature": -5.051218517760304,
+          "mass_second": -1.028653151909038,
+          "literal_layer_entropy_second": -4.022565365851268
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1836.1018416455192,
+          "acceleration": 11.365987120783068,
+          "curvature": -1824.7358545247362,
+          "mass_second": 1.0067410095761014,
+          "literal_layer_entropy_second": -1825.7425955343122
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "frame": 0,
+      "spectrum": "split_low",
+      "lambda_max": -11.79757335475766,
+      "top_acceleration": -9.774656766869429,
+      "top_negative_fisher": -2.022916586252898,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -1.7675342805940433e-06,
+        "acceleration": -0.016014482185686164,
+        "curvature": -0.01601624971996676,
+        "mass_second": -0.0010533899332311196,
+        "literal_layer_entropy_second": -0.01496285978673564
+      },
+      "acceleration_max": 15.942602187726688,
+      "acceleration_max_direction_raw_basis": [
+        -0.5603666576251022,
+        -0.6382869778433349,
+        -0.5168127351886275,
+        -0.0709401490318971,
+        -0.02607264968930554,
+        0.00542973625347989
+      ],
+      "acceleration_max_direction_negative_fisher": -1448.2924190930207,
+      "acceleration_max_direction_curvature": -1432.3498169052941,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -457.7184328162862,
+          "acceleration": 9.684975215593347,
+          "curvature": -448.0334576006929,
+          "mass_second": 1.3999866069035767,
+          "literal_layer_entropy_second": -449.43344420759644
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.13580751503998928,
+          "acceleration": -4.268283367313528,
+          "curvature": -4.404090882353518,
+          "mass_second": -2.2571349518554076,
+          "literal_layer_entropy_second": -2.146955930498111
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -960.9468441456606,
+          "acceleration": 2.2732458687795583,
+          "curvature": -958.6735982768811,
+          "mass_second": 0.31431008300008556,
+          "literal_layer_entropy_second": -958.9879083598812
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -29.49133461603395,
+          "acceleration": 8.252664470667307,
+          "curvature": -21.23867014536664,
+          "mass_second": 0.5428382619517454,
+          "literal_layer_entropy_second": -21.781508407318388
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "frame": 0,
+      "spectrum": "split_high",
+      "lambda_max": -9.065615865465384,
+      "top_acceleration": -7.079077234102772,
+      "top_negative_fisher": -1.986538627557126,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -0.0001647874131662461,
+        "acceleration": -8.301724683416197,
+        "curvature": -8.301889470829362,
+        "mass_second": -0.9997019222146212,
+        "literal_layer_entropy_second": -7.302187548614741
+      },
+      "acceleration_max": 14.81846954189989,
+      "acceleration_max_direction_raw_basis": [
+        -0.4934153159626966,
+        -0.6944584438045805,
+        -0.49515280945544615,
+        -0.015146575273284626,
+        0.1196412291509008,
+        -0.0016742430881707534
+      ],
+      "acceleration_max_direction_negative_fisher": -2218.1167292457876,
+      "acceleration_max_direction_curvature": -2203.298259703888,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -37.49149393750191,
+          "acceleration": 6.463393372808964,
+          "curvature": -31.02810056469294,
+          "mass_second": 0.4678021351075609,
+          "literal_layer_entropy_second": -31.495902699800503
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1700.8059475187495,
+          "acceleration": 3.6540391630496236,
+          "curvature": -1697.1519083557,
+          "mass_second": 0.42917202738692745,
+          "literal_layer_entropy_second": -1697.5810803830866
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.17795618429354046,
+          "acceleration": -6.632338298514637,
+          "curvature": -6.810294482808177,
+          "mass_second": -2.261750460096537,
+          "literal_layer_entropy_second": -4.54854402271164
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -479.6413316052429,
+          "acceleration": 11.333375304555949,
+          "curvature": -468.30795630068695,
+          "mass_second": 1.364776297602049,
+          "literal_layer_entropy_second": -469.67273259828903
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "frame": 0,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.6912937995882912,
+      "top_acceleration": -0.1991161948710327,
+      "top_negative_fisher": -0.49217760537990235,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -2.0439249013605544e-05,
+        "acceleration": -1.7223461154713513,
+        "curvature": -1.7223665547203648,
+        "mass_second": -0.496906677639792,
+        "literal_layer_entropy_second": -1.225459877080573
+      },
+      "acceleration_max": 0.4059846673082501,
+      "acceleration_max_direction_raw_basis": [
+        0.5741396615120523,
+        0.5775039819395823,
+        0.5803549819838039,
+        -5.9894274089194295e-22,
+        0.004521880655856377,
+        3.7433921305746434e-22
+      ],
+      "acceleration_max_direction_negative_fisher": -4.000930979337422,
+      "acceleration_max_direction_curvature": -3.594946312029172,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.5003501301424214,
+          "acceleration": 2.0798204004260628,
+          "curvature": 0.5794702702836414,
+          "mass_second": 0.999989796686973,
+          "literal_layer_entropy_second": -0.42051952640333157
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5002776941415301,
+          "acceleration": -2.367406015609064,
+          "curvature": -2.8676837097505947,
+          "mass_second": -1.0001501515506708,
+          "literal_layer_entropy_second": -1.867533558199924
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.5004340752472538,
+          "acceleration": -2.7719745224963037,
+          "curvature": -3.2724085977435573,
+          "mass_second": -0.9996690869595772,
+          "literal_layer_entropy_second": -2.27273951078398
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.499869079806217,
+          "acceleration": 3.465544804987556,
+          "curvature": 1.965675725181339,
+          "mass_second": 0.9998294418232752,
+          "literal_layer_entropy_second": 0.9658462833580639
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "frame": 1,
+      "spectrum": "isotropic",
+      "lambda_max": -0.023370328019005557,
+      "top_acceleration": -0.007981768975007809,
+      "top_negative_fisher": -0.01538855906864192,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -1.84088507398084e-05,
+        "acceleration": -1.4415972663945877,
+        "curvature": -1.4416156752453275,
+        "mass_second": -0.3999815915710712,
+        "literal_layer_entropy_second": -1.0416340836742564
+      },
+      "acceleration_max": 0.15965250053811642,
+      "acceleration_max_direction_raw_basis": [
+        -0.6065220273641811,
+        -0.5332919605202935,
+        -0.3562659233823714,
+        0.1287628237601041,
+        0.18412776516876933,
+        0.24478511967185612
+      ],
+      "acceleration_max_direction_negative_fisher": -4.097322122567616,
+      "acceleration_max_direction_curvature": -3.9376696220295,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.3429530605377284,
+          "acceleration": 1.1385583817341103,
+          "curvature": -0.20439467880361817,
+          "mass_second": 0.7429530605377279,
+          "literal_layer_entropy_second": -0.9473477393413461
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.6693988867687001,
+          "acceleration": -2.335917531306383,
+          "curvature": -3.0053164180750827,
+          "mass_second": -0.9906040807169708,
+          "literal_layer_entropy_second": -2.0147123373581124
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.189668134902702,
+          "acceleration": -0.4281356728348012,
+          "curvature": -1.6178038077375032,
+          "mass_second": -0.2476510201792426,
+          "literal_layer_entropy_second": -1.3701527875582606
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.8953020403584857,
+          "acceleration": 1.7851473229451904,
+          "curvature": 0.8898452825867046,
+          "mass_second": 0.4953020403584853,
+          "literal_layer_entropy_second": 0.39454324222821924
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "frame": 1,
+      "spectrum": "moderate",
+      "lambda_max": -0.6987509273678688,
+      "top_acceleration": -0.25495492629214106,
+      "top_negative_fisher": -0.44379600136111,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.0002085312771822228,
+        "acceleration": -1.4025141518660378,
+        "curvature": -1.40272268314322,
+        "mass_second": -0.3728695590720137,
+        "literal_layer_entropy_second": -1.0298531240712063
+      },
+      "acceleration_max": 1.2292035671941985,
+      "acceleration_max_direction_raw_basis": [
+        -0.5857962136417276,
+        -0.6098952081063451,
+        -0.5217806843590332,
+        -0.031882396657765266,
+        0.03291747651067499,
+        0.06486699348977529
+      ],
+      "acceleration_max_direction_negative_fisher": -6.6948084162348565,
+      "acceleration_max_direction_curvature": -5.465604849040656,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.190863009481768,
+          "acceleration": 2.837823821867996,
+          "curvature": 0.646960812386228,
+          "mass_second": 0.9764991499673451,
+          "literal_layer_entropy_second": -0.32953833758111706
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.2422921907643143,
+          "acceleration": -2.512880205847431,
+          "curvature": -3.755172396611745,
+          "mass_second": -0.9797870146460579,
+          "literal_layer_entropy_second": -2.7753853819656875
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.0220029924579226,
+          "acceleration": -2.7563837435545446,
+          "curvature": -3.7783867360124668,
+          "mass_second": -0.9699234206099194,
+          "literal_layer_entropy_second": -2.808463315402548
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.2396502235308495,
+          "acceleration": 3.660643694728179,
+          "curvature": 1.4209934711973289,
+          "mass_second": 0.9732112852886325,
+          "literal_layer_entropy_second": 0.44778218590869645
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "frame": 1,
+      "spectrum": "sparse",
+      "lambda_max": -4.806899912550645,
+      "top_acceleration": -0.9120418295312389,
+      "top_negative_fisher": -3.8948580882930353,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.027036944773163724,
+        "acceleration": -0.26701391824956094,
+        "curvature": -0.29405086302272465,
+        "mass_second": -0.013852166804052901,
+        "literal_layer_entropy_second": -0.28019869621867177
+      },
+      "acceleration_max": 4.077289499656063,
+      "acceleration_max_direction_raw_basis": [
+        -0.3605587155375489,
+        -0.6645545735868911,
+        -0.6455613988535779,
+        -0.030509399030052484,
+        -0.06815049285017281,
+        0.015239512378617722
+      ],
+      "acceleration_max_direction_negative_fisher": -142.19245133293683,
+      "acceleration_max_direction_curvature": -138.11516183328075,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.757449201338222,
+          "acceleration": 0.09426369734074962,
+          "curvature": -2.663185503997472,
+          "mass_second": 1.7653930909010243,
+          "literal_layer_entropy_second": -4.428578594898497
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -60.708914922943805,
+          "acceleration": -15.619381206101814,
+          "curvature": -76.32829612904563,
+          "mass_second": -3.5050253596526217,
+          "literal_layer_entropy_second": -72.823270769393
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -78.29736464526762,
+          "acceleration": 19.105842235789957,
+          "curvature": -59.19152240947766,
+          "mass_second": 1.7138714466021727,
+          "literal_layer_entropy_second": -60.90539385607983
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.42872256338719505,
+          "acceleration": 0.49656477262716553,
+          "curvature": 0.06784220923997045,
+          "mass_second": 0.0257608221494252,
+          "literal_layer_entropy_second": 0.042081387090545236
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "frame": 1,
+      "spectrum": "dense",
+      "lambda_max": -10.20214345707832,
+      "top_acceleration": -1.6898042869478545,
+      "top_negative_fisher": -8.512339172084433,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -0.062978928169718,
+        "acceleration": -0.846248119621667,
+        "curvature": -0.909227047791385,
+        "mass_second": -0.9312916834857222,
+        "literal_layer_entropy_second": 0.022064635694337253
+      },
+      "acceleration_max": 3.8775891846480572,
+      "acceleration_max_direction_raw_basis": [
+        0.582654826654317,
+        0.5730649876680509,
+        0.5750733554905915,
+        -0.011393976098373068,
+        -8.066708806433406e-05,
+        -0.02388357482892212
+      ],
+      "acceleration_max_direction_negative_fisher": -574.7716760426252,
+      "acceleration_max_direction_curvature": -570.8940868579774,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.3724626348700204,
+          "acceleration": 0.6224686868314906,
+          "curvature": 0.2500060519614702,
+          "mass_second": 0.03379183948105996,
+          "literal_layer_entropy_second": 0.21621421248041023
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -133.97199736752185,
+          "acceleration": 21.794474719607653,
+          "curvature": -112.17752264791417,
+          "mass_second": 1.8942694782280114,
+          "literal_layer_entropy_second": -114.07179212614218
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -437.48005958052227,
+          "acceleration": -20.322055146416535,
+          "curvature": -457.8021147269388,
+          "mass_second": -3.8899144748992045,
+          "literal_layer_entropy_second": -453.91220025203955
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.9471564597113153,
+          "acceleration": 1.7827009246254402,
+          "curvature": -1.1644555350858747,
+          "mass_second": 1.961853157190132,
+          "literal_layer_entropy_second": -3.1263086922760066
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "frame": 1,
+      "spectrum": "one_zero",
+      "lambda_max": -1.356683419315824,
+      "top_acceleration": -0.5928275136865194,
+      "top_negative_fisher": -0.7638559072018322,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -9.203370412686053e-06,
+        "acceleration": -0.5735261453894925,
+        "curvature": -0.5735353487599052,
+        "mass_second": -0.05036505252278677,
+        "literal_layer_entropy_second": -0.5231702962371184
+      },
+      "acceleration_max": 6.35442738103642,
+      "acceleration_max_direction_raw_basis": [
+        -0.3979646600484172,
+        -0.6344153081194949,
+        -0.6278354758105198,
+        0.05346987450240626,
+        -0.13928652798037852,
+        -0.014906924191606571
+      ],
+      "acceleration_max_direction_negative_fisher": -1287.8432242041374,
+      "acceleration_max_direction_curvature": -1281.488796823101,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4302305584828492,
+          "acceleration": 1.7995929546584164,
+          "curvature": 0.3693623961755672,
+          "mass_second": 0.893096899531366,
+          "literal_layer_entropy_second": -0.5237345033557987
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.9616096023598693,
+          "acceleration": -2.9820145176176283,
+          "curvature": -3.943624119977498,
+          "mass_second": -0.9229753781695971,
+          "literal_layer_entropy_second": -3.020648741807901
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -3.6747586689658283,
+          "acceleration": -2.2929498701732847,
+          "curvature": -5.967708539139114,
+          "mass_second": -0.8333399422549047,
+          "literal_layer_entropy_second": -5.13436859688421
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1281.7766253743287,
+          "acceleration": 9.829798814168912,
+          "curvature": -1271.9468265601597,
+          "mass_second": 0.8632184208931353,
+          "literal_layer_entropy_second": -1272.8100449810531
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "frame": 1,
+      "spectrum": "two_zero",
+      "lambda_max": -5.2872099670067225,
+      "top_acceleration": 0.09652647824774212,
+      "top_negative_fisher": -5.383736438474489,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -1.6654259593862774e-05,
+        "acceleration": 0.0001560169777314957,
+        "curvature": 0.00013936271813763294,
+        "mass_second": 9.038664862169826e-06,
+        "literal_layer_entropy_second": 0.0001303240532754631
+      },
+      "acceleration_max": 10.171231718394093,
+      "acceleration_max_direction_raw_basis": [
+        -0.5510992424825559,
+        -0.5951350412393471,
+        -0.57298429275002,
+        0.05400738851047922,
+        0.0051326948303576665,
+        -0.06287536380040538
+      ],
+      "acceleration_max_direction_negative_fisher": -1352.2162520338075,
+      "acceleration_max_direction_curvature": -1342.0450203154132,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.4455651652496,
+          "acceleration": 2.135672418663348,
+          "curvature": -1.309892746586252,
+          "mass_second": 1.5393400035579947,
+          "literal_layer_entropy_second": -2.849232750144247
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -2.5563764564903546,
+          "acceleration": -5.503039533546334,
+          "curvature": -8.059415990036689,
+          "mass_second": -2.6623074969878386,
+          "literal_layer_entropy_second": -5.39710849304885
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1343.6897197854958,
+          "acceleration": 6.35156605451378,
+          "curvature": -1337.338153730982,
+          "mass_second": 0.7065949833016938,
+          "literal_layer_entropy_second": -1338.0447487142837
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.524590626571718,
+          "acceleration": 7.187032778763301,
+          "curvature": 4.662442152191582,
+          "mass_second": 0.4163725101281504,
+          "literal_layer_entropy_second": 4.246069642063431
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "frame": 1,
+      "spectrum": "one_one",
+      "lambda_max": -0.6285647028822199,
+      "top_acceleration": -0.28495893871176387,
+      "top_negative_fisher": -0.3436057635848069,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.0149916677731793,
+        "acceleration": -2.8636792210053192,
+        "curvature": -2.878670888778499,
+        "mass_second": -0.9976968729710418,
+        "literal_layer_entropy_second": -1.880974015807457
+      },
+      "acceleration_max": 7.1792891526264615,
+      "acceleration_max_direction_raw_basis": [
+        -0.6680548454735307,
+        -0.43842594803622154,
+        -0.5447664465435026,
+        0.016905214749715854,
+        -0.048861020523852675,
+        -0.17229126359672317
+      ],
+      "acceleration_max_direction_negative_fisher": -1825.7220763315458,
+      "acceleration_max_direction_curvature": -1818.5427871789193,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1307.2853515842223,
+          "acceleration": 6.79039623558159,
+          "curvature": -1300.4949553486408,
+          "mass_second": 0.6447335932871124,
+          "literal_layer_entropy_second": -1301.139688941928
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -515.3177727887853,
+          "acceleration": 0.7222738918876705,
+          "curvature": -514.5954988968975,
+          "mass_second": -0.20758333207784718,
+          "literal_layer_entropy_second": -514.3879155648198
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.5666006671854723,
+          "acceleration": -3.438701235531174,
+          "curvature": -4.0053019027166465,
+          "mass_second": -1.5190341157056428,
+          "literal_layer_entropy_second": -2.4862677870110037
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.5523512913526885,
+          "acceleration": 3.1053202606883823,
+          "curvature": 0.5529689693356938,
+          "mass_second": 1.0818838544963778,
+          "literal_layer_entropy_second": -0.528914885160684
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "frame": 1,
+      "spectrum": "two_one",
+      "lambda_max": -5.2874794121441075,
+      "top_acceleration": 0.095909119022846,
+      "top_negative_fisher": -5.383388534698352,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.0102959804709215,
+        "acceleration": 0.03329805757863051,
+        "curvature": -3.9769979228922914,
+        "mass_second": 0.014847429092605115,
+        "literal_layer_entropy_second": -3.9918453519848964
+      },
+      "acceleration_max": 11.04275255776592,
+      "acceleration_max_direction_raw_basis": [
+        -0.5710423510977396,
+        -0.5047918884900087,
+        -0.6416349188104377,
+        -0.009161147384242471,
+        0.03734884919443551,
+        -0.04713113204395882
+      ],
+      "acceleration_max_direction_negative_fisher": -1392.6055586751513,
+      "acceleration_max_direction_curvature": -1381.5628061173854,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.791085281871841,
+          "acceleration": 6.781638196713639,
+          "curvature": 3.9905529148417984,
+          "mass_second": 0.4133688942424614,
+          "literal_layer_entropy_second": 3.577184020599337
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1386.2947410394718,
+          "acceleration": 6.16996310366417,
+          "curvature": -1380.124777935808,
+          "mass_second": 0.7095936273215893,
+          "literal_layer_entropy_second": -1380.8343715631295
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.07307397741173127,
+          "acceleration": -5.3543511002465385,
+          "curvature": -5.42742507765827,
+          "mass_second": -2.6592939373705633,
+          "literal_layer_entropy_second": -2.7681311402877076
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.4466583763958023,
+          "acceleration": 3.4455023576346475,
+          "curvature": -0.00115601876115487,
+          "mass_second": 1.5363314158065122,
+          "literal_layer_entropy_second": -1.5374874345676668
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "frame": 1,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.9750680428329352,
+      "top_acceleration": 0.033300343386401816,
+      "top_negative_fisher": -4.008368382718849,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.0076719771354635405,
+        "acceleration": 0.008659797381571953,
+        "curvature": 0.0009878202461084127,
+        "mass_second": 0.0008048980835266972,
+        "literal_layer_entropy_second": 0.00018292216258171542
+      },
+      "acceleration_max": 13.995659110296653,
+      "acceleration_max_direction_raw_basis": [
+        -0.5468608424440657,
+        -0.584227943410175,
+        -0.5988181155469976,
+        -0.012523082554662942,
+        0.008200937059073207,
+        0.01717014417806838
+      ],
+      "acceleration_max_direction_negative_fisher": -3507.175553274075,
+      "acceleration_max_direction_curvature": -3493.1798941637785,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1641.6081772452176,
+          "acceleration": 9.673328736094042,
+          "curvature": -1631.9348485091236,
+          "mass_second": 0.9767499585271808,
+          "literal_layer_entropy_second": -1632.9115984676507
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -7.197425846386572,
+          "acceleration": -3.3843655518117446,
+          "curvature": -10.581791398198318,
+          "mass_second": -0.9376719880659088,
+          "literal_layer_entropy_second": -9.644119410132408
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -3.8150811794747574,
+          "acceleration": -3.2224691690719856,
+          "curvature": -7.037550348546743,
+          "mass_second": -1.0549058994497251,
+          "literal_layer_entropy_second": -5.982644449097018
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1854.5548690029973,
+          "acceleration": 10.929165095086335,
+          "curvature": -1843.6257039079107,
+          "mass_second": 1.0158279289884529,
+          "literal_layer_entropy_second": -1844.6415318368993
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "frame": 1,
+      "spectrum": "split_low",
+      "lambda_max": -11.166320059720464,
+      "top_acceleration": -9.147017802396316,
+      "top_negative_fisher": -2.01930226801766,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -0.0014971142313799743,
+        "acceleration": -0.023010876201451275,
+        "curvature": -0.02450799043283125,
+        "mass_second": -0.0015683746712351994,
+        "literal_layer_entropy_second": -0.02293961576159605
+      },
+      "acceleration_max": 15.331180420735514,
+      "acceleration_max_direction_raw_basis": [
+        0.5475118350829555,
+        0.5610246681809505,
+        0.6086677430984043,
+        0.001381492700714905,
+        -0.029420896847944616,
+        -0.08145764316871633
+      ],
+      "acceleration_max_direction_negative_fisher": -734.1230485340989,
+      "acceleration_max_direction_curvature": -718.7918681133632,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -451.2976760603749,
+          "acceleration": 9.681270455033864,
+          "curvature": -441.616405605341,
+          "mass_second": 1.3994510747984754,
+          "literal_layer_entropy_second": -443.0158566801395
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.1427663666834693,
+          "acceleration": -4.45930333887862,
+          "curvature": -4.602069705562089,
+          "mass_second": -2.2495628006706756,
+          "literal_layer_entropy_second": -2.3525069048914125
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -252.85009220612014,
+          "acceleration": 2.049417400854705,
+          "curvature": -250.8006748052654,
+          "mass_second": 0.3007723769459247,
+          "literal_layer_entropy_second": -251.10144718221136
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -29.832513900920357,
+          "acceleration": 8.059795903725554,
+          "curvature": -21.7727179971948,
+          "mass_second": 0.5493393489262756,
+          "literal_layer_entropy_second": -22.322057346121078
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "frame": 1,
+      "spectrum": "split_high",
+      "lambda_max": -10.509384291728416,
+      "top_acceleration": -8.483721435326814,
+      "top_negative_fisher": -2.0256628571167448,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -2.4469613057372903e-06,
+        "acceleration": -7.766331863682513,
+        "curvature": -7.766334310643819,
+        "mass_second": -0.9991174033296443,
+        "literal_layer_entropy_second": -6.767216907314174
+      },
+      "acceleration_max": 15.242849335035487,
+      "acceleration_max_direction_raw_basis": [
+        -0.6824041184250577,
+        -0.5403187803324079,
+        -0.48075412473302165,
+        -0.0032640417744323074,
+        0.038786760878704134,
+        0.06413100947463221
+      ],
+      "acceleration_max_direction_negative_fisher": -1468.1006467959483,
+      "acceleration_max_direction_curvature": -1452.8577974609125,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -33.3692523100572,
+          "acceleration": 7.0735717258134985,
+          "curvature": -26.2956805842437,
+          "mass_second": 0.5119651188326075,
+          "literal_layer_entropy_second": -26.807645703076307
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -962.6646608667763,
+          "acceleration": 2.7092310954285277,
+          "curvature": -959.9554297713478,
+          "mass_second": 0.365938613062188,
+          "literal_layer_entropy_second": -960.3213683844101
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.11545583340377426,
+          "acceleration": -5.343671553544253,
+          "curvature": -5.459127386948027,
+          "mass_second": -2.2677725826221984,
+          "literal_layer_entropy_second": -3.1913548043258286
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -471.95127778571083,
+          "acceleration": 10.803718067337721,
+          "curvature": -461.1475597183731,
+          "mass_second": 1.389868850727403,
+          "literal_layer_entropy_second": -462.5374285691005
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "frame": 1,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.030540163464831446,
+      "top_acceleration": -0.010054235635380866,
+      "top_negative_fisher": -0.020485927877285603,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -0.0002058683284452201,
+        "acceleration": -1.4825159930355434,
+        "curvature": -1.4827218613639888,
+        "mass_second": -0.5050940746132142,
+        "literal_layer_entropy_second": -0.9776277867507746
+      },
+      "acceleration_max": 0.16224999975765858,
+      "acceleration_max_direction_raw_basis": [
+        -0.6050567466771918,
+        -0.5355992483273005,
+        -0.3671596066711372,
+        0.1280603622489078,
+        0.1815282398799542,
+        0.23825373576742512
+      ],
+      "acceleration_max_direction_negative_fisher": -3.9314852195348005,
+      "acceleration_max_direction_curvature": -3.7692352197771415,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.13076306725542,
+          "acceleration": 1.3182509890834118,
+          "curvature": 0.18748792182799168,
+          "mass_second": 0.6338227754117008,
+          "literal_layer_entropy_second": -0.44633485358370917
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.8359223093464092,
+          "acceleration": -1.6419316605101981,
+          "curvature": -2.4778539698566076,
+          "mass_second": -0.6279604375786625,
+          "literal_layer_entropy_second": -1.849893532277945
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.8215199304213682,
+          "acceleration": -1.3916273097090976,
+          "curvature": -2.213147240130466,
+          "mass_second": -0.6455474510777776,
+          "literal_layer_entropy_second": -1.567599789052688
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.143279912511603,
+          "acceleration": 1.8775579808935416,
+          "curvature": 0.7342780683819389,
+          "mass_second": 0.6396851132447392,
+          "literal_layer_entropy_second": 0.09459295513719966
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "frame": 2,
+      "spectrum": "isotropic",
+      "lambda_max": -0.33607896389605296,
+      "top_acceleration": -0.1022928123478775,
+      "top_negative_fisher": -0.23378615117620388,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -4e-19,
+        "acceleration": -1.5338430200755353,
+        "curvature": -1.5338430200755353,
+        "mass_second": -0.39999999955728033,
+        "literal_layer_entropy_second": -1.133843020518255
+      },
+      "acceleration_max": 0.2593457823746639,
+      "acceleration_max_direction_raw_basis": [
+        0.5745307499117038,
+        0.5745307499117037,
+        0.5745307499117037,
+        0.040297337004005326,
+        0.040297337004005326,
+        0.04029733700400543
+      ],
+      "acceleration_max_direction_negative_fisher": -4.135972651328969,
+      "acceleration_max_direction_curvature": -3.8766268689543035,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.7824621460081655,
+          "acceleration": 1.8120958899428783,
+          "curvature": 0.029633743934712742,
+          "mass_second": 1.1824621460081648,
+          "literal_layer_entropy_second": -1.152828402073452
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.10614793517127699,
+          "acceleration": -3.463420242272928,
+          "curvature": -3.5695681774442054,
+          "mass_second": -1.5766161946775539,
+          "literal_layer_entropy_second": -1.9929519827666513
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.059054472810749,
+          "acceleration": -1.1121820505712487,
+          "curvature": -2.1712365233819972,
+          "mass_second": -0.3941540486693885,
+          "literal_layer_entropy_second": -1.7770824747126088
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.188308097338777,
+          "acceleration": 3.022852185275962,
+          "curvature": 1.8345440879371844,
+          "mass_second": 0.7883080973387768,
+          "literal_layer_entropy_second": 1.0462359905984078
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "frame": 2,
+      "spectrum": "moderate",
+      "lambda_max": -1.2657152698018097,
+      "top_acceleration": -0.480651977014745,
+      "top_negative_fisher": -0.7850632922253082,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.012631484534627853,
+        "acceleration": -2.0075024721471686,
+        "curvature": -2.0201339566817964,
+        "mass_second": -0.5028995877696706,
+        "literal_layer_entropy_second": -1.517234368912126
+      },
+      "acceleration_max": 1.540746522377295,
+      "acceleration_max_direction_raw_basis": [
+        0.5581977445604845,
+        0.6420649548640975,
+        0.5206532768646139,
+        -0.006901599853272163,
+        -0.04129452919868183,
+        -0.028127358110397353
+      ],
+      "acceleration_max_direction_negative_fisher": -6.813187595602113,
+      "acceleration_max_direction_curvature": -5.272441073224817,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.3009622479063574,
+          "acceleration": 2.8629969947209832,
+          "curvature": 0.5620347468146258,
+          "mass_second": 0.9851612739876947,
+          "literal_layer_entropy_second": -0.42312652717306887
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.170872275074932,
+          "acceleration": -2.4265782911267344,
+          "curvature": -3.5974505662016667,
+          "mass_second": -0.9939320245156883,
+          "literal_layer_entropy_second": -2.603518541685978
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.0622534926457943,
+          "acceleration": -2.793282036733785,
+          "curvature": -3.855535529379579,
+          "mass_second": -0.9676197729317085,
+          "literal_layer_entropy_second": -2.887915756447871
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.2790995799750284,
+          "acceleration": 3.8976098555168317,
+          "curvature": 1.6185102755418035,
+          "mass_second": 0.9763905234597019,
+          "literal_layer_entropy_second": 0.6421197520821014
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "frame": 2,
+      "spectrum": "sparse",
+      "lambda_max": -10.575179891170203,
+      "top_acceleration": -1.6472504975385653,
+      "top_negative_fisher": -8.927929380394575,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.0025265458598308426,
+        "acceleration": 0.015252464000784935,
+        "curvature": 0.012725918140954093,
+        "mass_second": 0.0007819203650959022,
+        "literal_layer_entropy_second": 0.011943997775858192
+      },
+      "acceleration_max": 4.854029798847091,
+      "acceleration_max_direction_raw_basis": [
+        0.5698434412531262,
+        0.5377954622321189,
+        0.6209371130884601,
+        0.0002499382152145598,
+        0.01452283550595684,
+        -0.005901034325287936
+      ],
+      "acceleration_max_direction_negative_fisher": -134.95161505235484,
+      "acceleration_max_direction_curvature": -130.09758525350776,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.936052654825758,
+          "acceleration": 0.10429121235942258,
+          "curvature": -2.8317614424663358,
+          "mass_second": 1.9531907927976464,
+          "literal_layer_entropy_second": -4.784952235263982
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -65.65964701811995,
+          "acceleration": -17.027929234452948,
+          "curvature": -82.68757625257291,
+          "mass_second": -3.871597333319124,
+          "literal_layer_entropy_second": -78.81597891925378
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -65.95007049428142,
+          "acceleration": 21.099151722218135,
+          "curvature": -44.85091877206329,
+          "mass_second": 1.8836222882453042,
+          "literal_layer_entropy_second": -46.73454106030859
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.40584488512771155,
+          "acceleration": 0.6785160987224754,
+          "curvature": 0.2726712135947639,
+          "mass_second": 0.034784252276171365,
+          "literal_layer_entropy_second": 0.23788696131859252
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "frame": 2,
+      "spectrum": "dense",
+      "lambda_max": -6.511699209841442,
+      "top_acceleration": -0.5152287800808556,
+      "top_negative_fisher": -5.996470438591865,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -9.320824179159089e-05,
+        "acceleration": -1.112708260897824,
+        "curvature": -1.1128014691396158,
+        "mass_second": -0.976804767987644,
+        "literal_layer_entropy_second": -0.1359967011519717
+      },
+      "acceleration_max": 2.439189752526011,
+      "acceleration_max_direction_raw_basis": [
+        -0.6503136213860667,
+        -0.6317936087720495,
+        -0.4176168618644448,
+        -0.035977465511196176,
+        0.017880071949069532,
+        0.012186805282705453
+      ],
+      "acceleration_max_direction_negative_fisher": -303.30169420845795,
+      "acceleration_max_direction_curvature": -300.86250445593197,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.24083796603370855,
+          "acceleration": 0.4963363793863497,
+          "curvature": 0.2554984133526412,
+          "mass_second": 0.026944518841916322,
+          "literal_layer_entropy_second": 0.22855389451072486
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -31.58632562405742,
+          "acceleration": 19.356867007269415,
+          "curvature": -12.229458616788005,
+          "mass_second": 1.8082284324761704,
+          "literal_layer_entropy_second": -14.037687049264173
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -268.6173213613951,
+          "acceleration": -19.53520873852895,
+          "curvature": -288.152530099924,
+          "mass_second": -3.6972904214780886,
+          "literal_layer_entropy_second": -284.455239678446
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.8572092569717666,
+          "acceleration": 2.1211951043992063,
+          "curvature": -0.7360141525725603,
+          "mass_second": 1.8621174701600034,
+          "literal_layer_entropy_second": -2.5981316227325633
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "frame": 2,
+      "spectrum": "one_zero",
+      "lambda_max": -2.9910803703190085,
+      "top_acceleration": -0.8347670932751734,
+      "top_negative_fisher": -2.156313274939626,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -0.0014984709203161126,
+        "acceleration": -0.10300129290492646,
+        "curvature": -0.10449976382524258,
+        "mass_second": -0.008865793265938055,
+        "literal_layer_entropy_second": -0.09563397055930452
+      },
+      "acceleration_max": 7.522039371652732,
+      "acceleration_max_direction_raw_basis": [
+        0.5563096210502989,
+        0.6095169358836898,
+        0.5389603482751988,
+        -0.08992788004008175,
+        0.04380408340090258,
+        0.06526412001518762
+      ],
+      "acceleration_max_direction_negative_fisher": -1247.3830406306547,
+      "acceleration_max_direction_curvature": -1239.861001259002,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.8825320605461626,
+          "acceleration": 2.157497996966165,
+          "curvature": 0.27496593642000233,
+          "mass_second": 1.0707170012239537,
+          "literal_layer_entropy_second": -0.7957510648039514
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.47360913124787235,
+          "acceleration": -2.4478984556805927,
+          "curvature": -2.921507586928465,
+          "mass_second": -1.3058526114991413,
+          "literal_layer_entropy_second": -1.6156549754293237
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -5.1679143608409905,
+          "acceleration": -1.8952040333445068,
+          "curvature": -7.063118394185498,
+          "mass_second": -0.6004457806735783,
+          "literal_layer_entropy_second": -6.462672613511919
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1239.85898507802,
+          "acceleration": 9.70764386371166,
+          "curvature": -1230.1513412143086,
+          "mass_second": 0.8355813909487662,
+          "literal_layer_entropy_second": -1230.9869226052572
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "frame": 2,
+      "spectrum": "two_zero",
+      "lambda_max": -5.293901527886882,
+      "top_acceleration": 0.08117824296126407,
+      "top_negative_fisher": -5.3750797722790224,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -2.0033221849709694e-05,
+        "acceleration": 0.00017646418991336234,
+        "curvature": 0.00015643096806365264,
+        "mass_second": 1.0088560611301875e-05,
+        "literal_layer_entropy_second": 0.00014634240745235077
+      },
+      "acceleration_max": 10.333161547868528,
+      "acceleration_max_direction_raw_basis": [
+        0.583333726830562,
+        0.6448431048164307,
+        0.4853586172556723,
+        0.030896755902836522,
+        0.03015676522916145,
+        0.047948232185987455
+      ],
+      "acceleration_max_direction_negative_fisher": -2051.6864523580894,
+      "acceleration_max_direction_curvature": -2041.3532908102202,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.477613319517989,
+          "acceleration": 2.126696237377177,
+          "curvature": -1.3509170821408119,
+          "mass_second": 1.5328701934821407,
+          "literal_layer_entropy_second": -2.883787275622953
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.36755251372381764,
+          "acceleration": -5.65956380261351,
+          "curvature": -6.027116316337327,
+          "mass_second": -2.6624068458003665,
+          "literal_layer_entropy_second": -3.3647094705369613
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -2044.9965596515497,
+          "acceleration": 6.811115201337859,
+          "curvature": -2038.1854444502121,
+          "mass_second": 0.7262031111543089,
+          "literal_layer_entropy_second": -2038.9116475613662
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.8447268732973288,
+          "acceleration": 7.054913911767005,
+          "curvature": 4.210187038469677,
+          "mass_second": 0.4033335411639161,
+          "literal_layer_entropy_second": 3.8068534973057613
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "frame": 2,
+      "spectrum": "one_one",
+      "lambda_max": -1.5371943888585895,
+      "top_acceleration": -0.5440465979842495,
+      "top_negative_fisher": -0.9931477915374334,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.03851248265033071,
+        "acceleration": -3.058794910302384,
+        "curvature": -3.0973073929527146,
+        "mass_second": -0.986473069039819,
+        "literal_layer_entropy_second": -2.1108343239128957
+      },
+      "acceleration_max": 6.627121696163345,
+      "acceleration_max_direction_raw_basis": [
+        0.6157678349053249,
+        0.39990723964595315,
+        0.6707949519903037,
+        -0.01966560146902081,
+        -0.03070788937042272,
+        -0.06433849880763522
+      ],
+      "acceleration_max_direction_negative_fisher": -1288.3857807126242,
+      "acceleration_max_direction_curvature": -1281.7586590164603,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1280.4178122863489,
+          "acceleration": 8.979563428220862,
+          "curvature": -1271.438248858128,
+          "mass_second": 0.8525903341089078,
+          "literal_layer_entropy_second": -1272.290839192237
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -5.623521461958015,
+          "acceleration": -1.891222589216238,
+          "curvature": -7.514744051174253,
+          "mass_second": -0.7135898519035601,
+          "literal_layer_entropy_second": -6.801154199270693
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.6833559768616454,
+          "acceleration": -3.5358828485589253,
+          "curvature": -4.21923882542057,
+          "mass_second": -1.130591298519603,
+          "literal_layer_entropy_second": -3.088647526900967
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.6610909874555932,
+          "acceleration": 3.074663705717647,
+          "curvature": 1.4135727182620539,
+          "mass_second": 0.9915908163142555,
+          "literal_layer_entropy_second": 0.4219819019477985
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "frame": 2,
+      "spectrum": "two_one",
+      "lambda_max": -5.295697580245921,
+      "top_acceleration": 0.07704719721325562,
+      "top_negative_fisher": -5.3727447768008245,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.0085309119938515,
+        "acceleration": 0.03221065780884439,
+        "curvature": -3.976320254185007,
+        "mass_second": 0.013024246551918552,
+        "literal_layer_entropy_second": -3.9893445007369257
+      },
+      "acceleration_max": 9.751637554592541,
+      "acceleration_max_direction_raw_basis": [
+        0.5750352709676044,
+        0.6566944022098116,
+        0.4860199727902897,
+        0.0268746930879233,
+        0.011793384590136648,
+        0.008626099962208053
+      ],
+      "acceleration_max_direction_negative_fisher": -942.3986604872096,
+      "acceleration_max_direction_curvature": -932.6470229326172,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.709454086022908,
+          "acceleration": 6.784376190597955,
+          "curvature": 4.074922104575047,
+          "mass_second": 0.41353578629296195,
+          "literal_layer_entropy_second": 3.6613863182820854
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -935.6325008694339,
+          "acceleration": 6.02045193397613,
+          "curvature": -929.6120489354579,
+          "mass_second": 0.7100564873432924,
+          "literal_layer_entropy_second": -930.3221054228012
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.6115417015093949,
+          "acceleration": -6.8547084350944,
+          "curvature": -7.466250136603794,
+          "mass_second": -2.6607203335654708,
+          "literal_layer_entropy_second": -4.805529803038323
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.445163830243701,
+          "acceleration": 3.801517865112852,
+          "curvature": 0.3563540348691509,
+          "mass_second": 1.5371280599292163,
+          "literal_layer_entropy_second": -1.1807740250600656
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "frame": 2,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.992757009761553,
+      "top_acceleration": 0.014752222647303432,
+      "top_negative_fisher": -4.007509235445404,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.0020679479300965125,
+        "acceleration": 0.008741588288481577,
+        "curvature": 0.0066736403583850645,
+        "mass_second": 0.0007954619547559368,
+        "literal_layer_entropy_second": 0.005878178403629128
+      },
+      "acceleration_max": 12.954723305109752,
+      "acceleration_max_direction_raw_basis": [
+        0.5922125201106241,
+        0.6277750855643709,
+        0.5028462951469822,
+        -0.00075354371237937,
+        0.008961957680099388,
+        0.03291357925425105
+      ],
+      "acceleration_max_direction_negative_fisher": -4129.818899910959,
+      "acceleration_max_direction_curvature": -4116.864176605849,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2022.7142875244667,
+          "acceleration": 9.960728986439493,
+          "curvature": -2012.7535585380272,
+          "mass_second": 1.005769770658467,
+          "literal_layer_entropy_second": -2013.7593283086856
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -6.691183369892736,
+          "acceleration": -3.4791680820056072,
+          "curvature": -10.170351451898343,
+          "mass_second": -1.0491526621539293,
+          "literal_layer_entropy_second": -9.121198789744414
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -346.04782635317036,
+          "acceleration": -4.10281778490177,
+          "curvature": -350.15064413807215,
+          "mass_second": -0.9190039876675408,
+          "literal_layer_entropy_second": -349.23164015040453
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1754.365602663428,
+          "acceleration": 10.575980185577645,
+          "curvature": -1743.7896224778501,
+          "mass_second": 0.9623868791630038,
+          "literal_layer_entropy_second": -1744.752009357013
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "frame": 2,
+      "spectrum": "split_low",
+      "lambda_max": -5.898817781460211,
+      "top_acceleration": -3.9489076164853847,
+      "top_negative_fisher": -1.9499101622845403,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -3.7606793663795895e-08,
+        "acceleration": -0.0014919692076058415,
+        "curvature": -0.0014920068143995052,
+        "mass_second": -0.00010011706730959714,
+        "literal_layer_entropy_second": -0.001391889747089908
+      },
+      "acceleration_max": 13.615541785336667,
+      "acceleration_max_direction_raw_basis": [
+        -0.6823501087638136,
+        -0.2782786312788823,
+        -0.6757660881694183,
+        0.0007487388451781411,
+        0.012160604070776015,
+        0.001149939415013058
+      ],
+      "acceleration_max_direction_negative_fisher": -1936.662522881203,
+      "acceleration_max_direction_curvature": -1923.046981095866,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -474.852598273271,
+          "acceleration": 8.979307513083217,
+          "curvature": -465.8732907601878,
+          "mass_second": 1.2979806326551362,
+          "literal_layer_entropy_second": -467.1712713928429
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.2233095035425205,
+          "acceleration": -5.493529816813846,
+          "curvature": -5.716839320356366,
+          "mass_second": -2.216153864166054,
+          "literal_layer_entropy_second": -3.500685456190312
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1416.8332665477035,
+          "acceleration": 4.469780606174608,
+          "curvature": -1412.363485941529,
+          "mass_second": 0.5383658303666988,
+          "literal_layer_entropy_second": -1412.9018517718957
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -44.753348556685715,
+          "acceleration": 5.659983482892677,
+          "curvature": -39.09336507379304,
+          "mass_second": 0.37980740114421874,
+          "literal_layer_entropy_second": -39.47317247493726
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "frame": 2,
+      "spectrum": "split_high",
+      "lambda_max": -11.584539291475808,
+      "top_acceleration": -9.587719116952808,
+      "top_negative_fisher": -1.99682016667788,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -9.058886456874391e-07,
+        "acceleration": -7.94471485842101,
+        "curvature": -7.944715764309656,
+        "mass_second": -0.99263758577094,
+        "literal_layer_entropy_second": -6.9520781785387165
+      },
+      "acceleration_max": 14.778275222648144,
+      "acceleration_max_direction_raw_basis": [
+        -0.5551405793112623,
+        -0.5185192940304498,
+        -0.6436454925119819,
+        0.0029917582727955225,
+        0.06504097280399532,
+        -0.009964972840442777
+      ],
+      "acceleration_max_direction_negative_fisher": -1115.424139205089,
+      "acceleration_max_direction_curvature": -1100.645863982441,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -27.490346490162082,
+          "acceleration": 7.548651980638734,
+          "curvature": -19.941694509523348,
+          "mass_second": 0.5463500842425193,
+          "literal_layer_entropy_second": -20.488044593765867
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -630.9749558088637,
+          "acceleration": 1.9838950765350691,
+          "curvature": -628.9910607323286,
+          "mass_second": 0.31008746686233324,
+          "literal_layer_entropy_second": -629.3011481991911
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.1364485375340472,
+          "acceleration": -5.981680437130498,
+          "curvature": -6.118128974664545,
+          "mass_second": -2.259225186452224,
+          "literal_layer_entropy_second": -3.8589037882123205
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -456.8223883685288,
+          "acceleration": 11.227408602604823,
+          "curvature": -445.59497976592405,
+          "mass_second": 1.4027876353473712,
+          "literal_layer_entropy_second": -446.9977674012714
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "frame": 2,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.3742773325633388,
+      "top_acceleration": -0.10682556933637867,
+      "top_negative_fisher": -0.2674517632866313,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -0.00021745789147236297,
+        "acceleration": -1.5466930354745576,
+        "curvature": -1.54691049336603,
+        "mass_second": -0.48859751160578235,
+        "literal_layer_entropy_second": -1.0583129817602477
+      },
+      "acceleration_max": 0.2811145948643798,
+      "acceleration_max_direction_raw_basis": [
+        0.5733044038434789,
+        0.5747320795510177,
+        0.5769256771050482,
+        0.02976517915406934,
+        0.03736432671199713,
+        0.04241310389542786
+      ],
+      "acceleration_max_direction_negative_fisher": -3.9759431612976313,
+      "acceleration_max_direction_curvature": -3.6948285664332516,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4853226144442133,
+          "acceleration": 2.0526183765843773,
+          "curvature": 0.567295762140164,
+          "mass_second": 0.9869109047377697,
+          "literal_layer_entropy_second": -0.4196151425976057
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5017809950046437,
+          "acceleration": -2.312264060503982,
+          "curvature": -2.8140450555086254,
+          "mass_second": -0.9852382590580531,
+          "literal_layer_entropy_second": -1.8288067964505725
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.4982406055809035,
+          "acceleration": -2.58867705173013,
+          "curvature": -3.0869176573110337,
+          "mass_second": -0.9902561960972042,
+          "literal_layer_entropy_second": -2.09666146121383
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.4905989462678706,
+          "acceleration": 3.129437330514113,
+          "curvature": 1.6388383842462426,
+          "mass_second": 0.9885835504174869,
+          "literal_layer_entropy_second": 0.6502548338287557
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "frame": 3,
+      "spectrum": "isotropic",
+      "lambda_max": -0.034103972874147535,
+      "top_acceleration": -0.010364845632062686,
+      "top_negative_fisher": -0.02373912720607613,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -1.72355306669056e-05,
+        "acceleration": -1.3304569694137391,
+        "curvature": -1.330474204944406,
+        "mass_second": -0.39998276404698957,
+        "literal_layer_entropy_second": -0.9304914408974165
+      },
+      "acceleration_max": 0.09011291773235058,
+      "acceleration_max_direction_raw_basis": [
+        0.2687356406789442,
+        0.6343592165215824,
+        0.6909370565657608,
+        0.15004089505645676,
+        0.037752163107947614,
+        -0.007089840967934522
+      ],
+      "acceleration_max_direction_negative_fisher": -3.9847044572385903,
+      "acceleration_max_direction_curvature": -3.894591539506239,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.5245626452632475,
+          "acceleration": 1.4168708699319978,
+          "curvature": -0.10769177533124963,
+          "mass_second": 0.9245626452632472,
+          "literal_layer_entropy_second": -1.0322544205944968
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.3596360150351854,
+          "acceleration": -2.6777482810119024,
+          "curvature": -3.0373842960470876,
+          "mass_second": -1.2327501936843297,
+          "literal_layer_entropy_second": -1.804634102362758
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.084130700097992,
+          "acceleration": -0.699249374192515,
+          "curvature": -1.783380074290507,
+          "mass_second": -0.30818754842108254,
+          "literal_layer_entropy_second": -1.4751925258694245
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.016375096842165,
+          "acceleration": 2.050239703004769,
+          "curvature": 1.033864606162604,
+          "mass_second": 0.6163750968421647,
+          "literal_layer_entropy_second": 0.41748950932043905
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "frame": 3,
+      "spectrum": "moderate",
+      "lambda_max": -1.1857999416790046,
+      "top_acceleration": -0.3861729782120227,
+      "top_negative_fisher": -0.7996269627567926,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.08995318700352312,
+        "acceleration": -1.812535272436324,
+        "curvature": -1.902488459439847,
+        "mass_second": -0.52031512914174,
+        "literal_layer_entropy_second": -1.382173330298107
+      },
+      "acceleration_max": 2.0132625144693823,
+      "acceleration_max_direction_raw_basis": [
+        0.45087651330102213,
+        0.6322841496633403,
+        0.6101798197125298,
+        0.03597471663469622,
+        0.09601801632864482,
+        -0.04231094456718901
+      ],
+      "acceleration_max_direction_negative_fisher": -7.080080971427235,
+      "acceleration_max_direction_curvature": -5.0668184569578525,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.34451266698808,
+          "acceleration": 2.7029776594149006,
+          "curvature": 0.35846499242682084,
+          "mass_second": 0.9300983966869213,
+          "literal_layer_entropy_second": -0.5716334042601005
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.2083276143385544,
+          "acceleration": -1.9193743518065558,
+          "curvature": -3.12770196614511,
+          "mass_second": -0.9228931997883542,
+          "literal_layer_entropy_second": -2.2048087663567557
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.1492500332479518,
+          "acceleration": -2.035469422316723,
+          "curvature": -3.1847194555646747,
+          "mass_second": -0.9445087904840561,
+          "literal_layer_entropy_second": -2.240210665080619
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.3779906568526497,
+          "acceleration": 3.2651286291777604,
+          "curvature": 0.887137972325111,
+          "mass_second": 0.9373035935854886,
+          "literal_layer_entropy_second": -0.050165621260377664
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "frame": 3,
+      "spectrum": "sparse",
+      "lambda_max": -0.8248860176388189,
+      "top_acceleration": -0.1264970727195689,
+      "top_negative_fisher": -0.698388944962901,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.14455878274723918,
+        "acceleration": -0.8703168018742047,
+        "curvature": -1.014875584621444,
+        "mass_second": -0.04581074228179797,
+        "literal_layer_entropy_second": -0.969064842339646
+      },
+      "acceleration_max": 1.4431035566553465,
+      "acceleration_max_direction_raw_basis": [
+        -0.6137981369203667,
+        -0.5537911972553655,
+        -0.5085168997312924,
+        -0.0654132930696895,
+        0.03935580504675202,
+        -0.15218765232605347
+      ],
+      "acceleration_max_direction_negative_fisher": -480.5670269798925,
+      "acceleration_max_direction_curvature": -479.123923423237,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.7813210438651987,
+          "acceleration": 0.0952904406486201,
+          "curvature": -2.6860306032165786,
+          "mass_second": 1.784622185377248,
+          "literal_layer_entropy_second": -4.470652788593826
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -407.56610851901473,
+          "acceleration": -18.905333706228575,
+          "curvature": -426.47144222524327,
+          "mass_second": -3.544534448789753,
+          "literal_layer_entropy_second": -422.92690777645356
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -69.8550529095257,
+          "acceleration": 19.783705394575648,
+          "curvature": -50.07134751495004,
+          "mass_second": 1.7352023414477635,
+          "literal_layer_entropy_second": -51.8065498563978
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.36454450748668793,
+          "acceleration": 0.46944142765965396,
+          "curvature": 0.10489692017296597,
+          "mass_second": 0.024709921964742334,
+          "literal_layer_entropy_second": 0.08018699820822363
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "frame": 3,
+      "spectrum": "dense",
+      "lambda_max": -5.334358269681432,
+      "top_acceleration": -1.0593231522894127,
+      "top_negative_fisher": -4.275035119846624,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -0.005677976658298846,
+        "acceleration": -0.6121990952517141,
+        "curvature": -0.6178770719100131,
+        "mass_second": -0.9704985690852602,
+        "literal_layer_entropy_second": 0.35262149717524716
+      },
+      "acceleration_max": 4.029382358067138,
+      "acceleration_max_direction_raw_basis": [
+        0.47132865694832266,
+        0.6333988207310801,
+        0.6048938836572347,
+        0.03824005561116583,
+        0.062183013007683786,
+        0.007090931889353108
+      ],
+      "acceleration_max_direction_negative_fisher": -110.62159563200773,
+      "acceleration_max_direction_curvature": -106.59221327394059,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.3843451221028805,
+          "acceleration": 0.5647419854877471,
+          "curvature": 0.1803968633848666,
+          "mass_second": 0.030658040999551862,
+          "literal_layer_entropy_second": 0.14973882238531475
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -45.080682419473646,
+          "acceleration": 19.20837449463275,
+          "curvature": -25.872307924840893,
+          "mass_second": 1.8308310761398807,
+          "literal_layer_entropy_second": -27.703139000980773
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -62.27579748429697,
+          "acceleration": -16.93731731237954,
+          "curvature": -79.2131147966765,
+          "mass_second": -3.753636275278416,
+          "literal_layer_entropy_second": -75.4594785213981
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.8807706061342393,
+          "acceleration": 1.1935831903261913,
+          "curvature": -1.687187415808048,
+          "mass_second": 1.8921471581389846,
+          "literal_layer_entropy_second": -3.5793345739470324
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "frame": 3,
+      "spectrum": "one_zero",
+      "lambda_max": -1.6373191379201857,
+      "top_acceleration": -0.569092061197287,
+      "top_negative_fisher": -1.0682270766623942,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -4.345046246626349e-05,
+        "acceleration": -0.005236425697146759,
+        "curvature": -0.005279876159613023,
+        "mass_second": -0.0004713462435305593,
+        "literal_layer_entropy_second": -0.004808529916082463
+      },
+      "acceleration_max": 7.531228121255312,
+      "acceleration_max_direction_raw_basis": [
+        -0.3643010407399466,
+        -0.6845128678411022,
+        -0.582382651871584,
+        -0.06554960858354249,
+        -0.1564995460290355,
+        0.031461199033598536
+      ],
+      "acceleration_max_direction_negative_fisher": -1432.8678528327564,
+      "acceleration_max_direction_curvature": -1425.3366247115011,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.281336984802952,
+          "acceleration": 2.0109738217647672,
+          "curvature": -0.27036316303818486,
+          "mass_second": 0.9980003981499004,
+          "literal_layer_entropy_second": -1.2683635611880852
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.677162926032165,
+          "acceleration": -2.374645546853169,
+          "curvature": -3.051808472885334,
+          "mass_second": -1.3331989756172011,
+          "literal_layer_entropy_second": -1.7186094972681325
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -133.23429634338316,
+          "acceleration": 0.5314965444714279,
+          "curvature": -132.7027997989117,
+          "mass_second": -0.3276032432152981,
+          "literal_layer_entropy_second": -132.37519655569642
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1296.6750565785387,
+          "acceleration": 7.36340330187229,
+          "curvature": -1289.3116532766662,
+          "mass_second": 0.6628018206825994,
+          "literal_layer_entropy_second": -1289.9744550973487
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "frame": 3,
+      "spectrum": "two_zero",
+      "lambda_max": -5.294413284130821,
+      "top_acceleration": 0.0794210427895718,
+      "top_negative_fisher": -5.373834323909395,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -2.9328535837525976e-05,
+        "acceleration": 0.00021064185893257046,
+        "curvature": 0.00018131332309504448,
+        "mass_second": 1.2402960989633462e-05,
+        "literal_layer_entropy_second": 0.000168910362105411
+      },
+      "acceleration_max": 9.468507715756948,
+      "acceleration_max_direction_raw_basis": [
+        0.6113153950904932,
+        0.5683791266946183,
+        0.528319929928634,
+        -0.001897206778405634,
+        -0.041166855111002015,
+        0.10178430379198991
+      ],
+      "acceleration_max_direction_negative_fisher": -816.3365856205104,
+      "acceleration_max_direction_curvature": -806.8680779047534,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.4289807975643547,
+          "acceleration": 2.1073721011229836,
+          "curvature": -1.3216086964413711,
+          "mass_second": 1.5189418326950015,
+          "literal_layer_entropy_second": -2.8405505291363724
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.9325774339997132,
+          "acceleration": -5.538608247426139,
+          "curvature": -6.471185681425852,
+          "mass_second": -2.639512130821998,
+          "literal_layer_entropy_second": -3.8316735506038544
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -809.4379146339866,
+          "acceleration": 6.1341238897517725,
+          "curvature": -803.3037907442348,
+          "mass_second": 0.7221987635589918,
+          "literal_layer_entropy_second": -804.0259895077937
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.5371127549597183,
+          "acceleration": 6.7656199723083335,
+          "curvature": 4.228507217348615,
+          "mass_second": 0.3983715345680048,
+          "literal_layer_entropy_second": 3.830135682780611
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "frame": 3,
+      "spectrum": "one_one",
+      "lambda_max": -2.23068769212277,
+      "top_acceleration": -0.7220793481260014,
+      "top_negative_fisher": -1.5086083430557813,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.12416742432988288,
+        "acceleration": -2.363901509332265,
+        "curvature": -2.488068933662148,
+        "mass_second": -0.9118524874019008,
+        "literal_layer_entropy_second": -1.5762164462602475
+      },
+      "acceleration_max": 7.312691630894761,
+      "acceleration_max_direction_raw_basis": [
+        -0.5821622495820225,
+        -0.6798711035804246,
+        -0.4388574995402382,
+        0.007761204584930946,
+        -0.042983031157928724,
+        0.03500670112249469
+      ],
+      "acceleration_max_direction_negative_fisher": -1246.6171793855342,
+      "acceleration_max_direction_curvature": -1239.3044877546392,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1240.3418339897562,
+          "acceleration": 8.786680693595267,
+          "curvature": -1231.5551532961608,
+          "mass_second": 0.8342765311637174,
+          "literal_layer_entropy_second": -1232.3894298273246
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -3.9384590320908828,
+          "acceleration": -1.5739662823419587,
+          "curvature": -5.512425314432843,
+          "mass_second": -0.6097999006834846,
+          "literal_layer_entropy_second": -4.902625413749358
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.4808981149067407,
+          "acceleration": -2.644752033608175,
+          "curvature": -3.125650148514916,
+          "mass_second": -1.2832297921241824,
+          "literal_layer_entropy_second": -1.8424203563907333
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.855988248780332,
+          "acceleration": 2.744729253249635,
+          "curvature": 0.8887410044693032,
+          "mass_second": 1.05875316164395,
+          "literal_layer_entropy_second": -0.17001215717464704
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "frame": 3,
+      "spectrum": "two_one",
+      "lambda_max": -5.293797216333805,
+      "top_acceleration": 0.081342817198388,
+      "top_negative_fisher": -5.375140031972734,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.008878468265255,
+        "acceleration": 0.02633559947305474,
+        "curvature": -3.9825428687922,
+        "mass_second": 0.013403647478478308,
+        "literal_layer_entropy_second": -3.995946516270678
+      },
+      "acceleration_max": 10.883800093081268,
+      "acceleration_max_direction_raw_basis": [
+        0.5981133083351211,
+        0.6072499980112884,
+        0.5017378932084334,
+        -0.014553671155486505,
+        -0.03158608108530932,
+        0.09835653791591531
+      ],
+      "acceleration_max_direction_negative_fisher": -1944.1636511555782,
+      "acceleration_max_direction_curvature": -1933.2798510624966,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.96981785383659,
+          "acceleration": 6.465838104969275,
+          "curvature": 3.496020251132685,
+          "mass_second": 0.39411957262732483,
+          "literal_layer_entropy_second": 3.10190067850536
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1937.6073398510375,
+          "acceleration": 6.444056955178372,
+          "curvature": -1931.1632828958593,
+          "mass_second": 0.7318357876396089,
+          "literal_layer_entropy_second": -1931.8951186834988
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.11996034549168536,
+          "acceleration": -5.012750999762824,
+          "curvature": -5.13271134525451,
+          "mass_second": -2.6460302931611923,
+          "literal_layer_entropy_second": -2.486681052093317
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.466533105212472,
+          "acceleration": 2.9866560326964464,
+          "curvature": -0.47987707251602557,
+          "mass_second": 1.5200749328942587,
+          "literal_layer_entropy_second": -1.999952005410285
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "frame": 3,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.917319187593646,
+      "top_acceleration": 0.0815825769217055,
+      "top_negative_fisher": -3.9989017639819626,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.009236551919723626,
+        "acceleration": -0.02876561400434379,
+        "curvature": -0.03800216592406742,
+        "mass_second": -0.002744548320290666,
+        "literal_layer_entropy_second": -0.03525761760377675
+      },
+      "acceleration_max": 15.83089096458198,
+      "acceleration_max_direction_raw_basis": [
+        0.5856986277760224,
+        0.5808810349052798,
+        0.5644588449299359,
+        -0.018341588148930416,
+        -0.008093526882557047,
+        -0.007639208812787765
+      ],
+      "acceleration_max_direction_negative_fisher": -3451.9095511343235,
+      "acceleration_max_direction_curvature": -3436.0786601697423,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1676.7083197095508,
+          "acceleration": 9.800708925953149,
+          "curvature": -1666.9076107835976,
+          "mass_second": 0.9896119834367473,
+          "literal_layer_entropy_second": -1667.8972227670345
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -4.943400484943068,
+          "acceleration": -2.2815679486183518,
+          "curvature": -7.22496843356142,
+          "mass_second": -0.9723416354773008,
+          "literal_layer_entropy_second": -6.252626798084119
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.578594343713998,
+          "acceleration": -2.2413848504988225,
+          "curvature": -3.81997919421282,
+          "mass_second": -1.024152679355642,
+          "literal_layer_entropy_second": -2.7958265148571786
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1768.6792365961157,
+          "acceleration": 10.553134837746008,
+          "curvature": -1758.1261017583697,
+          "mass_second": 1.006882331396195,
+          "literal_layer_entropy_second": -1759.132984089766
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "frame": 3,
+      "spectrum": "split_low",
+      "lambda_max": -11.658818260379153,
+      "top_acceleration": -9.638703862353438,
+      "top_negative_fisher": -2.020114391043627,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -0.0008739069262008749,
+        "acceleration": -0.016899739056397963,
+        "curvature": -0.017773645982598837,
+        "mass_second": -0.0011740883398980969,
+        "literal_layer_entropy_second": -0.01659955764270074
+      },
+      "acceleration_max": 15.597571542086737,
+      "acceleration_max_direction_raw_basis": [
+        -0.5783129472376203,
+        -0.6276305920059303,
+        -0.5130464349823283,
+        -0.06422366739946876,
+        0.0009196792116473118,
+        -0.009118115467742943
+      ],
+      "acceleration_max_direction_negative_fisher": -727.309331063259,
+      "acceleration_max_direction_curvature": -711.7117595211722,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -446.5771227135034,
+          "acceleration": 9.678010001360068,
+          "curvature": -436.89911271214334,
+          "mass_second": 1.3989797683290075,
+          "literal_layer_entropy_second": -438.29809248047235
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.1495697078632954,
+          "acceleration": -3.909152535223146,
+          "curvature": -4.058722243086441,
+          "mass_second": -2.242012773497936,
+          "literal_layer_entropy_second": -1.8167094695885055
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -251.5020001494205,
+          "acceleration": 1.8264582768079032,
+          "curvature": -249.6755418726126,
+          "mass_second": 0.2870862420088474,
+          "literal_layer_entropy_second": -249.96262811462142
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -29.08063849247194,
+          "acceleration": 8.002255799141903,
+          "curvature": -21.07838269333004,
+          "mass_second": 0.5559467631600802,
+          "literal_layer_entropy_second": -21.634329456490118
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "frame": 3,
+      "spectrum": "split_high",
+      "lambda_max": -9.481596460656911,
+      "top_acceleration": -7.551486418294764,
+      "top_negative_fisher": -1.930110045207897,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -6.539227975278624e-07,
+        "acceleration": -7.440715171331795,
+        "curvature": -7.440715825254593,
+        "mass_second": -0.9927149192197341,
+        "literal_layer_entropy_second": -6.448000906034858
+      },
+      "acceleration_max": 13.274702005276868,
+      "acceleration_max_direction_raw_basis": [
+        -0.5244887393671922,
+        -0.5948036640006231,
+        -0.6026644343054999,
+        -0.03111737895464582,
+        -0.03495704828414302,
+        -0.042042658075961956
+      ],
+      "acceleration_max_direction_negative_fisher": -586.7983863255695,
+      "acceleration_max_direction_curvature": -573.5236843202927,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -27.909679138718925,
+          "acceleration": 7.903382273443793,
+          "curvature": -20.006296865275132,
+          "mass_second": 0.5720244597276398,
+          "literal_layer_entropy_second": -20.578321325002772
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -129.74250005148883,
+          "acceleration": 1.3167059862177188,
+          "curvature": -128.4257940652711,
+          "mass_second": 0.249061971626966,
+          "literal_layer_entropy_second": -128.6748560368981
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.17359343782815387,
+          "acceleration": -6.387197032015151,
+          "curvature": -6.560790469843305,
+          "mass_second": -2.214197322436851,
+          "literal_layer_entropy_second": -4.346593147406454
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -428.97261369753363,
+          "acceleration": 10.441810777630508,
+          "curvature": -418.5308029199032,
+          "mass_second": 1.3931108910822452,
+          "literal_layer_entropy_second": -419.92391381098537
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "frame": 3,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.03953565584262366,
+      "top_acceleration": -0.01201516356164827,
+      "top_negative_fisher": -0.027520492218007682,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -3.958726364870561e-06,
+        "acceleration": -1.3469166374199648,
+        "curvature": -1.3469205961463298,
+        "mass_second": -0.5068826841048845,
+        "literal_layer_entropy_second": -0.8400379120414453
+      },
+      "acceleration_max": 0.09359995030186469,
+      "acceleration_max_direction_raw_basis": [
+        -0.29066449410425244,
+        -0.6304610773109112,
+        -0.6884055014821294,
+        -0.14420152475094422,
+        -0.03521425599074095,
+        0.005594651967007085
+      ],
+      "acceleration_max_direction_negative_fisher": -3.8409453133183673,
+      "acceleration_max_direction_curvature": -3.747345363016503,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.3077848040905928,
+          "acceleration": 1.664945168311361,
+          "curvature": 0.35716036422076813,
+          "mass_second": 0.800515361813725,
+          "literal_layer_entropy_second": -0.4433549975929568
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.6190414841565983,
+          "acceleration": -1.8921293110073147,
+          "curvature": -2.511170795163913,
+          "mass_second": -0.8109558108192622,
+          "literal_layer_entropy_second": -1.7002149843446508
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.631080095478702,
+          "acceleration": -1.7786465607612632,
+          "curvature": -2.409726656239965,
+          "mass_second": -0.77963446380265,
+          "literal_layer_entropy_second": -1.630092192437315
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.2830389295924742,
+          "acceleration": 2.0994306537590823,
+          "curvature": 0.816391724166608,
+          "mass_second": 0.7900749128081874,
+          "literal_layer_entropy_second": 0.026316811358420487
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "frame": 4,
+      "spectrum": "isotropic",
+      "lambda_max": -0.017906046570135996,
+      "top_acceleration": -0.006618767867259955,
+      "top_negative_fisher": -0.011287278731586716,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -1.3852713442771261e-125,
+        "acceleration": -1.278523341151602,
+        "curvature": -1.278523341151602,
+        "mass_second": -0.4000000006413489,
+        "literal_layer_entropy_second": -0.878523340510253
+      },
+      "acceleration_max": 0.0778259070364263,
+      "acceleration_max_direction_raw_basis": [
+        0.6918054398074532,
+        0.6918054398074529,
+        0.14733359820093164,
+        -0.007358063890283767,
+        -0.07244824969999851,
+        -0.07244824969999861
+      ],
+      "acceleration_max_direction_negative_fisher": -4.0942118213012,
+      "acceleration_max_direction_curvature": -4.016385914264775,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4062745964928847,
+          "acceleration": 1.2355971710404503,
+          "curvature": -0.17067742545243436,
+          "mass_second": 0.8062745964928844,
+          "literal_layer_entropy_second": -0.9769520219453187
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5825434838394663,
+          "acceleration": -2.304154440777643,
+          "curvature": -2.8866979246171094,
+          "mass_second": -1.0750327953238457,
+          "literal_layer_entropy_second": -1.811665129293264
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.1678773433069256,
+          "acceleration": -0.5716849721279148,
+          "curvature": -1.7395623154348405,
+          "mass_second": -0.26875819883096147,
+          "literal_layer_entropy_second": -1.4708041166038792
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.9375163976619234,
+          "acceleration": 1.7180681489015341,
+          "curvature": 0.7805517512396107,
+          "mass_second": 0.5375163976619228,
+          "literal_layer_entropy_second": 0.24303535357768782
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "frame": 4,
+      "spectrum": "moderate",
+      "lambda_max": -0.9660152379063552,
+      "top_acceleration": -0.3500176065812541,
+      "top_negative_fisher": -0.6159976307798224,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.016342038979107416,
+        "acceleration": -1.2110359521966203,
+        "curvature": -1.2273779911757279,
+        "mass_second": -0.3611199144368122,
+        "literal_layer_entropy_second": -0.8662580767389156
+      },
+      "acceleration_max": 1.7834419243440516,
+      "acceleration_max_direction_raw_basis": [
+        -0.6426723170762652,
+        -0.4251250438509242,
+        -0.6309404007383895,
+        -0.04191148849747051,
+        0.03359162332309883,
+        -0.03453448001306834
+      ],
+      "acceleration_max_direction_negative_fisher": -6.812831394291966,
+      "acceleration_max_direction_curvature": -5.0293894699479145,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.3902199397942385,
+          "acceleration": 2.825550075904941,
+          "curvature": 0.43533013611070226,
+          "mass_second": 0.9722757367986061,
+          "literal_layer_entropy_second": -0.5369456006879039
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.1925906971149667,
+          "acceleration": -2.0322068689951847,
+          "curvature": -3.2247975661101513,
+          "mass_second": -1.0311172274872387,
+          "literal_layer_entropy_second": -2.1936803386229125
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.0748909195071306,
+          "acceleration": -2.0731544230965504,
+          "curvature": -3.1480453426036807,
+          "mass_second": -0.854592755421342,
+          "literal_layer_entropy_second": -2.2934525871823386
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.1551298378756303,
+          "acceleration": 3.0632531405308447,
+          "curvature": 0.9081233026552145,
+          "mass_second": 0.9134342461099743,
+          "literal_layer_entropy_second": -0.005310943454759756
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "frame": 4,
+      "spectrum": "sparse",
+      "lambda_max": -9.322996785705028,
+      "top_acceleration": -1.5611362840902665,
+      "top_negative_fisher": -7.761860498211374,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.000270434956596767,
+        "acceleration": -0.0460077618177692,
+        "curvature": -0.04627819677436597,
+        "mass_second": -0.0024383865157904467,
+        "literal_layer_entropy_second": -0.04383981025857552
+      },
+      "acceleration_max": 4.6622855787471895,
+      "acceleration_max_direction_raw_basis": [
+        0.5967827980011063,
+        0.5089091597322942,
+        0.619046900032323,
+        0.008071947869484548,
+        0.007057620715470385,
+        0.02657782916050574
+      ],
+      "acceleration_max_direction_negative_fisher": -151.20077500368097,
+      "acceleration_max_direction_curvature": -146.5384894249338,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.9177070040751403,
+          "acceleration": 0.10349570750022527,
+          "curvature": -2.814211296574915,
+          "mass_second": 1.9382923873475768,
+          "literal_layer_entropy_second": -4.752503683922492
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -84.35257856735791,
+          "acceleration": -17.06992774351975,
+          "curvature": -101.42250631087765,
+          "mass_second": -3.8401530345557178,
+          "literal_layer_entropy_second": -97.58235327632192
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -63.51217863071121,
+          "acceleration": 20.941319283088088,
+          "curvature": -42.57085934762311,
+          "mass_second": 1.8654289070687056,
+          "literal_layer_entropy_second": -44.436288254691824
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.4183108015367386,
+          "acceleration": 0.6873983316786293,
+          "curvature": 0.2690875301418907,
+          "mass_second": 0.03643174013943569,
+          "literal_layer_entropy_second": 0.23265579000245504
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "frame": 4,
+      "spectrum": "dense",
+      "lambda_max": -2.287898693079198,
+      "top_acceleration": -0.4044203773022729,
+      "top_negative_fisher": -1.8834783168225808,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -0.0003215028468440233,
+        "acceleration": -0.49628904108578725,
+        "curvature": -0.4966105439326313,
+        "mass_second": -0.990930255944524,
+        "literal_layer_entropy_second": 0.4943197120118927
+      },
+      "acceleration_max": 3.760322509106728,
+      "acceleration_max_direction_raw_basis": [
+        0.19644157546623653,
+        0.6981258945263469,
+        0.6653441379316051,
+        0.010173981430721143,
+        0.12474834393196499,
+        -0.002898492395930632
+      ],
+      "acceleration_max_direction_negative_fisher": -125.68514179542197,
+      "acceleration_max_direction_curvature": -121.92481928631523,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.43815505961587153,
+          "acceleration": 0.2524813428312653,
+          "curvature": -0.18567371678460626,
+          "mass_second": 0.013706406746892705,
+          "literal_layer_entropy_second": -0.19938012353149898
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -76.508442957234,
+          "acceleration": 15.15923556106705,
+          "curvature": -61.349207396166946,
+          "mass_second": 1.3922050042959495,
+          "literal_layer_entropy_second": -62.7414124004629
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -46.32124870102943,
+          "acceleration": -12.362383650869576,
+          "curvature": -58.683632351899014,
+          "mass_second": -2.8255292288325773,
+          "literal_layer_entropy_second": -55.85810312306642
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.417295077542672,
+          "acceleration": 0.7109892560779858,
+          "curvature": -1.706305821464686,
+          "mass_second": 1.4196178177897347,
+          "literal_layer_entropy_second": -3.1259236392544203
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "frame": 4,
+      "spectrum": "one_zero",
+      "lambda_max": -2.7122372399018815,
+      "top_acceleration": -0.8041571288080783,
+      "top_negative_fisher": -1.9080801072929974,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -0.0002868544616768055,
+        "acceleration": -0.11818427969376473,
+        "curvature": -0.11847113415544154,
+        "mass_second": -0.01076405403934143,
+        "literal_layer_entropy_second": -0.10770708011610011
+      },
+      "acceleration_max": 7.35381242545998,
+      "acceleration_max_direction_raw_basis": [
+        0.6205896557914429,
+        0.6147569221837217,
+        0.4409431235001,
+        -0.06791279299355933,
+        -0.09744630578779702,
+        -0.08454498111088839
+      ],
+      "acceleration_max_direction_negative_fisher": -1279.9019386836262,
+      "acceleration_max_direction_curvature": -1272.548126258166,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.8954999960888752,
+          "acceleration": 2.04711517573354,
+          "curvature": 0.15161517964466475,
+          "mass_second": 1.015936527034392,
+          "literal_layer_entropy_second": -0.8643213473897273
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.6084918634970444,
+          "acceleration": -2.3161651733886615,
+          "curvature": -2.924657036885706,
+          "mass_second": -1.2378624178311413,
+          "literal_layer_entropy_second": -1.6867946190545648
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -24.484690491273412,
+          "acceleration": -1.0950030548879026,
+          "curvature": -25.57969354616132,
+          "mass_second": -0.5720847454408906,
+          "literal_layer_entropy_second": -25.007608800720426
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1252.9132563327667,
+          "acceleration": 8.717865478003008,
+          "curvature": -1244.1953908547637,
+          "mass_second": 0.7940106362376411,
+          "literal_layer_entropy_second": -1244.9894014910012
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "frame": 4,
+      "spectrum": "two_zero",
+      "lambda_max": -5.283508229938687,
+      "top_acceleration": 0.10496273168473153,
+      "top_negative_fisher": -5.38847096894168,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -3.130616710724317e-05,
+        "acceleration": 0.0002709979397483904,
+        "curvature": 0.00023969177264114724,
+        "mass_second": 1.6079896792959845e-05,
+        "literal_layer_entropy_second": 0.0002236118758481874
+      },
+      "acceleration_max": 11.125070856532565,
+      "acceleration_max_direction_raw_basis": [
+        -0.5761987173196627,
+        -0.615948304909995,
+        -0.5292938699711701,
+        -0.061935252897901895,
+        -0.019670776265380798,
+        -0.0015641399876156088
+      ],
+      "acceleration_max_direction_negative_fisher": -1074.8809119650646,
+      "acceleration_max_direction_curvature": -1063.755841108532,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.420943429819443,
+          "acceleration": 2.1368902964102907,
+          "curvature": -1.2840531334091523,
+          "mass_second": 1.5402178197993477,
+          "literal_layer_entropy_second": -2.8242709532085
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.051621447721168445,
+          "acceleration": -4.183823084030234,
+          "curvature": -4.235444531751401,
+          "mass_second": -2.657294714056861,
+          "literal_layer_entropy_second": -1.5781498176945405
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1068.7293415629083,
+          "acceleration": 6.040719126501278,
+          "curvature": -1062.688622436407,
+          "mass_second": 0.6939359687156792,
+          "literal_layer_entropy_second": -1063.3825584051228
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.6790055246156412,
+          "acceleration": 7.13128451765123,
+          "curvature": 4.452278993035589,
+          "mass_second": 0.42314092554183436,
+          "literal_layer_entropy_second": 4.029138067493754
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "frame": 4,
+      "spectrum": "one_one",
+      "lambda_max": -1.0310540781029718,
+      "top_acceleration": -0.3763799734839334,
+      "top_negative_fisher": -0.654674105308078,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.11070384721605195,
+        "acceleration": -2.4325574692911838,
+        "curvature": -2.5432613165072357,
+        "mass_second": -0.9878649963605173,
+        "literal_layer_entropy_second": -1.5553963201467185
+      },
+      "acceleration_max": 7.160915916612229,
+      "acceleration_max_direction_raw_basis": [
+        0.44896455276231445,
+        0.6665033123093517,
+        0.5860115550507748,
+        0.05861191609521032,
+        -0.000676512405563809,
+        0.044288788851113085
+      ],
+      "acceleration_max_direction_negative_fisher": -1296.653944816757,
+      "acceleration_max_direction_curvature": -1289.493028900145,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1281.658532866441,
+          "acceleration": 8.17958913749736,
+          "curvature": -1273.4789437289437,
+          "mass_second": 0.7766344868944489,
+          "literal_layer_entropy_second": -1274.255578215838
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -12.375405938665992,
+          "acceleration": -0.9895481787132843,
+          "curvature": -13.364954117379275,
+          "mass_second": -0.4348712435831487,
+          "literal_layer_entropy_second": -12.930082873796126
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.4383501615003163,
+          "acceleration": -2.7831114292524566,
+          "curvature": -3.221461590752773,
+          "mass_second": -1.4601609735170493,
+          "literal_layer_entropy_second": -1.7613006172357237
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.1816558501494896,
+          "acceleration": 2.753986387080611,
+          "curvature": 0.5723305369311207,
+          "mass_second": 1.118397730205749,
+          "literal_layer_entropy_second": -0.5460671932746284
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "frame": 4,
+      "spectrum": "two_one",
+      "lambda_max": -5.294053552095268,
+      "top_acceleration": 0.08080622048416543,
+      "top_negative_fisher": -5.374859772778986,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.008859937633524,
+        "acceleration": 0.024559569192683112,
+        "curvature": -3.9843003684408407,
+        "mass_second": 0.013385194028176397,
+        "literal_layer_entropy_second": -3.9976855624690173
+      },
+      "acceleration_max": 10.565110870167322,
+      "acceleration_max_direction_raw_basis": [
+        -0.494110032770376,
+        -0.5914024660439188,
+        -0.6268514082416029,
+        0.011948015122907864,
+        -0.07632104655617168,
+        0.02470218849348754
+      ],
+      "acceleration_max_direction_negative_fisher": -1557.9727605366227,
+      "acceleration_max_direction_curvature": -1547.4076496664552,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.8791982824701186,
+          "acceleration": 6.623886233715647,
+          "curvature": 3.744687951245529,
+          "mass_second": 0.4037532596984868,
+          "literal_layer_entropy_second": 3.340934691547042
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1551.4592906826815,
+          "acceleration": 6.285571092777546,
+          "curvature": -1545.1737195899036,
+          "mass_second": 0.7209303710922789,
+          "literal_layer_entropy_second": -1545.894649960996
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.1798389974393809,
+          "acceleration": -5.14876987294588,
+          "curvature": -5.328608870385261,
+          "mass_second": -2.6531205212800173,
+          "literal_layer_entropy_second": -2.6754883491052435
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.454432574031959,
+          "acceleration": 2.804423416620011,
+          "curvature": -0.6500091574119481,
+          "mass_second": 1.5284368904892525,
+          "literal_layer_entropy_second": -2.1784460479012004
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "frame": 4,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.977661513783111,
+      "top_acceleration": 0.030969622957546416,
+      "top_negative_fisher": -4.008631135620217,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.005842473779136711,
+        "acceleration": 0.009394430103086687,
+        "curvature": 0.0035519563239499764,
+        "mass_second": 0.0009075846376732807,
+        "literal_layer_entropy_second": 0.0026443716862766956
+      },
+      "acceleration_max": 15.4036918183665,
+      "acceleration_max_direction_raw_basis": [
+        -0.6160523504128538,
+        -0.4942466299616181,
+        -0.6114309418815462,
+        -0.00883109937702256,
+        -0.0032192432919657963,
+        -0.03297931128047033
+      ],
+      "acceleration_max_direction_negative_fisher": -3784.205799040867,
+      "acceleration_max_direction_curvature": -3768.8021072225006,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1858.3525043541347,
+          "acceleration": 9.685167070276805,
+          "curvature": -1848.667337283858,
+          "mass_second": 0.9779453166854225,
+          "literal_layer_entropy_second": -1849.6452826005434
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -7.553802347421587,
+          "acceleration": -2.172241811987302,
+          "curvature": -9.72604415940889,
+          "mass_second": -0.9694820248645541,
+          "literal_layer_entropy_second": -8.756562134544335
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -4.209889961553426,
+          "acceleration": -2.3195723339923533,
+          "curvature": -6.5294622955457795,
+          "mass_second": -0.9948719003271591,
+          "literal_layer_entropy_second": -5.534590395218621
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1914.0896023777573,
+          "acceleration": 10.210338894069364,
+          "curvature": -1903.8792634836882,
+          "mass_second": 0.986408608506291,
+          "literal_layer_entropy_second": -1904.8656720921945
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "frame": 4,
+      "spectrum": "split_low",
+      "lambda_max": -11.755639710634128,
+      "top_acceleration": -9.732865574336381,
+      "top_negative_fisher": -2.0227741521931035,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -4.552311116596761e-07,
+        "acceleration": -0.001975409692355669,
+        "curvature": -0.0019758649234673286,
+        "mass_second": -0.00013848969455742847,
+        "literal_layer_entropy_second": -0.0018373752289099002
+      },
+      "acceleration_max": 16.860559986852525,
+      "acceleration_max_direction_raw_basis": [
+        0.46186281431297405,
+        0.6584719618158862,
+        0.5835763554204828,
+        -0.06271165676614575,
+        0.0062832633899888735,
+        0.04791446057829761
+      ],
+      "acceleration_max_direction_negative_fisher": -2204.5221311954783,
+      "acceleration_max_direction_curvature": -2187.6615712086254,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -473.7916536268982,
+          "acceleration": 9.618700207024297,
+          "curvature": -464.1729534198739,
+          "mass_second": 1.3904063940167433,
+          "literal_layer_entropy_second": -465.56335981389066
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.11386037719404231,
+          "acceleration": -2.956150123570856,
+          "curvature": -3.070010500764898,
+          "mass_second": -2.2679060378324687,
+          "literal_layer_entropy_second": -0.8021044629324297
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1697.8569796187946,
+          "acceleration": 2.881935094658794,
+          "curvature": -1694.975044524136,
+          "mass_second": 0.3645928936147062,
+          "literal_layer_entropy_second": -1695.3396374177507
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -32.759637572590634,
+          "acceleration": 7.316074808740292,
+          "curvature": -25.443562763850345,
+          "mass_second": 0.5129067502010186,
+          "literal_layer_entropy_second": -25.956469514051363
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "frame": 4,
+      "spectrum": "split_high",
+      "lambda_max": -11.660239667344499,
+      "top_acceleration": -9.636495859199634,
+      "top_negative_fisher": -2.023743807883015,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -9.304347225079089e-08,
+        "acceleration": -7.356432034639436,
+        "curvature": -7.3564321276829086,
+        "mass_second": -0.9987903158327134,
+        "literal_layer_entropy_second": -6.357641811850195
+      },
+      "acceleration_max": 16.32752651557776,
+      "acceleration_max_direction_raw_basis": [
+        -0.5852331609808483,
+        -0.6404786217476008,
+        -0.4911599269456022,
+        -0.05495241126891159,
+        0.00241231734908527,
+        -0.00013224395788105287
+      ],
+      "acceleration_max_direction_negative_fisher": -713.4118426969513,
+      "acceleration_max_direction_curvature": -697.0843161813737,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -30.346831073165834,
+          "acceleration": 7.606755981600006,
+          "curvature": -22.740075091565828,
+          "mass_second": 0.5505554875253095,
+          "literal_layer_entropy_second": -23.290630579091136
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -233.9168692534884,
+          "acceleration": 1.8451748376691484,
+          "curvature": -232.07169441581925,
+          "mass_second": 0.29598200490317095,
+          "literal_layer_entropy_second": -232.36767642072243
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.1467039046480261,
+          "acceleration": -3.4144715882677916,
+          "curvature": -3.5611754929158175,
+          "mass_second": -2.243630472382271,
+          "literal_layer_entropy_second": -1.3175450205335464
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -449.0014384656491,
+          "acceleration": 10.290067284576399,
+          "curvature": -438.7113711810726,
+          "mass_second": 1.3970929799537903,
+          "literal_layer_entropy_second": -440.1084641610264
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "frame": 4,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.02262381980548226,
+      "top_acceleration": -0.007996097389373891,
+      "top_negative_fisher": -0.014627722429937677,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -2.8898226537460154e-05,
+        "acceleration": -1.2706600462134836,
+        "curvature": -1.2706889444400211,
+        "mass_second": -0.5027781510088675,
+        "literal_layer_entropy_second": -0.7679107934311536
+      },
+      "acceleration_max": 0.07959627951300946,
+      "acceleration_max_direction_raw_basis": [
+        -0.6907525625272688,
+        -0.6905519342092137,
+        -0.16556704424554392,
+        0.006460314409196658,
+        0.06578381454767158,
+        0.07017116766986016
+      ],
+      "acceleration_max_direction_negative_fisher": -3.9326083587784537,
+      "acceleration_max_direction_curvature": -3.853012079265444,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.1856864442627557,
+          "acceleration": 1.4381492915571576,
+          "curvature": 0.25246284729440194,
+          "mass_second": 0.6914705795630942,
+          "literal_layer_entropy_second": -0.4390077322686923
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.7791832147149415,
+          "acceleration": -1.6037418190896222,
+          "curvature": -2.3829250338045638,
+          "mass_second": -0.681600174389174,
+          "literal_layer_entropy_second": -1.7013248594153896
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.7602969847301396,
+          "acceleration": -1.527294675558423,
+          "curvature": -2.2875916602885624,
+          "mass_second": -0.7112113899109352,
+          "literal_layer_entropy_second": -1.5763802703776273
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.2074417150706165,
+          "acceleration": 1.7724834826038964,
+          "curvature": 0.56504176753328,
+          "mass_second": 0.7013409847370147,
+          "literal_layer_entropy_second": -0.13629921720373472
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "frame": 5,
+      "spectrum": "isotropic",
+      "lambda_max": -0.33596151188577184,
+      "top_acceleration": -0.0994016650955137,
+      "top_negative_fisher": -0.236559846690268,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.064,
+        "negative_fisher": -8.060931715684e-05,
+        "acceleration": -1.5957539366315565,
+        "curvature": -1.5958345459487133,
+        "mass_second": -0.3999193905637926,
+        "literal_layer_entropy_second": -1.1959151553849208
+      },
+      "acceleration_max": 0.30906746196691237,
+      "acceleration_max_direction_raw_basis": [
+        -0.5472789593090579,
+        -0.5807501199614511,
+        -0.5807501199614511,
+        -0.06174351599601887,
+        -0.06174351599601886,
+        0.07312759382378287
+      ],
+      "acceleration_max_direction_negative_fisher": -4.120003276791839,
+      "acceleration_max_direction_curvature": -3.8109358148249273,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.7519558110366904,
+          "acceleration": 1.7653456371710265,
+          "curvature": 0.013389826134336147,
+          "mass_second": 1.1519558110366912,
+          "literal_layer_entropy_second": -1.138565984902355
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.13861407286908928,
+          "acceleration": -3.4382936914566242,
+          "curvature": -3.5769077643257132,
+          "mass_second": -1.535941081382255,
+          "literal_layer_entropy_second": -2.0409666829434583
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.061462852194931,
+          "acceleration": -1.082332055885153,
+          "curvature": -2.1437949080800838,
+          "mass_second": -0.38398527034556373,
+          "literal_layer_entropy_second": -1.7598096377345203
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.1679705406911278,
+          "acceleration": 3.064347572137663,
+          "curvature": 1.8963770314465354,
+          "mass_second": 0.7679705406911275,
+          "literal_layer_entropy_second": 1.1284064907554079
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "frame": 5,
+      "spectrum": "moderate",
+      "lambda_max": -1.3207922203674736,
+      "top_acceleration": -0.45233781104671583,
+      "top_negative_fisher": -0.8684544084433407,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.0546875,
+        "negative_fisher": -0.009476319218492681,
+        "acceleration": -2.498624510562381,
+        "curvature": -2.508100829780874,
+        "mass_second": -0.6024502805094615,
+        "literal_layer_entropy_second": -1.9056505492714124
+      },
+      "acceleration_max": 1.6919600096867848,
+      "acceleration_max_direction_raw_basis": [
+        0.6416824983666088,
+        0.5598561479809989,
+        0.5153274938401977,
+        0.01973168311775576,
+        -0.030491774492631782,
+        0.05746330868261882
+      ],
+      "acceleration_max_direction_negative_fisher": -7.087082599512522,
+      "acceleration_max_direction_curvature": -5.395122589825737,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.3060183013740527,
+          "acceleration": 2.809678485369879,
+          "curvature": 0.5036601839958261,
+          "mass_second": 0.9668143002757723,
+          "literal_layer_entropy_second": -0.4631541162799462
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.12617860314375,
+          "acceleration": -2.2574072685526287,
+          "curvature": -3.3835858716963783,
+          "mass_second": -0.9528135575039436,
+          "literal_layer_entropy_second": -2.430772314192435
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1.2968061863466949,
+          "acceleration": -2.9281796871892856,
+          "curvature": -4.224985873535981,
+          "mass_second": -0.9948157858194296,
+          "literal_layer_entropy_second": -3.2301700877165507
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.358079508648025,
+          "acceleration": 4.06786848005882,
+          "curvature": 1.7097889714107952,
+          "mass_second": 0.9808150430476009,
+          "literal_layer_entropy_second": 0.7289739283631943
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "frame": 5,
+      "spectrum": "sparse",
+      "lambda_max": -7.865593292768565,
+      "top_acceleration": -1.4096543397052124,
+      "top_negative_fisher": -6.455938954110168,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 1e-08,
+        "negative_fisher": -0.00347250739806567,
+        "acceleration": 0.025521465044456362,
+        "curvature": 0.022048957646390695,
+        "mass_second": 0.0012980097792821674,
+        "literal_layer_entropy_second": 0.02075094786710853
+      },
+      "acceleration_max": 4.407189130482835,
+      "acceleration_max_direction_raw_basis": [
+        0.4825455933992121,
+        0.617068002581461,
+        0.6126503465043218,
+        0.05104946235035585,
+        0.047494485178531616,
+        -0.025620655260880826
+      ],
+      "acceleration_max_direction_negative_fisher": -214.7105478558128,
+      "acceleration_max_direction_curvature": -210.30335872532993,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -2.886858289625428,
+          "acceleration": 0.10146433688111206,
+          "curvature": -2.785393952744316,
+          "mass_second": 1.9002483920746318,
+          "literal_layer_entropy_second": -4.685642344818948
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -99.95665890004716,
+          "acceleration": -17.620198403797147,
+          "curvature": -117.5768573038443,
+          "mass_second": -3.768897367489637,
+          "literal_layer_entropy_second": -113.80795993635465
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -111.43207131832953,
+          "acceleration": 21.30461554581101,
+          "curvature": -90.12745577251853,
+          "mass_second": 1.8370495587553786,
+          "literal_layer_entropy_second": -91.9645053312739
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -0.43495934781066914,
+          "acceleration": 0.621307651587854,
+          "curvature": 0.18634830377718475,
+          "mass_second": 0.03159941665962659,
+          "literal_layer_entropy_second": 0.1547488871175582
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "frame": 5,
+      "spectrum": "dense",
+      "lambda_max": -16.44895240873534,
+      "top_acceleration": -1.2030859392382782,
+      "top_negative_fisher": -15.245866474724014,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.94800519,
+        "negative_fisher": -0.16958856656810742,
+        "acceleration": -1.0876521159726278,
+        "curvature": -1.2572406825407354,
+        "mass_second": -0.8400725884848657,
+        "literal_layer_entropy_second": -0.41716809405586974
+      },
+      "acceleration_max": 3.339559069230838,
+      "acceleration_max_direction_raw_basis": [
+        -0.5978765582912668,
+        -0.6008339385403281,
+        -0.5288771303285189,
+        0.010496711085544237,
+        0.019177232175577572,
+        -0.0209199187894999
+      ],
+      "acceleration_max_direction_negative_fisher": -452.74539671132345,
+      "acceleration_max_direction_curvature": -449.40583764209254,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -0.3987985338643999,
+          "acceleration": 0.6691286899504926,
+          "curvature": 0.2703301560860927,
+          "mass_second": 0.03632486221608135,
+          "literal_layer_entropy_second": 0.23400529387001134
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -58.48822715318096,
+          "acceleration": 21.559767829439018,
+          "curvature": -36.92845932374194,
+          "mass_second": 1.8755844228684686,
+          "literal_layer_entropy_second": -38.80404374661041
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -390.93019493068357,
+          "acceleration": -21.411739706543965,
+          "curvature": -412.34193463722755,
+          "mass_second": -3.8601434323851813,
+          "literal_layer_entropy_second": -408.4817912048424
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.9281760935943373,
+          "acceleration": 2.5224022563852944,
+          "curvature": -0.40577383720904275,
+          "mass_second": 1.9482341473006317,
+          "literal_layer_entropy_second": -2.3540079845096744
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "frame": 5,
+      "spectrum": "one_zero",
+      "lambda_max": -2.36700033661257,
+      "top_acceleration": -0.9212285604468508,
+      "top_negative_fisher": -1.445771775218393,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 2.6666666666666667e-05,
+        "negative_fisher": -6.845271631265742e-05,
+        "acceleration": -1.8477210261111312,
+        "curvature": -1.8477894788274438,
+        "mass_second": -0.15694013537244333,
+        "literal_layer_entropy_second": -1.6908493434550005
+      },
+      "acceleration_max": 7.242013822123643,
+      "acceleration_max_direction_raw_basis": [
+        -0.6918585822520359,
+        -0.45051323653699554,
+        -0.47203266117333115,
+        -0.008785893909124492,
+        0.003066242296973031,
+        -0.2183821250784664
+      ],
+      "acceleration_max_direction_negative_fisher": -2007.861427740281,
+      "acceleration_max_direction_curvature": -2000.6194139181573,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4773014078732072,
+          "acceleration": 1.644797142970792,
+          "curvature": 0.16749573509758475,
+          "mass_second": 0.8162752721067912,
+          "literal_layer_entropy_second": -0.6487795370092064
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.9461709454121116,
+          "acceleration": -2.1973494914079925,
+          "curvature": -3.143520436820104,
+          "mass_second": -0.8425239913978262,
+          "literal_layer_entropy_second": -2.3009964454222778
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -728.1989865652646,
+          "acceleration": -1.5067426970500974,
+          "curvature": -729.7057292623147,
+          "mass_second": -0.7637778335247213,
+          "literal_layer_entropy_second": -728.9419514287898
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1277.238968821731,
+          "acceleration": 9.301308867610944,
+          "curvature": -1267.9376599541201,
+          "mass_second": 0.7900265528157562,
+          "literal_layer_entropy_second": -1268.7276865069357
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "frame": 5,
+      "spectrum": "two_zero",
+      "lambda_max": -5.297478101813987,
+      "top_acceleration": 0.07244120104287864,
+      "top_negative_fisher": -5.369919298820011,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 7.5e-08,
+        "negative_fisher": -1.4006233415748043e-05,
+        "acceleration": 0.00010808031209545939,
+        "curvature": 9.407407867971134e-05,
+        "mass_second": 6.124538641627241e-06,
+        "literal_layer_entropy_second": 8.79495400380841e-05
+      },
+      "acceleration_max": 9.171238510524901,
+      "acceleration_max_direction_raw_basis": [
+        0.6298087577469035,
+        0.5940765500103657,
+        0.4864794682087014,
+        0.027561592018643145,
+        -0.07815370935878123,
+        0.002865407666017948
+      ],
+      "acceleration_max_direction_negative_fisher": -1317.4491295917355,
+      "acceleration_max_direction_curvature": -1308.2778910812106,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.459179204005571,
+          "acceleration": 2.117009009154523,
+          "curvature": -1.342170194851048,
+          "mass_second": 1.5258878783122607,
+          "literal_layer_entropy_second": -2.8680580731633087
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -4.186601790988322,
+          "acceleration": -6.580565358285694,
+          "curvature": -10.767167149274016,
+          "mass_second": -2.6523159680716586,
+          "literal_layer_entropy_second": -8.114851181202358
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -1307.1836767438242,
+          "acceleration": 6.5854902274774725,
+          "curvature": -1300.598186516347,
+          "mass_second": 0.7269683012065339,
+          "literal_layer_entropy_second": -1301.3251548175533
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.6196718529174703,
+          "acceleration": 7.049304632178597,
+          "curvature": 4.4296327792611265,
+          "mass_second": 0.39945978855286374,
+          "literal_layer_entropy_second": 4.030172990708262
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "frame": 5,
+      "spectrum": "one_one",
+      "lambda_max": -3.0672558051803023,
+      "top_acceleration": -0.8551842029796192,
+      "top_negative_fisher": -2.2120716012439963,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.13332,
+        "negative_fisher": -0.13800943963993167,
+        "acceleration": -2.803897568072848,
+        "curvature": -2.9419070077127794,
+        "mass_second": -0.8610633322312786,
+        "literal_layer_entropy_second": -2.0808436754815007
+      },
+      "acceleration_max": 5.536249607879152,
+      "acceleration_max_direction_raw_basis": [
+        -0.4792372032661027,
+        -0.6336925709283002,
+        -0.5951517565741299,
+        -0.07659390921479879,
+        -0.03584608550516763,
+        -0.011328672759797324
+      ],
+      "acceleration_max_direction_negative_fisher": -1298.680224106529,
+      "acceleration_max_direction_curvature": -1293.1439744986496,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1206.7950932076537,
+          "acceleration": 8.156767439890839,
+          "curvature": -1198.6383257677628,
+          "mass_second": 0.774467615537861,
+          "literal_layer_entropy_second": -1199.4127933833006
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -83.15858689443142,
+          "acceleration": -1.249486540548294,
+          "curvature": -84.40807343497971,
+          "mass_second": -0.4058603308610095,
+          "literal_layer_entropy_second": -84.0022131041187
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -6.463357081401433,
+          "acceleration": -5.093248709004369,
+          "curvature": -11.556605790405804,
+          "mass_second": -1.5116821848915634,
+          "literal_layer_entropy_second": -10.04492360551424
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -2.26318692304277,
+          "acceleration": 3.7222174175409837,
+          "curvature": 1.4590304944982142,
+          "mass_second": 1.143074900214712,
+          "literal_layer_entropy_second": 0.31595559428350206
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "frame": 5,
+      "spectrum": "two_one",
+      "lambda_max": -5.296886476282446,
+      "top_acceleration": 0.07417980789960253,
+      "top_negative_fisher": -5.371066286971106,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.249725025,
+        "negative_fisher": -4.008160519794208,
+        "acceleration": 0.0333022742597179,
+        "curvature": -3.97485824553449,
+        "mass_second": 0.01266866775515501,
+        "literal_layer_entropy_second": -3.9875269132896447
+      },
+      "acceleration_max": 10.526238265401172,
+      "acceleration_max_direction_raw_basis": [
+        -0.6737370464798812,
+        -0.5159886337192736,
+        -0.5178064426798964,
+        0.015047632157051103,
+        -0.017487803375658174,
+        -0.07295923859044658
+      ],
+      "acceleration_max_direction_negative_fisher": -1918.0190071480044,
+      "acceleration_max_direction_curvature": -1907.492768882603,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -3.0026138748606623,
+          "acceleration": 6.4528186862365065,
+          "curvature": 3.450204811375844,
+          "mass_second": 0.3933259852124356,
+          "literal_layer_entropy_second": 3.0568788261634086
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1911.1861569726748,
+          "acceleration": 6.6907286529920835,
+          "curvature": -1904.4954283196828,
+          "mass_second": 0.7356879950265323,
+          "literal_layer_entropy_second": -1905.2311163147092
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.3551902367819831,
+          "acceleration": -6.619101845238826,
+          "curvature": -6.974292082020808,
+          "mass_second": -2.651353945690371,
+          "literal_layer_entropy_second": -4.322938136330436
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -3.4750460636869263,
+          "acceleration": 4.00179277141141,
+          "curvature": 0.5267467077244841,
+          "mass_second": 1.5223399654514043,
+          "literal_layer_entropy_second": -0.99559325772692
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "frame": 5,
+      "spectrum": "split_extreme",
+      "lambda_max": -3.988260372054488,
+      "top_acceleration": 0.028193471004667854,
+      "top_negative_fisher": -4.016453843154128,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 4.9995e-05,
+        "negative_fisher": -0.005481578260545811,
+        "acceleration": 0.018853338340409465,
+        "curvature": 0.013371760079863654,
+        "mass_second": 0.001691655468535013,
+        "literal_layer_entropy_second": 0.01168010461132864
+      },
+      "acceleration_max": 14.97332560909106,
+      "acceleration_max_direction_raw_basis": [
+        0.5655777460263629,
+        0.5683708701364902,
+        0.5964404951702458,
+        0.014320485515361782,
+        -0.02130935035163874,
+        -0.0028959856258257873
+      ],
+      "acceleration_max_direction_negative_fisher": -3503.9966770111755,
+      "acceleration_max_direction_curvature": -3489.0233514020847,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1842.3470727321917,
+          "acceleration": 10.05925064402135,
+          "curvature": -1832.2878220881703,
+          "mass_second": 1.015717848262616,
+          "literal_layer_entropy_second": -1833.3035399364328
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -1.7003928283568577,
+          "acceleration": -2.5496486569372845,
+          "curvature": -4.250041485294142,
+          "mass_second": -1.052907068167696,
+          "literal_layer_entropy_second": -3.197134417126447
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -18.38531375381339,
+          "acceleration": -3.441884316102297,
+          "curvature": -21.82719806991569,
+          "mass_second": -0.9413394084524571,
+          "literal_layer_entropy_second": -20.885858661463228
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1641.5638976968146,
+          "acceleration": 10.905607938109288,
+          "curvature": -1630.6582897587052,
+          "mass_second": 0.9785286283575363,
+          "literal_layer_entropy_second": -1631.6368183870627
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "frame": 5,
+      "spectrum": "split_low",
+      "lambda_max": -10.6520394974901,
+      "top_acceleration": -8.630620784788894,
+      "top_negative_fisher": -2.021418706283539,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 9.99e-07,
+        "negative_fisher": -0.0001737162729943101,
+        "acceleration": -0.007362003527514059,
+        "curvature": -0.007535719800508369,
+        "mass_second": -0.0004889153744354735,
+        "literal_layer_entropy_second": -0.007046804426072896
+      },
+      "acceleration_max": 14.910822416386882,
+      "acceleration_max_direction_raw_basis": [
+        0.6358380904228387,
+        0.5414752142044991,
+        0.5389184281823971,
+        -0.03262354648043439,
+        -0.04464141875497105,
+        0.054622059775376125
+      ],
+      "acceleration_max_direction_negative_fisher": -820.1164197763745,
+      "acceleration_max_direction_curvature": -805.2055973599877,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -450.641807975673,
+          "acceleration": 9.66851236256749,
+          "curvature": -440.9732956131055,
+          "mass_second": 1.397606861655441,
+          "literal_layer_entropy_second": -442.37090247476095
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.1431348500179467,
+          "acceleration": -5.0314678880782955,
+          "curvature": -5.174602738096242,
+          "mass_second": -2.247369224263219,
+          "literal_layer_entropy_second": -2.9272335138330234
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -338.026101863067,
+          "acceleration": 2.0244298023039184,
+          "curvature": -336.0016720607631,
+          "mass_second": 0.3019178635601146,
+          "literal_layer_entropy_second": -336.3035899243231
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -31.30537508761665,
+          "acceleration": 8.24934813959378,
+          "curvature": -23.056026948022872,
+          "mass_second": 0.5478444990476633,
+          "literal_layer_entropy_second": -23.60387144707053
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "frame": 5,
+      "spectrum": "split_high",
+      "lambda_max": -10.567670078902019,
+      "top_acceleration": -8.551079494579776,
+      "top_negative_fisher": -2.0165905803206665,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.000989901,
+        "negative_fisher": -6.064252307706291e-07,
+        "acceleration": -8.139236989837647,
+        "curvature": -8.139237596262877,
+        "mass_second": -0.9975505762409151,
+        "literal_layer_entropy_second": -7.141687020021962
+      },
+      "acceleration_max": 15.69250770523448,
+      "acceleration_max_direction_raw_basis": [
+        -0.503533680888254,
+        -0.6469763869380863,
+        -0.5648180387293689,
+        -0.06118874633672809,
+        -0.025688528754400215,
+        0.0049012093365681875
+      ],
+      "acceleration_max_direction_negative_fisher": -660.7919265469781,
+      "acceleration_max_direction_curvature": -645.0994188417436,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -30.658119930996392,
+          "acceleration": 7.582081567209444,
+          "curvature": -23.07603836378695,
+          "mass_second": 0.548769623186154,
+          "literal_layer_entropy_second": -23.624807986973103
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -184.68573257704637,
+          "acceleration": 1.8215442590813589,
+          "curvature": -182.86418831796502,
+          "mass_second": 0.29604164358153306,
+          "literal_layer_entropy_second": -183.16022996154655
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.14805404716019688,
+          "acceleration": -5.081654510886287,
+          "curvature": -5.229708558046484,
+          "mass_second": -2.238392156721529,
+          "literal_layer_entropy_second": -2.991316401324956
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -445.30001999177523,
+          "acceleration": 11.370536389829965,
+          "curvature": -433.92948360194526,
+          "mass_second": 1.393580889953842,
+          "literal_layer_entropy_second": -435.3230644918991
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "frame": 5,
+      "spectrum": "cluster_mid",
+      "lambda_max": -0.3814105548561459,
+      "top_acceleration": -0.10701821690886162,
+      "top_negative_fisher": -0.2743923377125031,
+      "top_triple": {
+        "cardinality": 3,
+        "mass": 0.12495,
+        "negative_fisher": -5.688671742548792e-05,
+        "acceleration": -1.6317169918895433,
+        "curvature": -1.6317738786069689,
+        "mass_second": -0.4913095982794102,
+        "literal_layer_entropy_second": -1.1404642803275586
+      },
+      "acceleration_max": 0.33242012038238844,
+      "acceleration_max_direction_raw_basis": [
+        -0.5481109291589925,
+        -0.5886293301349808,
+        -0.5774540931461318,
+        -0.051199633816984835,
+        -0.053483969550169805,
+        0.06585140980425114
+      ],
+      "acceleration_max_direction_negative_fisher": -3.967314279133283,
+      "acceleration_max_direction_curvature": -3.6348941587508943,
+      "acceleration_max_direction_layers": [
+        {
+          "cardinality": 0,
+          "negative_fisher": -1.4655614959522085,
+          "acceleration": 2.0130527066182045,
+          "curvature": 0.5474912106659959,
+          "mass_second": 0.9678874995162651,
+          "literal_layer_entropy_second": -0.42039628885026914
+        },
+        {
+          "cardinality": 1,
+          "negative_fisher": -0.5176222350018985,
+          "acceleration": -2.3135293912393076,
+          "curvature": -2.831151626241206,
+          "mass_second": -0.965200220611244,
+          "literal_layer_entropy_second": -1.865951405629962
+        },
+        {
+          "cardinality": 2,
+          "negative_fisher": -0.510846141753015,
+          "acceleration": -2.5905357584873223,
+          "curvature": -3.1013819002403373,
+          "mass_second": -0.9732620573263072,
+          "literal_layer_entropy_second": -2.12811984291403
+        },
+        {
+          "cardinality": 3,
+          "negative_fisher": -1.4732844064261603,
+          "acceleration": 3.2234325634908134,
+          "curvature": 1.7501481570646533,
+          "mass_second": 0.9705747784212861,
+          "literal_layer_entropy_second": 0.7795733786433672
+        }
+      ]
+    }
+  ]
+}

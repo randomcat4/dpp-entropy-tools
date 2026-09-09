@@ -1,6 +1,11 @@
 # N4: connected real kernels in dimensions four and higher
 
 Status: `STOPPED_SUBSTANTIVE`; the global question is `INCOMPLETE`.
+Latest checkpoint: [round two](round2/checkpoint.md), with
+[results](round2/README.md) and [verdict](round2/verdict.md). It adds 108
+fixed-face centers and 396 chords, scoped reviewed support/lift and geometric
+budget results, and an explicit five-point compensation diagnosis. No positive
+candidate or unrestricted theorem was found. The first-round record follows.
 Baseline: `fa504ec74e16843fafc395880d7ba99b4c1d2129`.
 Coordination: public issue #21; this route owns only `research/N4/`.
 
