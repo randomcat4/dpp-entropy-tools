@@ -196,7 +196,7 @@ R_{\rm add}
 {\sum c_{ST}^2/P_s(S,T)}. \tag{3.3}
 \]
 
-Using outward rational logarithm intervals, the checker proves
+The retained independent rational logarithm enclosures in PR76 support the following revised bounds:
 
 \[
 R_{\rm add}>192.45644754663817, \tag{3.4}
@@ -205,7 +205,7 @@ R_{\rm add}>192.45644754663817, \tag{3.4}
 whereas (1.4) could only be positive if
 
 \[
-R_{\rm add}<\frac{4(P+A_2)^2}{A_2}<166.44125195305153. \tag{3.5}
+R_{\rm add}<\frac{4(P+A_2)^2}{A_2}<166.441251953051541. \tag{3.5}
 \]
 
 Therefore the **joint-additive compensation criterion fails strictly** at this legal point.
@@ -213,7 +213,7 @@ Therefore the **joint-additive compensation criterion fails strictly** at this l
 However the same complete-law calculation gives
 
 \[
-W(9/10)<-2.253552138695407, \tag{3.6}
+W(9/10)<0, \tag{3.6}
 \]
 
 and nevertheless
@@ -228,7 +228,7 @@ Thus `H''(t)<0` there. This is a strict separation:
 - the stronger joint-additive projection criterion is also not necessary;
 - neither failure is an entropy-concavity counterexample, because the retained positive terms compensate them.
 
-All inequalities above are certified with rational arithmetic and rational atanh logarithm remainders; no floating sign is promoted to a theorem.
+The original PR76 run stopped at the first false literal upper bound in (3.5): its retained outward interval for the threshold is `[166.441251953051540106785812,166.441251953051540106785813]`, so the coarser strict bound above is supported. Its field labelled `W` followed the original request and denotes `V=E_mu[y psi]=s^2 W`, with `V` in `[-1.825377232343279850885156,-1.825377232343279850885155]`. Since `s^2>0`, this supports only the qualitative author-W sign retained in (3.6); the former author-W decimal is withdrawn from this certificate. The direct complete-curvature enclosure is `[4.653598245398841812928176,4.653598245398841812928177]`, supporting (3.7). These are deductions from retained rational enclosures, not a rerun or a new all-literals machine PASS. The original code/output, first-mismatch record, and post-launch request correction remain unchanged in [PR76](https://github.com/randomcat4/dpp-entropy-tools/pull/76).
 
 ## 4. Comparison with the nonreversible / hidden-state route
 
