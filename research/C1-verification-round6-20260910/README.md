@@ -2,8 +2,10 @@
 
 Status: PR62's analytic midpoint theorem and sufficiently small strict
 bit-flip lift are CORRECT / ACCEPTED_SCOPED and READY for C3 SECOND.
-Its finite fixtures retain separate evidence gates. PR66 FIRST is in
-progress. No verdict is inherited from earlier reviews or author checkers.
+Its finite fixtures retain separate evidence gates. PR66 FIRST is complete
+with INCOMPLETE / CRITICAL_GAPS at the load-bearing Dobrushin import;
+its internal chain is accepted conditionally and is not READY. No verdict
+is inherited from earlier reviews or author checkers.
 
 | Unit | Frozen author head | Complete changed packet |
 |---|---|---|
@@ -39,3 +41,12 @@ PR62: [mathematical FIRST](units/pr62/review_report.md),
 The numerical margin uses high-precision evaluations without outward
 enclosures; it is not accepted as a rigorous finite sign certificate.
 See [handoff](HANDOFF.md) and [finite obligations](computation_handoff.md).
+
+PR66: [mathematical FIRST](units/pr66/review_report.md),
+[code-category report](units/pr66/code_review.md), and
+[reviewer scope](units/pr66/frozen_scope.md). The actual full primary
+response theorem could not be established despite bounded source-access
+attempts. Required closure is the theorem/page, exact interaction norm
+and finite-alphabet block coverage, analytic family domain and pressure
+derivative conclusion for lambda U_s. No mathematical counterexample or
+internal defect is inferred from this source-access gap.
