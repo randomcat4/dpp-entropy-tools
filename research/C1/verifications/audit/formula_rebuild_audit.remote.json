@@ -1,0 +1,334 @@
+{
+  "exit_status_if_printed": 0,
+  "non_coverage": [
+    "Bounded deterministic formula audit only.",
+    "No universal proof of beta=0 implies det(N)*alpha<=1.",
+    "No certified beta-zero violation and no entropy chord certificate.",
+    "No Lean or interval global proof."
+  ],
+  "numpy": "2.1.2",
+  "pid": 164000,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "positivity_regime_numeric_record": [
+    {
+      "Lambda": -0.011867898632601587,
+      "N_min_eigenvalue": 0.021036685547731374,
+      "diag_minus_ell": [
+        0.014909046001152776,
+        0.028722736512757994,
+        0.0443922832757151
+      ],
+      "diag_minus_ell_minus_Lambda": [
+        0.026776944633754365,
+        0.040590635145359585,
+        0.05626018190831669
+      ],
+      "name": "generic_connected"
+    },
+    {
+      "Lambda": -6.191825408596815e-05,
+      "N_min_eigenvalue": 0.002114456929180404,
+      "diag_minus_ell": [
+        0.0020834982997693817,
+        0.10670861397042315,
+        0.07923196478901669
+      ],
+      "diag_minus_ell_minus_Lambda": [
+        0.00214541655385535,
+        0.10677053222450912,
+        0.07929388304310266
+      ],
+      "name": "zero_edge_connected"
+    },
+    {
+      "Lambda": 2.0770303069511273,
+      "N_min_eigenvalue": 0.9186781829417365,
+      "diag_minus_ell": [
+        2.10883398018359,
+        2.226419190179812,
+        3.241717763167876
+      ],
+      "diag_minus_ell_minus_Lambda": [
+        0.03180367323246269,
+        0.1493888832286845,
+        1.1646874562167486
+      ],
+      "name": "near_certified_beta_root_midpoint"
+    }
+  ],
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "python_executable": "/opt/venv/bin/python",
+  "samples": [
+    {
+      "B_prob_second_derivative_vs_N_formula_max_abs": 7.771561172376096e-16,
+      "D_M_1_over_alpha": 0.0011538685740889875,
+      "D_M_M_quadratic": 0.0011538685740889875,
+      "D_M_eta": 0.9999999999999999,
+      "D_M_lambda_prime": 0.004588978436549543,
+      "D_M_vscore": 0.0005587010818773845,
+      "Fpair_min_eigenvalue": 0.0825021850491359,
+      "Fpair_score_vs_cov_max_abs": 1.7763568394002505e-15,
+      "J_atoms_vs_direct_max_abs": 1.3877787807814457e-17,
+      "J_det": 0.0006929999999999997,
+      "J_rank": 6,
+      "Lambda": -0.011867898632601587,
+      "M_min_eigenvalue": 0.12459873805112082,
+      "N_min_eigenvalue": 0.021036685547731374,
+      "alpha": 866.649826900372,
+      "analytic_vs_centered_finite_dp_max_abs": 5.4841575725106395e-11,
+      "beta": 0.4841981958980858,
+      "beta_over_alpha": 0.0005587010818773845,
+      "beta_relation_error": 0.0,
+      "connected_graph": true,
+      "coords": {
+        "a": 0.035,
+        "b": -0.045,
+        "c": 0.055,
+        "x": 0.4,
+        "y": 0.45,
+        "z": 0.52
+      },
+      "cov_min_eigenvalue": 0.030353415755274754,
+      "detN": 3.5250794641794284e-05,
+      "detN_alpha": 0.030550095074411577,
+      "ell12_ell13_ell23": [
+        -0.014909046001152776,
+        -0.028722736512757994,
+        -0.0443922832757151
+      ],
+      "ell_plus_Lambda": [
+        -0.026776944633754365,
+        -0.040590635145359585,
+        -0.05626018190831669
+      ],
+      "explicit_vs_mobius_prob_max_abs": 8.326672684688674e-17,
+      "gamma": 0.021308186685410783,
+      "min_atom_probability": 0.0881065,
+      "name": "generic_connected",
+      "offdiag_eta_factor_two_max_abs": 0.0,
+      "rayleigh": {
+        "T2_minus_4uvw": 6.617444900424222e-24,
+        "has_zero_edge": false,
+        "squares": [
+          {
+            "discriminant": -4.235164736271502e-22,
+            "leading_is_zero": false,
+            "pair": "12|3",
+            "quadratic_coefficients": [
+              0.0012250000000000002,
+              0.00144725,
+              0.000427455625
+            ]
+          },
+          {
+            "discriminant": 8.470329472543003e-22,
+            "leading_is_zero": false,
+            "pair": "13|2",
+            "quadratic_coefficients": [
+              0.002025,
+              0.00199575,
+              0.000491730625
+            ]
+          },
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": false,
+            "pair": "23|1",
+            "quadratic_coefficients": [
+              0.003025,
+              0.00259325,
+              0.0005557806250000001
+            ]
+          }
+        ]
+      },
+      "strict_0_less_K_less_I": true,
+      "tilt_Fpair_mixed_identity_max_abs": 5.329070518200751e-15,
+      "tilt_Lambda_prime_max_abs": 9.213896306053354e-16,
+      "tilt_T_diag_residual_max_abs": 3.552713678800501e-15
+    },
+    {
+      "B_prob_second_derivative_vs_N_formula_max_abs": 5.551115123125783e-16,
+      "D_M_1_over_alpha": 3.577115029914775e-05,
+      "D_M_M_quadratic": 3.577115029914775e-05,
+      "D_M_eta": 1.0,
+      "D_M_lambda_prime": 3.582598793961796e-05,
+      "D_M_vscore": 4.362967036798855e-06,
+      "Fpair_min_eigenvalue": 4.3376410845415214e-17,
+      "Fpair_score_vs_cov_max_abs": 8.881784197001252e-16,
+      "J_atoms_vs_direct_max_abs": 5.551115123125783e-17,
+      "J_det": 0.0,
+      "J_rank": 5,
+      "Lambda": -6.191825408596815e-05,
+      "M_min_eigenvalue": 0.004228914527552628,
+      "N_min_eigenvalue": 0.002114456929180404,
+      "alpha": 27955.489036197563,
+      "analytic_vs_centered_finite_dp_max_abs": 3.6947417347832356e-11,
+      "beta": 0.12196887716252178,
+      "beta_over_alpha": 4.362967036798855e-06,
+      "beta_relation_error": 0.0,
+      "connected_graph": true,
+      "coords": {
+        "a": 0.0,
+        "b": 0.08,
+        "c": -0.07,
+        "x": 0.4,
+        "y": 0.45,
+        "z": 0.5
+      },
+      "cov_min_eigenvalue": 0.03039372748656304,
+      "detN": 1.7887426904822707e-05,
+      "detN_alpha": 0.5000517667235566,
+      "ell12_ell13_ell23": [
+        -0.0020834982997693817,
+        -0.10670861397042315,
+        -0.07923196478901669
+      ],
+      "ell_plus_Lambda": [
+        -0.00214541655385535,
+        -0.10677053222450912,
+        -0.07929388304310266
+      ],
+      "explicit_vs_mobius_prob_max_abs": 2.7755575615628914e-17,
+      "gamma": 2.000044759247178,
+      "min_atom_probability": 0.08516000000000001,
+      "name": "zero_edge_connected",
+      "offdiag_eta_factor_two_max_abs": 0.0,
+      "rayleigh": {
+        "T2_minus_4uvw": 0.0,
+        "has_zero_edge": true,
+        "squares": [
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": true,
+            "pair": "12|3",
+            "quadratic_coefficients": [
+              0.0,
+              0.0,
+              3.136000000000001e-05
+            ]
+          },
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": false,
+            "pair": "13|2",
+            "quadratic_coefficients": [
+              0.0064,
+              0.00576,
+              0.0012960000000000003
+            ]
+          },
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": false,
+            "pair": "23|1",
+            "quadratic_coefficients": [
+              0.004900000000000001,
+              0.003920000000000001,
+              0.0007840000000000002
+            ]
+          }
+        ]
+      },
+      "strict_0_less_K_less_I": true,
+      "tilt_Fpair_mixed_identity_max_abs": 2.842170943040401e-14,
+      "tilt_Lambda_prime_max_abs": 1.3542995677175006e-15,
+      "tilt_T_diag_residual_max_abs": 8.43769498715119e-15
+    },
+    {
+      "B_prob_second_derivative_vs_N_formula_max_abs": 8.881784197001252e-16,
+      "D_M_1_over_alpha": 9.553647246285092,
+      "D_M_M_quadratic": 9.553647246285092,
+      "D_M_eta": 0.9999999999999999,
+      "D_M_lambda_prime": -1.473383621030761e-13,
+      "D_M_vscore": -1.3373641177669304e-15,
+      "Fpair_min_eigenvalue": 3.46707381519445,
+      "Fpair_score_vs_cov_max_abs": 7.105427357601002e-15,
+      "J_atoms_vs_direct_max_abs": 4.163336342344337e-17,
+      "J_det": -0.022567996912642115,
+      "J_rank": 6,
+      "Lambda": 2.0770303069511273,
+      "M_min_eigenvalue": 7.027593556875008,
+      "N_min_eigenvalue": 0.9186781829417365,
+      "alpha": 0.1046720665124879,
+      "analytic_vs_centered_finite_dp_max_abs": 2.306627111536841e-11,
+      "beta": -1.407163776308438e-16,
+      "beta_over_alpha": -1.344354633660124e-15,
+      "beta_relation_error": 6.990515893193723e-18,
+      "connected_graph": true,
+      "coords": {
+        "a": 0.08571428571428572,
+        "b": 0.12857142857142856,
+        "c": 0.25597959461098707,
+        "x": 0.05487992714867253,
+        "y": 0.18286972445416605,
+        "z": 0.39618605329665524
+      },
+      "cov_min_eigenvalue": 0.0024793781214137354,
+      "detN": 6.320004448467756,
+      "detN_alpha": 0.6615279259892364,
+      "ell12_ell13_ell23": [
+        -2.10883398018359,
+        -2.226419190179812,
+        -3.241717763167876
+      ],
+      "ell_plus_Lambda": [
+        -0.03180367323246269,
+        -0.1493888832286845,
+        -1.1646874562167486
+      ],
+      "explicit_vs_mobius_prob_max_abs": 5.551115123125783e-17,
+      "gamma": 0.013561776472954349,
+      "min_atom_probability": 8.83330391195764e-05,
+      "name": "near_certified_beta_root_midpoint",
+      "offdiag_eta_factor_two_max_abs": 1.3877787807814457e-17,
+      "rayleigh": {
+        "T2_minus_4uvw": -6.776263578034403e-21,
+        "has_zero_edge": false,
+        "squares": [
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": false,
+            "pair": "12|3",
+            "quadratic_coefficients": [
+              0.007346938775510205,
+              0.00017951012640256598,
+              1.0965072142862469e-06
+            ]
+          },
+          {
+            "discriminant": -2.6469779601696886e-23,
+            "leading_is_zero": false,
+            "pair": "13|2",
+            "quadratic_coefficients": [
+              0.016530612244897956,
+              0.0004038977844057743,
+              2.4671412321440665e-06
+            ]
+          },
+          {
+            "discriminant": 0.0,
+            "leading_is_zero": false,
+            "pair": "23|1",
+            "quadratic_coefficients": [
+              0.06552555285720528,
+              0.0015500759061993026,
+              9.167169181371436e-06
+            ]
+          }
+        ]
+      },
+      "strict_0_less_K_less_I": true,
+      "tilt_Fpair_mixed_identity_max_abs": 1.1102230246251565e-16,
+      "tilt_Lambda_prime_max_abs": 8.983686926993988e-15,
+      "tilt_T_diag_residual_max_abs": 5.551115123125783e-17
+    }
+  ],
+  "status": "PASS",
+  "thread_env": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

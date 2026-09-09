@@ -1,0 +1,22 @@
+{
+  "task_id": "I05-C1-20260909",
+  "child": "mechanism",
+  "files": {
+    "CLAIM.md": "1b9c9e510f6717058eb00f9690785583f61060a1b68efd3f168a1abb801b5562",
+    "HANDOFF.md": "bff552a6763158b98b5b06fe85e6aa30e9949fde25a4d8d91ff61f64688207e4",
+    "RESULT.md": "a2a1c37912a67b730255e5b6c52ee37e1bdc114fcb94bf329cf7414e3de34a3f",
+    "attempts.md": "9494753cafe6a962f1c65e9cbdc6193fbc82d4a681c18e6923b98f434a109e3b",
+    "checkpoint.json": "c653de28a3c8a5520d1146957da24ec7567f9992450e43aa02a44af0ca0f0c41",
+    "frozen_statement.md": "a5051feb9f0b6a09996dc418ff928c7f42c7a6164a2dc0f230336f1f6bad29fd",
+    "outputs/mechanism_probe.json": "dc9fbb9d455f9654be518a609890322e9caa11e93f647ff56680dae1a5d2b142",
+    "outputs/sparse_rational_certificate.json": "5ef28ba676af0da0bc35afd0a5572f9e5cfd15565b7853af3cc9fb95743f72fa",
+    "proof.md": "df2de67dedf1f8fa179e043fd159b57e716ade99ca6ad5c550904b22e61acf17",
+    "run_log.md": "c75731c545c71a2851cd6107681fa9c9016ce000cd9d99da516ae3442887bee2",
+    "scripts/mechanism_probe.py": "13191b5147f5e1f14132ba5a2c54a71fde097f71feb575b418af3dfc21f07236",
+    "scripts/ratio_root_certificate.py": "3cdecaf85082c97f5be5636ff99e744beaca8661eb0faef0c9de4c2596ddb3c1",
+    "scripts/sparse_phase_certificate.py": "6caadf626ad67d70652aabf1adf3f30fd49c5653eb7a6c10bd38d39f6c1bf0f3",
+    "scripts/sparse_rational_certificate.py": "5ef212fafa0ce3b8f9f5c13768b8aea9bc59c1077bb8d2b669e0c561599f74e8",
+    "sources.md": "46924312d8f39a17368f2a122f1f39bb19112706c8575d0d496d76a59183b439",
+    "verification.md": "05d24672bad28ca1f8351ad9cc7f892f36545799fbfafaafc542fef3839fc79f"
+  }
+}

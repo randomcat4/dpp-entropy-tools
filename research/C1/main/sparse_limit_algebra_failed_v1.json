@@ -1,0 +1,27 @@
+{
+  "status": "SYMBOLIC_LIMIT_SYSTEM_ONLY",
+  "pid": 164297,
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "sympy": "1.13.3",
+  "coefficient": "-k*(lam**2*m**2 - lam*m**2 + 2*lam*m - m + 2)/(m*(lam - 1)*(k*lam**2*m + 2*k*lam - lam*m + m))",
+  "V": "(k*lam**2*m + k*lam + 1)/(m*(k*lam**2*m + 2*k*lam - lam*m + m))",
+  "z": "(k**2*lam**2 + k*lam*m + k*lam - lam*m + m)/(k*lam**2*m + 2*k*lam - lam*m + m)",
+  "determinant": "2*(k*lam**2*m + 2*k*lam - lam*m + m)/(k*lam - lam + 1)",
+  "fixed_values": [
+    {
+      "lambda": "7/10",
+      "kappa": "0.1",
+      "coefficient": "15.4671811363963351926462075738306193349421883528207514642461"
+    },
+    {
+      "lambda": "7/10",
+      "kappa": "1.0",
+      "coefficient": "2.5637689845416930430543952332967221813861681729676146139547"
+    },
+    {
+      "lambda": "7/10",
+      "kappa": "10.0",
+      "coefficient": "0.388166019385791171635353032781916182648088116410264293331704"
+    }
+  ]
+}

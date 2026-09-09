@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE",
+  "result": "PARTIAL",
+  "task_id": "I05-C1-20260909",
+  "child": "mechanism",
+  "current_task_source": {
+    "baseline": "e988aa3003484f6368133b8bc0c668331629e369",
+    "tree": "e7c177ca74da59744443dbfcaadafd98724767ec"
+  },
+  "round2_reference_baseline": "e476db1bb056af57e883a47f470ea0f4443c1837",
+  "global_B0": "INCOMPLETE",
+  "counterexample": false,
+  "certified_partial": {
+    "family": "K=epsilon I+(7/10)uu^T, u=(3/5,4/5,q*sqrt(epsilon))",
+    "epsilon": "1/100000000",
+    "status": "CERTIFIED_RATIONAL_SPARSE_ROOT_DALPHA_LT_ONE",
+    "q_bracket": [
+      "4418854248579277079/2305843009213693952",
+      "8837708497158554159/4611686018427387904"
+    ],
+    "dalpha_upper": "0.925806704946127239064572716414179284",
+    "interpretation": "exact beta-zero exists in bracket; whole bracket satisfies det(N)*alpha<1"
+  },
+  "independent_review": "NOT_YET_PERFORMED",
+  "lean": "NOT_RUN",
+  "server_success_pids": [
+    163138,
+    164712,
+    164711
+  ],
+  "threads_per_job": 1,
+  "gpu": false,
+  "continuation_scheduled": false
+}
