@@ -1,7 +1,12 @@
 # C1 independent FIRST: PR70 and PR77
 
-Status: two fresh non-author FIRST reviews are IN_PROGRESS. No verdict
-is inherited from previous packets, author checks or a later live head.
+Status: both fresh non-author source-only FIRST reviews are COMPLETE.
+PR70's analytic packet is ACCEPTED_SCOPED; its fixed finite witness is
+PENDING_C2. PR77's named analytic bridges are ACCEPTED_SCOPED, with exact
+constants/finite signs separately PENDING_C2, evidence packaging NEEDS_FIX,
+and the Section 9 true-rate beam-splitter bridge INCOMPLETE.
+No verdict is inherited from previous packets, author checks or a later
+live head. Review completion does not mean every author claim is accepted.
 
 | Unit | Frozen author head | Immutable packet |
 |---|---|---|
@@ -25,6 +30,12 @@ review nor the issue73/74 request starts an arithmetic or interval job.
 No old PR60/58 computation is rerun. C3 owns subsequent independent SECOND
 and sole main integration. Novelty and formal coverage remain separate.
 
-See [frozen scope](frozen_theorem_v1.md), [status](STATUS.md),
+See [C3 handoff](HANDOFF.md), [bounded finite obligations](computation_handoff.md),
+[PR70 mathematics](units/pr70/review_report.md),
+[PR70 static review](units/pr70/code_review.md),
+[PR77 mathematics](units/pr77/review_report.md),
+[PR77 static review](units/pr77/code_review.md),
+[frozen scope](frozen_theorem_v1.md), [status](STATUS.md),
 [claim ledger](lemma_ledger.md), [provenance](provenance.md),
-[work-unit record](rounds.md) and unit SOURCE_BINDING.json files.
+[work-unit record](rounds.md), [public coordination](coordination.md)
+and unit SOURCE_BINDING.json files.
