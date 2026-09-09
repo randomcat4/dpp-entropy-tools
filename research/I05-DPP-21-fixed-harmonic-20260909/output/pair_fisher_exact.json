@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "exact inclusion covariance and full-Fisher projection constants only",
+  "variable": "u=t/16",
+  "pair_mean": "1/4-u^2",
+  "covariances": {
+    "lag_0": "3/16-u^2/2-u^4",
+    "lag_1": "7/128-u^2/4-u^4",
+    "lag_2": "-31/4096-u^2/32",
+    "lag_3": "-1/256",
+    "lag_at_least_4": "0"
+  },
+  "variance_density": "561/2048-17*t^2/4096-3*t^4/65536",
+  "V_at_t_half": "286141/1048576",
+  "V_at_t_three_halves": "277197/1048576",
+  "uniform_full_Fisher_rate_lower_bound": "16/286141",
+  "arithmetic": "Fraction polynomial Leibniz determinants",
+  "exit_status": 0
+}
