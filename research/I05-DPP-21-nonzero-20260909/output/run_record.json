@@ -1,0 +1,9 @@
+{
+  "command": "python research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py",
+  "exit_status": 0,
+  "implementation": "CPython",
+  "platform": "Linux x86_64",
+  "python_version": "3.13.5",
+  "scope": "exact rational example constants only; theorem uses no computation",
+  "third_party_dependencies": []
+}
