@@ -2,7 +2,7 @@
 
 本轮状态：PARTIAL。新增定理有完整作者证明，尚未独立非作者审阅，新颖性未认证。一般全合法区间目标没有闭合，没有真实熵率反例。
 
-提交位置：研究分支 `research/W2-nonconstant-orbit-20260909`，Draft PR https://github.com/randomcat4/dpp-entropy-tools/pull/34 。本轮不修改 main。网页端完成证明与小规模代数自检；服务器重计算和独立非作者审阅留给 Codex，不声称已经开展或通过。
+提交位置：同一研究分支 `research/W2-nonconstant-orbit-20260909`，新增正文与复算材料在续接 Draft PR https://github.com/randomcat4/dpp-entropy-tools/pull/39 。开头的旧正文 PR #34 在研究继续期间已被合并，仅包含旧正文；本实例未执行合并或直接写 main。交付范围纠正见 `DELIVERY.md`。网页端完成证明与小规模代数自检；服务器重计算和独立非作者审阅留给 Codex，不声称已经开展或通过。
 
 ## 正文入口
 
