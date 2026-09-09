@@ -1,0 +1,40 @@
+{
+  "public_checkpoint_local_equivalent": "80b4e8ae04dcd941e4609c58e086b863619196bb",
+  "meaning": "Source identity only; does not repair the INCOMPLETE independent arithmetic review.",
+  "public_checkpoint": "c13bc7322faf3839402f17c5eb0d4dc403428159",
+  "source_objects": [
+    {
+      "object": "36735e3a3d49f4c7ef732303e7615c943cc56175",
+      "path": "structure/STRUCTURE.md"
+    },
+    {
+      "object": "535877e443cc6a46aae3564bd4ade8d0b7c9923e",
+      "path": "structure/POSITIVE_SEED.md"
+    },
+    {
+      "object": "26b1d626704590e596ade08cd240a21a2f32fae9",
+      "path": "resume/R0_CANDIDATE.md"
+    },
+    {
+      "object": "93f80c15b8c306c2c44f1bb799b73515a15c4802",
+      "path": "resume/outputs/r0"
+    },
+    {
+      "object": "09da4c5cd295f79331ce2a123e0fb70251e18c7d",
+      "path": "resume/coefficient_outputs/r0_coefficient_table.json"
+    },
+    {
+      "object": "9ffd1c750ab053277bab5daa072bff637b1fbaeb",
+      "path": "resume/coefficient_outputs/r0_coefficient_report.json"
+    },
+    {
+      "object": "2f494c3acf0d9f78cd23ba64da6c69dbb0843743",
+      "path": "resume/continue_saved_rstar.py"
+    },
+    {
+      "object": "77f0547683c33b3639aae3c3caf9b13eee913f73",
+      "path": "resume/check_det_coefficients.py"
+    }
+  ],
+  "candidate_local_commit": "521e96c6027c14a61d60fea8e031f874ef14f1e0"
+}

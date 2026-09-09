@@ -1,0 +1,19 @@
+{
+  "pid": 173320,
+  "started_utc": "2026-09-09T11:59:57.692261+00:00",
+  "absolute_deadline": "2026-09-09T12:07:28+00:00",
+  "source": "continue_saved_rstar.py",
+  "scope": "saved 4x4 Rstar principal determinants only; no new M reconstruction or scout",
+  "sympy": "1.14.0",
+  "cases": [
+    {
+      "case": "r0",
+      "status": "DETERMINANTS_COMPUTED_SIGN_UNCLASSIFIED"
+    },
+    {
+      "case": "full",
+      "status": "DETERMINANTS_COMPUTED_SIGN_UNCLASSIFIED"
+    }
+  ],
+  "finished_utc": "2026-09-09T12:00:41.271771+00:00"
+}

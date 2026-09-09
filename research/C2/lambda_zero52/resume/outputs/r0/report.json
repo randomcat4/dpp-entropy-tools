@@ -1,0 +1,146 @@
+{
+  "case": "r0",
+  "started_utc": "2026-09-09T11:59:57.692576+00:00",
+  "seconds_available": 90,
+  "status": "DETERMINANTS_COMPUTED_SIGN_UNCLASSIFIED",
+  "minors": [
+    {
+      "size": 2,
+      "determinant_saved": true,
+      "factor_status": "COMPUTED",
+      "numerator_content": "1",
+      "denominator_content": "4",
+      "numerator_factors": [
+        {
+          "factor": "mu - 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "mu + 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "u",
+          "multiplicity": 2
+        },
+        {
+          "factor": "mu**2*nu**2*u**20 - 6*mu**2*nu**2*u**16 + 5*mu**2*nu**2*u**12 + 4*mu**2*nu**2*u**8 - 4*mu**2*nu**2*u**4 - mu**2*u**20 + 6*mu**2*u**16 - 21*mu**2*u**12 + 28*mu**2*u**8 - 12*mu**2*u**4 + 2*mu*nu**3*u**20 - 22*mu*nu**3*u**12 + 20*mu*nu**3*u**8 - 2*mu*nu*u**20 - 10*mu*nu*u**12 - 52*mu*nu*u**8 + 160*mu*nu*u**4 - 96*mu*nu + nu**4*u**20 - 2*nu**4*u**16 + nu**4*u**12 - nu**2*u**20 + 10*nu**2*u**16 - 41*nu**2*u**12 + 8*nu**2*u**8 + 88*nu**2*u**4 - 8*u**16 + 24*u**12 - 72*u**8 + 88*u**4 - 96",
+          "multiplicity": 1
+        }
+      ],
+      "denominator_factors": [
+        {
+          "factor": "u - 1",
+          "multiplicity": 4
+        },
+        {
+          "factor": "u + 1",
+          "multiplicity": 4
+        },
+        {
+          "factor": "u**2 + 1",
+          "multiplicity": 4
+        }
+      ]
+    },
+    {
+      "size": 3,
+      "determinant_saved": true,
+      "factor_status": "COMPUTED",
+      "numerator_content": "1",
+      "denominator_content": "2",
+      "numerator_factors": [
+        {
+          "factor": "mu - 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "mu + 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "nu - 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "nu + 1",
+          "multiplicity": 1
+        },
+        {
+          "factor": "u",
+          "multiplicity": 1
+        },
+        {
+          "factor": "mu**4*nu**2*u**20 - 2*mu**4*nu**2*u**16 + mu**4*nu**2*u**12 + mu**4*u**20 - 2*mu**4*u**16 + mu**4*u**12 + 2*mu**3*nu**3*u**20 - 4*mu**3*nu**3*u**16 + 2*mu**3*nu**3*u**12 + 6*mu**3*nu*u**20 + 8*mu**3*nu*u**16 - 50*mu**3*nu*u**12 + 36*mu**3*nu*u**8 + mu**2*nu**4*u**20 - 2*mu**2*nu**4*u**16 + mu**2*nu**4*u**12 + 10*mu**2*nu**2*u**20 + 28*mu**2*nu**2*u**16 - 98*mu**2*nu**2*u**12 + 8*mu**2*nu**2*u**8 - 12*mu**2*nu**2*u**4 + mu**2*u**20 + 10*mu**2*u**16 - 3*mu**2*u**12 - 76*mu**2*u**8 + 132*mu**2*u**4 + 6*mu*nu**3*u**20 + 8*mu*nu**3*u**16 - 50*mu*nu**3*u**12 + 36*mu*nu**3*u**8 + 2*mu*nu*u**20 + 36*mu*nu*u**16 + 2*mu*nu*u**12 - 232*mu*nu*u**8 + 336*mu*nu*u**4 - 144*mu*nu + nu**4*u**20 - 2*nu**4*u**16 + nu**4*u**12 + nu**2*u**20 + 10*nu**2*u**16 - 3*nu**2*u**12 - 76*nu**2*u**8 + 132*nu**2*u**4 + 8*u**16 + 4*u**12 - 16*u**8 + 84*u**4 - 144",
+          "multiplicity": 1
+        }
+      ],
+      "denominator_factors": [
+        {
+          "factor": "u - 1",
+          "multiplicity": 5
+        },
+        {
+          "factor": "u + 1",
+          "multiplicity": 5
+        },
+        {
+          "factor": "u**2 + 1",
+          "multiplicity": 5
+        }
+      ]
+    },
+    {
+      "size": 4,
+      "determinant_saved": true,
+      "factor_status": "COMPUTED",
+      "numerator_content": "-1",
+      "denominator_content": "2",
+      "numerator_factors": [
+        {
+          "factor": "mu - 1",
+          "multiplicity": 2
+        },
+        {
+          "factor": "mu + 1",
+          "multiplicity": 2
+        },
+        {
+          "factor": "nu - 1",
+          "multiplicity": 2
+        },
+        {
+          "factor": "nu + 1",
+          "multiplicity": 2
+        },
+        {
+          "factor": "mu**4*u**16 - mu**4*u**12 + 4*mu**3*nu*u**16 + 6*mu**3*nu*u**12 - 18*mu**3*nu*u**8 + 6*mu**2*nu**2*u**16 + 14*mu**2*nu**2*u**12 - 36*mu**2*nu**2*u**8 + 2*mu**2*u**12 - 6*mu**2*u**8 - 36*mu**2*u**4 + 4*mu*nu**3*u**16 + 6*mu*nu**3*u**12 - 18*mu*nu**3*u**8 + 4*mu*nu*u**12 - 60*mu*nu*u**8 - 144*mu*nu*u**4 + 216*mu*nu + nu**4*u**16 - nu**4*u**12 + 2*nu**2*u**12 - 6*nu**2*u**8 - 36*nu**2*u**4 - 48*u**8 - 72*u**4 + 216",
+          "multiplicity": 1
+        }
+      ],
+      "denominator_factors": [
+        {
+          "factor": "u - 1",
+          "multiplicity": 5
+        },
+        {
+          "factor": "u + 1",
+          "multiplicity": 5
+        },
+        {
+          "factor": "u**2 + 1",
+          "multiplicity": 5
+        }
+      ]
+    }
+  ],
+  "saved_structure_checks": {
+    "alpha_beta_offdiag_zero": true,
+    "dalpha_identity": true,
+    "dbeta_identity": true,
+    "invisible_mixed_cancellation": true
+  },
+  "domain": "ZZ(u,mu,nu)",
+  "active_minor": 4,
+  "finished_utc": "2026-09-09T11:59:58.340632+00:00"
+}

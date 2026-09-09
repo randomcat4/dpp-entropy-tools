@@ -1,0 +1,27 @@
+{
+  "attempt": "run_20260909T112208Z",
+  "wrapper_start_utc": "2026-09-09T11:22:28Z",
+  "wrapper_finished_utc": "2026-09-09T11:54:46Z",
+  "wrapper_exit_code": 0,
+  "arithmetic_pid": 172454,
+  "derive_status": "ok",
+  "derive_elapsed_seconds": 1827.455,
+  "all_derivation_checks_ok": true,
+  "completed_checks": [
+    "Q_from_log_derivative",
+    "atom_first_jets",
+    "atom_probabilities",
+    "common_denominator_clears_M",
+    "complete_fisher_identity",
+    "initial_negative_hessian",
+    "log_acceleration_coefficients",
+    "pair_fisher_split"
+  ],
+  "r0_status": "error_after_minor_1_saved",
+  "r0_error": "TypeError('Object of type Integer is not JSON serializable')",
+  "full_status": "error_after_minor_1_saved",
+  "full_error": "TypeError('Object of type Integer is not JSON serializable')",
+  "global_certificate": false,
+  "rational_negative_obstruction": false,
+  "determinant_stages_beyond_first_minor": "not reached by this attempt because JSON serialization failed after factor_list for minor 1"
+}

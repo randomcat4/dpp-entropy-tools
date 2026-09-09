@@ -1,0 +1,12 @@
+# Status
+
+2026-09-09 12:13 UTC: PARTIAL; full four-parameter sign OPEN. The fresh r=0 review is INCOMPLETE. The original arithmetic window has ended and no jobs remain.
+
+- The independent analytic eight-event formula audit is CORRECT at its identity scope. Two separate nonauthor structural audits accept the 2+4 Schur reduction and determinant bookkeeping. The exact interior positive seed also has a CORRECT nonauthor review.
+- The implemented machine checks completed successfully, with the explicit log-derivative dependency described in compute/REPORT.md. They are not a standalone machine derivation of that missing link. Both original determinant stages then failed while serializing a SymPy Integer, after saving their first principal minor. Wrapper exit 0 is not overall stage success.
+- A publicly recorded repair resumed from the saved Rstar matrices, using the unexpired original window. It computed and factored the second, third and fourth principal determinants for r=0 and full r. No event or M reconstruction was repeated.
+- The subsequent exact positive-orthant coefficient test found 389 positive nonzero coefficients and no negative ones for the r=0 residual determinant polynomial. resume/R0_CANDIDATE.md gives the proposed domain and inertia argument. The fresh nonauthor review is INCOMPLETE: the analytic implication is sound, but its independent exact Rstar-to-determinant-to-coefficient check could not run before the deadline. The r=0 claim remains a candidate.
+- The full-r transform has 6415 positive and 146 negative nonzero coefficients. This test supplies neither a positive certificate nor a negative direction. The global M/Rstar sign remains OPEN.
+- All three author arithmetic processes have exited. They ran sequentially, with at most one live arithmetic process/thread, 16 GiB and no GPU, within the original 11:22:28-12:07:28 UTC window. The repair did not allocate another 45 minutes. Any optional reviewer arithmetic had the same absolute deadline; only analytic review and packaging may continue afterward. See resume/RUN_LEDGER.md.
+
+C3 owns main integration. PR51 integration does not imply general M positivity. No original entropy counterexample, full-domain inertia continuation, or full-r certificate is claimed.

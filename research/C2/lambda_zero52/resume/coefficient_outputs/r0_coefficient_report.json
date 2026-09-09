@@ -1,0 +1,41 @@
+{
+  "pid": 173433,
+  "case": "r0",
+  "started_utc": "2026-09-09T12:03:33.051492+00:00",
+  "source_factor": "mu**4*u**16 - mu**4*u**12 + 4*mu**3*nu*u**16 + 6*mu**3*nu*u**12 - 18*mu**3*nu*u**8 + 6*mu**2*nu**2*u**16 + 14*mu**2*nu**2*u**12 - 36*mu**2*nu**2*u**8 + 2*mu**2*u**12 - 6*mu**2*u**8 - 36*mu**2*u**4 + 4*mu*nu**3*u**16 + 6*mu*nu**3*u**12 - 18*mu*nu**3*u**8 + 4*mu*nu*u**12 - 60*mu*nu*u**8 - 144*mu*nu*u**4 + 216*mu*nu + nu**4*u**16 - nu**4*u**12 + 2*nu**2*u**12 - 6*nu**2*u**8 - 36*nu**2*u**4 - 48*u**8 - 72*u**4 + 216",
+  "variables": [
+    "mu",
+    "nu",
+    "u"
+  ],
+  "degrees": [
+    4,
+    4,
+    16
+  ],
+  "input_terms": 26,
+  "substitution": "each z=(X-1)/(X+1), except u=X/(X+1)",
+  "clearing_multiplier": "product (1+X_j)^degree_j, strictly positive for X_j>0",
+  "stages": [
+    {
+      "variable": "mu",
+      "terms": 85
+    },
+    {
+      "variable": "nu",
+      "terms": 91
+    },
+    {
+      "variable": "u",
+      "terms": 389
+    }
+  ],
+  "positive_coefficients": 389,
+  "negative_coefficients": 0,
+  "nonzero_terms": 389,
+  "min_coefficient": "192",
+  "max_coefficient": "99220032",
+  "strict_positive_certificate_candidate": true,
+  "scope": "exact integer transform; factor identity and domain signs require independent review",
+  "finished_utc": "2026-09-09T12:03:33.053453+00:00"
+}
