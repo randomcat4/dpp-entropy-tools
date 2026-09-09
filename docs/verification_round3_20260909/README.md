@@ -18,3 +18,5 @@ Author source snapshots are public at [PR41 frozen tree](https://github.com/rand
 ## Follow-on reviews
 
 [PR51 theorem and continuation](pr51/README.md) each have two independent scoped acceptances and are merged; [accepted scope](accepted_pr51.md) preserves the open global inequalities. PR53 and original PR54 are with C1 for first review; PR54 added appendices have a separate C3 first review. Current heads, second-review ownership and the distinct C2 issue52 budget are in the [live integration queue](../verification_round3_20260909.md). Historical maps above do not certify these new results.
+
+[后继审稿与修复记录](followon/README.md)保存PR53原稿第二审和PR54两个新增单元的双审；待审新定理与原稿第二审仍见当前队列。

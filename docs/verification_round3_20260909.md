@@ -9,9 +9,9 @@
 | [PR47](https://github.com/randomcat4/dpp-entropy-tools/pull/47) | `997c95eaf607a64d0e166dc8a08001794f59c657` | READY_SCOPED 已合，merge `6cbd76078caf1dc3444b0783409ef9af4968c265`。PR41 八事件符号、PR43 指定 256 事件/条件事件重建及独立有理有向流审核通过 |
 | [PR49](https://github.com/randomcat4/dpp-entropy-tools/pull/49) | `b3816871965782378da5d4b559992176a66b6c26` | 审阅记录已合，merge `580efb43568030013e0a2eac318bbe0e8db4051e`。三项首审和三项新鲜第二审均结束；旧 H 文字缺口由 PR43 的明确两行增量关闭 |
 | [PR51](https://github.com/randomcat4/dpp-entropy-tools/pull/51) | 最终 `184535756f5ed92f2f5c47804bdc8466a7d15041` | ACCEPTED_SCOPED，merge `ed10e23134d5dd8350f1cd9636204143c62ebc40`。原定理与续稿分别双审；[完整范围和证据](verification_round3_20260909/accepted_pr51.md)。一般 Schur 与径向 M 正性仍开放 |
-| [PR53](https://github.com/randomcat4/dpp-entropy-tools/pull/53) | `e0688fbb713e55f93acf791b83437ddf2cc06b7f` | C1 首审 ACCEPTED_SCOPED，C3 新鲜第二审进行中。仅接受桥接/一致逆界等已证明条目，全熵率曲率仍开放 |
-| [PR54](https://github.com/randomcat4/dpp-entropy-tools/pull/54) | 原稿 `203f7044`；三附录 `c3b9e968`；外幂/流/率附录 `c8486bcd`；条件修复 `a1e7f7208262565bb3db0509ff0cccffab757e98` | 原稿首审在 Section5 提出三处条件/措辞修复，C3 已逐条实现，待 C1 增量复核。两组附录首审分别通过、独立第二审进行中。原稿第二审等修复闭合；不把全弦熵亏损当作曲率 |
-| [计算 #52 / PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) | 解析输入 PR51 `2e4b8754ad4af2fe055ebeeef1159877773372a3`；初始计划 `df26ead9b56b0adcbe66722ba1d05fd01c901328` | C2 已认领独立八事件到 M 重建及有界精确符号任务。一次共享 2700 秒预算、单进程单线程、16 GiB、无 GPU；该计划检查点未声称 PID 或数学结果。C3 不重复消元 |
+| [PR53](https://github.com/randomcat4/dpp-entropy-tools/pull/53) | 原五文件 `e0688fbb`；新局部熵率定理 `abdd660a6c7761c7a8a53cb8671b4d2543530a5c` | 原五文件双审 READY_SCOPED；新473行定理由C1另行首审，C3预留第二审。头变化使旧头合并未执行，原审稿不覆盖新定理。全合法区间仍开放 |
+| [PR54](https://github.com/randomcat4/dpp-entropy-tools/pull/54) | 当前 `d5c55447a0f7377dae085b8074f557e4f673b5a4` | 原稿三处Section5修复经C1闭合，原稿新鲜第二审进行中。三附录及外幂/流/率附录分别双审；第二审两处文字修复也已独立闭合。[完整审稿与范围](verification_round3_20260909/followon/README.md)；整体尚未合入 |
+| [计算 #52 / PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) | 解析输入 PR51 `2e4b8754`；已审结构 `de802933899b6a02e7c4fb8afc79e0b15564caba` | C2公式及新2+4结构首审完成，C3另做结构第二审且禁止计算。C2保有唯一机器重建/消元任务，单次共享2700秒、单进程单线程、16GiB、无GPU。全局M/Rstar正性仍开放 |
 
 ## 已接受结论与证据
 
@@ -28,3 +28,5 @@ PR43 初始数值头 `4e1369ef2a59ccfaba3ca8fce95d85e78857bf78` 到统一 v3.1 `
 网页研究分别在 [21 路熵率 issue #48](https://github.com/randomcat4/dpp-entropy-tools/issues/48)、[22 路缺边三维 issue #20](https://github.com/randomcat4/dpp-entropy-tools/issues/20)、[23 路相关秩二块 issue #50](https://github.com/randomcat4/dpp-entropy-tools/issues/50)。作者的继续研究与本页的已审接受分开；重计算另行冻结交接，现有固定 LP 不重复启动。PR51 的私有作者代码未被获取或搬入公开库；独立自编精确检查已经公开。PR56 保存 C1 的 PR53/54 首审和后续修复审定，不覆盖 C3 另审的新增附录。
 
 每主实例最多 8 CPU 线程、32 GiB、无 GPU，计算初始一线程；最多三项直属有界子任务、无递归派生。长作业保存检查点与恢复方式；只操作自身目录和进程。常规进度留公开库，私有历史库只在实质重大事件后更新。空 CI 列表不记作通过。
+
+[后继完整审稿档案](verification_round3_20260909/followon/README.md)保存PR53原稿第二审、PR54两组附录的独立首审/第二审和精确修复闭合。C1首审与原稿修复记录在[PR56](https://github.com/randomcat4/dpp-entropy-tools/pull/56)，新增PR53定理另行冻结，不覆盖滚动新稿。

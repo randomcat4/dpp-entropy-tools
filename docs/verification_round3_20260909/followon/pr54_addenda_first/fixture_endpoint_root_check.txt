@@ -1,0 +1,17 @@
+independent exact rational endpoint-root check
+tr_K = 61679009119/2025846673750
+Delta_K = 3710825577769541084161/4104054745543938939062500
+2*(1/25)-tr_K = 100388724781/2025846673750
+[2*(1/25)-tr_K]^2 - Delta_K = 39286478142/25323083421875
+tr_IK = 128050167109/2492802040500
+Delta_IK = 16227278265011862790681/6214062013120963640250000
+2*(1/20)-tr_IK = 121230036941/2492802040500
+Delta_IK - [2*(1/20)-tr_IK]^2 = 767487943/3116002550625
+Delta_K_matches_output: PASS
+Delta_IK_matches_output: PASS
+Delta_K_positive: PASS
+Delta_IK_positive: PASS
+rho_K_upper_rhs_positive: PASS
+rho_K_less_than_1_over_25_square_gap_positive: PASS
+rho_IK_lower_rhs_positive: PASS
+rho_IK_greater_than_1_over_20_square_gap_positive: PASS
