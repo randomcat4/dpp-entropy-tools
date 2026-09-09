@@ -1,0 +1,2 @@
+{"status": "C3_M1_VARIATIONAL_KERNEL_ENCLOSURES_COMPUTED_REVIEW_PENDING", "pid": 167316, "seconds": 4.061271667480469, "peak_rss_kib": 22572, "actual_cases": 6}
+[{"t": "-1/4", "complement": false, "error": 5.966985118535407e-25}, {"t": "-1/4", "complement": true, "error": 3.1974331150974e-11}, {"t": "0", "complement": false, "error": 6.0195420655525785e-34}, {"t": "0", "complement": true, "error": 4.844511097496308e-10}, {"t": "1/4", "complement": false, "error": 3.8170478103118223e-29}, {"t": "1/4", "complement": true, "error": 9.463653280093224e-08}]

@@ -1,0 +1,19 @@
+{
+  "id": "C3-M1",
+  "script_role": "Input for S1-convention scripts only.",
+  "script_fourier_convention": "K(i,j)=c_(i-j); c_k=(a_k-i*b_k)/2",
+  "true_symbol_file": "candidate_true_symbol.json",
+  "conjugation_note": "The true C3-M1 convention uses c_k=(a_k+i*b_k)/2. This script input negates b and db, giving the conjugate-transpose Toeplitz kernels. All principal event determinants and entropy-rate bounds are unchanged.",
+  "p": "1/2",
+  "dp": "0",
+  "a": ["6/25", "594/2525"],
+  "b": ["0", "-120/2525"],
+  "da": ["0", "120/2525"],
+  "db": ["-6/25", "594/2525"],
+  "tau": "1/4",
+  "step": "1/4",
+  "uniform_margin": "1/200",
+  "exact_sharper_margin": "1/2-3*sqrt(17)/25",
+  "margin_note": "For |t|<=1/4, |c1(t)|=|c2(t)|=(3/25)*sqrt(1+t^2), so oscillation <=3*sqrt(17)/25. The sharper exact margin is greater than 1/200.",
+  "endpoint_equality_assumed": false
+}
