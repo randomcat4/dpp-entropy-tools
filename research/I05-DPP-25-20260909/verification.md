@@ -4,7 +4,7 @@
 
 **Author status: PROVED. Independent review: pending.**
 
-This ledger is a self-check, not an independent review. The only non-elementary imported step is the one-dimensional finite-first-moment analyticity theorem identified in `sources.md`.
+This ledger is a self-check, not an independent review. The only non-elementary imported step is Dobrushin's one-dimensional finite-first-moment analyticity theorem, identified precisely in `sources.md`.
 
 ## 1. Frozen quantifiers
 
@@ -30,7 +30,7 @@ For a finite index set `I` and configuration `x`, with `Z_x=\{i:x_i=0\}`,
 =(-1)^{|Z_x|}\det(T_I(f)-I_{Z_x}).
 \]
 
-All conditionals in the proof are ratios of these complete-event probabilities. No inclusion probability `\det K_T` is used as a configuration atom. The final object is the limit of full configuration Shannon entropies per site.
+All conditionals are ratios of these complete-event probabilities. No inclusion probability `\det K_T` is used as a configuration atom. The final object is the limit of full configuration Shannon entropies per site.
 
 ## 3. Complete-event singular gap
 
@@ -141,7 +141,7 @@ M_y^{-1}-M_x^{-1}
 
 Each origin-to-`j` effective coupling is `O(j^{-q})`; their product is `O(j^{-2q})`. This verifies that the decisive decay is squared. Merely summing a one-leg `O(j^{-q})` estimate would give a weaker and incorrect regularity threshold.
 
-Adding the last conditioned site produces the same two-leg factorization by block inversion, so the finite-future conditionals converge uniformly and holomorphically.
+Adding the last conditioned site produces the same two-leg factorization by block inversion, so finite-future conditionals converge uniformly and holomorphically.
 
 ## 7. Non-nullness
 
@@ -162,7 +162,7 @@ For fixed `n`, exactly `n+1` translated intervals of diameter `n` contain the or
 \le C\sum_{n\ge1}n(n+1)n^{-2q}<\infty
 \]
 
-because `q>3/2`. The singleton term `n=0` is separately bounded, so absolute summability and the first moment both hold. Local uniformity on the complex disk proves Banach-valued holomorphy by the Weierstrass test.
+because `q>3/2`. The singleton term is separately bounded, so absolute summability and the first moment both hold. Local uniformity on the complex disk proves Banach-valued holomorphy by the Weierstrass test.
 
 ## 9. Exact DPP equilibrium identification
 
@@ -185,18 +185,20 @@ Therefore
 h(\rho)-\rho(e_{U_t})\le0,
 \]
 
-with equality for the DPP because its future conditional is `G_t`. Hence `P(U_t)=0` and the DPP is an equilibrium state. This is written in full in `equilibrium_bridge.md` and supersedes the informal chain-to-Gibbs paragraph in `proof.md`.
+with equality for the DPP because its future conditional is `G_t`. Hence `P(U_t)=0` and the DPP is an equilibrium state. This appears in `proof.md`, Section 5, with an expanded audit in `equilibrium_bridge.md`.
 
-## 10. Imported analyticity theorem
+## 10. Imported analyticity theorem and citation scope
 
-The constructed interaction satisfies a stronger first-moment norm than the usual orbit-normalized convention. Dobrushin and Cassandro–Olivieri are invoked for:
+The constructed interaction satisfies a stronger first-moment norm than the usual orbit-normalized convention. The load-bearing imported result is Dobrushin's theorem for general one-dimensional classical lattice systems with power-law-decaying/finite-first-moment interactions. It supplies:
 
-- uniqueness of the one-dimensional Gibbs/equilibrium state;
+- uniqueness of the real Gibbs/equilibrium state;
 - analytic pressure/free energy;
-- analytic local expectations and pressure derivatives;
-- analytic dependence along a holomorphic finite-first-moment interaction curve.
+- analytic bounded local expectations and pressure derivatives;
+- analytic dependence along a holomorphic finite-first-moment interaction family.
 
-This invocation, rather than the elementary DPP algebra, is the main item requiring independent literature-level audit.
+Cassandro–Olivieri is not used as the sole general-block-function theorem. Its finite-first-moment lattice-gas decimation result is retained as an independent mechanism check because an uncontrolled monomial expansion of an arbitrary block function could enlarge the interaction norm exponentially.
+
+The Dobrushin invocation, rather than the elementary DPP algebra, is the main item requiring independent literature-level audit.
 
 ## 11. Parity and even analytic parameter
 
@@ -240,7 +242,7 @@ At `s=0`, the two first derivatives cancel. This proves an analytic expansion be
 
 ## 13. Exact finite-volume KL identity
 
-Within every finite block, the even-coordinate and odd-coordinate marginals do not depend on `t`. At `t=0`, the kernel is block diagonal across parity, so these two marginals are independent. Therefore
+Within every finite block, the even-coordinate and odd-coordinate marginals do not depend on `t`. At `t=0`, the kernel is block diagonal across parity, so these marginals are independent. Therefore
 
 \[
 D(\nu_t^{(n)}\|\nu_0^{(n)})
@@ -282,7 +284,7 @@ For the displayed power-law example, the weighted Fourier sum behaves as
 \sum_{m\ge1}m^p m^{-(p+2)}=\sum_{m\ge1}m^{-2}<\infty.
 \]
 
-Every exponential weight makes the corresponding sum diverge because the coefficients are nonzero at infinitely many indices and decay only polynomially. Supremum-norm estimates preserve a strict spectral margin. Hence the example lies in `\mathcal A_p` but in no exponential weighted Wiener class.
+Every exponential weight makes the corresponding sum diverge because infinitely many coefficients are nonzero and decay only polynomially. Supremum-norm estimates preserve a strict spectral margin. Hence the example lies in `\mathcal A_p` but in no exponential weighted Wiener class.
 
 ## 16. Approximation obstruction check
 
@@ -304,7 +306,7 @@ On `|t|\le(2N)^{-1}`, `N\ge2`, this is at most
 3/N^2-e^{-1/4}<0.
 \]
 
-Every approximant is therefore locally concave on a shrinking interval, while the uniform limit `t^4` is locally convex. This verifies the claimed mechanism obstruction even within real-entire approximants. It is not asserted to be a DPP counterexample.
+Every approximant is locally concave on a shrinking interval, while the uniform limit `t^4` is locally convex. This verifies the mechanism obstruction even within real-entire approximants. It is not asserted to be a DPP counterexample.
 
 ## 17. Code and numerical consistency
 
@@ -312,8 +314,8 @@ No code, floating-point computation, interval arithmetic, enumeration, or extern
 
 ## Remaining review obligations
 
-1. Audit the exact Banach-neighborhood formulation of the Dobrushin–Cassandro–Olivieri theorem against the strong norm in (4.3).
+1. Audit the analytic-family formulation of Dobrushin's theorem against the strong norm in (4.3); Cassandro–Olivieri and the modern finite-first-moment literature provide corroboration but are not substitutes for this scope check.
 2. Independently reproduce the finite-section weighted inverse estimate and the two-leg conditional influence bound.
-3. Check the accepted PR53 matching lemma is imported only in its regularity-free form.
+3. Check that the accepted PR53 matching lemma is imported only in its regularity-free form.
 
-These are review obligations, not unstated mathematical gaps in the author proof.
+These are review obligations, not hidden changes to the theorem quantifiers. Author self-review is not independent acceptance.
