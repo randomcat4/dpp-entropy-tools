@@ -1,0 +1,13 @@
+I05-23 exact fixture: PASS
+rank(B) = 2 ; dense entries = 9
+complete configurations checked = 64
+full joint likelihood check at t = 1/10 : PASS
+outside PR43 special family (left null not A-eigenvector): PASS
+Gershgorin spectral margin lower bound = 31/100
+sigma^2 exact = 94961563764468982096654209864288753221886065157614011838525236916413093/382590336991323629445458030795682891918156169363580024118475801169728125000
+sigma_*^2 lower bound = 1/16000000
+U = 128050167109/2492802040500 ; V = 2392082/281394225625
+certified s-radius delta = 524222703364192964988346671235778947378184830378125/15319947666302925181086167060410172926474791788321273216
+therefore H''(t) <= -3*sigma_*^2*t^2 < 0 for 0<|t|<=sqrt(delta)
+matching W = 7/2000
+global entropy deficit: H(0)-H(t) >= 49/48000000 * t^4
