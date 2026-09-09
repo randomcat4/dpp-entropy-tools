@@ -1,0 +1,12 @@
+Independent Möbius-inversion verification: I05-W1-20260909
+SymPy 1.14.0; mpmath 1.3.0; entropy cross-check precision=100 dps
+4-point rank-one crossblock identity: PASS (16 events, both marginals, rank/noncommutation)
+4-point exact tau^2=2599/864; H''(1/4)=-0.0136170253313639974996187755283
+4-point chord(center=1/4, step=1/8)=-0.000110841279747067061025311826044
+fixed-marginal entropy/KL identity at t=1/4: PASS
+3-point probabilities/validity: PASS; conditional acceleration=0.588940501149584620147834976893
+3-point complete H''(0)=-1.19092532052414002574492607781
+measurement-mixture defect=0.00749765224124968243648091656991; actual chord=-0.0210289067083813753411354608544
+rank-two full-occupancy polynomial=t**4/10000 - t**2/200 + 1/16; degree in s is 2
+rank-two curvature coefficient 12sQ (hence -10s<Q,L> after J extraction): PASS
+INDEPENDENT CHECKS PASSED
