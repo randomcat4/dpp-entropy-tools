@@ -2,9 +2,13 @@
 
 ## 服务器独立核验与后继整合
 
+第五批已合入 [PR32](https://github.com/randomcat4/dpp-entropy-tools/pull/32) 及其第二轮独立审核 [PR38](https://github.com/randomcat4/dpp-entropy-tools/pull/38)。[新审核](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md)接受：固定严格实块 `A,C`，若一个块至多二维，则任意真实交叉块 `B` 的 `K(t)=[[A,tB],[tB^T,C]]` 在整个合法区间上熵凹，`B!=0` 时严格 Jensen 凹；任意环境维数中 `B` 只有至多两列或两行实际坐标非零也成立。该结论不等同于任意稠密 rank-two 交叉块定理。证明使用完整条件 DPP 的 Schur 分解和二维凹性；32+64 个全事件恒等式及通用二维 determinant pencil 已独立精确核对。
+
+PR32 以 `1469e123293e68e1ab3836e8ec5e06a0beb2db61` 合入；它只比审定头 `a8c337826ec87cf09a0cf63ea5dcd4de5de70dc8` 多一处明确乱码修正“列全为雰”→“列全为零”，没有数学公式变化。端点严格性与中心 `H''(0)=0` 已在审阅中区分。一般 rank-two 和一般实核仿射凹性仍开放。
+
 第四批已合入 [PR29](https://github.com/randomcat4/dpp-entropy-tools/pull/29) 和独立审核 [PR36](https://github.com/randomcat4/dpp-entropy-tools/pull/36)、[PR37](https://github.com/randomcat4/dpp-entropy-tools/pull/37)。C3 原作者未自批：C1 新非作者分别接受其[径向有限/真实熵率定理](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)和[固定 C3-M1 真实熵率负 gap 证书](../research/C1-verification-20260909/children/c3/review_rate_certificate.md)，后者服务器重放六个边界及每边界 66 残差行，并独立以置换行列式复算 288 项，gap 上端约 `-8.4037273824e-7<0`。径向基础与 W2 去重，固定弦证书单独记账。符号输入说明中“conjugate-transpose”的一句非阻塞文案不精确；实际脚本负号转换得到真 Fourier 系数，冻结源未改，审阅已明确解释。
 
-PR37 已补入 [PR30 新审阅及 cert60 服务器证据](../research/C2/verification2/beta/REVIEW.md)；前一批 docs 中的副本是同一报告，不另计审稿人。PR36 还接受 [W1 首轮固定严格块、rank-one 交叉块的全弦定理](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)。PR32 已新增真实第二轮文稿，仍单独审查中；首轮接受不覆盖新稿，当前未整体合入 PR32。
+PR37 已补入 [PR30 新审阅及 cert60 服务器证据](../research/C2/verification2/beta/REVIEW.md)；前一批 docs 中的副本是同一报告，不另计审稿人。PR36 还接受 [W1 首轮固定严格块、rank-one 交叉块的全弦定理](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)。PR32 的真实第二轮文稿后来另经 PR38 审阅接受，首轮判定没有被用于替代新稿核验。
 
 第三批已合入 PR22、23、31、35、30，均保留 merge 祖先关系。[基础三项非作者审定](verification_20260909/base_prs.md)、[PR30 新鲜非作者审阅](verification_20260909/pr30_fresh.md)、[W3 审阅及精确服务器输出](../research/C2/verification2/w3/REVIEW.md)给出下列 **ACCEPTED_SCOPED** 结果。合并不升级任何超出范围的作者候选。
 

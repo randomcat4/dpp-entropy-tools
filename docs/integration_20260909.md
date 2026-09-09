@@ -1,5 +1,14 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 5
+
+| PR | 合入头 | merge commit | 独立依据 |
+| --- | --- | --- | --- |
+| [32](https://github.com/randomcat4/dpp-entropy-tools/pull/32) | `1469e123293e68e1ab3836e8ec5e06a0beb2db61` | `25fd44ec4d791348cf704c49ecb846b65acc2232` | 首轮 [PR36 报告](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)与第二轮 [PR38 报告](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md)分别审定 |
+| [38](https://github.com/randomcat4/dpp-entropy-tools/pull/38) | `d0ee74fd1355f4c364aa914ccebf6527256898f1` | `fa347cbf16d438d2486c10b3b554de5adf34d2b3` | 32+64 完整事件精确检查、一般二维矩阵铅笔符号恒等式为零、边界严格性说明 |
+
+PR32 原审定头是 `a8c337826ec87cf09a0cf63ea5dcd4de5de70dc8`。按非作者审阅明确要求，新增一个父接该头的文字修正提交，唯一差异是 `research/I05-W1-20260909-R2/frozen_statement.part02.md:1` 中“列全为雰”改为“列全为零”。GitHub compare 已核实无其他变化，数学内容继承相同审定。公开原冻结提交仍可访问。当前剩余旧队列 PR33/W4 尚在单独审查。
+
 ## 后继整合批次 4
 
 | PR | 冻结头 | merge commit | 独立依据 |
