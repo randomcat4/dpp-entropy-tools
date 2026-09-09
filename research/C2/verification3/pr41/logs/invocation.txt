@@ -1,0 +1,9 @@
+started_at_utc=2026-09-09T10:22:32Z
+runner_pid=171670
+task_dir=/root/i05-seven-fronts-20260909/C2/verification3/pr41
+python_bin=/root/i05-seven-fronts-20260909/C2/.venv/bin/python
+source_round2=/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2
+out_path=/root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json
+memory_limit_kib=4194304
+timeout_seconds=2700
+command=/root/i05-seven-fronts-20260909/C2/.venv/bin/python /root/i05-seven-fronts-20260909/C2/verification3/pr41/verify_pr41_independent.py --source-round2 /root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2 --out /root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json

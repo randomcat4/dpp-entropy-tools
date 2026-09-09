@@ -1,0 +1,312 @@
+{
+  "algorithm": [
+    "Build principal-minor determinants for every subset.",
+    "Apply Mobius inclusion-exclusion for all full events.",
+    "Differentiate p(K+tD) at t=0 for first and second jets.",
+    "Compare exact Fisher, acceleration, block, and coordinate identities.",
+    "Use SymPy exact simplification only; no floating point proof steps."
+  ],
+  "argv": [
+    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/verify_pr41_independent.py",
+    "--source-round2",
+    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2",
+    "--out",
+    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json"
+  ],
+  "checks": [
+    {
+      "details": {
+        "duration_seconds": 8.351237,
+        "returncode": 0,
+        "source_lines": [
+          "README.md:21-31",
+          "code/verify_symbolic.py:329-335",
+          "outputs/verify_symbolic.txt:1-6"
+        ],
+        "status": "PASS",
+        "stderr": [],
+        "stdout": [
+          "symmetric connected family: exact checks passed",
+          "two-point conditional entropy lemma: algebraic checks passed",
+          "block factorization: all eight-event checks passed",
+          "general missing-edge event coordinates: exact checks passed",
+          "exact input manifest: parsed",
+          "ALL SYMBOLIC CHECKS PASSED"
+        ]
+      },
+      "duration_seconds": 8.35149,
+      "name": "author_script_replay_subprocess",
+      "started_at_unix": 1788949352.2606215,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "acceleration_group_sums": {
+          "A_0": "Delta**2 - P**2 + 4*R**2",
+          "A_minus": "-(Delta**2 + 2*H**2 + 2*N**2 - P**2 - 4*P*Z + 4*R**2)/2",
+          "A_plus": "-(Delta**2 - 2*H**2 - 2*N**2 - P**2 + 4*P*Z + 4*R**2)/2"
+        },
+        "event_probabilities": [
+          "-(8*k**2 - 1)/8",
+          "1/8",
+          "1/8",
+          "(8*k**2 + 1)/8",
+          "(8*k**2 + 1)/8",
+          "1/8",
+          "1/8",
+          "-(8*k**2 - 1)/8"
+        ],
+        "events_checked": [
+          "0",
+          "1",
+          "2",
+          "12",
+          "3",
+          "13",
+          "23",
+          "123"
+        ],
+        "fisher_block": [
+          [
+            "(s**4 + 2*s**2 - 4)/(2*(s - 1)*(s + 1))",
+            "s*(s**2 - 2)/((s - 1)*(s + 1))",
+            "-s**4/((s - 1)*(s + 1))"
+          ],
+          [
+            "s*(s**2 - 2)/((s - 1)*(s + 1))",
+            "2*(s**2 - 2)/((s - 1)*(s + 1))",
+            "-2*s**3/((s - 1)*(s + 1))"
+          ],
+          [
+            "-s**4/((s - 1)*(s + 1))",
+            "-2*s**3/((s - 1)*(s + 1))",
+            "2*s**2*(s**2 - 2)/((s - 1)*(s + 1))"
+          ]
+        ],
+        "source_lines": [
+          "frozen_statement.md:7-25",
+          "frozen_statement.md:27-59",
+          "proof.md:22-50",
+          "proof.md:52-137",
+          "proof.md:139-213"
+        ]
+      },
+      "duration_seconds": 1.354515,
+      "name": "independent_strong_family_full_events_jets_fisher_acceleration",
+      "started_at_unix": 1788949360.6125755,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "G0": [
+          [
+            "2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "Gprime_leading_minors": [
+          "s*(s**4 - s**2 + 1)/((s - 1)**2*(s + 1)**2)",
+          "-s**2*(s**4 - s**2 + 4)/((s - 1)**3*(s + 1)**3)",
+          "-48*s**3/((s - 1)**3*(s + 1)**3)"
+        ],
+        "positive_interval_reasoning": [
+          "0<s<1 gives Ds=(1-s)(1+s)>0",
+          "s^4-s^2+1=(s^2-1/2)^2+3/4>0",
+          "s^4-s^2+4>0",
+          "s^4-3*s^2+3=(s^2-3/2)^2+3/4>0"
+        ],
+        "source_lines": [
+          "proof.md:215-283"
+        ]
+      },
+      "duration_seconds": 0.537577,
+      "name": "independent_strong_family_G_certificate",
+      "started_at_unix": 1788949361.9679642,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "direction_map": {
+          "d1": "d1",
+          "d2": "d2",
+          "d3": "d3",
+          "h12": "-h12",
+          "h13": "h13",
+          "h23": "-h23"
+        },
+        "jets_compared": [
+          "p",
+          "p'",
+          "p''"
+        ],
+        "source_lines": [
+          "frozen_statement.md:38-48",
+          "proof.md:281-283"
+        ]
+      },
+      "duration_seconds": 1.299414,
+      "name": "independent_sigma_minus_conjugation",
+      "started_at_unix": 1788949362.5060487,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "det_I_minus_K": "1/72",
+        "det_K": "1/72",
+        "event_probabilities": [
+          "1/72",
+          "1/8",
+          "1/8",
+          "17/72",
+          "17/72",
+          "1/8",
+          "1/8",
+          "1/72"
+        ],
+        "k": "1/3",
+        "old_domain": {
+          "abs_kappa_bound": "1/16",
+          "s_bound": "1/32"
+        },
+        "s": "8/9",
+        "source_lines": [
+          "frozen_statement.md:61-67",
+          "proof.md:285-314",
+          "inputs/exact_inputs.json:4-17"
+        ]
+      },
+      "duration_seconds": 0.002021,
+      "name": "independent_rational_strong_coupling_witness",
+      "started_at_unix": 1788949363.805997,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "analytic_sign_step_not_mechanized": "For q>=1, q-1/q-2log(q) has nonnegative derivative and vanishes at q=1.",
+        "checked_identities": [
+          "delta formula",
+          "2x2 determinant",
+          "log-inequality derivative"
+        ],
+        "source_lines": [
+          "frozen_statement.md:89-95",
+          "proof.md:316-463"
+        ]
+      },
+      "duration_seconds": 0.076094,
+      "name": "independent_two_point_conditional_entropy_algebra",
+      "started_at_unix": 1788949363.8083003,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "events_checked": [
+          "0",
+          "1",
+          "2",
+          "12",
+          "3",
+          "13",
+          "23",
+          "123"
+        ],
+        "identities": [
+          "p factorization",
+          "p' factorization",
+          "p'' marginal sums",
+          "Fisher split",
+          "acceleration cancellation"
+        ],
+        "source_lines": [
+          "frozen_statement.md:69-96",
+          "proof.md:465-517",
+          "inputs/exact_inputs.json:19-27"
+        ]
+      },
+      "duration_seconds": 2.370669,
+      "name": "independent_block_factorization",
+      "started_at_unix": 1788949363.884919,
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "conditional_events": [
+          "00",
+          "10",
+          "01",
+          "11"
+        ],
+        "fisher_expression_checked": true,
+        "inverse_checked": [
+          "h12",
+          "h13",
+          "h23",
+          "d3"
+        ],
+        "jacobian": "8*b**2*c**2/(x**2*y**2*(x - 1)**2*(y - 1)**2)",
+        "source_lines": [
+          "frozen_statement.md:108-119",
+          "proof.md:519-612"
+        ]
+      },
+      "duration_seconds": 9.593086,
+      "name": "independent_missing_edge_transform_and_fisher",
+      "started_at_unix": 1788949366.2561622,
+      "status": "PASS"
+    }
+  ],
+  "dependencies": {
+    "sympy": "1.14.0"
+  },
+  "domain": {
+    "directions": "all six real symmetric affine directions",
+    "entropy": "complete-configuration Shannon entropy for finite DPPs",
+    "kernel": "real symmetric 3x3 strict contraction"
+  },
+  "duration_seconds": 23.591247,
+  "frozen_pr_commit": "6fd61dcd299417fc3a4eab3af682c03dd816b670",
+  "limitations": [
+    "This is a bounded exact computational review, not a C1 analytic review of the full theorem.",
+    "It verifies stated finite symbolic identities and the recorded one-dimensional positivity certificate.",
+    "It does not prove the unresolved general connected missing-edge 6x6 inequality.",
+    "It does not certify novelty.",
+    "It is not a proof-assistant formalization."
+  ],
+  "pid": 171674,
+  "runtime": {
+    "env_thread_limits": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONHASHSEED": "0",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "sympy": "1.14.0"
+  },
+  "source_files": {
+    "author_verifier": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/code/verify_symbolic.py",
+    "frozen_statement": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/frozen_statement.md",
+    "handoff": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/HANDOFF.md",
+    "inputs": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/inputs/exact_inputs.json",
+    "proof": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/proof.md",
+    "requirements": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/requirements.txt"
+  },
+  "source_round2": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2",
+  "started_at_unix": 1788949352.2586017,
+  "status": "PASS",
+  "task": "C2 verification3 PR41 / issue 45"
+}
