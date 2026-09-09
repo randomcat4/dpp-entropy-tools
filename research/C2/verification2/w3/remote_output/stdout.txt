@@ -1,0 +1,5 @@
+PASS_SCOPED_EXACT_CHECKS
+positive_support=26 zero_events=6
+uniform_margin=161215319/3998000000
+margin_minus_1_over_25=1295319/3998000000
+output=/root/i05-seven-fronts-20260909/C2/verification2/w3/independent_output/independent_certificate.json

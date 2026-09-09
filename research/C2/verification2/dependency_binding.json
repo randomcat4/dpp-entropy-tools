@@ -1,0 +1,17 @@
+[
+  {
+    "path": "research/N3/inequality/optimizer_sherman_morrison_lemma.md",
+    "pr24_blob": "36adad435bbbfe5861a6202bec569d4eec8dfefc",
+    "identical_to_pr30": true
+  },
+  {
+    "path": "research/N3/inequality/slice_fisher_covariance_lemma.md",
+    "pr24_blob": "109d2480aad1c188b7c373b4dbb73f39ad7b676f",
+    "identical_to_pr30": true
+  },
+  {
+    "path": "research/N3/round2/inequality/rayleigh_beta_zero_obstruction.md",
+    "pr24_blob": "3e614e53f009bc118a07605ba685c663f540536d",
+    "identical_to_pr30": true
+  }
+]
