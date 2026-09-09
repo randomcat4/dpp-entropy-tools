@@ -1,7 +1,9 @@
 # C1 independent FIRST: PR62 and PR66
 
-Status: two fresh author-only FIRSTs are in progress. No verdict is inherited
-from earlier reviews or from author checkers.
+Status: PR62's analytic midpoint theorem and sufficiently small strict
+bit-flip lift are CORRECT / ACCEPTED_SCOPED and READY for C3 SECOND.
+Its finite fixtures retain separate evidence gates. PR66 FIRST is in
+progress. No verdict is inherited from earlier reviews or author checkers.
 
 | Unit | Frozen author head | Complete changed packet |
 |---|---|---|
@@ -31,3 +33,9 @@ Web research tasks continue without interruption.
 See [frozen scope](frozen_theorem_v1.md), [status](STATUS.md),
 [claim ledger](lemma_ledger.md), [provenance](provenance.md) and
 [rounds](rounds.md). Earlier C1 reports are unchanged.
+
+PR62: [mathematical FIRST](units/pr62/review_report.md),
+[static-code review](units/pr62/code_review.md), [reviewer scope](units/pr62/frozen_scope.md).
+The numerical margin uses high-precision evaluations without outward
+enclosures; it is not accepted as a rigorous finite sign certificate.
+See [handoff](HANDOFF.md) and [finite obligations](computation_handoff.md).
