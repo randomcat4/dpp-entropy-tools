@@ -1,0 +1,11 @@
+{
+  "origin": "public immutable GitHub commit",
+  "scope": "Theorem FR first review only; original five-file packet unchanged",
+  "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+  "files": 1,
+  "lines": 473,
+  "commit": "abdd660a6c7761c7a8a53cb8671b4d2543530a5c",
+  "pr": 53,
+  "blob": "c65a4e22ed6ee5c69d1b084cfd04d8e77e8d6263",
+  "parent": "e0688fbb713e55f93acf791b83437ddf2cc06b7f"
+}

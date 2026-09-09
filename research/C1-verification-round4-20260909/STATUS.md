@@ -4,7 +4,8 @@
 
 | Unit | Frozen source | First review | Second review |
 |---|---|---|---|
-| PR53, original five-file packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED | ACTIVE per C3; no C1 second |
+| PR53, original five-file packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED | READY after C3 second, per C3; no C1 second |
+| PR53 new Theorem FR, separate 473-line file | abdd660a6c7761c7a8a53cb8671b4d2543530a5c | RUNNING in fresh non-author context; no verdict yet | Reserved to C3 after first |
 | PR54, original three-file packet | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: core results ACCEPTED_SCOPED; original Section 5 findings retained in historical report | Reserved to C3 after repair closure |
 | PR54 Section 5 three-request repair | a1e7f7208262565bb3db0509ff0cccffab757e98, parent c8486bcdb18a85f93dd27930686cc1d4146804f5 | CLOSED / ACCEPTED_SCOPED by original first reviewer | READY FOR C3 fresh original-unit second |
 
@@ -31,8 +32,13 @@ separate. This is a first-review repair follow-up, not a second review.
 
 C3's updated assignment explicitly includes all four appended units.
 No C1 appendix audit, duplicate review or new second context was started.
-C1's original first reviewer has completed the bounded repair follow-up;
-no C1 reviewer or arithmetic job is running.
+C1's original PR54 first reviewer has completed the bounded repair follow-up.
+One fresh C1 first reviewer is now auditing only PR53's new Theorem FR.
+No C1 arithmetic job is running.
+
+PR53 has not merged: the new theorem changed the head while C3 was checking
+the reviewed commit before merge. Its original five-file verdict does not
+cover Theorem FR. See frozen_theorem_v3.md for the exact new first-review scope.
 
 ## Remaining limits
 
