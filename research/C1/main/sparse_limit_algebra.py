@@ -1,0 +1,26 @@
+"""Check the corrected sparse limiting system; asymptotics need a proof."""
+import os,json,sys
+from pathlib import Path
+import sympy as S
+import mpmath as mp
+
+lam,k,m=S.symbols('lam k m',positive=True)
+a=1-lam; C=a+lam*k; R=1+lam*k; H=1/C+1/lam
+# V=v/sqrt(k). Include empty/singleton contributions in b1.
+A11=4*lam**2*k*H+2*m
+A12=2*lam*(a/C-1)
+A21=k*A12
+A22=a*a/C+lam
+b1=(2*lam*R*H-2/a)/m
+b2=1-R*(1-a/C)/m
+sol=S.simplify(S.Matrix([[A11,A12],[A21,A22]]).inv()*S.Matrix([b1,b2]))
+raw=(-k-R/C+1/a)/m+(2*k*R/C)*sol[0]-(lam*k/C)*sol[1]
+expr=S.factor(raw)
+expected=k*((2*lam-1)-lam*a*m)/(a*(2*lam*k+m*(a+lam**2*k)))
+assert S.simplify(expr-expected)==0
+out={'status':'SYMBOLIC_LIMIT_SYSTEM_CHECKED_NOT_ASYMPTOTIC_PROOF','pid':os.getpid(),'python':sys.version,'sympy':S.__version__,'coefficient':str(expr),'V':str(S.factor(sol[0])),'z':str(S.factor(sol[1])),'determinant':str(S.factor(A11*A22-A12*A21)),'fixed_values':[]}
+mp.mp.dps=70; f=S.lambdify((lam,k,m),expr,'mpmath')
+for kk in [mp.mpf(1)/10,mp.mpf(1),mp.mpf(10)]:
+    ll=mp.mpf(7)/10; mm=mp.log((1-ll+ll*kk)/(1-ll))
+    out['fixed_values'].append({'lambda':'7/10','kappa':str(kk),'coefficient':mp.nstr(f(ll,kk,mm),60)})
+Path('sparse_limit_algebra.json').write_text(json.dumps(out,indent=2),encoding='utf-8');print(json.dumps(out,indent=2))

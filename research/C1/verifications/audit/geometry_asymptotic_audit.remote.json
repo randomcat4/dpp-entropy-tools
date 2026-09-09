@@ -1,0 +1,113 @@
+{
+  "exit_status_if_printed": 0,
+  "non_coverage": [
+    "Finite floating diagnostics only.",
+    "No explicit uniform collar radius.",
+    "No proof of B0 on its full beta-zero domain."
+  ],
+  "numpy": "2.1.2",
+  "pid": 164365,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "python_executable": "/opt/venv/bin/python",
+  "rows": [
+    {
+      "Delta": 1.0,
+      "L": 9.210340371976184,
+      "beta": -7.29857782787215e-06,
+      "beta_ratio_to_section_1": 0.5624228327624815,
+      "detN_alpha": 0.8444209258704302,
+      "gap_ratio_to_1_over_lambda_L": 1.0030553592431766,
+      "label": "plain_C_equals_I",
+      "min_atom": 7.000999996745194e-09,
+      "raw_gMh": -0.0872488697727193,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.5625142513738782,
+      "tau": 0.0001
+    },
+    {
+      "Delta": 1.0,
+      "L": 13.815510557964274,
+      "beta": -6.167382004030504e-08,
+      "beta_ratio_to_section_1": 0.7128806198768292,
+      "detN_alpha": 0.8960329340326215,
+      "gap_ratio_to_1_over_lambda_L": 1.00545066828702,
+      "label": "plain_C_equals_I",
+      "min_atom": 7.000025559200651e-13,
+      "raw_gMh": -0.07371435202171632,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.7128809860406619,
+      "tau": 1e-06
+    },
+    {
+      "Delta": 1.0,
+      "L": 18.420680743952367,
+      "beta": -4.966507540514656e-10,
+      "beta_ratio_to_section_1": 0.7654305553077423,
+      "detN_alpha": 0.9220148549442788,
+      "gap_ratio_to_1_over_lambda_L": 1.0055776218895784,
+      "label": "plain_C_equals_I",
+      "min_atom": 6.938893903907228e-17,
+      "raw_gMh": -0.05962192387241128,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.7687934974957442,
+      "tau": 1e-08
+    },
+    {
+      "Delta": 1.0,
+      "L": 13.815510557964274,
+      "beta": -6.167382004030504e-08,
+      "beta_ratio_to_section_1": 0.7128806198768292,
+      "detN_alpha": 0.8960329340326215,
+      "gap_ratio_to_1_over_lambda_L": 1.00545066828702,
+      "label": "affine_ratio_0.0",
+      "min_atom": 7.000025559200651e-13,
+      "raw_gMh": -0.07371435202171632,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.7128809860406619,
+      "tau": 1e-06
+    },
+    {
+      "Delta": 0.888,
+      "L": 13.815510557964274,
+      "beta": -5.812005663379977e-08,
+      "beta_ratio_to_section_1": 0.7129113106106746,
+      "detN_alpha": 0.8963257988568482,
+      "gap_ratio_to_1_over_lambda_L": 1.0026184143372083,
+      "label": "affine_ratio_0.25",
+      "min_atom": 6.215982589763414e-13,
+      "raw_gMh": -0.07371775525434726,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.7129138982181026,
+      "tau": 1e-06
+    },
+    {
+      "Delta": 0.6640000000000001,
+      "L": 13.815510557964274,
+      "beta": -5.0165532259001755e-08,
+      "beta_ratio_to_section_1": 0.7116023012865194,
+      "detN_alpha": 0.8968677081381554,
+      "gap_ratio_to_1_over_lambda_L": 0.9973776869590567,
+      "label": "affine_ratio_0.75",
+      "min_atom": 4.648035428767017e-13,
+      "raw_gMh": -0.07358199688762929,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.7116009984139957,
+      "tau": 1e-06
+    },
+    {
+      "Delta": 0.552,
+      "L": 13.815510557964274,
+      "beta": -4.560141729149435e-08,
+      "beta_ratio_to_section_1": 0.7094548483247961,
+      "detN_alpha": 0.8970695445131287,
+      "gap_ratio_to_1_over_lambda_L": 0.9954257561604595,
+      "label": "affine_ratio_1.0",
+      "min_atom": 3.864009806564539e-13,
+      "raw_gMh": -0.07336011898081608,
+      "raw_ratio_to_minus_1_over_lambda_L": 0.709455248819086,
+      "tau": 1e-06
+    }
+  ],
+  "status": "PASS",
+  "thread_env": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

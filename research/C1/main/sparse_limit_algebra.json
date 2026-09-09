@@ -1,0 +1,27 @@
+{
+  "status": "SYMBOLIC_LIMIT_SYSTEM_CHECKED_NOT_ASYMPTOTIC_PROOF",
+  "pid": 164431,
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "sympy": "1.13.3",
+  "coefficient": "-k*(lam**2*m - lam*m + 2*lam - 1)/((lam - 1)*(k*lam**2*m + 2*k*lam - lam*m + m))",
+  "V": "k*lam*(lam**2*m - lam*m + 2*lam - 1)/(m*(lam - 1)*(k*lam**2*m + 2*k*lam - lam*m + m))",
+  "z": "(k**2*lam**3*m - k**2*lam**2*m + 2*k**2*lam**2 + k*lam**2*m**2 + k*lam**2*m - k*lam*m**2 - k*lam*m - lam**2*m**2 + 2*lam*m**2 - m**2)/(m*(lam - 1)*(k*lam**2*m + 2*k*lam - lam*m + m))",
+  "determinant": "2*(k*lam**2*m + 2*k*lam - lam*m + m)/(k*lam - lam + 1)",
+  "fixed_values": [
+    {
+      "lambda": "7/10",
+      "kappa": "0.1",
+      "coefficient": "0.556552953175577553128267983348829037704782235817573197784152"
+    },
+    {
+      "lambda": "7/10",
+      "kappa": "1.0",
+      "coefficient": "0.208644606469760128020070130055479625783060336123086192867921"
+    },
+    {
+      "lambda": "7/10",
+      "kappa": "10.0",
+      "coefficient": "-0.294454310303997556780068145152890055056461321123158998524832"
+    }
+  ]
+}

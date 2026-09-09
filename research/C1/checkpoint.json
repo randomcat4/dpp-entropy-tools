@@ -1,0 +1,68 @@
+{
+  "task_id": "I05-C1-20260909",
+  "status": "STOPPED_SUBSTANTIVE",
+  "stopped_at_utc": "2026-09-09 03:44:30 UTC",
+  "result": "PARTIAL",
+  "frozen_statement": "frozen_statement.md",
+  "frozen_partial_statement": "frozen_partial_statement.md",
+  "global_beta_zero_result": "INCOMPLETE",
+  "counterexample": false,
+  "novelty": "NOT_CERTIFIED",
+  "formal_verification": "L0_ENVIRONMENT_ONLY",
+  "accepted_partial": "Every sufficiently small epsilon has an exact beta zero in the frozen sparse family; all such zeros in [1,10] have d alpha=1-10/(7 log(1/epsilon))+O(log(1/epsilon)^-2)<1 and approach 1. No uniform positive safety margin on the full zero set.",
+  "independent_verification": {
+    "sparse_partial": [
+      "audit: CORRECT",
+      "fresh_review: CORRECT"
+    ],
+    "full_support_collar": "audit: CORRECT",
+    "formula_and_tilt": "audit: CORRECT",
+    "finite_rational_certificate": "audit: CORRECT, explicit --cert-steps 60",
+    "interval_soundness_note": "audit: CORRECT"
+  },
+  "issue": "https://github.com/randomcat4/dpp-entropy-tools/issues/28",
+  "draft_pr": "https://github.com/randomcat4/dpp-entropy-tools/pull/30",
+  "public_branch": "research/c1-beta-zero-20260909",
+  "draft_pr_base": "research/N3-successor-20260909",
+  "merge_authorized": false,
+  "source_commit": "e988aa3003484f6368133b8bc0c668331629e369",
+  "source_tree": "e7c177ca74da59744443dbfcaadafd98724767ec",
+  "frozen_sparse_author_commit": "0ff950c685228a9c76be0aa6dbbed77f077899a1",
+  "frozen_sparse_sha256": "b096a9986d123652849704ed001439b63373591153f4bbd321f8023d9ab98e9f",
+  "initial_direct_children": [
+    "geometry",
+    "mechanism",
+    "audit"
+  ],
+  "subsequent_replacement_context": "fresh_review after geometry ended",
+  "maximum_active_children": 3,
+  "recursive_children": false,
+  "all_child_contexts_ended": true,
+  "main_completed_server_pids": [
+    162887,
+    163223,
+    164297,
+    164431
+  ],
+  "child_completed_successful_server_pids": [
+    163575,
+    163959,
+    164324,
+    164712,
+    164711,
+    164000,
+    164365,
+    165270,
+    165426,
+    165603,
+    165764
+  ],
+  "active_owned_mathematical_server_jobs": [],
+  "threads_per_job": 1,
+  "gpu": false,
+  "scheduled_continuation": false,
+  "unresolved_minimum_assertion": "For every remaining connected strict real 3x3 beta-zero kernel, the complete Fisher at the true M optimizer dominates the cofactor term; equivalently d alpha<=1.",
+  "handoff": "HANDOFF.md contains exactly two proposed tasks; neither is scheduled.",
+  "artifact": "I05-C1-20260909_result.zip",
+  "publication_note": "Final local/public commit and identical tree mapping is reported on Draft PR #30 after release validation; neither commit hash is self-embedded in the committed tree."
+}

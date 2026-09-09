@@ -1,0 +1,25 @@
+Exit and process record for C1 fresh_review independent checks
+
+Main run:
+- script: independent_sparse_check.py
+- output: independent_sparse_check.out
+- PID recorded by script: 165426
+- exit status observed by wrapper: 0
+
+Endpoint run:
+- script: endpoint_check.py
+- output: endpoint_check.out
+- exit status observed by wrapper: 0
+
+Runtime:
+- Python: 3.12.3
+- mpmath: 1.3.0
+- OMP_NUM_THREADS=1
+- OPENBLAS_NUM_THREADS=1
+- MKL_NUM_THREADS=1
+- NUMEXPR_NUM_THREADS=1
+
+Post-run process check:
+- No process from /root/i05-seven-fronts-20260909/C1/fresh_review remained running after the checks; the only pgrep hit was the pgrep command itself.
+
+No server connection command, host, port, or credential is recorded in this file.

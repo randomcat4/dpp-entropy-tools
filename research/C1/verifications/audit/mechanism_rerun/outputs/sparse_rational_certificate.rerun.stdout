@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/root/i05-seven-fronts-20260909/C1/audit/mechanism_rerun/scripts/sparse_rational_certificate.py", line 460, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/i05-seven-fronts-20260909/C1/audit/mechanism_rerun/scripts/sparse_rational_certificate.py", line 400, in main
+    cert = certificate(cert_exp, *coarse_by_exp[cert_exp], ns.cert_steps, max(280, 160 + 20 * cert_exp))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/i05-seven-fronts-20260909/C1/audit/mechanism_rerun/scripts/sparse_rational_certificate.py", line 340, in certificate
+    whole_i = interval_quantities(exp, left, right)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/i05-seven-fronts-20260909/C1/audit/mechanism_rerun/scripts/sparse_rational_certificate.py", line 277, in interval_quantities
+    assert min(x.lo for x in p) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
