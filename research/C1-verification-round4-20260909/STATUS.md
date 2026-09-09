@@ -6,6 +6,7 @@
 | PR54, original three-file packet, core results and conditional interfaces | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: ACCEPTED_SCOPED within report limits, ready for C3 | NOT STARTED by C1; reserved to C3 |
 | PR54 original Section 5 | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: NEEDS_FIX, three local repairs below | Reserved to C3; repair delta needs exact binding |
 | PR54 addenda and endpoint code/output extension | C3 freeze c3b9e968c0b4557546c7b10137ef4fff295338b4 | ASSIGNED TO C3 first reviewer; not reviewed by C1 | Reserved to C3 |
+| PR54 outer-wedge/flow/rate appendix and its separate fixture | c8486bcdb18a85f93dd27930686cc1d4146804f5 | UNREVIEWED separate increment; no C1 assignment | No review claimed here |
 
 ## PR54 repair requests on the original source
 
@@ -28,6 +29,13 @@ ADDENDUM_ENDPOINT_RARE_EVENT.md, ADDENDUM_RANK2_ENDPOINT_SPECTRUM.md,
 and only the endpoint-discriminant/root-separation code/output extension.
 It does not extend C1's original three-file first review. C3 reported
 RESULT.md unchanged at its c3b9e968 freeze.
+
+The exact c3b9e968-to-c8486bcd comparison adds only
+ADDENDUM_OUTER_WEDGE_FLOW_RATE.md (370 lines),
+code/verify_outer_wedge_and_flow.py (104 lines), and
+output/verify_outer_wedge_and_flow.json (32 lines). It changes none of the
+existing files. These three additions are outside both C1's original unit
+and C3's communicated c3b9e968 freeze; they require separately assigned review.
 
 No arithmetic job was necessary or started. No new formal theorem was
 checked. C2 retains large computation and issue52 derivative recomputation;

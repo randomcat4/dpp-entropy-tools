@@ -32,3 +32,12 @@ A later PR54 remote head was observed as
 `c8486bcdb18a85f93dd27930686cc1d4146804f5`. That observation alone is not
 a review of its changes or acceptance of any repair. The original source
 binding and the original findings remain immutable.
+
+The exact comparison from c3b9e968 to c8486bcd was then inspected for
+version classification. It contains exactly three additions and no changes
+to existing files: ADDENDUM_OUTER_WEDGE_FLOW_RATE.md (370 lines),
+code/verify_outer_wedge_and_flow.py (104 lines), and
+output/verify_outer_wedge_and_flow.json (32 lines). This is a substantive
+new outer-wedge/flow/rate unit with its own fixture, not a repair of original
+Section 5 and not part of C3's communicated three-appendix freeze. Its
+mathematical status is UNREVIEWED by C1; no additional reviewer was started.
