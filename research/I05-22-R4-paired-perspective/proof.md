@@ -187,9 +187,9 @@ and the analogous k_s-v sum is positive. Multiplication gives
 
 Proof. We already have N1>0. Directly
 
-    N0=diag(k_{side0,face0},ell_{side0,face0},0)+V0(I-K)>0.
+    N0=diag(k_{side0,face1},ell_{side0,face1},0)+V0(I-K)>0.
 
-Here the braces identify the side and the face, not matrix indices.
+Here the braces identify the side and the face, not matrix indices. The face-1 entries occur because k_{side0,face0}-V0=k_{side0,face1} and likewise for ell. The first checkpoint incorrectly printed face0 in this decomposition; that index is corrected here. The weighted N_s and the matrices (11)-(13) are unchanged.
 In particular `(N_s)12=0` for each side. For a physical direction with d=e=0,
 
     -2 tr(N_s adj D)
