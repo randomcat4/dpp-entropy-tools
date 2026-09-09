@@ -24,7 +24,7 @@
       "exit_code": 0,
       "label": "pip_install_requirements",
       "stderr": "",
-      "stdout": "Requirement already satisfied: sympy==1.14.0 in /root/i05-seven-fronts-20260909/C2/.venv/lib/python3.12/site-packages (from -r requirements.txt (line 1)) (1.14.0)\nRequirement already satisfied: mpmath<1.4,>=1.1.0 in /root/i05-seven-fronts-20260909/C2/.venv/lib/python3.12/site-packages (from sympy==1.14.0->-r requirements.txt (line 1)) (1.3.0)\n"
+      "stdout": "Requirement already satisfied: sympy==1.14.0 in [C2_EXECUTION_ROOT]/.venv/lib/python3.12/site-packages (from -r requirements.txt (line 1)) (1.14.0)\nRequirement already satisfied: mpmath<1.4,>=1.1.0 in [C2_EXECUTION_ROOT]/.venv/lib/python3.12/site-packages (from sympy==1.14.0->-r requirements.txt (line 1)) (1.3.0)\n"
     },
     {
       "command": [

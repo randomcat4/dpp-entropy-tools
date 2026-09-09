@@ -2,7 +2,7 @@
 set -u
 
 TASK_DIR="${1:-$(pwd)}"
-PYTHON_BIN="${PYTHON_BIN:-/root/i05-seven-fronts-20260909/C2/.venv/bin/python}"
+PYTHON_BIN="${PYTHON_BIN:-python3}"
 SOURCE_ROUND2="${SOURCE_ROUND2:-$TASK_DIR/source41_round2}"
 OUT_PATH="${OUT_PATH:-$TASK_DIR/evidence.json}"
 LOG_DIR="$TASK_DIR/logs"

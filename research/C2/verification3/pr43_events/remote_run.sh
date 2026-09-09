@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -u
 
-RUN_ROOT="${RUN_ROOT:-/root/i05-seven-fronts-20260909/C2/verification3/pr43_events}"
-PYTHON_BIN="${PYTHON_BIN:-/root/i05-seven-fronts-20260909/C2/.venv/bin/python}"
+RUN_ROOT="${RUN_ROOT:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)}"
+PYTHON_BIN="${PYTHON_BIN:-python3}"
 SOURCE_ROOT="${SOURCE_ROOT:-$RUN_ROOT/source43/randomcat4-dpp-entropy-tools-4e1369e/research/I05-W1-20260909-R2}"
 OUT_DIR="${OUT_DIR:-$RUN_ROOT/output}"
 LOG_DIR="$RUN_ROOT/logs"
@@ -44,7 +44,7 @@ cat > "$INVOCATION_FILE" <<EOF
 EOF
 
 START_EPOCH="$(date -u +%s)"
-timeout 45m "$PYTHON_BIN" "$RUN_ROOT/public/standalone_pr43_events.py" \
+timeout 45m "$PYTHON_BIN" "$RUN_ROOT/standalone_pr43_events.py" \
   --source-root "$SOURCE_ROOT" \
   --out-dir "$OUT_DIR" \
   --timeout-seconds 2700 \

@@ -7,11 +7,11 @@
     "Use SymPy exact simplification only; no floating point proof steps."
   ],
   "argv": [
-    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/verify_pr41_independent.py",
+    "[C2_EXECUTION_ROOT]/verification3/pr41/verify_pr41_independent.py",
     "--source-round2",
-    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2",
+    "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2",
     "--out",
-    "/root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json"
+    "[C2_EXECUTION_ROOT]/verification3/pr41/evidence.json"
   ],
   "checks": [
     {
@@ -298,14 +298,14 @@
     "sympy": "1.14.0"
   },
   "source_files": {
-    "author_verifier": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/code/verify_symbolic.py",
-    "frozen_statement": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/frozen_statement.md",
-    "handoff": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/HANDOFF.md",
-    "inputs": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/inputs/exact_inputs.json",
-    "proof": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/proof.md",
-    "requirements": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2/requirements.txt"
+    "author_verifier": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/code/verify_symbolic.py",
+    "frozen_statement": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/frozen_statement.md",
+    "handoff": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/HANDOFF.md",
+    "inputs": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/inputs/exact_inputs.json",
+    "proof": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/proof.md",
+    "requirements": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2/requirements.txt"
   },
-  "source_round2": "/root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2",
+  "source_round2": "[C2_EXECUTION_ROOT]/verification3/pr41/source41_round2",
   "started_at_unix": 1788949352.2586017,
   "status": "PASS",
   "task": "C2 verification3 PR41 / issue 45"

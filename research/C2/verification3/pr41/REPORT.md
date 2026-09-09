@@ -50,12 +50,12 @@ Durable final runner PID: `171670`. Python verifier PID recorded in evidence:
 `171674`.
 
 Recovery directory:
-`/root/i05-seven-fronts-20260909/C2/verification3/pr41`
+`[C2_EXECUTION_ROOT]/verification3/pr41`
 
 Final invocation, as recorded in `logs/invocation.txt`:
 
 ```text
-/root/i05-seven-fronts-20260909/C2/.venv/bin/python /root/i05-seven-fronts-20260909/C2/verification3/pr41/verify_pr41_independent.py --source-round2 /root/i05-seven-fronts-20260909/C2/verification3/pr41/source41_round2 --out /root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json
+[C2_EXECUTION_ROOT]/.venv/bin/python [C2_EXECUTION_ROOT]/verification3/pr41/verify_pr41_independent.py --source-round2 [C2_EXECUTION_ROOT]/verification3/pr41/source41_round2 --out [C2_EXECUTION_ROOT]/verification3/pr41/evidence.json
 ```
 
 Exit code: `0`.
@@ -64,7 +64,7 @@ Stdout:
 
 ```text
 STATUS PASS
-EVIDENCE /root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json
+EVIDENCE [C2_EXECUTION_ROOT]/verification3/pr41/evidence.json
 ```
 
 Stderr: empty.

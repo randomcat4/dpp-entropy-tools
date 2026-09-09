@@ -13,7 +13,7 @@
   "pid": 172008,
   "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
   "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
-  "python_executable": "/root/i05-seven-fronts-20260909/C2/.venv/bin/python",
+  "python_executable": "[C2_EXECUTION_ROOT]/.venv/bin/python",
   "resource_limits_requested": {
     "arithmetic_threads": "1",
     "gpu": "disabled by CUDA_VISIBLE_DEVICES",

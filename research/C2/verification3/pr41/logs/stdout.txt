@@ -1,2 +1,2 @@
 STATUS PASS
-EVIDENCE /root/i05-seven-fronts-20260909/C2/verification3/pr41/evidence.json
+EVIDENCE [C2_EXECUTION_ROOT]/verification3/pr41/evidence.json

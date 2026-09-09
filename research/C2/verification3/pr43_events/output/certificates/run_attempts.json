@@ -13,8 +13,8 @@
       "wrapper_pid": 172003,
       "status": "PASS",
       "exit_code": 0,
-      "checkpoint_path": "/root/i05-seven-fronts-20260909/C2/verification3/pr43_events/output/checkpoints",
-      "exit_status_path": "/root/i05-seven-fronts-20260909/C2/verification3/pr43_events/logs/exit_status.json"
+      "checkpoint_path": "[C2_EXECUTION_ROOT]/verification3/pr43_events/output/checkpoints",
+      "exit_status_path": "[C2_EXECUTION_ROOT]/verification3/pr43_events/logs/exit_status.json"
     }
   ]
 }
