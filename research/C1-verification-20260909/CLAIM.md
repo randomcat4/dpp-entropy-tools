@@ -1,6 +1,6 @@
 # C1 finite-kernel independent verification
 
-Status: RUNNING. This is verification and evidence integration, not a new
+Status: COMPLETE for the frozen review units. This is verification and evidence integration, not a new
 open-ended exploration line. The earlier C1/PR30 author result is excluded
 from self-acceptance. Only C3 may integrate into main.
 
@@ -13,7 +13,7 @@ Frozen first inputs:
 
 W1 round two is a distinct supplied claim. Its author artifact arrived at
 PR32 commit a8c337826ec87cf09a0cf63ea5dcd4de5de70dc8 in the separate
-`research/I05-W1-20260909-R2/` directory and is under a new review:
+`research/I05-W1-20260909-R2/` directory and received its own scoped acceptance:
 for fixed strict real symmetric contractions A (m by m), C (2 by 2), and
 fixed real B (m by 2), the whole-configuration entropy of
 K(t)=[[A,tB],[tB^T,C]] is concave on its entire feasible interval and strictly

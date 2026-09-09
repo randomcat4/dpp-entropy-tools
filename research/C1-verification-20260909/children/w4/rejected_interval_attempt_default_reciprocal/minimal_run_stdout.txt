@@ -1,0 +1,10 @@
+STAGE environment: PASS
+STAGE constants: PASS
+STAGE center_balanced_zero_edge: PASS
+STAGE center_balanced_all_positive_boundary: PASS
+STAGE center_balanced_mixed_cycle_boundary: PASS
+STAGE center_balanced_one_edge_12: PASS
+STAGE center_balanced_two_edge_path_12_13: PASS
+STAGE center_rare_opposite_diagonals_boundary: PASS
+STAGE center_author_noncommuting_example: PASS
+MINIMAL W4 CERTIFICATE PASS

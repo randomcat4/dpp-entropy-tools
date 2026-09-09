@@ -1,0 +1,30 @@
+{
+  "label": "balanced_two_edge_path_12_13",
+  "status": "PASS",
+  "connected": true,
+  "active": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "zero_rows": [],
+  "zero_rows_symbolic": true,
+  "K_leading_minors": [
+    "1/2",
+    "63/256",
+    "31/256"
+  ],
+  "I_minus_K_leading_minors": [
+    "1/2",
+    "63/256",
+    "31/256"
+  ],
+  "min_event_probability": "31/256",
+  "min_decimal_ldl_pivot_lower_endpoint": "0.00517864165181461157193428676228294516959633625481198690899752267875646883842690859259974011",
+  "min_decimal_ldl_pivot_lower_diagnostic": "5.178641651814611572E-3",
+  "max_decimal_pivot_width_diagnostic": "3.163E-47",
+  "diagnostic_min_residual_eig_active": 0.005178641638370018
+}

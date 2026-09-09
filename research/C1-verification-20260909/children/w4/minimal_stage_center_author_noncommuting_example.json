@@ -1,0 +1,30 @@
+{
+  "label": "author_noncommuting_example",
+  "status": "PASS",
+  "connected": true,
+  "active": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "zero_rows": [],
+  "zero_rows_symbolic": true,
+  "K_leading_minors": [
+    "1/4",
+    "127/1024",
+    "85367/921600"
+  ],
+  "I_minus_K_leading_minors": [
+    "3/4",
+    "383/1024",
+    "28519/307200"
+  ],
+  "min_event_probability": "28933/921600",
+  "min_decimal_ldl_pivot_lower_endpoint": "0.0494716566647714346448085040499715953624966884837385258208109331383750194675160765843169202",
+  "min_decimal_ldl_pivot_lower_diagnostic": "4.947165666477143464E-2",
+  "max_decimal_pivot_width_diagnostic": "3.647E-47",
+  "diagnostic_min_residual_eig_active": 0.04946381465582859
+}
