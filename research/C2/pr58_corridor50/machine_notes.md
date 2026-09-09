@@ -38,7 +38,7 @@ Run metadata from `research/C2/pr58_corridor50/outputs/run01`:
 - Absolute deadline marker: `2026-09-09T16:54:13Z`.
 - Exit status: `0`.
 - Arithmetic PID: `174584`; timeout PID: `174582`; wrapper PID `174568` per root run record.
-- Root confirmed the arithmetic PID absent around `2026-09-09T16:09:55Z`; root owns the precise absence timestamp.
+- Root confirmed the arithmetic PID absent at `2026-09-09T16:11:32Z`, as recorded in `execution/RUN_LEDGER.json`.
 - No exact checker-elapsed metadata is available. The guard UTC markers span 5 seconds at 1-second resolution; no finer runtime is inferred here.
 
 Saved artifacts:
@@ -46,7 +46,7 @@ Saved artifacts:
 - All six progress layers were emitted: `inputs`, `events`, `identities`, `corridor`, `s10`, `reference_compare`.
 - `MACHINE_PASS.json` reports status `MACHINE_PASS`, no failures, source commit `1770ed29e8487b8f39aebb4c9466406c7493e580`, and the expected one-process, one-thread, no-GPU bound.
 - The output directory contains 9 JSON artifacts validated by root, including `events.json`, `identities.json`, `corridor.json`, `s10.json`, and `reference_compare.json`.
-- `s10.json` is about 14 MB and stores the full 64 events with 6400 one-sided atanh log terms.
+- `s10.json` is about 14 MB and stores the full 64 events with 5120 one-sided atanh log terms (64 events times 80 terms).
 
 Finite certificate facts recorded by the artifacts:
 
