@@ -1,6 +1,6 @@
 # Proof of the polynomial-class theorem
 
-Throughout, complete DPP configuration probabilities are used. Inclusion probabilities alone never enter the entropy calculation.
+Throughout, complete DPP configuration probabilities are used. Inclusion probabilities alone never enter the entropy calculation. The only non-elementary imported response result is stated precisely in Section 6.
 
 ## 1. Choice of exponents
 
@@ -41,11 +41,15 @@ Submultiplicativity of `v_q` gives
 \|AB\|_{S_q}\le\|A\|_{S_q}\|B\|_{S_q}.
 \]
 
-For a Toeplitz compression, `\|T_I(u)\|_{S_q}\le\|u\|_{\mathcal A_q}`.
+For every Toeplitz compression,
 
-## 2. Uniform polynomial localization of all complete-event inverses
+\[
+\|T_I(u)\|_{S_q}\le\|u\|_{\mathcal A_q}.
+\]
 
-Let `I\subset\mathbb Z` be finite and let `x\in\{0,1\}^I`. Put
+## 2. Uniform polynomial localization of every complete-event inverse
+
+Let `I\subset\mathbb Z` be finite and `x\in\{0,1\}^I`. Put
 
 \[
 Z_x=\{i\in I:x_i=0\},
@@ -53,7 +57,7 @@ Z_x=\{i\in I:x_i=0\},
 M_{I,x}:=T_I(c)-I_{Z_x}.
 \]
 
-The complete-event formula is
+The full atom is
 
 \[
 \mathbf P_c(X_I=x)=(-1)^{|Z_x|}\det M_{I,x}.
@@ -61,7 +65,7 @@ The complete-event formula is
 
 ### 2.1 Dimension-free singular-value gap
 
-After ordering occupied coordinates before vacant coordinates, write
+Order occupied coordinates before vacant coordinates and write
 
 \[
 M=\begin{pmatrix}K_{SS}&K_{SZ}\\K_{ZS}&K_{ZZ}-I\end{pmatrix},
@@ -69,7 +73,7 @@ M=\begin{pmatrix}K_{SS}&K_{SZ}\\K_{ZS}&K_{ZZ}-I\end{pmatrix},
 J=I_S\oplus(-I_Z).
 \]
 
-Since `\delta I\le T_I(c)\le(1-\delta)I`, for `v=(u,w)` one has
+Since `\delta I\le T_I(c)\le(1-\delta)I`, for `v=(u,w)` the mixed terms cancel in the real part and
 
 \[
 \operatorname{Re}\langle v,JMv\rangle
@@ -79,12 +83,13 @@ Since `\delta I\le T_I(c)\le(1-\delta)I`, for `v=(u,w)` one has
 \ge\delta\|v\|_2^2.
 \]
 
-The cross terms cancel in the real part. Since `J` is unitary,
+Because `J` is unitary,
 
 \[
 \|Mv\|_2\ge\delta\|v\|_2,
 \qquad
 \|M^{-1}\|_{2\to2}\le\delta^{-1}.
+\tag{2.1}
 \]
 
 Also
@@ -93,11 +98,12 @@ Also
 -(1-\delta)I\le M\le(1-\delta)I,
 \qquad
 \|M\|_{2\to2}\le1-\delta.
+\tag{2.2}
 \]
 
-These estimates are uniform in `I` and `x`.
+Both estimates are uniform in `I` and `x`, and they remain valid for complex Hermitian Toeplitz kernels arising from real non-even symbols.
 
-### 2.2 Band truncation and a weighted inverse bound
+### 2.2 Band truncation and weighted inverse bound
 
 Let
 
@@ -107,8 +113,7 @@ c^{(W)}(\theta)=\sum_{|m|\le W}\widehat c(m)e^{2\pi i m\theta},
 B_{I,x}^{(W)}=T_I(c^{(W)})-I_{Z_x},
 \]
 
-and `E_I^{(W)}=T_I(c-c^{(W)})`, so that `M=B+E`.
-Choose `W` first so that
+and `E_I^{(W)}=T_I(c-c^{(W)})`, so `M=B+E`. Choose `W` so that
 
 \[
 \|E\|_{2\to2}
@@ -116,7 +121,7 @@ Choose `W` first so that
 \le\frac\delta4.
 \]
 
-Put `\eta=3\delta/4`. Then
+Put `\eta=3\delta/4`. Weyl's inequality and (2.1)–(2.2) give
 
 \[
 \sigma_{\min}(B)\ge\eta,
@@ -124,15 +129,16 @@ Put `\eta=3\delta/4`. Then
 \|B\|_{2\to2}\le1-\eta.
 \]
 
-Because `B` is Hermitian,
+Since `B` is Hermitian,
 
 \[
 B^{-1}=B\sum_{r\ge0}(I-B^2)^r,
 \qquad
 \|I-B^2\|_{2\to2}\le\rho:=1-\eta^2<1.
+\tag{2.3}
 \]
 
-The `r`-th term has bandwidth at most `(2r+1)W` and every entry is bounded by `\rho^r`. Consequently, for a constant depending only on `\delta,q`,
+The `r`-th term has bandwidth at most `(2r+1)W`; every entry is bounded by `\rho^r`. A row or column has at most `O((r+1)W)` entries in that band. Hence
 
 \[
 \|B^{-1}\|_{S_q}
@@ -140,9 +146,10 @@ The `r`-th term has bandwidth at most `(2r+1)W` and every entry is bounded by `\
 C_{\delta,q}W^{q+1}
 \sum_{r\ge0}(r+1)^{q+1}\rho^r
 =:L_{\delta,q}(W).
+\tag{2.4}
 \]
 
-The tail satisfies
+The tail obeys
 
 \[
 \|E\|_{S_q}
@@ -150,26 +157,26 @@ The tail satisfies
 \sum_{|m|>W}v_q(m)|\widehat c(m)|
 \le
 (1+W)^{q-p}\|c\|_{\mathcal A_p}.
+\tag{2.5}
 \]
 
-Thus
+Combining (2.4)–(2.5),
 
 \[
 \|B^{-1}E\|_{S_q}
-\le
-C(c,\delta,p)W^{2q+1-p}.
+\le C(c,\delta,p)W^{2q+1-p}.
 \]
 
-The exponent is negative. Increase the fixed `W`, independently of `I,x`, until the last quantity is at most `1/2`. The weighted Neumann series then gives
+The exponent is negative. Increase the fixed `W`, independently of `I,x`, until the last quantity is at most `1/2`. The weighted Neumann series gives
 
 \[
 \boxed{
 \sup_{I,x}\|M_{I,x}^{-1}\|_{S_q}\le B_q<\infty.
 }
-\tag{2.1}
+\tag{2.6}
 \]
 
-This is the first point where the polynomial threshold is used.
+This is the first use of `p>4`.
 
 ### 2.3 A common complex parameter disk
 
@@ -179,7 +186,7 @@ For `f_z=c+zg`,
 M_{I,x}(z)=M_{I,x}(0)+zT_I(g).
 \]
 
-Since `g\in\mathcal A_p\subset\mathcal A_q`, (2.1) and another weighted Neumann series imply that, for
+Since `g\in\mathcal A_p\subset\mathcal A_q`, (2.6) and a second weighted Neumann series imply that, for
 
 \[
 r_0<\frac1{2B_q\|g\|_{\mathcal A_q}},
@@ -192,20 +199,20 @@ all complete-event matrices are invertible on `|z|<r_0` and
 \sup_{|z|<r_0}\sup_{I,x}
 \|M_{I,x}(z)^{-1}\|_{S_q}\le2B_q.
 }
-\tag{2.2}
+\tag{2.7}
 \]
 
-The radius and bound are independent of the conditioning window and configuration.
+The disk and bound are common to every conditioning window and configuration. This is precisely the kind of uniformity absent from bare smooth approximation.
 
 ## 3. One-sided complete-event conditionals and squared remote influence
 
-Let `F_R=\{1,\ldots,R\}` and `x\in\{0,1\}^{F_R}`. With
+Let `F_R=\{1,\ldots,R\}` and `x\in\{0,1\}^{F_R}`. Write
 
 \[
 M_{R,x}(z)=T_{F_R}(f_z)-I_{Z_x},
 \]
 
-let `u_R(z)=K_{f_z}(0,F_R)` and `v_R(z)=K_{f_z}(F_R,0)`. Since the anti-periodicity of `g` gives `\widehat g(0)=0`, the diagonal entry is the fixed number `\mu=\widehat c(0)`. The Schur-complement formula for complete event probabilities gives
+and let `u_R(z)=K_{f_z}(0,F_R)`, `v_R(z)=K_{f_z}(F_R,0)`. Anti-periodicity gives `\widehat g(0)=0`, so the diagonal entry is the fixed number `\mu=\widehat c(0)`. The complete-event Schur complement is
 
 \[
 q_{R,z}(x)
@@ -216,7 +223,7 @@ q_{R,z}(x)
 \tag{3.1}
 \]
 
-for real legal `z`; the right-hand side defines its holomorphic continuation for complex `z`.
+for real legal `z`; its right side is the holomorphic continuation for complex `z`.
 
 ### 3.1 Flipping one remote conditioned bit
 
@@ -226,14 +233,14 @@ If `x,y` differ only at `j\in F_R`, then
 M_{R,y}(z)-M_{R,x}(z)=\pm e_je_j^*.
 \]
 
-The resolvent identity yields
+The resolvent identity gives
 
 \[
 M_{R,y}^{-1}-M_{R,x}^{-1}
 =\mp M_{R,y}^{-1}e_je_j^*M_{R,x}^{-1}.
 \]
 
-The weighted row bound (2.2), submultiplicativity of `v_q`, and the weighted Fourier norms of `c,g` imply
+The weighted row/column bound (2.7), the submultiplicativity of `v_q`, and the weighted Fourier norms of `c,g` imply
 
 \[
 \left|(u_RM_{R,y}^{-1})_j\right|
@@ -242,7 +249,7 @@ The weighted row bound (2.2), submultiplicativity of `v_q`, and the weighted Fou
 \le C(1+j)^{-q}.
 \]
 
-Therefore
+Thus
 
 \[
 \boxed{
@@ -252,13 +259,11 @@ Therefore
 \tag{3.2}
 \]
 
-uniformly in `R,x,y` and on a smaller closed disk `|z|\le r_1<r_0`.
-
-The square is essential: changing the event at `j` is a rank-one diagonal perturbation, and the Schur complement must propagate from the origin to `j` and back.
+uniformly in `R,x,y` and on each smaller closed disk `|z|\le r_1<r_0`. The square is structural: a changed conditioned bit is a rank-one diagonal perturbation and the Schur complement propagates from the origin to `j` and back.
 
 ### 3.2 Adding the last conditioned site
 
-Write the event matrix on `F_{R+1}` in block form
+Write the event matrix on `F_{R+1}` as
 
 \[
 \widetilde M=
@@ -267,17 +272,15 @@ Write the event matrix on `F_{R+1}` in block form
 S=a-dM^{-1}e.
 \]
 
-Block inversion gives
+Block inversion yields
 
 \[
 q_{R+1,z}-q_{R,z}
-=-(u_{R+1}-u_RM^{-1}e)
-S^{-1}
-(v_{R+1}-dM^{-1}v_R).
+=-(b-u_RM^{-1}e)S^{-1}(c-dM^{-1}v_R),
 \tag{3.3}
 \]
 
-Each effective coupling in parentheses is `O((1+R)^{-q})` by (2.2), and `|S^{-1}|` is uniformly bounded because it is an entry of `\widetilde M^{-1}`. Hence
+where `b=K_{f_z}(0,R+1)` and `c=K_{f_z}(R+1,0)`. Each effective coupling in parentheses is `O((1+R)^{-q})` by (2.7), and `|S^{-1}|` is uniformly bounded because it is an entry of `\widetilde M^{-1}`. Therefore
 
 \[
 \boxed{
@@ -287,9 +290,13 @@ Each effective coupling in parentheses is `O((1+R)^{-q})` by (2.2), and `|S^{-1}
 \tag{3.4}
 \]
 
-Since `2q>1`, the finite-future conditionals converge uniformly on `|z|\le r_1` to a holomorphic function `q_z(x_1,x_2,\ldots)`.
+Since `2q>1`, the finite-future conditionals converge uniformly on smaller closed disks to a holomorphic function
 
-Passing (3.2) to the limit gives the single-coordinate influence estimate
+\[
+q_z(x_1,x_2,\ldots).
+\]
+
+Passing (3.2) to the limit gives the single-coordinate influence bound
 
 \[
 \boxed{
@@ -300,7 +307,7 @@ Passing (3.2) to the limit gives the single-coordinate influence estimate
 \tag{3.5}
 \]
 
-Consequently, if two futures agree through coordinate `n`,
+If two futures agree through coordinate `n`, then
 
 \[
 |q_z(x)-q_z(y)|
@@ -309,11 +316,11 @@ Consequently, if two futures agree through coordinate `n`,
 \tag{3.6}
 \]
 
-### 3.3 Uniform non-nullness and the logarithmic potential
+### 3.3 Uniform non-nullness and logarithmic potential
 
-At `z=0`, the Schur complement `q_{R,0}` is positive. In the complete-event matrix enlarged by an occupied site `0`, the `(0,0)` entry of the inverse is `q_{R,0}^{-1}`. The singular-value bound therefore gives `q_{R,0}\ge\delta`. Enlarging instead by a vacant site gives `1-q_{R,0}\ge\delta`. These bounds survive the limit.
+At `z=0`, enlarge a future complete-event matrix by an occupied site at the origin. The `(0,0)` entry of the inverse is `q_{R,0}^{-1}`. The common inverse operator bound gives `q_{R,0}\ge\delta`. Enlarging by a vacant origin similarly gives `1-q_{R,0}\ge\delta`. These bounds survive the limit.
 
-The formulas above are uniformly Lipschitz in `z` on a smaller disk. Shrink to `|z|<r_2` so that both `q_z` and `1-q_z` stay at distance at least `\delta/2` from zero. Define
+The formulas are uniformly Lipschitz in `z`. Shrink to `|z|<r_2` so that `q_z` and `1-q_z` remain in the right half-plane at distance at least `\delta/2` from zero. Define
 
 \[
 G_z(1x)=q_z(x),
@@ -323,19 +330,19 @@ G_z(0x)=1-q_z(x),
 \phi_z=\log G_z,
 \]
 
-using the branches continuing the real logarithms at `z=0`. Then `G_z(0x)+G_z(1x)=1`, and (3.5)–(3.6) also hold for `\phi_z`, with changed constants.
+using the branches continuing the real logarithms at `z=0`. Then `G_z(0x)+G_z(1x)=1`, and (3.5)–(3.6) hold for `\phi_z` with changed constants.
 
-## 4. A finite-first-moment interaction
+## 4. A finite-first-moment interval interaction
 
-Fix the reference future `0^\infty`. For `n\ge0`, define
+Fix the reference future `0^\infty`. Define
 
 \[
 \phi_z^{[n]}(x_0,\ldots,x_n)
 :=
-\phi_z(x_0,\ldots,x_n,0,0,\ldots).
+\phi_z(x_0,\ldots,x_n,0,0,\ldots),
 \]
 
-Put
+and
 
 \[
 \psi_{0,z}=\phi_z^{[0]},
@@ -344,7 +351,7 @@ Put
 \quad(n\ge1),
 \]
 
-where the second term ignores `x_n`. The two arguments in this difference vary only at coordinate `n`; hence the single-coordinate estimate, not merely the tail-variation estimate, gives
+where the second term ignores `x_n`. The two arguments differ only at coordinate `n`; hence the single-coordinate estimate gives
 
 \[
 \boxed{
@@ -353,9 +360,7 @@ where the second term ignores `x_n`. The two arguments in this difference vary o
 \tag{4.1}
 \]
 
-Moreover `\sum_{n\ge0}\psi_{n,z}=\phi_z` uniformly.
-
-Define a translation-invariant interval interaction by
+Moreover `\sum_{n\ge0}\psi_{n,z}=\phi_z` uniformly. Define
 
 \[
 U_{z,[i,i+n]}(x)
@@ -366,69 +371,110 @@ U_{z,A}=0
 \tag{4.2}
 \]
 
-For each `n`, exactly `n+1` translates of an interval of diameter `n` contain the origin. Therefore
+For each `n`, exactly `n+1` translates of an interval of diameter `n` contain the origin. Thus
 
 \[
+\boxed{
 \sum_{A\ni0}\operatorname{diam}(A)\|U_{z,A}\|_\infty
 \le
-C\sum_{n\ge1}n(n+1)(1+n)^{-2q}<\infty,
+C\sum_{n\ge1}n(n+1)(1+n)^{-2q}<\infty.
+}
 \tag{4.3}
 \]
 
-because `q>3/2`. This is a deliberately strong, convention-independent finite-first-moment bound.
+This holds because `q>3/2`. It is stronger than the standard orbit-normalized finite-first-moment condition. The estimates are locally uniform on the complex disk, so the Weierstrass test proves that `z\mapsto U_z` is holomorphic in the Banach norm on the left of (4.3).
 
-All estimates hold uniformly on compact subdisks. The Weierstrass test in the Banach norm on the left of (4.3) shows that
+This is the second use of `p>4`: the inverse proof needs `p>2q+1`, while the convention-independent moment estimate needs `q>3/2`.
 
-\[
-z\longmapsto U_z
-\]
+## 5. Exact identification of the DPP as the equilibrium state
 
-is holomorphic as a finite-first-moment interaction-valued map.
-
-This is the second point where the threshold `p>4` is used: the inverse proof requires `p>2q+1`, while (4.3) requires `q>3/2`.
-
-## 5. Identification with the DPP and the chain-to-Gibbs bridge
-
-For real sufficiently small `t`, the finite conditionals (3.1) are genuine DPP complete-event conditional probabilities. Their uniform limit is therefore a version of the right-to-left conditional law
+Fix a small real `t` and write `\nu_t=\mathbf P_{c+tg}`. The finite Schur complements converge to its right-to-left conditional law:
 
 \[
-G_t(a x_1x_2\ldots)
+G_t(a\mid x_1,x_2,\ldots)
 =
-\mathbf P_{c+tg}(X_0=a\mid X_1=x_1,X_2=x_2,\ldots).
+\nu_t(X_0=a\mid X_1=x_1,X_2=x_2,\ldots).
+\tag{5.1}
 \]
 
-The process is non-null, and (3.6) is summable because `q>1`. Thus its right-to-left left-interval specification lies in the summable-variation class of Fernández–Maillard.
-
-For completeness, the interaction identification can also be seen directly. If two two-sided configurations `x,y` differ only on a finite interval, then
+Let `\rho` be any shift-invariant probability measure on `\{0,1\}^{\mathbb Z}` and let `r_\rho(\cdot\mid x_1^\infty)` be its future conditional. For a stationary finite-alphabet process,
 
 \[
-\sum_{i\in\mathbb Z}
-\bigl[\phi_t(T^ix)-\phi_t(T^iy)\bigr]
+h(\rho)=H_\rho(X_0\mid X_1,X_2,\ldots).
 \]
 
-converges absolutely: terms to the right vanish, while terms with starting point `m` sites to the left are `O(m^{1-2q})`, which is summable. Expanding `\phi_t=\sum_n\psi_{n,t}` and using (4.3) permits absolute rearrangement; the result is exactly minus the interaction-energy difference generated by (4.2). On the other hand, multiplying the one-sided conditional probabilities from right to left gives the same exponential ratio. Hence the DPP is a Gibbs state for `U_t`.
+Therefore the conditional cross-entropy identity gives
 
-This is the concrete bridge behind the general LIS-to-specification construction in Fernández–Maillard, Theorem 4.12. No spectral entropy formula is used.
+\[
+\boxed{
+h(\rho)+\rho(\phi_t)
+=-\int D_{\rm KL}
+\bigl(r_\rho(\cdot\mid x_1^\infty)\|G_t(\cdot\mid x_1^\infty)\bigr)
+\,d\rho(x)
+\le0.}
+\tag{5.2}
+\]
 
-## 6. Imported one-dimensional analyticity theorem
+Equality holds for `\rho=\nu_t`.
 
-We use the following classical result in precisely this form.
+For the standard specific-energy representative
 
-> **Dobrushin–Cassandro–Olivieri theorem.** For a finite-alphabet, translation-invariant one-dimensional interaction with finite first moment, the Gibbs state, specific pressure/free energy, and finite correlations depend analytically on interaction parameters in a neighborhood of every real interaction. No smallness or high-temperature assumption is required. The conclusion applies to holomorphic finite-first-moment Banach-valued parameter curves.
+\[
+e_{U_t}(x)=\sum_{A\ni0}\frac1{|A|}U_{t,A}(x),
+\]
 
-Dobrushin proved analyticity for one-dimensional power-law interactions; Cassandro and Olivieri gave the many-body finite-first-moment formulation and a decimation/cluster-expansion proof. The stronger bound (4.3) places `U_z` inside their hypothesis without relying on a convention about orbit normalization.
+stationarity and absolute convergence give
 
-Let `P(U)` denote pressure with finite-volume weights `\exp(-H_U)`. The theorem implies that `P(U_z)` and its directional derivatives are holomorphic for `z` near zero.
+\[
+\begin{aligned}
+\rho(e_{U_t})
+&=
+\sum_{n\ge0}\frac1{n+1}
+\sum_{i=-n}^{0}\rho(U_{t,[i,i+n]})\\
+&=-\sum_{n\ge0}\rho(\psi_{n,t})
+=-\rho(\phi_t).
+\end{aligned}
+\tag{5.3}
+\]
+
+Combining (5.2)–(5.3),
+
+\[
+h(\rho)-\rho(e_{U_t})\le0,
+\]
+
+with equality at `\nu_t`. The variational principle for absolutely summable interactions therefore yields
+
+\[
+\boxed{P(U_t)=0,
+\qquad
+\nu_t\text{ is an equilibrium state for }U_t.}
+\tag{5.4}
+\]
+
+This is the required chain-to-Gibbs bridge. It uses the true future conditional and the true configuration entropy rate; no spectral entropy identity is involved. A longer sign audit appears in `equilibrium_bridge.md`.
+
+## 6. Imported one-dimensional response theorem
+
+We use the following classical theorem in the restricted form needed here.
+
+> **Dobrushin finite-first-moment analyticity theorem.** Let the single-site state space be finite and let `V_z` be a translation-invariant one-dimensional interaction depending holomorphically on one or finitely many complex parameters in a neighborhood of a real parameter value. Assume locally uniformly that the interaction has finite first moment. Then the real interaction has a unique Gibbs/equilibrium state, and the specific pressure and expectations of bounded local observables have holomorphic continuations in the parameters near that value.
+
+Dobrushin's theorem is formulated for general one-dimensional classical lattice systems with power-law-decaying potentials and states that the specific free energy and correlation functions depend analytically on the potential. Modern literature records its threshold as finite first moment. Our stronger bound (4.3) places `U_z` inside that class regardless of whether a source uses orbit normalization.
+
+Cassandro–Olivieri give a separate decimation proof for one-dimensional many-body finite-first-moment potentials and complex interaction parameters. Their concrete lattice-gas coordinate formulation is not used here to encode arbitrary block functions; it serves only as an independent mechanism check. The load-bearing general-spin input is Dobrushin's theorem.
+
+Applying the theorem to `U_z` identifies the unique analytic equilibrium branch with the DPP branch from (5.4). It also applies jointly to the two-parameter family `\lambda U_z` near `\lambda=1`.
 
 ## 7. Evenness and analyticity in `s=t^2`
 
-Let `D` be the diagonal gauge `D_{jj}=(-1)^j`. Half-period parity of the Fourier coefficients gives
+Let `D` be the diagonal gauge `D_{jj}=(-1)^j`. Half-period Fourier support gives
 
 \[
 K_{c-zg}=DK_{c+zg}D.
 \]
 
-Every event diagonal `I_Z` commutes with `D`. Therefore every finite Schur complement in (3.1) is unchanged under `z\mapsto-z`, and
+Every event diagonal `I_Z` commutes with `D`. Consequently all finite complete-event determinants and Schur complements are invariant under `z\mapsto-z`, and
 
 \[
 G_{-z}=G_z,
@@ -438,36 +484,37 @@ G_{-z}=G_z,
 U_{-z}=U_z.
 \]
 
-An even holomorphic Banach-valued function factors holomorphically through `s=z^2`; write the resulting interaction as `U_s`.
-
-For an auxiliary scalar `\lambda`, define
+An even Banach-holomorphic function factors holomorphically through `s=z^2`; denote the resulting interaction by `U_s`. Define
 
 \[
 F(s,\lambda)=P(\lambda U_s).
 \]
 
-The imported theorem makes `F` holomorphic near `(0,1)`. For real `s=t^2\ge0`, the DPP is the Gibbs state of `U_s`. The variational principle and pressure differentiation give
+Section 6 makes `F` holomorphic near `(0,1)`. For real `s=t^2\ge0`, the DPP `\nu_s` is the equilibrium state of `U_s`. With the convention
 
 \[
-P(U_s)=h_s-\nu_s(e_{U_s}),
-\qquad
-\partial_\lambda F(s,1)=-\nu_s(e_{U_s}),
+P(U)=\sup_\rho\{h(\rho)-\rho(e_U)\},
 \]
 
-so
+pressure differentiation gives
+
+\[
+\partial_\lambda F(s,1)=-\nu_s(e_{U_s}).
+\]
+
+Using the equilibrium identity,
 
 \[
 \boxed{
-h_s=F(s,1)-\partial_\lambda F(s,1).
-}
+h_s=F(s,1)-\partial_\lambda F(s,1).}
 \tag{7.1}
 \]
 
-Thus the true configuration entropy rate is analytic in `s`, hence even and real analytic in `t`.
+Thus the true stationary configuration entropy rate is analytic in `s`, hence even and real analytic in `t`.
 
-## 8. The quadratic term in `s` is absent
+## 8. The entropy deficit starts at order `t^4`
 
-Let `\nu_t=\mathbf P_{c+tg}` and `\nu_0=\mathbf P_c`. In every finite window, the even-coordinate and odd-coordinate marginals of `\nu_t` are independent of `t`, because their kernel entries use only even Fourier indices and `\widehat g` vanishes there. At `t=0`, the cross-parity kernel entries vanish because `\widehat c` vanishes at odd indices, so the two parity sublattices are independent. Hence, exactly at every finite volume,
+Let `\nu_t=\mathbf P_{c+tg}` and `\nu_0=\mathbf P_c`. In every finite window, the even-coordinate and odd-coordinate marginals of `\nu_t` are independent of `t`, because restriction to either parity uses only even Fourier indices and `\widehat g` vanishes there. At `t=0`, the cross-parity kernel entries vanish because `\widehat c` vanishes at odd indices, so the parity sublattices are independent. Hence, exactly in every finite volume,
 
 \[
 D(\nu_t^{(n)}\|\nu_0^{(n)})
@@ -482,9 +529,9 @@ After division by `n` and passage to the limit,
 \tag{8.1}
 \]
 
-where the right side is the specific relative entropy.
+where the right side is specific relative entropy.
 
-The Gibbs pressure identity, with `\Delta_s=U_s-U_0`, is
+Put `\Delta_s=U_s-U_0`. For equilibrium states, the pressure identity is
 
 \[
 d(\nu_s\|\nu_0)
@@ -492,7 +539,7 @@ d(\nu_s\|\nu_0)
 \tag{8.2}
 \]
 
-It is analytic in `s`. Differentiating at zero, the two first-order terms cancel:
+It is analytic in `s`. At `s=0`, `\Delta_0=0`, and differentiation gives
 
 \[
 \frac d{ds}d(\nu_s\|\nu_0)\bigg|_{s=0}
@@ -508,11 +555,11 @@ Therefore, for some real `A`,
 \tag{8.3}
 \]
 
-This cancellation is the required uniform response statement. It is not a consequence of entropy continuity alone.
+This cancellation is the uniform response statement that entropy continuity alone cannot supply.
 
 ## 9. Matching lower bound and strict quartic floor
 
-The accepted PR53 matching argument uses only parity, fixed marginals, negative association, and the variational characterization of mutual information. It does not use exponential regularity. For every legal `t` and every odd `k` with `\widehat g(k)\ne0`, it gives
+The accepted PR53 matching argument uses parity, fixed marginals, negative association, and the variational characterization of mutual information; it does not use exponential Fourier decay. For every legal `t` and every odd `k` with `\widehat g(k)\ne0`, it gives
 
 \[
 \mathcal R(t)
@@ -542,20 +589,27 @@ A\ge C_k
 \tag{9.2}
 \]
 
-Analyticity now gives
+Analyticity gives
 
 \[
 \mathcal R''(t)=12A t^2+O(t^4).
 \]
 
-Choose `\varepsilon>0` small enough that the symbol remains legal and
+Choose `\varepsilon>0` so small that the symbol remains legal and
 
 \[
 \mathcal R''(t)\ge6C_k t^2
 \qquad(|t|\le\varepsilon).
 \]
 
-For `\alpha_k=C_k/2`,
+For
+
+\[
+\alpha_k=\frac{C_k}{2}
+=\frac{|\widehat g(k)|^4}{8\mu^2(1-\mu^2)},
+\]
+
+one has
 
 \[
 \frac{d^2}{dt^2}
@@ -566,6 +620,8 @@ For `\alpha_k=C_k/2`,
 
 Thus `t\mapsto h(c+tg)+\alpha_k t^4` is concave on the nonempty interval `[-\varepsilon,\varepsilon]`.
 
-## 10. What has and has not been proved
+## 10. Scope and status
 
-The theorem concerns the true infinite-volume configuration Shannon entropy rate. It does not replace it by spectral entropy, a finite-window entropy, or a scalar eigenvalue formula. It proves an existential local interval for each fixed `c,g,k`; it does not claim a radius uniform over the whole `\mathcal A_p` class. The proof is complete modulo the explicitly imported classical finite-first-moment analyticity theorem and awaits independent review.
+The proof concerns the true infinite-volume configuration Shannon entropy rate. It does not replace it by spectral entropy, a finite-window entropy, or a scalar eigenvalue formula. It proves an existential interval for each fixed `c,g,k`; it does not claim a radius uniform over the unbounded class `\mathcal A_p`.
+
+The author proof is complete modulo the explicitly imported classical Dobrushin theorem, as is normal for a theorem built on a cited response result. Independent review must still audit the exact first-moment convention and the application of that theorem; author self-check is not independent acceptance.
