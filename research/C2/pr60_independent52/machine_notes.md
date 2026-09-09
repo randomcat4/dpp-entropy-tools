@@ -9,8 +9,8 @@ records C2 machine evidence only; it does not assert theorem acceptance.
 - Frozen main structure input: `9dcb6e9079ca57f94e0e30d63161cda89ca61fae`.
 - Repaired independent checker source frozen by root:
   public `ee33372042d27911a97a14aefc6cb068404d190b`.
-- Local preparation snapshot before the run:
-  `c05363a0c01e1820dbe1a2743960bc06d86afeff`.
+- Local Run01 source snapshot: `c05363a0c01e1820dbe1a2743960bc06d86afeff`.
+- Local repaired Run02 source snapshot: `4620bf66b130af4948f371bbad1b11c372c08273`.
 - Run01: PID 174230, 2026-09-09 15:28:03 UTC to 15:28:32 UTC,
   exit 1 after 28.569 s. It passed the Bernoulli Gram/reflection,
   the 16 Rstar/Rbar normalization identities, and all 16 Ahat polynomial
@@ -25,8 +25,7 @@ records C2 machine evidence only; it does not assert theorem acceptance.
   16 GiB address-space cap.
 
 Public outputs are in `research/C2/pr60_independent52/outputs/run02`.
-Private raw run artifacts were preserved separately by root under
-`../pr60_independent52/remote/run02`.
+The operator separately retains the raw run artifacts.
 
 ## Machine coverage
 
