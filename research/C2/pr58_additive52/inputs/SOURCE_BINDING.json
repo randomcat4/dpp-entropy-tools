@@ -1,0 +1,28 @@
+{
+  "source_commit": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "request": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604861257",
+  "inputs": [
+    {
+      "source": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "blob": "b6125440919706e2a202d65176d5538c86f4449c"
+    },
+    {
+      "source": "research/I05-23-middle-20260909/code/verify_joint_additive_failure.py",
+      "blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d"
+    },
+    {
+      "source": "research/I05-23-middle-20260909/output/verify_joint_additive_failure.txt",
+      "blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe"
+    }
+  ],
+  "construction": "Literal rational matrices and dual table; never import or execute author checker",
+  "resource_bound": {
+    "processes": 1,
+    "cpu_threads": 1,
+    "gpu": false,
+    "memory_gib": 16,
+    "total_wall_seconds": 600
+  },
+  "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604889076",
+  "publication_base": "28c24dee643f8a2049c143f79d4d63798907d2f1"
+}
