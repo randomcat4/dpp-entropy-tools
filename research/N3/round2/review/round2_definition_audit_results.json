@@ -1,0 +1,490 @@
+{
+  "argv": [
+    "research\\N3\\round2\\review\\verify_round2_definitions.py",
+    "--output",
+    "research\\N3\\round2\\review\\round2_definition_audit_results.json"
+  ],
+  "coverage": {
+    "affine_derivative_identity_groups": 3,
+    "deterministic_strict_kernels": 3,
+    "pair_projection_cross_checks": 3,
+    "rayleigh_polynomial_pairs": 9,
+    "round2_quantity_rebuilds": 3,
+    "zero_edge_connected_samples": 1
+  },
+  "cwd": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo",
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "executable": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "frozen_source": {
+    "baseline_in_frozen": "e476db1bb056af57e883a47f470ea0f4443c1837",
+    "path_read": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\repo\\research\\N3\\round2\\frozen_theorem_v1.md"
+  },
+  "git_branch": "research/N3-review-20260909",
+  "git_head": "28b5576972d18a41f519b3bb95b76a307f148471",
+  "non_coverage": [
+    "No exact beta-zero point is certified.",
+    "No proof or disproof of beta(K)=0 => det(N)*alpha(K)<=1.",
+    "No proof of the full N3 entropy Hessian theorem or global rho<=1.",
+    "No interval global certification and no Lean proof.",
+    "No random scan or candidate construction; this is a bounded definition audit only."
+  ],
+  "numpy": "2.3.5",
+  "pid": 9708,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "Round-2 N3 beta-zero definition audit and bounded deterministic checks; not a proof of beta=0=>det(N)alpha<=1.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "samples": [
+    {
+      "affine_derivative_checks": {
+        "all_checks_passed": true,
+        "base_variables": {
+          "T": "1/14700",
+          "a": "1/30",
+          "b": "1/35",
+          "c": "1/28",
+          "q12": "1073/6300",
+          "q13": "1951/11025",
+          "q23": "445/2352",
+          "r": "83243/1111320",
+          "u": "1/900",
+          "v": "1/1225",
+          "w": "1/784",
+          "x": "2/5",
+          "y": "3/7",
+          "z": "4/9"
+        },
+        "checks": {
+          "T2_4uvw_first_derivative": true,
+          "T2_4uvw_second_derivative": true,
+          "T2_equals_4uvw_at_base": true,
+          "T_first": true,
+          "T_second": true,
+          "nonzero_log_derivative_branch": true,
+          "q12_first": true,
+          "q12_second": true,
+          "q13_first": true,
+          "q13_second": true,
+          "q23_first": true,
+          "q23_second": true,
+          "r_first": true,
+          "r_second": true,
+          "u_first": true,
+          "u_second": true,
+          "v_first": true,
+          "v_second": true,
+          "w_first": true,
+          "w_second": true
+        },
+        "formulas": {
+          "T_ddot": "-79/992250",
+          "T_dot": "11/330750",
+          "q12_ddot": "-2643/178750",
+          "q12_dot": "5149/750750",
+          "q13_ddot": "3676/378675",
+          "q13_dot": "19204/294525",
+          "q23_ddot": "-1985/194922",
+          "q23_dot": "-4163/389844",
+          "r_ddot": "-43573672/6030399375",
+          "r_dot": "16609717/1286485200",
+          "u_ddot": "1/1250",
+          "u_dot": "1/750",
+          "v_ddot": "2/2025",
+          "v_dot": "-2/1575",
+          "w_ddot": "1/882",
+          "w_dot": "1/588"
+        }
+      },
+      "name": "generic_connected_positive_T",
+      "rayleigh_square_checks": {
+        "T": "1/14700",
+        "T2_equals_4uvw": true,
+        "all_pair_squares_passed": true,
+        "edge_entries": [
+          "1/30",
+          "1/35",
+          "1/28"
+        ],
+        "has_zero_edge": false,
+        "pair_checks": [
+          {
+            "coefficients": [
+              "1/900",
+              "73/79380",
+              "5329/28005264"
+            ],
+            "complement": 3,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "12",
+            "square_branch": "(1/30)*tau + (73/5292)"
+          },
+          {
+            "coefficients": [
+              "1/1225",
+              "13/20580",
+              "169/1382976"
+            ],
+            "complement": 2,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "13",
+            "square_branch": "(1/35)*tau + (13/1176)"
+          },
+          {
+            "coefficients": [
+              "1/784",
+              "1/1050",
+              "1/5625"
+            ],
+            "complement": 1,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "23",
+            "square_branch": "(1/28)*tau + (1/75)"
+          }
+        ],
+        "u_v_w": [
+          "1/900",
+          "1/1225",
+          "1/784"
+        ]
+      },
+      "round2_quantities": {
+        "F_pair_score_vs_cov_max_abs": 1.7763568394002505e-15,
+        "F_pair_trace": 12.51573042782184,
+        "H_trace": 12.680602254242938,
+        "Z": 68.99198706254286,
+        "alpha": 2488.6178554191147,
+        "beta": 0.43566714910987536,
+        "beta_from_raw": 0.43566714910987536,
+        "beta_raw_equivalence_error": 0.0,
+        "beta_raw_lambda_grad_Hinv_c": 3.618712999066045,
+        "beta_zero_exact_meaning": "beta=0 iff lambda_grad^T H^-1 c=0 because Z=sum 1/p is strictly positive.",
+        "detN_alpha": 0.013852927195526717,
+        "det_N": 5.566514427018651e-06,
+        "full_F_trace": 12.516587539349361,
+        "gamma": 0.00842513653599031,
+        "min_atom": 0.07490461793182882,
+        "min_eig_F": 0.055454652131222484,
+        "min_eig_F_pair": 0.05511383636432153,
+        "min_eig_H": 0.08284074829617032,
+        "min_eig_N": 0.013860671371002492,
+        "rho_if_beta_zero_formula": 0.013852927195526717
+      },
+      "strict_by_leading_minors_K_and_I_minus_K": true
+    },
+    {
+      "affine_derivative_checks": {
+        "all_checks_passed": true,
+        "base_variables": {
+          "T": "-2/25575",
+          "a": "-1/25",
+          "b": "1/33",
+          "c": "1/31",
+          "q12": "4339/22500",
+          "q13": "5413/34848",
+          "q23": "6687/38440",
+          "r": "4481845931/62791740000",
+          "u": "1/625",
+          "v": "1/1089",
+          "w": "1/961",
+          "x": "5/12",
+          "y": "7/15",
+          "z": "3/8"
+        },
+        "checks": {
+          "T2_4uvw_first_derivative": true,
+          "T2_4uvw_second_derivative": true,
+          "T2_equals_4uvw_at_base": true,
+          "T_first": true,
+          "T_second": true,
+          "nonzero_log_derivative_branch": true,
+          "q12_first": true,
+          "q12_second": true,
+          "q13_first": true,
+          "q13_second": true,
+          "q23_first": true,
+          "q23_second": true,
+          "r_first": true,
+          "r_second": true,
+          "u_first": true,
+          "u_second": true,
+          "v_first": true,
+          "v_second": true,
+          "w_first": true,
+          "w_second": true
+        },
+        "formulas": {
+          "T_ddot": "1051/12787500",
+          "T_dot": "307/7672500",
+          "q12_ddot": "-209/7200",
+          "q12_dot": "241/108000",
+          "q13_ddot": "-47/2025",
+          "q13_dot": "-2/1485",
+          "q23_ddot": "121/5000",
+          "q23_dot": "14111/148800",
+          "r_ddot": "-780543481/66290400000",
+          "r_dot": "151236866377/7535008800000",
+          "u_ddot": "1/800",
+          "u_dot": "-1/500",
+          "v_ddot": "2/2025",
+          "v_dot": "2/1485",
+          "w_ddot": "1/1250",
+          "w_dot": "-1/775"
+        }
+      },
+      "name": "generic_connected_negative_T",
+      "rayleigh_square_checks": {
+        "T": "-2/25575",
+        "T2_equals_4uvw": true,
+        "all_pair_squares_passed": true,
+        "edge_entries": [
+          "-1/25",
+          "1/33",
+          "1/31"
+        ],
+        "has_zero_edge": false,
+        "pair_checks": [
+          {
+            "coefficients": [
+              "1/625",
+              "3269/2557500",
+              "10686361/41861160000"
+            ],
+            "complement": 3,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "12",
+            "square_branch": "(-1/25)*tau + (-3269/204600)"
+          },
+          {
+            "coefficients": [
+              "1/1089",
+              "2368/2531925",
+              "1401856/5886725625"
+            ],
+            "complement": 2,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "13",
+            "square_branch": "(1/33)*tau + (1184/76725)"
+          },
+          {
+            "coefficients": [
+              "1/961",
+              "1499/1585650",
+              "2247001/10465290000"
+            ],
+            "complement": 1,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "23",
+            "square_branch": "(1/31)*tau + (1499/102300)"
+          }
+        ],
+        "u_v_w": [
+          "1/625",
+          "1/1089",
+          "1/961"
+        ]
+      },
+      "round2_quantities": {
+        "F_pair_score_vs_cov_max_abs": 8.881784197001252e-16,
+        "F_pair_trace": 12.641255750900939,
+        "H_trace": 12.827088186077788,
+        "Z": 70.62918135205545,
+        "alpha": 2024.1142463647536,
+        "beta": 0.50636932889445,
+        "beta_from_raw": 0.5063693288944499,
+        "beta_raw_equivalence_error": 1.1102230246251565e-16,
+        "beta_raw_lambda_grad_Hinv_c": 4.25558704916021,
+        "beta_zero_exact_meaning": "beta=0 iff lambda_grad^T H^-1 c=0 because Z=sum 1/p is strictly positive.",
+        "detN_alpha": 0.015666666283219128,
+        "det_N": 7.74001087703225e-06,
+        "full_F_trace": 12.642518585955532,
+        "gamma": 0.011239667494770317,
+        "min_atom": 0.07137636146091826,
+        "min_eig_F": 0.06490801534517165,
+        "min_eig_F_pair": 0.06449250641558467,
+        "min_eig_H": 0.09695315553909126,
+        "min_eig_N": 0.016222312898592564,
+        "rho_if_beta_zero_formula": 0.015666666283219128
+      },
+      "strict_by_leading_minors_K_and_I_minus_K": true
+    },
+    {
+      "affine_derivative_checks": {
+        "all_checks_passed": true,
+        "base_variables": {
+          "T": "0",
+          "a": "0",
+          "b": "1/18",
+          "c": "-1/20",
+          "q12": "9/50",
+          "q13": "319/1620",
+          "q23": "89/400",
+          "r": "1577/18000",
+          "u": "0",
+          "v": "1/324",
+          "w": "1/400",
+          "x": "2/5",
+          "y": "9/20",
+          "z": "1/2"
+        },
+        "checks": {
+          "T2_4uvw_first_derivative": true,
+          "T2_4uvw_second_derivative": true,
+          "T2_equals_4uvw_at_base": true,
+          "T_first": true,
+          "T_second": true,
+          "q12_first": true,
+          "q12_second": true,
+          "q13_first": true,
+          "q13_second": true,
+          "q23_first": true,
+          "q23_second": true,
+          "r_first": true,
+          "r_second": true,
+          "u_first": true,
+          "u_second": true,
+          "v_first": true,
+          "v_second": true,
+          "w_first": true,
+          "w_second": true,
+          "zero_edge_polynomial_branch_without_division": true
+        },
+        "formulas": {
+          "T_ddot": "-41/315000",
+          "T_dot": "-1/9000",
+          "q12_ddot": "-71/26250",
+          "q12_dot": "1/280",
+          "q13_ddot": "1/900",
+          "q13_dot": "67/2700",
+          "q23_ddot": "-9/4900",
+          "q23_dot": "-1/224",
+          "r_ddot": "-22579/13230000",
+          "r_dot": "1547/324000",
+          "u_ddot": "1/1250",
+          "u_dot": "0",
+          "v_ddot": "1/1800",
+          "v_dot": "1/540",
+          "w_ddot": "1/2450",
+          "w_dot": "1/700"
+        }
+      },
+      "name": "zero_edge_connected_path",
+      "rayleigh_square_checks": {
+        "T": "0",
+        "T2_equals_4uvw": true,
+        "all_pair_squares_passed": true,
+        "edge_entries": [
+          "0",
+          "1/18",
+          "-1/20"
+        ],
+        "has_zero_edge": true,
+        "pair_checks": [
+          {
+            "coefficients": [
+              "0",
+              "0",
+              "1/129600"
+            ],
+            "complement": 3,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": true,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "12",
+            "square_branch": "(0)*tau + (1/360)"
+          },
+          {
+            "coefficients": [
+              "1/324",
+              "1/360",
+              "1/1600"
+            ],
+            "complement": 2,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "13",
+            "square_branch": "(1/18)*tau + (1/40)"
+          },
+          {
+            "coefficients": [
+              "1/400",
+              "1/500",
+              "1/2500"
+            ],
+            "complement": 1,
+            "constant_nonnegative": true,
+            "leading_nonnegative": true,
+            "leading_zero_edge": false,
+            "matches_full_square": true,
+            "nonnegative_square_discriminant_zero": true,
+            "pair": "23",
+            "square_branch": "(-1/20)*tau + (-1/50)"
+          }
+        ],
+        "u_v_w": [
+          "0",
+          "1/324",
+          "1/400"
+        ]
+      },
+      "round2_quantities": {
+        "F_pair_score_vs_cov_max_abs": 1.7763568394002505e-15,
+        "F_pair_trace": 12.57678591814924,
+        "H_trace": 16.76281923695017,
+        "Z": 67.3610298023244,
+        "alpha": 462696.4279197129,
+        "beta": 0.12188666321662915,
+        "beta_from_raw": 0.12188666321662914,
+        "beta_raw_equivalence_error": 1.3877787807814457e-17,
+        "beta_raw_lambda_grad_Hinv_c": 1.0003697412104922,
+        "beta_zero_exact_meaning": "beta=0 iff lambda_grad^T H^-1 c=0 because Z=sum 1/p is strictly positive.",
+        "detN_alpha": 0.5000126590179629,
+        "det_N": 1.0806494903494805e-06,
+        "full_F_trace": 12.578865224519237,
+        "gamma": 2.000010544177646,
+        "min_atom": 0.08761111111111111,
+        "min_eig_F": 0.002079043935782153,
+        "min_eig_F_pair": 2.220446048105664e-16,
+        "min_eig_H": 0.0010395165976231204,
+        "min_eig_N": 0.0005197582941150237,
+        "rho_if_beta_zero_formula": 0.5000126590179629
+      },
+      "strict_by_leading_minors_K_and_I_minus_K": true
+    }
+  ],
+  "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\round2\\review\\verify_round2_definitions.py",
+  "script_sha256": "680acb0024b90eef80747025d6113d9e7bfc593a58fa514101bb05b295a5094f",
+  "status": "PASS"
+}
