@@ -1,5 +1,5 @@
 agent24 correlated 3+3 signed-multiring fixture: PASS
-status = MOTIVATED_100_DIGIT_DIAGNOSTIC_NOT_INTERVAL_CERTIFICATE
+status = MOTIVATED_110_DIGIT_DIAGNOSTIC_NOT_INTERVAL_CERTIFICATE
 rank(B) = 2 ; dense entries = 9
 B = [['1/24', '-7/600', '1/30'], ['-7/300', '-11/300', '4/75'], ['1/600', '17/600', '-7/150']]
 A spectrum = 2/25,2/25,23/25; C spectrum = 2/25,23/25,23/25
@@ -9,6 +9,8 @@ outside PR43 special null-eigenvector condition = PASS
 exact strict legality at t=+-21/10 = PASS (Schur/Sylvester)
 simple positive legal endpoint tau in (2149/1000,43/20) = PASS
 endpoint discriminant = 9646065/286557184 ; det bracket = 13081664272059/105800000000000000000 -76510341/16928000000000
+K-side remains strict at 43/20 = PASS
+full 6x6 signed-event cross-check at t=1 = PASS
 complete rational atom polynomials = 64
 mpmath decimal precision = 110
 local midpoint step = 1/100
