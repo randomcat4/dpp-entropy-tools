@@ -1,6 +1,6 @@
 # PR58 joint-additive fixed witness
 
-PREPARING. Separate independent machine unit for section3 of PR58 numerical
+READY FOR FIRST EXECUTION. Separate independent machine unit for section3 of PR58 numerical
 source a4f05cc962985015b71635bf633acce9dfe76866 at s=9/10.
 
 [The public request](inputs/REQUEST.md), [frozen contract](frozen_contract.md),
