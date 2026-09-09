@@ -1,0 +1,10 @@
+start_utc=2026-09-09T06:54:00Z
+workdir=/root/i05-seven-fronts-20260909/C1/verification/w1
+relative_command=OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 timeout 600s /opt/venv/bin/python w1_round2_check.py
+python=3.12.3
+sympy=1.13.3
+numpy=2.1.2
+mpmath=1.3.0
+pid=168104
+exit_code=0
+end_utc=2026-09-09T06:54:05Z

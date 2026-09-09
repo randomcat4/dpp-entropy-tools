@@ -1,0 +1,45 @@
+{
+  "python": "3.12.3",
+  "executable": "/opt/venv/bin/python",
+  "sympy": "1.13.3",
+  "numpy": "2.1.2",
+  "mpmath": "1.3.0",
+  "conditional_mx2": {
+    "events": 32,
+    "all_event_conditional_identity": true,
+    "rank_B": 2,
+    "all_conditional_kernels_strict_at_t_1_over_5": true,
+    "H_second_at_zero_log_coefficients_cancel_exactly": true,
+    "H_second_at_zero": "-7.906648457422892418261430538452514255782e-82",
+    "central_chord_step_1_over_5": "-0.00000854818437578032542538815525530369073955"
+  },
+  "two_actual_coordinate_columns": {
+    "events": 64,
+    "actual_nonzero_columns_zero_based": [
+      1,
+      3
+    ],
+    "rank_B": 2,
+    "conditional_identity_all_events": true,
+    "M_S_support_stays_inside_actual_two_columns": true
+  },
+  "two_by_two_hessian_lemma": {
+    "fixed_c_nonzero_direct_H_second": "-0.3159109157946959790817674510210532288735",
+    "fixed_c_nonzero_formula_H_second": "-0.3159109157946959790817674510210532288735",
+    "determinant_pencil_identity_fixed_rational": true,
+    "diagonal_center_pure_offdiag_H_second_at_0": "0.0",
+    "same_line_H_second_at_z_1_over_10": "-0.9611964717197867289361374879314000816681",
+    "same_line_central_chord_step_1_over_10": "-0.0008002134699838118737874749424288071063124"
+  },
+  "harmful_q_example": {
+    "rank_B": 2,
+    "det_B": "-39/50",
+    "min_probability_at_t_1_over_10": "24173/12500000",
+    "Q_log_ratio": "-0.45357388015686507068027463519602412773273511699978",
+    "minus_10s_Q_log_ratio": "0.045357388015686507068027463519602412773273511699978",
+    "J": "0.062685581054758910032776119367731514423884014564733",
+    "Fterm": "1518.6342557494332120965132748550951743243085650982",
+    "H_second": "-73.237129052913423983347727404230507444975872005175",
+    "refresh_diff_Q_nonzero": true
+  }
+}
