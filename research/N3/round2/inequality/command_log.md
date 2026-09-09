@@ -84,6 +84,45 @@ unless noted otherwise.
     `research/N3/round2/inequality`; Git printed normal Windows line-ending
     warnings
   - exit status: 0
+- Committed the second unit after staged whitespace check.
+  - PID: `52984`
+  - result: commit `99205d9ac552355c148f011bb053731a8b1349f0`; worktree
+    clean; `Get-Job` printed no active PowerShell jobs
+  - exit status: 0
+- Checked status and located the main frozen locked-odds obstruction.
+  - PID: `49892`
+  - head before the degeneracy correction:
+    `99205d9ac552355c148f011bb053731a8b1349f0`
+  - result: located round 2 main/falsification locked-obstruction artifacts
+  - exit status: 0
+- Inspected main commit `c6568dfe1c0c57aaf0b627e84601c35b79b22434` and read
+  `research\N3\round2\falsification\locked_obstruction.md` plus the head of
+  `locked_certificate.json`.
+  - PID: `43288`
+  - result: confirmed strict refutation of `max_k Q_k^lock>=C` and of every
+    convex combination using only the same three `Q_k^lock` terms; confirmed
+    `F>=Q_k^lock` was not refuted
+  - exit status: 0
+- Ran `git status --short` and read the command-log tail after an initial
+  patch context mismatch.
+  - PID: `22144`
+  - result: worktree was clean before the addendum edits; no failed-patch
+    partial change remained
+  - exit status: 0
+- Ran `git diff --name-status; git diff --check; git diff --stat --
+  research/N3/round2/inequality`.
+  - PID: `8924`
+  - result: tracked changes were only README, verdict, and command log;
+    historical `lambda_tangent_locked_odds_lemma.md` was not modified;
+    `git diff --check` passed with normal Windows line-ending warnings
+  - exit status: 0
+- Ran `git status --porcelain=v1 --untracked-files=all` before staging the
+  addendum correction.
+  - PID: `30752`
+  - result: three modified tracked files plus untracked
+    `locked_odds_degeneracy_addendum.md`, all under
+    `research/N3/round2/inequality`
+  - exit status: 0
 
 ## Notes
 
