@@ -2,19 +2,37 @@
 
 | Unit | Frozen source | First review | Second review |
 |---|---|---|---|
-| PR53, original five-file bridge/locality/beam-splitter packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | RUNNING, fresh non-author context | NOT STARTED; reserved to C3 |
-| PR54, original three-file local-curvature/matching/rate/mechanism packet | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | RUNNING, fresh non-author context | NOT STARTED; reserved to C3 |
-| PR54 two later addenda | daf9c3101e66b414cd31d21c58beaf2d48842baf | UNREVIEWED separate increment | NOT STARTED |
+| PR53, original five-file bridge/locality/beam-splitter packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED, ready for C3 | NOT STARTED by C1; reserved to C3 |
+| PR54, original three-file packet, core results and conditional interfaces | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: ACCEPTED_SCOPED within report limits, ready for C3 | NOT STARTED by C1; reserved to C3 |
+| PR54 original Section 5 | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: NEEDS_FIX, three local repairs below | Reserved to C3; repair delta needs exact binding |
+| PR54 addenda and endpoint code/output extension | C3 freeze c3b9e968c0b4557546c7b10137ef4fff295338b4 | ASSIGNED TO C3 first reviewer; not reviewed by C1 | Reserved to C3 |
 
-PR54's later head adds `ADDENDUM_ARBITRARY_RANK.md` and
-`ADDENDUM_ENDPOINT_RARE_EVENT.md`; its original three files do not change.
-Those new theorems are not silently included in the requested original scope.
+## PR54 repair requests on the original source
 
-No arithmetic job is started by this freeze. Only a necessary finite
-load-bearing check may run after an exact plan with resource and stop limits.
-C2 owns large computation. PR51 first review and issue52 derivative
-recomputation are excluded from this assignment.
+1. RESULT.md lines 854-891: Proposition 5.2 uses `I_n'(0)=0` through
+   `J_n(0)=0`. State it explicitly, or define the full relative entropy from
+   the decoupled complete law that implies it. The intended DPP criterion
+   is accepted with that setup; the displayed hypotheses need clarification.
+2. Lines 865-868: require `L>0`, or set `3c/(10L)=infinity` for `L=0`.
+3. Lines 938-939: the matching proof passes a quartic deficit with a boundary
+   loss; it does not construct concave approximants satisfying (5.8).
 
-Correctness, computation coverage and novelty remain separate. No whole-chord
-or whole-interval entropy-rate concavity is inferred from the bridge identities,
-local curvature or quartic entropy-deficit lower bounds.
+These repairs do not invalidate Theorem 1's local rank-two curvature or the
+finite and stationary matching deficit. See the complete independent reports
+for hypotheses, constants, line references and remaining obligations.
+
+## Version and evidence boundaries
+
+C3's later-addendum assignment includes ADDENDUM_ARBITRARY_RANK.md,
+ADDENDUM_ENDPOINT_RARE_EVENT.md, ADDENDUM_RANK2_ENDPOINT_SPECTRUM.md,
+and only the endpoint-discriminant/root-separation code/output extension.
+It does not extend C1's original three-file first review. C3 reported
+RESULT.md unchanged at its c3b9e968 freeze.
+
+No arithmetic job was necessary or started. No new formal theorem was
+checked. C2 retains large computation and issue52 derivative recomputation;
+PR51 first review remains outside this assignment.
+
+Correctness, computation coverage and novelty are separate. The unresolved
+global entropy-rate sign, occupation remainder, universal imset/flow
+existence and uniform extensive third-derivative bound remain INCOMPLETE.

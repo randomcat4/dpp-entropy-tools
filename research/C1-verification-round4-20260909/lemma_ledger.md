@@ -1,0 +1,19 @@
+# First-review claim ledger
+
+| Packet | Claim family | First-review result |
+|---|---|---|
+| PR53 §2 | Finite joining identity and rate equivalence | CORRECT / ACCEPTED_SCOPED |
+| PR53 §3 | Complete-event likelihood, full Fisher/acceleration, conditional identities | CORRECT / ACCEPTED_SCOPED; sign obligation unproved |
+| PR53 §4 | Uniform inverse and explicit banded inverse decay | CORRECT / ACCEPTED_SCOPED |
+| PR53 §5 | Balanced beam-splitter reduction | CORRECT / ACCEPTED_SCOPED; occupation inequality unproved |
+| PR54 §1 | Explicit rank-two local strict curvature | CORRECT / ACCEPTED_SCOPED |
+| PR54 fixture | Exact rational 3+3 consistency fixture | ACCEPTED_SCOPED as fixture; not rerun |
+| PR54 §2 | SCP moment bound, matching deficit, stationary two-layer rate bound | CORRECT / ACCEPTED_SCOPED |
+| PR54 §3 | Imset/conic interface and square-coupling limitation | CORRECT conditional interface; universal cone assertion INCOMPLETE |
+| PR54 §4 | Directed flow, Farkas, visible/hidden entropy-curvature interfaces | CORRECT interface; existence/Bochner step INCOMPLETE |
+| PR54 §5 | Finite-to-rate sufficient criteria | NEEDS_FIX for Proposition 5.2 and boundary-approximation wording |
+| PR54 §5 | Extensive first-score lower bound | CORRECT / ACCEPTED_SCOPED; uniform third-derivative bound INCOMPLETE |
+| PR54 later increments | Three addenda and endpoint fixture extension | Not reviewed by C1; C3 owns independent first and second |
+
+The independent unit reports provide the proof chains and exact source lines.
+These are FIRST-pass verdicts, not double review or main-integration approval.

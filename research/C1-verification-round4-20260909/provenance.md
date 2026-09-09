@@ -21,3 +21,10 @@ claim the entire older local worktree equals current public main.
 
 Mathematical review, finite computation and novelty are distinct statuses.
 No compute job or new Lean proof is implied by a source freeze.
+
+Both first reviewers completed their own frozen-scope and full review
+reports. Public copies change operational source paths and reviewer labels
+only; mathematical findings are preserved. Neither reviewer ran new
+arithmetic or created a compute plan because no new finite load-bearing
+check was needed. Existing author output is explicitly distinguished from
+C1 execution. The two reports are ready for C3's fresh independent seconds.
