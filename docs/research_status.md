@@ -1,32 +1,31 @@
 # DPP 熵研究状态：2026-09-09
 
-## 服务器独立核验与后继整合
+## 新结果与独立核验范围
 
-第五批已合入 [PR32](https://github.com/randomcat4/dpp-entropy-tools/pull/32) 及其第二轮独立审核 [PR38](https://github.com/randomcat4/dpp-entropy-tools/pull/38)。[新审核](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md)接受：固定严格实块 `A,C`，若一个块至多二维，则任意真实交叉块 `B` 的 `K(t)=[[A,tB],[tB^T,C]]` 在整个合法区间上熵凹，`B!=0` 时严格 Jensen 凹；任意环境维数中 `B` 只有至多两列或两行实际坐标非零也成立。该结论不等同于任意稠密 rank-two 交叉块定理。证明使用完整条件 DPP 的 Schur 分解和二维凹性；32+64 个全事件恒等式及通用二维 determinant pencil 已独立精确核对。
+以下是本轮已合 main 的 **ACCEPTED_SCOPED** 结果。详细冻结头、合并提交、失败/修复记录和审阅依据见[整合记录](integration_20260909.md)。一个审核者多次出报告、同一报告的不同副本、以及 W2/C3 的共同证明骨干均不重复计数。
 
-PR32 以 `1469e123293e68e1ab3836e8ec5e06a0beb2db61` 合入；它只比审定头 `a8c337826ec87cf09a0cf63ea5dcd4de5de70dc8` 多一处明确乱码修正“列全为雰”→“列全为零”，没有数学公式变化。端点严格性与中心 `H''(0)=0` 已在审阅中区分。一般 rank-two 和一般实核仿射凹性仍开放。
+| 对象 | 可以使用的结论 | 不能外推到 | 审阅证据 |
+| --- | --- | --- | --- |
+| 过内部对角核的完整合法线；过常数的固定标量符号线 | 有限完整配置熵及真实熵率均凹，覆盖非交换有限方向、复 Toeplitz 压缩、非零均值和可行边界 | 任意非对角中心或任意两个标量符号之间的弦 | PR29/34；[C3 新非作者审核](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)、[W2 定量审核](verification_20260909/w2/radial_quartic_audit.md)。共同刷新定理只计一次 |
+| 常数中心线的定量严格性 | `h(a+s u)+2(integral u)^2 s^2` 凹；均值保持时 `h(p+s(f-p))+(4/3)|fhat(k)|^4 s^4` 凹，非零方向给出严格 Jensen 缺口 | 非常数中心一般轨道的曲率；最优常数 | PR34；[完整范围和有限 Jensen 极限](verification_20260909/w2/README.md) |
+| 循环平均 `A_q`，任意可测实 `0<=f<=1` | `h(A_q f)=h(f)` 当且仅当 `A_q f=f` 几乎处处；每个 `q` 不整除 `k` 的被删 Fourier 模式给出 gap 至少 `|fhat(k)|^4` | 平均轨道整条线的凹性 | PR34；[匹配密度、负关联和边界审核](verification_20260909/w2/cyclic_audit.md) |
+| 固定两块的交叉耦合径向线 | W1 首轮：Hermitian rank-one 交叉块全弦凹性；第二轮：实 `m×2` 交叉块，以及任意维中至多两实际坐标列/行支撑的推广，`B!=0` 时严格 Jensen 凹 | 两边均大于二且坐标支撑稠密的一般 rank-two；用谱基旋转替代观察坐标 | PR32/36/38；[首轮](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)、[第二轮](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md) |
+| 固定真实熵率证书 | S1 三个固定符号对及 C3-M1 的严格负 pair gap；C3-M1 上端约 `-8.4037273824e-7<0` | 符号族定理、长程符号或所有非偶方向 | PR22/29；[S1 范围审定](verification_20260909/base_prs.md)、[C3-M1 独立审核与 288 项置换行列式复算](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
+| 连通严格实三维 beta 零集 | N3 有根存在的严格括号且全括号 `d alpha<0.661527927`；C1 归一化稀疏族的精确零点从下方按 `1/log(1/epsilon)` 接近阈值 1，排除统一正安全余量 | 全 B0、违反 B0 的零点、唯一性和显式 epsilon 阈值 | PR24/30/37；[根括号复算](verification_20260909/pr24.md)、[稀疏族及另一个有限有理核 cert60 的独立审核](../research/C2/verification2/beta/REVIEW.md) |
+| 固定五点 rank-three 框架 | N4 的支持/Hessian/内点提升接口和受限切片；C2 显式上面锥及各向异性低层补偿；W3 对每个标量中心 `aI`、半径 `epsilon^2/1000` 的球，所有实对称 V 满足 `H''<=-||V||F^2/25`，`epsilon=min(a,1-a)` | 整个中间谱带、任意框架或一般五点凹性 | PR23/31/35；[基础范围](verification_20260909/base_prs.md)、[W3 解析余项与精确常数审核](../research/C2/verification2/w3/REVIEW.md) |
+| 三维实归一化弱相互作用子域 | `0<x_i<1`、`|K_ij|<=(1/4)sqrt(v_i v_j)`，`v_i=x_i(1-x_i)`，全部六方向满足 `-H''>=(7/10)(S+U+V)`；域凸且闭包上弦凹，非零边图连通时完整 Hessian 负定 | 子域外一般实三维、复杂域、高维或熵率；边界 Hessian 有限性 | PR33/40；[完整解析审核及修复后严格七点证据](../research/C1-verification-20260909/READY_BATCH_04.md) |
 
-第四批已合入 [PR29](https://github.com/randomcat4/dpp-entropy-tools/pull/29) 和独立审核 [PR36](https://github.com/randomcat4/dpp-entropy-tools/pull/36)、[PR37](https://github.com/randomcat4/dpp-entropy-tools/pull/37)。C3 原作者未自批：C1 新非作者分别接受其[径向有限/真实熵率定理](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)和[固定 C3-M1 真实熵率负 gap 证书](../research/C1-verification-20260909/children/c3/review_rate_certificate.md)，后者服务器重放六个边界及每边界 66 残差行，并独立以置换行列式复算 288 项，gap 上端约 `-8.4037273824e-7<0`。径向基础与 W2 去重，固定弦证书单独记账。符号输入说明中“conjugate-transpose”的一句非阻塞文案不精确；实际脚本负号转换得到真 Fourier 系数，冻结源未改，审阅已明确解释。
+本轮还给出可复用的失败路线：三个锁定投影不能统一支配 cofactor；最高层预算失效时低层仍可能补偿；两相关 DPP 的逐点选择和整体相关块刷新都不实现所需的一般核仿射混合。详见[路线台账](route_ledger.md)。这些是充分条件或桥接恒等式的反例，均不是一般实核熵凹性的反例。
 
-PR37 已补入 [PR30 新审阅及 cert60 服务器证据](../research/C2/verification2/beta/REVIEW.md)；前一批 docs 中的副本是同一报告，不另计审稿人。PR36 还接受 [W1 首轮固定严格块、rank-one 交叉块的全弦定理](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)。PR32 的真实第二轮文稿后来另经 PR38 审阅接受，首轮判定没有被用于替代新稿核验。
+复算与证明分别记录。W2 的 15 个独立固定检查使用精确事件多项式和 100 位数值求熵，并非区间证书；N3/C3-M1/W3/C1 的对应严格有限证书另有各自完整记录。仓库没有配置 CI，不能把空检查列表当作 CI 通过。新颖性、发表优先权和一般结论的 Lean 形式化未获认证。
 
-第三批已合入 PR22、23、31、35、30，均保留 merge 祖先关系。[基础三项非作者审定](verification_20260909/base_prs.md)、[PR30 新鲜非作者审阅](verification_20260909/pr30_fresh.md)、[W3 审阅及精确服务器输出](../research/C2/verification2/w3/REVIEW.md)给出下列 **ACCEPTED_SCOPED** 结果。合并不升级任何超出范围的作者候选。
+两个编辑事项已明确处理：PR32 审定后只改一字“雰”→“零”，原头 `a8c33782` 到合入头 `1469e123` 的 GitHub diff 已核实；C3 符号说明中“conjugate-transpose”的一句文字不精确，实际系数转换正确，冻结源保留并由独立审核解释。
 
-| 已合 PR | 可用结果 | 仍未覆盖 |
-| --- | --- | --- |
-| [22](https://github.com/randomcat4/dpp-entropy-tools/pull/22) / S1 | 三个固定符号对的严格负真实熵率证书；最新固定对象含六种极端过去核及 288 个精确事件行列式；有限单复边引理 | 任意符号族、非偶方向的全局结论与 Lyons–Steif 猜想 |
-| [23](https://github.com/randomcat4/dpp-entropy-tools/pull/23) / N4 | 固定面的局部切片与径向列结果；rank-three 全支持/Hessian/内点提升接口；顶层预算及投影熵门槛的精确障碍 | 一般固定面凹性与正反例；最高层超预算没有使完整曲率变正 |
-| [31](https://github.com/randomcat4/dpp-entropy-tools/pull/31) / C2 | 固定五点框架上靠近上面的显式锥、各向异性补偿、低事件导数单射性及例外对得分方向的负加速度 | 中间谱区和一般五点符号问题 |
-| [35](https://github.com/randomcat4/dpp-entropy-tools/pull/35) / W3 独立审核 | 固定题面 U，对每个 `a in (0,1)`、`epsilon=min(a,1-a)`、`||A-aI||op<=epsilon^2/1000`，所有实对称 V 有 `H''<=-||V||F^2/25`；允许非交换方向。精确最终系数为 `161215319/3998000000>1/25` | 整个 `I/4<=A<=3I/4`、任意固定框架或一般凹性 |
-| [30](https://github.com/randomcat4/dpp-entropy-tools/pull/30) / C1 | 归一化稀疏族中充分小 epsilon 的精确 beta 零点存在，所有区间内零点满足 `d alpha=1-10/(7 log(1/epsilon))+O(log(1/epsilon)^-2)<1`；另一个有理有限核族 cert60 全括号上界 `0.925806705` | 全 B0、违反 B0 的零点、唯一性、显式 epsilon 阈值；两个核族不能混同 |
+原始 PR22/23/24/29/30/31/32/33 队列现均已完成分项审定并合入。W4 的全检查超时和错误倒数舍入版本未被接受；修复后的七点严格检查与完整解析审稿分别保存，有限点没有替代证明。
 
-这些结果带来两个进一步判断：beta 零集上不存在统一正安全余量，但已证趋近仍来自安全侧；五点完整低层补偿有可调用的邻域定理，但没有覆盖整个中间谱带。以上正确性、计算检查、新颖性与形式化分别记账。
+新收到的 PR39/W2 非恒定中心 Wiener 弱区间定理及通用局部块通道障碍正在独立审核，当前为 **INCOMPLETE（待审）**；不能继承 PR34 的接受。C2 新有限盒单元也与已接受的 W3/PR30 分开处理。
 
-第二批已合入 [PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34)，冻结头 `838c20b12907d94a9d6e023cc03f48c3f3b36c5c`，合并提交 `66e807ad5825e96932679669b42d16d4cb93832e`。[两项非作者审阅及 15 个独立固定检查](verification_20260909/w2/README.md)支持：循环平均满足 `h(A_q f)=h(f)` 当且仅当 `A_q f=f` 几乎处处；每个被删除的 Fourier 模式给出 `h(A_q f)-h(f)>=|fhat(k)|^4`。常数中心径向线还满足 `h(p+s(f-p))+(4/3)|fhat(k)|^4 s^4` 在整个合法区间上凹，因此非常数均值保持方向严格凹。W2 与 C3 PR29 的逐坐标刷新基础定理只计一次，四次定量加强另列；任意非常数中心弦仍开放。
-
-首批已合入 [PR24](https://github.com/randomcat4/dpp-entropy-tools/pull/24)，对应 N3 冻结头 `e988aa3003484f6368133b8bc0c668331629e369`，合并提交 `494949f473b2eaa9a1176a71525fab628ef9d641`。[本轮非作者审定与服务器复算](verification_20260909/pr24.md)将其局部证书记为 **ACCEPTED_SCOPED**：连通严格核确有 beta 零点，但整个证书括号满足 `d alpha<0.661527927`；三个锁定投影的最大值不足以支配 cofactor 的充分条件被严格否定，完整 Fisher 仍保住该点的负熵曲率。
-
-一般实三维全域凹性、任意标量符号之间的熵率凹性均仍 **INCOMPLETE**。固定弱边展开的精确恒等式与有限探测已有复核，其全部渐近余项不在本轮认证范围。后继 PR30、PR33 将在基础合入后检查干净差异；其各自新内容须单独审定。下文旧八路索引保留为历史证据入口。
+下文保留历史八路结果及其原始证据入口。
 
 本页整合公开 PR #4、#5、#6、#8、#10、#11、#13、#15 的固定版本。它是证据索引，不是新的综合证明。原始命题、证明和复核文件保持原样；具体前提以链接的冻结文本为准。
 

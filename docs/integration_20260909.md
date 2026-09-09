@@ -1,5 +1,14 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 6：原队列收齐
+
+| PR | 冻结头 | merge commit | 依据 |
+| --- | --- | --- | --- |
+| [33](https://github.com/randomcat4/dpp-entropy-tools/pull/33) | `a0869b44bdce75acb8c2438806b21d3cf013e508` | `1cf1b1e24ed998cfb2623def4f06dc5a6f62817b` | [W4 T1–T3 最终非作者接受](../research/C1-verification-20260909/READY_BATCH_04.md)；原数学头0f06eef1至本头仅增checkpoint |
+| [40](https://github.com/randomcat4/dpp-entropy-tools/pull/40) | `9249ddcba31ef9f0352867654507ee6d3b689231` | `bf88ad9940c393dd14c124c965f5459eeec0ffb3` | 解析逐步审查、严格七点补充证书、超时及错误倒数舍入的拒绝/修复全过程 |
+
+原始八个 PR 已按依赖关系合齐。当前成果与路线页已按数学适用范围重新整理，批次历史保留于本页。与此同时新收到 W2 续接 PR39，已冻结新头 `5558a6b22ef8eb080d198d4af6b1a5cfe2fb164f`，三个独立有界单元正在核 NC 解析主证明、NC-channel/固定例，以及独立算术；暂不继承 PR34 认证。没有因为旧队列合完而停止新到的授权核验。
+
 ## 后继整合批次 5
 
 | PR | 合入头 | merge commit | 独立依据 |

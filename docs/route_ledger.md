@@ -1,20 +1,23 @@
 # 路线台账：覆盖、否定、替代与未完成
 
-## 本轮服务器核验新增
+## 本轮新增覆盖与方法障碍
 
-[PR32/38 的 W1 第二轮](../research/C1-verification-20260909/READY_BATCH_03.md)已闭合实 `m×2` 交叉块径向全弦及两实际坐标列/行支撑推广。外幂 likelihood 恒等式可用于表示一般 rank-two 问题，但不单独定号；有害 Q 对数项可为负、完整块刷新也不实现目标径向 DPP，这两个较强桥接断言被严格否定。一般两边均大于二且坐标支撑稠密的 rank-two 族仍开放。
+| 判断 | 精确范围 | 证据 |
+| --- | --- | --- |
+| 已覆盖 | 对角/常数中心完整合法线凹性及径向二次、四次严格性；W2/C3 共同骨干只计一次 | [径向审核](verification_20260909/w2/radial_quartic_audit.md) |
+| 已覆盖 | 循环平均完整等号条件及每个被删 Fourier 模式的严格真实熵率 gap | [循环平均审核](verification_20260909/w2/cyclic_audit.md) |
+| 已覆盖 | W1 rank-one 交叉块；实 `m×2` 及至多两实际坐标列/行支撑的全弦 | [W1 第二轮](../research/C1-verification-20260909/READY_BATCH_03.md) |
+| 固定反例对象已排除 | S1 三个固定符号对、C3-M1 固定三符号的正真实熵率 pair gap | [S1](verification_20260909/base_prs.md)、[C3-M1](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
+| 已覆盖 | C2 固定框架的显式上面锥/各向异性界；W3 标量中心 `epsilon^2/1000` 球内的全方向负曲率 | [C2](verification_20260909/base_prs.md)、[W3](../research/C2/verification2/w3/REVIEW.md) |
+| 已覆盖 | W4 三维 `|K_ij|<=sqrt(v_i v_j)/4` 归一化子域的完整六方向界和闭包弦凹性；连通两边图也足以使 Hessian 负定 | [W4 最终审核](../research/C1-verification-20260909/READY_BATCH_04.md) |
+| 充分条件已否定 | `max Qlock>=C` 及仅由相同三个投影组成的凸组合；完整 Fisher 在反例点仍大于 C | [N3 审核和复算](verification_20260909/pr24.md) |
+| 统一余量已否定 | 连通严格 beta 零集上不存在固定正安全余量；已证稀疏族从 `d alpha<1` 一侧趋近阈值 | [C1 解析与有限证书分离审核](../research/C2/verification2/beta/REVIEW.md) |
+| 充分条件已否定 | N4 最高层预算、W1 的有害 Q 对数项非负断言；低层/其余曲率项在所给例子仍补偿 | [N4/C2](verification_20260909/base_prs.md)、[W1](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md) |
+| 桥接恒等式已否定 | 两相关 DPP 逐坐标选择等于核仿射混合；整体相关块刷新等于一般 rank-two 径向 DPP | [W2](verification_20260909/w2/README.md)、[W1](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md) |
 
-[C3 的外部主实例审核](../research/C1-verification-20260909/READY_BATCH_02.md)随 PR29/36 已合入：固定 C3-M1 弦被严格负真率区间排除为正反例；内部对角基点完整可行线的凹性与 W2 共同定理去重。六边界、残差控制和全部 288 小行列式的复查没有推广到长程符号；普通 Fourier 平方可和尾仍不足以直接给体积一致算子尾界。
+仍开放：一般非恒定中心标量弦、全实三维 beta 零集界、一般固定框架中谱带、任意稠密两边均大于二的 rank-two 交叉块，以及更高维一般实核问题。固定无命中、有限盒或特定符号的严格证书不能关闭这些全域问题。普通 Fourier 平方可和尾也不能直接替代体积一致的算子尾控制。
 
-W1 首轮秩一交叉块全弦定理已有新非作者接受，独立检查确认中心二阶导可为零；这与非平凡 Jensen 严格性相容。PR32 第二轮后来由 PR38 单独审定，不是继承首轮接受。
-
-第三批 [PR22/23/31 的范围审定](verification_20260909/base_prs.md)、[PR30 审阅](verification_20260909/pr30_fresh.md)与 [W3 审阅](../research/C2/verification2/w3/REVIEW.md)已进入 main。现在可关闭的范围包括：三个固定 S1 符号对的正反例可能性、C2 固定框架的显式上面锥、W3 每个标量中心半径 `epsilon^2/1000` 的全方向正曲率可能性。有限无命中仍不关闭一般搜索域。
-
-稀疏 beta 零点族从下方以 `1/log(1/epsilon)` 速度接近 `d alpha=1`，因此“整个连通严格 beta 零集具有固定正安全余量”被否定；全局 `d alpha<=1` 仍开放。N4 最高层预算充分条件的失败保留为方法障碍，低层在已有例子中补偿，不能当作完整熵的反例。W3 的中间谱带、C2 的一般五点符号和任意非常数中心标量弦仍 **INCOMPLETE**。
-
-[PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34) 已合入并获[分项非作者审定](verification_20260909/w2/README.md)。循环平均的完整严格等号条件与显式熵率 gap 已闭合；常数中心径向线具有二次或四次定量严格性。一般非常数 `A_2 f` 中心的整弦曲率仍开放。两相关 DPP 的逐点选择等于核仿射混合这一桥接恒等式被二点精确例子否定；不能据此否定真正的熵凹性。
-
-已合入 [PR24](https://github.com/randomcat4/dpp-entropy-tools/pull/24)；详见[固定版本审定](verification_20260909/pr24.md)。新增关闭的是“`max Qlock>=C` 能统一支配 cofactor”这一充分条件，包括仅使用相同三个投影的凸组合；没有关闭真正的完整 Fisher 比较。连通严格 beta 零集非空已有严格括号证书，该括号整体 `d alpha<1`。一般 beta 零集上的界仍 **INCOMPLETE**，不能把一次根存在证书解释成全局解决。
+PR39 新增的非恒定中心 Wiener 连续弱区间及更强局部通道不可能性尚待非作者审阅；不因旧 W2 径向定理已经合入而提前关闭对应路线。
 
 更新于 2026-09-09。这里“关闭”必须带上范围：定理覆盖只排除所述区域；方法被反例否定只否定该方法。有限搜索没有命中，不能关闭数学上的反例空间。
 
