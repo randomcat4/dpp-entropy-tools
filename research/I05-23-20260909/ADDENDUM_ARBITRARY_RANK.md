@@ -36,9 +36,11 @@ where `(i,j)` is any pair with `B_ij != 0` and
 \]
 
 All complete configurations and the complete Fisher term are retained.
-For rational input the certificate can be made wholly rational except for
-the harmless displayed `log 2` bound; replacing `log 2` by the rational
-upper bound `1` gives a rational radius.
+For rational input, choose certified positive rational lower bounds for
+the four spectral margins and a certified positive rational upper bound
+for `||B||_op`, for example by exact root isolation and rational matrix-norm
+bounds. Substitute those bounds for `epsilon` and `beta` below and replace
+`log 2` by its rational upper bound `1`; the resulting radius is rational.
 
 ## Complete likelihood polynomial
 

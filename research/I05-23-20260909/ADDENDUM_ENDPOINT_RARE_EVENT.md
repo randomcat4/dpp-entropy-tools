@@ -9,8 +9,9 @@ spectral endpoint.
 
 ## Lemma B.1 (a simple vanishing atom forces negative infinite curvature)
 
-Let `Omega` be finite and let `p_omega(t)` be probability polynomials (more
-generally, real-analytic probabilities) on a left neighborhood of `b`, with
+Let `Omega` be finite and let `p_omega(t)` be probability polynomials, or
+more generally functions extending real-analytically to a neighborhood of
+`b` and forming a probability law on a left neighborhood of `b`, with
 
 \[
 p_\omega(t)>0\quad(t<b),\qquad \sum_\omega p_\omega(t)=1.
