@@ -13,10 +13,13 @@ Linux-6.18.35-x86_64-with-glibc2.41
 ## 1. Freeze and manifest
 
 ```sh
-sha256sum I05-W4-20260909_result.zip
-# b408d1e8faa8bd99e2df33e03dc00548ff42c4e22ef3e814838049820000c308
+python3 build_result_zip.py --output /tmp/I05-W4-20260909_result.zip
+# bytes=42902
+# sha256=b408d1e8faa8bd99e2df33e03dc00548ff42c4e22ef3e814838049820000c308
 
-cd submission
+rm -rf /tmp/I05-W4-20260909_result
+unzip -q /tmp/I05-W4-20260909_result.zip -d /tmp
+cd /tmp/I05-W4-20260909_result
 sha256sum -c MANIFEST.sha256
 ```
 
@@ -25,7 +28,7 @@ Result: every listed file `OK`.
 ## 2. Submitted programs, fresh rerun
 
 ```sh
-cd submission
+cd /tmp/I05-W4-20260909_result
 python3 code/verify_exact.py > /tmp/i05_verify_exact_fresh.txt
 python3 code/replay_explorations.py > /tmp/i05_replay_fresh.json
 cmp outputs/verify_exact.txt /tmp/i05_verify_exact_fresh.txt
@@ -41,7 +44,9 @@ Both comparisons were byte-identical.  Output hashes:
 
 ## 3. Independent verifier
 
-The reviewer-owned program does not import submission modules.
+The reviewer-owned program does not import submission modules.  The tracked
+launcher reconstructs the exact source from `verifier_payload/`, verifies source
+SHA-256, and then executes it.
 
 ```sh
 cd review
@@ -62,7 +67,7 @@ maxrss_kb=131956
 Final source and output hashes:
 
 ```text
-02cb42c069fcf8b78cd441c4dcc2880d1dd909f90bc1af4230df7570e484c3b2  independent_verify.py
+02cb42c069fcf8b78cd441c4dcc2880d1dd909f90bc1af4230df7570e484c3b2  independent_verify.reconstructed.py
 7f0067e77b25000c209d313430273769c937d92b7afd8a4b1fdd476dc1c7fc9d  independent_verify_output.json
 ```
 
