@@ -77,6 +77,18 @@ with its own fixed 2700-second first-launch window, one arithmetic
 process/CPU/thread, 16 GiB and no GPU. It explicitly excludes the new
 additive fixture and the long whole-chord task. No C1 computation is run.
 
+The original unit is now CLOSED at source/evidence FIRST scope against
+C2 PR72 e557d93e864582c9f9e7bd4384ed21d6ae2f66e2, executed source
+86617882b7db97f5db39bf613d876a5d5bcf9107. The original reviewer audited
+the independent implementation and all raw event/identity/corridor/s10/
+comparison/run artifacts. All 30 files and four copied author inputs
+are bound. The finite corridor and s=10 signs are ACCEPTED_SCOPED.
+One author publication repair remains: RESULT (5.1)'s decimal must be
+identified as approximate/rounded, with the rational endpoint governing.
+The distinct (5.2) strict lower bound passes. See the three corridor
+reports and both CORRIDOR bindings in units/pr58. No new arithmetic is
+requested for this wording repair.
+
 The additive fixed example at a4f05cc9 is a separate finite obligation.
 The completed [delta FIRST contract](units/pr58/delta_review_report.md#c2-handoff-contract-for-the-finite-witness)
 requires independent re-entry of the new A,C,U,V matrix literals at

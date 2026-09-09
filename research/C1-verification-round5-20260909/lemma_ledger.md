@@ -6,7 +6,8 @@
 | PR58 | Interval envelope as a conditional analytic criterion | CORRECT / ACCEPTED_SCOPED |
 | PR58 | Conditional-centering identities and optimality | CORRECT / ACCEPTED_SCOPED |
 | PR58 | Original strict-weakness/compensation wording | CLOSED at 7d3dd405: different sufficient criterion, no automatic implication, inequality still requires verification |
-| PR58 | Fixed corridor and W-negative / positive-negative-Hessian point | INCOMPLETE_PENDING_C2: exact interval/event evidence missing |
+| PR58 | Fixed corridor and s=10 W-negative / positive-negative-Hessian point | ACCEPTED_SCOPED after C2 PR72 at e557d93e source/evidence audit |
+| PR58 | RESULT (5.1) printed upper-endpoint decimal | NEEDS_FIX: mark approximate/rounded; exact rational sign proof passes; (5.2) strict lower bound separately accepted |
 | PR58 | Script and stored interval output | CORRECT static consistency; author output only |
 | PR58 additive delta | Joint-additive projection, Cauchy bound and rank-at-most-four reduction | CORRECT / ACCEPTED_SCOPED at a4f05cc9, unchanged by 7d3dd405 |
 | PR58 additive delta | Normal equations | CORRECT / ACCEPTED_SCOPED after domain repair at 5ab3cae1; prior NEEDS_FIX CLOSED |

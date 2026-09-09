@@ -47,3 +47,10 @@ evidence closes Claims 1-3. The original reports remain unchanged.
 Metadata checks establish source and execution provenance; the mathematical
 acceptance relies on the separately reported source/evidence audit of the
 independent C2 construction. It is not inferred from hashes or PASS text.
+
+Later bounded evidence follow-ups independently close PR60 Claim 4 using
+PR71 at 8878516c and the original PR58 finite corridor/s=10 units using
+PR72 at e557d93e. Each has separate raw-source/evidence reports and input/
+run bindings; the prior reports remain historical. Original PR58 retains
+only a rounded-decimal wording repair at RESULT (5.1). The new additive
+finite witness is separate and receives no inherited machine pass.

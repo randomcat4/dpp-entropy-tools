@@ -2,12 +2,13 @@
 
 All three fresh independent source FIRST reviews are complete. PR60
 Claims 1-3 close against C2 PR64 and Claim 4 independently closes against
-C2 PR71. PR58's original finite packet PR72 is under source/evidence
-audit; the new additive witness remains a distinct finite unit.
+C2 PR71. PR58's original finite packet PR72 passes source/evidence
+audit, with only RESULT (5.1)'s rounded-decimal wording needing repair;
+the new additive witness remains a distinct finite unit.
 
 | Unit | Mathematical FIRST | Static code | Independent computation | Readiness for C3 SECOND |
 |---|---|---|---|---|
-| PR58 original analytic packet, repaired at 7d3dd405 | Analytic compensation/conditional criteria/centering ACCEPTED_SCOPED; original wording finding CLOSED | CORRECT at static level | Corridor and W/curvature certificates pending C2's separately claimed reconstruction | Original analytic scope READY; no whole-packet finite acceptance |
+| PR58 original packet plus C2 PR72 at e557d93e | Analytic and original finite scopes ACCEPTED_SCOPED; old comparison wording CLOSED; RESULT (5.1) decimal wording NEEDS_FIX | Original static and independent-source/evidence audits CORRECT | Four-interval corridor and s=10 W/complete-curvature evidence CLOSED | Original analytic scope READY; accepted finite evidence available for C3 SECOND, with one publication wording repair outstanding |
 | PR58 additive analytic delta, domain repaired at 5ab3cae1 | Joint-additive projection, normal equations and rank-four structure CORRECT / ACCEPTED_SCOPED; domain finding CLOSED | CORRECT at static level | New s=9/10 finite witness pending a distinct C2 unit | Analytic delta READY for C3 independent SECOND; finite witness receives no inherited acceptance |
 | PR59 at 892a121a | CORRECT / ACCEPTED_SCOPED for all scoped analytic claims | CORRECT; both author outputs inspected, not executed | No finite computation is load-bearing for the accepted analytic theorem | READY for C3 independent second at the exact frozen head |
 | PR60 at f869fd25 with C2 PR64 at 5b40617f and separate PR71 at 8878516c | Claims 1-4 CORRECT / ACCEPTED_SCOPED; perspective identities accepted separately | CORRECT; original static, full-r and auxiliary evidence audits remain distinct | Full-r and separate radial-obstruction gates CLOSED after raw evidence audits | Claims 1-3 and separate Claim 4 READY for C3 independent SECOND |
@@ -45,6 +46,15 @@ negative radial derivative of the negative Hessian, positive actual
 negative Hessian, and negative complete entropy Jensen difference.
 This refutes the auxiliary monotonicity law. No entropy counterexample
 is certified. Claim 4 inherits no evidence from the full-r packet.
+
+PR58's original PR72 evidence closes all 64 complete events, cancellation
+and derivative identities, interval extrema, four positive squared
+margins, all 27 exact comparisons and 5120 retained logarithm-series
+terms. The original corridor 3<=s<=15 and s=10 signs pass. RESULT (5.1)
+should call its displayed upper-endpoint decimal approximate: the exact
+rational endpoint governs the proof. This is a source-precision repair;
+(5.2)'s strict lower bound passes independently. It does not concern the
+new additive s=9/10 witness or the earlier repaired comparison sentences.
 
 Missing computation is an evidence-status gap, not a proof of falsity.
 Full per-claim dispositions are in the mathematical and code reports;

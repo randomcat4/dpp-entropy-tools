@@ -106,3 +106,18 @@ C2's original PR58 finite packet has also arrived as PR72 at e557d93e;
 its 30 files and four copied author inputs are hash-bound. The original
 PR58 FIRST is auditing those raw artifacts and the printed-decimal
 endpoint wording. No finite acceptance is inferred from receipt alone.
+
+## Original PR58 finite-evidence FIRST complete
+
+The original PR58 reviewer completed the PR72 raw source/evidence audit
+at e557d93e, with executed source 86617882 and author 1770ed29. It accepts
+the four-interval corridor and s=10 W-negative/positive-complete-curvature
+evidence, including all 64 events, exact extrema/margins, all 27 rational
+comparisons and the full outward log evidence. Original and all prior
+delta/wording/domain reports remain unchanged.
+
+The sole original-packet repair is RESULT (5.1)'s printed upper-endpoint
+wording: its decimal is approximate, while the exact rational endpoint
+governs the negative sign certificate. The (5.2) strict lower bound is
+accepted separately. The new additive s=9/10 evidence remains a distinct
+PR76 review and inherits no status from this closure.
