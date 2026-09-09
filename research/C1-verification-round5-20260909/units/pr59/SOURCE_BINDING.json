@@ -1,0 +1,110 @@
+{
+  "computation": "No C1 arithmetic execution; independent exact reconstruction assigned to C2",
+  "pr": 59,
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "files": [
+    {
+      "download_hash_verified": true,
+      "blob": "00cd13a6304bb5caa9fcf3f03445240812acf8ee",
+      "path": "research/I05-DPP-21-nonzero-20260909/README.md",
+      "status": "added",
+      "lines": 78
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "6d71ab3887b28215836154e23f6c45b6b9c263c0",
+      "path": "research/I05-DPP-21-nonzero-20260909/RESULT.md",
+      "status": "added",
+      "lines": 73
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "ef0f13894bd07351a4b798357241dece4022b2f8",
+      "path": "research/I05-DPP-21-nonzero-20260909/attempts.md",
+      "status": "added",
+      "lines": 93
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "6768775cfb3ddb2811237680413d1d702c4432cd",
+      "path": "research/I05-DPP-21-nonzero-20260909/clarifications.md",
+      "status": "added",
+      "lines": 83
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "b3cb70667241c6372e9efc229b693536a88b357a",
+      "path": "research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py",
+      "status": "added",
+      "lines": 64
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "ef505753708019c1ba3de2713284db6e24db4388",
+      "path": "research/I05-DPP-21-nonzero-20260909/code/check_rpf_hessian.py",
+      "status": "added",
+      "lines": 113
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "ecdca5e700f6a1e9b62294cd5c7e3633c133ad4c",
+      "path": "research/I05-DPP-21-nonzero-20260909/frozen_statement.md",
+      "status": "added",
+      "lines": 140
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "ee888a13cd8fd74a224129f2d6f4c959e0930b2e",
+      "path": "research/I05-DPP-21-nonzero-20260909/output/explicit_family_exact.json",
+      "status": "added",
+      "lines": 21
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "0c536a4d7c408b5366eba4d0d5b9f05185b3dd9d",
+      "path": "research/I05-DPP-21-nonzero-20260909/output/rpf_hessian_exact.json",
+      "status": "added",
+      "lines": 20
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "52a5ced3dcfadb534f330ea23ab43de89a9dacaf",
+      "path": "research/I05-DPP-21-nonzero-20260909/output/run_record.json",
+      "status": "added",
+      "lines": 26
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "184e9668d37da3edf0300eccc283bf05e6d0b784",
+      "path": "research/I05-DPP-21-nonzero-20260909/proof.md",
+      "status": "added",
+      "lines": 627
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "1ca5fd06160543f8bd736f1b51db6f42372c66f4",
+      "path": "research/I05-DPP-21-nonzero-20260909/requirements.txt",
+      "status": "added",
+      "lines": 1
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "1fb0c315762090f0b03152277209ce4266b4a166",
+      "path": "research/I05-DPP-21-nonzero-20260909/sources.md",
+      "status": "added",
+      "lines": 59
+    },
+    {
+      "download_hash_verified": true,
+      "blob": "df609e806300c47876f243bed803cc0767de127a",
+      "path": "research/I05-DPP-21-nonzero-20260909/verification.md",
+      "status": "added",
+      "lines": 212
+    }
+  ],
+  "prefix": "research/I05-DPP-21-nonzero-20260909/",
+  "commit": "892a121a6e26fcf638c75de917e50a4503b5675e",
+  "file_count": 14,
+  "review_scope": "Entire frozen author packet; mathematical proof and static code review separated",
+  "origin": "public immutable GitHub commit"
+}
