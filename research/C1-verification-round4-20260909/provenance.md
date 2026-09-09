@@ -36,3 +36,12 @@ closure of the three previously identified findings only. This is not a
 fresh independent second and is not counted as one. The exported repair
 reports normalize source and compare aliases without changing findings.
 C3 owns the fresh second after closure. No new computation was needed.
+
+Theorem FR was added after the original PR53 reviews, so C1 assigned a new
+non-author GPT-5.5/xhigh first context to that single immutable source file.
+The new reviewer did not read prior C1 verdicts, examined the complete new
+proof and primary references, and returned CORRECT / ACCEPTED_SCOPED.
+C1 supplied source/version and primary-source leads without imposing a
+verdict. The completed reports normalize operational paths and policy
+directory references only. C3 reserves the independent second. No new
+arithmetic or formal proof was run for this unit.

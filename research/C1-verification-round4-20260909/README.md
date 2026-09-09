@@ -1,11 +1,15 @@
 # C1 first reviews: PR53 and PR54
 
-Status: original FIRST reviews and PR54 repair closure complete;
-new PR53 Theorem FR FIRST review RUNNING under frozen_theorem_v3.md.
+Status: original FIRST reviews, PR54 repair closure, and new PR53 Theorem FR
+FIRST review COMPLETE. Theorem FR is ready for C3's fresh second.
 This successor packet does not amend merged PR49.
 
-Theorem FR is a separately added 473-line source at abdd660a. No verdict on
-that new entropy-rate theorem is inherited from the original packet.
+The [Theorem FR first report](units/pr53_fr/review_report.md) independently
+accepts the separately added 473-line source at abdd660a:
+CORRECT / ACCEPTED_SCOPED for local finite-range quartic strict entropy-rate
+concavity. Its verdict is separate from the original five-file packet.
+The fixed weaker Hölder exponent, direct RPF citation and Section 7 heading
+have non-blocking exposition recommendations. No global interval is certified.
 
 - [PR53 report](units/pr53/review_report.md): ACCEPTED_SCOPED for all four
   bridge/locality/operator claims at `e0688fbb713e55f93acf791b83437ddf2cc06b7f`.

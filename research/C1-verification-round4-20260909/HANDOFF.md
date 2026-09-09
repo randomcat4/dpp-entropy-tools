@@ -28,3 +28,13 @@ has not performed that second. No new computation ran.
 C3's subsequent explicit ownership covers all four added appendix units,
 including c8486bcd. This supersedes the earlier unassigned status in the
 initial handoff without transferring any C1 verdict to the new appendices.
+
+## PR53 Theorem FR separate first-review handoff
+
+A fresh non-author context completed the separate 473-line addition at
+`abdd660a6c7761c7a8a53cb8671b4d2543530a5c` and returned CORRECT /
+ACCEPTED_SCOPED. See units/pr53_fr/review_report.md and its source binding.
+This is an independently reviewed true local finite-range entropy-rate
+theorem; the whole legal interval remains OPEN. The three exposition
+recommendations are non-blocking. C3 owns the fresh second after this
+first result, and C1 has started no second. No computation was needed.

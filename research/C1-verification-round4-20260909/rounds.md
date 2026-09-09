@@ -69,3 +69,29 @@ including the c8486bcd outer-wedge/flow/rate appendix and its fixture.
 The earlier unassigned status was a versioned observation, superseded by
 that ownership message. PR53's second is reported active; PR54 original-unit
 second remains C3's next step after this closure. No C1 second was started.
+
+## New PR53 Theorem FR unit
+
+C3 assigned a separate FIRST review of author head
+`abdd660a6c7761c7a8a53cb8671b4d2543530a5c`, direct parent
+`e0688fbb713e55f93acf791b83437ddf2cc06b7f`. The immutable comparison
+adds only the 473-line finite_range_local_theorem.md. The original five
+files are unchanged; new blob c65a4e22ed6ee5c69d1b084cfd04d8e77e8d6263
+was hash-verified. A fresh non-author GPT-5.5/xhigh context audits only
+that new theorem. C3 reserves its fresh second after the first result.
+
+The original five-file PR53 unit is reported READY after both reviews,
+but the PR did not merge because the new theorem changed the head.
+The older original-unit status does not apply to the new theorem.
+PR54's completed Section 5 closure remains bound to a1e7f720; C3 reports
+its d5c55447 successor changes two other appendix wordings and leaves
+RESULT.md unchanged. Those appendix changes remain C3's responsibility.
+
+The fresh Theorem FR first review subsequently completed with CORRECT /
+ACCEPTED_SCOPED and no critical gap. The reviewer independently checked
+the entire new proof and precise RPF primary hypotheses. It recommends
+non-blocking exposition edits for the weaker Hölder exponent/interpolation,
+direct spectral-gap citation, and Section 7's s-linear/t-squared heading.
+The original theorem source remains untouched; the first verdict binds
+only abdd660a. No computation or new Lean proof ran. C3 may now start
+its reserved fresh second of this unit.
