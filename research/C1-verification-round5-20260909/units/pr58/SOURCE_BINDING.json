@@ -1,0 +1,40 @@
+{
+  "review_scope": "Entire frozen author packet; mathematical proof and static code review separated",
+  "computation": "No C1 arithmetic execution; independent exact reconstruction assigned to C2",
+  "origin": "public immutable GitHub commit",
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "pr": 58,
+  "file_count": 4,
+  "files": [
+    {
+      "lines": 137,
+      "status": "added",
+      "blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 309,
+      "status": "added",
+      "blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a",
+      "path": "research/I05-23-middle-20260909/RESULT.md",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 173,
+      "status": "added",
+      "blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "path": "research/I05-23-middle-20260909/code/verify_middle_compensation.py",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 30,
+      "status": "added",
+      "blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "path": "research/I05-23-middle-20260909/output/verify_middle_compensation.txt",
+      "download_hash_verified": true
+    }
+  ],
+  "prefix": "research/I05-23-middle-20260909/"
+}

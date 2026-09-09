@@ -1,0 +1,29 @@
+{
+  "commit": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "file_count": 3,
+  "computation": "C1 source/evidence review only; no arithmetic execution",
+  "files": [
+    {
+      "lines": 251,
+      "blob": "b6125440919706e2a202d65176d5538c86f4449c",
+      "path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 117,
+      "blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "path": "research/I05-23-middle-20260909/code/verify_joint_additive_failure.py",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 11,
+      "blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "path": "research/I05-23-middle-20260909/output/verify_joint_additive_failure.txt",
+      "download_hash_verified": true
+    }
+  ],
+  "unit": "pr58_delta",
+  "base": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "origin": "public immutable GitHub commit",
+  "prefix": "research/I05-23-middle-20260909/"
+}

@@ -1,0 +1,68 @@
+{
+  "pr": 60,
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "computation": "No C1 arithmetic execution; independent exact reconstruction assigned to C2",
+  "review_scope": "Entire frozen author packet; mathematical proof and static code review separated",
+  "origin": "public immutable GitHub commit",
+  "file_count": 8,
+  "prefix": "research/I05-22-R3-lambda-zero-global/",
+  "files": [
+    {
+      "status": "added",
+      "lines": 48,
+      "path": "research/I05-22-R3-lambda-zero-global/README.md",
+      "blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 54,
+      "path": "research/I05-22-R3-lambda-zero-global/bridge_checks.py",
+      "blob": "63df86ad1f93c551a6e3834bb183245657f28996",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 116,
+      "path": "research/I05-22-R3-lambda-zero-global/certificate.py",
+      "blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 211,
+      "path": "research/I05-22-R3-lambda-zero-global/continuation.md",
+      "blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 107,
+      "path": "research/I05-22-R3-lambda-zero-global/continuation_exact.py",
+      "blob": "615d360fa591e86ae115d37ee8519438fab1811c",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 263,
+      "path": "research/I05-22-R3-lambda-zero-global/proof.md",
+      "blob": "0ab3e96592497382096c93c67e1e5224673fa119",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 69,
+      "path": "research/I05-22-R3-lambda-zero-global/sources_routes.md",
+      "blob": "93566de352021d64c3b061a8a86a066ebde6d287",
+      "download_hash_verified": true
+    },
+    {
+      "status": "added",
+      "lines": 60,
+      "path": "research/I05-22-R3-lambda-zero-global/verification.md",
+      "blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7",
+      "download_hash_verified": true
+    }
+  ],
+  "commit": "f869fd251c0d6fdad737b6d5efa287307795a87d"
+}

@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "additions": 1,
+      "blob": "a885544a9b5454cb4074b16a845a16ee70fcfe41",
+      "download_hash_verified": true,
+      "deletions": 1
+    },
+    {
+      "path": "research/I05-23-middle-20260909/RESULT.md",
+      "additions": 1,
+      "blob": "7e981841708a117a2f07852f10eb7b4a53f93515",
+      "download_hash_verified": true,
+      "deletions": 1
+    }
+  ],
+  "parent": "5ab3cae1c49da8334057596f46a4bd8fc449b98c",
+  "commit": "ce9ade6d57469f0a4a67365604c66eb4cc290fc5",
+  "file_count": 2,
+  "scope": "Two presentation sentences only. RESULT (5.1) approximate endpoint wording and explicit 0..7 dual mask order. No formulas, code or outputs changed."
+}

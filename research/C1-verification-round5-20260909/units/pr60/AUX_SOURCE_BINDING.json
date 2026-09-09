@@ -1,0 +1,197 @@
+{
+  "unit": "pr71_aux",
+  "files": [
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/.gitattributes",
+      "blob": "f38ced463e6c9f2ee81a3104a573bda12de50af3"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 25,
+      "path": "research/C2/pr60_aux52/README.md",
+      "blob": "48e3029e701901fe78f579807ab0d39c2094dda9"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 20,
+      "path": "research/C2/pr60_aux52/STATUS.md",
+      "blob": "223f1019c9f35bea2c1da0eb097171f71bc6aa5f"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 43,
+      "path": "research/C2/pr60_aux52/execution/RUN_LEDGER.json",
+      "blob": "2ffef22fcc6ae62626793473b55a0b05835339b7"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 54,
+      "path": "research/C2/pr60_aux52/execution/run_guard.sh",
+      "blob": "c247b99b61a033a48795cd4098e458c3e8100505"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 7,
+      "path": "research/C2/pr60_aux52/frozen_contract.md",
+      "blob": "bdb598dc15aa83ab27bd2bb5e44f516e33ddb761"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1075,
+      "path": "research/C2/pr60_aux52/implementation/pr60_aux52_certificate.py",
+      "blob": "fa8828285c41e0e1c6d9ff938ba6e472d1e0b09c"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 24,
+      "path": "research/C2/pr60_aux52/inputs/REQUEST.md",
+      "blob": "ed5b14264b81639d41c1f45fbf7db9430be2f23c"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 23,
+      "path": "research/C2/pr60_aux52/inputs/SOURCE_BINDING.json",
+      "blob": "055c1774d7a2f339c7ea32a9f95a52cf57dd6632"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 211,
+      "path": "research/C2/pr60_aux52/inputs/continuation.md",
+      "blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 107,
+      "path": "research/C2/pr60_aux52/inputs/continuation_exact_reference.py",
+      "blob": "615d360fa591e86ae115d37ee8519438fab1811c"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 137,
+      "path": "research/C2/pr60_aux52/machine_notes.md",
+      "blob": "86ceb6997ec1463faf9ac9b8c525659fc2e61644"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 16,
+      "path": "research/C2/pr60_aux52/outputs/run01/00_start.json",
+      "blob": "9eab8389b14f98aba90f9137b22a35955c50bf6f"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 46,
+      "path": "research/C2/pr60_aux52/outputs/run01/01_inputs_resolved.json",
+      "blob": "c7e6e40875d7d94ae768bac5c2d452bf0bb5f007"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 68,
+      "path": "research/C2/pr60_aux52/outputs/run01/02_matrices.json",
+      "blob": "7a06a85dd52425ed171de0c0ef546e3213bde8fd"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 640,
+      "path": "research/C2/pr60_aux52/outputs/run01/03_event_polynomials_and_jets.json",
+      "blob": "ecbb5560f9a62abfcae657760671ae8b181193bc"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 80,
+      "path": "research/C2/pr60_aux52/outputs/run01/04_base_probability_and_lambda.json",
+      "blob": "a6abd511f8ed512c890a1c4597306339214a04eb"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 235,
+      "path": "research/C2/pr60_aux52/outputs/run01/05_legality.json",
+      "blob": "3c23bee327d04bbf06f8218aad3d1f11873e21f4"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 41,
+      "path": "research/C2/pr60_aux52/outputs/run01/06_log_method.json",
+      "blob": "231925cafa15debe5d0762c7c9866a944178abd0"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 527,
+      "path": "research/C2/pr60_aux52/outputs/run01/07_radial_derivative.json",
+      "blob": "967ec8a4c75be01310829886ada40c8543d8fe29"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 476,
+      "path": "research/C2/pr60_aux52/outputs/run01/08_true_curvature.json",
+      "blob": "33d7ad7e17df6d72876f596af41988522dae2c3a"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1529,
+      "path": "research/C2/pr60_aux52/outputs/run01/09_jensen.json",
+      "blob": "a8cda0bb22f07bb801658ee857ebfd6dbd1d4c6d"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/arithmetic_pid.txt",
+      "blob": "7cecbc5b35b6ac71613a84142214e6a767696d4b"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 3539,
+      "path": "research/C2/pr60_aux52/outputs/run01/certificate.json",
+      "blob": "abbcc9350710d51a95348d901cb8e368dfd18012"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/cpu_affinity.txt",
+      "blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/deadline_utc.txt",
+      "blob": "19c564883956e60d9c16d59cf4f64013a15e4712"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/exit.json",
+      "blob": "a6f8a1277fe2625ebc50666a8d4cad7b820d3130"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/start_utc.txt",
+      "blob": "b9352a43885c985ee9b53afa67f95e7762433124"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 0,
+      "path": "research/C2/pr60_aux52/outputs/run01/stderr.log",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/stdout.log",
+      "blob": "247f4e21f868cd8b5e5c5ff7820d07c9ab289f55"
+    },
+    {
+      "download_hash_verified": true,
+      "lines": 1,
+      "path": "research/C2/pr60_aux52/outputs/run01/timeout_pid.txt",
+      "blob": "fd27551cd9e7d4beec7d3ab063708593394e4477"
+    }
+  ],
+  "origin": "public immutable GitHub commit",
+  "computation": "C1 source/evidence review only; no arithmetic execution",
+  "base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+  "prefix": "research/C2/pr60_aux52/",
+  "commit": "8878516c0ad12e60884419fc03525b2a7caa7be3",
+  "file_count": 31
+}

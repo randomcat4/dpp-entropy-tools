@@ -1,0 +1,27 @@
+{
+  "executed_source_commit": "bbc9bc19b915ebad0ea8e8bea00580d4eebc5246",
+  "machine_branch_base": "28c24dee643f8a2049c143f79d4d63798907d2f1",
+  "machine_packet_commit": "a7979c33b6e82431b6ddf1d39ac69e254d7b655a",
+  "author_base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "matched_author_inputs": [
+    {
+      "copy": "research/C2/pr58_additive52/inputs/ADDENDUM_JOINT_ADDITIVE.md",
+      "blob": "b6125440919706e2a202d65176d5538c86f4449c",
+      "source": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md"
+    },
+    {
+      "copy": "research/C2/pr58_additive52/inputs/author_checker_reference.py",
+      "blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "source": "research/I05-23-middle-20260909/code/verify_joint_additive_failure.py"
+    },
+    {
+      "copy": "research/C2/pr58_additive52/inputs/author_output_reference.txt",
+      "blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "source": "research/I05-23-middle-20260909/output/verify_joint_additive_failure.txt"
+    }
+  ],
+  "author_commit": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "note": "Metadata establishes provenance only. STOPPED_FIRST_EXACT_MISMATCH is not a machine pass. Original FIRST must audit raw evidence; W/V request correction is not an author defect.",
+  "post_launch_input_addition": "REQUEST_CORRECTION.md is preserved context, not executed input",
+  "implementation_original_inputs_guard_unchanged_since_run": true
+}

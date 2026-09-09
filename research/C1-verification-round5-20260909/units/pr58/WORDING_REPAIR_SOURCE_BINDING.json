@@ -1,0 +1,15 @@
+{
+  "commit": "7d3dd405faea365e3ddcfd8c1b6f38ae47e34387",
+  "files": [
+    {
+      "blob": "cea5ef0c99b5939e5a2a4ca8712f951c9345c870",
+      "additions": 2,
+      "path": "research/I05-23-middle-20260909/RESULT.md",
+      "deletions": 2,
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Two wording replacements only; formulas, code, output and additive delta unchanged",
+  "parent": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "origin": "public immutable GitHub commit"
+}
