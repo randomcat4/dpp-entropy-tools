@@ -2,6 +2,18 @@
 
 ## 服务器独立核验与后继整合
 
+第三批已合入 PR22、23、31、35、30，均保留 merge 祖先关系。[基础三项非作者审定](verification_20260909/base_prs.md)、[PR30 新鲜非作者审阅](verification_20260909/pr30_fresh.md)、[W3 审阅及精确服务器输出](../research/C2/verification2/w3/REVIEW.md)给出下列 **ACCEPTED_SCOPED** 结果。合并不升级任何超出范围的作者候选。
+
+| 已合 PR | 可用结果 | 仍未覆盖 |
+| --- | --- | --- |
+| [22](https://github.com/randomcat4/dpp-entropy-tools/pull/22) / S1 | 三个固定符号对的严格负真实熵率证书；最新固定对象含六种极端过去核及 288 个精确事件行列式；有限单复边引理 | 任意符号族、非偶方向的全局结论与 Lyons–Steif 猜想 |
+| [23](https://github.com/randomcat4/dpp-entropy-tools/pull/23) / N4 | 固定面的局部切片与径向列结果；rank-three 全支持/Hessian/内点提升接口；顶层预算及投影熵门槛的精确障碍 | 一般固定面凹性与正反例；最高层超预算没有使完整曲率变正 |
+| [31](https://github.com/randomcat4/dpp-entropy-tools/pull/31) / C2 | 固定五点框架上靠近上面的显式锥、各向异性补偿、低事件导数单射性及例外对得分方向的负加速度 | 中间谱区和一般五点符号问题 |
+| [35](https://github.com/randomcat4/dpp-entropy-tools/pull/35) / W3 独立审核 | 固定题面 U，对每个 `a in (0,1)`、`epsilon=min(a,1-a)`、`||A-aI||op<=epsilon^2/1000`，所有实对称 V 有 `H''<=-||V||F^2/25`；允许非交换方向。精确最终系数为 `161215319/3998000000>1/25` | 整个 `I/4<=A<=3I/4`、任意固定框架或一般凹性 |
+| [30](https://github.com/randomcat4/dpp-entropy-tools/pull/30) / C1 | 归一化稀疏族中充分小 epsilon 的精确 beta 零点存在，所有区间内零点满足 `d alpha=1-10/(7 log(1/epsilon))+O(log(1/epsilon)^-2)<1`；另一个有理有限核族 cert60 全括号上界 `0.925806705` | 全 B0、违反 B0 的零点、唯一性、显式 epsilon 阈值；两个核族不能混同 |
+
+这些结果带来两个进一步判断：beta 零集上不存在统一正安全余量，但已证趋近仍来自安全侧；五点完整低层补偿有可调用的邻域定理，但没有覆盖整个中间谱带。以上正确性、计算检查、新颖性与形式化分别记账。
+
 第二批已合入 [PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34)，冻结头 `838c20b12907d94a9d6e023cc03f48c3f3b36c5c`，合并提交 `66e807ad5825e96932679669b42d16d4cb93832e`。[两项非作者审阅及 15 个独立固定检查](verification_20260909/w2/README.md)支持：循环平均满足 `h(A_q f)=h(f)` 当且仅当 `A_q f=f` 几乎处处；每个被删除的 Fourier 模式给出 `h(A_q f)-h(f)>=|fhat(k)|^4`。常数中心径向线还满足 `h(p+s(f-p))+(4/3)|fhat(k)|^4 s^4` 在整个合法区间上凹，因此非常数均值保持方向严格凹。W2 与 C3 PR29 的逐坐标刷新基础定理只计一次，四次定量加强另列；任意非常数中心弦仍开放。
 
 首批已合入 [PR24](https://github.com/randomcat4/dpp-entropy-tools/pull/24)，对应 N3 冻结头 `e988aa3003484f6368133b8bc0c668331629e369`，合并提交 `494949f473b2eaa9a1176a71525fab628ef9d641`。[本轮非作者审定与服务器复算](verification_20260909/pr24.md)将其局部证书记为 **ACCEPTED_SCOPED**：连通严格核确有 beta 零点，但整个证书括号满足 `d alpha<0.661527927`；三个锁定投影的最大值不足以支配 cofactor 的充分条件被严格否定，完整 Fisher 仍保住该点的负熵曲率。

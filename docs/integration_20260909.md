@@ -1,5 +1,17 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 3
+
+| PR | 冻结头 | merge commit | 审阅依据 |
+| --- | --- | --- | --- |
+| [22](https://github.com/randomcat4/dpp-entropy-tools/pull/22) | `60645b4ea9e3f3a79d842b6fe039a33f9daaf7df` | `3833398ad1894bd2163551679618b33410ccb435` | [非作者归档审定](verification_20260909/base_prs.md)与对应原始固定证书复核 |
+| [23](https://github.com/randomcat4/dpp-entropy-tools/pull/23) | `ffc8a7b855a9866306b3a6c22a5b4ecbc4be0d90` | `3a800bd6be13a1e5fe15b51245f38a4d6673cfe4` | 同上，固定面/rank-three 辅助结果 |
+| [31](https://github.com/randomcat4/dpp-entropy-tools/pull/31) | `178eca3db82cdce495146eb8e1f16dece99f06f5` | `fe171d10de275eb9e4bb65de05a61bc709c59e33` | 同上，C2 原作者未自批；先合23，再改基main并检查差异仅 research/C2 |
+| [35](https://github.com/randomcat4/dpp-entropy-tools/pull/35) | `83d69754dc46e9337a90dc784e128de72664ee72` | `04f29ff997d80fad70f35d4fb34c4605e0456c37` | [W3 新非作者审阅](../research/C2/verification2/w3/REVIEW.md)、实际源和服务器精确证书 |
+| [30](https://github.com/randomcat4/dpp-entropy-tools/pull/30) | `94d67909bf8c1ea06da6350cf7907d6665cb166a` | `85bf8d2d55c285fb7f68455984b2e321892e7933` | [新非作者审阅公开副本](verification_20260909/pr30_fresh.md)，解析族与独立服务器 cert60 核族严格区分 |
+
+每次合并使用冻结头约束及 merge 方法；研究分支保留。以上各 PR 没有配置 CI；通过的数学审閱/精确复算与 CI 不混记。PR35 内尚未完成的盒验证和当时 PR30 审查状态保持历史原样；后续 PR30 的接受以本批新报告为准。当前结果、被否定的充分条件、可用局部范围和开放义务同步更新到状态与路线页。
+
 ## 后继整合批次 2
 
 [PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34) 的冻结头 `838c20b12907d94a9d6e023cc03f48c3f3b36c5c` 已以 `66e807ad5825e96932679669b42d16d4cb93832e` 合入。循环平均严格性和径向四次加强分别经过新的非作者审核，另有 15 个独立编写的固定算例全部通过；[审定、脚本与输出](verification_20260909/w2/README.md)已公开。没有配置 CI，不记为 CI 成功。共同刷新基础定理与 PR29 去重；一般猜想仍 INCOMPLETE。作者后续非恒定中心探索不包含在这一冻结头的认证中。

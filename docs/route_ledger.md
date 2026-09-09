@@ -2,6 +2,10 @@
 
 ## 本轮服务器核验新增
 
+第三批 [PR22/23/31 的范围审定](verification_20260909/base_prs.md)、[PR30 审阅](verification_20260909/pr30_fresh.md)与 [W3 审阅](../research/C2/verification2/w3/REVIEW.md)已进入 main。现在可关闭的范围包括：三个固定 S1 符号对的正反例可能性、C2 固定框架的显式上面锥、W3 每个标量中心半径 `epsilon^2/1000` 的全方向正曲率可能性。有限无命中仍不关闭一般搜索域。
+
+稀疏 beta 零点族从下方以 `1/log(1/epsilon)` 速度接近 `d alpha=1`，因此“整个连通严格 beta 零集具有固定正安全余量”被否定；全局 `d alpha<=1` 仍开放。N4 最高层预算充分条件的失败保留为方法障碍，低层在已有例子中补偿，不能当作完整熵的反例。W3 的中间谱带、C2 的一般五点符号和任意非常数中心标量弦仍 **INCOMPLETE**。
+
 [PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34) 已合入并获[分项非作者审定](verification_20260909/w2/README.md)。循环平均的完整严格等号条件与显式熵率 gap 已闭合；常数中心径向线具有二次或四次定量严格性。一般非常数 `A_2 f` 中心的整弦曲率仍开放。两相关 DPP 的逐点选择等于核仿射混合这一桥接恒等式被二点精确例子否定；不能据此否定真正的熵凹性。
 
 已合入 [PR24](https://github.com/randomcat4/dpp-entropy-tools/pull/24)；详见[固定版本审定](verification_20260909/pr24.md)。新增关闭的是“`max Qlock>=C` 能统一支配 cofactor”这一充分条件，包括仅使用相同三个投影的凸组合；没有关闭真正的完整 Fisher 比较。连通严格 beta 零集非空已有严格括号证书，该括号整体 `d alpha<1`。一般 beta 零集上的界仍 **INCOMPLETE**，不能把一次根存在证书解释成全局解决。
