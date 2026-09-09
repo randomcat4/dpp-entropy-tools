@@ -3,7 +3,7 @@
 
 All 64 exact atom polynomials and their derivatives are built with rational
 arithmetic from the rank-two Schur likelihood. Logarithms are evaluated with
-mpmath at 100 decimal digits, so curvature/gap signs are diagnostics rather
+mpmath at 110 decimal digits, so curvature/gap signs are diagnostics rather
 than interval certificates. A separate issue specifies the rigorous compact-
 interval certification task.
 """
@@ -100,6 +100,15 @@ def rational_rows(t: sp.Rational):
     return rows
 
 
+# Independent exact construction check: at t=1, compare every Schur-likelihood
+# atom against the signed determinant of the full 6x6 event matrix.
+K_full_one = A.row_join(B).col_join(B.T.row_join(C))
+rows_one = rational_rows(Q(1))
+for (S, T), (p, _, _) in rows_one.items():
+    full_event = tuple(S) + tuple(3 + j for j in T)
+    assert event_prob(K_full_one, full_event) == p
+
+
 def entropy(t: sp.Rational) -> mp.mpf:
     total = mp.mpf("0")
     for p, _, _ in rational_rows(t).values():
@@ -151,10 +160,13 @@ assert disc_I > 0
 det_lo = sp.factor(((sp.eye(3) - C) - Q(2149, 1000)**2 * M_I).det())
 det_hi = sp.factor(((sp.eye(3) - C) - Q(43, 20)**2 * M_I).det())
 assert det_lo > 0 > det_hi
+# The K-side Schur complement is still positive at the upper bracket, so the
+# first loss of strict legality is indeed the simple I-K root.
+assert pd_sylvester(C - Q(43, 20)**2 * B.T * A.inv() * B)
 
 mp.mp.dps = 110
 print("agent24 correlated 3+3 signed-multiring fixture: PASS")
-print("status = MOTIVATED_100_DIGIT_DIAGNOSTIC_NOT_INTERVAL_CERTIFICATE")
+print("status = MOTIVATED_110_DIGIT_DIAGNOSTIC_NOT_INTERVAL_CERTIFICATE")
 print("rank(B) =", B.rank(), "; dense entries =", B.rows * B.cols)
 print("B =", [[str(B[i, j]) for j in range(3)] for i in range(3)])
 print("A spectrum = 2/25,2/25,23/25; C spectrum = 2/25,23/25,23/25")
@@ -164,6 +176,8 @@ print("outside PR43 special null-eigenvector condition = PASS")
 print("exact strict legality at t=+-21/10 = PASS (Schur/Sylvester)")
 print("simple positive legal endpoint tau in (2149/1000,43/20) = PASS")
 print("endpoint discriminant =", disc_I, "; det bracket =", det_lo, det_hi)
+print("K-side remains strict at 43/20 = PASS")
+print("full 6x6 signed-event cross-check at t=1 = PASS")
 print("complete rational atom polynomials =", len(features))
 print("mpmath decimal precision =", mp.mp.dps)
 print("local midpoint step =", GAP_STEP)
