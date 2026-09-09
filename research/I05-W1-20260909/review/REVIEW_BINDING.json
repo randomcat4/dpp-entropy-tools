@@ -1,0 +1,38 @@
+{
+  "task_id": "I05-W1-20260909",
+  "review_date": "2026-09-09",
+  "verdict": "PASS_WITH_SCOPE",
+  "frozen_status": "PARTIAL",
+  "independence_scope": "Independent implementation and analytic cross-check; not a separate human reviewer or isolated model context.",
+  "frozen_archive": {
+    "filename": "I05-W1-20260909_result.zip",
+    "sha256": "09309a68d6c26e4a156e3b52e2bdec543e6ebd5d3ac8f60d716da277c513f5ee"
+  },
+  "frozen_manifest_sha256": "82ccfd2ab15f5dabc4f10a46ad99f9b4565cd843a8ae0e4367c2cf7be98d4882",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "artifacts": {
+    "provided_verifier_rerun_sha256": "f443eba6e822b0d98f360b70219fdeec86e40b85fb39d287fc2e2678b0f6bbb3",
+    "exploration_rerun_sha256": "0a5d66753c78fd313f9a3347fe6c2b031907cb3b0e27ee7fc6a3cd4bdf226c9c",
+    "independent_checker_sha256": "cb3199aafb76ab21f8389701321a6e32c07d993bc8bdc12e68a67c806c0b97b1",
+    "independent_output_sha256": "023f7d861a5ab21a8ce1424eaf4ab79282e26bc6d35b3a0248558f0083926bc1"
+  },
+  "accepted_scope": [
+    "rank-one crossblock full-chord entropy concavity theorem",
+    "strictness and boundary treatment",
+    "rank-degree obstruction and rank-two coefficient",
+    "three strict counterexamples to stronger bridge claims",
+    "exact computational certificates"
+  ],
+  "not_certified": [
+    "general real-symmetric finite-kernel concavity",
+    "fixed scalar stationary entropy-rate concavity",
+    "rank-two crossblock entropy sign",
+    "novelty or publication priority",
+    "formal proof-assistant correctness",
+    "independent human peer review"
+  ]
+}

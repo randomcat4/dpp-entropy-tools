@@ -1,0 +1,66 @@
+{
+  "000": {
+    "expression": "-(200*t**2 - 27)/1000",
+    "coefficients_ascending_t": [
+      "27/1000",
+      "0",
+      "-1/5"
+    ]
+  },
+  "001": {
+    "expression": "-(800*t**2 + 200*t - 213)/1000",
+    "coefficients_ascending_t": [
+      "213/1000",
+      "-1/5",
+      "-4/5"
+    ]
+  },
+  "010": {
+    "expression": "-(800*t**2 - 200*t - 213)/1000",
+    "coefficients_ascending_t": [
+      "213/1000",
+      "1/5",
+      "-4/5"
+    ]
+  },
+  "011": {
+    "expression": "(1800*t**2 + 47)/1000",
+    "coefficients_ascending_t": [
+      "47/1000",
+      "0",
+      "9/5"
+    ]
+  },
+  "100": {
+    "expression": "(200*t**2 + 63)/1000",
+    "coefficients_ascending_t": [
+      "63/1000",
+      "0",
+      "1/5"
+    ]
+  },
+  "101": {
+    "expression": "(800*t**2 + 200*t + 197)/1000",
+    "coefficients_ascending_t": [
+      "197/1000",
+      "1/5",
+      "4/5"
+    ]
+  },
+  "110": {
+    "expression": "(800*t**2 - 200*t + 197)/1000",
+    "coefficients_ascending_t": [
+      "197/1000",
+      "-1/5",
+      "4/5"
+    ]
+  },
+  "111": {
+    "expression": "-(1800*t**2 - 43)/1000",
+    "coefficients_ascending_t": [
+      "43/1000",
+      "0",
+      "-9/5"
+    ]
+  }
+}

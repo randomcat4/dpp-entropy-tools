@@ -1,0 +1,49 @@
+I05-W1-20260909 exact verification
+Python 3.13.5; SymPy 1.14.0; atanh terms=48
+All asserted signs use exact rational interval endpoints, not floating-point values.
+Loewner mixed Hessian: [7.252731134456902, 7.252731134456903], exact rational width < 1e-38; sign=+
+
+Three-point exact probabilities (bits x1x2x3):
+  000: -(200*t**2 - 27)/1000
+  001: -(800*t**2 + 200*t - 213)/1000
+  010: -(800*t**2 - 200*t - 213)/1000
+  011: (1800*t**2 + 47)/1000
+  100: (200*t**2 + 63)/1000
+  101: (800*t**2 + 200*t + 197)/1000
+  110: (800*t**2 - 200*t + 197)/1000
+  111: -(1800*t**2 - 43)/1000
+Sylvester K: ['1/2', '6/25', '43/1000']; I-K: ['1/2', '6/25', '27/1000']
+K3+tD3 is strictly valid on [-1/100,1/100] by endpoint Sylvester and convexity.
+Conditional nonaffine acceleration A: [0.588940501149584, 0.588940501149585], exact rational width < 1e-38; sign=+
+Positive conditional acceleration also certified by an exact integer-product inequality.
+Complete 3-point Fisher = 32800/41961
+Complete 3-point geometric term: [-0.409247095505671, -0.409247095505670], exact rational width < 1e-38; sign=-
+Complete 3-point H_second: [-1.190925320524141, -1.190925320524140], exact rational width < 1e-38; sign=-
+Conditional H1 tangent Hessian: [-1.664045978041834, -1.664045978041833], exact rational width < 1e-38; sign=-
+Conditional H0 tangent Hessian: [-1.895685665305616, -1.895685665305615], exact rational width < 1e-38; sign=-
+Conditional chain-rule Hessian equals the direct Hessian: exact prime-log coefficients and rational Fisher match.
+
+Quantum bridge obstruction: probabilities in order 00,01,10,11
+  center: ['9/100', '41/100', '41/100', '9/100']
+  minus: ['57/400', '163/400', '163/400', '17/400']
+  plus: ['17/400', '163/400', '163/400', '57/400']
+  mixture: ['37/400', '163/400', '163/400', '37/400']
+Measured mixture H(q)-H(center): [0.007497652241249, 0.007497652241250], exact rational width < 1e-38; sign=+
+Actual 2-point midpoint chord: [-0.021028906708382, -0.021028906708381], exact rational width < 1e-38; sign=-
+2-point H_second at center: [-16.156832264749869, -16.156832264749868], exact rational width < 1e-38; sign=-
+Two-point coherence correction has exact second derivative +8 at t=0.
+
+Four-point theorem example:
+A=[[2/5, 1/10], [1/10, 3/5]]; C=[[1/3, 1/20], [1/20, 2/3]]; u=[[1/5, 1/10]]; v=[[1, 1/2]]
+D rank=2, commutator=[[0, 0, 11/600, -19/600], [0, 0, 53/1200, 1/600], [-11/600, -53/1200, 0, 0], [19/600, -1/600, 0, 0]]
+Exact maximal strict interval: |t|<sqrt(2599/864)
+All 16 probability identities, both fixed marginals, and strict validity checked exactly.
+4-point H_second at t=1/4: [-0.013617025331364, -0.013617025331363], exact rational width < 1e-38; sign=-
+4-point midpoint chord center=1/4 step=1/8: [-0.000110841279748, -0.000110841279747], exact rational width < 1e-38; sign=-
+Exact leading quartic entropy coefficient = -136640986740/7530682141157
+Complex-Hermitian restricted example H_second at t=1/4: [-0.001520764895890, -0.001520764895889], exact rational width < 1e-38; sign=-
+
+Rank-two crossblock exact obstruction to s-affinity: p(1111)=(t - 5)**2*(t + 5)**2/10000
+This is an obstruction to the affine-in-s method, not an entropy counterexample.
+
+ALL EXACT CHECKS PASSED

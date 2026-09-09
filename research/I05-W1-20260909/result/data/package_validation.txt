@@ -1,0 +1,6 @@
+AUTHOR-ONLY PACKAGE REPRODUCTION CHECK
+Extracted the deliverable ZIP into a fresh temporary directory.
+Ran code/verify.py with a working directory outside the extracted project root.
+Exit status: 0. Final marker: ALL EXACT CHECKS PASSED.
+All seven regenerated formal output files matched the delivered bytes exactly.
+This is an author self-check, not an independent review.
