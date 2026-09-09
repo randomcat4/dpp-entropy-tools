@@ -7,7 +7,7 @@
 | 单元 | 冻结范围 | 状态 |
 |---|---|---|
 | W3 v1.0 非作者审核 | 固定 U；每个标量中心 aI 附近半径 min(a,1-a)^2/1000；全部实对称方向 | ACCEPTED_SCOPED，仅 T1，见 w3/REVIEW.md |
-| PR30 非作者审核 | 94d67909bf8c1ea06da6350cf7907d6665cb166a；精确 beta 零点接近族及独立有限参数证书 | INCOMPLETE，等待本轮独立报告 |
+| PR30 非作者审核 | 94d67909bf8c1ea06da6350cf7907d6665cb166a；精确 beta 零点接近族及独立有限参数证书 | ACCEPTED_SCOPED，见 beta/REVIEW.md；仅排除统一正安全余量 |
 | 全方向 Hessian 区间 | 冻结的 12 个有理中心及明确坐标盒 | INCOMPLETE，等待严格区间输出 |
 | 事件导数重建 | 4 个校准中心及上述 12 个中心，全部 32 事件的六坐标二阶导数 | ACCEPTED_SCOPED，仅精确代数实现交叉检查 |
 
