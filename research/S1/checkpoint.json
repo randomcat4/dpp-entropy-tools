@@ -1,4 +1,7 @@
 {
+  "checkpoint_scope": "ROUND_1_HISTORICAL_RECORD",
+  "latest_round": 2,
+  "latest_round_checkpoint": "research/S1/round2/checkpoint.json",
   "status": "STOPPED_SUBSTANTIVE",
   "recorded_at_utc": "2026-09-08T18:53:09Z",
   "baseline": "fa504ec74e16843fafc395880d7ba99b4c1d2129",

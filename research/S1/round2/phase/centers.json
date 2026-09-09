@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "unit": "non_even_full_hessian_1",
+  "seed": null,
+  "randomness": "none",
+  "windows": [6, 8],
+  "directions": "mean, all cosines, all sines; dimension 2m+1",
+  "coefficient_rule": "a=scale*A,b=scale*B, scale=p*budget_fraction/sum(abs(A)+abs(B)); all p<=1/2",
+  "margin_rule": "epsilon=p*(1-budget_fraction); center coefficients rational; an affine direction with coefficient l1 norm <=1 is feasible for |t|<=epsilon/2 with margin epsilon/2",
+  "canonical_rule": "A1>0,B1=0,B2>0. This proves a nonreal invariant c1^2*conj(c2), removes conjugation duplicates, and fixes translation gauge. Distinct (p,m) within list prohibit further translation/conjugation pairs.",
+  "hypotheses": [
+    "Nonreal cycle phases permit event first derivatives and full Fisher cost absent in round one.",
+    "Include weak and strong relative phases, sign-frustrated triangles, unequal harmonic strength, and density bias.",
+    "Compare the acceleration-positive directions to Fisher cost, and keep mean/cosine/sine directions jointly."
+  ],
+  "centers": [
+    {"id":"C3_1","p":"1/5","budget_fraction":"4/5","A":[6,2,1],"B":[0,2,-1],"mechanism":"biased density; opposed phases in triangles"},
+    {"id":"C3_2","p":"7/20","budget_fraction":"9/10","A":[4,-2,1],"B":[0,1,2],"mechanism":"negative second cosine; competing cycle signs"},
+    {"id":"C3_3","p":"1/2","budget_fraction":"19/20","A":[8,1,-1],"B":[0,1,3],"mechanism":"strong first harmonic; quadrature-dominant third harmonic"},
+    {"id":"C3_4","p":"3/10","budget_fraction":"9/10","A":[3,0,2],"B":[0,4,1],"mechanism":"pure sine second harmonic and biased mean"},
+    {"id":"C3_5","p":"9/20","budget_fraction":"19/20","A":[5,3,-2],"B":[0,1,-3],"mechanism":"small second phase; third phase sign reversal"},
+    {"id":"C3_6","p":"1/4","budget_fraction":"49/50","A":[9,-3,2],"B":[0,4,-1],"mechanism":"small triangle margin; several phase scales"},
+    {"id":"C4_1","p":"1/5","budget_fraction":"4/5","A":[6,2,1,-1],"B":[0,2,-1,2],"mechanism":"two competing triangles plus four-step closure"},
+    {"id":"C4_2","p":"7/20","budget_fraction":"9/10","A":[4,-2,1,2],"B":[0,1,2,-1],"mechanism":"sign-frustrated short and long cycles"},
+    {"id":"C4_3","p":"1/2","budget_fraction":"19/20","A":[10,1,-1,1],"B":[0,1,3,-2],"mechanism":"strong first harmonic; same-parity mixed directions"},
+    {"id":"C4_4","p":"3/10","budget_fraction":"9/10","A":[3,0,2,1],"B":[0,4,1,-3],"mechanism":"quadrature second harmonic; mixed even distances"},
+    {"id":"C4_5","p":"9/20","budget_fraction":"19/20","A":[5,3,-2,-1],"B":[0,1,-3,2],"mechanism":"nonzero even center and opposed even phases"},
+    {"id":"C4_6","p":"1/4","budget_fraction":"49/50","A":[9,-3,2,1],"B":[0,4,-1,3],"mechanism":"small margin with density and phase asymmetry"}
+  ]
+}

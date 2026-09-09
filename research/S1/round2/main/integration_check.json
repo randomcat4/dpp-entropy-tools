@@ -1,0 +1,123 @@
+{
+  "status": "EXACT_DISTINCTNESS_CHECK_PASSED",
+  "criterion": "Mean, degree and sum of squared positive Fourier magnitudes are translation/conjugation invariants. All nineteen invariant triples are distinct.",
+  "unique_centres": 19,
+  "invariants": [
+    {
+      "id": "S1-R2-B1",
+      "mean": "9/20",
+      "degree": 3,
+      "positive_fourier_energy": "433/40000"
+    },
+    {
+      "id": "C3_1",
+      "mean": "1/5",
+      "degree": 3,
+      "positive_fourier_energy": "23/11250"
+    },
+    {
+      "id": "C3_2",
+      "mean": "7/20",
+      "degree": 3,
+      "positive_fourier_energy": "51597/8000000"
+    },
+    {
+      "id": "C3_3",
+      "mean": "1/2",
+      "degree": 3,
+      "positive_fourier_energy": "6859/313600"
+    },
+    {
+      "id": "C3_4",
+      "mean": "3/10",
+      "degree": 3,
+      "positive_fourier_energy": "2187/400000"
+    },
+    {
+      "id": "C3_5",
+      "mean": "9/20",
+      "degree": 3,
+      "positive_fourier_energy": "87723/7840000"
+    },
+    {
+      "id": "C3_6",
+      "mean": "1/4",
+      "degree": 3,
+      "positive_fourier_energy": "266511/57760000"
+    },
+    {
+      "id": "C4_1",
+      "mean": "1/5",
+      "degree": 4,
+      "positive_fourier_energy": "68/46875"
+    },
+    {
+      "id": "C4_2",
+      "mean": "7/20",
+      "degree": 4,
+      "positive_fourier_energy": "123039/27040000"
+    },
+    {
+      "id": "C4_3",
+      "mean": "1/2",
+      "degree": 4,
+      "positive_fourier_energy": "117/6400"
+    },
+    {
+      "id": "C4_4",
+      "mean": "3/10",
+      "degree": 4,
+      "positive_fourier_energy": "729/196000"
+    },
+    {
+      "id": "C4_5",
+      "mean": "9/20",
+      "degree": 4,
+      "positive_fourier_energy": "1549773/184960000"
+    },
+    {
+      "id": "C4_6",
+      "mean": "1/4",
+      "degree": 4,
+      "positive_fourier_energy": "290521/84640000"
+    },
+    {
+      "id": "S3_control",
+      "mean": "39/100",
+      "degree": 3,
+      "positive_fourier_energy": "49/2500"
+    },
+    {
+      "id": "S3_root1",
+      "mean": "12823/48600",
+      "degree": 3,
+      "positive_fourier_energy": "354577424/8303765625"
+    },
+    {
+      "id": "S3_root2",
+      "mean": "3261/12500",
+      "degree": 3,
+      "positive_fourier_energy": "3534272/244140625"
+    },
+    {
+      "id": "S4_control",
+      "mean": "2923/8100",
+      "degree": 4,
+      "positive_fourier_energy": "127253/8201250"
+    },
+    {
+      "id": "S4_root1",
+      "mean": "6013/25000",
+      "degree": 4,
+      "positive_fourier_energy": "4233017/156250000"
+    },
+    {
+      "id": "S4_root2",
+      "mean": "661/3380",
+      "degree": 4,
+      "positive_fourier_energy": "412972/17850625"
+    }
+  ],
+  "phase_replay": "main/phase_replay.json",
+  "main_baseline_independent_review": "review/review_report.md"
+}

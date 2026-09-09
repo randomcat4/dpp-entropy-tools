@@ -1,5 +1,7 @@
 # S1: fixed scalar stationary DPP entropy rate
 
+Latest work: [round two, non-even centres and three independent symbols](round2/README.md). Its 19-centre bounded exploration, additional fixed-pair rate certificate and separate audits are recorded in [the round-two checkpoint](round2/checkpoint.json) and [verdict](round2/verdict.md). The full conjecture remains incomplete. The record below and the original checkpoint preserve round-one evidence and review bindings.
+
 Status: STOPPED_SUBSTANTIVE. Original conjecture: INCOMPLETE. Baseline: `fa504ec74e16843fafc395880d7ba99b4c1d2129`.
 
 This route studies Lyons–Steif Conjecture 9.2 for fixed scalar symbols on the circle. The first unit uses an even real centre and an odd real, multiharmonic perturbation. Finite-window diagnostics and genuine entropy-rate certificates are recorded separately.

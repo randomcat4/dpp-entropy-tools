@@ -1,0 +1,171 @@
+{
+  "candidate_id": "S1-R2-B1",
+  "candidate_shape": {
+    "degree": 3,
+    "endpoint_equality_assumed": false,
+    "fixed_independent_of_window": true,
+    "p": "9/20",
+    "tau": "1/8"
+  },
+  "gauge_and_endpoints": {
+    "center_cycle_c1_c1_c1_conj_c3": {
+      "imag": "-1577/100000000",
+      "real": "191/25000000"
+    },
+    "center_cycle_c1_c1_conj_c2": {
+      "imag": "519/2000000",
+      "real": "-127/500000"
+    },
+    "center_has_sine_terms": true,
+    "endpoint_not_translation_equivalent_by_mean": true,
+    "endpoint_p_minus": "179/400",
+    "endpoint_p_plus": "181/400",
+    "endpoint_reflection_conjugate_equal": false,
+    "endpoint_same_coefficients": false,
+    "translation_to_even_obstructed_by_nonzero_cycle_imag": true
+  },
+  "n_results": {
+    "6": {
+      "center_all_event_jet": {
+        "entropy_hessian_basis": [
+          "p",
+          "a1",
+          "a2",
+          "a3",
+          "b1",
+          "b2",
+          "b3"
+        ],
+        "entropy_hessian_eigenvalues": [
+          -24.30015535165555,
+          -1.0841636797748198,
+          -0.3599251169630223,
+          -0.20298341745507162,
+          -0.08079446043966339,
+          -0.04647891754196307,
+          -0.01668102020540284
+        ],
+        "entropy_hessian_max_eigenvalue": -0.01668102020540284,
+        "event_count": 64,
+        "fixed_direction_acceleration": -0.0010246468151549855,
+        "fixed_direction_coefficients": {
+          "a1": 0.05,
+          "a2": -0.04,
+          "a3": 0.03,
+          "b1": -0.03,
+          "b2": 0.05,
+          "b3": 0.04,
+          "p": 0.02
+        },
+        "fixed_direction_fisher_positive": 0.012126959792055969,
+        "fixed_direction_h2": -0.013151606607210955,
+        "fixed_direction_recombines": -0.013151606607210955,
+        "max_basis_pprime_abs": 0.2709559958999999,
+        "max_condition_number": 2.773906132522641,
+        "max_det_imag_abs": 7.123434196836744e-20,
+        "max_fixed_direction_pprime_abs": 0.007417037488124997,
+        "max_grad_imag_abs": 2.3567207361663262e-18,
+        "max_hess_imag_abs": 1.857359089960962e-17,
+        "min_prob": 0.006008119238187499,
+        "sum_grad_linf": 2.0816681711721685e-16,
+        "sum_hess_prob_linf": 1.5543122344752192e-15,
+        "sum_prob": 0.9999999999999997
+      },
+      "finite_gap": {
+        "H_0": 4.125674765567378,
+        "H_minus_tau": 4.122958002838878,
+        "H_plus_tau": 4.1281859747717204,
+        "endpoint_max_det_imag_abs": 8.285924676118584e-20,
+        "endpoint_min_prob": 0.005962934537792154,
+        "endpoint_sum_prob_residual_max": 2.220446049250313e-16,
+        "midpoint_gap": -0.00010277676207870456
+      }
+    },
+    "8": {
+      "center_all_event_jet": {
+        "entropy_hessian_basis": [
+          "p",
+          "a1",
+          "a2",
+          "a3",
+          "b1",
+          "b2",
+          "b3"
+        ],
+        "entropy_hessian_eigenvalues": [
+          -32.40478213235755,
+          -1.5232411730535185,
+          -0.5060390284092158,
+          -0.30485943406271815,
+          -0.12167755933929608,
+          -0.07736302543335671,
+          -0.027805960584238544
+        ],
+        "entropy_hessian_max_eigenvalue": -0.027805960584238544,
+        "event_count": 256,
+        "fixed_direction_acceleration": -0.001483869647638853,
+        "fixed_direction_coefficients": {
+          "a1": 0.05,
+          "a2": -0.04,
+          "a3": 0.03,
+          "b1": -0.03,
+          "b2": 0.05,
+          "b3": 0.04,
+          "p": 0.02
+        },
+        "fixed_direction_fisher_positive": 0.016416696426714658,
+        "fixed_direction_h2": -0.017900566074353513,
+        "fixed_direction_recombines": -0.017900566074353513,
+        "max_basis_pprime_abs": 0.10258965643185064,
+        "max_condition_number": 3.127880231460651,
+        "max_det_imag_abs": 3.1539522988854576e-20,
+        "max_fixed_direction_pprime_abs": 0.0028524908744801945,
+        "max_grad_imag_abs": 1.4893150647688105e-18,
+        "max_hess_imag_abs": 9.022711553021198e-18,
+        "min_prob": 0.0010469096459155473,
+        "sum_grad_linf": 9.922618282587337e-16,
+        "sum_hess_prob_linf": 1.1102230246251565e-15,
+        "sum_prob": 1.0000000000000004
+      },
+      "finite_gap": {
+        "H_0": 5.50066491603571,
+        "H_minus_tau": 5.4970735153947885,
+        "H_plus_tau": 5.50397653028555,
+        "endpoint_max_det_imag_abs": 3.390116086595691e-20,
+        "endpoint_min_prob": 0.0010419313669751845,
+        "endpoint_sum_prob_residual_max": 2.220446049250313e-16,
+        "midpoint_gap": -0.00013989319554053026
+      }
+    }
+  },
+  "record": {
+    "candidate_sha256": "5059e4c166db4f39d6b9e8d22c4c75d29707e7e2b9e096f74a29b3ecac3d87e3",
+    "command_shape": "python research/S1/round2/review/round2_baseline_review.py --candidate <main-repo>/research/S1/round2/baseline_candidate.json --output research/S1/round2/review/round2_baseline_review_result.json --n 6,8",
+    "elapsed_seconds": 0.21023590001277626,
+    "executable_name": "python.exe",
+    "main_repo_commit": "85150fd1d963b1cffed388e94bd7a9c78e277cc5",
+    "numpy": "2.3.5",
+    "pid": 37196,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "review_repo_commit": "0abb90a9ad696459f58846272f197364b5551592",
+    "script_sha256": "aeb39573cfa053717c1cceea541cc7cf16e9f57ec8b40da45a36a4a45858c58b",
+    "seed": "deterministic-no-random-seed-used",
+    "thread_env": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "status": "INDEPENDENT_BASELINE_CHECK",
+  "timestamp_utc": "2026-09-09T00:08:40Z",
+  "uniform_margin": {
+    "claimed_margin": "11/400",
+    "claimed_margin_certified": true,
+    "epsilon_from_triangle": "11/400",
+    "lower_bound": "11/400",
+    "oscillation_bound": "169/400",
+    "upper_bound": "349/400"
+  }
+}

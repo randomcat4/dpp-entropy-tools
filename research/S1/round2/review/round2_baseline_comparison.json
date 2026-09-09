@@ -1,0 +1,85 @@
+{
+  "author_top_level_keys": [
+    "actual_event_evaluations",
+    "actual_windows",
+    "candidate_sha256",
+    "exit_status",
+    "git_head",
+    "numpy",
+    "peak_rss_kib",
+    "pid",
+    "proved_triangle_margin",
+    "python",
+    "randomness",
+    "rows",
+    "seconds",
+    "seed",
+    "source_sha256",
+    "status",
+    "threads",
+    "unique_centres"
+  ],
+  "inputs": {
+    "independent_result": "research/S1/round2/review/round2_baseline_review_result.json",
+    "main_result": "<main-repo>/research/S1/round2/main/baseline_jet_result.json",
+    "main_result_sha256": "20479ee0e5203cc37039145f02d102def10ba0313446c40004dd6ea10c6bb4b1"
+  },
+  "numeric_matches": {
+    "n6_midpoint_gap": [
+      {
+        "abs_diff": 8.881784197001252e-16,
+        "main_value": -0.00010277676207781639,
+        "ours": -0.00010277676207870456,
+        "path": "rows[0].finite_gap"
+      }
+    ],
+    "n8_fixed_direction_acceleration": [
+      {
+        "abs_diff": 1.3010426069826053e-17,
+        "main_value": -0.00148386964763884,
+        "ours": -0.001483869647638853,
+        "path": "rows[1].frozen_direction_split.acceleration"
+      }
+    ],
+    "n8_fixed_direction_fisher_positive": [
+      {
+        "abs_diff": 6.938893903907228e-18,
+        "main_value": 0.016416696426714665,
+        "ours": 0.016416696426714658,
+        "path": "rows[1].frozen_direction_split.fisher"
+      }
+    ],
+    "n8_fixed_direction_h2": [
+      {
+        "abs_diff": 1.0408340855860843e-17,
+        "main_value": -0.017900566074353502,
+        "ours": -0.017900566074353513,
+        "path": "rows[1].frozen_direction_split.total"
+      }
+    ],
+    "n8_full_hessian_max_eigenvalue": [
+      {
+        "abs_diff": 8.673617379884035e-17,
+        "main_value": -0.02780596058423863,
+        "ours": -0.027805960584238544,
+        "path": "rows[1].hessian_eigenvalues[6]"
+      },
+      {
+        "abs_diff": 9.020562075079397e-17,
+        "main_value": -0.027805960584238634,
+        "ours": -0.027805960584238544,
+        "path": "rows[1].maximum_direction_split.total"
+      }
+    ],
+    "n8_midpoint_gap": [
+      {
+        "abs_diff": 1.3322676295501878e-15,
+        "main_value": -0.00013989319554186253,
+        "ours": -0.00013989319554053026,
+        "path": "rows[1].finite_gap"
+      }
+    ]
+  },
+  "status": "MATCH_WITH_MAIN_BASELINE_JET_RESULT",
+  "timestamp_utc": "2026-09-09T00:09:35Z"
+}

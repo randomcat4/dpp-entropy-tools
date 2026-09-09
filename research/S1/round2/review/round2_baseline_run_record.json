@@ -1,0 +1,20 @@
+{
+  "candidate_sha256": "5059e4c166db4f39d6b9e8d22c4c75d29707e7e2b9e096f74a29b3ecac3d87e3",
+  "command_shape": "python research/S1/round2/review/round2_baseline_review.py --candidate <main-repo>/research/S1/round2/baseline_candidate.json --output research/S1/round2/review/round2_baseline_review_result.json --n 6,8",
+  "coverage": "n=6 and n=8: all 2^n exact events for center jet and all 2^n exact events at t=-tau,0,+tau for finite gaps",
+  "elapsed_seconds": 0.21023590001277626,
+  "exit_code": 0,
+  "numpy": "2.3.5",
+  "pid": 37196,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "result": "research/S1/round2/review/round2_baseline_review_result.json",
+  "script_sha256": "aeb39573cfa053717c1cceea541cc7cf16e9f57ec8b40da45a36a4a45858c58b",
+  "status": "RUN_COMPLETED",
+  "thread_env": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "timestamp_utc": "2026-09-09T00:11:19Z"
+}
