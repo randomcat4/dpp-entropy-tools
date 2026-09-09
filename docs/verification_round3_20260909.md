@@ -9,9 +9,9 @@
 | [PR47](https://github.com/randomcat4/dpp-entropy-tools/pull/47) | `997c95eaf607a64d0e166dc8a08001794f59c657` | READY_SCOPED 已合，merge `6cbd76078caf1dc3444b0783409ef9af4968c265`。PR41 八事件符号、PR43 指定 256 事件/条件事件重建及独立有理有向流审核通过 |
 | [PR49](https://github.com/randomcat4/dpp-entropy-tools/pull/49) | `b3816871965782378da5d4b559992176a66b6c26` | 审阅记录已合，merge `580efb43568030013e0a2eac318bbe0e8db4051e`。三项首审和三项新鲜第二审均结束；旧 H 文字缺口由 PR43 的明确两行增量关闭 |
 | [PR51](https://github.com/randomcat4/dpp-entropy-tools/pull/51) | 最终 `184535756f5ed92f2f5c47804bdc8466a7d15041` | ACCEPTED_SCOPED，merge `ed10e23134d5dd8350f1cd9636204143c62ebc40`。原定理与续稿分别双审；[完整范围和证据](verification_round3_20260909/accepted_pr51.md)。一般 Schur 与径向 M 正性仍开放 |
-| [PR53](https://github.com/randomcat4/dpp-entropy-tools/pull/53) | 当前 `73cdbd09ad9aa975354a116a01f1e0f4955a8c27`；FR源 `abdd660a` 不变 | 原五文件双审通过；新有限傅里叶熵率定理 C1 首审与 C3 独立第二审均通过。新增七文件指数加权 Wiener 扩展由 C1 另行首审，C3 第二审随后。全合法区间仍开放；[精确版本边界](verification_round3_20260909/pr53_version_boundaries.md) |
+| [PR53](https://github.com/randomcat4/dpp-entropy-tools/pull/53) | 原EW源`73cdbd09`；说明修订`ebecc412467939591e018a295a18c49a0a341ce9` | 原桥接与FR双审通过；EW首审通过、独立第二审在行。三文件说明修订由原审稿人分别闭合，FR第二审增量已闭合。全合法区间仍开放；[精确版本边界](verification_round3_20260909/pr53_version_boundaries.md) |
 | [PR54](https://github.com/randomcat4/dpp-entropy-tools/pull/54) | 最终 `d5c55447a0f7377dae085b8074f557e4f673b5a4` | ACCEPTED_SCOPED，merge `24ae88bf14b540b66490e3266a75849e6e258bad`。原稿与两组附录分别双审；五处明确条件/措辞修复全部独立闭合。[完整范围与证据](verification_round3_20260909/accepted_pr54.md) |
-| [计算 #52 / PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) | 解析输入 `2e4b8754`；结构增补 `4bd0d615` | 结构双审及单个正定种子首审通过，全域符号仍开放。原作业11:54:46 UTC退出；已保存两个 Schur 矩阵，但两次行列式阶段序列化失败，exit0不记通过。C2独占保存矩阵续算，原12:07:28 UTC截止不变 |
+| [计算 #52 / PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) | 最终`12798ccc1afdff007a2deec3f49baf26755d1a93` | PARTIAL_ARCHIVE已合，merge`43d8fd24af560afaa34b1ec8e7c7dd053e691603`。代数与种子限定接受；r=0证书首审INCOMPLETE、全域符号OPEN，全部算术已停止。[档案与缺口](verification_round3_20260909/archived_pr55.md) |
 
 ## 已接受结论与证据
 

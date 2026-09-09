@@ -47,3 +47,7 @@ The unchanged 473-line finite-range theorem at `abdd660a6c7761c7a8a53cb8671b4d25
 Accepted: for real trigonometric polynomials c,g, with strict pointwise margin on c, c half-period invariant, g half-period anti-invariant and nonzero, there is a positive local interval on which the true rate `h(c+t g)+alpha_k t^4` is concave. The mean mu is arbitrary; for any nonzero odd Fourier coefficient, `alpha_k=|g_hat(k)|^4/[8 mu^2(1-mu^2)]`. This implies strict local concavity of h itself, with no explicit numerical interval promised. The Rudin-Shapiro example lies outside the earlier small-Wiener condition.
 
 PR53 itself awaits separate first/second review of the exponential Wiener extension and its six companion changes. FR acceptance does not cover that extension, arbitrary measurable symbols or the whole legal interval. Broader novelty and formal verification remain unassessed.
+
+FR source clarification at`ebecc412467939591e018a295a18c49a0a341ce9` has an explicit [closure by the same independent second](pr53_fr_second/source_delta_review.md). The historical comments above are preserved; this closure fixes the weaker-Hölder/RPF exposition and s-linear heading without changing theorem scope. C1 first-review delta closures and the separate EW second are tracked in the current queue.
+
+PR55 has now merged as a [partial archive](../archived_pr55.md). Its new r=0 first remains INCOMPLETE; no certificate second or extra arithmetic was started after that unmet gate.

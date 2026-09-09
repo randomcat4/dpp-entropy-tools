@@ -1,5 +1,11 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 13：PR55 部分证据档案
+
+[PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55)最终头`12798ccc1afdff007a2deec3f49baf26755d1a93`，merge`43d8fd24af560afaa34b1ec8e7c7dd053e691603`，59文件。[逐项审定与失败/恢复范围](verification_round3_20260909/archived_pr55.md)明确区分已审代数、单个种子、带解析依赖的机器检查和未认证正性候选。
+
+r=0首审为INCOMPLETE：截止后没有独立复算，C3未越过首审门槛启动接受性第二审，也未延长算术预算。一般r混合系数不判负。此合并归档可复用数据和历史，不新增r=0/全域M正性或熵反例结论。全部算术进程已结束，issue52保留未完成义务。
+
 ## 后继整合批次 12：PR54 原稿与两组附录分别双审
 
 [PR54](https://github.com/randomcat4/dpp-entropy-tools/pull/54) 最终头 `d5c55447a0f7377dae085b8074f557e4f673b5a4`，merge `24ae88bf14b540b66490e3266a75849e6e258bad`。九文件范围完整检查；三组独立首审/新鲜第二审分别覆盖原RESULT/原算例、三个局部/端点附录及端点算例增量、后加外幂/流/率附录。
