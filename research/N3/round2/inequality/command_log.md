@@ -54,10 +54,41 @@ unless noted otherwise.
     `9738a5242a3556ffad530701fbc5dac32ed4aeca` created; worktree clean;
     `Get-Job` printed no active PowerShell jobs
   - exit status: 0
+- Amended the first round 2 inequality-unit commit after adding this command
+  record.
+  - PID: `50692`
+  - result: commit `8b104c215515e18c7c0e7eaebeb76df096b47fbc`; worktree
+    clean; `Get-Job` printed no active PowerShell jobs
+  - exit status: 0
+- Located and read the main weak-edge beta mechanism file
+  `research\N3\round2\main\dense_weak_edge_beta_v1.md`.
+  - locate PID: `32560`
+  - read PID: `20240`
+  - result: used only as background for the positive-beta weak-edge mechanism
+  - exit status: 0 for both commands
+- Ran a one-thread sanity check for the Lambda-tangent locked-odds Fisher
+  lower bound on 20 random strict kernels and projected Lambda-tangent
+  directions.
+  - PID: `40996`
+  - Python: `3.12.14`
+  - NumPy: `2.3.5`
+  - seed: `20260909`
+  - cases: `20`
+  - result: `min_F_minus_Qlock = 1.950877e-01`
+  - exit status: 0
+- Ran `git status --porcelain=v1 --untracked-files=all; git diff --check;
+  git diff --stat -- research/N3/round2/inequality` after writing the second
+  unit.
+  - PID: `67296`
+  - result: `git diff --check` passed; changes were restricted to
+    `research/N3/round2/inequality`; Git printed normal Windows line-ending
+    warnings
+  - exit status: 0
 
 ## Notes
 
-No numerical scan was run in this unit.  No GPU was used.  No system
-dependencies were installed.  No server checkout was used.  No global Git,
-SSH, proxy, or environment settings were changed.  No command accessed
-`C:\canglan\`.
+No large numerical scan was run.  The only numerical work after the first
+unit was the 20-case one-thread formula sanity check above.  No GPU was used.
+No system dependencies were installed.  No server checkout was used.  No
+global Git, SSH, proxy, or environment settings were changed.  No command
+accessed `C:\canglan\`.

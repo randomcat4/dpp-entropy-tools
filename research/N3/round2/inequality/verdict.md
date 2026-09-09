@@ -97,3 +97,46 @@ argument by this inequality is an `EQUIVALENT_BLOCKER`.
 The round 1 Sherman-Morrison `SM-close` condition remains an
 `EQUIVALENT_BLOCKER` for the full theorem, and the current beta-zero slice is
 the exact beta-zero subcase of that issue.
+
+## Second and final unit
+
+`PROVED_HERE`: on the exact hyperplane `Lambda'[D]=0`, each coordinate split
+has a stronger event-Fisher lower bound
+
+```text
+F(D,D) >= Q_k^lock(D),
+```
+
+where
+
+```text
+Q_k^lock
+ = D_kk^2/(K_kk(1-K_kk))
+   + L_0^2/V_0 + L_1^2/V_1
+   + (m_0L_0/V_0 - m_1L_1/V_1)^2/(R_0+R_1).
+```
+
+This bound uses the fact that `Lambda=ell_1-ell_0`, so `Lambda'[D]=0` forces
+the two conditional odds derivatives to be equal.  It retains actual event
+Fisher information and is strictly stronger than the old Qk lower bound when
+the locked-odds residual is nonzero.
+
+`INCOMPLETE`: I did not prove the hyperplane sufficient condition
+
+```text
+Lambda'[D]=0 => B(D,D)>=0.
+```
+
+The remaining non-equivalent obligation is to prove a dominance such as
+
+```text
+max_k Q_k^lock(D) >= 2 tr(N adj D)
+```
+
+or a kernel-dependent convex combination of the three locked lower bounds.
+Without that additional sign/alignment argument, this second unit returns to
+the same Fisher-versus-cofactor gap and stops.
+
+The main instance's strict Lambda-tangent certificate against the pure
+acceleration shortcut `C<=0` is recorded as a route boundary: pure Rayleigh
+acceleration sign is not enough; any closure must use full event Fisher.
