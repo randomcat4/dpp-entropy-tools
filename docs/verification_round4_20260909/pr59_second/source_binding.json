@@ -1,0 +1,168 @@
+{
+  "review": {
+    "name": "pr59_second",
+    "mode": "independent_second_verification",
+    "frozen_pr": 59,
+    "frozen_head": "892a121a6e26fcf638c75de917e50a4503b5675e",
+    "status": "CORRECT_WITHIN_FROZEN_SCOPE",
+    "no_machine_reexecution": true
+  },
+  "frozen_author_inputs": [
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/README.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/README.md",
+      "git_blob": "00cd13a6304bb5caa9fcf3f03445240812acf8ee",
+      "sha256": "624F3C783B32BC5CCCA7AD2D5382CE8D30CFA2EE485ED70678366AF495F61DB9",
+      "role": "author overview and scope"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/RESULT.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/RESULT.md",
+      "git_blob": "6d71ab3887b28215836154e23f6c45b6b9c263c0",
+      "sha256": "9C627BEB8035AF20D3DAA9DE8FDA5F902926744DBF63DAD0405E6B733C309B9B",
+      "role": "author result summary"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/attempts.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/attempts.md",
+      "git_blob": "ef0f13894bd07351a4b798357241dece4022b2f8",
+      "sha256": "32289FC6A7BC56FCD7D6BB6232778BFCD3A7E250070659C9621ACA3AB769E1A6",
+      "role": "failed-route and boundary ledger"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/clarifications.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/clarifications.md",
+      "git_blob": "6768775cfb3ddb2811237680413d1d702c4432cd",
+      "sha256": "A474B77C057446A1BB1469B5F8D446A22C30CBB53EBAABE7677A6826EA3C4C01",
+      "role": "frozen proof clarification, treated as proof text"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py",
+      "git_blob": "b3cb70667241c6372e9efc229b693536a88b357a",
+      "sha256": "040B3C93A0B79A5A709FB1882A9AE92807502E4F3F54515201B5901DED638A2D",
+      "role": "author exact arithmetic checker, inspected only"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/code/check_rpf_hessian.py",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/code/check_rpf_hessian.py",
+      "git_blob": "ef505753708019c1ba3de2713284db6e24db4388",
+      "sha256": "1660139B74403FAD4D6BBD7FF6F1716AE2F2B3BF93A85699B5E4FC32E77A5688",
+      "role": "author symbolic Hessian checker, inspected only"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/frozen_statement.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/frozen_statement.md",
+      "git_blob": "ecdca5e700f6a1e9b62294cd5c7e3633c133ad4c",
+      "sha256": "B5AD20B5D21A0A5B080380CBF714AF4BC7A3D3C79147BCDF969B818FA9D9DCC5",
+      "role": "frozen theorem statements"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/output/explicit_family_exact.json",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/output/explicit_family_exact.json",
+      "git_blob": "ee888a13cd8fd74a224129f2d6f4c959e0930b2e",
+      "sha256": "74B4616CFFC75A1B220CB553E8EA959F617CDA6BCE0752789CB9CB34D7E1DDC7",
+      "role": "author recorded arithmetic output, not rerun"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/output/rpf_hessian_exact.json",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/output/rpf_hessian_exact.json",
+      "git_blob": "0c536a4d7c408b5366eba4d0d5b9f05185b3dd9d",
+      "sha256": "88586A0CBC605865F78CC2B58E8421110B4E2C336EF918DA35DE27A746A2EBF4",
+      "role": "author recorded symbolic output, not rerun"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/output/run_record.json",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/output/run_record.json",
+      "git_blob": "52a5ced3dcfadb534f330ea23ab43de89a9dacaf",
+      "sha256": "2CC98852386A3C5D1FEABC27D3C8D088770A8E35DBC5D6B387107173C74CD8B8",
+      "role": "author run record, not independently executed"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/proof.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/proof.md",
+      "git_blob": "184e9668d37da3edf0300eccc283bf05e6d0b784",
+      "sha256": "1436F099F60DE0DDC191A2ED97373BCA7F4F77F79C1A09DC01A0B78995B6DEEB",
+      "role": "main author proof"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/requirements.txt",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/requirements.txt",
+      "git_blob": "1ca5fd06160543f8bd736f1b51db6f42372c66f4",
+      "sha256": "25F9F1FB1988B230147A1D3092D34E09C069EB7A6C6D6DF46B3973B9F2D36EFC",
+      "role": "author dependency pin, not installed"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/sources.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/sources.md",
+      "git_blob": "1fb0c315762090f0b03152277209ce4266b4a166",
+      "sha256": "852963E1B134383606F3B3B09DC03DE21B03799635F5867C22DC0036FBD466F9",
+      "role": "author source-role ledger"
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909/verification.md",
+      "source_path": "research/I05-DPP-21-nonzero-20260909/verification.md",
+      "git_blob": "df609e806300c47876f243bed803cc0767de127a",
+      "sha256": "4EC5D100C9EF46A93C11FA3BC032A6B7218698862231973602768920D3880E4D",
+      "role": "author self-audit and review checklist"
+    }
+  ],
+  "accepted_repository_sources": [
+    {
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "role": "accepted PR53/EW proof machinery and local theorem, used only in accepted scope"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "role": "accepted finite-range backbone for parity, inverse, RPF, and local curvature machinery"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/sources.md",
+      "role": "accepted source-role and boundary ledger"
+    },
+    {
+      "path": "docs/verification_20260909/w2/radial_quartic_audit.md",
+      "role": "accepted constant-centered radial quartic theorem"
+    },
+    {
+      "path": "docs/verification_round3_20260909/accepted_pr53.md",
+      "role": "current accepted scope of PR53/EW and explicit exclusions"
+    }
+  ],
+  "public_primary_sources_referenced_from_source_ledgers": [
+    {
+      "url": "https://arxiv.org/abs/1511.01579",
+      "role": "Ruelle operator spectral gap and analytic dependence background"
+    },
+    {
+      "url": "https://arxiv.org/abs/0709.1061",
+      "role": "fermionic quasifree states and one-particle covariance map background"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.08180",
+      "role": "fermionic beam-splitter/convolution background"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0204325",
+      "role": "determinantal probability measures and negative association background"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0204324",
+      "role": "stationary DPP background metadata"
+    }
+  ],
+  "explicitly_excluded_sources": [
+    "FIRST review reports, code, outputs, and conclusions",
+    "PR59 comments",
+    "PR57, PR58, PR60 and other pending author branches",
+    "C1 round-four review files",
+    "private author or Drive material",
+    "forbidden private local canglan tree"
+  ],
+  "review_artifacts": [
+    "docs/verification_round4_20260909/pr59_second/frozen_scope.md",
+    "docs/verification_round4_20260909/pr59_second/review_report.md",
+    "docs/verification_round4_20260909/pr59_second/source_binding.json"
+  ],
+  "publication_note": "Workspace aliases mapped to public paths; mathematical statements and evidence hashes unchanged."
+}
