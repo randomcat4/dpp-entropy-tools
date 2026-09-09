@@ -1,0 +1,228 @@
+{
+  "status": "PASS",
+  "target_commit": "ab914ec2f73577907314ab3119c4d9f499b17e10",
+  "target_blob_sha1": {
+    "research/N3/round2/falsification/beta_zero_existence.md": "d06a87b9bc5b063a569990637aa704348845228f",
+    "research/N3/round2/falsification/beta_affine_probe.py": "71997f911c79062bb060008496411c938c0bbb95",
+    "research/N3/round2/falsification/beta_root_certificate.py": "09ec56673a10bbd66bfab8e073ab387a4fa32fa7",
+    "research/N3/round2/falsification/root_certificate.json": "e9866bd449bdad849a832dea76d679303b74b108",
+    "research/N3/round2/falsification/source_manifest.json": "0b35fd32b4de0bf4bf581e36d3e2f0af357cf85f",
+    "research/N3/falsification/rank2_projection_check.py": "f7bfb2a20461c9449a222ff48bc08a98351db276",
+    "research/N3/falsification/unequal_sparse_probe.py": "b93acfc6388c0cb85b8c1abbd6eb564fcfd109c9"
+  },
+  "review_script_sha256": "e152e84cf9df06a04f65bcde57a37bdf9b0757fe89650f2480e73e6eea94bdff",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pid": 37660,
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "author_rerun": {
+    "command": [
+      "C:\\game\\gameproject\\showa100\\comfyui\\python_env\\Scripts\\python.exe",
+      "research/N3/round2/falsification/beta_root_certificate.py"
+    ],
+    "exit_status": 0,
+    "recorded_pid": 47096,
+    "status": "CERTIFIED_BETA_ZERO_EXISTS_WITH_DALPHA_LT_ONE",
+    "root_bracket": [
+      "39791754487/17592186044416",
+      "79583508975/35184372088832"
+    ],
+    "source_sha256": "6cba4b07b9d36da0a7a231b66d07c18dddf45f6c26a0917d4bd46733f642458d",
+    "stdout_path": "research\\N3\\round2\\review\\beta_root_author_rerun.stdout.txt",
+    "stderr_path": "research\\N3\\round2\\review\\beta_root_author_rerun.stderr.txt"
+  },
+  "source_hash_checks": {
+    "research/N3/round2/falsification/beta_root_certificate.py": {
+      "manifest_sha256": "6cba4b07b9d36da0a7a231b66d07c18dddf45f6c26a0917d4bd46733f642458d",
+      "extracted_sha256": "6cba4b07b9d36da0a7a231b66d07c18dddf45f6c26a0917d4bd46733f642458d",
+      "matches_manifest": true
+    },
+    "research/N3/round2/falsification/beta_affine_probe.py": {
+      "manifest_sha256": "d3c5b6e79d4f973c74cf25a6acec43e102f27fdddd9c292c1908d070b49ecc3a",
+      "extracted_sha256": "d3c5b6e79d4f973c74cf25a6acec43e102f27fdddd9c292c1908d070b49ecc3a",
+      "matches_manifest": true
+    },
+    "research/N3/falsification/unequal_sparse_probe.py": {
+      "manifest_sha256": "4fb85bf2509889c16dc047539433c802e03b7b59b56232a2922f77e488f315b6",
+      "extracted_sha256": "4fb85bf2509889c16dc047539433c802e03b7b59b56232a2922f77e488f315b6",
+      "matches_manifest": true
+    },
+    "research/N3/falsification/rank2_projection_check.py": {
+      "manifest_sha256": "4766cc695164670b066d33ac868ae43c0f68137ca2c6a6746b71189ccbfca5e6",
+      "extracted_sha256": "4766cc695164670b066d33ac868ae43c0f68137ca2c6a6746b71189ccbfca5e6",
+      "matches_manifest": true
+    }
+  },
+  "critical_certificate_comparison": {
+    "critical_fields_match": true,
+    "mismatches": [],
+    "keys_checked": [
+      "status",
+      "baseline",
+      "interval_bits",
+      "family",
+      "A",
+      "B",
+      "bisection_calls",
+      "interval_calls",
+      "rejected",
+      "root_bracket",
+      "certificate"
+    ]
+  },
+  "event_probability_and_gradient_audit": {
+    "sample_count": 5,
+    "samples": {
+      "root_left": "39791754487/17592186044416",
+      "root_mid": "159167017949/70368744177664",
+      "root_right": "79583508975/35184372088832",
+      "endpoint_negative": "0",
+      "endpoint_positive": "1/8"
+    },
+    "max_event_error": "0",
+    "max_jacobian_error": "0",
+    "offdiag_factor2_checks": 120,
+    "all_sample_atoms_positive": true
+  },
+  "h_tilde_scaling_and_log_audit": {
+    "sample_count": 5,
+    "max_scaling_error": "1.2049599325514420589e-181",
+    "max_log_miss": "0.0",
+    "samples": {
+      "root_left": {
+        "t": "39791754487/17592186044416",
+        "beta": "-1.0973601997702332146726991874646701e-15",
+        "beta_times_sqrtZ": "-1.206048588154208206675562672449685e-13",
+        "dalpha": "0.66152792598931024993468468328437622",
+        "d_alpha_unscaled": "0.66152792598931024993468468328437622",
+        "scaling_error": "1.20495993255e-181",
+        "min_atom": "0.000088333039119389336464",
+        "log_bounds_contain_high_precision_logs": true
+      },
+      "root_mid": {
+        "t": "159167017949/70368744177664",
+        "beta": "-1.6434294339336137420142145413709862e-16",
+        "beta_times_sqrtZ": "-1.8062034224857781352546336345908577e-14",
+        "dalpha": "0.66152792598923630439794162836493779",
+        "d_alpha_unscaled": "0.66152792598923630439794162836493779",
+        "scaling_error": "1.20495993255e-181",
+        "min_atom": "0.000088333039119576759426",
+        "log_bounds_contain_high_precision_logs": true
+      },
+      "root_right": {
+        "t": "79583508975/35184372088832",
+        "beta": "7.6867431298534542976231296859417521e-16",
+        "beta_times_sqrtZ": "8.4480790365696674552763648715182906e-14",
+        "dalpha": "0.66152792598916235886119862173583069",
+        "d_alpha_unscaled": "0.66152792598916235886119862173583069",
+        "scaling_error": "1.20495993255e-181",
+        "min_atom": "0.000088333039119764182388",
+        "log_bounds_contain_high_precision_logs": true
+      },
+      "endpoint_negative": {
+        "t": "0",
+        "beta": "-0.00012494729038425721966959134278123335",
+        "beta_times_sqrtZ": "-0.016431309554338489333930132620561241",
+        "dalpha": "0.67398350848619719924813456036085487",
+        "d_alpha_unscaled": "0.67398350848619719924813456036085487",
+        "scaling_error": "1.20495993255e-181",
+        "min_atom": "0.000061",
+        "log_bounds_contain_high_precision_logs": true
+      },
+      "endpoint_positive": {
+        "t": "1/8",
+        "beta": "0.058680783317533439830543142877381514",
+        "beta_times_sqrtZ": "0.85689806102809778573600562624573347",
+        "dalpha": "0.36237232266193817569718846501994431",
+        "d_alpha_unscaled": "0.36237232266193817569718846501994431",
+        "scaling_error": "6.02479966276e-182",
+        "min_atom": "0.0088423638392857142857",
+        "log_bounds_contain_high_precision_logs": true
+      }
+    }
+  },
+  "interval_root_bracket_audit": {
+    "root_left_beta_hi_lt_0": true,
+    "root_right_beta_lo_gt_0": true,
+    "whole_bracket_dalpha_hi_lt_1": true,
+    "whole_bracket_min_p_lo_gt_0": true,
+    "whole_bracket_detN_lo_gt_0": true,
+    "pivots_exclude_zero": true,
+    "pivot_abs_lower": "55082047655312435144130765281628336085924001401424567015746132525773875153/883423532389192164791648750371459257913741948437809479060803100646309888",
+    "residual_contains_zero": true,
+    "high_precision_h_samples_inside_bracket_interval_h": {
+      "left": true,
+      "mid": true,
+      "right": true
+    },
+    "root_left_beta_times_sqrtZ": {
+      "lower": "-53272585199009431773617973477251146929741987723944547044845/441711766194596082395824375185729628956870974218904739530401550323154944",
+      "upper": "-106545170398018863547235946954502293859483975447888597822011/883423532389192164791648750371459257913741948437809479060803100646309888",
+      "approx_lower": "-1.20604858815420820667556267245e-13",
+      "approx_upper": "-1.20604858815420820667556267245e-13"
+    },
+    "root_right_beta_times_sqrtZ": {
+      "lower": "74632318243894589559791935169364948268787753889501201252103/883423532389192164791648750371459257913741948437809479060803100646309888",
+      "upper": "37316159121947294779895967584682474134393876944750848723569/441711766194596082395824375185729628956870974218904739530401550323154944",
+      "approx_lower": "8.44807903656966745527636487152e-14",
+      "approx_upper": "8.44807903656966745527636487152e-14"
+    },
+    "root_entire_bracket_dalpha": {
+      "lower": "1168818674113127908524037611737426289926185355447371910637733646549762667/1766847064778384329583297500742918515827483896875618958121606201292619776",
+      "upper": "1168818674492900953887035046311145349505554593856536216791039167600293067/1766847064778384329583297500742918515827483896875618958121606201292619776",
+      "approx_lower": "0.661527925881764341226497437142",
+      "approx_upper": "0.661527926096708267576247678209"
+    },
+    "root_entire_bracket_min_p": {
+      "lower": "9754435680617010912124366963151698493314316309433602510116734989507/110427941548649020598956093796432407239217743554726184882600387580788736",
+      "upper": "78035485446442308452264523722379670930756001443511678365532135848463/883423532389192164791648750371459257913741948437809479060803100646309888",
+      "approx_lower": "0.0000883330391187242684630606429306",
+      "approx_upper": "0.0000883330391204292503885432690948"
+    },
+    "root_entire_bracket_detN": {
+      "lower": "11166481309030959051635203114808248544128190014517757493914242136384326235/1766847064778384329583297500742918515827483896875618958121606201292619776",
+      "upper": "11166481309292173219446762386196254426260094392789808392884338832529686049/1766847064778384329583297500742918515827483896875618958121606201292619776",
+      "approx_lower": "6.32000444839382353361893401342",
+      "approx_upper": "6.32000444854166551327795072114"
+    }
+  },
+  "strict_connected_nonexchangeable_audit": {
+    "A_positive_definite": true,
+    "B_positive_definite": true,
+    "I_minus_A_positive_definite": true,
+    "I_minus_B_positive_definite": true,
+    "bracket_inside_0_1_over_8": true,
+    "connected_on_bracket_by_fixed_edges_12_13": true,
+    "nonexchangeable_by_unequal_fixed_edges": true,
+    "fixed_edges": {
+      "12": "3/35",
+      "13": "9/70",
+      "23_left": "11258101629927/43980465111040",
+      "23_right": "157613422818969/615726511554560"
+    }
+  },
+  "coverage": {
+    "fixed_commits": 1,
+    "author_script_reruns": 1,
+    "bisection_calls_rerun": 42,
+    "interval_calls_rerun": 5,
+    "event_formula_samples": 5,
+    "offdiag_factor2_checks": 120,
+    "h_scaling_samples": 5,
+    "interval_gaussian_brackets": 3,
+    "whole_root_bracket_checked": true
+  },
+  "noncoverage": [
+    "No uniqueness claim for beta zeros was checked or needed.",
+    "No global B0/N3 theorem is proved by this certificate.",
+    "No search beyond the fixed frozen affine family and root bracket was performed.",
+    "No Lean/formalization audit was performed."
+  ],
+  "elapsed_seconds": 8.603610038757324,
+  "exit_status": 0
+}
