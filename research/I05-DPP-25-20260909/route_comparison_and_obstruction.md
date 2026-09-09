@@ -17,7 +17,7 @@ Telescoping the one-sided log conditional by the last revealed future coordinate
 \sum_{A\ni0}\operatorname{diam}(A)\|U_A\|_\infty<\infty
 \]
 
-then follows. Dobrushin's one-dimensional theorem, in the many-body finite-first-moment formulation proved by Cassandro and Olivieri, supplies analytic pressure and analytic Gibbs expectations without a high-temperature or small-coupling hypothesis.
+then follows. Dobrushin's theorem for general one-dimensional classical systems supplies analytic pressure and analytic local expectations for finite-first-moment interactions, without a high-temperature or small-coupling hypothesis. Cassandro–Olivieri provides an independent many-body finite-first-moment decimation mechanism check but is not used as the sole arbitrary-block-function citation.
 
 The DPP is identified as the equilibrium state of this interaction by a direct conditional cross-entropy inequality, not by spectral entropy. The parity gauge makes the interaction even in `t`, so it is analytic in `s=t^2`; the specific relative entropy has zero first derivative at `s=0`. This gives the uniform response statement
 
@@ -119,7 +119,7 @@ The matching argument is valuable because it survives the regularity reduction a
 
 It does not, by itself, compare two arbitrary parameters `t_1,t_2` with their midpoint. A pointwise lower bound on the deficit cannot be differentiated, and a bound of order `ct^4` does not determine the sign of the second derivative away from the center. Therefore it cannot supply local concavity without an additional uniform response principle.
 
-The Gibbs variational method used in the proof is narrower and exact: it turns the normalized one-sided conditional into a finite-first-moment interaction and identifies the DPP as its equilibrium state. The Dobrushin–Cassandro–Olivieri response theorem then supplies the missing differentiability. A purely negative-association midpoint inequality for arbitrary `t_1,t_2` remains open; no fermionic von Neumann entropy inequality is substituted for the classical configuration Shannon entropy.
+The Gibbs variational method used in the proof is narrower and exact: it turns the normalized one-sided conditional into a finite-first-moment interaction and identifies the DPP as its equilibrium state. Dobrushin's general finite-first-moment response theorem supplies the missing differentiability. A purely negative-association midpoint inequality for arbitrary `t_1,t_2` remains open; no fermionic von Neumann entropy inequality is substituted for the classical configuration Shannon entropy.
 
 ## Outcome of the comparison
 
