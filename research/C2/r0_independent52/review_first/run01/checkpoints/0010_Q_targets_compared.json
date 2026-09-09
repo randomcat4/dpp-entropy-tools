@@ -1,0 +1,25 @@
+{
+  "details": {
+    "comparisons": [
+      {
+        "entries": 389,
+        "status": "matched",
+        "target": "archived r0_coefficient_table.json"
+      },
+      {
+        "entries": 425,
+        "status": "matched",
+        "target": "candidate Q_polynomial_full_box.json"
+      },
+      {
+        "status": "PASS",
+        "target": "candidate RESULT.json"
+      }
+    ]
+  },
+  "elapsed_seconds": 9.484,
+  "index": 10,
+  "label": "Q targets compared",
+  "remaining_seconds": 889.783,
+  "utc": "2026-09-09T13:48:17Z"
+}

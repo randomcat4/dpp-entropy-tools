@@ -1,6 +1,6 @@
 # Independent r=0 certificate-chain check
 
-Status: AUTHOR PASS, pending fresh nonauthor FIRST. Frozen main:
+Status: FRESH NONAUTHOR FIRST CORRECT; C3 SECOND pending. Frozen main:
 `9dcb6e9079ca57f94e0e30d63161cda89ca61fae`. This successor is separate
 from archived PR55 and preserves its INCOMPLETE first review.
 
@@ -30,6 +30,8 @@ Set `C2_ABSOLUTE_DEADLINE_EPOCH` to an existing shared deadline when appropriate
 the verifier uses the earlier deadline. The wrapper also enforces the hard
 wall limit, address-space limit and single CPU/thread allocation.
 
-A fresh nonauthor FIRST follows the complete frozen candidate. C3 reserves
+The fresh nonauthor FIRST accepted the frozen author candidate; see
+[review_first/REVIEW.md](review_first/REVIEW.md) and the
+[current hand-off](FINAL_HANDOFF.md). C3 reserves
 unseen SECOND and integration. No full-r conclusion, entropy counterexample,
 novelty or proof-assistant certification is claimed.

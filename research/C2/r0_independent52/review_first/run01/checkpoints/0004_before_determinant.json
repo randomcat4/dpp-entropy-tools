@@ -1,0 +1,10 @@
+{
+  "details": {
+    "method": "explicit 24-term permutation sum"
+  },
+  "elapsed_seconds": 0.588,
+  "index": 4,
+  "label": "before determinant",
+  "remaining_seconds": 898.679,
+  "utc": "2026-09-09T13:48:08Z"
+}
