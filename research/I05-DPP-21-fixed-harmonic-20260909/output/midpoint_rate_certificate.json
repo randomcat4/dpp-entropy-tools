@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "three fixed true entropy rates only; not a whole-interval curvature certificate",
+  "symbol": "1/2+(1/4)cos(4*pi*theta)+(t/8)cos(2*pi*theta)",
+  "parameters": ["1/2", "1", "3/2"],
+  "conditioning_depth": 18,
+  "complete_event_method": "exact signed integer determinants of 32*(K-I_Z)",
+  "independent_small_check": "all inclusion-minor Mobius events through length 6",
+  "logarithm_method": "Decimal/libmpdec correctly rounded nearest at precision 100, widened by 1e-90, followed by directed floor/ceiling arithmetic",
+  "true_rate_tail": "(256/15)*(1033420800/1263214441)^2*(49/64)^(4*r-12)",
+  "certified_assertion": "h(f_1)-[h(f_1/2)+h(f_3/2)]/2 > 1/10000",
+  "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/certify_midpoint_rate_gap.py --depth 18",
+  "exit_status": 0,
+  "python_version": "3.13.5",
+  "third_party_dependencies": []
+}
