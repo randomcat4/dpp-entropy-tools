@@ -1,5 +1,15 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 9：第三轮 PR41 双审通过
+
+[PR41](https://github.com/randomcat4/dpp-entropy-tools/pull/41) 冻结完整作者头 `6fd61dcd299417fc3a4eab3af682c03dd816b670`，merge commit `13d6c09d5d3fcf8c19cd0b01e5d735fd8778cdb6`。合并时以该头约束，13 个新增文件仅在 `research/N3/round3/I05-W4-20260909/round2/`；未删除分支。
+
+依据为 C1 的[首审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41/review_report.md)、[新鲜独立第二审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41_second/review_report.md)，两位非作者先后分别检查完整八事件及全部六方向。C2 的[独立恒等式重建及作者重放](https://github.com/randomcat4/dpp-entropy-tools/blob/b9d1dd45a1a16f05963713178812bb3dfcae6f08/research/C2/verification3/pr41/REPORT.md)另行 PASS，正式运行退出 0；早期过大化简中断的检查点仍保留。仓库未配置 CI，空列表未记作通过。
+
+接受 R2-T1 的 `sigma=±1`、`0<8*kappa^2<1` 强耦合等幅缺边中心全六方向严格负曲率；完整 Fisher、加速度与稀有事件均保留，`G_s'` 的全区间正定性加积分处理 `G_0` 的零方向。接受 R2-T2 的任意严格二点块加孤立点恒等式、半负定性及承重的二点条件熵引理，包括零边情形。连接方向在独立块中心 Hessian 为零，不宣称严格负定。
+
+一般缺边三维仅接受条件坐标、可逆 Jacobian 和完整 Fisher 恒等式，剩余矩阵不等式仍开放。没有把该中心族上的 Hessian 结论推广成任意长弦；没有一般实三维、熵率、复域、新颖性或 Lean 认证。下文批次 8 的 PR41 占位观察是旧头历史，已由本批完整提交替代。
+
 ## 后继整合批次 8：最后的单盒证书
 
 [PR42](https://github.com/randomcat4/dpp-entropy-tools/pull/42) 最终合入头 `51ca1aaaf5c9e7dfdc4f10ca16c05d05f8789223`，merge commit `211a434e242ea35945bc8b27f512e925141c847b`。原数学冻结头为 `1007c44460ea937d391d4389a79efba01f95a1e9`；后继仅将公开预算中的三条私人工作区路径改为通用表述，数学代码、输入、输出及审稿均不变。全部新增/修改文件局限于 `research/C2/verification2/`，既有 W3/PR30 证明和审核保持原样。
