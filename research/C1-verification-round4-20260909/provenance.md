@@ -1,0 +1,23 @@
+# Provenance
+
+The author packets are public immutable commits. C1's two fresh non-author
+GPT-5.5/xhigh first contexts are assigned separately to PR53 and PR54. No
+previous opinions are supplied as proof and neither child may spawn.
+C3 explicitly reserves second review after each corresponding first result.
+
+C1 owns source/version mapping, external dependency checks, any necessary
+fixed computation and report integration. It does not rewrite author proofs
+or merge main. Local operational records are kept outside the public packet;
+reviewer report copies normalize paths without changing mathematical findings.
+
+The new public branch starts from frozen public main
+`f6d9eb6d2b6f7d6001bf5f230911f1e8c723f84e`, tree
+`d8697ed5030ae92cd7c513c145051a1a5790e181`. The isolated local worktree
+reuses an older available checkout because native Git transport failed.
+Publication overlays only this new review directory onto that frozen public
+main tree, verifies every resulting file against the base plus the local
+review files, then creates or advances the dedicated branch. It does not
+claim the entire older local worktree equals current public main.
+
+Mathematical review, finite computation and novelty are distinct statuses.
+No compute job or new Lean proof is implied by a source freeze.
