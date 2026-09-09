@@ -858,11 +858,13 @@ write
 \[
  H_n(t)=H_n(0)-I_n(s),\qquad s=t^2.
 \]
-Assume that for all `n>=n0` and `0<=s<=delta0`,
+Assume `I_n(0)=I_n'(0)=0`, as holds for the full relative entropy
+from the decoupled complete law. Assume also that for all `n>=n0` and
+`0<=s<=delta0`,
 \[
  I_n''(0)\ge c\,n,\qquad |I_n'''(s)|\le L\,n                \tag{5.1}
 \]
-with constants `n0<infinity`, `c>0`, and `L<infinity` independent of `n`.
+with constants `n0<infinity`, `c>0`, and `0<L<infinity` independent of `n`.
 Then for
 \[
  0\le s\le\delta:=\min\{\delta_0,3c/(10L)\},                 \tag{5.2}
@@ -935,8 +937,9 @@ More generally, if concave approximants `tilde H_n` satisfy
 \]
 then any pointwise normalized limit of `tilde H_n` equals `h` and is
 concave. The uniform error (5.8), not a finite sample, is the needed
-certificate. The matching construction in Theorem 2.4 realizes this
-principle directly with the explicit boundary loss `|d|/n`.
+certificate. Theorem 2.4 uses the same boundary-normalization logic for
+the quartic deficit, with the explicit loss `|d|/n`; it does not by itself
+supply concave approximants satisfying (5.8).
 
 ---
 
