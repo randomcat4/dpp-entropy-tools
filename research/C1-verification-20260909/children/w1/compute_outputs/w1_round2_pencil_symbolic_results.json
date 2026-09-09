@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3",
+  "executable": "/opt/venv/bin/python",
+  "sympy": "1.13.3",
+  "variables": [
+    "A0",
+    "A1",
+    "A2",
+    "A3=1-A0-A1-A2",
+    "lam"
+  ],
+  "identity": "det(G-lam*Q) - (16*r+4*lam*E-lam**3*P)/(16*r*P)",
+  "difference_numerator_factor": "0",
+  "difference_denominator_factor": "1",
+  "verified_zero": true
+}
