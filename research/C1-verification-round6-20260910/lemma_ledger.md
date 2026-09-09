@@ -9,7 +9,7 @@
 | PR62 | Two scripts and stored outputs | No blocking static mismatch; high-precision margin is not an outward sign certificate |
 | PR66 | Polynomial complete-event inverse and two-leg influence | CORRECT internal lemmas on frozen assumptions |
 | PR66 | Interaction norm and equilibrium/true-rate bridge | Construction and equilibrium identities CORRECT; true-rate response conditional on external import |
-| PR66 | External analytic-pressure theorem on actual assumptions | INCOMPLETE / CRITICAL_GAPS: full primary theorem and exact applicability not established |
+| PR66 | External analytic-pressure theorem on actual assumptions | NEEDS_FIX / CRITICAL_GAPS after full-text review: neither A1 exponential-cardinality norm nor controlled A2 null-state representation is established |
 | PR66 | Parity/quartic coefficient and local concavity | Parity and deduction CORRECT conditionally; final theorem NOT READY until response import closes |
 | PR66 | Strict class extension and approximation obstruction | CORRECT in stated scope; no DPP counterexample or broader regularity claim |
 | PR66 | Code/computation category | No submitted executable code; no arithmetic dependency claimed |

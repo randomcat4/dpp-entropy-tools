@@ -39,3 +39,19 @@ at this external import. Internal lemmas remain conditionally accepted;
 the true entropy-rate theorem is NOT READY. No false theorem or numerical
 defect is inferred. The report states the minimal source-theorem closure.
 No C1 arithmetic, author edit, SECOND or main integration was performed.
+
+## PR66 complete primary text and actual import follow-up
+
+C3 then supplied the complete 32-page Dobrushin English primary paper
+without an applicability verdict. C1 verified its SHA256 and returned it
+to the original reviewer. Full PDF/text/renders remain local; only source
+links, hash and bounded paraphrase are published. Original FIRST reports
+remain unchanged; two new import-closure reports bind this later evidence.
+
+The actual theorem provides analytic pressure within stated classes, but
+PR66 has not established class membership: the proved polynomial norm
+does not establish A1 exponential-cardinality summability, while A2
+requires a controlled null-state representation absent from the packet.
+The updated verdict is NEEDS_FIX / CRITICAL_GAPS at this import. The
+conditional internal chain remains accepted and the final theorem remains
+NOT READY. No C1 arithmetic or new theory was attempted.

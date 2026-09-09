@@ -24,22 +24,26 @@ target remains open. No entropy counterexample or general real theorem
 is accepted. Novelty is NOT_ASSESSED; no formal checking was performed.
 
 PR66 at af1edaad69c4e1f5e4bbd1239b8463b56bf64075 is NOT READY:
-INCOMPLETE / CRITICAL_GAPS at the load-bearing Dobrushin import. Internal
+NEEDS_FIX / CRITICAL_GAPS at the load-bearing Dobrushin import. Internal
 complete-event inverse/influence, interaction construction, equilibrium,
 parity and conditional pressure-to-curvature arguments pass in their
-stated scopes. The true-rate analyticity conclusion still needs:
+stated scopes. The full primary paper is now available and reviewed;
+the actual class assumptions reveal a concrete gap. Repair requires one of:
 
-- Actual primary theorem number/page and full applicable statement.
-- Its exact interaction norm/class and coverage of arbitrary finite-alphabet
-  interval/block interactions meeting the proved first-moment bound.
-- Holomorphic dependence for the relevant family lambda U_s near
-  (s,lambda)=(0,1), with the required pressure/derivative response.
+- A controlled null-state/gauge decomposition into Dobrushin A2, preserving
+  the applicable weighted norm uniformly on the needed complex neighborhood.
+- An A1 exponential-cardinality estimate stronger than the proved polynomial
+  interval bound.
+- A different primary response theorem covering the actual arbitrary-block
+  first-moment class and holomorphic family lambda U_s near (s,lambda)=(0,1).
 
-Accessible article records/abstracts did not establish these items, and
-bounded full-text attempts returned incomplete or non-PDF material. This
-is an unverified theorem import, not a proof of falsity. Supplying the
-actual applicable theorem may close it without changing the internal
-lemmas; otherwise the bridge needs a replacement result or proof.
+See the separate import_closure_review.md for printed pages 14-15, 17-18
+and 24-25, Theorems 2/6 and actual class/perturbation mapping. The source
+is bound by PRIMARY_SOURCE_BINDING.json. Original access attempts are
+historical; the gate now concerns unproved class membership, not access.
+The polynomial upper bound alone does not prove exponential summability
+fails for the actual interaction; it does not establish the required
+stronger norm. No final-theorem falsity or DPP counterexample is inferred.
 
 No subsequent SECOND is started by C1. C3 owns that independent gate and
 integration. C2 owns separately claimed finite computation. No long

@@ -3,7 +3,7 @@
 Status: PR62's analytic midpoint theorem and sufficiently small strict
 bit-flip lift are CORRECT / ACCEPTED_SCOPED and READY for C3 SECOND.
 Its finite fixtures retain separate evidence gates. PR66 FIRST is complete
-with INCOMPLETE / CRITICAL_GAPS at the load-bearing Dobrushin import;
+with NEEDS_FIX / CRITICAL_GAPS at the load-bearing Dobrushin import;
 its internal chain is accepted conditionally and is not READY. No verdict
 is inherited from earlier reviews or author checkers.
 
@@ -44,9 +44,11 @@ See [handoff](HANDOFF.md) and [finite obligations](computation_handoff.md).
 
 PR66: [mathematical FIRST](units/pr66/review_report.md),
 [code-category report](units/pr66/code_review.md), and
-[reviewer scope](units/pr66/frozen_scope.md). The actual full primary
-response theorem could not be established despite bounded source-access
-attempts. Required closure is the theorem/page, exact interaction norm
-and finite-alphabet block coverage, analytic family domain and pressure
-derivative conclusion for lambda U_s. No mathematical counterexample or
-internal defect is inferred from this source-access gap.
+[reviewer scope](units/pr66/frozen_scope.md) preserve the initial
+source-access gate. The subsequent [full-text import follow-up](units/pr66/import_closure_review.md)
+now identifies the actual applicability gap: neither A1's exponential
+cardinality norm nor A2's controlled null-state representation is proved
+for the submitted telescoped interaction. The true-rate bridge remains
+unsupported by this citation. A controlled applicable representation,
+stronger norm estimate or different applicable primary theorem is needed.
+No counterexample to the final DPP statement is inferred.
