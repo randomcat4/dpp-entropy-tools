@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "item": "author verify_continuation.py replay",
+      "passed": true
+    },
+    {
+      "item": "author verify_continuation.py last line",
+      "passed": true
+    },
+    {
+      "item": "author verify_continuation_v2.py replay",
+      "passed": true
+    },
+    {
+      "item": "author verify_continuation_v2.py last line",
+      "passed": true
+    },
+    {
+      "item": "3+5 fixture all 256 events at t=1/5,1/2,1",
+      "passed": true
+    },
+    {
+      "item": "8 left configurations x 32 conditional events at each t",
+      "passed": true
+    },
+    {
+      "item": "strict fixture legality by exact rational criteria",
+      "passed": true
+    },
+    {
+      "item": "diagonal refresh 8 states and 64 transitions",
+      "passed": true
+    },
+    {
+      "item": "two-mode quasi-free obstruction four probabilities",
+      "passed": true
+    },
+    {
+      "item": "four reversible obstruction G matrices",
+      "passed": true
+    },
+    {
+      "item": "E_mu[d G12] = -125/78",
+      "passed": true
+    },
+    {
+      "item": "scope guard: no entropy counterexample certification",
+      "passed": true
+    }
+  ],
+  "source_references": [
+    {
+      "file": "continuation/CODEX_VERIFICATION_TASKS_v2.md",
+      "lines": "31-46",
+      "role": "author replay and independent Mobius event reconstruction scope"
+    },
+    {
+      "file": "continuation/CODEX_VERIFICATION_TASKS_v2.md",
+      "lines": "50-63",
+      "role": "bounded reversible mechanism obstruction scope"
+    },
+    {
+      "file": "continuation/frozen_statement_v3.md",
+      "lines": "19-77",
+      "role": "diagonal active-sector 3+5 fixture statement"
+    },
+    {
+      "file": "continuation/frozen_statement_v3.md",
+      "lines": "78-150",
+      "role": "rank-two exterior Markov mechanism statement"
+    },
+    {
+      "file": "continuation/frozen_statement_v3.md",
+      "lines": "151-170",
+      "role": "diagonal refresh exterior-degree mechanism"
+    },
+    {
+      "file": "continuation/frozen_statement_v3.md",
+      "lines": "171-196",
+      "role": "reversible two-point obstruction statement"
+    },
+    {
+      "file": "continuation/frozen_statement_v3.md",
+      "lines": "197-214",
+      "role": "two-mode quasi-free measurement obstruction statement"
+    },
+    {
+      "file": "proof/04_diagonal_active_sector.md",
+      "lines": "103-164",
+      "role": "rational 3+5 fixture inputs and legality bounds"
+    },
+    {
+      "file": "proof/06_quantum_measurement_obstruction.md",
+      "lines": "10-69",
+      "role": "two-mode four-probability obstruction arithmetic"
+    },
+    {
+      "file": "proof/07_markov_adjoint_and_reversible_obstruction.md",
+      "lines": "91-170",
+      "role": "reversible obstruction matrices and orthogonality argument"
+    },
+    {
+      "file": "continuation/code/verify_continuation.py",
+      "lines": "49-239",
+      "role": "author continuation exact verifier replayed as a black-box script"
+    },
+    {
+      "file": "continuation/code/verify_continuation_v2.py",
+      "lines": "7-45",
+      "role": "author v2 exact verifier replayed as a black-box script"
+    }
+  ],
+  "status": "PASS"
+}

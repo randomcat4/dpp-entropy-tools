@@ -1,0 +1,7 @@
+{
+  "exception": "TypeError('Object of type BooleanTrue is not JSON serializable')",
+  "name": "run",
+  "pid": 171906,
+  "status": "failed",
+  "time_utc": "2026-09-09T10:24:56Z"
+}

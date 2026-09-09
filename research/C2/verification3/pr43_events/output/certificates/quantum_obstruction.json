@@ -1,0 +1,521 @@
+{
+  "checks": {
+    "Phi_K_minus_full_event_mask_3": "99/400",
+    "Phi_K_plus_full_event_mask_3": "91/400",
+    "conclusion": "No single classical channel depending only on the input occupation event law can realize this correlated quasi-free covariance decay for all inputs.",
+    "expected_input_law_author_mask_order": [
+      "6/25",
+      "13/50",
+      "13/50",
+      "6/25"
+    ],
+    "input_laws_equal": true
+  },
+  "event_laws_four_probabilities": {
+    "A0": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "21/100"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "29/100"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "29/100"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "21/100"
+      }
+    ],
+    "K_minus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "6/25"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "13/50"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "13/50"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "6/25"
+      }
+    ],
+    "K_plus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "6/25"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "13/50"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "13/50"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "6/25"
+      }
+    ],
+    "Phi_K_minus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "99/400"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "101/400"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "101/400"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "99/400"
+      }
+    ],
+    "Phi_K_plus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "91/400"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "109/400"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "109/400"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "91/400"
+      }
+    ]
+  },
+  "inclusion_determinants": {
+    "A0": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "1"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "21/100"
+      }
+    ],
+    "K_minus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "1"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "6/25"
+      }
+    ],
+    "K_plus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "1"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "6/25"
+      }
+    ],
+    "Phi_K_minus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "1"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "99/400"
+      }
+    ],
+    "Phi_K_plus": [
+      {
+        "author_state_label": "00",
+        "bits_by_matrix_coordinate": [
+          0,
+          0
+        ],
+        "coordinate_order_label": "00",
+        "mask": 0,
+        "probability": "1"
+      },
+      {
+        "author_state_label": "01",
+        "bits_by_matrix_coordinate": [
+          1,
+          0
+        ],
+        "coordinate_order_label": "10",
+        "mask": 1,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "10",
+        "bits_by_matrix_coordinate": [
+          0,
+          1
+        ],
+        "coordinate_order_label": "01",
+        "mask": 2,
+        "probability": "1/2"
+      },
+      {
+        "author_state_label": "11",
+        "bits_by_matrix_coordinate": [
+          1,
+          1
+        ],
+        "coordinate_order_label": "11",
+        "mask": 3,
+        "probability": "91/400"
+      }
+    ]
+  },
+  "inputs": {
+    "A0": [
+      [
+        "1/2",
+        "1/5"
+      ],
+      [
+        "1/5",
+        "1/2"
+      ]
+    ],
+    "K_minus": [
+      [
+        "1/2",
+        "-1/10"
+      ],
+      [
+        "-1/10",
+        "1/2"
+      ]
+    ],
+    "K_plus": [
+      [
+        "1/2",
+        "1/10"
+      ],
+      [
+        "1/10",
+        "1/2"
+      ]
+    ],
+    "theta": "1/2"
+  },
+  "outputs": {
+    "Phi_K_minus": [
+      [
+        "1/2",
+        "1/20"
+      ],
+      [
+        "1/20",
+        "1/2"
+      ]
+    ],
+    "Phi_K_plus": [
+      [
+        "1/2",
+        "3/20"
+      ],
+      [
+        "3/20",
+        "1/2"
+      ]
+    ]
+  },
+  "state_label_convention": {
+    "author_state_label": "bits are printed in descending coordinate order; the rightmost bit is matrix coordinate 1",
+    "coordinate_order_label": "bits are printed in matrix coordinate order; the leftmost bit is matrix coordinate 1",
+    "example_n2_mask_order": [
+      {
+        "author_state_label": "00",
+        "coordinate_order_label": "00",
+        "mask": 0
+      },
+      {
+        "author_state_label": "01",
+        "coordinate_order_label": "10",
+        "mask": 1
+      },
+      {
+        "author_state_label": "10",
+        "coordinate_order_label": "01",
+        "mask": 2
+      },
+      {
+        "author_state_label": "11",
+        "coordinate_order_label": "11",
+        "mask": 3
+      }
+    ],
+    "internal_masks": "zero-based bit i is matrix coordinate i+1"
+  },
+  "status": "PASS"
+}
