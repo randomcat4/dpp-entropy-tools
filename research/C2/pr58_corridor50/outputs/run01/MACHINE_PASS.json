@@ -1,0 +1,48 @@
+{
+  "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/50#issuecomment-5604628245",
+  "completed_layers": [
+    "inputs",
+    "events",
+    "identities",
+    "corridor",
+    "s10",
+    "reference_compare"
+  ],
+  "deadline": {
+    "deadline_epoch_ns": 1788972853000000000,
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788972853",
+    "requested_wall_seconds": 2700,
+    "start_epoch_ns": 1788970153964949249,
+    "used_wall_seconds_cap": 2700
+  },
+  "excluded_scope": [
+    "a4f05cc joint-additive fixture",
+    "different s=9/10 fixture",
+    "issue63 whole-chord task"
+  ],
+  "failures": [],
+  "forbidden_modules": [
+    "sympy",
+    "numpy",
+    "scipy",
+    "mpmath"
+  ],
+  "int_string_conversion_limit": "disabled",
+  "pass_files": [
+    "inputs.json",
+    "events.json",
+    "identities.json",
+    "corridor.json",
+    "s10.json",
+    "reference_compare.json"
+  ],
+  "resource_bound": {
+    "cpu_threads": 1,
+    "gpu": false,
+    "memory_gib": 16,
+    "memory_note": "not_os_enforced_by_this_stdlib_script",
+    "processes": 1
+  },
+  "source_commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "status": "MACHINE_PASS"
+}

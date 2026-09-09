@@ -1,0 +1,31 @@
+{
+  "source_commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/50#issuecomment-5604628245",
+  "publication_base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+  "inputs": [
+    {
+      "source": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "blob": "974dcaad80b763d6a058272bacb316d92d00e162"
+    },
+    {
+      "source": "research/I05-23-middle-20260909/RESULT.md",
+      "blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a"
+    },
+    {
+      "source": "research/I05-23-middle-20260909/code/verify_middle_compensation.py",
+      "blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6"
+    },
+    {
+      "source": "research/I05-23-middle-20260909/output/verify_middle_compensation.txt",
+      "blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba"
+    }
+  ],
+  "construction": "literal rational matrices and displayed definitions; author checker is not imported or executed",
+  "resource_bound": {
+    "total_wall_seconds": 2700,
+    "processes": 1,
+    "cpu_threads": 1,
+    "memory_gib": 16,
+    "gpu": false
+  }
+}
