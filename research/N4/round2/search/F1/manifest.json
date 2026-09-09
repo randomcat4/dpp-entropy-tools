@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETED",
+  "pid": 161087,
+  "seed": 202609090427,
+  "source_sha256": "c2f0c79dd5662a5435b53483c7acd4265f107472849d5458765c05b87d30934a",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "mpmath": "1.4.1",
+  "precision_digits": 60,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "argv": [
+    "face_search.py",
+    "--out",
+    "F1"
+  ],
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "prescribed_centers": 72,
+  "full_event_handling": "structural zero excluded before all arithmetic",
+  "classification": "high precision numerical scout, no rigorous log enclosure, no class conclusion",
+  "counts": {
+    "center_attempts": 72,
+    "center_completed": 72,
+    "proper_event_jet_calls": 1080,
+    "hessian_calls": 72,
+    "entropy_calls": 504,
+    "proper_entropy_determinants": 7560,
+    "chord_calls": 216,
+    "exact_endpoint_pd_checks": 864,
+    "exact_jet_selfchecks": 16
+  },
+  "elapsed_seconds": 5.626108407974243,
+  "exit_status": 0,
+  "candidate_files": [],
+  "failures": []
+}

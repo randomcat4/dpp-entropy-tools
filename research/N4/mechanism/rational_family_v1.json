@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_FEASIBLE_DIAGNOSTIC_NO_POSITIVE_GAP_CLAIM",
+  "definition": "K=[[A,r*u,r^2*v],[r*u^T,r^2,0],[r^2*v^T,0,r^4]]",
+  "A": [["1/2", "1/10"], ["1/10", "1/3"]],
+  "u": ["1/5", "1/6"],
+  "v": ["1/7", "-1/8"],
+  "e": ["1/8", "-1/9"],
+  "f": ["1/10", "1/11"],
+  "D_definition": "D_A=D_R=0; D_AR=[r*e,r^2*f]",
+  "r_domain": "r rational, 0<r<=1/2",
+  "chord_domain": "s rational, |s|<=1/4",
+  "gap_convention": "Delta=(H(K-sD)+H(K+sD))/2-H(K)",
+  "additional_leaf_vectors_n5_n6": [["1/11", "1/13"], ["1/17", "-1/19"]],
+  "additional_leaf_rule": "leaf j+2 has d=r^(2j), b=r^j*u_j; j=3,4"
+}

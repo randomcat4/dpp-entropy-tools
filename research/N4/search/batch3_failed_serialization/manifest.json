@@ -1,0 +1,18 @@
+{
+  "status": "RUNNING",
+  "pid": 159210,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /root/i05-successors-20260909/N4/venv/bin/python research/N4/search/diamond_interior.py",
+  "source_sha256": "a00e19c65929a25fce3c359539557108eafc8a11f0d5b272027001d6f1b6b7fe",
+  "core_sha256": "fb5a5239d1ec0e3ce06d294d9d954d41beb535d8d3dd3c3a497c3456179f5da1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "seed": null,
+  "random_calls": 0,
+  "dimensions": [
+    4
+  ],
+  "start_time": 1788892130.270012,
+  "threads": 1,
+  "initial_limit": 54,
+  "optimization_limit": 240
+}

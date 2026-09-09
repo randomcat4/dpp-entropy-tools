@@ -1,0 +1,40 @@
+{
+  "status": "FAILED_RUN_ACCOUNTING_RECONSTRUCTED",
+  "failed_pid": 159210,
+  "failed_outer_shell_exit_code": 1,
+  "original_manifest_retained_unchanged": true,
+  "failure": "numpy.bool_ in single_blocks_negative could not be JSON serialized; same error affected final best output",
+  "failed_source_sha256": "a00e19c65929a25fce3c359539557108eafc8a11f0d5b272027001d6f1b6b7fe",
+  "initial_objective_invocations": 54,
+  "reconstructed_optimizer_calls": [
+    {
+      "family": "nearly_collinear",
+      "parent_index": 11,
+      "nfev": 80,
+      "counted_control_invocations": 80,
+      "status": 1
+    },
+    {
+      "family": "nearly_orthogonal",
+      "parent_index": 29,
+      "nfev": 80,
+      "counted_control_invocations": 80,
+      "status": 1
+    },
+    {
+      "family": "conflicting_signs",
+      "parent_index": 47,
+      "nfev": 80,
+      "counted_control_invocations": 80,
+      "status": 1
+    }
+  ],
+  "reconstructed_total_objective_invocations": 294,
+  "count_provenance": "Deterministic constant-penalty optimizer control-flow replay using same scipy and initial leaders; NOT surviving per-call runtime telemetry",
+  "retained_successful_cases": 0,
+  "exact_failed_hessian_and_entropy_counts": "not persisted; do not merge into measured successful arithmetic counts",
+  "this_control_replay_new_hessian_calls": 0,
+  "this_control_replay_new_entropy_calls": 0,
+  "scipy": "1.18.1",
+  "exit_code": 0
+}

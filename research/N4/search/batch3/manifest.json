@@ -1,0 +1,68 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "pid": 159251,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /root/i05-successors-20260909/N4/venv/bin/python research/N4/search/diamond_interior.py",
+  "source_sha256": "bcda670a9bc9080159660724f41305da523b0b313f4be98f845fdc9e8fdb07bb",
+  "core_sha256": "fb5a5239d1ec0e3ce06d294d9d954d41beb535d8d3dd3c3a497c3456179f5da1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "seed": null,
+  "random_calls": 0,
+  "dimensions": [
+    4
+  ],
+  "start_time": 1788892194.7252533,
+  "threads": 1,
+  "initial_limit": 54,
+  "optimization_limit": 240,
+  "exit_code": 0,
+  "completed": 294,
+  "failures": 0,
+  "counts": {
+    "hessian_calls": 294,
+    "entropy_calls": 5586,
+    "polynomial_derivative_calls": 294,
+    "kernel_proposals": 294,
+    "rejected": 0
+  },
+  "max_gain": 0.9989720185177737,
+  "max_full_curvature": -0.021357560681733462,
+  "single_block_failures": 0,
+  "optimizers": [
+    {
+      "family": "nearly_collinear",
+      "parent_index": 11,
+      "initial_gain": 0.9816598207564862,
+      "final_gain": 0.9989123722773834,
+      "nfev": 80,
+      "actual_proposals": 80,
+      "status": 1,
+      "success": false,
+      "message": "Maximum number of function evaluations has been exceeded."
+    },
+    {
+      "family": "nearly_orthogonal",
+      "parent_index": 29,
+      "initial_gain": 0.9613781577642255,
+      "final_gain": 0.9983245958447582,
+      "nfev": 80,
+      "actual_proposals": 80,
+      "status": 1,
+      "success": false,
+      "message": "Maximum number of function evaluations has been exceeded."
+    },
+    {
+      "family": "conflicting_signs",
+      "parent_index": 47,
+      "initial_gain": 0.9816591124500536,
+      "final_gain": 0.9989720185177737,
+      "nfev": 80,
+      "actual_proposals": 80,
+      "status": 1,
+      "success": false,
+      "message": "Maximum number of function evaluations has been exceeded."
+    }
+  ],
+  "candidate_files": [],
+  "elapsed_seconds": 1.4359822273254395
+}

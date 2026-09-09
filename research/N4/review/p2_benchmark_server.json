@@ -1,0 +1,876 @@
+{
+  "A": [
+    [
+      "1/2",
+      "1/10"
+    ],
+    [
+      "1/10",
+      "1/3"
+    ]
+  ],
+  "Lu": {
+    "matrix_interval": {
+      "L11": {
+        "lower": {
+          "decimal": "-0.978671407445525664851237387607874793786970441276",
+          "den_digits": 4465,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "e96d930ba79e8cf6831350ad2361d6a94d9a4c19e03bce0e542e87d13b90f2ae",
+          "num_digits": 4465,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.978671407445525664851237387607874793786970441276",
+          "den_digits": 4465,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "bc8811ab025038ec38bf78e424cef955626e2ba2d90a164d0889c1ca81de9b7a",
+          "num_digits": 4465,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000184174299015994756759598120466406314842928258384",
+          "den_digits": 4389,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "20dc154c41c17595f296eaea815b244f04abecb6335de306c866e9e995a4ee27",
+          "num_digits": 4273,
+          "sign": 1
+        }
+      },
+      "L12": {
+        "lower": {
+          "decimal": "-0.0402284909695663061213780043874354860768709275424",
+          "den_digits": 4462,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "2e5e0fd2602c079e6d2bb0096d5d6275630393a6779c260bdf78a8d02aa1cffe",
+          "num_digits": 4461,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.0402284909695663061213780043874354860768709275424",
+          "den_digits": 4464,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "e9635233c4297fc4f6ebd00b9d19e534f8af3ed8e776d0fcc625891f01211001",
+          "num_digits": 4462,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000317101028549980739923182484854195151613864967662",
+          "den_digits": 4392,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "6f5fe59f31aae3ff070695367b4a04862bbd10448f03ae369f2f81928ae7c234",
+          "num_digits": 4277,
+          "sign": 1
+        }
+      },
+      "L22": {
+        "lower": {
+          "decimal": "-0.795149165465754985697332884893030190906482408706",
+          "den_digits": 4466,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "5c975e646964b7f441f25fa671e568342aeb6a4f9b6ea56a518be4ac5889add3",
+          "num_digits": 4466,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.795149165465754985697332884893030190906482408706",
+          "den_digits": 4466,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "2a559132c115bf15b311034f6e475934e9d7d95cc021e3d10cba4b91e73723ea",
+          "num_digits": 4466,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200450167301129177124399814833205012433698662613",
+          "den_digits": 4390,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "7866bb1fb2436668615e802b32291c96d0e2d871435eeda2e206ada3f8482c15",
+          "num_digits": 4274,
+          "sign": 1
+        }
+      },
+      "det": {
+        "lower": {
+          "decimal": "0.776571421409817124929370298602103193137061120350",
+          "den_digits": 8935,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "2959556db33bebb7b3f1a83c0f68d8a99431e7a238b9dab4299faa22d8856aa6",
+          "num_digits": 8935,
+          "sign": 1
+        },
+        "upper": {
+          "decimal": "0.776571421409817124929370298602103193137061120350",
+          "den_digits": 8935,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "0d64d2c1de2691daf7b478d288b6f0cd6c47bd5e2b24fafa934222f9c13f04ee",
+          "num_digits": 8935,
+          "sign": 1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000368133879245022004236623020881899111814436793300",
+          "den_digits": 8739,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "e4f714a6a84132f25259dcf4a86d64e4b6fdb732231cab32304104b29cd044d7",
+          "num_digits": 8624,
+          "sign": 1
+        }
+      }
+    },
+    "quadratic_checks": {
+      "e1": {
+        "lower": {
+          "decimal": "-0.978671407445525664851237387607874793786970441276",
+          "den_digits": 4465,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "e96d930ba79e8cf6831350ad2361d6a94d9a4c19e03bce0e542e87d13b90f2ae",
+          "num_digits": 4465,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.978671407445525664851237387607874793786970441276",
+          "den_digits": 4465,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "bc8811ab025038ec38bf78e424cef955626e2ba2d90a164d0889c1ca81de9b7a",
+          "num_digits": 4465,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000184174299015994756759598120466406314842928258384",
+          "den_digits": 4389,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "20dc154c41c17595f296eaea815b244f04abecb6335de306c866e9e995a4ee27",
+          "num_digits": 4273,
+          "sign": 1
+        }
+      },
+      "e1_plus_e2": {
+        "lower": {
+          "decimal": "-1.85427755485041326279132628127577595684719470507",
+          "den_digits": 4467,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "c2205d8b8b44e82b3b8d0eea019db64bc763f829923a80177498e94d5f148f09",
+          "num_digits": 4467,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-1.85427755485041326279132628127577595684719470507",
+          "den_digits": 4466,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "3ebe8b19d9af8b3e311ae65ad621177c57d603f4d979f0d17a5ca1569beec4a3",
+          "num_digits": 4467,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000249577590782837545962367034408778975951103014326",
+          "den_digits": 4392,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "fb309c77a3dd37da795847e0b4510b0a03ce49f6853627499c20c617ffbd5bb7",
+          "num_digits": 4276,
+          "sign": 1
+        }
+      },
+      "e2": {
+        "lower": {
+          "decimal": "-0.795149165465754985697332884893030190906482408706",
+          "den_digits": 4466,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "5c975e646964b7f441f25fa671e568342aeb6a4f9b6ea56a518be4ac5889add3",
+          "num_digits": 4466,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.795149165465754985697332884893030190906482408706",
+          "den_digits": 4466,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "2a559132c115bf15b311034f6e475934e9d7d95cc021e3d10cba4b91e73723ea",
+          "num_digits": 4466,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200450167301129177124399814833205012433698662613",
+          "den_digits": 4390,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "7866bb1fb2436668615e802b32291c96d0e2d871435eeda2e206ada3f8482c15",
+          "num_digits": 4274,
+          "sign": 1
+        }
+      }
+    },
+    "strict_negative_definite": true,
+    "w": [
+      "1/5",
+      "1/6"
+    ]
+  },
+  "Lv": {
+    "matrix_interval": {
+      "L11": {
+        "lower": {
+          "decimal": "-0.517744517566096722421672372244189548974846953784",
+          "den_digits": 6806,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "72ce525402c694bcc4e27fc0ed406800284cfc25655a913572c60f721d3756a0",
+          "num_digits": 6806,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.517744517566096722421672372244189548974846953784",
+          "den_digits": 6806,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "19b3abdd85dbdcf4b8a1f7e02f11bb97fea8e3f2efa8813fac8e988721a29f5d",
+          "num_digits": 6806,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000182300432601587833362334767496544622686096139476",
+          "den_digits": 6736,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "4c766b63c6ac64dd741a424df5d2d4297b9e72fb62fdc8cb98e28c0c763f3057",
+          "num_digits": 6620,
+          "sign": 1
+        }
+      },
+      "L12": {
+        "lower": {
+          "decimal": "0.0564356623574821556342978685335876266376940771335",
+          "den_digits": 6811,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "e675d78640f2756eae398c2dc281f4d1e78899d7556674d25aedf37495f2fa5e",
+          "num_digits": 6810,
+          "sign": 1
+        },
+        "upper": {
+          "decimal": "0.0564356623574821556342978685335876266376940771335",
+          "den_digits": 6811,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "6a580e0cc970b51e956d2a05cd1b6bf0905406e885c803f97d7ffb8ff6e5930a",
+          "num_digits": 6810,
+          "sign": 1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000323806165097287216097468832717942090224085226146",
+          "den_digits": 6742,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "74f322fb61e1f03583bde094d10f3bd44f7cd2ed9868de5e35d0fd82f3afae25",
+          "num_digits": 6626,
+          "sign": 1
+        }
+      },
+      "L22": {
+        "lower": {
+          "decimal": "-0.474814191554589662198486919765289420424058389829",
+          "den_digits": 6811,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "3720756198008ce68f9dc8bc8d6a51bf6f3ca59774cf90cfc10342be09752e78",
+          "num_digits": 6811,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.474814191554589662198486919765289420424058389829",
+          "den_digits": 6810,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "c8c21e29189be662eacd8c54132a19cd6160c92816f2dfa52495d2236caae86b",
+          "num_digits": 6809,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000196674026001892834698194480801810255527569331449",
+          "den_digits": 6739,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "afa090ec85d7ec30dab72c9273062f45ee37ad19cb56a815d3bfbafbb52b3d60",
+          "num_digits": 6624,
+          "sign": 1
+        }
+      },
+      "det": {
+        "lower": {
+          "decimal": "0.242647460554239533045887334929670799408622771839",
+          "den_digits": 13622,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "9d75c334dc77eca4e31523b463126783d5a2d6ef613902bff6ad011bb1c3a312",
+          "num_digits": 13621,
+          "sign": 1
+        },
+        "upper": {
+          "decimal": "0.242647460554239533045887334929670799408622771839",
+          "den_digits": 13624,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "62e1a85b2f0e1be95ca4d964a5f4536c8dfbab01c8a31fbd690c20c24c8edb6f",
+          "num_digits": 13624,
+          "sign": 1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000224934162041310104742758844067556609457179555448",
+          "den_digits": 13545,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "74bf7bfe675d93b3a3ffed68d5ac9c7c411736cc3387e31a2cfc0b14e4ae6fec",
+          "num_digits": 13429,
+          "sign": 1
+        }
+      }
+    },
+    "quadratic_checks": {
+      "e1": {
+        "lower": {
+          "decimal": "-0.517744517566096722421672372244189548974846953784",
+          "den_digits": 6806,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "72ce525402c694bcc4e27fc0ed406800284cfc25655a913572c60f721d3756a0",
+          "num_digits": 6806,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.517744517566096722421672372244189548974846953784",
+          "den_digits": 6806,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "19b3abdd85dbdcf4b8a1f7e02f11bb97fea8e3f2efa8813fac8e988721a29f5d",
+          "num_digits": 6806,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000182300432601587833362334767496544622686096139476",
+          "den_digits": 6736,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "4c766b63c6ac64dd741a424df5d2d4297b9e72fb62fdc8cb98e28c0c763f3057",
+          "num_digits": 6620,
+          "sign": 1
+        }
+      },
+      "e1_plus_e2": {
+        "lower": {
+          "decimal": "-0.879687384405722073351563554942303716123517189347",
+          "den_digits": 6812,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "78c4582d7100234c00fe3afd454757d7a3c11c2c0030ec6713107e484860d7e0",
+          "num_digits": 6812,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.879687384405722073351563554942303716123517189347",
+          "den_digits": 6812,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "c0dcf8fc43d921f5a673909ffa49cd977f5bb9601da90b780338a9f608a2e6b5",
+          "num_digits": 6812,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000268637871591093764134408417137529302234504981366",
+          "den_digits": 6741,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "99bf3d39db9a65c232eb9b8ae1755dc4c3af49d910886a22b8152ca99bb7cf60",
+          "num_digits": 6626,
+          "sign": 1
+        }
+      },
+      "e2": {
+        "lower": {
+          "decimal": "-0.474814191554589662198486919765289420424058389829",
+          "den_digits": 6811,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "3720756198008ce68f9dc8bc8d6a51bf6f3ca59774cf90cfc10342be09752e78",
+          "num_digits": 6811,
+          "sign": -1
+        },
+        "upper": {
+          "decimal": "-0.474814191554589662198486919765289420424058389829",
+          "den_digits": 6810,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "c8c21e29189be662eacd8c54132a19cd6160c92816f2dfa52495d2236caae86b",
+          "num_digits": 6809,
+          "sign": -1
+        },
+        "width": {
+          "decimal": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000196674026001892834698194480801810255527569331449",
+          "den_digits": 6739,
+          "exact_fraction_omitted": "too_large_reproducible_from_script_terms",
+          "fraction_sha256": "afa090ec85d7ec30dab72c9273062f45ee37ad19cb56a815d3bfbafbb52b3d60",
+          "num_digits": 6624,
+          "sign": 1
+        }
+      }
+    },
+    "strict_negative_definite": true,
+    "w": [
+      "1/7",
+      "-1/8"
+    ]
+  },
+  "argv": [
+    "research/N4/review/rational_dpp_review.py",
+    "--out",
+    "research/N4/review/p2_benchmark_server.json",
+    "p2-benchmark",
+    "--p2-terms",
+    "120"
+  ],
+  "created_utc": "2026-09-08T18:31:43Z",
+  "cwd": "<server-review-repo>",
+  "domain_checks": {
+    "A": {
+      "checks": {
+        "I_minus_K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.323333333333333333333333333333333333333333333333",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "418f53ae1c672d888d981ca9005051ef895ca3e32f00db6546d28fa093e9d3c0",
+              "num": 97,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.323333333333333333333333333333333333333333333333",
+          "ok": true
+        },
+        "I_minus_K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.323333333333333333333333333333333333333333333333",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "418f53ae1c672d888d981ca9005051ef895ca3e32f00db6546d28fa093e9d3c0",
+              "num": 97,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.323333333333333333333333333333333333333333333333",
+          "ok": true
+        },
+        "I_minus_K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.323333333333333333333333333333333333333333333333",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "418f53ae1c672d888d981ca9005051ef895ca3e32f00db6546d28fa093e9d3c0",
+              "num": 97,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.323333333333333333333333333333333333333333333333",
+          "ok": true
+        },
+        "K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.156666666666666666666666666666666666666666666667",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "49518c947a089c6f708194049443da74ca84a96e86d36c96de6a697567e78a07",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.156666666666666666666666666666666666666666666667",
+          "ok": true
+        },
+        "K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.156666666666666666666666666666666666666666666667",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "49518c947a089c6f708194049443da74ca84a96e86d36c96de6a697567e78a07",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.156666666666666666666666666666666666666666666667",
+          "ok": true
+        },
+        "K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.5",
+              "den": 2,
+              "den_digits": 1,
+              "fraction_sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276",
+              "num": 1,
+              "num_digits": 1,
+              "sign": 1
+            },
+            {
+              "decimal": "0.156666666666666666666666666666666666666666666667",
+              "den": 300,
+              "den_digits": 3,
+              "fraction_sha256": "49518c947a089c6f708194049443da74ca84a96e86d36c96de6a697567e78a07",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.156666666666666666666666666666666666666666666667",
+          "ok": true
+        }
+      },
+      "strict_open_domain": true
+    },
+    "A_minus_uuT": {
+      "checks": {
+        "I_minus_K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.54",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "e7a3d5c760e5438ceb01046d867aa6615d895cf6920dd3b3a3b4ed46581adb84",
+              "num": 27,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.370555555555555555555555555555555555555555555556",
+              "den": 1800,
+              "den_digits": 4,
+              "fraction_sha256": "31ce4505ef83553054daf7ab0e0a0adfae89d33ac90458a488508a44ba19b3ea",
+              "num": 667,
+              "num_digits": 3,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.370555555555555555555555555555555555555555555556",
+          "ok": true
+        },
+        "I_minus_K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.54",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "e7a3d5c760e5438ceb01046d867aa6615d895cf6920dd3b3a3b4ed46581adb84",
+              "num": 27,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.370555555555555555555555555555555555555555555556",
+              "den": 1800,
+              "den_digits": 4,
+              "fraction_sha256": "31ce4505ef83553054daf7ab0e0a0adfae89d33ac90458a488508a44ba19b3ea",
+              "num": 667,
+              "num_digits": 3,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.370555555555555555555555555555555555555555555556",
+          "ok": true
+        },
+        "I_minus_K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.54",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "e7a3d5c760e5438ceb01046d867aa6615d895cf6920dd3b3a3b4ed46581adb84",
+              "num": 27,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.370555555555555555555555555555555555555555555556",
+              "den": 1800,
+              "den_digits": 4,
+              "fraction_sha256": "31ce4505ef83553054daf7ab0e0a0adfae89d33ac90458a488508a44ba19b3ea",
+              "num": 667,
+              "num_digits": 3,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.370555555555555555555555555555555555555555555556",
+          "ok": true
+        },
+        "K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.46",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "403388bfd823de592a1a86853a7c919cdd3257515bdad33ba2f4f875138c2508",
+              "num": 23,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.136111111111111111111111111111111111111111111111",
+              "den": 360,
+              "den_digits": 3,
+              "fraction_sha256": "75fe551d4517fb75ac6b841aa72a3c4f36d2afc3b536499cc6fd5c9d3f3dea9a",
+              "num": 49,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.136111111111111111111111111111111111111111111111",
+          "ok": true
+        },
+        "K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.46",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "403388bfd823de592a1a86853a7c919cdd3257515bdad33ba2f4f875138c2508",
+              "num": 23,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.136111111111111111111111111111111111111111111111",
+              "den": 360,
+              "den_digits": 3,
+              "fraction_sha256": "75fe551d4517fb75ac6b841aa72a3c4f36d2afc3b536499cc6fd5c9d3f3dea9a",
+              "num": 49,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.136111111111111111111111111111111111111111111111",
+          "ok": true
+        },
+        "K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.46",
+              "den": 50,
+              "den_digits": 2,
+              "fraction_sha256": "403388bfd823de592a1a86853a7c919cdd3257515bdad33ba2f4f875138c2508",
+              "num": 23,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.136111111111111111111111111111111111111111111111",
+              "den": 360,
+              "den_digits": 3,
+              "fraction_sha256": "75fe551d4517fb75ac6b841aa72a3c4f36d2afc3b536499cc6fd5c9d3f3dea9a",
+              "num": 49,
+              "num_digits": 2,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.136111111111111111111111111111111111111111111111",
+          "ok": true
+        }
+      },
+      "strict_open_domain": true
+    },
+    "A_minus_vvT": {
+      "checks": {
+        "I_minus_K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.520408163265306122448979591836734693877551020408",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "c7b0f9c33cd368a973620ae1088aab64713caa524b2fcdf2a3d8e4c68c2aab1c",
+              "num": 51,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.341179846938775510204081632653061224489795918367",
+              "den": 156800,
+              "den_digits": 6,
+              "fraction_sha256": "3aa8dee16c4da5f1b47d35ca5e12f4e6cf84430a779007a938c1c04fabac7d2d",
+              "num": 53497,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.341179846938775510204081632653061224489795918367",
+          "ok": true
+        },
+        "I_minus_K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.520408163265306122448979591836734693877551020408",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "c7b0f9c33cd368a973620ae1088aab64713caa524b2fcdf2a3d8e4c68c2aab1c",
+              "num": 51,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.341179846938775510204081632653061224489795918367",
+              "den": 156800,
+              "den_digits": 6,
+              "fraction_sha256": "3aa8dee16c4da5f1b47d35ca5e12f4e6cf84430a779007a938c1c04fabac7d2d",
+              "num": 53497,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.341179846938775510204081632653061224489795918367",
+          "ok": true
+        },
+        "I_minus_K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.520408163265306122448979591836734693877551020408",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "c7b0f9c33cd368a973620ae1088aab64713caa524b2fcdf2a3d8e4c68c2aab1c",
+              "num": 51,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.341179846938775510204081632653061224489795918367",
+              "den": 156800,
+              "den_digits": 6,
+              "fraction_sha256": "3aa8dee16c4da5f1b47d35ca5e12f4e6cf84430a779007a938c1c04fabac7d2d",
+              "num": 53497,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.341179846938775510204081632653061224489795918367",
+          "ok": true
+        },
+        "K": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.479591836734693877551020408163265306122448979592",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "5e0608d07f189c8c70c7ab9c6204105b0eec8ba5ca9b1c759b23e997d9ff1032",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.138480017006802721088435374149659863945578231293",
+              "den": 470400,
+              "den_digits": 6,
+              "fraction_sha256": "5b0eff6633e408d69c72c03443ae6d93cba70fee424382f078f6338e95414482",
+              "num": 65141,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.138480017006802721088435374149659863945578231293",
+          "ok": true
+        },
+        "K_minus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.479591836734693877551020408163265306122448979592",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "5e0608d07f189c8c70c7ab9c6204105b0eec8ba5ca9b1c759b23e997d9ff1032",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.138480017006802721088435374149659863945578231293",
+              "den": 470400,
+              "den_digits": 6,
+              "fraction_sha256": "5b0eff6633e408d69c72c03443ae6d93cba70fee424382f078f6338e95414482",
+              "num": 65141,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.138480017006802721088435374149659863945578231293",
+          "ok": true
+        },
+        "K_plus_tD": {
+          "leading_principal_minors": [
+            {
+              "decimal": "0.479591836734693877551020408163265306122448979592",
+              "den": 98,
+              "den_digits": 2,
+              "fraction_sha256": "5e0608d07f189c8c70c7ab9c6204105b0eec8ba5ca9b1c759b23e997d9ff1032",
+              "num": 47,
+              "num_digits": 2,
+              "sign": 1
+            },
+            {
+              "decimal": "0.138480017006802721088435374149659863945578231293",
+              "den": 470400,
+              "den_digits": 6,
+              "fraction_sha256": "5b0eff6633e408d69c72c03443ae6d93cba70fee424382f078f6338e95414482",
+              "num": 65141,
+              "num_digits": 5,
+              "sign": 1
+            }
+          ],
+          "min_minor_decimal": "0.138480017006802721088435374149659863945578231293",
+          "ok": true
+        }
+      },
+      "strict_open_domain": true
+    }
+  },
+  "git_head": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "log_terms": 120,
+  "mode": "p2_benchmark",
+  "pid": 159490,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "script_path": "<server-review-repo>/research/N4/review/rational_dpp_review.py",
+  "script_sha256": "21a6ff639625df418015c035cdf0f009061a36fb417d96407b1d4c9ded8a97a9",
+  "statement": "Certify Lu and Lv for the requested two-column P2 benchmark.",
+  "status": "CORRECT",
+  "u": [
+    "1/5",
+    "1/6"
+  ],
+  "v": [
+    "1/7",
+    "-1/8"
+  ]
+}
+

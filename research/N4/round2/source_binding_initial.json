@@ -1,0 +1,118 @@
+{
+  "checked_source_commit": "9dfed1dc94d9fec15ca6a35ba047fe47ced08283",
+  "method": "Raw Git blob bytes, without working-copy newline conversion",
+  "frozen_review_objects": [
+    {
+      "reviewed_blob": "35dad0f51073b8617d01814222629534ccddf007",
+      "file": "proof/support_lift_proof_v2.md",
+      "match": true,
+      "actual_blob": "35dad0f51073b8617d01814222629534ccddf007"
+    },
+    {
+      "reviewed_blob": "4c550633176ecd709e48a27a9b73212c6458c5b7",
+      "file": "coarse_event_candidate.md",
+      "match": true,
+      "actual_blob": "4c550633176ecd709e48a27a9b73212c6458c5b7"
+    },
+    {
+      "reviewed_blob": "915f894c28309b340e3112a56ffc5589c5ea8b60",
+      "file": "top_layer_budget.md",
+      "match": true,
+      "actual_blob": "915f894c28309b340e3112a56ffc5589c5ea8b60"
+    }
+  ],
+  "source_bindings": [
+    {
+      "file": "pilot/face_pilot.py",
+      "manifest": "pilot/results/manifest.json",
+      "actual": "fe80c43d3eca0a0c9e0c5fc79eb9a5f01b87e794fda0ed9ccb95fa3e103e4ad2",
+      "expected": "fe80c43d3eca0a0c9e0c5fc79eb9a5f01b87e794fda0ed9ccb95fa3e103e4ad2",
+      "field": "source_sha256",
+      "match": true
+    },
+    {
+      "file": "search/face_search.py",
+      "manifest": "search/F1/manifest.json",
+      "actual": "c2f0c79dd5662a5435b53483c7acd4265f107472849d5458765c05b87d30934a",
+      "expected": "c2f0c79dd5662a5435b53483c7acd4265f107472849d5458765c05b87d30934a",
+      "field": "source_sha256",
+      "match": true
+    },
+    {
+      "file": "search/face5_search.py",
+      "manifest": "search/F2/manifest.json",
+      "actual": "6029ef89b757fac8376e889eb3266f4e1f19f94ba7c2fb99ec6361785da53fee",
+      "expected": "6029ef89b757fac8376e889eb3266f4e1f19f94ba7c2fb99ec6361785da53fee",
+      "field": "source_sha256",
+      "match": true
+    },
+    {
+      "file": "search/face_search.py",
+      "manifest": "search/F2/manifest.json",
+      "actual": "c2f0c79dd5662a5435b53483c7acd4265f107472849d5458765c05b87d30934a",
+      "expected": "c2f0c79dd5662a5435b53483c7acd4265f107472849d5458765c05b87d30934a",
+      "field": "helper_source_sha256",
+      "match": true
+    },
+    {
+      "file": "review/n5_projection_q_check.py",
+      "manifest": "review/n5_projection_q_certificate.json",
+      "actual": "b5d8cba12817158463c1eb9b0e6dfe7c1d6e87319e727e1ea9ce4f4ffdd07033",
+      "expected": "b5d8cba12817158463c1eb9b0e6dfe7c1d6e87319e727e1ea9ce4f4ffdd07033",
+      "field": "script_sha256",
+      "match": true
+    },
+    {
+      "file": "review/finite_noncommuting_bsc_cert.py",
+      "manifest": "review/finite_noncommuting_bsc_certificate.json",
+      "actual": "876fb9c4d9a7421da1dc9f0133c85863fbd1464f0d28095f5b43b7ba16fac54b",
+      "expected": "876fb9c4d9a7421da1dc9f0133c85863fbd1464f0d28095f5b43b7ba16fac54b",
+      "field": "script_sha256",
+      "match": true
+    },
+    {
+      "file": "review/coarse_identity_check.py",
+      "manifest": "review/coarse_identity_check.json",
+      "actual": "3eabceb17c1cacb567e8e2b82849d1a365987a3b9f23063ac5e2c61737901fc5",
+      "expected": "3eabceb17c1cacb567e8e2b82849d1a365987a3b9f23063ac5e2c61737901fc5",
+      "field": "script_sha256",
+      "match": true
+    },
+    {
+      "file": "review/interval_presentation_supplement.py",
+      "manifest": "review/interval_presentation_supplement.json",
+      "actual": "786556aeb55bab6c2aba3fe2874bbc062d5e6b130ca36d7196946484a378ad5a",
+      "expected": "786556aeb55bab6c2aba3fe2874bbc062d5e6b130ca36d7196946484a378ad5a",
+      "field": "script_sha256",
+      "match": true
+    }
+  ],
+  "independent_output_bindings": [
+    {
+      "git_blob_sha256": "ef2244617782934971d3bb9b568bfb1c5791b4675f87f6b9afb13a6e025286fc",
+      "file": "review/n5_projection_q_certificate.json",
+      "match": false,
+      "reviewer_hash": "06080d98eabf5252480a9452190829a075b22b4ebf4ddc7f461bf89950cca4c2"
+    },
+    {
+      "git_blob_sha256": "8d0bbd52950361bba9192cd5b98a1b54cdb5e8743319fd422d5cb5c0cf866c4e",
+      "file": "review/finite_noncommuting_bsc_certificate.json",
+      "match": false,
+      "reviewer_hash": "75fdff9e32254630ae838335e28499c897c65f544864343828bac5479864dc1b"
+    },
+    {
+      "git_blob_sha256": "a6bd351ca4ef8e8ec2faca94d2a6d0fa73d28425a72ce4a85702a784d57b5163",
+      "file": "review/coarse_identity_check.json",
+      "match": false,
+      "reviewer_hash": "116ae840799a3244aabf5129517a50e036477b7558dbb31f629b320997bf4572"
+    },
+    {
+      "git_blob_sha256": "6314df2cc95ca6f659cafaaf55c569bfa071d30752623843e0d0a3cf935197c5",
+      "file": "review/interval_presentation_supplement.json",
+      "match": false,
+      "reviewer_hash": "597a4338fc459d387aa523df3043cacc27c7a059bfc955f93ae697c906dbf854"
+    }
+  ],
+  "status": "MISMATCH",
+  "note": "Artifact binding only; not a mathematical verification."
+}

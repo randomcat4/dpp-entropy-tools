@@ -1,0 +1,57 @@
+{
+  "status": "SCOUT_COMPLETE",
+  "pid": 158332,
+  "seed": 2026090904,
+  "source_sha256": "fb5a5239d1ec0e3ce06d294d9d954d41beb535d8d3dd3c3a497c3456179f5da1",
+  "base_commit": "fa504ec74e16843fafc395880d7ba99b4c1d2129",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /root/i05-successors-20260909/N4/venv/bin/python research/N4/search/bounded_search.py --out research/N4/search/batch1",
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "start_time": 1788891602.4805245,
+  "dimensions": [
+    4
+  ],
+  "selftest": {
+    "event_mobius_error": 1.3877787807814457e-16,
+    "curvature_finite_difference_error": 6.967694998749607e-08,
+    "p_polynomial_error": 1.3877787807814457e-16,
+    "dp_sum_error": 6.938893903907228e-17,
+    "ddp_sum_error": 8.326672684688674e-17
+  },
+  "selftest_counts": {
+    "hessian_calls": 1,
+    "entropy_calls": 3,
+    "polynomial_derivative_calls": 1,
+    "kernel_proposals": 0,
+    "rejected": 0
+  },
+  "exit_code": 0,
+  "counts": {
+    "hessian_calls": 161,
+    "entropy_calls": 2083,
+    "polynomial_derivative_calls": 161,
+    "kernel_proposals": 160,
+    "rejected": 0
+  },
+  "successful_kernel_assessments": 160,
+  "coverage": {
+    "adaptive_mechanism_neighborhood": 16,
+    "dense_cycle_classes": 64,
+    "diamond_two_cycles": 16,
+    "moving_frame_unequal_scales": 48,
+    "near_product_control": 16
+  },
+  "failures": 0,
+  "candidate_files": [],
+  "elapsed_seconds": 0.7302899360656738,
+  "max_curvature": -1.3248769962686676e-13,
+  "max_mechanism_ratio": 0.3618220383445623,
+  "max_gap": -2.6645352591003757e-15
+}

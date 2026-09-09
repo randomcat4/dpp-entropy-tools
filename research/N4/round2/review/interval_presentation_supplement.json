@@ -1,0 +1,76 @@
+{
+  "argv": [
+    "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N4\\round2_children\\review\\repo\\research\\N4\\round2\\review\\interval_presentation_supplement.py",
+    "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N4\\round2_children\\review\\repo\\research\\N4\\round2\\review",
+    "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N4\\round2_children\\review\\repo\\research\\N4\\round2\\review\\interval_presentation_supplement.json"
+  ],
+  "bsc_lift_delta": {
+    "display_envelope_lower": "-39917541387/500000000000000",
+    "display_envelope_lower_decimal": "-0.000079835082774",
+    "display_envelope_scale": "1000000000000000",
+    "display_envelope_upper": "-79835082773/1000000000000000",
+    "display_envelope_upper_decimal": "-0.000079835082773",
+    "log_interval_calls": 48,
+    "log_terms": 48,
+    "original_display_values_are_enveloped": true,
+    "original_display_values_checked": [
+      "-7.9835082773968232e-05"
+    ],
+    "outward_lower": "-79835082773969/1000000000000000000",
+    "outward_lower_decimal": "-0.000079835082773969",
+    "outward_scale": "1000000000000000000",
+    "outward_upper": "-4989692673373/62500000000000000",
+    "outward_upper_decimal": "-0.000079835082773968",
+    "strict_sign_confirmed": true
+  },
+  "exact_log_fraction_endpoints_saved": false,
+  "exit_status": 0,
+  "face_delta": {
+    "display_envelope_lower": "-21638973601/250000000000000",
+    "display_envelope_lower_decimal": "-0.000086555894404",
+    "display_envelope_scale": "1000000000000000",
+    "display_envelope_upper": "-86555894403/1000000000000000",
+    "display_envelope_upper_decimal": "-0.000086555894403",
+    "log_interval_calls": 45,
+    "log_terms": 48,
+    "original_display_values_are_enveloped": true,
+    "original_display_values_checked": [
+      "-8.6555894403771017e-05"
+    ],
+    "outward_lower": "-21638973600943/250000000000000000",
+    "outward_lower_decimal": "-0.000086555894403772",
+    "outward_scale": "1000000000000000000",
+    "outward_upper": "-86555894403771/1000000000000000000",
+    "outward_upper_decimal": "-0.000086555894403771",
+    "strict_sign_confirmed": true
+  },
+  "pid": 64800,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "q_entropy": {
+    "display_envelope_lower": "1900161876460949/1000000000000000",
+    "display_envelope_lower_decimal": "1.900161876460949",
+    "display_envelope_scale": "1000000000000000",
+    "display_envelope_upper": "38003237529219/20000000000000",
+    "display_envelope_upper_decimal": "1.900161876460950",
+    "log_interval_calls": 10,
+    "log_terms": 180,
+    "original_display_values_are_enveloped": true,
+    "original_display_values_checked": [
+      "1.9001618764609496",
+      "1.9001618764609497"
+    ],
+    "outward_lower": "1900161876460949643/1000000000000000000",
+    "outward_lower_decimal": "1.900161876460949643",
+    "outward_lower_minus_3_over_2_decimal": "0.400161876460949643",
+    "outward_scale": "1000000000000000000",
+    "outward_upper": "475040469115237411/250000000000000000",
+    "outward_upper_decimal": "1.900161876460949644",
+    "strict_sign_confirmed": true
+  },
+  "rounding_rule": "lower=floor(exact_lower*scale)/scale, upper=ceil(exact_upper*scale)/scale",
+  "script_sha256": "786556aeb55bab6c2aba3fe2874bbc062d5e6b130ca36d7196946484a378ad5a",
+  "source_output_sha256": {
+    "finite_noncommuting_bsc_certificate.json": "75fdff9e32254630ae838335e28499c897c65f544864343828bac5479864dc1b",
+    "n5_projection_q_certificate.json": "06080d98eabf5252480a9452190829a075b22b4ebf4ddc7f461bf89950cca4c2"
+  }
+}
