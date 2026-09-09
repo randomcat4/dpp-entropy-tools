@@ -5,13 +5,13 @@ Expected deterministic standard-library output (exact Fraction arithmetic; decim
 A0 128/15
 A1 20992/75
 A2 46032384/3375
-18  ... 0.005512904463282267
-19  ... 0.001992552996345424
+18  ... 0.0055129044632822666
+19  ... 0.0019913295846342932
 20  ... 0.0007184877398699024
 21  ... 0.00025895742050788696
-22  ... 9.323703026192439e-05
+22  ... 9.323703026187924e-05
 23  ... 3.3536439712203354e-05
-24  ... 1.20512043381899e-05
+24  ... 1.2051204043381899e-05
 PASS
 
 The omitted exact rational numerators/denominators are emitted by the script itself and can be reconstructed without floating arithmetic. Assertions are exact Fraction comparisons. This record is an author run/checkpoint, not independent review or C2 execution.
