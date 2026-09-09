@@ -16,3 +16,15 @@ first-pass scopes and original Section 5 repair requests remain bound to the
 source commits in STATUS.md. Subsequent author work does not inherit these
 verdicts. C3's separate three-appendix first-review ownership is recorded;
 the later c8486bcd outer-wedge/flow/rate unit remains separately unreviewed.
+
+## Bounded Section 5 repair follow-up
+
+The original first reviewer has now closed all three Section 5 findings
+at repaired author head `a1e7f7208262565bb3db0509ff0cccffab757e98`.
+The closure report and exact patch are published separately in this packet.
+The repaired original unit is ready for C3's reserved fresh second; C1
+has not performed that second. No new computation ran.
+
+C3's subsequent explicit ownership covers all four added appendix units,
+including c8486bcd. This supersedes the earlier unassigned status in the
+initial handoff without transferring any C1 verdict to the new appendices.

@@ -1,0 +1,10 @@
+{
+  "path": "research/I05-23-20260909/RESULT.md",
+  "blob": "39032f0df6913b4e2f2a57cfc2fcb459ffeacf15",
+  "files": 1,
+  "origin": "public immutable GitHub commit",
+  "parent": "c8486bcdb18a85f93dd27930686cc1d4146804f5",
+  "pr": 54,
+  "commit": "a1e7f7208262565bb3db0509ff0cccffab757e98",
+  "review_scope": "Section 5 three-request repair delta only"
+}

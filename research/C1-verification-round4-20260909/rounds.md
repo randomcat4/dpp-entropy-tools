@@ -41,3 +41,31 @@ output/verify_outer_wedge_and_flow.json (32 lines). This is a substantive
 new outer-wedge/flow/rate unit with its own fixture, not a repair of original
 Section 5 and not part of C3's communicated three-appendix freeze. Its
 mathematical status is UNREVIEWED by C1; no additional reviewer was started.
+
+## Section 5 bounded repair closure
+
+C3 implemented the three original first-review requests in one commit,
+`a1e7f7208262565bb3db0509ff0cccffab757e98`, with parent
+`c8486bcdb18a85f93dd27930686cc1d4146804f5`. The exact delta changes
+RESULT.md only: seven added and four deleted lines in two hunks. It adds
+the zero initial information value/derivative hypothesis, requires a
+strictly positive finite L, and removes the matching-to-concave-approximant
+overstatement. No other source, script or output changes in this commit.
+
+The immutable new RESULT.md blob was hash-verified as
+`39032f0df6913b4e2f2a57cfc2fcb459ffeacf15`. The comparison with original
+203f7044 RESULT.md is the same two-hunk repair, so no intervening original
+text change was silently accepted.
+
+The original first reviewer inspected only this delta and returned
+CLOSED / ACCEPTED_SCOPED for all three findings. See frozen_theorem_v2.md,
+units/pr54/section5_delta_frozen.md and units/pr54/section5_delta_review.md.
+The original NEEDS_FIX report remains untouched as the historical record.
+C10 is now CORRECT / ACCEPTED_SCOPED for the repaired sufficient criterion.
+No new computation or formal proof was performed.
+
+C3 now explicitly owns first and second review of all four appended units,
+including the c8486bcd outer-wedge/flow/rate appendix and its fixture.
+The earlier unassigned status was a versioned observation, superseded by
+that ownership message. PR53's second is reported active; PR54 original-unit
+second remains C3's next step after this closure. No C1 second was started.

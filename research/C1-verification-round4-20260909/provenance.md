@@ -28,3 +28,11 @@ only; mathematical findings are preserved. Neither reviewer ran new
 arithmetic or created a compute plan because no new finite load-bearing
 check was needed. Existing author output is explicitly distinguished from
 C1 execution. The two reports are ready for C3's fresh independent seconds.
+
+For the bounded Section 5 repair, C3 authored the source changes and
+explicitly requested the original first reviewer's follow-up. C1 froze and
+hash-verified the exact one-file delta; the same first reviewer checked
+closure of the three previously identified findings only. This is not a
+fresh independent second and is not counted as one. The exported repair
+reports normalize source and compare aliases without changing findings.
+C3 owns the fresh second after closure. No new computation was needed.

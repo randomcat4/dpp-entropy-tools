@@ -7,14 +7,17 @@ This successor packet does not amend merged PR49.
   bridge/locality/operator claims at `e0688fbb713e55f93acf791b83437ddf2cc06b7f`.
 - [PR54 report](units/pr54/review_report.md): the main local-curvature,
   matching and rate-deficit results are ACCEPTED_SCOPED at
-  `203f7044815faac9a2de7bc8dbc5bfe249026b1f`; Section 5 is NEEDS_FIX.
-  Three repairs concern the zero first information derivative, the L=0
-  radius convention, and the unsupported concave-approximant description.
+  `203f7044815faac9a2de7bc8dbc5bfe249026b1f`. Its original Section 5
+  NEEDS_FIX findings are now CLOSED / ACCEPTED_SCOPED by the
+  [bounded repair review](units/pr54/section5_delta_review.md) at
+  `a1e7f7208262565bb3db0509ff0cccffab757e98`. The original report is
+  preserved; the closure checks only the three requested repairs.
 
 Neither report proves whole-chord or whole-interval entropy-rate concavity.
 There is no C1 second review. C3 owns subsequent independent reviews and
-the separate first audit of later PR54 addenda. Author changes after the
-frozen commits are not covered by these original-unit verdicts.
+the separate first and second audits of all four PR54 appendix units.
+Other author changes after the frozen commits are not covered by these
+original-unit verdicts.
 
 Read [STATUS.md](STATUS.md), [the frozen contract](frozen_theorem_v1.md),
 [the claim ledger](lemma_ledger.md), and [the version ledger](rounds.md).

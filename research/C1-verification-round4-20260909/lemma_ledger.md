@@ -11,9 +11,9 @@
 | PR54 §2 | SCP moment bound, matching deficit, stationary two-layer rate bound | CORRECT / ACCEPTED_SCOPED |
 | PR54 §3 | Imset/conic interface and square-coupling limitation | CORRECT conditional interface; universal cone assertion INCOMPLETE |
 | PR54 §4 | Directed flow, Farkas, visible/hidden entropy-curvature interfaces | CORRECT interface; existence/Bochner step INCOMPLETE |
-| PR54 §5 | Finite-to-rate sufficient criteria | NEEDS_FIX for Proposition 5.2 and boundary-approximation wording |
+| PR54 §5 | Finite-to-rate sufficient criteria | Original NEEDS_FIX closed at a1e7f720: CORRECT / ACCEPTED_SCOPED after the three exact repairs |
 | PR54 §5 | Extensive first-score lower bound | CORRECT / ACCEPTED_SCOPED; uniform third-derivative bound INCOMPLETE |
-| PR54 later increments | Three addenda and endpoint fixture extension | Not reviewed by C1; C3 owns independent first and second |
+| PR54 later increments | All four appendix units and their fixture extensions | Not reviewed by C1; C3 owns independent first and second |
 
 The independent unit reports provide the proof chains and exact source lines.
 These are FIRST-pass verdicts, not double review or main-integration approval.
