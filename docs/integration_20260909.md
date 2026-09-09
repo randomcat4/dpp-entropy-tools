@@ -1,5 +1,9 @@
 # 2026-09-09 main 整合记录
 
+## 第四轮后继整合：PR60、PR62
+
+PR60 的五个单元和 PR62 的解析中点/小幅翻转定理均分别完成 C1 FIRST 与隔离 C3 SECOND。[PR60 精确范围](verification_round4_20260909/accepted_pr60.md)及[PR62 精确范围](verification_round4_20260909/accepted_pr62.md)记录接受的量词、证据和排除项。独立原始机器包 PR64、PR71 与 PR60/62 作者头已依次合入：`d90a009136947139aa9233d76621d2d2d22f58f8`、`c19fe33c47f26f4ca51b51daba5f1e1d3febee22`、`ccdc63d3c16bbf7e09b20261b4b60242ba3ae010`、`a33009272a88458b35f552fd0409fa9c69856a42`。所有合并父提交和冻结头均核对。PR58 的新增有限小数阈值已有首个精确不一致，未合入；PR66 外部定理适用性仍由原 FIRST 核实。
+
 ## 第四轮后继整合：PR59
 
 冻结作者头 `892a121a6e26fcf638c75de917e50a4503b5675e` 的五个独立单元均经 C1 FIRST 和隔离 C3 SECOND 接受，以 `0a396f65e4daa9407bb4ed6295f703d4d2e0dfe1` 合入。[精确接受范围与证据](verification_round4_20260909/accepted_pr59.md)区分紧致管邻域定理、RPF 恒等式、仅定性的误差接口和未闭合的占据态符号问题。没有新算术运行。

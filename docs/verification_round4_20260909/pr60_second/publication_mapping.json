@@ -1,0 +1,66 @@
+{
+  "unit": "pr60_second",
+  "note": "Publication aliases only; mathematical assertions and source hashes unchanged. Addenda retain hashes of original reports; this mapping separately binds publication copies.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "e366bb8df10b267388402040afb8c72649424f38046c554068022e7cc7f26742",
+      "published_copy_sha256": "ccf2a921a60b9b36d18893417428736392b70444cf1a62572a1f930c175941dc"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "75db5fe9fc30604cae6340fa9f80a6e750ffaa4c9d3e3a9f0e63883f98de1c7b",
+      "published_copy_sha256": "9fc7dcb7f890acdaf53aad3eaf83f011aaebea5da9ad230bf50e17a0f9d9cf9c"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "1738833d44650e0adc370efa101d7773c2568ea21885b02e51d5f2d5850a5876",
+      "published_copy_sha256": "644e2cb16ad0410612031433c9d67f794f89b1436f74c83c2d8111d89d47a2f6"
+    },
+    {
+      "file": "machine_evidence_closure.md",
+      "original_sha256": "780e418f18c94778dc2b25eb26f44e16d48bfeb093afa93ad72392e1f5f1bf66",
+      "published_copy_sha256": "1238d371301c24fd89aa01f1e7851ea5dea7fcb8f4a7fe183fef866b9fbe2b4a"
+    },
+    {
+      "file": "machine_scope.md",
+      "original_sha256": "32a302d340a20a9609d3f602387486d2ae3de91edca0475073ce9828ca94cbb8",
+      "published_copy_sha256": "b34ad3bc69b7b301bf987fff2d61c47f8b31868e51c87d2495861449b347e766"
+    },
+    {
+      "file": "source_binding_addendum.json",
+      "original_sha256": "2bb93bcbf891c6eb0d7e6100d8a0f8959068a473aafcc33f9a567130863f26ab",
+      "published_copy_sha256": "8fd6aa9d22770c19a2871c90e33f55d49ed6f6fcef435737744a6bb2f653f458"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "52fe0cc1f88c89c22c5dfa5ce2580f0ef4c04bd289d4144e6395ad65ff083a98",
+      "published_copy_sha256": "54908cc1972aa5139b79a960875601105ff90a953206671c1920781d20576d2d"
+    },
+    {
+      "file": "machine_input_binding.json",
+      "original_sha256": "c4846b50503dfe86ffd591e2d505bdfa46ea366856ce59f833a358a78f73213c",
+      "published_copy_sha256": "c4846b50503dfe86ffd591e2d505bdfa46ea366856ce59f833a358a78f73213c"
+    },
+    {
+      "file": "auxiliary_scope.md",
+      "original_sha256": "cf31ffb3be5d62000c8aef11fe44a17632275badda9fa60cab6bb9aa63b2a6f3",
+      "published_copy_sha256": "34c02e0f471a969b3da08e77443f3a17a6321a04a1bcf8fa6f3d577a727d5c9b"
+    },
+    {
+      "file": "auxiliary_review_report.md",
+      "original_sha256": "6d156524c32895b3f1c3336b690a81b93af0eed08777bcbc28b0e672935f622c",
+      "published_copy_sha256": "6ce94805d9c84cb4a38134d9d240b6fb16a90fc86a818cad88d287c8f8e93c83"
+    },
+    {
+      "file": "auxiliary_source_binding.json",
+      "original_sha256": "24828cab496977afbd3da1666cc60eacd3d7bd2f54b187211b94a517a42cbdf8",
+      "published_copy_sha256": "30667caf2e50d4fc7e0151ac1156ded09c28628149861620f9604b86d3140174"
+    },
+    {
+      "file": "aux_input_binding.json",
+      "original_sha256": "53324b339c30ebc6994592042c8513171315c3679d63d7c6ce6adee7f42d407d",
+      "published_copy_sha256": "53324b339c30ebc6994592042c8513171315c3679d63d7c6ce6adee7f42d407d"
+    }
+  ]
+}

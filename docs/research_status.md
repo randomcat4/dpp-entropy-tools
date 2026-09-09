@@ -6,6 +6,8 @@
 
 | 对象 | 可以使用的结论 | 不能外推到 | 审阅证据 |
 | --- | --- | --- | --- |
+| 完整严格连通三点 Lambda 零缺边族 | 任意不等对角、任意非零边强比；全部六个固定实对称方向的完整熵与条件熵 Hessian 严格负定；指定零约束径向 M 正定；有显式逐中心非零 Lambda 带 | 一般非零 Lambda、统一带宽、任意长弦、一般实三点全域 | PR60/64/71；[五单元双审与完整独立证书](verification_round4_20260909/accepted_pr60.md) |
+| 任意维移动实秩一端点的算术中点 | n>=2、单位 x,y、0<a,b<1；a xx^T 与 b yy^T 的真实算术中点熵不低于端点平均，异核严格；共同小幅 bit-flip 在显式连续性余量内保持严格缺口 | 任意秩二端点、任意大内点提升、一般实核全弦；多环诊断不是定理 | PR62；[解析双审与有限示例排除](verification_round4_20260909/accepted_pr62.md) |
 | Lambda 零族的 r=0 精确矩阵证书 | `r=0, |mu|,|nu|<1, 0<u<1`，显示四维 Rstar 及经已接受归约提升后的六固定方向 M 均正定；独立 det→P→Q 链已补齐 | 全 r、Lambda 非零、一般实核熵凹性或熵反例 | PR57；[新 FIRST、隔离 SECOND 与来源绑定](verification_round4_20260909/accepted_pr57.md) |
 | 过内部对角核的完整合法线；过常数的固定标量符号线 | 有限完整配置熵及真实熵率均凹，覆盖非交换有限方向、复 Toeplitz 压缩、非零均值和可行边界 | 任意非对角中心或任意两个标量符号之间的弦 | PR29/34；[C3 新非作者审核](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)、[W2 定量审核](verification_20260909/w2/radial_quartic_audit.md)。共同刷新定理只计一次 |
 | 常数中心线的定量严格性 | `h(a+s u)+2(integral u)^2 s^2` 凹；均值保持时 `h(p+s(f-p))+(4/3)\|fhat(k)\|^4 s^4` 凹，非零方向给出严格 Jensen 缺口 | 非常数中心一般轨道的曲率；最优常数 | PR34；[完整范围和有限 Jensen 极限](verification_20260909/w2/README.md) |
@@ -48,7 +50,7 @@ PR39 的 NC 解析定理、通用局部块通道障碍及两个固定例分别�
 
 ## 有界计算归档：issue52
 
-[PR55部分档案](verification_round3_20260909/archived_pr55.md)已合入：事件到M解析恒等式、独立双审的2+4Schur归约和单个正定种子可以按各自范围使用。原始序列化失败与同一窗口内的修复完整保留。PR55 当时的 r=0 独立`Rstar -> det -> P -> Q`复算未完成，旧 FIRST INCOMPLETE 保持不变。后继[PR57](verification_round4_20260909/accepted_pr57.md)在新合同下已补齐独立链并通过新的 FIRST 与隔离 SECOND，仅接受 r=0 的 Rstar/M 正性。一般 r 的旧混合系数不构成负方向；PR60 的全 r 作者稿及 C2 的 PR64 机器链另行待审，issue52 保持开放。
+[PR55部分档案](verification_round3_20260909/archived_pr55.md)已合入：事件到M解析恒等式、独立双审的2+4Schur归约和单个正定种子可以按各自范围使用。原始序列化失败与同一窗口内的修复完整保留。PR55 当时的 r=0 独立`Rstar -> det -> P -> Q`复算未完成，旧 FIRST INCOMPLETE 保持不变。后继[PR57](verification_round4_20260909/accepted_pr57.md)在新合同下已补齐独立链并通过新的 FIRST 与隔离 SECOND，仅接受 r=0 的 Rstar/M 正性。一般 r 的旧混合系数不构成负方向；[PR60 全 r 与条件熵/逐中心带已双审接受](verification_round4_20260909/accepted_pr60.md)，独立 PR64、PR71 机器证据同时归档；issue52 保留一般非零约束等剩余问题。
 
 ## 结论边界与符号
 

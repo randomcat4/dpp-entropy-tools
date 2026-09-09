@@ -1,0 +1,260 @@
+{
+  "pr": 71,
+  "head": "8878516c0ad12e60884419fc03525b2a7caa7be3",
+  "prefix": "research/C2/pr60_aux52/",
+  "files": [
+    {
+      "path": "execution/RUN_LEDGER.json",
+      "source_path": "research/C2/pr60_aux52/execution/RUN_LEDGER.json",
+      "git_blob": "2ffef22fcc6ae62626793473b55a0b05835339b7",
+      "sha256": "d67a766bb16f1c3f216a53b468d579975c10728bd066cc0dabddb47e0ef53401"
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "source_path": "research/C2/pr60_aux52/execution/run_guard.sh",
+      "git_blob": "c247b99b61a033a48795cd4098e458c3e8100505",
+      "sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f"
+    },
+    {
+      "path": "implementation/pr60_aux52_certificate.py",
+      "source_path": "research/C2/pr60_aux52/implementation/pr60_aux52_certificate.py",
+      "git_blob": "fa8828285c41e0e1c6d9ff938ba6e472d1e0b09c",
+      "sha256": "3fd5581178a0fffc0dd976df5200ef2810213d8b88215e0686974c4981bc0872"
+    },
+    {
+      "path": "inputs/REQUEST.md",
+      "source_path": "research/C2/pr60_aux52/inputs/REQUEST.md",
+      "git_blob": "ed5b14264b81639d41c1f45fbf7db9430be2f23c",
+      "sha256": "068b9428b7411f95589cb4cee984e81a5fa5f21bf39c7e444292d62e2e788e85"
+    },
+    {
+      "path": "inputs/SOURCE_BINDING.json",
+      "source_path": "research/C2/pr60_aux52/inputs/SOURCE_BINDING.json",
+      "git_blob": "055c1774d7a2f339c7ea32a9f95a52cf57dd6632",
+      "sha256": "c2ce1ae175995ca6de50bcf022e2e9423fc4fd0ac74b5bdec1a323e7bf4e7b53"
+    },
+    {
+      "path": "inputs/continuation.md",
+      "source_path": "research/C2/pr60_aux52/inputs/continuation.md",
+      "git_blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282",
+      "sha256": "48668d9bdfd897164bc05637e5bafff936b491aa6f1aad93df9db978e8ec5106"
+    },
+    {
+      "path": "inputs/continuation_exact_reference.py",
+      "source_path": "research/C2/pr60_aux52/inputs/continuation_exact_reference.py",
+      "git_blob": "615d360fa591e86ae115d37ee8519438fab1811c",
+      "sha256": "f1d761f853a0159f49ea162a3f1711c16523d3bee9962d68d0aa19f05490a2ad"
+    },
+    {
+      "path": "outputs/run01/00_start.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/00_start.json",
+      "git_blob": "9eab8389b14f98aba90f9137b22a35955c50bf6f",
+      "sha256": "91943edcf24033b0c2e9a6ebc76212ce74f215b5dd16cef1056234831d77a95f"
+    },
+    {
+      "path": "outputs/run01/01_inputs_resolved.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/01_inputs_resolved.json",
+      "git_blob": "c7e6e40875d7d94ae768bac5c2d452bf0bb5f007",
+      "sha256": "f60b9b2bbbab34baa1828e9a9f61a168cdac4d0c8eb144c505d25dc7d4919fa5"
+    },
+    {
+      "path": "outputs/run01/02_matrices.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/02_matrices.json",
+      "git_blob": "7a06a85dd52425ed171de0c0ef546e3213bde8fd",
+      "sha256": "972f27597682658bdf816d9a61c4de8d1a7dd76c4873e4ea6d11f6ab88bfa8ac"
+    },
+    {
+      "path": "outputs/run01/03_event_polynomials_and_jets.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/03_event_polynomials_and_jets.json",
+      "git_blob": "ecbb5560f9a62abfcae657760671ae8b181193bc",
+      "sha256": "284393ef1479f0328a4f5da2b3bf26df7c87228f6676a952c4ad3a5a2fa76a7c"
+    },
+    {
+      "path": "outputs/run01/04_base_probability_and_lambda.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/04_base_probability_and_lambda.json",
+      "git_blob": "a6abd511f8ed512c890a1c4597306339214a04eb",
+      "sha256": "d6ca9cc89de5615d03772ca8e86796cb0c6496a4fd2080d83d42c348e9f0daa3"
+    },
+    {
+      "path": "outputs/run01/05_legality.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/05_legality.json",
+      "git_blob": "3c23bee327d04bbf06f8218aad3d1f11873e21f4",
+      "sha256": "21db37caaf03510758c88d3d490e56e91af22a09fd8f13211b9723b813a6a795"
+    },
+    {
+      "path": "outputs/run01/06_log_method.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/06_log_method.json",
+      "git_blob": "231925cafa15debe5d0762c7c9866a944178abd0",
+      "sha256": "09f9a1847913e18ac320f04371847aca065f42b68cab9822e3b25a8d23e05edd"
+    },
+    {
+      "path": "outputs/run01/07_radial_derivative.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/07_radial_derivative.json",
+      "git_blob": "967ec8a4c75be01310829886ada40c8543d8fe29",
+      "sha256": "dc6c7e14d762d4ac2721bbe690f4499cbe040caefdb71557bd4ab729f73ab866"
+    },
+    {
+      "path": "outputs/run01/08_true_curvature.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/08_true_curvature.json",
+      "git_blob": "33d7ad7e17df6d72876f596af41988522dae2c3a",
+      "sha256": "3316a021ca0e5713dfae7d4c0bc0839c8dea2e93884c0e6de2c1963ba019ae07"
+    },
+    {
+      "path": "outputs/run01/09_jensen.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/09_jensen.json",
+      "git_blob": "a8cda0bb22f07bb801658ee857ebfd6dbd1d4c6d",
+      "sha256": "2d638db345d959e488d5f8a94702beae67bc981d66a3864d13af61f9d8240b25"
+    },
+    {
+      "path": "outputs/run01/arithmetic_pid.txt",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/arithmetic_pid.txt",
+      "git_blob": "7cecbc5b35b6ac71613a84142214e6a767696d4b",
+      "sha256": "9fe0814af51047aa4c1eda07a2b4ea02d730c0c685c022b9976330d4b367b70e"
+    },
+    {
+      "path": "outputs/run01/certificate.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/certificate.json",
+      "git_blob": "abbcc9350710d51a95348d901cb8e368dfd18012",
+      "sha256": "c8131dcd441bd462b0ea505e27d1d1c964effa04dc10a42e234917a2eda476e2"
+    },
+    {
+      "path": "outputs/run01/cpu_affinity.txt",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/cpu_affinity.txt",
+      "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "outputs/run01/deadline_utc.txt",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/deadline_utc.txt",
+      "git_blob": "19c564883956e60d9c16d59cf4f64013a15e4712",
+      "sha256": "bfbc573ea287ce1187962239794d9a9a33814de63c8d84d310ed9bcbafaf7a22"
+    },
+    {
+      "path": "outputs/run01/exit.json",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/exit.json",
+      "git_blob": "a6f8a1277fe2625ebc50666a8d4cad7b820d3130",
+      "sha256": "ff7934ddb863a40de9e5490689a8edaf9eb0709018c9d70c125d773c40369bad"
+    },
+    {
+      "path": "outputs/run01/start_utc.txt",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/start_utc.txt",
+      "git_blob": "b9352a43885c985ee9b53afa67f95e7762433124",
+      "sha256": "2bfc15ef371b8270533d37eb1cba178c300b765ac06b983c6c5083a4351bd6b4"
+    },
+    {
+      "path": "outputs/run01/stderr.log",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run01/stdout.log",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/stdout.log",
+      "git_blob": "247f4e21f868cd8b5e5c5ff7820d07c9ab289f55",
+      "sha256": "bcc7982819694486885fc9740243cef347726a970b23eee58de725514e968e8b"
+    },
+    {
+      "path": "outputs/run01/timeout_pid.txt",
+      "source_path": "research/C2/pr60_aux52/outputs/run01/timeout_pid.txt",
+      "git_blob": "fd27551cd9e7d4beec7d3ab063708593394e4477",
+      "sha256": "672e54a6e8e44e85950c093e086c6c948d5699fe15a42893f36beabb4d4568c1"
+    }
+  ],
+  "executable_head": "ee8f0a105798494474b1afd41f69af96794c8f5f",
+  "author_head": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+  "independence": "Independent computation-owner raw implementation/input/artifact/execution packet. No mathematical FIRST, C1 material, C3 disposition, machine_notes or summary README.",
+  "source_delta": [
+    {
+      "path": "research/C2/pr60_aux52/README.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/C2/pr60_aux52/STATUS.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/C2/pr60_aux52/execution/RUN_LEDGER.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/machine_notes.md",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/00_start.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/01_inputs_resolved.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/02_matrices.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/03_event_polynomials_and_jets.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/04_base_probability_and_lambda.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/05_legality.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/06_log_method.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/07_radial_derivative.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/08_true_curvature.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/09_jensen.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/arithmetic_pid.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/certificate.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/cpu_affinity.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/deadline_utc.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/exit.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/start_utc.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_aux52/outputs/run01/timeout_pid.txt",
+      "status": "added"
+    }
+  ]
+}

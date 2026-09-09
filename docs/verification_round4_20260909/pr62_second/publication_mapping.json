@@ -1,0 +1,26 @@
+{
+  "unit": "pr62_second",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "b678407c792e300dc74f188c771150045084e873214d5a577ef39fc3f0ed9f48",
+      "published_copy_sha256": "c21dd4375fa7ff97921ae69a2caf55518caba7332d44b5e324f10aeb4cd9d914"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "7228f9019e2b7537b56d7698dc787dac3336e8069abc6b572a53885dd6b4c010",
+      "published_copy_sha256": "da1116cba80e2d6a689f3e1b072db889128d739ef41a016821b23a86d3c8efe1"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "f88278670a04018fd983c43c8ffd9f1899b18673380223ab3f57666fdf12fd01",
+      "published_copy_sha256": "04a28b73c656e70c82d5f5d22034975752b18a01661833a70038e1e403e9dd2b"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "08e19f70558737b1b9d79f2fe89dcdf086dd72a7bd66de478d11fe2a9cc11dca",
+      "published_copy_sha256": "08e19f70558737b1b9d79f2fe89dcdf086dd72a7bd66de478d11fe2a9cc11dca"
+    }
+  ],
+  "note": "Publication aliases only; mathematical assertions and source hashes unchanged. Addenda retain hashes of original reports; this mapping separately binds publication copies."
+}

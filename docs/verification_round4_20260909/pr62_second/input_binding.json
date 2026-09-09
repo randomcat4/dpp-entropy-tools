@@ -1,0 +1,63 @@
+{
+  "pr": 62,
+  "head": "2ab69f71d4d36a2734beed83680dd3d9dc1f0a77",
+  "prefix": "research/N4/agent24_20260909/",
+  "files": [
+    {
+      "path": "README.md",
+      "source_path": "research/N4/agent24_20260909/README.md",
+      "git_blob": "7aed571e22e5b4637949daf53ff3a5f29fa8707f",
+      "sha256": "f9748faa7e30c5fb4108613a3b971b40c1b34daab2667be9647d46db967bce4a"
+    },
+    {
+      "path": "code/probe_multiring_fixture.py",
+      "source_path": "research/N4/agent24_20260909/code/probe_multiring_fixture.py",
+      "git_blob": "fd476d5d12240943ad5e24eb0e4e8c1693b4704c",
+      "sha256": "0d1723a0d1b7a212a917471fe0141414a6f4e87948a59ae3832bb485d72b57cd"
+    },
+    {
+      "path": "code/verify_rank1_midpoint.py",
+      "source_path": "research/N4/agent24_20260909/code/verify_rank1_midpoint.py",
+      "git_blob": "dbb9fa96cff42f98403817fe2984f96d22262a10",
+      "sha256": "27244722fe2970c015d4210bea056cae121e4136a9ce0c86c87976b0de7b18a8"
+    },
+    {
+      "path": "failure_ledger.md",
+      "source_path": "research/N4/agent24_20260909/failure_ledger.md",
+      "git_blob": "19811a3728f33829fffbe2f5cc6b7282a073545c",
+      "sha256": "66c2be5808dde2bb46fe46caa34864e9c9fc5bdea313f876976b11a8f097b58e"
+    },
+    {
+      "path": "moving_rank1_theorem.md",
+      "source_path": "research/N4/agent24_20260909/moving_rank1_theorem.md",
+      "git_blob": "57cf8735a215bba8059e364a0ae905426c2f2873",
+      "sha256": "19447c23db75b64da83610c8bb9f805c4868643ca609923ca15d72de39893ee4"
+    },
+    {
+      "path": "multiring_fixture.md",
+      "source_path": "research/N4/agent24_20260909/multiring_fixture.md",
+      "git_blob": "5ddc8b57959e655ba921ca3b6849d85457d325e6",
+      "sha256": "fe3035a4e22a92ea40a49249de1465de4ae94dca4eba00f182d9ae808ac745f3"
+    },
+    {
+      "path": "output/probe_multiring_fixture.txt",
+      "source_path": "research/N4/agent24_20260909/output/probe_multiring_fixture.txt",
+      "git_blob": "595f3680b4caa95765f25b6c50f61dff4a2f40ae",
+      "sha256": "ce8a4fd80572fbdd0912ed1fbd224c22bcbcda9378e3c3b4e6114783585c4b5c"
+    },
+    {
+      "path": "output/verify_rank1_midpoint.txt",
+      "source_path": "research/N4/agent24_20260909/output/verify_rank1_midpoint.txt",
+      "git_blob": "3429b53381dec9ca952cc977584bb2defe9da633",
+      "sha256": "aeda5abd6f6c0ddfe23f66fa15b1bdcf2fce9e3565c83ccfdf163a5667e6214f"
+    },
+    {
+      "path": "prior_art.md",
+      "source_path": "research/N4/agent24_20260909/prior_art.md",
+      "git_blob": "2395efc17869c325217a04ed0fdc8000d6791c9b",
+      "sha256": "09f743502d5c7d07201a7f5dc2f25747653da069889e79f9e6cf225e14690516"
+    }
+  ],
+  "independence": "Author-only frozen files; no FIRST reports/code/output/conclusions or C2 material included.",
+  "scope": "Analytic rank-one midpoint and small common bit-flip lift only; author finite numerical fixture and multiring diagnostics remain excluded from independent finite certification."
+}

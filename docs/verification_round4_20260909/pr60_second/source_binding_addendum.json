@@ -1,0 +1,292 @@
+{
+  "addendum": {
+    "name": "machine_evidence_closure",
+    "date": "2026-09-10",
+    "timezone": "Asia/Singapore",
+    "purpose": "close the raw finite certificate blocker recorded in the initial second review",
+    "initial_reports_preserved": true,
+    "independent_execution_by_this_reviewer": "none",
+    "formal_execution_by_this_reviewer": "none",
+    "novelty_review": "not_assessed"
+  },
+  "unchanged_initial_reports": [
+    {
+      "path": "docs/verification_round4_20260909/pr60_second/frozen_scope.md",
+      "sha256": "E366BB8DF10B267388402040AFB8C72649424F38046C554068022E7CC7F26742"
+    },
+    {
+      "path": "docs/verification_round4_20260909/pr60_second/review_report.md",
+      "sha256": "75DB5FE9FC30604CAE6340FA9F80A6E750FFAA4C9D3E3A9F0E63883F98DE1C7B"
+    },
+    {
+      "path": "docs/verification_round4_20260909/pr60_second/source_binding.json",
+      "sha256": "1738833D44650E0ADC370EFA101D7773C2568EA21885B02E51D5F2D5850A5876"
+    }
+  ],
+  "machine_packet": {
+    "directory": "research/C2/pr60_independent52",
+    "binding_file": "machine_input_binding.json",
+    "binding_sha256": "C4846B50503DFE86FFD591E2D505BDFA46EA366856CE59F833A358A78F73213C",
+    "packet_pr": 64,
+    "packet_head": "5b40617fe7172aa266614aa28688d310218cb387",
+    "executable_head": "ee33372042d27911a97a14aefc6cb068404d190b",
+    "author_pr60_head": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+    "bound_file_count": 45,
+    "independence_lines": [
+      "machine_input_binding.json:372-373"
+    ]
+  },
+  "machine_source_binding": {
+    "path": "research/C2/pr60_independent52/inputs/SOURCE_BINDING.json",
+    "sha256": "F6EAB155AB38F35B250256DCA26844957DD251AFFC5999BE38C498AEC0BF3FAC",
+    "source_commit": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+    "main": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+    "lines_used": [
+      "3-5",
+      "17-23",
+      "42-45"
+    ]
+  },
+  "key_machine_files": [
+    {
+      "path": "machine_input/implementation/pr60_independent_certificate.py",
+      "sha256": "9D61F14B474A6D403A11576437D28736B2657E42F84634259358E09099B64403",
+      "role": "independent implementation source",
+      "lines_used": [
+        "2-7",
+        "211-247",
+        "265-314",
+        "317-445",
+        "448-463",
+        "483-572",
+        "600-637",
+        "640-721",
+        "724-810",
+        "813-916"
+      ]
+    },
+    {
+      "path": "machine_input/implementation/README.md",
+      "sha256": "0DAAD03F6C6E97D885427DA705C9096337B85347925018E501C6D7E7FAC39593",
+      "role": "implementation scope statement",
+      "lines_used": [
+        "3-9",
+        "20-22"
+      ]
+    },
+    {
+      "path": "machine_input/execution/LEDGER.md",
+      "sha256": "3BBB4AD4BC2F36F239DFA558699419ABC336F6383BF82345731761FFE84FB642",
+      "role": "run chronology and retained failure record",
+      "lines_used": [
+        "14-30",
+        "35-68",
+        "70-72"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run01/FAILURE.json",
+      "sha256": "4A05BD1C3309AFC34F778CF1B189A1CFC54A891F763511D1240AEED69E6FF8E3",
+      "role": "preserved run01 mechanical failure",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/run_metadata.json",
+      "sha256": "11ADA9D68623283A0F9A27C06723270FAAE56118D8A2ABB9A206A9FF45F289AA",
+      "role": "run02 execution metadata",
+      "lines_used": [
+        "11-90"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/layer_results.json",
+      "sha256": "A63F0255643FC2B8EB4E321A729AFFC887ED5E070577BBAF23CA1620E83F1DDC",
+      "role": "layer-by-layer machine artifact summary",
+      "lines_used": [
+        "43-546"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/determinant_and_P.json",
+      "sha256": "863AC8DC43B5D47A23E61D706CE2AF2C3FAB2CA85F42BC84DC8949EC33E665D0",
+      "role": "fresh determinant, divisor, quotient P, coefficients and zero remainder",
+      "lines_used": [
+        "2-2551"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/Q_full_box.json",
+      "sha256": "CD1D661A100214753C4D1F3E09F8C8CE4D950A02FB39E49EE439B36CD6CEF5E5",
+      "role": "full integer chart box with all coefficient positions",
+      "lines_used": [
+        "2-17442"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/Rstar_and_Rbar_entries.json",
+      "sha256": "933562E9BE1590D60496B6D7905DA89AA7589B5F5D8D43E5612262FD4D8CF903",
+      "role": "stored Rstar/Rbar entries and u-to-t identity",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/Ahat_entries.json",
+      "sha256": "DB1686C4432FA4D246DF639E78D294783DDD32E40E62A2A63A457AE775080A9E",
+      "role": "stored Ahat entries and polynomial entry summaries",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/seed_leafswap_scaling.json",
+      "sha256": "2B60ECD5D3DEBAFD13445BB710E75989B0E5D0FD14ED52B56C7760937D4D2214",
+      "role": "seed leading minors, leaf swap, and determinant scaling",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/P_author_component_comparison.json",
+      "sha256": "14AFCE12E048FF790588768CA5DB9CED3A558620C0997ED58C499D15EFB76202",
+      "role": "downstream comparison of fresh P with author component literals",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/PASS.json",
+      "sha256": "3597F44E94AB00D90F1133E471FB1D785EBBB79065BC01A4A8C3BC089D631A77",
+      "role": "machine boundary marker",
+      "lines_used": [
+        "entire file"
+      ]
+    },
+    {
+      "path": "machine_input/outputs/run02/exit.json",
+      "sha256": "1A62E5F6DF590CC5B1AAF593473A716AD57B41F39AC21D4FD35EA3B2368CA261",
+      "role": "run02 exit record",
+      "lines_used": [
+        "entire file"
+      ]
+    }
+  ],
+  "artifact_facts_inspected": {
+    "determinant": {
+      "domain": "QQ",
+      "methods": [
+        "own_fraction_free_bareiss_QQ_poly",
+        "independent_24_product_QQ_poly"
+      ],
+      "determinant_degrees": [
+        4,
+        4,
+        22,
+        19
+      ],
+      "determinant_terms": 1528,
+      "divisor_degrees": [
+        0,
+        0,
+        12,
+        13
+      ],
+      "divisor_terms": 30,
+      "P_degrees": [
+        4,
+        4,
+        10,
+        6
+      ],
+      "P_terms": 279,
+      "division_remainder": [],
+      "remainder_zero": true,
+      "P_integer_terms": 279
+    },
+    "chart": {
+      "domain": "ZZ",
+      "variables": [
+        "X",
+        "Y",
+        "R",
+        "T"
+      ],
+      "degrees": [
+        4,
+        4,
+        10,
+        6
+      ],
+      "full_box_positions": 1925,
+      "positive": 1731,
+      "zero": 194,
+      "minimum_positive": 192,
+      "constant": 432,
+      "negative_coeff_text_scan": "none_found",
+      "noninteger_q_coeff_text_scan": "none_found"
+    },
+    "seed_symmetry_scaling": {
+      "seed_leading_minors": [
+        "1009/7200",
+        "743633/6480000",
+        "1137143/12150000",
+        "9016/253125"
+      ],
+      "Rbar_leafswap_congruence": "PASS",
+      "detAhat_scaling_to_Rstar": "PASS",
+      "Rstar_Rbar_string_symmetry_check_by_reviewer": "no_asymmetric_pairs"
+    },
+    "execution": {
+      "run01": "mechanical TypeError before determinant acceptance; preserved",
+      "run02": "exit0 with empty stdout and stderr",
+      "run02_elapsed_seconds": 52.957,
+      "run02_python": "3.12.3",
+      "run02_sympy": "1.14.0",
+      "wall_seconds": 2700,
+      "deadline_utc": "2026-09-09T16:13:03+00:00",
+      "threads": 1,
+      "memory_limit_bytes": 17179869184
+    }
+  },
+  "closure_verdicts": [
+    {
+      "unit": "U1_full_lambda_zero_missing_edge",
+      "initial_verdict": "INCOMPLETE",
+      "closure_verdict": "CORRECT",
+      "reason": "raw independent finite certificate supplies the missing determinant quotient, zero remainder, full integer chart, seed, symmetry and scaling evidence"
+    },
+    {
+      "unit": "U2_conditional_entropy_strictness",
+      "initial_verdict": "INCOMPLETE",
+      "closure_verdict": "CORRECT",
+      "reason": "initial conditional proof was correct conditional on U1, and U1 is now closed"
+    },
+    {
+      "unit": "U3_center_dependent_nonzero_lambda_band",
+      "initial_verdict": "INCOMPLETE",
+      "closure_verdict": "CORRECT",
+      "reason": "initial band proof was correct conditional on U2, and U2 is now closed"
+    },
+    {
+      "unit": "U4_fixed_diagonal_radial_obstruction",
+      "initial_verdict": "EXCLUDED",
+      "closure_verdict": "EXCLUDED",
+      "reason": "separate exact gate"
+    },
+    {
+      "unit": "U5_one_sided_perspective_bridge",
+      "initial_verdict": "CORRECT",
+      "closure_verdict": "CORRECT_UNCHANGED",
+      "reason": "machine packet not needed for this identity bridge"
+    }
+  ],
+  "residual_boundaries": {
+    "general_lambda_nonzero_sfull": "incomplete",
+    "general_real_three_point_theorem": "not_claimed",
+    "fixed_radial_obstruction": "excluded",
+    "formal_proof_assistant_certificate": "none",
+    "novelty_or_priority": "not_assessed"
+  }
+}

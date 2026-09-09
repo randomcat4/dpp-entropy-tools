@@ -1,0 +1,112 @@
+{
+  "reviewer": "pr62_second",
+  "task": "independent second mathematical review of PR62 author-only frozen packet",
+  "workspace_root": "[local workspace]",
+  "own_run_dir": "docs/verification_round4_20260909/pr62_second",
+  "input_binding_file": "input_binding.json",
+  "pr": 62,
+  "head": "2ab69f71d4d36a2734beed83680dd3d9dc1f0a77",
+  "prefix": "research/N4/agent24_20260909/",
+  "independence": {
+    "used_author_only_packet": true,
+    "read_c1_first_report_or_outputs": false,
+    "read_c2_artifacts": false,
+    "read_other_reviewer_folders": false,
+    "accessed_c_canglan": false,
+    "github_mutation_or_pr_discussion": false,
+    "ran_python_sympy_arithmetic_entropy_interval_remote_or_formal": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "source_path": "research/N4/agent24_20260909/README.md",
+      "git_blob": "7aed571e22e5b4637949daf53ff3a5f29fa8707f",
+      "sha256_from_input_binding": "f9748faa7e30c5fb4108613a3b971b40c1b34daab2667be9647d46db967bce4a",
+      "sha256_observed": "f9748faa7e30c5fb4108613a3b971b40c1b34daab2667be9647d46db967bce4a",
+      "lines_used": ["1-58"]
+    },
+    {
+      "path": "code/probe_multiring_fixture.py",
+      "source_path": "research/N4/agent24_20260909/code/probe_multiring_fixture.py",
+      "git_blob": "fd476d5d12240943ad5e24eb0e4e8c1693b4704c",
+      "sha256_from_input_binding": "0d1723a0d1b7a212a917471fe0141414a6f4e87948a59ae3832bb485d72b57cd",
+      "sha256_observed": "0d1723a0d1b7a212a917471fe0141414a6f4e87948a59ae3832bb485d72b57cd",
+      "lines_used": ["1-9", "46-65", "67-85", "88-100", "103-109", "137-165", "167-202"]
+    },
+    {
+      "path": "code/verify_rank1_midpoint.py",
+      "source_path": "research/N4/agent24_20260909/code/verify_rank1_midpoint.py",
+      "git_blob": "dbb9fa96cff42f98403817fe2984f96d22262a10",
+      "sha256_from_input_binding": "27244722fe2970c015d4210bea056cae121e4136a9ce0c86c87976b0de7b18a8",
+      "sha256_observed": "27244722fe2970c015d4210bea056cae121e4136a9ce0c86c87976b0de7b18a8",
+      "lines_used": ["1-9", "35-43", "65-83", "107-153", "154-191", "193-213"]
+    },
+    {
+      "path": "failure_ledger.md",
+      "source_path": "research/N4/agent24_20260909/failure_ledger.md",
+      "git_blob": "19811a3728f33829fffbe2f5cc6b7282a073545c",
+      "sha256_from_input_binding": "66c2be5808dde2bb46fe46caa34864e9c9fc5bdea313f876976b11a8f097b58e",
+      "sha256_observed": "66c2be5808dde2bb46fe46caa34864e9c9fc5bdea313f876976b11a8f097b58e",
+      "lines_used": ["1-49"]
+    },
+    {
+      "path": "moving_rank1_theorem.md",
+      "source_path": "research/N4/agent24_20260909/moving_rank1_theorem.md",
+      "git_blob": "57cf8735a215bba8059e364a0ae905426c2f2873",
+      "sha256_from_input_binding": "19447c23db75b64da83610c8bb9f805c4868643ca609923ca15d72de39893ee4",
+      "sha256_observed": "19447c23db75b64da83610c8bb9f805c4868643ca609923ca15d72de39893ee4",
+      "lines_used": ["1-165", "167-256", "258-310"]
+    },
+    {
+      "path": "multiring_fixture.md",
+      "source_path": "research/N4/agent24_20260909/multiring_fixture.md",
+      "git_blob": "5ddc8b57959e655ba921ca3b6849d85457d325e6",
+      "sha256_from_input_binding": "fe3035a4e22a92ea40a49249de1465de4ae94dca4eba00f182d9ae808ac745f3",
+      "sha256_observed": "fe3035a4e22a92ea40a49249de1465de4ae94dca4eba00f182d9ae808ac745f3",
+      "lines_used": ["1-176"]
+    },
+    {
+      "path": "output/probe_multiring_fixture.txt",
+      "source_path": "research/N4/agent24_20260909/output/probe_multiring_fixture.txt",
+      "git_blob": "595f3680b4caa95765f25b6c50f61dff4a2f40ae",
+      "sha256_from_input_binding": "ce8a4fd80572fbdd0912ed1fbd224c22bcbcda9378e3c3b4e6114783585c4b5c",
+      "sha256_observed": "ce8a4fd80572fbdd0912ed1fbd224c22bcbcda9378e3c3b4e6114783585c4b5c",
+      "lines_used": ["1-91"]
+    },
+    {
+      "path": "output/verify_rank1_midpoint.txt",
+      "source_path": "research/N4/agent24_20260909/output/verify_rank1_midpoint.txt",
+      "git_blob": "3429b53381dec9ca952cc977584bb2defe9da633",
+      "sha256_from_input_binding": "aeda5abd6f6c0ddfe23f66fa15b1bdcf2fce9e3565c83ccfdf163a5667e6214f",
+      "sha256_observed": "aeda5abd6f6c0ddfe23f66fa15b1bdcf2fce9e3565c83ccfdf163a5667e6214f",
+      "lines_used": ["1-21"]
+    },
+    {
+      "path": "prior_art.md",
+      "source_path": "research/N4/agent24_20260909/prior_art.md",
+      "git_blob": "2395efc17869c325217a04ed0fdc8000d6791c9b",
+      "sha256_from_input_binding": "09f743502d5c7d07201a7f5dc2f25747653da069889e79f9e6cf225e14690516",
+      "sha256_observed": "09f743502d5c7d07201a7f5dc2f25747653da069889e79f9e6cf225e14690516",
+      "lines_used": ["1-94"]
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "title": "A Sharp Fannes-type Inequality for the von Neumann Entropy",
+      "author": "Koenraad M. R. Audenaert",
+      "url": "https://arxiv.org/html/quant-ph/0610146",
+      "lines_used": ["arxiv abstract lines 8-22", "arxiv HTML lines 53-60", "arxiv HTML lines 75-82", "arxiv HTML lines 108-113"],
+      "purpose": "primary-source check for finite-alphabet Fannes-Audenaert continuity bound"
+    }
+  ],
+  "unit_status": {
+    "analytic_rank_one_midpoint": "CORRECT",
+    "strictness_and_equality_cases": "CORRECT",
+    "common_independent_bit_flip_lift": "CORRECT",
+    "static_code_output_interface": "CORRECT",
+    "finite_execution": "INCOMPLETE",
+    "correlated_3_plus_3_multiring": "INCOMPLETE",
+    "formal_verification": "INCOMPLETE",
+    "novelty": "INCOMPLETE"
+  }
+}

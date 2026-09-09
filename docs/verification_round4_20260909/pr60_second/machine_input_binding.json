@@ -1,0 +1,374 @@
+{
+  "packet_pr": 64,
+  "packet_head": "5b40617fe7172aa266614aa28688d310218cb387",
+  "executable_head": "ee33372042d27911a97a14aefc6cb068404d190b",
+  "author_pr60_head": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+  "files": [
+    {
+      "path": "execution/LEDGER.md",
+      "source_path": "research/C2/pr60_independent52/execution/LEDGER.md",
+      "git_blob": "f1d8e2ce015278ddfa3453b70e7b34ed34c29faf",
+      "sha256": "3bbb4ad4bc2f36f239dfa558699419abc336f6383bf82345731761ffe84fb642"
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "source_path": "research/C2/pr60_independent52/execution/run_guard.sh",
+      "git_blob": "cb2fc2772d4fe1bcfeabf33a6bc0e7288767618a",
+      "sha256": "7cb26cb3f66a365b01e03c921957854d62d0d36af68abb0fcd96624a673b12b3"
+    },
+    {
+      "path": "implementation/README.md",
+      "source_path": "research/C2/pr60_independent52/implementation/README.md",
+      "git_blob": "40811cd28365ba6dea1f0a0eb50fe485ca414658",
+      "sha256": "0daad03f6c6e97d885427da705c9096337b85347925018e501c6d7e7fac39593"
+    },
+    {
+      "path": "implementation/pr60_independent_certificate.py",
+      "source_path": "research/C2/pr60_independent52/implementation/pr60_independent_certificate.py",
+      "git_blob": "b39e87c4046809d019109cdb14cc552b83d459da",
+      "sha256": "9d61f14b474a6d403a11576437d28736b2657e42f84634259358e09099b64403"
+    },
+    {
+      "path": "inputs/SOURCE_BINDING.json",
+      "source_path": "research/C2/pr60_independent52/inputs/SOURCE_BINDING.json",
+      "git_blob": "3c2bb6459c5b5d49262e84605ff8ec50d5e52eec",
+      "sha256": "f6eab155ab38f35b250256dca26844957dd251affc5999be38c498aec0bf3fac"
+    },
+    {
+      "path": "inputs/main/STRUCTURE.md",
+      "source_path": "research/C2/pr60_independent52/inputs/main/STRUCTURE.md",
+      "git_blob": "36735e3a3d49f4c7ef732303e7615c943cc56175",
+      "sha256": "08e83b179646a969c031597d23a2b66457996fb35b4074768317de382af60ddc"
+    },
+    {
+      "path": "inputs/pr60/README.md",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/README.md",
+      "git_blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679",
+      "sha256": "2e00ace646ef29aa9351e827eb368d7a6469db705686ff0973206e743544689a"
+    },
+    {
+      "path": "inputs/pr60/bridge_checks.py",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/bridge_checks.py",
+      "git_blob": "63df86ad1f93c551a6e3834bb183245657f28996",
+      "sha256": "1f364040a0ababe34bfc274c2b4bfb77a8cddf647a457d301d08b67004849d24"
+    },
+    {
+      "path": "inputs/pr60/certificate.py",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/certificate.py",
+      "git_blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4",
+      "sha256": "602dbd54e9dd17ecac04e1347c3e44dac7fe3da0053a7ac3cc1d49755befdc66"
+    },
+    {
+      "path": "inputs/pr60/proof.md",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/proof.md",
+      "git_blob": "0ab3e96592497382096c93c67e1e5224673fa119",
+      "sha256": "ef3b3682124882e6a9d2e196828addd8752606a3a05a5dcd524fa4bb8507fbe0"
+    },
+    {
+      "path": "inputs/pr60/sources_routes.md",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/sources_routes.md",
+      "git_blob": "93566de352021d64c3b061a8a86a066ebde6d287",
+      "sha256": "a246821aadc2fd74e567a7898ab8470f4322aac3d32cb53c6f18633b7a7822f5"
+    },
+    {
+      "path": "inputs/pr60/verification.md",
+      "source_path": "research/C2/pr60_independent52/inputs/pr60/verification.md",
+      "git_blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7",
+      "sha256": "2debbda4238ed3e8ef5842c8a7efc9842c32e4bffeac0e27d5ecf94eedeaa799"
+    },
+    {
+      "path": "inputs/reference_P_components.json",
+      "source_path": "research/C2/pr60_independent52/inputs/reference_P_components.json",
+      "git_blob": "4eaa1a68d53955e986d77a4b695f7ab48bbff47a",
+      "sha256": "d2fe3b57f8101d7d569152bc70c8686786ae1e490f0c51f3aa609ef665c9b249"
+    },
+    {
+      "path": "outputs/run01/Ahat_entries.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/Ahat_entries.json",
+      "git_blob": "ee32bbee9b469a72bb243807304bfa1ebbc0fa82",
+      "sha256": "db1686c4432fa4d246df639e78d294783ddd32e40e62a2a63a457ae775080a9e"
+    },
+    {
+      "path": "outputs/run01/FAILURE.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/FAILURE.json",
+      "git_blob": "10901c2509bd9c37c1753967708e90d0c1632079",
+      "sha256": "4a05bd1c3309afc34f778cf1b189a1cfc54a891f763511d1240aeed69e6ff8e3"
+    },
+    {
+      "path": "outputs/run01/Rstar_and_Rbar_entries.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/Rstar_and_Rbar_entries.json",
+      "git_blob": "c8c3f5706dcd8d876916cdc0fb49a4b1c36654b9",
+      "sha256": "933562e9be1590d60496b6d7905da89aa7589b5f5d8d43e5612262fd4d8cf903"
+    },
+    {
+      "path": "outputs/run01/arithmetic_pid.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/arithmetic_pid.txt",
+      "git_blob": "749d5fd12d68562ebbe4527e3b8ead5c4f34fc67",
+      "sha256": "781fb51552ce464e0b907726f4b9a167b35b3bbfe5b7d139ada135a5ee019784"
+    },
+    {
+      "path": "outputs/run01/cpu_affinity.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/cpu_affinity.txt",
+      "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "outputs/run01/deadline_utc.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/deadline_utc.txt",
+      "git_blob": "6ea651d8b1933b776c27b5ffb18362061e60d38d",
+      "sha256": "dc8c7eaa91c75246b2be089fa222a8921c7fdccba7bbe19afe2e8d29947cdc4e"
+    },
+    {
+      "path": "outputs/run01/exit.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/exit.json",
+      "git_blob": "a0183a6ed80ee80c68afa7edd38425e5c65abf37",
+      "sha256": "717e4311afb43d27fc783c9b2017fa1a0d1ab8164e0bc8091340daf537db88c3"
+    },
+    {
+      "path": "outputs/run01/layer_results.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/layer_results.json",
+      "git_blob": "00194841a925187eb0b31fd9fc104bb19766c62a",
+      "sha256": "207e212b169bd1022efbafabb3195d3bf5235f6f722d5ee0bc54331d66686c4d"
+    },
+    {
+      "path": "outputs/run01/run_metadata.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/run_metadata.json",
+      "git_blob": "7111c4b43290ae3195ae7e1bac0c9d14f5141559",
+      "sha256": "ee0cb716fab1b8c466f8bdb4a91a5881829196cb07b4b225a722764b9b97a4eb"
+    },
+    {
+      "path": "outputs/run01/start_utc.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/start_utc.txt",
+      "git_blob": "0e7556ff92c8bcc752b579b02eedd21db65c44a5",
+      "sha256": "773e31a06b38818f8b1559fb147ad9c7c244a7d3e4746dd3af4fb466d23e7fb4"
+    },
+    {
+      "path": "outputs/run01/stderr.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run01/stdout.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/stdout.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run01/timeout_pid.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/timeout_pid.txt",
+      "git_blob": "d1afaba2bb5bffc30dcfc90871f93b8d1ada0939",
+      "sha256": "b6be793495161ecc850adf0b747fffbbf03b8499d85dbb0532caa14db018c848"
+    },
+    {
+      "path": "outputs/run01/wrapper.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run01/wrapper.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run02/Ahat_entries.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/Ahat_entries.json",
+      "git_blob": "ee32bbee9b469a72bb243807304bfa1ebbc0fa82",
+      "sha256": "db1686c4432fa4d246df639e78d294783ddd32e40e62a2a63a457ae775080a9e"
+    },
+    {
+      "path": "outputs/run02/PASS.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/PASS.json",
+      "git_blob": "9c98c66b237c5fd38dfcdae93bd80b771d16ba5e",
+      "sha256": "3597f44e94ab00d90f1133e471fb1d785ebbb79065bc01a4a8c3bc089d631a77"
+    },
+    {
+      "path": "outputs/run02/P_author_component_comparison.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/P_author_component_comparison.json",
+      "git_blob": "78a0d0a31f2826d2ed2672e378b5462249c11366",
+      "sha256": "14afce12e048ff790588768ca5db9ced3a558620c0997ed58c499d15efb76202"
+    },
+    {
+      "path": "outputs/run02/Q_full_box.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/Q_full_box.json",
+      "git_blob": "c11a1e02e3bfea2918aec27b9069e4d0a1bf9e11",
+      "sha256": "cd1d661a100214753c4d1f3e09f8c8ce4d950a02fb39e49ee439b36cd6cef5e5"
+    },
+    {
+      "path": "outputs/run02/Rstar_and_Rbar_entries.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/Rstar_and_Rbar_entries.json",
+      "git_blob": "c8c3f5706dcd8d876916cdc0fb49a4b1c36654b9",
+      "sha256": "933562e9be1590d60496b6d7905da89aa7589b5f5d8d43e5612262fd4d8cf903"
+    },
+    {
+      "path": "outputs/run02/arithmetic_pid.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/arithmetic_pid.txt",
+      "git_blob": "f3836d5c29ec9dc6255c6bef03ac0929591e38a5",
+      "sha256": "88455d8cc8842347729e37922087b70f115d8a3f09b6064f597dd98ff0aa9980"
+    },
+    {
+      "path": "outputs/run02/cpu_affinity.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/cpu_affinity.txt",
+      "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "outputs/run02/deadline_utc.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/deadline_utc.txt",
+      "git_blob": "6ea651d8b1933b776c27b5ffb18362061e60d38d",
+      "sha256": "dc8c7eaa91c75246b2be089fa222a8921c7fdccba7bbe19afe2e8d29947cdc4e"
+    },
+    {
+      "path": "outputs/run02/determinant_and_P.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/determinant_and_P.json",
+      "git_blob": "83e1cbca56a2ac61dbb0f6e6eb07d9817e22e028",
+      "sha256": "863ac8dc43b5d47a23e61d706ce2af2c3fab2ca85f42bc84dc8949ec33e665d0"
+    },
+    {
+      "path": "outputs/run02/exit.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/exit.json",
+      "git_blob": "6f2dd4ef1f10fe7f9ad057a94d30edf6742729e0",
+      "sha256": "1a62e5f6df590cc5b1aaf593473a716ad57b41f39ac21d4fd35ea3b2368ca261"
+    },
+    {
+      "path": "outputs/run02/layer_results.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/layer_results.json",
+      "git_blob": "42d0c49c5cd7bf280fad929b305e9cfaed5abe7d",
+      "sha256": "a63f0255643fc2b8eb4e321a729affc887ed5e070577bbaf23ca1620e83f1ddc"
+    },
+    {
+      "path": "outputs/run02/run_metadata.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/run_metadata.json",
+      "git_blob": "25fbc9d33f397b20f9a7e6e985bb86e39d33189c",
+      "sha256": "11ada9d68623283a0f9a27c06723270faae56118d8a2abb9a206a9ff45f289aa"
+    },
+    {
+      "path": "outputs/run02/seed_leafswap_scaling.json",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/seed_leafswap_scaling.json",
+      "git_blob": "ea08fc533cc349de734d15972aa3643f9f720fae",
+      "sha256": "2b60ecd5d3debafd13445bb710e75989b0e5d0fd14ed52b56c7760937d4d2214"
+    },
+    {
+      "path": "outputs/run02/start_utc.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/start_utc.txt",
+      "git_blob": "a0e6969d54a09d8e520d88fc5b46507353d8025f",
+      "sha256": "2698157513599460a23d7aaa80f72c2706e2b91725ce1d6169f68f1ced666ad0"
+    },
+    {
+      "path": "outputs/run02/stderr.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run02/stdout.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/stdout.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run02/timeout_pid.txt",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/timeout_pid.txt",
+      "git_blob": "aea15d4eed990e4fb7e7cd01dddd833e3978a8f0",
+      "sha256": "206959a5c5d4d6c373246f0dd23e1b363be18860828eccb99ae0cba8f2747977"
+    },
+    {
+      "path": "outputs/run02/wrapper.log",
+      "source_path": "research/C2/pr60_independent52/outputs/run02/wrapper.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_to_packet_delta": [
+    {
+      "path": "research/C2/pr60_independent52/FINAL_HANDOFF.md",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/README.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/C2/pr60_independent52/STATUS.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/C2/pr60_independent52/execution/LEDGER.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/C2/pr60_independent52/machine_notes.md",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Ahat_entries.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/PASS.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/P_author_component_comparison.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Q_full_box.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Rstar_and_Rbar_entries.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/arithmetic_pid.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/cpu_affinity.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/deadline_utc.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/determinant_and_P.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/exit.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/layer_results.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/run_metadata.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/seed_leafswap_scaling.json",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/start_utc.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/timeout_pid.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/wrapper.log",
+      "status": "added"
+    }
+  ],
+  "independence": "Raw independent computation-owner source and artifacts only. C2 supplied no mathematical FIRST/SECOND review. No C1 FIRST material or verdict, C3 adjudication, machine_notes, FINAL_HANDOFF or summary README is included.",
+  "source_semantics": "This code was independently authored and executed; it did not execute or import the PR60 author certificate.py. Author P component literals are comparison data only after fresh determinant quotient construction. Review the source/artifacts themselves; no theorem acceptance is implied."
+}

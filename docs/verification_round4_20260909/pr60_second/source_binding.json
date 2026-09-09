@@ -1,0 +1,166 @@
+{
+  "review": {
+    "name": "pr60_second",
+    "date": "2026-09-10",
+    "timezone": "Asia/Singapore",
+    "mode": "static_second_mathematical_review",
+    "independent_execution_by_reviewer": "none",
+    "formal_execution_by_reviewer": "none",
+    "novelty_review": "not_assessed"
+  },
+  "frozen_input": {
+    "directory": "research/I05-22-R3-lambda-zero-global",
+    "binding_file": "input_binding.json",
+    "pr": 60,
+    "head": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+    "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+    "prefix": "research/I05-22-R3-lambda-zero-global/",
+    "file_count": 8,
+    "files": [
+      {
+        "path": "README.md",
+        "source_path": "research/I05-22-R3-lambda-zero-global/README.md",
+        "git_blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679",
+        "sha256": "2E00ACE646EF29AA9351E827EB368D7A6469DB705686FF0973206E743544689A"
+      },
+      {
+        "path": "bridge_checks.py",
+        "source_path": "research/I05-22-R3-lambda-zero-global/bridge_checks.py",
+        "git_blob": "63df86ad1f93c551a6e3834bb183245657f28996",
+        "sha256": "1F364040A0ABABE34BFC274C2B4BFB77A8CDDF647A457D301D08B67004849D24"
+      },
+      {
+        "path": "certificate.py",
+        "source_path": "research/I05-22-R3-lambda-zero-global/certificate.py",
+        "git_blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4",
+        "sha256": "602DBD54E9DD17ECAC04E1347C3E44DAC7FE3DA0053A7AC3CC1D49755BEFDC66"
+      },
+      {
+        "path": "continuation.md",
+        "source_path": "research/I05-22-R3-lambda-zero-global/continuation.md",
+        "git_blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282",
+        "sha256": "48668D9BDFD897164BC05637E5BAFFF936B491AA6F1AAD93DF9DB978E8EC5106"
+      },
+      {
+        "path": "continuation_exact.py",
+        "source_path": "research/I05-22-R3-lambda-zero-global/continuation_exact.py",
+        "git_blob": "615d360fa591e86ae115d37ee8519438fab1811c",
+        "sha256": "F1D761F853A0159F49EA162A3F1711C16523D3BEE9962D68D0AA19F05490A2AD"
+      },
+      {
+        "path": "proof.md",
+        "source_path": "research/I05-22-R3-lambda-zero-global/proof.md",
+        "git_blob": "0ab3e96592497382096c93c67e1e5224673fa119",
+        "sha256": "EF3B3682124882E6A9D2E196828ADDD8752606A3A05A5DCD524FA4BB8507FBE0"
+      },
+      {
+        "path": "sources_routes.md",
+        "source_path": "research/I05-22-R3-lambda-zero-global/sources_routes.md",
+        "git_blob": "93566de352021d64c3b061a8a86a066ebde6d287",
+        "sha256": "A246821AADC2FD74E567A7898AB8470F4322AAC3D32CB53C6F18633B7A7822F5"
+      },
+      {
+        "path": "verification.md",
+        "source_path": "research/I05-22-R3-lambda-zero-global/verification.md",
+        "git_blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7",
+        "sha256": "2DEBBDA4238ED3E8EF5842C8A7EFC9842C32E4BFFEAC0E27D5ECF94EEDEAA799"
+      }
+    ]
+  },
+  "accepted_public_premises_used": [
+    {
+      "path": "docs/verification_round3_20260909/accepted_pr51.md",
+      "sha256": "A017040F0D05692D00D6BD81578C435F5ECA8ECBB225B579554E7826F89DCAFF",
+      "lines_used": [
+        "24-30"
+      ],
+      "scope_used": "complete Fisher/acceleration, exact Schur-complement identities, Lambda-zero handoff formulation, and leaf marginal Hessian subtraction; not global positivity"
+    },
+    {
+      "path": "docs/verification_round3_20260909/archived_pr55.md",
+      "sha256": "1369E4C36DDA03F0B526594459177D42712002EADD44E4436518D17AEF63FD60",
+      "lines_used": [
+        "7-13",
+        "21-33"
+      ],
+      "scope_used": "fixed-coordinate Lambda-zero algebra, Schur complement Rstar, determinant prefactor, seed as local positive evidence, and explicit statement that r=0/full-r positivity remained incomplete"
+    }
+  ],
+  "unit_bindings": [
+    {
+      "unit": "U1_full_lambda_zero_missing_edge",
+      "verdict": "INCOMPLETE",
+      "author_lines": [
+        "proof.md:5-42",
+        "proof.md:44-92",
+        "proof.md:94-165",
+        "proof.md:167-178",
+        "proof.md:180-203",
+        "proof.md:205-241",
+        "proof.md:243-263",
+        "certificate.py:20-107",
+        "bridge_checks.py:17-53",
+        "verification.md:46-58",
+        "README.md:5-17"
+      ],
+      "accepted_scope": "analytic reductions and final implication are coherent conditional on exact determinant identity and positive chart certificate",
+      "blocking_gap": "raw finite determinant/chart certificate absent from frozen author packet"
+    },
+    {
+      "unit": "U2_conditional_entropy_strictness",
+      "verdict": "INCOMPLETE",
+      "author_lines": [
+        "continuation.md:7-18"
+      ],
+      "accepted_scope": "reduction from U1 to conditional strictness is correct conditional on U1",
+      "blocking_gap": "depends on U1 positivity certificate"
+    },
+    {
+      "unit": "U3_center_dependent_nonzero_lambda_band",
+      "verdict": "INCOMPLETE",
+      "author_lines": [
+        "continuation.md:19-70"
+      ],
+      "accepted_scope": "derivative formula, constants, legality, and quantifiers are correct conditional on U2",
+      "blocking_gap": "depends on U2/U1"
+    },
+    {
+      "unit": "U4_fixed_diagonal_radial_obstruction",
+      "verdict": "EXCLUDED",
+      "author_lines": [
+        "continuation.md:72-158",
+        "continuation_exact.py:1-107"
+      ],
+      "accepted_scope": "none in this initial review",
+      "blocking_gap": "separate exact unit excluded by task"
+    },
+    {
+      "unit": "U5_one_sided_perspective_bridge",
+      "verdict": "CORRECT",
+      "author_lines": [
+        "continuation.md:160-205",
+        "continuation.md:207-211"
+      ],
+      "accepted_scope": "perspective identity, one-sided Hessian formula, scaling law, and exact remaining inequality statement",
+      "blocking_gap": "none for the bridge; the coupled inequality itself remains unproved as stated"
+    }
+  ],
+  "required_artifact": {
+    "needed_for": "upgrade U1 under no-execution static review rules",
+    "minimum_files": [
+      "P.json",
+      "Q.json",
+      "summary.json",
+      "run transcript or manifest",
+      "determinant residual term artifact if available",
+      "output hashes"
+    ],
+    "binding_requirement": "artifacts must be tied to frozen certificate.py SHA256 602DBD54E9DD17ECAC04E1347C3E44DAC7FE3DA0053A7AC3CC1D49755BEFDC66 and PR60 head f869fd251c0d6fdad737b6d5efa287307795a87d"
+  },
+  "excluded": {
+    "pr57_premise_for_full_r": "not_used",
+    "fixed_radial_obstruction_numeric_witness": "excluded_from_theorem_evidence",
+    "general_lambda_nonzero_sfull": "incomplete_not_reviewed_as_proved",
+    "general_real_three_point_theorem": "not_claimed"
+  }
+}

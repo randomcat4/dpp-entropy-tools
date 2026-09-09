@@ -1,0 +1,49 @@
+{
+  "pr": 60,
+  "head": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+  "prefix": "research/I05-22-R3-lambda-zero-global/",
+  "files": [
+    {
+      "path": "README.md",
+      "source_path": "research/I05-22-R3-lambda-zero-global/README.md",
+      "git_blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679"
+    },
+    {
+      "path": "bridge_checks.py",
+      "source_path": "research/I05-22-R3-lambda-zero-global/bridge_checks.py",
+      "git_blob": "63df86ad1f93c551a6e3834bb183245657f28996"
+    },
+    {
+      "path": "certificate.py",
+      "source_path": "research/I05-22-R3-lambda-zero-global/certificate.py",
+      "git_blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4"
+    },
+    {
+      "path": "continuation.md",
+      "source_path": "research/I05-22-R3-lambda-zero-global/continuation.md",
+      "git_blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282"
+    },
+    {
+      "path": "continuation_exact.py",
+      "source_path": "research/I05-22-R3-lambda-zero-global/continuation_exact.py",
+      "git_blob": "615d360fa591e86ae115d37ee8519438fab1811c"
+    },
+    {
+      "path": "proof.md",
+      "source_path": "research/I05-22-R3-lambda-zero-global/proof.md",
+      "git_blob": "0ab3e96592497382096c93c67e1e5224673fa119"
+    },
+    {
+      "path": "sources_routes.md",
+      "source_path": "research/I05-22-R3-lambda-zero-global/sources_routes.md",
+      "git_blob": "93566de352021d64c3b061a8a86a066ebde6d287"
+    },
+    {
+      "path": "verification.md",
+      "source_path": "research/I05-22-R3-lambda-zero-global/verification.md",
+      "git_blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7"
+    }
+  ],
+  "status": "Frozen source manifest; review status is in the independent reports.",
+  "independence": "Author-only frozen source; no first-review report/code/output included."
+}
