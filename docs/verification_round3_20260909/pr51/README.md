@@ -1,6 +1,6 @@
-# PR51 original half-filled theorem: two independent reviews
+# PR51 accepted proof and continuation: separate dual reviews
 
-Status: **READY_SCOPED** for the original three-file unit at `4baebc317896278dcb8f0947d308fdce037c87cf`. Both nonauthor reviewers independently accepted the proof. The overall PR remains open because later continuation and summary files require their own review.
+Status: **ACCEPTED_SCOPED / MERGED**. The original three-file theorem and the subsequent continuation each completed a first and fresh independent second review. Final source head `184535756f5ed92f2f5c47804bdc8466a7d15041` merged as `ed10e23134d5dd8350f1cd9636204143c62ebc40`. [Precise accepted scope and final-version binding](../accepted_pr51.md).
 
 For `K=[[1/2,0,b],[0,1/2,c],[b,c,1/2]]`, `bc!=0` and `4(b^2+c^2)<1`, the complete-configuration Shannon entropy has strictly negative Hessian in every nonzero real symmetric three-point direction. The ratio of the two nonzero edge strengths is unrestricted. This does not assert general unequal-diagonal missing-edge concavity, arbitrary chords leaving the stated center family, strictness on the zero-edge axes, or a finite Hessian at singular endpoints.
 
@@ -12,4 +12,13 @@ The first independent checker reconstructed all eight complete events, full Fish
 
 The reviewers did not retrieve the private author reproduction packet or use PR41/43 as theorem black boxes. Public copies of the second report and its frozen scope replace one private source-directory string by the public research prefix; no mathematical or verdict text was changed. Historical pre-review status in each frozen scope is intentionally preserved; the final report supplies the verdict.
 
-Later head `2e4b8754ad4af2fe055ebeeef1159877773372a3` adds only `continuation.md`; `8b078ab834c46ce0c0e81967e3ada3fbbf542f1a` adds only `README.md`. The original three files are unchanged. A separate first continuation review accepted only identities, the positive two-dimensional block and method obstructions; a fresh second review and the README delta audit are active. The general four-dimensional Schur inequality and the global Lambda=0 derivative sign remain open. [Issue52](https://github.com/randomcat4/dpp-entropy-tools/issues/52) and [C2 PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) track the distinct bounded exact-computation handoff.
+## Continuation and README reviews
+
+- [Continuation first review](continuation_first/review_report.md), [frozen scope](continuation_first/frozen_scope.md), [README delta first review](continuation_first/readme_delta_review.md), [bounded plan](continuation_first/COMPUTE_PLAN.md), [independent exact source](continuation_first/independent_continuation_checks.py) and [actual results](continuation_first/independent_continuation_checks.json).
+- [Fresh continuation second review](continuation_second/review_report.md), [separate frozen scope](continuation_second/frozen_scope.md), [targeted plan](continuation_second/targeted_compute_plan.md), [preserved exact JavaScript checker](continuation_second/targeted_resolvent_obstruction_check.js), [actual output](continuation_second/targeted_compute_output.txt) and [run record](continuation_second/targeted_compute_run.md).
+
+The first continuation checker passed in 3.180152 seconds. It retained an earlier stopped attempt that was becoming duplicative of C2's heavy matrix work, and limited the final derivative check to the stated analytic/log-weight scope. The second reviewer did not read the first report or code; its standalone exact auxiliary-resolvent check exited 0 in 0.1549 seconds using Node.js v24.18.0. No mathematical check was rerun to recover that source file.
+
+Later head `2e4b8754ad4af2fe055ebeeef1159877773372a3` adds only `continuation.md`; `8b078ab834c46ce0c0e81967e3ada3fbbf542f1a` adds only `README.md`. Final `18453575` removes private storage locators/account metadata from two access paragraphs and links the independent public check. All proof/continuation files and displayed mathematical/code-output blocks are unchanged. Private author scripts were not retrieved, imported, uploaded, or independently certified. The publication-hygiene note in the first README review is resolved by this exact packaging delta; its historical report is preserved.
+
+The general four-dimensional Schur inequality and global Lambda=0 derivative sign remain open. [Issue52](https://github.com/randomcat4/dpp-entropy-tools/issues/52) and [C2 PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) track the distinct bounded exact-computation handoff. This merge does not assume its result.

@@ -1,0 +1,6 @@
+Phi_second -53670727895896612562246875/14117659525214393686902
+Phi_second_float -3801.673202278305
+Phi_negative true
+K_schur_q 3/5750 positive true
+IminusK_schur 11/375 positive true
+matches_expected true

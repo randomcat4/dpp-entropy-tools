@@ -17,4 +17,4 @@ Author source snapshots are public at [PR41 frozen tree](https://github.com/rand
 
 ## Follow-on reviews
 
-[PR51 original half-filled theorem](pr51/README.md) has two independent scoped acceptances and an independent exact checker. Its continuation is separately under review. PR53 and original PR54 are with C1 for first review; PR54 added appendices have a separate C3 first review. Current heads, second-review ownership and the distinct C2 issue52 budget are in the [live integration queue](../verification_round3_20260909.md). Historical maps above do not certify these new results.
+[PR51 theorem and continuation](pr51/README.md) each have two independent scoped acceptances and are merged; [accepted scope](accepted_pr51.md) preserves the open global inequalities. PR53 and original PR54 are with C1 for first review; PR54 added appendices have a separate C3 first review. Current heads, second-review ownership and the distinct C2 issue52 budget are in the [live integration queue](../verification_round3_20260909.md). Historical maps above do not certify these new results.

@@ -1,0 +1,76 @@
+{
+  "status": "PASS_BOUNDED_CONTINUATION_CHECKS",
+  "pr": 51,
+  "head": "2e4b8754ad4af2fe055ebeeef1159877773372a3",
+  "source_hashes": {
+    "research/I05-22-missing-edge-20260909/continuation.md": "7f25f358690cae79e56504492279e097795c5a29a52ccf91248b2ef5ab9ac5b6"
+  },
+  "script_sha256": "20edb8003ae3cdadae1b3a65315740e6499b73d7899008d4eced29abdf6a9832",
+  "checks": {
+    "product_domain_direction_logs": {
+      "status": "PASS",
+      "schur_domain": "q and 1-q-A-B",
+      "conditional_probability": "t_ij=q+A(1-i)+B(1-j)",
+      "direction_inverse": "matched on all four events",
+      "lambda_zero_equivalence": "q=(1-A-B)/2",
+      "J_collection": "matched formal log coefficients"
+    },
+    "L_trapezoid": {
+      "status": "PASS_ANALYTIC",
+      "argument": [
+        "f0'' is strictly convex because (f0'')''=2/t^3+2/(1-t)^3>0 on (0,1)",
+        "J is the integral over a rectangle of f0''(q+alpha+beta)",
+        "for fixed alpha or beta, the integral of a strictly convex function lies strictly below the trapezoid average",
+        "ell-w(ell0+ell1)=(1-y)^2 ell0+y^2 ell1>0 and k-v(k0+k1)=(1-x)^2 k0+x^2 k1>0",
+        "therefore J^2<L11*L22 and L is positive definite because A,B,ell,k,v,w are positive"
+      ]
+    },
+    "LCR_and_face_identity": {
+      "status": "PASS",
+      "LCR_identity": "matched exact collected cofactor log part",
+      "face_acceleration": "matched equation (31)",
+      "schur_equivalence": "analytic: positive leading block makes PSD equivalent to displayed Schur complement"
+    },
+    "lambda_zero_radial_derivative": {
+      "status": "PASS_BOUNDED_ANALYTIC",
+      "lambda_zero": "q=(1-A-B)/2 gives t00/t11=(1±u^2)/2 and off-diagonal conditionals (1±r*u^2)/2",
+      "radial_derivative": "checked n1,n2,n3 as exact derivatives of the three log weights; Q placement reviewed analytically from fixed-coordinate cofactor entries",
+      "not_checked": "full six-coordinate symbolic expansion, determinant, or positivity of M"
+    },
+    "Phi_obstruction": {
+      "status": "PASS",
+      "Phi_second_derivative": "-53670727895896612562246875/14117659525214393686902",
+      "entropy_curvature_interval_decimal": [
+        "85.3975458700852459052929625244126581626148484",
+        "85.3975458700852459052929625244126581626148484"
+      ],
+      "jensen_interval_decimal": [
+        "-0.000000427022881202415266822869962172758882562037749",
+        "-0.000000427022881202415266822869962172758882562037749"
+      ],
+      "interpretation": "auxiliary-method counterexample only; entropy curvature remains negative"
+    },
+    "power_series_obstruction": {
+      "status": "PASS",
+      "formula": "1/2 + 8*s**2/9 + s**2/(18*(1-s**2)) - s*log((1+s)/(1-s))/6",
+      "series_through_s4": "-(s**4 - 11*s**2 - 9)/18",
+      "s4_coefficient": "-1/18",
+      "interpretation": "moving-center direction obstruction; does not refute fixed-coordinate radial derivative conjecture"
+    }
+  },
+  "limits": [
+    "does not attempt S_full PSD",
+    "does not attempt radial M>0",
+    "does not run issue52 determinant/global certificate work",
+    "does not use private author scripts",
+    "finite obstruction examples are method obstructions only"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "seconds": 3.180152
+}
