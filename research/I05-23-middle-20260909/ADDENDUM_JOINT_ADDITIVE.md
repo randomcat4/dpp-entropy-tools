@@ -96,7 +96,7 @@ Equivalently,
 (I-K_s^*K_s)g=n-K_s^*m. \tag{1.6}
 \]
 
-For a strict finite DPP all entries of `P_s` are positive. Hence `||K_s||_{U\to U}<1`: equality in the conditional Jensen contraction would force a nonconstant function of `S` to equal a nonconstant function of `T` on the full Cartesian support, which is impossible. Thus (1.6) is invertible. The residual itself is unique even before fixing the gauge.
+For a strict finite DPP all entries of `P_s` are positive. Hence `||K_s||_{V\to U}<1`: equality in the conditional Jensen contraction would force a nonconstant function of `S` to equal a nonconstant function of `T` on the full Cartesian support, which is impossible. Thus (1.6) is invertible. The residual itself is unique even before fixing the gauge.
 
 A convenient exact value formula is
 
