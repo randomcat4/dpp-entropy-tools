@@ -6,8 +6,10 @@
 | PR53 §3 | Complete-event likelihood, full Fisher/acceleration, conditional identities | CORRECT / ACCEPTED_SCOPED; sign obligation unproved |
 | PR53 §4 | Uniform inverse and explicit banded inverse decay | CORRECT / ACCEPTED_SCOPED |
 | PR53 §5 | Balanced beam-splitter reduction | CORRECT / ACCEPTED_SCOPED; occupation inequality unproved |
-| PR53 new Theorem FR | Finite-range Hölder/RPF analyticity and local quartic strict entropy-rate concavity | CORRECT / ACCEPTED_SCOPED at abdd660a; independent FIRST complete, C3 second pending |
-| PR53 exponential-Wiener extension | Infinite Fourier range with exponential weight, separate fixture and reporting increments | CORRECT / ACCEPTED_SCOPED at 73cdbd09; all seven changes checked; ready for C3 second |
+| PR53 new Theorem FR | Finite-range Hölder/RPF analyticity and local quartic strict entropy-rate concavity | CORRECT / ACCEPTED_SCOPED at abdd660a; original SECOND complete per C3; final first delta closed below |
+| PR53 exponential-Wiener extension | Infinite Fourier range with exponential weight, separate fixture and reporting increments | CORRECT / ACCEPTED_SCOPED at 73cdbd09; C3 independent SECOND active; final first delta closed below |
+| PR53 FR clarification | Fixed weaker Hölder norm, precise RPF reference/normalization, s-linear heading | CLOSED / ACCEPTED_SCOPED_DELTA at ebecc412 by original FR first reviewer |
+| PR53 EW/sources clarification | Exact far Schur inverse, fixed weaker Hölder convergence, precise Hölder source role | CLOSED / ACCEPTED_SCOPED at ebecc412 by original EW first reviewer |
 | PR54 §1 | Explicit rank-two local strict curvature | CORRECT / ACCEPTED_SCOPED |
 | PR54 fixture | Exact rational 3+3 consistency fixture | ACCEPTED_SCOPED as fixture; not rerun |
 | PR54 §2 | SCP moment bound, matching deficit, stationary two-layer rate bound | CORRECT / ACCEPTED_SCOPED |

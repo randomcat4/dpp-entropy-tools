@@ -1,0 +1,34 @@
+diff --git a/research/I05-DPP-21-20260909/exponential_wiener_extension.md b/research/I05-DPP-21-20260909/exponential_wiener_extension.md
+--- a/research/I05-DPP-21-20260909/exponential_wiener_extension.md
++++ b/research/I05-DPP-21-20260909/exponential_wiener_extension.md
+@@ -206,7 +206,7 @@ where
+ S_F=M_F-E_FN M_N^{-1}E_NF.                           (4.3)
+ ```
+ 
+-The inverse `S_F^{-1}` is the `FF` block of `M_R^{-1}` plus the equivalent standard block correction, so (3.4) bounds it in the same weighted localization calculus. More directly, either Schur formula expresses every factor in (4.2) through blocks of matrices covered by (3.4).
++With `S_F=M_F-E_FN M_N^{-1}E_NF`, the block inverse formula gives exactly `S_F^{-1}=[M_R^{-1}]_{FF}`. Restricting rows and columns cannot increase the weighted Schur norm, so (3.4) bounds this inverse uniformly. The opposite Schur formula also writes it as `M_F^{-1}` plus the standard correction; no additional correction is added to the `FF` block itself.
+ 
+ Multiplying a row localized at site zero by `M_N^{-1}E_NF` produces a row on `F` whose ordinary `l^1` norm is `O(exp(-ar))`: in the weighted norm, every index of `F` has distance at least `r` from zero. The analogous column on the right has the same bound. Terms in the full quadratic form involving the direct tails `b_F` or `d_F` are also `O(exp(-ar))`. Therefore, on every smaller disk `|z|<=r_1<r_0`,
+ 
+@@ -217,7 +217,7 @@ sup_x |q_{R,z}(x)-q_{r,z}(x_1,...,x_r)|
+ 
+ for some `A<infinity` and `a'>0` independent of `R,r,x`.
+ 
+-Equation (4.4) proves uniform convergence to a Hölder limit `q_z` on the one-sided tail space. Cauchy's formula on a slightly larger disk gives the same estimate for all parameter derivatives, so `z->q_z` is holomorphic as a Hölder-space-valued map.
++Equation (4.4) proves uniform convergence to a limit `q_z` on the one-sided tail space. Fix `0<b<min(a',1)` and use `||F||_b=||F||_infinity+sup_{m>=0} exp(bm) var_m(F)`, where `var_m` compares tails agreeing in their first `m` symbols. Applying (4.4) also at shorter truncations gives uniform stronger `a'`-variation bounds for the finite conditionals and their limit. Interpolation with the sup-norm error gives `||q_{r,z}-q_z||_b<=C exp(-(a'-b)r)` on each smaller disk. The finite-cylinder maps are holomorphic in this fixed space. Cauchy's formula on disks `|z|<=r_1<r_2<r_0` gives convergence in the same norm for parameter derivatives, so `z->q_z` is Banach-holomorphic in this fixed weaker Hölder space.
+ 
+ For real sufficiently small `t`, (1.1) gives a strict spectral margin for `c+tg`. The complete-event accretivity argument gives a uniform conditional bound away from zero and one. Hence
+ 
+
+diff --git a/research/I05-DPP-21-20260909/sources.md b/research/I05-DPP-21-20260909/sources.md
+--- a/research/I05-DPP-21-20260909/sources.md
++++ b/research/I05-DPP-21-20260909/sources.md
+@@ -32,7 +32,7 @@ The bibliography is separated from mathematical acceptance. A cited paper is not
+ 
+ 7. Leandro Cioletti and Eduardo A. Silva, **Spectral Properties of the Ruelle Operator on the Walters Class over Compact Spaces**, Nonlinearity 29 (2016), 2253–2278, arXiv:1511.01579.
+ 
+-   Consulted for analytic dependence of the Ruelle operator on Hölder/Walters spaces and the spectral-gap framework. The only perturbative step used in the proof is also supplied directly: a contour Riesz projection around the simple isolated eigenvalue gives the holomorphic normalized eigenmeasure.
++   Theorem 2.1 supplies the simple maximal eigenvalue and spectral gap for Hölder potentials with exponent in `(0,1)`; Lemma 2.4, Proposition 2.6 and Corollary 2.7 give the operator/dual analyticity framework. With the uniform prior on `{0,1}` and potential `log(2G_s)`, its integral operator equals the normalized sum operator used here. The proof uses this Hölder result, not a gap for the general Walters class. A contour Riesz projection around the simple isolated eigenvalue directly gives the holomorphic normalized eigenmeasure.
+ 
+ The entropy and relative-entropy rate formulas are not imported as a black box. They follow from the finite right-to-left chain rules plus the exponentially summable, configuration-uniform conditional error proved in the branch.
+ 

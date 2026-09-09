@@ -1,0 +1,108 @@
+{
+  "all_code_output_unchanged": true,
+  "changed_files": [
+    {
+      "deletions": 2,
+      "additions": 2,
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "owner": "original EW first reviewer",
+      "after_blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f",
+      "before_blob": "3cab8005f6e018b3d02d4e4459b41ca6ba5fc9d6"
+    },
+    {
+      "deletions": 3,
+      "additions": 3,
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "owner": "original FR first reviewer",
+      "after_blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d",
+      "before_blob": "c65a4e22ed6ee5c69d1b084cfd04d8e77e8d6263"
+    },
+    {
+      "deletions": 1,
+      "additions": 1,
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/sources.md",
+      "owner": "original EW first reviewer",
+      "after_blob": "31f4cd09eaa99aaff4286b057f624daa884d47e0",
+      "before_blob": "5677092d6e94517a2e741074e313a92ee9e4be52"
+    }
+  ],
+  "origin": "public immutable GitHub commits",
+  "final_source_files": [
+    {
+      "path": "research/I05-DPP-21-20260909/README.md",
+      "before_blob": "e37316a3ebbf6567da270dd45f0283ed7f78e79b",
+      "blob": "e37316a3ebbf6567da270dd45f0283ed7f78e79b",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/RESULT.md",
+      "before_blob": "57d2b50386295a9a522bdddeb52887e5affae07b",
+      "blob": "57d2b50386295a9a522bdddeb52887e5affae07b",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/code/check_rudin_shapiro_example.py",
+      "before_blob": "0ebe92fb2ff75999326e6f57e4dbe2239bd19b2e",
+      "blob": "0ebe92fb2ff75999326e6f57e4dbe2239bd19b2e",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/code/probe_balanced_beamsplitter.py",
+      "before_blob": "abb5b0d39e4dabb7253b405a5e60699b90932340",
+      "blob": "abb5b0d39e4dabb7253b405a5e60699b90932340",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "before_blob": "3cab8005f6e018b3d02d4e4459b41ca6ba5fc9d6",
+      "blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f",
+      "changed": true
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "before_blob": "c65a4e22ed6ee5c69d1b084cfd04d8e77e8d6263",
+      "blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d",
+      "changed": true
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/output/balanced_beamsplitter_probe.json",
+      "before_blob": "0ac42c83b405c7491410070bdc0081ee012df135",
+      "blob": "0ac42c83b405c7491410070bdc0081ee012df135",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/output/rudin_shapiro_exact.json",
+      "before_blob": "4054bc14b0cd4550bc8b6fa88127eb54cd00e138",
+      "blob": "4054bc14b0cd4550bc8b6fa88127eb54cd00e138",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/proof.md",
+      "before_blob": "877e76a94476aee8902af12f3e9d34a914088ba1",
+      "blob": "877e76a94476aee8902af12f3e9d34a914088ba1",
+      "changed": false
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/sources.md",
+      "before_blob": "5677092d6e94517a2e741074e313a92ee9e4be52",
+      "blob": "31f4cd09eaa99aaff4286b057f624daa884d47e0",
+      "changed": true
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/verification.md",
+      "before_blob": "bdb4a3904f06a05905136e64519da1981ff871cf",
+      "blob": "bdb4a3904f06a05905136e64519da1981ff871cf",
+      "changed": false
+    }
+  ],
+  "exact_repository_delta_verified": true,
+  "scope": "Final three-file exposition delta closure by original first reviewers",
+  "pr": 53,
+  "commit": "ebecc412467939591e018a295a18c49a0a341ce9",
+  "base": "73cdbd09ad9aa975354a116a01f1e0f4955a8c27",
+  "base_tree_lookup_ref": "73cdbd09ad9aa975354a116a01f1e0f4955a8c27",
+  "head_tree_lookup_ref": "ebecc412467939591e018a295a18c49a0a341ce9"
+}

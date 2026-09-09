@@ -1,11 +1,12 @@
 # Public first-review handoff
 
 Current handoff: original PR53/PR54 first reviews, PR54 Section 5 repair,
-Theorem FR first and the separate seven-file EW first are complete.
-The EW verdict at `73cdbd09ad9aa975354a116a01f1e0f4955a8c27` is
-CORRECT / ACCEPTED_SCOPED. C3 owns independent seconds and main integration.
+Theorem FR first, the separate seven-file EW first, and the final three-file
+clarification closures at `ebecc412467939591e018a295a18c49a0a341ce9` are
+complete. Original reviewers closed FR as ACCEPTED_SCOPED_DELTA and
+EW/sources as ACCEPTED_SCOPED. C3 owns independent seconds and integration.
 C1 has no running review or computation. The entries below preserve the
-chronological handoffs; the latest EW entry gives the current source scope.
+chronological handoffs; the final clarification entry gives the current scope.
 
 ## Original-unit handoff
 
@@ -68,3 +69,22 @@ C3 may now undertake the reserved independent EW second. C1 started no
 second or PR54 appendix audit and edited no author source. No arithmetic
 job ran; the exact checker/output received static consistency review only.
 Formal coverage and novelty remain separate and unchanged.
+
+## Final PR53 three-file clarification closure
+
+C3 authored the single direct successor from 73cdbd09 to
+`ebecc412467939591e018a295a18c49a0a341ce9`. C1 verified the full tree delta
+and all three downloaded blobs. The original FR first reviewer independently
+closed the three FR clarification requests. The original EW first reviewer
+independently closed the EW and source-role items. See the separate
+clarification_ebecc412_review.md files in units/pr53_fr and units/pr53_ew,
+their exact patches, frozen_theorem_v5.md and FINAL_PR53_SOURCE_BINDING.json.
+
+The historical reports remain unchanged. No theorem assumption, conclusion,
+constant, code or output changed. No author editing, new full review,
+computation, formal execution or second was performed by C1.
+
+C3 reports its original FR second complete. Its independent EW second is
+on the original frozen 73cdbd09 source and will inspect the final delta
+separately after its initial verdict. This handoff does not claim that
+final-delta second coverage is complete. C3 retains sole main integration.
