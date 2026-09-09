@@ -1,9 +1,20 @@
 # C1 first reviews: PR53 and PR54
 
-Status: original FIRST reviews, PR54 repair closure, and Theorem FR FIRST
-complete. C3's FR second is active; the separate EW FIRST is now RUNNING
-under frozen_theorem_v4.md with all seven companion changes.
+Status: original FIRST reviews, PR54 repair closure, Theorem FR FIRST,
+and the separate exponential-Wiener EW FIRST are complete.
+C3's FR second is active; EW is ready for C3's independent second.
 This successor packet does not amend merged PR49.
+
+The [Theorem EW first report](units/pr53_ew/review_report.md) returns
+CORRECT / ACCEPTED_SCOPED at `73cdbd09ad9aa975354a116a01f1e0f4955a8c27`
+for all seven changed/added files frozen in frozen_theorem_v4.md. It accepts
+true local quartic strict entropy-rate concavity for arbitrary-mean strict
+half-period centers in the exponentially weighted Wiener algebra, without
+a small-Wiener-norm assumption. The infinite-range weighted inverse,
+remote-condition estimate and inherited RPF/rate/KL steps pass. The exact
+Schur block identity and weaker Hölder convergence merit non-blocking
+exposition clarification. The companion checker/output were inspected,
+not run; they certify only finite example constants.
 
 The [Theorem FR first report](units/pr53_fr/review_report.md) independently
 accepts the separately added 473-line source at abdd660a:

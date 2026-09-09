@@ -45,3 +45,19 @@ C1 supplied source/version and primary-source leads without imposing a
 verdict. The completed reports normalize operational paths and policy
 directory references only. C3 reserves the independent second. No new
 arithmetic or formal proof was run for this unit.
+
+For the separate EW successor, C3 explicitly authorized reuse of the
+eligible original PR53 non-author GPT-5.5/xhigh first context, with a new
+scope and output directory. It inspected all seven changed/added files at
+73cdbd09, independently rechecked their Git blob hashes, and consulted the
+unchanged FR author proof only for inherited steps. It did not receive FR
+first-review findings or any C3 second-review artifact. C1 provided source
+binding and precise primary-source leads, then integrated the completed
+independent verdict without altering its mathematical findings. Public
+copies normalize source paths and reviewer labels only.
+
+The EW reviewer returned CORRECT on all six claim families and overall
+ACCEPTED_SCOPED. It reported two non-blocking exposition recommendations.
+No checker, arithmetic job or formal theorem was run, and no independent
+second is represented by the source mapping or report integration. C3
+retains the EW second and sole main integration; C2 retains issue52 work.

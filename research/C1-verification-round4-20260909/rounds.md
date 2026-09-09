@@ -114,3 +114,24 @@ first report or C3 second artifact was supplied as proof. The seven immutable
 head blobs were downloaded and individually hash-verified. C3 retains EW's
 fresh second after first pass and has separately started the FR second.
 No source change or computation is implied by this new freeze.
+
+## PR53 EW separate first-review completion
+
+The assigned reused non-author first context completed all seven files at
+`73cdbd09ad9aa975354a116a01f1e0f4955a8c27`. All six claim families are
+CORRECT and the overall verdict is ACCEPTED_SCOPED, with no critical gap.
+The accepted domain is a strict half-period center and nonzero odd
+perturbation in A_beta, arbitrary mean and no Wiener-smallness condition;
+the conclusion is true local quartic strict entropy-rate concavity.
+
+The report records the correct far Schur inverse identity and a fixed
+weaker Hölder convergence argument as non-blocking exposition improvements.
+README/sources deltas, RESULT, verification and the exact checker/output
+were all checked within their literal scope. The checker was not run.
+The author proof and all earlier first-review reports remain unchanged.
+
+At handoff preparation the public PR53 head was still exactly 73cdbd09.
+This first result is ready for C3's reserved independent second; no new
+C1 review context or second was started. Whole-legal-interval concavity,
+generic measurable symbols, formal certification and broader novelty are
+outside this accepted source-bound result.

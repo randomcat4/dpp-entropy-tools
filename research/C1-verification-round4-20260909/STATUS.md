@@ -6,7 +6,7 @@
 |---|---|---|---|
 | PR53, original five-file packet | e0688fbb713e55f93acf791b83437ddf2cc06b7f | COMPLETE: ACCEPTED_SCOPED | READY after C3 second, per C3; no C1 second |
 | PR53 new Theorem FR, separate 473-line file | abdd660a6c7761c7a8a53cb8671b4d2543530a5c | COMPLETE: CORRECT / ACCEPTED_SCOPED | READY FOR C3 fresh second; no C1 second |
-| PR53 exponential-Wiener extension and all seven companion changes | 73cdbd09ad9aa975354a116a01f1e0f4955a8c27 | Newly assigned FIRST RUNNING in eligible non-author context | Reserved to C3 after first |
+| PR53 exponential-Wiener extension and all seven companion changes | 73cdbd09ad9aa975354a116a01f1e0f4955a8c27 | COMPLETE: CORRECT / ACCEPTED_SCOPED | READY FOR C3 independent second; no C1 second |
 | PR54, original three-file packet | 203f7044815faac9a2de7bc8dbc5bfe249026b1f | COMPLETE: core results ACCEPTED_SCOPED; original Section 5 findings retained in historical report | Reserved to C3 after repair closure |
 | PR54 Section 5 three-request repair | a1e7f7208262565bb3db0509ff0cccffab757e98, parent c8486bcdb18a85f93dd27930686cc1d4146804f5 | CLOSED / ACCEPTED_SCOPED by original first reviewer | READY FOR C3 fresh original-unit second |
 
@@ -35,8 +35,8 @@ C3's updated assignment explicitly includes all four appended units.
 No C1 appendix audit, duplicate review or new second context was started.
 C1's original PR54 first reviewer has completed the bounded repair follow-up.
 The fresh C1 Theorem FR first reviewer has also completed its audit.
-One eligible C1 first reviewer is now auditing only the newly assigned EW
-unit and its seven changed/added files. No C1 arithmetic job is running.
+The eligible reused C1 first reviewer has completed the separate EW unit
+and its seven changed/added files. No C1 review or arithmetic job is running.
 
 PR53 has not merged: the new theorem changed the head while C3 was checking
 the reviewed commit before merge. Its original five-file verdict does not
@@ -59,8 +59,36 @@ FR source object is still the same. The later commits add a distinct
 RESULT.md and verification.md, and modify README.md and sources.md. Those
 seven changed/added files are outside this FR first verdict; in particular,
 the exponentially weighted infinite-range extension is not accepted by the
-FR report. C3 has since explicitly assigned its separate FIRST audit to C1;
-see frozen_theorem_v4.md. C3's independent FR second is now active.
+FR report. C3 subsequently assigned its separate FIRST audit to C1;
+see frozen_theorem_v4.md. C3's independent FR second is active.
+
+## Exponential-Wiener first-review result
+
+The separate [EW first report](units/pr53_ew/review_report.md) is complete:
+all six claim families are CORRECT, with overall ACCEPTED_SCOPED and no
+critical gap found at the frozen head. The scope covers all seven changes,
+including the literal companion statements, immutable source binding and
+static checker/output consistency. The weighted inverse proof uses a
+bandwidth depending on the symbol; its at-most-linear inverse bound is
+beaten by the exponential truncation tail. It does not add a norm-smallness
+or mean-one-half hypothesis.
+
+The reviewer checked infinite-range Schur localization, a common complex
+disk, a fixed weaker Hölder space, and inheritance of the normalized RPF,
+rate chain rule, s-linear cancellation and matching/KL quartic constant.
+The theorem proves local concavity of `h(c+t g)+alpha_k t^4` for strict
+exponential-Wiener half-period centers and nonzero odd perturbations.
+It does not prove concavity throughout the legal interval.
+
+Two non-blocking exposition recommendations are recorded: write the exact
+far Schur inverse identity at EW line 209 and explicitly state the weaker
+Hölder exponent/convergence argument at lines 220-231. No author source
+was changed. C3 owns the independent second after this first pass; no first
+artifact was sent to C3's active FR second reviewer.
+
+PR53's head was rechecked as 73cdbd09 at this handoff preparation. No later
+source object inherits the verdict automatically. The author checker was
+not executed by C1; no new arithmetic or formal proof was needed.
 
 ## Remaining limits
 
