@@ -1,0 +1,23 @@
+{
+  "source_commit": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+  "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604627611",
+  "publication_base": "a9b69fceaa3bacb80cc6bd1cc2b74be83a336b9e",
+  "inputs": [
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/continuation.md",
+      "blob": "a1ce8d04afeb77c6a23eea7e976cd3a7999c3282"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/continuation_exact.py",
+      "blob": "615d360fa591e86ae115d37ee8519438fab1811c"
+    }
+  ],
+  "construction": "literal rational matrices and displayed definitions; author checker is not imported or executed",
+  "resource_bound": {
+    "total_wall_seconds": 600,
+    "processes": 1,
+    "cpu_threads": 1,
+    "memory_gib": 16,
+    "gpu": false
+  }
+}

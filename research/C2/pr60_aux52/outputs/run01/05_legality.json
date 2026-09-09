@@ -1,0 +1,235 @@
+{
+  "checkpoint": "05_legality",
+  "checkpoint_epoch_ns": "1788969545423222792",
+  "payload": {
+    "legality": {
+      "I_minus_K_star": {
+        "all_principal_minors": {
+          "1": "89/100",
+          "12": "17711/20000",
+          "123": "1069/12500000",
+          "13": "47/500000",
+          "2": "199/200",
+          "23": "2483/500000",
+          "3": "1/200"
+        },
+        "leading_sylvester": [
+          "89/100",
+          "17711/20000",
+          "1069/12500000"
+        ],
+        "leading_sylvester_parts": [
+          {
+            "denominator": "100",
+            "numerator": "89"
+          },
+          {
+            "denominator": "20000",
+            "numerator": "17711"
+          },
+          {
+            "denominator": "12500000",
+            "numerator": "1069"
+          }
+        ],
+        "name": "I_minus_K_star",
+        "strict_positive_all_principal": true,
+        "strict_positive_leading": true
+      },
+      "K_star": {
+        "all_principal_minors": {
+          "1": "11/100",
+          "12": "11/20000",
+          "123": "1639/3125000",
+          "13": "52547/500000",
+          "2": "1/200",
+          "23": "2483/500000",
+          "3": "199/200"
+        },
+        "leading_sylvester": [
+          "11/100",
+          "11/20000",
+          "1639/3125000"
+        ],
+        "leading_sylvester_parts": [
+          {
+            "denominator": "100",
+            "numerator": "11"
+          },
+          {
+            "denominator": "20000",
+            "numerator": "11"
+          },
+          {
+            "denominator": "3125000",
+            "numerator": "1639"
+          }
+        ],
+        "name": "K_star",
+        "strict_positive_all_principal": true,
+        "strict_positive_leading": true
+      },
+      "radial": {
+        "complement_bound_s_squared": "442775/434223",
+        "complete_bound_parts": {
+          "denominator": "434223",
+          "numerator": "442775"
+        },
+        "complete_bound_s_squared": "442775/434223",
+        "contains_999_1000_to_1001_1000": true,
+        "endpoint_checks": [
+          {
+            "I_minus_K": {
+              "all_principal_minors": {
+                "1": "89/100",
+                "12": "17711/20000",
+                "123": "9420011777/100000000000000",
+                "13": "25676911/250000000000",
+                "2": "199/200",
+                "23": "4966017991/1000000000000",
+                "3": "1/200"
+              },
+              "leading_sylvester": [
+                "89/100",
+                "17711/20000",
+                "9420011777/100000000000000"
+              ],
+              "leading_sylvester_parts": [
+                {
+                  "denominator": "100",
+                  "numerator": "89"
+                },
+                {
+                  "denominator": "20000",
+                  "numerator": "17711"
+                },
+                {
+                  "denominator": "100000000000000",
+                  "numerator": "9420011777"
+                }
+              ],
+              "name": "I_minus_K_radial_999/1000",
+              "strict_positive_all_principal": true,
+              "strict_positive_leading": true
+            },
+            "K": {
+              "all_principal_minors": {
+                "1": "11/100",
+                "12": "11/20000",
+                "123": "52452551723/100000000000000",
+                "13": "26275676911/250000000000",
+                "2": "1/200",
+                "23": "4966017991/1000000000000",
+                "3": "199/200"
+              },
+              "leading_sylvester": [
+                "11/100",
+                "11/20000",
+                "52452551723/100000000000000"
+              ],
+              "leading_sylvester_parts": [
+                {
+                  "denominator": "100",
+                  "numerator": "11"
+                },
+                {
+                  "denominator": "20000",
+                  "numerator": "11"
+                },
+                {
+                  "denominator": "100000000000000",
+                  "numerator": "52452551723"
+                }
+              ],
+              "name": "K_radial_999/1000",
+              "strict_positive_all_principal": true,
+              "strict_positive_leading": true
+            },
+            "s": "999/1000",
+            "s_squared": "998001/1000000"
+          },
+          {
+            "I_minus_K": {
+              "all_principal_minors": {
+                "1": "89/100",
+                "12": "17711/20000",
+                "123": "7683119777/100000000000000",
+                "13": "21320911/250000000000",
+                "2": "199/200",
+                "23": "4965981991/1000000000000",
+                "3": "1/200"
+              },
+              "leading_sylvester": [
+                "89/100",
+                "17711/20000",
+                "7683119777/100000000000000"
+              ],
+              "leading_sylvester_parts": [
+                {
+                  "denominator": "100",
+                  "numerator": "89"
+                },
+                {
+                  "denominator": "20000",
+                  "numerator": "17711"
+                },
+                {
+                  "denominator": "100000000000000",
+                  "numerator": "7683119777"
+                }
+              ],
+              "name": "I_minus_K_radial_1001/1000",
+              "strict_positive_all_principal": true,
+              "strict_positive_leading": true
+            },
+            "K": {
+              "all_principal_minors": {
+                "1": "11/100",
+                "12": "11/20000",
+                "123": "52443443723/100000000000000",
+                "13": "26271320911/250000000000",
+                "2": "1/200",
+                "23": "4965981991/1000000000000",
+                "3": "199/200"
+              },
+              "leading_sylvester": [
+                "11/100",
+                "11/20000",
+                "52443443723/100000000000000"
+              ],
+              "leading_sylvester_parts": [
+                {
+                  "denominator": "100",
+                  "numerator": "11"
+                },
+                {
+                  "denominator": "20000",
+                  "numerator": "11"
+                },
+                {
+                  "denominator": "100000000000000",
+                  "numerator": "52443443723"
+                }
+              ],
+              "name": "K_radial_1001/1000",
+              "strict_positive_all_principal": true,
+              "strict_positive_leading": true
+            },
+            "s": "1001/1000",
+            "s_squared": "1002001/1000000"
+          }
+        ],
+        "kernel_bound_s_squared": "4975/207",
+        "matches_442775_over_434223": true
+      }
+    },
+    "status": "done"
+  },
+  "run": {
+    "deadline_epoch_ns": "1788970145000000000",
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788970145",
+    "input_root": "<TASK_ROOT>/source",
+    "start_epoch_ns": "1788969545414117114",
+    "wall_seconds_requested": "600"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "checkpoint": "04_base_probability_and_lambda",
+  "checkpoint_epoch_ns": "1788969545422034706",
+  "payload": {
+    "base_events": {
+      "exp_Lambda": "65729622186464/3466472577089",
+      "exp_Lambda_displayed_match": true,
+      "exp_Lambda_formula": "p123*p1*p2*p3/(p0*p12*p13*p23) in mask order 0,1,2,12,3,13,23,123",
+      "exp_Lambda_greater_than_one": true,
+      "exp_Lambda_parts": {
+        "denominator": "3466472577089",
+        "numerator": "65729622186464"
+      },
+      "mask_order": [
+        "0",
+        "1",
+        "2",
+        "12",
+        "3",
+        "13",
+        "23",
+        "123"
+      ],
+      "matches_displayed_vector": true,
+      "probabilities": [
+        "1069/12500000",
+        "30503/6250000",
+        "53/6250000",
+        "319/12500000",
+        "5534153/6250000",
+        "1307119/12500000",
+        "55519/12500000",
+        "1639/3125000"
+      ],
+      "probability_parts": [
+        {
+          "denominator": "12500000",
+          "numerator": "1069"
+        },
+        {
+          "denominator": "6250000",
+          "numerator": "30503"
+        },
+        {
+          "denominator": "6250000",
+          "numerator": "53"
+        },
+        {
+          "denominator": "12500000",
+          "numerator": "319"
+        },
+        {
+          "denominator": "6250000",
+          "numerator": "5534153"
+        },
+        {
+          "denominator": "12500000",
+          "numerator": "1307119"
+        },
+        {
+          "denominator": "12500000",
+          "numerator": "55519"
+        },
+        {
+          "denominator": "3125000",
+          "numerator": "1639"
+        }
+      ],
+      "sum": "1"
+    },
+    "status": "done"
+  },
+  "run": {
+    "deadline_epoch_ns": "1788970145000000000",
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788970145",
+    "input_root": "<TASK_ROOT>/source",
+    "start_epoch_ns": "1788969545414117114",
+    "wall_seconds_requested": "600"
+  }
+}

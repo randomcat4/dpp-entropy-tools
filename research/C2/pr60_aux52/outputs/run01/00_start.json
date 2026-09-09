@@ -1,0 +1,16 @@
+{
+  "checkpoint": "00_start",
+  "checkpoint_epoch_ns": "1788969545414216764",
+  "payload": {
+    "decimal_places": "35",
+    "status": "starting",
+    "terms": "80"
+  },
+  "run": {
+    "deadline_epoch_ns": "1788970145000000000",
+    "env_C2_ABSOLUTE_DEADLINE_EPOCH": "1788970145",
+    "input_root": "<TASK_ROOT>/source",
+    "start_epoch_ns": "1788969545414117114",
+    "wall_seconds_requested": "600"
+  }
+}
