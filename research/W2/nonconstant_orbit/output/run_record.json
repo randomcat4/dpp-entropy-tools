@@ -1,0 +1,15 @@
+{
+  "status": "PASS_EXACT_AUTHOR_CHECK_NOT_INDEPENDENT_REVIEW",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/audit_new.py",
+  "exit_code": 0,
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "script_seconds": 0.143,
+  "output": "output/new_audit.json",
+  "input": "inputs/new.json",
+  "heavy_computation": false,
+  "independent_review": false,
+  "historical_code": "previous/code/verify_round2.py",
+  "historical_code_rerun_this_checkpoint": false,
+  "scope": "Two fixed n=4 objects, closed-walk lengths 1..6, one fixed local-channel obstruction; no asymptotic numerical claim."
+}
