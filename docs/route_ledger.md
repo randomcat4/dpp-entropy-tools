@@ -2,6 +2,8 @@
 
 ## 本轮服务器核验新增
 
+[PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34) 已合入并获[分项非作者审定](verification_20260909/w2/README.md)。循环平均的完整严格等号条件与显式熵率 gap 已闭合；常数中心径向线具有二次或四次定量严格性。一般非常数 `A_2 f` 中心的整弦曲率仍开放。两相关 DPP 的逐点选择等于核仿射混合这一桥接恒等式被二点精确例子否定；不能据此否定真正的熵凹性。
+
 已合入 [PR24](https://github.com/randomcat4/dpp-entropy-tools/pull/24)；详见[固定版本审定](verification_20260909/pr24.md)。新增关闭的是“`max Qlock>=C` 能统一支配 cofactor”这一充分条件，包括仅使用相同三个投影的凸组合；没有关闭真正的完整 Fisher 比较。连通严格 beta 零集非空已有严格括号证书，该括号整体 `d alpha<1`。一般 beta 零集上的界仍 **INCOMPLETE**，不能把一次根存在证书解释成全局解决。
 
 更新于 2026-09-09。这里“关闭”必须带上范围：定理覆盖只排除所述区域；方法被反例否定只否定该方法。有限搜索没有命中，不能关闭数学上的反例空间。

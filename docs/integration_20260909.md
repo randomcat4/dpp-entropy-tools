@@ -1,5 +1,9 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 2
+
+[PR34](https://github.com/randomcat4/dpp-entropy-tools/pull/34) 的冻结头 `838c20b12907d94a9d6e023cc03f48c3f3b36c5c` 已以 `66e807ad5825e96932679669b42d16d4cb93832e` 合入。循环平均严格性和径向四次加强分别经过新的非作者审核，另有 15 个独立编写的固定算例全部通过；[审定、脚本与输出](verification_20260909/w2/README.md)已公开。没有配置 CI，不记为 CI 成功。共同刷新基础定理与 PR29 去重；一般猜想仍 INCOMPLETE。作者后续非恒定中心探索不包含在这一冻结头的认证中。
+
 ## 后继整合批次 1
 
 用户已明确授权唯一集成人核验后合并 main，覆盖原 AGENTS 的旧 draft-only 分工。本批以 merge commit 保留祖先关系，未删除研究分支。

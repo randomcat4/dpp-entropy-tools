@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "author_pr": 34,
+  "author_head": "838c20b12907d94a9d6e023cc03f48c3f3b36c5c",
+  "precision_digits": 100,
+  "scope": "15 deterministic finite checks; high precision, not interval bounds or rate extrapolation",
+  "elapsed_seconds": 0.9978642463684082,
+  "cases": [
+    {
+      "label": "heterogeneous_noncommuting",
+      "n": 4,
+      "cases": [
+        {
+          "s": "-3/2",
+          "negative_entropy_curvature": "0.00156824033505405457124556874936929462396",
+          "dissipation_identity_error": "8.929589e-103"
+        },
+        {
+          "s": "-1/2",
+          "negative_entropy_curvature": "0.001343528176705537449888511371570719320123",
+          "dissipation_identity_error": "4.3252697e-103"
+        },
+        {
+          "s": "0",
+          "negative_entropy_curvature": "0.001316666666666666666666666666666666666667"
+        },
+        {
+          "s": "1/2",
+          "negative_entropy_curvature": "0.00134721197939322385660797838374436075153",
+          "dissipation_identity_error": "6.7390492e-102"
+        },
+        {
+          "s": "3/2",
+          "negative_entropy_curvature": "0.00158444675844982492664644117728824337699",
+          "dissipation_identity_error": "1.4789632e-102"
+        }
+      ]
+    },
+    {
+      "label": "complex_hermitian",
+      "n": 3,
+      "cases": [
+        {
+          "s": "-3/2",
+          "negative_entropy_curvature": "0.001317843028702663839900136612457228011813",
+          "dissipation_identity_error": "5.0228938e-103"
+        },
+        {
+          "s": "-1/2",
+          "negative_entropy_curvature": "0.0001441600485097857783963808281052797196122",
+          "dissipation_identity_error": "2.7113162e-101"
+        },
+        {
+          "s": "0",
+          "negative_entropy_curvature": "0.0"
+        },
+        {
+          "s": "1/2",
+          "negative_entropy_curvature": "0.0001441600485097857783963808281052797196122",
+          "dissipation_identity_error": "2.7114906e-101"
+        },
+        {
+          "s": "3/2",
+          "negative_entropy_curvature": "0.001317843028702663839900136612457228011813",
+          "dissipation_identity_error": "5.5809931e-103"
+        }
+      ]
+    },
+    {
+      "label": "fixed_toeplitz_k1",
+      "n": 6,
+      "cases": [
+        {
+          "s": "-3/2",
+          "negative_entropy_curvature": "0.05302150241539315762934386197720696284455",
+          "dissipation_identity_error": "1.7859178e-102",
+          "quartic_curvature_residual": "0.04434094685983760207378830642165140728899",
+          "parity_gap": "0.009802843411270306218344972385643553191471",
+          "matching_bound": "0.001981277618928787550915517523375908373857"
+        },
+        {
+          "s": "-1/2",
+          "negative_entropy_curvature": "0.005788296341044231640174651844952711448881",
+          "dissipation_identity_error": "2.1654253e-101",
+          "quartic_curvature_residual": "0.004823790168204725467335145672113205276042",
+          "parity_gap": "0.0001205688926348967201385033311781614179594",
+          "matching_bound": "0.00002415001654682774803827063085174195118983"
+        },
+        {
+          "s": "0",
+          "negative_entropy_curvature": "2.23239724859819332464020224278386906143e-103",
+          "quartic_curvature_residual": "2.23239724859819332464020224278386906143e-103",
+          "parity_gap": "-4.571949565129099928863134193221363837808e-100",
+          "matching_bound": "0.0"
+        },
+        {
+          "s": "1/2",
+          "negative_entropy_curvature": "0.005788296341044231640174651844952711448881",
+          "dissipation_identity_error": "2.1654253e-101",
+          "quartic_curvature_residual": "0.004823790168204725467335145672113205276042",
+          "parity_gap": "0.0001205688926348967201385033311781614179594",
+          "matching_bound": "0.00002415001654682774803827063085174195118983"
+        },
+        {
+          "s": "3/2",
+          "negative_entropy_curvature": "0.05302150241539315762934386197720696284455",
+          "dissipation_identity_error": "1.7859178e-102",
+          "quartic_curvature_residual": "0.04434094685983760207378830642165140728899",
+          "parity_gap": "0.009802843411270306218344972385643553191471",
+          "matching_bound": "0.001981277618928787550915517523375908373857"
+        }
+      ]
+    }
+  ]
+}
