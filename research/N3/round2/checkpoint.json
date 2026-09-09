@@ -1,0 +1,11 @@
+{
+  "status": "ACTIVE_RESEARCH",
+  "baseline": "e476db1bb056af57e883a47f470ea0f4443c1837",
+  "target": "frozen_theorem_v1.md",
+  "candidate": "exact beta=0 implies det(N)*alpha<=1",
+  "existing_owned_jobs": [],
+  "threads_per_job": 1,
+  "initial_max_parallel_compute_jobs": 2,
+  "gpu": false,
+  "global_result": "INCOMPLETE"
+}
