@@ -1,0 +1,1 @@
+wrapper exit record exact_check_exit.txt was polluted by shell escaping; output reached PASS line at 2026-09-09T10:17:19+00:00

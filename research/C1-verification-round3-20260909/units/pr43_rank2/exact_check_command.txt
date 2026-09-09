@@ -1,0 +1,9 @@
+ OMP_NUM_THREADS=1
+OPENBLAS_NUM_THREADS=1
+MKL_NUM_THREADS=1
+NUMEXPR_NUM_THREADS=1
+timeout
+600
+/opt/venv/bin/python
+independent_pr43_rank2_check.py
+continuation_fixture.json
