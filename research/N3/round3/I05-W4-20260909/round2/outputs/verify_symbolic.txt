@@ -1,0 +1,6 @@
+symmetric connected family: exact checks passed
+two-point conditional entropy lemma: algebraic checks passed
+block factorization: all eight-event checks passed
+general missing-edge event coordinates: exact checks passed
+exact input manifest: parsed
+ALL SYMBOLIC CHECKS PASSED
