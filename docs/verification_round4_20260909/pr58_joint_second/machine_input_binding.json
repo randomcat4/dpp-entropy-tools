@@ -1,0 +1,178 @@
+{
+  "pr": 76,
+  "head": "a7979c33b6e82431b6ddf1d39ac69e254d7b655a",
+  "executable_head": "bbc9bc19b915ebad0ea8e8bea00580d4eebc5246",
+  "author_numeric_head": "a4f05cc962985015b71635bf633acce9dfe76866",
+  "prefix": "research/C2/pr58_additive52/",
+  "files": [
+    {
+      "path": "execution/CONTRACT_CORRECTION.md",
+      "source_path": "research/C2/pr58_additive52/execution/CONTRACT_CORRECTION.md",
+      "git_blob": "80d2202b4a86e7ac5c8d214bb295db486303dc4d",
+      "sha256": "bbcf3f01bac515d3c194bdde604c047b9ca17622937c0a30bcafe41e1fb6cd34"
+    },
+    {
+      "path": "execution/RUN_LEDGER.json",
+      "source_path": "research/C2/pr58_additive52/execution/RUN_LEDGER.json",
+      "git_blob": "07677734cfe7519827111997487e3567d1018635",
+      "sha256": "740481e8d314865b929f4a6f2d7becfbcb83a062f0028170e472f4333a6b4885"
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "source_path": "research/C2/pr58_additive52/execution/run_guard.sh",
+      "git_blob": "c247b99b61a033a48795cd4098e458c3e8100505",
+      "sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f"
+    },
+    {
+      "path": "implementation/independent_pr58_additive52_checker.py",
+      "source_path": "research/C2/pr58_additive52/implementation/independent_pr58_additive52_checker.py",
+      "git_blob": "c84e11513d708469704c6cd2a40339fb7c9e6873",
+      "sha256": "a1bc7764ae0cb0febb804cbf605548253e1c5767ac7dd583cefc9ff4d65d22d0"
+    },
+    {
+      "path": "inputs/ADDENDUM_JOINT_ADDITIVE.md",
+      "source_path": "research/C2/pr58_additive52/inputs/ADDENDUM_JOINT_ADDITIVE.md",
+      "git_blob": "b6125440919706e2a202d65176d5538c86f4449c",
+      "sha256": "06d1dbcfa721d45e035909c60d822b8230e45d899b2ec1692774071efa7e5fde"
+    },
+    {
+      "path": "inputs/REQUEST.md",
+      "source_path": "research/C2/pr58_additive52/inputs/REQUEST.md",
+      "git_blob": "38360a635369d5adec4c3bd53c37566ef3fecf5f",
+      "sha256": "1c25318ee1cea17c8d4043375d876d33feab012c3f7228db63915ab164d44af6"
+    },
+    {
+      "path": "inputs/REQUEST_CORRECTION.md",
+      "source_path": "research/C2/pr58_additive52/inputs/REQUEST_CORRECTION.md",
+      "git_blob": "27ef6b16d0a0943b7d783ac0d38750cfbfbd2606",
+      "sha256": "167a5da9430a9a8762352de2fdab4ad1a856cfb4d89c5e7ac8b78cfa53ae29de"
+    },
+    {
+      "path": "inputs/SOURCE_BINDING.json",
+      "source_path": "research/C2/pr58_additive52/inputs/SOURCE_BINDING.json",
+      "git_blob": "ce1fc3c6a5c364b01f5de65cc0c6f6829c7e6c3b",
+      "sha256": "d0e5e6cc90b84e27d59c8d46f70cb98706e4d8062a351f2a2e35fc8a918cda4f"
+    },
+    {
+      "path": "inputs/author_checker_reference.py",
+      "source_path": "research/C2/pr58_additive52/inputs/author_checker_reference.py",
+      "git_blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "sha256": "53579ce580df2b6e8b2e4a4a22af24430d133bd4bcc43491069d2f8490b4896f"
+    },
+    {
+      "path": "inputs/author_output_reference.txt",
+      "source_path": "research/C2/pr58_additive52/inputs/author_output_reference.txt",
+      "git_blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "sha256": "1d02240763cd109d993de90b97fd21a523987c30b343e9a66ffcbbe216ed5ea5"
+    },
+    {
+      "path": "outputs/run01/00_metadata.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/00_metadata.json",
+      "git_blob": "6611a60e659b210a2b33b2ed8ff639628edadbab",
+      "sha256": "fca28d02646e4d3ff9ba8a41d658d1b4af0fa75939e1f6cde62f0d346a7d3d79"
+    },
+    {
+      "path": "outputs/run01/01_literal_inputs.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/01_literal_inputs.json",
+      "git_blob": "870c12f1e0107468a06e160baa375e5235149642",
+      "sha256": "53a472019de46c30d0c2543586708c5cea62b82800a9a29b0948466c57b15324"
+    },
+    {
+      "path": "outputs/run01/02_linear_algebra.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/02_linear_algebra.json",
+      "git_blob": "e77cd67a34e4d8ba85099a76bfcca18f4b54b5ac",
+      "sha256": "e66369aaf2b00847d3a6c6e6f1e16986e297dfe4b2c2efc661d83213a432bebc"
+    },
+    {
+      "path": "outputs/run01/03_block_marginals.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/03_block_marginals.json",
+      "git_blob": "0036770914dec6e38ae51bcc9ae9be53777aa9e7",
+      "sha256": "af6b6cc203d88faa7ddb3d9fc02fc0a9d9184ef9545aa2718dfc34fa5039ffd4"
+    },
+    {
+      "path": "outputs/run01/04_events.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/04_events.json",
+      "git_blob": "16eeb520af574325fb7b96ca914a45b1e93e13a2",
+      "sha256": "886047a0934bad6138e02df8f817721aa069cce1bf007738352bf6c411a2cfa3"
+    },
+    {
+      "path": "outputs/run01/05_cancellations.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/05_cancellations.json",
+      "git_blob": "237cbef41029bcde6201cbc2037735074c5cdf77",
+      "sha256": "3960bf384ed1cc9ce60e0a69a77fbd6986f8c2ad9650b95233763cd6208f64d9"
+    },
+    {
+      "path": "outputs/run01/06_forms.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/06_forms.json",
+      "git_blob": "e7c90c12566b82a9b272df0c123776b45840a715",
+      "sha256": "8c64c6860345e5ac9fefd8e9066fbd609c8b1d9db72f8564864bb064bc4d7aea"
+    },
+    {
+      "path": "outputs/run01/07_scalar_enclosures_N80.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/07_scalar_enclosures_N80.json",
+      "git_blob": "d06006a34a6cb30893792eda0ed3e9435c7c0424",
+      "sha256": "93040ba364cd00edf6481a96b311b179b773e5b08ee590f75c9ac6da0b92d384"
+    },
+    {
+      "path": "outputs/run01/08_comparisons_N80.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/08_comparisons_N80.json",
+      "git_blob": "d0d3fb8a519b8486ed4d16b507d4e48d42faf458",
+      "sha256": "d8874e297dea325a30f40a2eefd169e2d56297ff59ff0067932e4ebe1f7caf84"
+    },
+    {
+      "path": "outputs/run01/arithmetic_pid.txt",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/arithmetic_pid.txt",
+      "git_blob": "7ca6aa515c12fc9d765d5650e09983bf1b5fbf3c",
+      "sha256": "02522dba7d7e036606c92a617d5209d6db4052bf1ff1e9993e3fc2bae955a330"
+    },
+    {
+      "path": "outputs/run01/cpu_affinity.txt",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/cpu_affinity.txt",
+      "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "outputs/run01/deadline_utc.txt",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/deadline_utc.txt",
+      "git_blob": "9b6b15ef357cf7255b5462564ee26a080caff6ab",
+      "sha256": "d8763c13fcda8c521b8b4325c295a39d2d1f9b1b352d23ba902a67a67754ed47"
+    },
+    {
+      "path": "outputs/run01/exit.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/exit.json",
+      "git_blob": "250069ed796e765053ed1cfd207dd6d4ee0a9438",
+      "sha256": "4020ff56d79fd2975d3f384d7fd37ae5af6153fa4ca44d3fedc1731584baa545"
+    },
+    {
+      "path": "outputs/run01/final.json",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/final.json",
+      "git_blob": "92eeea82ace6dd4a9064245e3dfecbf11cdba469",
+      "sha256": "dcba46ef5aee6be5131c21701476bfa391dd268c321c8c568e0e9688ba794be1"
+    },
+    {
+      "path": "outputs/run01/start_utc.txt",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/start_utc.txt",
+      "git_blob": "6d99f40e493c0d455fa81540d80ec271f9636ae4",
+      "sha256": "1388c1617d9892c61a0a8ed2de6a40da244c6f8dd4f87ae90f840bca6f7d2b2b"
+    },
+    {
+      "path": "outputs/run01/stderr.log",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run01/stdout.log",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/stdout.log",
+      "git_blob": "c4813287bcb9883a0c99d5c80895379f535da453",
+      "sha256": "93ca790de939b97177eb50d2ba5c23422204c4bedd5c6a3e9dd2c625fb471589"
+    },
+    {
+      "path": "outputs/run01/timeout_pid.txt",
+      "source_path": "research/C2/pr58_additive52/outputs/run01/timeout_pid.txt",
+      "git_blob": "dea9bf28150d33c02aaafb741b202a8f7f975b5e",
+      "sha256": "398109020eb7d606cd81f015419c33031203af288fff8512bf718496353c4ade"
+    }
+  ],
+  "independence": "Independent computation-owner raw source/input/output/execution only. No C1 FIRST or other reviewer materials, top README, machine_notes or C3 disposition. Execution correction and added REQUEST_CORRECTION are original post-launch context, not executed input."
+}

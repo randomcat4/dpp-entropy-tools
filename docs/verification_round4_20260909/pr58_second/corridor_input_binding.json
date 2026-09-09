@@ -1,0 +1,160 @@
+{
+  "pr": 72,
+  "head": "e557d93e864582c9f9e7bd4384ed21d6ae2f66e2",
+  "executable_head": "86617882b7db97f5db39bf613d876a5d5bcf9107",
+  "author_head": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "prefix": "research/C2/pr58_corridor50/",
+  "files": [
+    {
+      "path": "execution/RUN_LEDGER.json",
+      "source_path": "research/C2/pr58_corridor50/execution/RUN_LEDGER.json",
+      "git_blob": "358ef427d78a44901e2439a1dd2e6304cf8d3b93",
+      "sha256": "334bf212e6b627e1f9c9d1f80ce0dc65b6902f755c78c885433949e02aa68f56"
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "source_path": "research/C2/pr58_corridor50/execution/run_guard.sh",
+      "git_blob": "cb2fc2772d4fe1bcfeabf33a6bc0e7288767618a",
+      "sha256": "7cb26cb3f66a365b01e03c921957854d62d0d36af68abb0fcd96624a673b12b3"
+    },
+    {
+      "path": "implementation/independent_pr58_certificate.py",
+      "source_path": "research/C2/pr58_corridor50/implementation/independent_pr58_certificate.py",
+      "git_blob": "e05abed862626fb55d7bb2bc64d192605f9e2b15",
+      "sha256": "18a85a8f19dea50ced5cb6982ccfc90cbcc6a97e267cbdade59151c48b513c3d"
+    },
+    {
+      "path": "inputs/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "source_path": "research/C2/pr58_corridor50/inputs/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f"
+    },
+    {
+      "path": "inputs/RESULT.md",
+      "source_path": "research/C2/pr58_corridor50/inputs/RESULT.md",
+      "git_blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a",
+      "sha256": "f74e393b77923e7ea715fe71e1925c83d2dc37033eae81f8a780d3db672ed14b"
+    },
+    {
+      "path": "inputs/SOURCE_BINDING.json",
+      "source_path": "research/C2/pr58_corridor50/inputs/SOURCE_BINDING.json",
+      "git_blob": "ccf2d33ec2c71792c8b9260f0c722055f6630da6",
+      "sha256": "1d568a04dec4bf6b4e575c967b663dab3db3fe2eb89d17b287a6dd8c4c0dd64b"
+    },
+    {
+      "path": "inputs/author_checker_reference.py",
+      "source_path": "research/C2/pr58_corridor50/inputs/author_checker_reference.py",
+      "git_blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "sha256": "a4b3b0c5ff3a1bbb3801a8208e836bf737eab377e1250429a03a20fbc5768bf9"
+    },
+    {
+      "path": "inputs/author_output_reference.txt",
+      "source_path": "research/C2/pr58_corridor50/inputs/author_output_reference.txt",
+      "git_blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "sha256": "11bfa97f0533c8ea48688a860b47bf9191c94a66ea76d6522fdc1d8138127288"
+    },
+    {
+      "path": "outputs/run01/MACHINE_PASS.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/MACHINE_PASS.json",
+      "git_blob": "53a589eebf7e6f0a33bbd46dac5a5147b97b1ab8",
+      "sha256": "eb1fa4717d0eefd6cc8fea7f79b3d521f3492fb7deb62870b8e1868f15455ccf"
+    },
+    {
+      "path": "outputs/run01/MACHINE_PASS.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/MACHINE_PASS.txt",
+      "git_blob": "f3ff91be4c05243a00c65433e7b0a9acf8cdb721",
+      "sha256": "c1bef61abf44ebd661ea3c21d896b7794339574f60a7ca21a6a58ecfa8c550fc"
+    },
+    {
+      "path": "outputs/run01/arithmetic_pid.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/arithmetic_pid.txt",
+      "git_blob": "4d0c78a29d0e113b6359c9e4e9a53411cf9821a0",
+      "sha256": "0f425dfe2b6e4be9d02636f2cee4f969e1eeb32683bf34d5517ff2fc49a0f267"
+    },
+    {
+      "path": "outputs/run01/corridor.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/corridor.json",
+      "git_blob": "4d682d580fd765bb43263a2858e3171bd3d253d5",
+      "sha256": "f1d6f2b953af14722232b1f5175bff0095099a15235815532bd47aa3c6506745"
+    },
+    {
+      "path": "outputs/run01/cpu_affinity.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/cpu_affinity.txt",
+      "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "outputs/run01/deadline_utc.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/deadline_utc.txt",
+      "git_blob": "cd10cc444788db327cf9a6a7fe53be0cff3ed0a3",
+      "sha256": "4932c4eeb7fdf9be34430fe1015a41396cdaf02bc68f723e79c9e07ff9885145"
+    },
+    {
+      "path": "outputs/run01/events.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/events.json",
+      "git_blob": "2204039dd0401120d2f66fb75473bb7bec30eff2",
+      "sha256": "16f664648193a1a06a8bd73bb30a5ea2dd4feba8daef33f4184671e96bedf922"
+    },
+    {
+      "path": "outputs/run01/exit.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/exit.json",
+      "git_blob": "ec01c32477db6f251b8a6b9f84ac60244b7e1937",
+      "sha256": "664d75bf16f60a4e2b4a833230a924695d3e0b2eed404c2bb1710c33fa795007"
+    },
+    {
+      "path": "outputs/run01/identities.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/identities.json",
+      "git_blob": "0fbfd03f9fe3df61fe2ce6b3f7bc16ed5a3e87ab",
+      "sha256": "cfb0ebfb4dc477fbf3cf75a411c872411d5adf6ecb9904867e22fbf37867f69a"
+    },
+    {
+      "path": "outputs/run01/inputs.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/inputs.json",
+      "git_blob": "4003d8844c85469463ba35a1b5ad61c49dc01b70",
+      "sha256": "a1cc5f7f837e4991324c83d3ab47250620cc599496953271987f5f39d9a60279"
+    },
+    {
+      "path": "outputs/run01/reference_compare.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/reference_compare.json",
+      "git_blob": "8003558caacab71716050e52ad523ec94c55a9f8",
+      "sha256": "9f7aa2e4cab1edbf573722811b5770735aa1a641653b84cf7b666f193b36838c"
+    },
+    {
+      "path": "outputs/run01/s10.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/s10.json",
+      "git_blob": "86830b2814f59d410c9397acf7d590db74cc2570",
+      "sha256": "2edfcb0c7f22c7ae38c6c18f07f747c40c15d650dde8406c1df872e498f01406"
+    },
+    {
+      "path": "outputs/run01/start_utc.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/start_utc.txt",
+      "git_blob": "87bdeb576755d80ee9ca1420caf1c197cb7e65b4",
+      "sha256": "c6391af24906a34c6bc5860fba6c0809e9024d82a097c8fb573a8d42da43cd70"
+    },
+    {
+      "path": "outputs/run01/state.json",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/state.json",
+      "git_blob": "53a589eebf7e6f0a33bbd46dac5a5147b97b1ab8",
+      "sha256": "eb1fa4717d0eefd6cc8fea7f79b3d521f3492fb7deb62870b8e1868f15455ccf"
+    },
+    {
+      "path": "outputs/run01/stderr.log",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/run01/stdout.log",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/stdout.log",
+      "git_blob": "4570b94675d5cd92f458d78b585820bccb8b1ebe",
+      "sha256": "20cb53c4cdfe17b4419c7c9334be3b6daf9279b62498069fa73bcf103254205f"
+    },
+    {
+      "path": "outputs/run01/timeout_pid.txt",
+      "source_path": "research/C2/pr58_corridor50/outputs/run01/timeout_pid.txt",
+      "git_blob": "58e4736c2e6c78d40de3cee5aaca861d37a97538",
+      "sha256": "c4cb2029abb811e8f74950e6ded687aaa9f0e6f744def6d1ec7b6e6beda098cd"
+    }
+  ],
+  "independence": "Computation-owner raw implementation, inputs, outputs and execution only. No C1 FIRST, other SECOND, C3 adjudication, machine_notes or top-level summary."
+}

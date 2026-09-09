@@ -1,0 +1,107 @@
+{
+  "review": "pr58_joint_second",
+  "workdir": "docs/verification_round4_20260909/pr58_joint_second",
+  "author_binding": {
+    "pr": 58,
+    "head": "5ab3cae1c49da8334057596f46a4bd8fc449b98c",
+    "prefix": "research/I05-23-middle-20260909/",
+    "input_binding_path": "input_binding.json"
+  },
+  "computed_hashes": [
+    {
+      "path": "input/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "source_path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "sha256_bound": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+      "sha256_computed": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+      "match": true
+    },
+    {
+      "path": "input/ADDENDUM_JOINT_ADDITIVE.md",
+      "source_path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "git_blob": "6edda267d109cb26cbd11584366d134e2edb2272",
+      "sha256_bound": "2d11917e4a1561f1629faa566a5176ab55bab8e77a0e81a2c7d9294fa9111856",
+      "sha256_computed": "2d11917e4a1561f1629faa566a5176ab55bab8e77a0e81a2c7d9294fa9111856",
+      "match": true
+    },
+    {
+      "path": "input/RESULT.md",
+      "source_path": "research/I05-23-middle-20260909/RESULT.md",
+      "git_blob": "cea5ef0c99b5939e5a2a4ca8712f951c9345c870",
+      "sha256_bound": "3ee93ae70fe29639dd679902468bea52274f52160f7975e01b7aa5484d31b9ac",
+      "sha256_computed": "3ee93ae70fe29639dd679902468bea52274f52160f7975e01b7aa5484d31b9ac",
+      "match": true
+    },
+    {
+      "path": "input/code/verify_joint_additive_failure.py",
+      "source_path": "research/I05-23-middle-20260909/code/verify_joint_additive_failure.py",
+      "git_blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "sha256_bound": "53579ce580df2b6e8b2e4a4a22af24430d133bd4bcc43491069d2f8490b4896f",
+      "sha256_computed": "53579ce580df2b6e8b2e4a4a22af24430d133bd4bcc43491069d2f8490b4896f",
+      "match": true
+    },
+    {
+      "path": "input/code/verify_middle_compensation.py",
+      "source_path": "research/I05-23-middle-20260909/code/verify_middle_compensation.py",
+      "git_blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "sha256_bound": "a4b3b0c5ff3a1bbb3801a8208e836bf737eab377e1250429a03a20fbc5768bf9",
+      "sha256_computed": "a4b3b0c5ff3a1bbb3801a8208e836bf737eab377e1250429a03a20fbc5768bf9",
+      "match": true
+    },
+    {
+      "path": "input/output/verify_joint_additive_failure.txt",
+      "source_path": "research/I05-23-middle-20260909/output/verify_joint_additive_failure.txt",
+      "git_blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "sha256_bound": "1d02240763cd109d993de90b97fd21a523987c30b343e9a66ffcbbe216ed5ea5",
+      "sha256_computed": "1d02240763cd109d993de90b97fd21a523987c30b343e9a66ffcbbe216ed5ea5",
+      "match": true
+    },
+    {
+      "path": "input/output/verify_middle_compensation.txt",
+      "source_path": "research/I05-23-middle-20260909/output/verify_middle_compensation.txt",
+      "git_blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "sha256_bound": "11bfa97f0533c8ea48688a860b47bf9191c94a66ea76d6522fdc1d8138127288",
+      "sha256_computed": "11bfa97f0533c8ea48688a860b47bf9191c94a66ea76d6522fdc1d8138127288",
+      "match": true
+    }
+  ],
+  "additional_local_sources_read": [
+    {
+      "path": "AGENTS.md",
+      "purpose": "local C3 integration constraints before reading accepted PR54 scope"
+    },
+    {
+      "path": "docs/verification_round3_20260909/accepted_pr54.md",
+      "purpose": "narrow accepted scope for the rank-two outer-wedge identity"
+    },
+    {
+      "path": "research/I05-23-20260909/ADDENDUM_OUTER_WEDGE_FLOW_RATE.md",
+      "purpose": "line-local source of the accepted outer-wedge formula and definitions"
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "title": "M. Erbar and J. Maas, Ricci curvature of finite Markov chains via convexity of the entropy",
+      "url": "https://arxiv.org/abs/1111.2687",
+      "version_checked": "arXiv v2 page, submitted 2011-11-11, last revised 2012-06-22",
+      "purpose": "verify limited reversible finite Markov-kernel and nonlocal transport-geodesic setup"
+    }
+  ],
+  "execution": {
+    "author_scripts_run": false,
+    "sympy_or_interval_or_entropy_computation_run": false,
+    "formal_tools_run": false,
+    "remote_computation_run": false,
+    "github_mutation": false,
+    "hash_checks_run": true,
+    "file_reads_only_otherwise": true
+  },
+  "excluded_material": [
+    "C1 review directories and reports",
+    "FIRST reports, code, output, and conclusions",
+    "original PR58 SECOND report",
+    "PR comments",
+    "independent C2 artifacts",
+    "[excluded private directory]"
+  ]
+}

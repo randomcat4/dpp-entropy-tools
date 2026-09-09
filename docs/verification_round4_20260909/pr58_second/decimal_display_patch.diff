@@ -1,0 +1,12 @@
+--- a/research/I05-23-middle-20260909/RESULT.md
++++ b/research/I05-23-middle-20260909/RESULT.md
+@@ -245,7 +245,7 @@
+ 
+ `W(10) = E[b psi(u_10)]`
+ 
+-inside an interval of width `< 5.83e-83` whose upper endpoint is
++inside an interval of width `< 5.83e-83` whose exact rational upper endpoint is negative and is printed approximately as
+ 
+ `-6.607689421828591727648293551781519992839111897380129530e-7 < 0`.   (5.1)
+ 
+

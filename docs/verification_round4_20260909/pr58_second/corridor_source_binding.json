@@ -1,0 +1,130 @@
+{
+  "reviewer": "pr58_second",
+  "date": "2026-09-10",
+  "mode": "bounded_static_second_followup_for_original_pr58_finite_certificate",
+  "computation_packet": {
+    "binding_path": "corridor_input_binding.json",
+    "head": "e557d93e864582c9f9e7bd4384ed21d6ae2f66e2",
+    "executable_head": "86617882b7db97f5db39bf613d876a5d5bcf9107",
+    "author_head": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+    "prefix": "research/C2/pr58_corridor50/",
+    "file_count": 25,
+    "sha256_mismatches": 0,
+    "independence_note": "Raw implementation, inputs, outputs, and execution only; no FIRST/reviewer verdict, machine_notes, or top-level summary used."
+  },
+  "primary_files_read": [
+    {
+      "path": "research/C2/pr58_corridor50/implementation/independent_pr58_certificate.py",
+      "git_blob": "e05abed862626fb55d7bb2bc64d192605f9e2b15",
+      "sha256": "18a85a8f19dea50ced5cb6982ccfc90cbcc6a97e267cbdade59151c48b513c3d",
+      "line_ranges_used": ["1-9", "46-62", "77-84", "142-166", "250-416", "442-528", "529-620", "623-695", "711-794", "843-862", "865-924", "924-1145", "1143-1281", "1282-1465", "1467-1550", "1561-1579"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/outputs/run01/events.json",
+      "git_blob": "2204039dd0401120d2f66fb75473bb7bec30eff2",
+      "sha256": "16f664648193a1a06a8bd73bb30a5ea2dd4feba8daef33f4184671e96bedf922",
+      "fields_used": ["status", "event_count", "left_3x3_events", "right_3x3_events", "events.q_t_poly"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/outputs/run01/identities.json",
+      "git_blob": "0fbfd03f9fe3df61fe2ce6b3f7bc16ed5a3e87ab",
+      "sha256": "cfb0ebfb4dc477fbf3cf75a411c872411d5adf6ecb9904867e22fbf37867f69a",
+      "fields_used": ["normalization", "moments", "fiber_cancellations", "mobius_identity.subset_count"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/outputs/run01/corridor.json",
+      "git_blob": "4d682d580fd765bb43263a2858e3171bd3d253d5",
+      "sha256": "f1d6f2b953af14722232b1f5175bff0095099a15235815532bd47aa3c6506745",
+      "fields_used": ["coverage", "intervals", "legality_bridge"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/outputs/run01/s10.json",
+      "git_blob": "86830b2814f59d410c9397acf7d590db74cc2570",
+      "sha256": "2edfcb0c7f22c7ae38c6c18f07f747c40c15d650dde8406c1df872e498f01406",
+      "fields_used": ["q_min", "W", "true_scaled_curvature_t2Ipp_equals_t2_minus_Hpp", "events"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/outputs/run01/reference_compare.json",
+      "git_blob": "8003558caacab71716050e52ad523ec94c55a9f8",
+      "sha256": "9f7aa2e4cab1edbf573722811b5770735aa1a641653b84cf7b666f193b36838c",
+      "fields_used": ["status", "required_keys", "comparisons", "matched_count", "decimal_note"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/execution/RUN_LEDGER.json",
+      "git_blob": "358ef427d78a44901e2439a1dd2e6304cf8d3b93",
+      "sha256": "334bf212e6b627e1f9c9d1f80ce0dc65b6902f755c78c885433949e02aa68f56",
+      "fields_used": ["status", "argv", "runtime", "exit_code", "bound", "required_rational_comparison_count"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/execution/run_guard.sh",
+      "git_blob": "cb2fc2772d4fe1bcfeabf33a6bc0e7288767618a",
+      "sha256": "7cb26cb3f66a365b01e03c921957854d62d0d36af68abb0fcd96624a673b12b3",
+      "line_ranges_used": ["1-53"]
+    },
+    {
+      "path": "research/C2/pr58_corridor50/inputs/RESULT.md",
+      "git_blob": "86abd2ab776468ab7ff5597ae2d00beda939b19a",
+      "sha256": "f74e393b77923e7ea715fe71e1925c83d2dc37033eae81f8a780d3db672ed14b",
+      "line_ranges_used": ["230-258"]
+    },
+    {
+      "path": "docs/verification_round4_20260909/pr58_second/decimal_display_patch.diff",
+      "use": "presentation closure for RESULT.md (5.1) decimal display"
+    }
+  ],
+  "json_inspection_results": {
+    "events": {
+      "event_count": 64,
+      "q_constant_not_one_count": 0,
+      "q_bad_degree_count": 0
+    },
+    "identities": {
+      "left_fiber_count": 8,
+      "right_fiber_count": 8,
+      "left_nonzero_fiber_sums": 0,
+      "right_nonzero_fiber_sums": 0,
+      "mobius_subset_count": 64
+    },
+    "corridor": {
+      "intervals": ["[3,9]", "[8,12]", "[11,14]", "[14,15]"],
+      "per_event_extrema_per_interval": 64,
+      "all_strict_q_positive": true,
+      "all_strict_squared_margins_positive": true,
+      "verified_no_gaps": true
+    },
+    "reference_compare": {
+      "mandatory_corridor_key_count": 26,
+      "mandatory_total_key_count_including_s10_q_min": 27,
+      "matched_count": 27,
+      "missing_required_reference_keys": 0,
+      "missing_required_own_keys": 0,
+      "mismatched_required_keys": 0
+    },
+    "s10": {
+      "event_count": 64,
+      "q_min_matches_expected": true,
+      "W_upper_endpoint_negative": true,
+      "W_width_check_passed": true,
+      "curvature_lower_check_passed": true,
+      "curvature_width_check_passed": true,
+      "derivative_log_mu_left_nonzero_sums": 0,
+      "derivative_log_mu_right_nonzero_sums": 0,
+      "derivative_log_linear_plus_one_num": "0",
+      "derivative_log_normalform_diff_num": "0",
+      "derivative_rational_normalform_diff_num": "0"
+    }
+  },
+  "accepted_scope": [
+    "fixed 3+3 corridor certificate for 3<=s=t^2<=15 at static SECOND level",
+    "s=10 W(10)<0 exact rational-log interval at static SECOND level",
+    "s=10 t^2 I''(t)>0.17037745196806863130550498470533808479721333392335 exact rational-log interval at static SECOND level",
+    "decimal-display wording patch for original RESULT.md (5.1)"
+  ],
+  "excluded_scope": [
+    "checker rerun by this reviewer",
+    "joint-additive s9/s10 or PR76 material",
+    "whole legal chord",
+    "general dense rank-two theorem",
+    "novelty, CI, and formal verification"
+  ]
+}

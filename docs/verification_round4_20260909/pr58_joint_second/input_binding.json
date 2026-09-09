@@ -1,0 +1,51 @@
+{
+  "pr": 58,
+  "head": "5ab3cae1c49da8334057596f46a4bd8fc449b98c",
+  "prefix": "research/I05-23-middle-20260909/",
+  "files": [
+    {
+      "path": "ADDENDUM_CONDITIONAL_CENTERING.md",
+      "source_path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f"
+    },
+    {
+      "path": "ADDENDUM_JOINT_ADDITIVE.md",
+      "source_path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "git_blob": "6edda267d109cb26cbd11584366d134e2edb2272",
+      "sha256": "2d11917e4a1561f1629faa566a5176ab55bab8e77a0e81a2c7d9294fa9111856"
+    },
+    {
+      "path": "RESULT.md",
+      "source_path": "research/I05-23-middle-20260909/RESULT.md",
+      "git_blob": "cea5ef0c99b5939e5a2a4ca8712f951c9345c870",
+      "sha256": "3ee93ae70fe29639dd679902468bea52274f52160f7975e01b7aa5484d31b9ac"
+    },
+    {
+      "path": "code/verify_joint_additive_failure.py",
+      "source_path": "research/I05-23-middle-20260909/code/verify_joint_additive_failure.py",
+      "git_blob": "c9d2ae05e9d13db7623d98b77ff8bef03268f83d",
+      "sha256": "53579ce580df2b6e8b2e4a4a22af24430d133bd4bcc43491069d2f8490b4896f"
+    },
+    {
+      "path": "code/verify_middle_compensation.py",
+      "source_path": "research/I05-23-middle-20260909/code/verify_middle_compensation.py",
+      "git_blob": "f3054c5326e52a8094cda670afd31d7ca668b7b6",
+      "sha256": "a4b3b0c5ff3a1bbb3801a8208e836bf737eab377e1250429a03a20fbc5768bf9"
+    },
+    {
+      "path": "output/verify_joint_additive_failure.txt",
+      "source_path": "research/I05-23-middle-20260909/output/verify_joint_additive_failure.txt",
+      "git_blob": "eb83fb0c14bc03fbde78a7d73c80a9745a1432fe",
+      "sha256": "1d02240763cd109d993de90b97fd21a523987c30b343e9a66ffcbbe216ed5ea5"
+    },
+    {
+      "path": "output/verify_middle_compensation.txt",
+      "source_path": "research/I05-23-middle-20260909/output/verify_middle_compensation.txt",
+      "git_blob": "4a084f150992f7d8268a1a0121b623b6d75ce4ba",
+      "sha256": "11bfa97f0533c8ea48688a860b47bf9191c94a66ea76d6522fdc1d8138127288"
+    }
+  ],
+  "independence": "Author-only frozen source; no FIRST report/code/output/conclusion and no independent machine packet included.",
+  "scope": "Joint-additive analytic proof only; numerical witness remains a separate gate."
+}

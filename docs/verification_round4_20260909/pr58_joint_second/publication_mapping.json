@@ -1,0 +1,66 @@
+{
+  "unit": "pr58_joint_second",
+  "note": "Local aliases only are mapped for public copies. Mathematical assertions and input hashes unchanged. Original reports and failure history remain intact.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "e45bdd603c9f97361caf5cb1f44ea1a8c6c1eb3966a5f5d2d31cc86a7a257f32",
+      "published_copy_sha256": "908c25693c248917f000972fa9e87c3414f60738cdc821adaf18c9317a51cd6d"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "1886d5ad4d5b86eae6dc9fc131a5186323ff2a8a1354234621af74fa1d335775",
+      "published_copy_sha256": "632a92f7c7e7c8d7beb6567cf116e1dd4cd430841ca3566b48798041051f90ed"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "f61d1c2c18483099d13eb1d36a1acdb77944af802c088c38af06be1ba014d794",
+      "published_copy_sha256": "0bc1f3cc20fa22876f1024d1eda946c8bbc59a15bcd8d7702503a458e7b0a360"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "140b9493ab38e4a41a09121a8529e465771cbae22e4fd8cd53b8dd318694f4e7",
+      "published_copy_sha256": "140b9493ab38e4a41a09121a8529e465771cbae22e4fd8cd53b8dd318694f4e7"
+    },
+    {
+      "file": "table_order_closure.md",
+      "original_sha256": "be5b272a1c3699596b6d924a8976fcf92758818c264de56bed4fbe8416ddcf14",
+      "published_copy_sha256": "f1c02038c429f5f6138ddd92bad565d7a778ed8d8c47ae7b71126260ac0dd628"
+    },
+    {
+      "file": "table_order_patch.diff",
+      "original_sha256": "2dbdee1f7d1b0c395849027acf1a503a26580516da05439c85a06f599257bdaf",
+      "published_copy_sha256": "2dbdee1f7d1b0c395849027acf1a503a26580516da05439c85a06f599257bdaf"
+    },
+    {
+      "file": "machine_scope.md",
+      "original_sha256": "be4b908e77347f45a8fb4f3b832e3ac6182ebfed7eb32591cddf3601dd754c87",
+      "published_copy_sha256": "72489ff32f6ce79bf5b88fa7bcd89c282433e1f28586a9320698f014ba0204f9"
+    },
+    {
+      "file": "machine_review_report.md",
+      "original_sha256": "52607130246c9764785d5909afd78a3d7b9e735cc9c64b7d04decaa19d6fefca",
+      "published_copy_sha256": "9066e075aa8ae5818ffb3178c8863ab276adc8c59cd0f062d8ce6212e2de9e6c"
+    },
+    {
+      "file": "machine_source_binding.json",
+      "original_sha256": "7d8d7af05c95f70ea4a0fea2545265ce1933189b4c7c259b53b7e10a1a1389c7",
+      "published_copy_sha256": "7d9c228e10cf818fe1fb13ccd400ea2a73b26d691d9261688c7752589b30e4cc"
+    },
+    {
+      "file": "machine_input_binding.json",
+      "original_sha256": "3d73881097d93a2dc2f3aa3489bf0a2cf3b0e2ce18bad25a0944145c648eb6a1",
+      "published_copy_sha256": "3d73881097d93a2dc2f3aa3489bf0a2cf3b0e2ce18bad25a0944145c648eb6a1"
+    },
+    {
+      "file": "joint_bounds_patch.diff",
+      "original_sha256": "37fa9e025008591a0e8e4d99a464e2f100339a6214d33a43c0f49ff6a6eb8c68",
+      "published_copy_sha256": "37fa9e025008591a0e8e4d99a464e2f100339a6214d33a43c0f49ff6a6eb8c68"
+    },
+    {
+      "file": "joint_bounds_delta_binding.json",
+      "original_sha256": "485c2de3f1dd1597b1530eb484571ed352222c54969d339093a71d5e4dfb1b41",
+      "published_copy_sha256": "485c2de3f1dd1597b1530eb484571ed352222c54969d339093a71d5e4dfb1b41"
+    }
+  ]
+}

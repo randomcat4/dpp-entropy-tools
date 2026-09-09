@@ -1,0 +1,71 @@
+{
+  "unit": "pr58_second",
+  "note": "Local aliases only are mapped for public copies. Mathematical assertions and input hashes unchanged. Original reports and failure history remain intact.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "d903e67c685c251fbbbe56753ec49d3d11b0bc022e1198c29ab911862c531f6f",
+      "published_copy_sha256": "8bf31907d198b9802048d82cf5733e85b95e7b7a1de354aec527cfca7469ea12"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "8b5588b0a897fb6231861ea2cbbc704a54a655b6e63b31657f409c762b76433f",
+      "published_copy_sha256": "805c1a28b8b8d48f5d20de6f5a37c880365cb4306b0270a3c99f7dafa7ca7231"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "4fa13b72ac07cdb6c4bad0b0ce0df37ae6d4d1e8bc8a46ac8c9d90b9f5940deb",
+      "published_copy_sha256": "64aabe555145a1f1b136bd4f2a84bf553c85e3f5d00e2d282c40bba45e2aec0b"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "f66c0fa0d22e90af371b4b375d9f79e339d6828de7859c57d807294dd3066206",
+      "published_copy_sha256": "f66c0fa0d22e90af371b4b375d9f79e339d6828de7859c57d807294dd3066206"
+    },
+    {
+      "file": "wording_closure.md",
+      "original_sha256": "a738cdc5f4bdeb6f4f4573a716c4d98d43b975d1016d65d0e0d3d76e1c59fcb1",
+      "published_copy_sha256": "f6d5481eb8cd16388f2e8ebfd5d2cb86b8754a50c6b557826faee142128b656d"
+    },
+    {
+      "file": "corridor_scope.md",
+      "original_sha256": "0aedf91a91b5ae64d1d8cd7e2699dc63e2d400219f33ca8060d39e484af3c5a8",
+      "published_copy_sha256": "77d7b7839c3f756c0c41b719900e6390284b55abe2b1971fde8932137ed004eb"
+    },
+    {
+      "file": "corridor_review_report.md",
+      "original_sha256": "2e816c1ec9c520d27173de8ea98e27fca05504c328c6fc1e24a348be6c566037",
+      "published_copy_sha256": "db986fb00588bd2080aec538372d0077b8f6bca7ccd8a831a0e932842e6ca628"
+    },
+    {
+      "file": "corridor_source_binding.json",
+      "original_sha256": "ecb1f8bb9339895513e16bea05329646b1c0ee07918fcbe1eb08247f4bdfbc75",
+      "published_copy_sha256": "c723672f45fc6c6e5b4e9a09710bd7b60236cee1b8a23317ae7d5334ccc1aa10"
+    },
+    {
+      "file": "corridor_input_binding.json",
+      "original_sha256": "2303c352e7e84c59939ef8bbbccd91ea15d78a4442e05400e359fb7339f26517",
+      "published_copy_sha256": "2303c352e7e84c59939ef8bbbccd91ea15d78a4442e05400e359fb7339f26517"
+    },
+    {
+      "file": "decimal_display_closure.md",
+      "original_sha256": "b709d34eff39f8544505070d6765d5278ad29156e8d83f32c569fa0fa7b4ea6f",
+      "published_copy_sha256": "6803eb203da21e952c0a57edc2267eb74ee940a0354ba9aac6a1935656b357a6"
+    },
+    {
+      "file": "decimal_display_patch.diff",
+      "original_sha256": "d8a6787b276b7bdc00c849f1c6d56a83fdee0a282a6e12608308e1e3a8dea653",
+      "published_copy_sha256": "d8a6787b276b7bdc00c849f1c6d56a83fdee0a282a6e12608308e1e3a8dea653"
+    },
+    {
+      "file": "wording_change.patch",
+      "published_copy_sha256": "0f08ff801be5d43285c99a3dc0d554a5f73c1c21851aab05403f75277a94cfd6",
+      "note": "Previously staged exact source delta; retained unchanged."
+    },
+    {
+      "file": "wording_source_delta.json",
+      "published_copy_sha256": "8ff193961d4744578abe326dd1ebba6c58e1eb194af2016647aa1033cae6bdae",
+      "note": "Previously staged exact source delta; retained unchanged."
+    }
+  ]
+}

@@ -1,21 +1,23 @@
 # 第四轮独立核验与整合：2026-09-09
 
-状态：**RUNNING，按具体单元接受**。前轮九个 PR 已完成；本轮 PR57、PR59、PR60、PR62 及 PR64/71 证据已合入，后续单元仍走独立门槛。常规协作入口为 [issue44](https://github.com/randomcat4/dpp-entropy-tools/issues/44)。
+状态：**RUNNING，按具体单元接受**。前轮九个 PR 已完成；本轮 PR57、PR58、PR59、PR60、PR62 及 PR64/71/72/76 证据、PR69/75 首审档案已合入，后续单元仍走独立门槛。常规协作入口为 [issue44](https://github.com/randomcat4/dpp-entropy-tools/issues/44)。
 
 | 单元 | 冻结源 | 当前结论与下一门槛 |
 | --- | --- | --- |
 | PR57 | 作者 `ba890f6294272849fa0a20d5c7e0e9f97d171d51`；最终包 `169cda3daf8054b53ea5622a0cb14b35a097f2e3` | **ACCEPTED_SCOPED**；r=0 精确矩阵链，新 FIRST 独立重算与隔离 SECOND 通过；合并 `818ee1a210bdcf3a57d2fac6c73e806375a8eee7`；[完整范围](verification_round4_20260909/accepted_pr57.md) |
-| PR58 | 当前 `ce9ade6d57469f0a4a67365604c66eb4cc290fc5`；原始/新增稿与各文字修订分别留档 | 原始和新增解析单元已双审；原 [3,15]/s10 的 PR72 有限 FIRST 接受证据，近似小数说明已修待 delta 闭合，有限 SECOND 进行。新增 s9/10 的 PR76 首个阈值小数界精确失败，独立有限门槛未完成 |
+| PR58 | `89aa874c24dd5a3ea98f8474826392560b1d0397` | **ACCEPTED_SCOPED**；原始/新增解析与各自有限单元双审、修复闭合；[完整范围与首错历史](verification_round4_20260909/accepted_pr58.md) |
 | PR59 | `892a121a6e26fcf638c75de917e50a4503b5675e` | **ACCEPTED_SCOPED**；五单元双审通过，合并 `0a396f65e4daa9407bb4ed6295f703d4d2e0dfe1`；[精确范围](verification_round4_20260909/accepted_pr59.md) |
 | PR60 | `f869fd251c0d6fdad737b6d5efa287307795a87d` | **ACCEPTED_SCOPED**；五单元双审，合并 `ccdc63d3c16bbf7e09b20261b4b60242ba3ae010`；[精确范围](verification_round4_20260909/accepted_pr60.md) |
 | PR62 | `2ab69f71d4d36a2734beed83680dd3d9dc1f0a77` | **ACCEPTED_SCOPED**；秩一中点与小幅共同翻转解析双审，合并 `a33009272a88458b35f552fd0409fa9c69856a42`；作者有限示例未独立认证；[范围](verification_round4_20260909/accepted_pr62.md) |
 | PR64 | `5b40617fe7172aa266614aa28688d310218cb387` | **MACHINE_PASS + 对应数学双审**；原始全 r 包合并 `d90a009136947139aa9233d76621d2d2d22f58f8`。首次机械索引失败和同窗修复保留 |
-| PR66 | `af1edaad69c4e1f5e4bbd1239b8463b56bf64075` | **INCOMPLETE**；内部解析链有条件认可，Dobrushin 原始定理的相互作用/扰动类适用性尚未闭合；全文已找到交原 FIRST，未启动 SECOND |
-| PR69 | 已读 `972646e03be0062a233ae2c434ad1bff3e520913` | C1 第五轮 FIRST 档案，包含 PR60 全 r/辅助、PR58 corridor 和各独立修订闭合；后继头不自动继承 |
+| PR66 | `af1edaad69c4e1f5e4bbd1239b8463b56bf64075` | **NEEDS_FIX / CRITICAL_GAPS**；已核对全文，Dobrushin相互作用/扰动类成员条件未证，最终定理未接受、未启动SECOND；[具体修复义务](verification_round4_20260909/deferred_pr66.md) |
+| PR69 | `2f4498562cd1014394332bc934f93f05aa45f2a3` | 第五轮FIRST档案58文件已合入，含全部PR58修复与有限后续，原始缺口/失败报告保留 |
 | PR71 | `8878516c0ad12e60884419fc03525b2a7caa7be3` | **MACHINE_PASS + 对应数学双审**；辅助原始包已合入，仅为方法障碍及真实曲率/Jensen检查 |
-| PR72 | `e557d93e864582c9f9e7bd4384ed21d6ae2f66e2` | **MACHINE_PASS**；原 PR58 四区间与 s10；有限 SECOND 与源文字闭合进行中 |
-| PR75 | 已读 `57d28d42ef27801daafe9c990d72b7037670a296` | C1 新到 PR62/66 FIRST 档案；解析接受和外部引用缺口分别记录 |
-| PR76 | `a7979c33b6e82431b6ddf1d39ac69e254d7b655a` | **STOPPED_FIRST_EXACT_MISMATCH**；T<166.44125195305153 被严格有理包络否定。W/V 请求更正独立记账，不算作者错误；无重跑/续时 |
+| PR72 | `e557d93e864582c9f9e7bd4384ed21d6ae2f66e2` | **MACHINE_PASS + 对应数学双审**；原PR58四区间与s10原始证据已合入 |
+| PR75 | `a571e1e5cc5a5ac994ca8f7151cfe7b38f9a6b64` | 第六轮FIRST档案20文件已合入；PR62解析接受与PR66实际引用类缺口分别记录 |
+| PR76 | `a7979c33b6e82431b6ddf1d39ac69e254d7b655a` | **STOPPED_FIRST_EXACT_MISMATCH** 原包已归档；依据现存包络修订的有限文字89aa获双审，不改变原终态，不认证已撤下W小数 |
+| PR70 | `f7be60759fd4d65184803b6585965dc7e5ccd624`，8文件 | 既有网页22后继：配对perspective/2×2归约/尾与thinning/固定辅助见证；冻结送独立FIRST，未接受，issue73探索长计算未启动 |
+| PR77 | `6ebe38dc6503120d47e9d644cfac78cfb43666f5`，不可变tree18文件 | 既有网页21后继：固定双谐波真实率Jensen与曲率尾等；冻结送独立FIRST，作者继续写作，后继头另审；issue74连续区间重算未启动 |
 
 保留现有三个主实例：C1 首审、C2 有界计算、C3 唯一 main 集成。作者不得自证，后继头不得自动继承审定；最多三个直属子任务，禁止子任务继续派生。严谨审查用 GPT-5.5 xhigh。除非出现具体义务，不重复旧理论或计算。
 

@@ -1,0 +1,112 @@
+{
+  "review": "pr58_joint_second_machine_second",
+  "workdir": "docs/verification_round4_20260909/pr58_joint_second",
+  "machine_packet": {
+    "root": "machine_input",
+    "binding_path": "machine_input_binding.json",
+    "binding_sha256": "3d73881097d93a2dc2f3aa3489bf0a2cf3b0e2ce18bad25a0944145c648eb6a1",
+    "pr": 76,
+    "head": "a7979c33b6e82431b6ddf1d39ac69e254d7b655a",
+    "executable_head": "bbc9bc19b915ebad0ea8e8bea00580d4eebc5246",
+    "author_numeric_head": "a4f05cc962985015b71635bf633acce9dfe76866",
+    "prefix": "research/C2/pr58_additive52/",
+    "file_count": 28,
+    "all_file_sha256_match_binding": true
+  },
+  "patches": {
+    "table_order_patch": {
+      "path": "table_order_patch.diff",
+      "sha256": "2dbdee1f7d1b0c395849027acf1a503a26580516da05439c85a06f599257bdaf",
+      "parent": "5ab3cae1c49da8334057596f46a4bd8fc449b98c",
+      "head": "ce9ade6d57469f0a4a67365604c66eb4cc290fc5",
+      "status_in_this_review": "previously reviewed, combined as accepted presentation context"
+    },
+    "joint_bounds_patch": {
+      "path": "joint_bounds_patch.diff",
+      "sha256": "37fa9e025008591a0e8e4d99a464e2f100339a6214d33a43c0f49ff6a6eb8c68",
+      "delta_binding_path": "joint_bounds_delta_binding.json",
+      "delta_binding_sha256": "485c2de3f1dd1597b1530eb484571ed352222c54969d339093a71d5e4dfb1b41",
+      "parent": "ce9ade6d57469f0a4a67365604c66eb4cc290fc5",
+      "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+      "changed_path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "changed_files": 1,
+      "code_output_fixture_changed": false
+    }
+  },
+  "top_level_binding_hashes": {
+    "input_binding_json_sha256": "140b9493ab38e4a41a09121a8529e465771cbae22e4fd8cd53b8dd318694f4e7",
+    "machine_input_binding_json_sha256": "3d73881097d93a2dc2f3aa3489bf0a2cf3b0e2ce18bad25a0944145c648eb6a1",
+    "joint_bounds_delta_binding_json_sha256": "485c2de3f1dd1597b1530eb484571ed352222c54969d339093a71d5e4dfb1b41",
+    "joint_bounds_patch_diff_sha256": "37fa9e025008591a0e8e4d99a464e2f100339a6214d33a43c0f49ff6a6eb8c68",
+    "table_order_patch_diff_sha256": "2dbdee1f7d1b0c395849027acf1a503a26580516da05439c85a06f599257bdaf"
+  },
+  "selected_raw_execution": {
+    "run_status": "STOPPED_FIRST_EXACT_MISMATCH",
+    "raw_status": "LITERAL_BOUND_CERTIFIED_FALSE",
+    "first_start_utc": "2026-09-09T16:21:24Z",
+    "deadline_utc": "2026-09-09T16:31:24Z",
+    "finished_utc": "2026-09-09T16:22:48Z",
+    "exit_code": 20,
+    "arithmetic_pid": 174687,
+    "timeout_pid": 174685,
+    "no_live_arithmetic": true,
+    "contract_correction_published_utc": "2026-09-09T16:22:08Z",
+    "contract_correction_applied_to_arithmetic": false,
+    "run01_W_field_means": "V=E_mu[y psi]=s^2 W_author"
+  },
+  "selected_machine_leaves": {
+    "event_count": 64,
+    "event_indices": "0..63 in mask order",
+    "all_q_positive": true,
+    "all_P_positive": true,
+    "B_rank": 2,
+    "B_dense": true,
+    "block_marginal_counts": {
+      "p_A": 8,
+      "p_C": 8
+    },
+    "all_positive_definite_checks_passed": true,
+    "dual_row_sums": [0, 0, 0, 0, 0, 0, 0, 0],
+    "dual_column_sums": [0, 0, 0, 0, 0, 0, 0, 0],
+    "log_terms": 80,
+    "widths_ok": true,
+    "scalar_enclosures_decimal_24": {
+      "L": ["192.456447546638183766230914", "192.456447546638183766230915"],
+      "T": ["166.441251953051540106785812", "166.441251953051540106785813"],
+      "V_labelled_W_in_run01": ["-1.825377232343279850885156", "-1.825377232343279850885155"],
+      "true_curvature": ["4.653598245398841812928176", "4.653598245398841812928177"],
+      "direct_curvature": ["4.653598245398841812928176", "4.653598245398841812928177"]
+    },
+    "literal_comparisons": {
+      "3.4": "PASS",
+      "3.5": "CERTIFIED_FALSE_DISJOINT",
+      "3.6": "CERTIFIED_FALSE_DISJOINT under request label V, not an author-W falsehood",
+      "3.7": "PASS"
+    },
+    "qualitative_comparisons": {
+      "L>T": "PASS",
+      "V_labelled_W<0": "PASS",
+      "true_curvature>0": "PASS"
+    }
+  },
+  "execution_by_this_reviewer": {
+    "checker_run": false,
+    "author_checker_run": false,
+    "sympy_or_interval_or_entropy_computation_run": false,
+    "formal_tools_run": false,
+    "remote_computation_run": false,
+    "github_mutation": false,
+    "json_inspection": true,
+    "hash_checks": true
+  },
+  "excluded_material": [
+    "FIRST conclusions",
+    "reviewer conclusions",
+    "top README",
+    "machine_notes",
+    "C1 material",
+    "other reviewer material",
+    "PR76 remote material",
+    "[excluded private directory]"
+  ]
+}

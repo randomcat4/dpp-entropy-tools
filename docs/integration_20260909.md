@@ -1,5 +1,9 @@
 # 2026-09-09 main 整合记录
 
+## 第四轮后继整合：PR58与完整FIRST档案
+
+[PR58完整限定范围](verification_round4_20260909/accepted_pr58.md)经过原始解析/有限和新增解析/修订有限各自FIRST、隔离SECOND，最终作者头以 `e158da11499436f9696ffd740e41ce804faf3f12` 合入。独立PR72成功证据与PR76停止于首错的证据分别合入 `eae4393ff9ca8bb629f7f54416c072e28facca66`、`4276137487c0dbaba7e0eb43380d9f1b960812e6`；后者没有变成MACHINE_PASS。C1第五轮及第六轮FIRST档案分别以 `7d0039121fc8b52a44ca865c7b7115375450c0cb`、`017606ca996bb05b932d0544ec6d71b7c0ba6ea0` 归档；PR66最终定理仍[未通过引用适用性门槛](verification_round4_20260909/deferred_pr66.md)。PR70与PR77后继作者稿仅冻结待FIRST，不继承已接受结果。
+
 ## 第四轮后继整合：PR60、PR62
 
 PR60 的五个单元和 PR62 的解析中点/小幅翻转定理均分别完成 C1 FIRST 与隔离 C3 SECOND。[PR60 精确范围](verification_round4_20260909/accepted_pr60.md)及[PR62 精确范围](verification_round4_20260909/accepted_pr62.md)记录接受的量词、证据和排除项。独立原始机器包 PR64、PR71 与 PR60/62 作者头已依次合入：`d90a009136947139aa9233d76621d2d2d22f58f8`、`c19fe33c47f26f4ca51b51daba5f1e1d3febee22`、`ccdc63d3c16bbf7e09b20261b4b60242ba3ae010`、`a33009272a88458b35f552fd0409fa9c69856a42`。所有合并父提交和冻结头均核对。PR58 的新增有限小数阈值已有首个精确不一致，未合入；PR66 外部定理适用性仍由原 FIRST 核实。

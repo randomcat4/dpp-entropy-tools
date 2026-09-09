@@ -1,0 +1,20 @@
+--- a/research/I05-23-middle-20260909/RESULT.md
++++ b/research/I05-23-middle-20260909/RESULT.md
+@@ -91,7 +91,7 @@
+ 
+ `P + A2 > (1/2) sqrt(A2 Rpsi)`.                              (3.2)
+ 
+-This criterion is strictly weaker than the sign condition `W>=0`: it can hold with `E[y psi]<0`.
++This is a different sufficient criterion that can hold with `E[y psi]<0`; no logical implication from `W>=0` to (3.2) is claimed.
+ 
+ #### Proof
+ 
+@@ -139,7 +139,7 @@
+ 
+ `Phi(u)>=4u^2/q`, hence `P>=4E[u^2]/q_+`.  The other two displayed bounds are immediate from `q>=q_-`, `q<=q_+`, `|psi|<=Psi`, and `|y|=s^2|b|<=R^2|b|`.  Insert them into (3.1) and discard the positive `+A2` term after using its upper bound only inside the negative square-root term. ∎
+ 
+-This is a genuine compensation criterion: unlike `W>=0`, it pays for a negative signed term using the retained full Fisher/quadratic contribution.
++This compensation bound controls a negative signed term using the retained full Fisher/quadratic contribution; its displayed sufficient inequality must still be verified.
+ 
+ ---
+ 
