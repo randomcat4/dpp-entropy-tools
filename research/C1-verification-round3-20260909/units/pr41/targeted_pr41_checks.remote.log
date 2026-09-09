@@ -1,0 +1,31 @@
+sha256(targeted_pr41_checks.py)=e7536250a0fbfd10d01e394f432d65a34e403d1474c6445b8f04f3a15f2666d5
+command=OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /opt/venv/bin/python targeted_pr41_checks.py
+exit=0
+
+PID 170387
+Python 3.12.3
+platform Linux-6.8.0-79-generic-x86_64-with-glibc2.39
+sympy 1.13.3
+PHASE gs-derivative start
+OK Gp entry 0,0
+OK Gp entry 0,1
+OK Gp entry 0,2
+OK Gp entry 1,0
+OK Gp entry 1,1
+OK Gp entry 1,2
+OK Gp entry 2,0
+OK Gp entry 2,1
+OK Gp entry 2,2
+OK Delta1(Gp)
+OK Delta2(Gp)
+OK det(Gp)
+OK G0 diag(2,4,0)
+PHASE gs-derivative done
+PHASE two-point-conditional start
+OK delta identity
+OK square completion
+OK 2x2 determinant
+OK log-inequality derivative
+OK log-inequality base value
+PHASE two-point-conditional done
+EXIT 0 elapsed_seconds 2.020
