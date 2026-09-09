@@ -1,0 +1,19 @@
+{
+  "status":"FROZEN_BEFORE_EXECUTION",
+  "unit":"spectral_factor_geometry_2",
+  "seed":null,
+  "windows":[6,8],
+  "definition":"f(x)=epsilon+(1-2epsilon)*|sum_j P_j exp(2*pi*i*j*x)|^2/L^2",
+  "complex_encoding":"P_j=[integer real,integer imaginary]",
+  "feasibility":"Each radius_bound_j squared >= |P_j|^2, all nonnegative, their sum L. Therefore epsilon<=f<=1-epsilon, irrespective of Fourier coefficient l1 failure.",
+  "direction_space":"mean, all cosine coefficients, all sine coefficients; affine coefficient l1 unit directions feasible for |t|<=epsilon/2 with margin epsilon/2",
+  "mechanism":"Fourier cancellation outside the previous coefficient l1 ball; roots on the unit circle attain epsilon exactly, strict dominant constants provide root-free controls. All six cycle invariants are nonreal.",
+  "centers":[
+    {"id":"S3_control","epsilon":"1/100","P":[[4,0],[1,0],[0,1],[1,0]],"radius_bounds":["4","1","1","1"],"L":"7","root_evidence":"|P|>=4-3=1 on unit circle; no unit circle roots","unnormalized_cycle_invariant":[16,-64]},
+    {"id":"S3_root1","epsilon":"1/1000","P":[[1,0],[-1,1],[2,-1],[-2,0]],"radius_bounds":["1","3/2","9/4","2"],"L":"27/4","root_evidence":"P(1)=0; P=(1-z)*(1+i*z+2*z^2)","unnormalized_cycle_invariant":[272,68]},
+    {"id":"S3_root2","epsilon":"1/100","P":[[1,0],[-1,2],[1,-1],[-1,-1]],"radius_bounds":["1","9/4","3/2","3/2"],"L":"25/4","root_evidence":"P(1)=0; P=(1-z)*(1+2*i*z+(1+i)*z^2)","unnormalized_cycle_invariant":[16,-30]},
+    {"id":"S4_control","epsilon":"1/100","P":[[5,0],[1,0],[0,1],[1,0],[0,1]],"radius_bounds":["5","1","1","1","1"],"L":"9","root_evidence":"|P|>=5-4=1 on unit circle; no unit circle roots","unnormalized_cycle_invariant":[98,-100]},
+    {"id":"S4_root1","epsilon":"1/1000","P":[[1,0],[-1,1],[1,-1],[0,0],[-1,0]],"radius_bounds":["1","3/2","3/2","0","1"],"L":"5","root_evidence":"P(1)=0; P=(1-z)*(1+i*z+z^2+z^3)","unnormalized_cycle_invariant":[12,16]},
+    {"id":"S4_root2","epsilon":"1/100","P":[[1,0],[0,1],[-1,-1],[1,1],[-1,-1]],"radius_bounds":["1","1","3/2","3/2","3/2"],"L":"13/2","root_evidence":"P(1)=0; P=(1-z)*(1+(1+i)*z+(1+i)*z^3)","unnormalized_cycle_invariant":[82,2]}
+  ]
+}

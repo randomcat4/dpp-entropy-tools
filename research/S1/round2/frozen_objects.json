@@ -1,0 +1,233 @@
+{
+  "hash_basis": "Exact Git blob bytes. Reviewer records distinguish original CRLF execution hashes from final LF archive hashes. Frozen author labels are historical; acceptance lives in separately hashed review reports.",
+  "objects": [
+    {
+      "path": "research/S1/round2/baseline_candidate.json",
+      "sha256": "5059e4c166db4f39d6b9e8d22c4c75d29707e7e2b9e096f74a29b3ecac3d87e3",
+      "git_blob_sha1": "ca595d9171a7598c28a268b1a7e2fb832d47b0c4"
+    },
+    {
+      "path": "research/S1/round2/frozen_theorem_v1.md",
+      "sha256": "505707f604b51775d760ab6cbda98487987418777cc6e851e178b885db50eaf2",
+      "git_blob_sha1": "bc0ab572956c19c34870c9650c60e0954dd40a40"
+    },
+    {
+      "path": "research/S1/round2/main/baseline_jet.py",
+      "sha256": "ecb5a9b7a8b8d14496aa233de263a13ee68c44d6a99787b9691ff46b2baadec4",
+      "git_blob_sha1": "2e1f73846fb81cc84706a47dd8d7a1480025edf4"
+    },
+    {
+      "path": "research/S1/round2/main/baseline_jet_result.json",
+      "sha256": "20479ee0e5203cc37039145f02d102def10ba0313446c40004dd6ea10c6bb4b1",
+      "git_blob_sha1": "ab63699d394a63c0f2781f933d9b77e0f41cca83"
+    },
+    {
+      "path": "research/S1/round2/main/integration_check.json",
+      "sha256": "31b5c66a26757d22f658f4a0880d818f9ab27a5ed630ada79b6f34c272792bb6",
+      "git_blob_sha1": "950a7dde0938885effbe0021863504b236f978de"
+    },
+    {
+      "path": "research/S1/round2/main/phase_replay.json",
+      "sha256": "58ccf9caf72c85fd32fd53b0a023f0e6fbfca0c3efcb3d77ae226d0a67a1000c",
+      "git_blob_sha1": "1031fb2a2ea36fa9c3ef589961b8bae85ceedb85"
+    },
+    {
+      "path": "research/S1/round2/main/single_complex_edge.md",
+      "sha256": "f97c48679285552fade1f897fab0a18392653fc6582db1a3011618f8d408a3a7",
+      "git_blob_sha1": "0808b1afa058436506f78ec814712b6827d788c3"
+    },
+    {
+      "path": "research/S1/round2/phase/README.md",
+      "sha256": "25d6caa7330d9e17a5128e6b29cc48bdf52c0fddf41283c44a3e2178833cd041",
+      "git_blob_sha1": "cce8e1b481083ede2ae28e76127ab67646a83f51"
+    },
+    {
+      "path": "research/S1/round2/phase/centers.json",
+      "sha256": "460e5e027c5e9ed05a4b0f18aa55f72ef6004c85934ee2524028b649589b7b19",
+      "git_blob_sha1": "7b08a772ca0b7de8455b07c56ac11fdece0d5874"
+    },
+    {
+      "path": "research/S1/round2/phase/checkpoint.json",
+      "sha256": "173bc8aacca0e2c938f1aae14319b2847f04149fdb238b5cd15b91b8407ffa87",
+      "git_blob_sha1": "0cdd584e5cd913cc9a27d3375a4007b7a96405a7"
+    },
+    {
+      "path": "research/S1/round2/phase/full_hessian.py",
+      "sha256": "591696cebaded001250760809b54e7810200a462b2e2086d61bb45f22fa1371b",
+      "git_blob_sha1": "bc61644594b8f7065290c3f5b62906e83603b96b"
+    },
+    {
+      "path": "research/S1/round2/phase/provenance.md",
+      "sha256": "c938f5bc07825702987562a678d9bcb771b0a290f38ddc40fcd2777865016b64",
+      "git_blob_sha1": "824f8c7cf7258942dccad2aa37394c1aeb3218dc"
+    },
+    {
+      "path": "research/S1/round2/phase/results.json",
+      "sha256": "037088a4ae28405ff852ba491147a5bc2cd4444c967fdfc2f230d4973769813d",
+      "git_blob_sha1": "141582af1af1ef4fde8930eceff32b36c08261fe"
+    },
+    {
+      "path": "research/S1/round2/phase/run.log",
+      "sha256": "ef5ddb2a78d05d3ef7b8a6265bafd904b07a12cea36893a2955ec39c4fdfa830",
+      "git_blob_sha1": "0ec2a593f42ecd93f7bd2ac8f3b9c43fe14b09d8"
+    },
+    {
+      "path": "research/S1/round2/phase/spectral_centers.json",
+      "sha256": "e65da60830905fe646fc5515ff4219b3dd1f9c1a2c83b7031a01ec3e45be162d",
+      "git_blob_sha1": "edfe8844936a1253c97ba8a4c2d9176f34237ad4"
+    },
+    {
+      "path": "research/S1/round2/phase/spectral_probe.py",
+      "sha256": "fcd449d289ea90ee7799b7edcd3adf12924ced1bcc6caea15170acfbefd4cc61",
+      "git_blob_sha1": "455d44573fc86b0d855eca0b12620e3b902f21c6"
+    },
+    {
+      "path": "research/S1/round2/phase/spectral_results.json",
+      "sha256": "5fbb169bde501283821dca43c3147819205b4b5864a4fbbb43c2a5b46f605942",
+      "git_blob_sha1": "28fea529e834a8b926738e7e6c73f3688963743f"
+    },
+    {
+      "path": "research/S1/round2/phase/spectral_run.log",
+      "sha256": "8827883f939c9e980bcf417f032937f8194c2ece7678cbd2725bfaa613bfc065",
+      "git_blob_sha1": "57d3e2bdf43e286fc9a3859a743edb04ceef0dd3"
+    },
+    {
+      "path": "research/S1/round2/phase/unit1_report.md",
+      "sha256": "b4931c34652d0e276b622309e865e6ff889252ec3dfb12c21ae779fa591eb005",
+      "git_blob_sha1": "34ac4d4bf3d750c20e3581da487dd295714e72f6"
+    },
+    {
+      "path": "research/S1/round2/phase/unit2_report.md",
+      "sha256": "2395b27c3e4a177796ad6dfaebb2f72bb8586d3f50824164446e8afa67ab9d62",
+      "git_blob_sha1": "7bd4cf590cc1cef6ba6f9e8dc90b3bda01c0d56f"
+    },
+    {
+      "path": "research/S1/round2/rate/.gitignore",
+      "sha256": "5b9def790483bae07e9ed1173009ab0e235f26ecf3ddd2b390c3740566152766",
+      "git_blob_sha1": "e30f246a5c148e14e5998a19b71864cd6e6e4520"
+    },
+    {
+      "path": "research/S1/round2/rate/README.md",
+      "sha256": "7aeb80d66008dd11484f2056a651109de78e07104fe87fc3df304776edad3da4",
+      "git_blob_sha1": "d17cd6261d818cbf267053aa18af5b842c8f8b3c"
+    },
+    {
+      "path": "research/S1/round2/rate/artifacts/r2_boundary_M64.json",
+      "sha256": "921b8039baf5464b4c14f07b75cf52ff25a0195cc285a8ff25c7fa20ce26bc47",
+      "git_blob_sha1": "a1c292a042ec35cccd3b6b2dc2d1ebbbd0d76f62"
+    },
+    {
+      "path": "research/S1/round2/rate/artifacts/r2_rate_n4.json",
+      "sha256": "3fe57b224676ea48cd5eaaf772603da2626e921adfc0d13bcc117e30761567d2",
+      "git_blob_sha1": "3b1d9f29c35afb31fe48a452d3ffd4f0532d9625"
+    },
+    {
+      "path": "research/S1/round2/rate/candidate.json",
+      "sha256": "d92793f7196a4eefaece91b3f37e65dec6744f61711363030cd81259aa1ccf09",
+      "git_blob_sha1": "7358d5e5d44887a1e471feb01ef92d6ec729bec9"
+    },
+    {
+      "path": "research/S1/round2/rate/proof_or_certificate.md",
+      "sha256": "69f69bb20fe4c3229c7f543b8587f99c8348bd0095ae67464399d80835f1bf22",
+      "git_blob_sha1": "673ae0c5455422308b8e491d599fdf06d055d9aa"
+    },
+    {
+      "path": "research/S1/round2/rate/provenance.md",
+      "sha256": "aa739814da5e4875d0884edf0f39fec5e5ec817ba21abcc65a503c969dc6fe7a",
+      "git_blob_sha1": "fabfadf6b0c57d687dbc25d351d192aac50ca8a6"
+    },
+    {
+      "path": "research/S1/round2/rate/run_log.md",
+      "sha256": "aee17bf1afd07b63397963d27d6cda2c1488a426842e04f386383f0819dbdfd1",
+      "git_blob_sha1": "bd0e281b5167de16032a925df702cf0986df640d"
+    },
+    {
+      "path": "research/S1/round2/rate/scripts/r2_rate_certificate.py",
+      "sha256": "244dee715d56ea9cabe8873ca140112048a1eda6d0fe07e24e30c0f9123be201",
+      "git_blob_sha1": "fdb1d1b2e0aac84990b2088810da8d2b63206fa4"
+    },
+    {
+      "path": "research/S1/round2/rate/scripts/r2_variational_boundary.py",
+      "sha256": "7174665d976b4e63490696a2dc8b23160c0ad3ab12668ea1b05c02fbd1f9907c",
+      "git_blob_sha1": "b90bedc3295e373ca96b25940842d9f7c38237cb"
+    },
+    {
+      "path": "research/S1/round2/rate/verdict.md",
+      "sha256": "817524c5aefb67fc2a6961cc1baa00c98442bcad1afc1e58dd7f29fa402007cb",
+      "git_blob_sha1": "eea0587d14de9d1b015617abe37c6774716c00ef"
+    },
+    {
+      "path": "research/S1/round2/review/rate_audit_replay_boundary_M64.json",
+      "sha256": "0c210ddd7e93d14639a0c93c660c2c9ff4b2f3d316e1a28b677ceb6ff6123365",
+      "git_blob_sha1": "b356f3796d6d79b8b7d2c0c1b0ec2a995367bc2c"
+    },
+    {
+      "path": "research/S1/round2/review/rate_audit_replay_n4.json",
+      "sha256": "d23ee8a89d5837e1f23f0b95f6c333911d7ed0b4eb2b6abaf7aff466fa023fa7",
+      "git_blob_sha1": "c6de50b11040d8acbcb71c95e73046fbb5c08eb9"
+    },
+    {
+      "path": "research/S1/round2/review/rate_certificate_audit.py",
+      "sha256": "e6aa237e12cc13440a8689355481819129a22be59678a19fd4003d9545abe1ea",
+      "git_blob_sha1": "162b711e393e5a48e56cdb5c11878d9278cf23fc"
+    },
+    {
+      "path": "research/S1/round2/review/rate_certificate_audit_report.md",
+      "sha256": "6ac4491086984c06203b714dc83349698c8c7d05f12a20820f5cd7d10fd7656b",
+      "git_blob_sha1": "07a8475e5ac7268b6e1c00be0029a05737036683"
+    },
+    {
+      "path": "research/S1/round2/review/rate_certificate_audit_result.json",
+      "sha256": "5bb35ff38eb46e11a176d45d1a3f4a3aabef845e97b55b922614053c8a1e109f",
+      "git_blob_sha1": "f1ca37c73f938990dd5ffe5211fec279622d076e"
+    },
+    {
+      "path": "research/S1/round2/review/rate_certificate_audit_run_record.json",
+      "sha256": "e79f8cbb5dd62d729bd3129246f13a6c64e2d16fdf185401c8036ff727bf4d17",
+      "git_blob_sha1": "a0fbd58fb9b92757d5bda0b191949d0bc85916eb"
+    },
+    {
+      "path": "research/S1/round2/review/review_report.md",
+      "sha256": "03fe00414ce935c927bd8b823a1f9377bc67137953b3e43252d22ab13bc7aaa4",
+      "git_blob_sha1": "fa63fdb96bcd73bd98a6e5c0e81b5f105a26332f"
+    },
+    {
+      "path": "research/S1/round2/review/round2_baseline_comparison.json",
+      "sha256": "6178418a165588482c722ab09a8e66f1939c887d9e3276eaa0207ab8837114b7",
+      "git_blob_sha1": "bfb10ba6f77b09397486d5fdd1d134beaf885e9f"
+    },
+    {
+      "path": "research/S1/round2/review/round2_baseline_review.py",
+      "sha256": "aeb39573cfa053717c1cceea541cc7cf16e9f57ec8b40da45a36a4a45858c58b",
+      "git_blob_sha1": "df9b38a24813d1223e15d3de9362a4f717f69e54"
+    },
+    {
+      "path": "research/S1/round2/review/round2_baseline_review_result.json",
+      "sha256": "18a2fc77e4d00e16a2254964c1af0b43b9dfe8c6f713edae2690ac05c3faa640",
+      "git_blob_sha1": "0a9945de35058997399dbc201739385471b5715a"
+    },
+    {
+      "path": "research/S1/round2/review/round2_baseline_run_record.json",
+      "sha256": "8a75e058bff019a07b85ae215b9eddae3f86a7eba89ec2f7ff51405649a17ad1",
+      "git_blob_sha1": "1c618650673ae7a9763df1072cca5400e4fb1a9b"
+    }
+  ],
+  "review_bindings": [
+    {
+      "claim": "B1 finite reconstruction and one-complex-edge proof",
+      "author_main_freeze": "85150fd1d963b1cffed388e94bd7a9c78e277cc5",
+      "non_author_review_commit": "e3d0666dc0d28d3ecf1e9c26dff10c86cdffe390",
+      "review_report": "research/S1/round2/review/review_report.md"
+    },
+    {
+      "claim": "B1 fixed three-symbol negative entropy-rate gap",
+      "author_commit": "73fce2a45df13831f28415a207179a67715a9550",
+      "non_author_review_commit": "fc75b8cd542255fd6d4311aedef79aadb838fb51",
+      "archive_hash_correction_commit": "53f27b7ed6751b2eeeebbb5c120553b3cfaf052a",
+      "review_report": "research/S1/round2/review/rate_certificate_audit_report.md"
+    }
+  ],
+  "distinct_non_author_reviewers_round2": 1,
+  "same_reviewer_counted_once": true,
+  "integrated_before_closure_commit": "a6149c17d794cc935bd4bd00cd0950806f873a9d"
+}

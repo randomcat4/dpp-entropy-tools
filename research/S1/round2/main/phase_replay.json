@@ -1,0 +1,84 @@
+{
+  "status": "INTEGRATION_REPLAY_PASSED",
+  "utc": "2026-09-09T00:15:09.135975+00:00",
+  "scope": "Same frozen phase inputs and same author algorithms, not independent implementation or new unique coverage. All 18 centres and 36 Hessians replayed; 5760 repeated event evaluations.",
+  "runs": [
+    {
+      "author_artifact": "research/S1/round2/phase/results.json",
+      "author_sha256": "037088a4ae28405ff852ba491147a5bc2cd4444c967fdfc2f230d4973769813d",
+      "replay_metadata": {
+        "status": "COMPLETED",
+        "pid": 161631,
+        "seed": null,
+        "randomness": "none",
+        "utc_start": "2026-09-09T00:15:08.661107+00:00",
+        "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+        "numpy": "2.1.2",
+        "scipy": "1.14.1",
+        "argv": [
+          "research/S1/round2/phase/full_hessian.py",
+          "--input",
+          "research/S1/round2/phase/centers.json",
+          "--output",
+          "/root/i05-successors-20260909/S1/round2-integration/phase1.json"
+        ],
+        "input_sha256": "460e5e027c5e9ed05a4b0f18aa55f72ef6004c85934ee2524028b649589b7b19",
+        "source_sha256": "591696cebaded001250760809b54e7810200a462b2e2086d61bb45f22fa1371b",
+        "threads": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "address_space_limit_bytes": 4294967296,
+        "exit_status": 0,
+        "elapsed_seconds": 0.22114086151123047,
+        "max_rss_kib": 34888,
+        "centers_completed": 12,
+        "hessians_completed": 24,
+        "event_evaluations": 3840
+      },
+      "all_numerical_results_exactly_equal": true
+    },
+    {
+      "author_artifact": "research/S1/round2/phase/spectral_results.json",
+      "author_sha256": "5fbb169bde501283821dca43c3147819205b4b5864a4fbbb43c2a5b46f605942",
+      "replay_metadata": {
+        "status": "COMPLETED",
+        "pid": 161637,
+        "seed": null,
+        "randomness": "none",
+        "utc_start": "2026-09-09T00:15:08.976473+00:00",
+        "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+        "numpy": "2.1.2",
+        "scipy": "1.14.1",
+        "argv": [
+          "research/S1/round2/phase/spectral_probe.py",
+          "--input",
+          "research/S1/round2/phase/spectral_centers.json",
+          "--output",
+          "/root/i05-successors-20260909/S1/round2-integration/phase2.json"
+        ],
+        "input_sha256": "e65da60830905fe646fc5515ff4219b3dd1f9c1a2c83b7031a01ec3e45be162d",
+        "source_sha256": {
+          "spectral_probe.py": "fcd449d289ea90ee7799b7edcd3adf12924ced1bcc6caea15170acfbefd4cc61",
+          "full_hessian.py": "591696cebaded001250760809b54e7810200a462b2e2086d61bb45f22fa1371b"
+        },
+        "threads": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "address_space_limit_bytes": 4294967296,
+        "exit_status": 0,
+        "elapsed_seconds": 0.11258602142333984,
+        "max_rss_kib": 34876,
+        "centers_completed": 6,
+        "hessians_completed": 12,
+        "event_evaluations": 1920
+      },
+      "all_numerical_results_exactly_equal": true
+    }
+  ]
+}

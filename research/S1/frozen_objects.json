@@ -1,0 +1,87 @@
+{
+  "local_candidate_commit": "a98811c6597577f73128aaed3fd7dde6169af350",
+  "files": [
+    {
+      "git_blob": "baa37197ba70ae703b2814771326921cf507ca0a",
+      "path": "research/S1/main/boundary_residual.py",
+      "sha256": "3c2516e778db427c26b6faf2e5a30fa3e1b2c11ed504932b4f2d3f9bcb679be3"
+    },
+    {
+      "git_blob": "d777e1a913524cfe430964c3a1a7cb0bcfe65211",
+      "path": "research/S1/main/boundary_residual_proof.md",
+      "sha256": "0022f1028b495d1e6c414d131f2ef912b83117442aa76943ecefe843dc7e9c56"
+    },
+    {
+      "git_blob": "28d83728d91afcc7a239d9004642899adddf9ae6",
+      "path": "research/S1/main/boundary_residual_M64.json",
+      "sha256": "90c313c56ef3a5bf522c7906c1bb782a0ff61b50ed6fe256aba098ac15f4ad6b"
+    },
+    {
+      "git_blob": "31529c70b1d04fc1de79421b92308c719d8fd749",
+      "path": "research/S1/main/rational_rate_certificate.py",
+      "sha256": "d94a0794927102e7b530319f196db34abe8b28be4a0a6594d4f4a7e8c7125b5b"
+    },
+    {
+      "git_blob": "cff3e3ea1f90392f3fbf62881a6310e26a1dde99",
+      "path": "research/S1/main/rate_certificate_proof.md",
+      "sha256": "5f8b7687d72868b26ffbe9f436f0b6cacf4d2003b7a71f755d3c68ddfadef29f"
+    },
+    {
+      "git_blob": "963ae93655a82ff46f649d1b84ad175552887122",
+      "path": "research/S1/main/rational_rate_n8.json",
+      "sha256": "aca30a26141a5e71e7c444c54f0a1b73b7c458a3e22f06f55558c8f6830e091c"
+    },
+    {
+      "git_blob": "f700136b6d1669212669aba059a78e442a153818",
+      "path": "research/S1/baseline_candidate.json",
+      "sha256": "c40acc17448058e33ef677a5d3c4018db09ca5ae599b78f69ac57dbd2481516e"
+    }
+  ],
+  "tree": "3fe4877e5c07a6473ec5b9b60392de86827682b9",
+  "public_same_tree_commit": "358e5536484d9b2b7f4d04289d236c4bb40d88f0",
+  "additional_objects": [
+    {
+      "local_candidate_commit": "3c01dc00a663f1fa854c57ee23d52e327b8c1e32",
+      "tree": "79ab270e8e071fb12a38c4474de921bd7bff790c",
+      "files": [
+        {
+          "sha256": "b797c6370e5c02b287d1b9fd7e2f7c814dfbfec6682d4d8b0409b098f6a5f6c0",
+          "git_blob": "0dc2b546bbaf851884f8b20fcd5cc30e4df2cdfe",
+          "path": "research/S1/main/phase_candidate.json"
+        },
+        {
+          "sha256": "f520cddb0e71cdb5f1ded6468f75ec7840804a0dac3e06fc1efac4a0a6e37780",
+          "git_blob": "e8441b5b137134f6e7869c328f809b5e1285d3fa",
+          "path": "research/S1/main/phase_boundary_M64.json"
+        },
+        {
+          "sha256": "a0e34915741a58bbd790b0ba69bc0716eaa924ceb8e984ec1fcf6d53566efa23",
+          "git_blob": "ad284914e4082ead1ea50980bad59fa71fd22e42",
+          "path": "research/S1/main/phase_variational_M64.json"
+        },
+        {
+          "sha256": "9a9a224352bf9af99abbbaf3aec7ac4ffde4d433ffd2a0bbef30e75f327334b0",
+          "git_blob": "3eae7c38eef84116fb1ad0408b108a9a627ea689",
+          "path": "research/S1/main/variational_boundary.py"
+        },
+        {
+          "sha256": "b74e92d3c4ff4a09188ebb8bde3d453e1709d413b3bf09bbd50dd3d680e53929",
+          "git_blob": "ba1ca93431656d9763feb62b80f99f54d203da27",
+          "path": "research/S1/main/variational_boundary_proof.md"
+        },
+        {
+          "sha256": "f84a4791b5837dfd365a510720d77c4702834b6b237245e2bdeb59b74c5d48ff",
+          "git_blob": "0946ae022492d841834a5d6b29a6759e2dbe71c5",
+          "path": "research/S1/main/phase_rate_n8.json"
+        },
+        {
+          "sha256": "d94a0794927102e7b530319f196db34abe8b28be4a0a6594d4f4a7e8c7125b5b",
+          "git_blob": "31529c70b1d04fc1de79421b92308c719d8fd749",
+          "path": "research/S1/main/rational_rate_certificate.py"
+        }
+      ],
+      "id": "P0",
+      "public_same_tree_commit": "be55d94c2fa2586304c2a004c86989f810030a8c"
+    }
+  ]
+}

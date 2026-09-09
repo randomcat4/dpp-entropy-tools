@@ -1,0 +1,66 @@
+{
+  "archive_hash_binding_note": "Generic replay SHA fields are bound to final Git LF archive bytes; CRLF execution hashes are retained separately and differ only by line endings.",
+  "environment": {
+    "executable_name": "python.exe",
+    "mpmath_dependency_note": "existing local mpmath 1.3.0 was supplied on PYTHONPATH for replay; no dependency was installed",
+    "mpmath_for_replay": "1.3.0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "threads": {
+      "BLIS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "hashes": {
+    "audit_script_sha256": "e6aa237e12cc13440a8689355481819129a22be59678a19fd4003d9545abe1ea",
+    "boundary_artifact_sha256": "921b8039baf5464b4c14f07b75cf52ff25a0195cc285a8ff25c7fa20ce26bc47",
+    "boundary_source_sha256": "7174665d976b4e63490696a2dc8b23160c0ad3ab12668ea1b05c02fbd1f9907c",
+    "candidate_sha256": "d92793f7196a4eefaece91b3f37e65dec6744f61711363030cd81259aa1ccf09",
+    "rate_artifact_sha256": "3fe57b224676ea48cd5eaaf772603da2626e921adfc0d13bcc117e30761567d2",
+    "rate_source_sha256": "244dee715d56ea9cabe8873ca140112048a1eda6d0fe07e24e30c0f9123be201",
+    "replay_boundary_crlf_execution_sha256": "5f2ce8c03d3c37d882df760e584b5b6daa8c92467dfc578135cb140155adb0e4",
+    "replay_boundary_git_lf_archive_sha256": "0c210ddd7e93d14639a0c93c660c2c9ff4b2f3d316e1a28b677ceb6ff6123365",
+    "replay_boundary_sha256": "0c210ddd7e93d14639a0c93c660c2c9ff4b2f3d316e1a28b677ceb6ff6123365",
+    "replay_rate_crlf_execution_sha256": "c3993f4a9f314cb67970e0e48b381cef483e9a619ba88d9be355e0c75ab7d1ac",
+    "replay_rate_git_lf_archive_sha256": "d23ee8a89d5837e1f23f0b95f6c333911d7ed0b4eb2b6abaf7aff466fa023fa7",
+    "replay_rate_sha256": "d23ee8a89d5837e1f23f0b95f6c333911d7ed0b4eb2b6abaf7aff466fa023fa7"
+  },
+  "runs": [
+    {
+      "actual_cases": 6,
+      "actual_residual_complex_entries": 1206,
+      "command_shape": "from <rate-repo>: python research/S1/round2/rate/scripts/r2_variational_boundary.py --candidate research/S1/round2/rate/candidate.json --output <review-repo>/research/S1/round2/review/rate_audit_replay_boundary_M64.json --M 64 --bits 160",
+      "exit_status": 0,
+      "name": "boundary_replay_M64",
+      "pid": 57080,
+      "seconds": 6.8759191036224365
+    },
+    {
+      "actual_determinants": 288,
+      "argv_sanitized_by_review": true,
+      "classification": "NEGATIVE_PAIR_GAP",
+      "command_shape": "from <rate-repo>: python research/S1/round2/rate/scripts/r2_rate_certificate.py --candidate research/S1/round2/rate/candidate.json --boundary <review-repo>/research/S1/round2/review/rate_audit_replay_boundary_M64.json --output <review-repo>/research/S1/round2/review/rate_audit_replay_n4.json --n 4",
+      "exit_status": 0,
+      "name": "rate_replay_n4",
+      "pid": 17884,
+      "seconds": 0.06266236305236816
+    },
+    {
+      "command_shape": "python research/S1/round2/review/rate_certificate_audit.py --candidate <rate-repo>/research/S1/round2/rate/candidate.json --boundary <rate-repo>/research/S1/round2/rate/artifacts/r2_boundary_M64.json --rate <rate-repo>/research/S1/round2/rate/artifacts/r2_rate_n4.json --replay-boundary research/S1/round2/review/rate_audit_replay_boundary_M64.json --replay-rate research/S1/round2/review/rate_audit_replay_n4.json --output research/S1/round2/review/rate_certificate_audit_result.json",
+      "exit_status": 0,
+      "name": "independent_exact_audit",
+      "pid": 29660,
+      "seconds": 0.4694324999873061,
+      "status": "CORRECT"
+    }
+  ],
+  "status": "RATE_AUDIT_RUNS_COMPLETED",
+  "superseded_audit_execution": {
+    "note": "Replaced by the final independent_exact_audit run PID 29660 after replay argv/hash-record cleanup; same objects and coverage, not a new audit unit.",
+    "pid": 46660,
+    "seconds": 0.4844563999795355,
+    "status": "CORRECT"
+  },
+  "timestamp_utc": "2026-09-09T00:28:27Z"
+}

@@ -1,0 +1,104 @@
+{
+  "status": "STOPPED_SUBSTANTIVE",
+  "round": 2,
+  "recorded_at_utc": "2026-09-09T00:31:06.701420+00:00",
+  "mathematical_status": "INCOMPLETE",
+  "conjecture_solved": false,
+  "parent_local_server_commit": "44ca50718b63ce5cb5d688bebe2dd6ef981cccc5",
+  "parent_public_commit": "3e569db4e5eafc36f90f285ef8b88dad1b252ef7",
+  "parent_tree": "157cbeb176536db6a86fecba7c8fdb38e74f548c",
+  "source_decision": "https://github.com/randomcat4/dpp-entropy-tools/pull/25",
+  "issue": "https://github.com/randomcat4/dpp-entropy-tools/issues/19",
+  "draft_pr": "https://github.com/randomcat4/dpp-entropy-tools/pull/22",
+  "scope": "Fixed non-even scalar stationary DPP centres and general mean/cosine/sine affine directions",
+  "endpoint_equality_assumed": false,
+  "fisher_term_retained": true,
+  "completed_results": [
+    {
+      "id": "S1-R2-B1",
+      "result": "REVIEWED_NEGATIVE_PAIR_GAP",
+      "scope": "one fixed degree-three scalar chord",
+      "past_partition_length": 4,
+      "past_residual_support": 64,
+      "separate_symbols": 3,
+      "boundary_kernels": 6,
+      "author_exact_determinants": 288,
+      "gap_enclosure": {
+        "lower": "-693046426809659199133195853982915230079245/22835963083295358096932575511191922182123945984",
+        "upper": "-167754027957762835391491573705809881363885/22835963083295358096932575511191922182123945984",
+        "lower_float": -3.0348902924818035e-05,
+        "upper_float": -7.3460456800473595e-06
+      },
+      "frozen_author_commit": "73fce2a45df13831f28415a207179a67715a9550",
+      "non_author_review": "review/rate_certificate_audit_report.md",
+      "independent_non_author_reviewers": 1
+    },
+    {
+      "id": "single_complex_affine_edge",
+      "result": "REVIEWED_FINITE_CONCAVITY",
+      "scope": "One changing complex Hermitian edge at an arbitrary strict finite centre; not a multi-edge or rate theorem",
+      "non_author_review": "review/review_report.md"
+    }
+  ],
+  "unique_search_coverage": {
+    "centre_cap": 24,
+    "actual_centres": 19,
+    "phase_units": 2,
+    "phase_centres": 18,
+    "phase_full_hessians": 36,
+    "separate_main_centres": 1,
+    "separate_main_full_hessians": 2,
+    "total_full_hessians": 38,
+    "windows": [
+      6,
+      8
+    ],
+    "positive_directions_found": 0,
+    "all_signs_floating_diagnostics": true
+  },
+  "additional_fixed_B1_floating_rate_precheck_past_lengths": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "repeated_verification": "Independent B1 implementation; complete 36-Hessian phase replay; independent exact B1 rate audit and author-code replay. See coverage.md; repetitions are not new centres.",
+  "distinctness_evidence": "main/integration_check.json",
+  "integrity_manifest": "frozen_objects.json",
+  "preexisting_route_jobs": [],
+  "preserved_other_pids": [
+    130378,
+    18457
+  ],
+  "resource_limit": {
+    "cpu_threads": 8,
+    "memory_gib": 32,
+    "gpu": false
+  },
+  "actual_numerical_jobs_threads_each": 1,
+  "active_route_jobs": [],
+  "active_child_tasks": [],
+  "child_task_status": {
+    "phase": "COMPLETED",
+    "rate": "COMPLETED",
+    "review": "COMPLETED"
+  },
+  "known_completed_server_pids": [
+    160709,
+    160982,
+    161415,
+    161244,
+    161258,
+    161631,
+    161637
+  ],
+  "original_execution_snapshots_preserved": true,
+  "old_frozen_evidence_modified": false,
+  "uncommitted_required_artifacts": [],
+  "stop_reason": "Two distinct phase mechanisms returned to the same full Fisher-versus-mixed-acceleration sign obstacle. The fixed B1 true-rate gap is negative, not a counterexample.",
+  "minimum_remaining_obligation": "A new controlled mixed-edge/mean mechanism defeating the complete Fisher cost, followed by a fixed feasible three-symbol positive rate gate (L_minus+L_plus)/2-U_center>0, or a rigorous continuous-family argument.",
+  "restart_condition": "Substantive new mechanism or explicit fixed candidate after coordinator reassessment; no unchanged larger scan.",
+  "automatic_retry_or_heartbeat_created": false,
+  "delivery_validation": "The final issue/PR receipt records local/server commit, equal public Git tree, clean checkouts and completed-job checks; commit IDs are external to avoid a self-referential checkpoint.",
+  "public_scope": "No full-conjecture solution, continuous-family exclusion, formal verification or novelty priority claim."
+}

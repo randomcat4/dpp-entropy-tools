@@ -1,0 +1,27 @@
+{
+  "run_dir": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\S1\\repo\\research\\S1",
+  "mode": "research",
+  "ok": true,
+  "frozen_versions": [
+    "frozen_theorem_v1.md"
+  ],
+  "proof_count": 1,
+  "verification_count": 2,
+  "verification_statuses": {
+    "correct": 2,
+    "critical_gaps": 0,
+    "other": 0
+  },
+  "errors": [],
+  "warnings": [
+    "no explicit premise-freeze marker: frozen_theorem_v1.md",
+    "route_registry.md has no '## ROUTE-' entries",
+    "route registry lacks marker: 共同瓶颈",
+    "route registry lacks marker: 最快证伪测试",
+    "route registry lacks marker: 工作单元",
+    "lemma ledger lacks marker: EQUIVALENT_BLOCKER",
+    "lemma ledger lacks marker: 相对原命题",
+    "lemma ledger lacks marker: 外部定理条件核验"
+  ],
+  "note": "Structure only; mathematical correctness, semantic fidelity, literature status, and novelty are not checked."
+}
