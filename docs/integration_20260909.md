@@ -1,5 +1,17 @@
 # 2026-09-09 main 整合记录
 
+## 后继整合批次 8：最后的单盒证书
+
+[PR42](https://github.com/randomcat4/dpp-entropy-tools/pull/42) 最终合入头 `51ca1aaaf5c9e7dfdc4f10ca16c05d05f8789223`，merge commit `211a434e242ea35945bc8b27f512e925141c847b`。原数学冻结头为 `1007c44460ea937d391d4389a79efba01f95a1e9`；后继仅将公开预算中的三条私人工作区路径改为通用表述，数学代码、输入、输出及审稿均不变。全部新增/修改文件局限于 `research/C2/verification2/`，既有 W3/PR30 证明和审核保持原样。
+
+接受的范围仅为固定五点有理框架 `K=UAU^T` 下 R12_boundary_mid 的六坐标半径 `1/2048` 盒：A0 的对角为 `(41/100,17/50,3/4)`，非对角为 `(-3/25,0,0)`；每个盒内 A 和每个非零实对称 V 均有严格负熵曲率。全盒谱包络 `[509/2048,1539/2048]` 在 `0<A<I`；其余 11 中心、全中间谱带、熵率和新颖性均未认证。
+
+最终数学程序 blob `e0603c77dc5a2844d0c94a36238f27856882c873`。正式服务器运行退出 0；新的非作者单盒重放同样退出 0，并保存完整精确分数 Gershgorin 行。[最终非作者报告](../research/C2/verification2/hessian_review/REVIEW_single_box_R12_boundary_mid.md)与[旧 INCOMPLETE](../research/C2/verification2/hessian_review/REVIEW.md)并存，拒绝把中途十进制摘要替代最终证书。26 个正支撑事件和 6 个恒零事件均保留；12 中心的 10752 项精确导数一致仅为实现交叉检查，没有认证 12 个盒。
+
+C2 主实例另从保存的 Hessian 外包矩阵独立作有理合同变换，六行严格余量均大于 1/10；这是预条件坐标的矩阵证据，不是原坐标的 Frobenius 曲率常数。[完整方法及预算更正](../research/C2/verification2/hessian/certificate_method.md)记录了 73 次不同尝试和保守 87 条状态计费，小于 128 上限，未新增中心或扩盒。没有配置 CI。
+
+已交付的原始队列与后继审定单元至此全部整合。新 PR41/W4 第二轮当前观察头 `fbcce06d19f45c6f0c84708dfed9f8cd10736dce` 仅新增一份 CLAIM.md，正文明确 under development；保留草稿和 INCOMPLETE，不合入、不继承旧证明的接受。
+
 ## 后继整合批次 7：非恒定中心弱区间
 
 [PR39](https://github.com/randomcat4/dpp-entropy-tools/pull/39) 的冻结头 `5558a6b22ef8eb080d198d4af6b1a5cfe2fb164f` 以 `7f72e1f5cea918ef80c9b28f1155b79e270fe62b` 合入。合并前差异仅为 `research/W2/nonconstant_orbit/` 下新增文件，主证明未变；旧 PR34 的通过没有自动迁移到本项。

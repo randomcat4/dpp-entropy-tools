@@ -10,6 +10,7 @@
 | 已覆盖 | W1 rank-one 交叉块；实 `m×2` 及至多两实际坐标列/行支撑的全弦 | [W1 第二轮](../research/C1-verification-20260909/READY_BATCH_03.md) |
 | 固定反例对象已排除 | S1 三个固定符号对、C3-M1 固定三符号的正真实熵率 pair gap | [S1](verification_20260909/base_prs.md)、[C3-M1](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
 | 已覆盖 | C2 固定框架的显式上面锥/各向异性界；W3 标量中心 `epsilon^2/1000` 球内的全方向负曲率 | [C2](verification_20260909/base_prs.md)、[W3](../research/C2/verification2/w3/REVIEW.md) |
+| 已覆盖 | 固定五点有理框架下 R12_boundary_mid 中心的六坐标半径 1/2048 小盒，全盒与全部非零实对称方向上的严格负曲率 | [单盒冻结范围与严格核验](../research/C2/verification2/hessian_review/REVIEW_single_box_R12_boundary_mid.md) |
 | 已覆盖 | W4 三维 `|K_ij|<=sqrt(v_i v_j)/4` 归一化子域的完整六方向界和闭包弦凹性；连通两边图也足以使 Hessian 负定 | [W4 最终审核](../research/C1-verification-20260909/READY_BATCH_04.md) |
 | 充分条件已否定 | `max Qlock>=C` 及仅由相同三个投影组成的凸组合；完整 Fisher 在反例点仍大于 C | [N3 审核和复算](verification_20260909/pr24.md) |
 | 统一余量已否定 | 连通严格 beta 零集上不存在固定正安全余量；已证稀疏族从 `d alpha<1` 一侧趋近阈值 | [C1 解析与有限证书分离审核](../research/C2/verification2/beta/REVIEW.md) |
@@ -19,7 +20,7 @@
 
 仍开放：一般非恒定中心标量弦、全实三维 beta 零集界、一般固定框架中谱带、任意稠密两边均大于二的 rank-two 交叉块，以及更高维一般实核问题。固定无命中、有限盒或特定符号的严格证书不能关闭这些全域问题。普通 Fourier 平方可和尾也不能直接替代体积一致的算子尾控制。
 
-PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 新有限盒也须逐个冻结小盒审定，不能由一个盒推到整个中间谱带。
+PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 已认证 R12_boundary_mid 单盒；其余 11 中心及整个中间谱带仍未关闭。W4 第二轮 PR41 当前仅有声明稿，方法及目标均待实际证明交付，旧 W4 子域定理不提供自动认证。
 
 更新于 2026-09-09。这里“关闭”必须带上范围：定理覆盖只排除所述区域；方法被反例否定只否定该方法。有限搜索没有命中，不能关闭数学上的反例空间。
 
