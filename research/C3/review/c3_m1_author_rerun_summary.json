@@ -1,0 +1,14 @@
+{
+  "boundary_cases_match": true,
+  "case_intervals_match": true,
+  "classification_matches": true,
+  "gap_enclosure_matches": true,
+  "kind": "non_independent_author_script_rerun_in_review_snapshot",
+  "new_gap_enclosure": {
+    "lower": "-21736338200350506195187245238231755852533113/22835963083295358096932575511191922182123945984",
+    "lower_float": -0.0009518467918811257,
+    "upper": "-299855012916397501897282364769067397783/356811923176489970264571492362373784095686656",
+    "upper_float": -8.40372738239692e-07
+  },
+  "rerun_self_audit_status": "CORRECT_SELF_AUDIT"
+}

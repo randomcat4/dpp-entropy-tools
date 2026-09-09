@@ -1,0 +1,8 @@
+{"status": "C3_M1_VARIATIONAL_KERNEL_ENCLOSURES_COMPUTED_REVIEW_PENDING", "pid": 164966, "seconds": 4.020167589187622, "peak_rss_kib": 22592, "actual_cases": 6}
+[{"t": "-1/4", "complement": false, "error": 5.966985118535407e-25}, {"t": "-1/4", "complement": true, "error": 3.1974331150974e-11}, {"t": "0", "complement": false, "error": 6.0195420655525785e-34}, {"t": "0", "complement": true, "error": 4.844511097496308e-10}, {"t": "1/4", "complement": false, "error": 3.8170478103118223e-29}, {"t": "1/4", "complement": true, "error": 9.463653280093224e-08}]
+{"status": "C3_M1_RATE_ENCLOSURE_COMPUTED_REVIEW_PENDING", "pid": 164968, "seconds": 0.057631492614746094, "peak_rss_kib": 22588, "actual_determinants": 288, "classification": "NEGATIVE_PAIR_GAP"}
+{"lower": "-21736338200350506195187245238231755852533113/22835963083295358096932575511191922182123945984", "upper": "-299855012916397501897282364769067397783/356811923176489970264571492362373784095686656", "lower_float": -0.0009518467918811257, "upper_float": -8.40372738239692e-07}
+{
+  "status": "CORRECT_SELF_AUDIT",
+  "elapsed_seconds": 0.2294082846492529
+}

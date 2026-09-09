@@ -1,0 +1,16 @@
+{
+  "status": "STOPPED_SUBSTANTIVE",
+  "mathematical_target": "INCOMPLETE",
+  "unit": "C3 mechanism 1",
+  "analytic_results": ["exact affine/phase/radial decomposition", "complete-event positive three-site phase curvature", "radial monotonicity", "finite-window weak-coupling obstruction"],
+  "numeric_centres": 1,
+  "fixed_chord_symbols": 3,
+  "numeric_windows": [8],
+  "full_hessians": 0,
+  "independent_review": "PENDING",
+  "active_jobs": [],
+  "exit_status": 0,
+  "minimum_obligation": "Strong-coupling complete phase curvature exceeding radial cost, or a volume-uniform weak-coupling remainder",
+  "true_rate_intervals": null,
+  "novelty": "UNVERIFIED"
+}

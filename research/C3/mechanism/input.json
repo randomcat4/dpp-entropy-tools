@@ -1,0 +1,10 @@
+{
+  "id": "C3-M1",
+  "f_mean": "1/2",
+  "c1": ["3/25", "0"],
+  "c2": ["297/2525", "60/2525"],
+  "phase_velocity": [1, -1],
+  "step": "1/4",
+  "window": 8,
+  "scope": "one predeclared three-symbol chord, one full-event directional jet; no Hessian search"
+}
