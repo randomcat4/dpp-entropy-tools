@@ -58,7 +58,7 @@ def check_three_point_cycle_identity() -> None:
     assert_positive_definite(sp.eye(3) - K, "I-cycle K")
     assert D.rank() == 2 and D.det() == 0
     assert D * sp.ones(3, 1) == sp.zeros(3, 1)
-    assert D.adjugate() == -9 * sp.ones(3)
+    assert D.adjugate() == -5 * sp.ones(3)
 
     z = sp.symbols("z", real=True)
     pz = event_probs(K + z * D)
@@ -66,7 +66,7 @@ def check_three_point_cycle_identity() -> None:
     c = [sp.expand(p).coeff(z, 2) for p in pz]
     assert sp.simplify(sum(c)) == 0
 
-    gamma = -27
+    gamma = sp.Integer(-15)  # adj(D)=gamma*n*n^T for n=(1,1,1)/sqrt(3)
     kappa = sp.factor((sp.ones(1, 3) * K * sp.ones(3, 1))[0] / 3)
     reconstructed = [sp.Integer(0)] * 8
     for i, j, k in ((0, 1, 2), (0, 2, 1), (1, 2, 0)):
