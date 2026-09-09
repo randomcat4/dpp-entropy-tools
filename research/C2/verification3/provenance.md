@@ -5,7 +5,7 @@
 - C2 PR41 child: independent computational reconstruction of upstream claims; owns `pr41/`.
 - C2 PR43 event child: independent computational reconstruction of upstream fixtures; owns `pr43_events/`.
 - C2 PR43 flow child: authors the single-input LP implementation and any new certificate; owns `pr43_flow/`. Self-check is explicitly not independent acceptance.
-- Fresh certificate reviewer: to be assigned after a fixed candidate exists, using a freed child slot.
+- Fresh certificate reviewer: assigned in a new GPT-5.5 xhigh context after candidate commit `f249f897c212e49e66ec62a34fba715c47b9bce5` was frozen. Owns `pr43_flow_review/`, independently reconstructs the law and density-adjoint generator, and uses the freed flow-author slot. No candidate-author implementation is imported in the independent check.
 - C1: independent analytic proof review of the upstream theorem units; C2 does not duplicate or supersede that ownership.
 - C3: sole main integrator and risk-based supplemental review coordinator.
 

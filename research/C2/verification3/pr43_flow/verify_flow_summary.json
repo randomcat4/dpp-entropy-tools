@@ -1,0 +1,28 @@
+{
+  "certificate": {
+    "bad_equation_count": 0,
+    "first_bad_equations": [],
+    "first_negative": [],
+    "max_abs_residual": "0",
+    "min_flow": "0",
+    "negative_count": 0,
+    "nonzero_flow_count": 33,
+    "ok": true,
+    "outcome": "FEASIBLE_FLOW"
+  },
+  "equation_count": 40,
+  "instance_reconstructed": true,
+  "mu_positive": true,
+  "mu_sum": "1",
+  "states": [
+    "000",
+    "001",
+    "010",
+    "011",
+    "100",
+    "101",
+    "110",
+    "111"
+  ],
+  "variable_count": 56
+}

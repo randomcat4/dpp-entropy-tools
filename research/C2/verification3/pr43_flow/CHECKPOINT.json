@@ -1,0 +1,34 @@
+{
+  "status": "CANDIDATE_EXACT_SELF_CHECKED",
+  "source_commit": "4e1369ef2a59ccfaba3ca8fce95d85e78857bf78",
+  "task": "CODEX_VERIFICATION_TASKS_v2.md:D",
+  "scope": "directed_nonreversible_stationary_flow_lp_only",
+  "bit_to_coordinate_convention": {
+    "state_string": "b3b2b1",
+    "rightmost_bit_b1": "coordinate_1",
+    "b2": "coordinate_2",
+    "leftmost_bit_b3": "coordinate_3",
+    "example": "001 occupies coordinate_1 only"
+  },
+  "flow_model": "directed stationary flow variables r_xy=mu(x) q_xy for all ordered x!=y; no reversibility constraint r_xy=r_yx is imposed.",
+  "outcome": "FEASIBLE_FLOW",
+  "certificate": "flow_certificate.json",
+  "instance": "instance.json",
+  "portable_verifier": "verify_pr43_flow.py",
+  "discovery_script": "discover_pr43_flow.py",
+  "local_exact_summary": "verify_local_summary.json",
+  "server_exact_summary": "verify_final_summary.json",
+  "report": "REPORT.md",
+  "provenance": "PROVENANCE.md",
+  "exact_self_check": {
+    "ok": true,
+    "variable_count": 56,
+    "equation_count": 40,
+    "nonzero_flow_count": 33,
+    "negative_count": 0,
+    "bad_equation_count": 0,
+    "max_abs_residual": "0",
+    "mu_sum": "1"
+  },
+  "fresh_nonauthor_review_required": true
+}

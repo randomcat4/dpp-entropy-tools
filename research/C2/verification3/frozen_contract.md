@@ -15,7 +15,7 @@ C = [[1/2,1/12,1/15],[1/12,2/5,1/20],[1/15,1/20,3/5]]
 V = [[1,0],[0,1],[1,1]]
 ```
 
-States are 000,001,010,011,100,101,110,111, with bit-to-coordinate convention explicitly recorded by the implementation. All 56 ordered pairs x != y have variables r_xy >= 0. Keep eight flow-balance equations and four feature equations at every state. For f = G11,G12,G22,d and lambda = 1,1,1,2:
+States are 000,001,010,011,100,101,110,111. The rightmost bit is matrix coordinate 1, the middle bit coordinate 2, and the leftmost bit coordinate 3, matching the upstream helper's reversed-bit labels. The implementation records this map explicitly. All 56 ordered pairs x != y have variables r_xy >= 0. Keep eight flow-balance equations and four feature equations at every state. For f = G11,G12,G22,d and lambda = 1,1,1,2:
 
 ```
 sum_{y != x} r_xy - sum_{y != x} r_yx = 0
@@ -23,6 +23,8 @@ sum_{x != y} r_xy (f(x)-f(y)) = -lambda mu(y) f(y)
 ```
 
 Here mu is the complete-event DPP law, G(T)=V^T(C-E_{T^c})^{-1}V, and d=det(G). No detailed balance equations may be added. Accept a rational feasible flow verified against every equation, or a rational Farkas vector with the documented sign convention and exact separating inequality. Floating optimization is discovery only. An implementation's own exact substitution is not independent certificate review.
+
+The literal v2 D equations are authoritative. The old continuation handoff, rational-example payload and generated payload still describe reversible conductances; they must not be used to define this LP. C3 identified this interface hazard in issue 45. The later PR43 document revision renames this object G without changing the fixed matrices or feature equations; see `source_version_notes.md`.
 
 ## Resources, error and stop
 
