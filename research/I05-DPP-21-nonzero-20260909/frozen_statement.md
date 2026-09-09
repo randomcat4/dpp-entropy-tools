@@ -83,11 +83,8 @@ Pi_t F=F-nu_t(F),
 R_t=(I-L_t)^(-1)Pi_t,
 B_t=-L_t phi_t,
 h(t)=nu_t(B_t),
-u_t(B_t)=h(t),
  u_t=R_t B_t.                                         (2.1)
 ```
-
-The repeated `nu_t(B_t)=h(t)` in the display only records the entropy-rate identity; the operative definitions are `B_t=-L_tphi_t`, `h(t)=nu_t(B_t)`, and `u_t=R_tB_t`.
 
 With dots denoting `t` derivatives,
 
