@@ -11,3 +11,5 @@ The suggested author interface names in issue52 are requests for a new implement
 ## Structural review source binding
 
 The fresh structural reviewer inspected local commit `c20f3ebc422cc4f19d77fc4bd6ab130def4bcd80`. Root subsequently read the complete `research/C2/lambda_zero52/structure` subtree from public commit `5acfaf0c220e271cca92de12fe4e13d4940dd80a` through GitHub's tree API and compared its Git tree object with the local frozen source. Both are `d254cf47da821b0df4d7c81a4f786dda41cc535b`. This separately binds the reviewed source to the public candidate without attributing that transport check to the reviewer or treating it as mathematical verification.
+
+The later seed-only review binds to local commit `1188443de2a147164ba9c951ffbd6da2936a7327`. At publication, the complete task subtree was checked equal to public commit `5128851fbb1fe0536c1e757d9bd828544f860b21`; its tree object is `4f9cf76073e2f5a8e31b2ff0bb9419ba865df9f3`. This includes the unchanged `structure/POSITIVE_SEED.md` reviewed by the nonauthor. Its historical author-candidate label is preserved; later acceptance is recorded in STATUS and the separate review.
