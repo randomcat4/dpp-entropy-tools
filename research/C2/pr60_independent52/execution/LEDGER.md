@@ -32,3 +32,41 @@ absolute deadline, after confirming PID174230 absent; the window is not reset.
 Public metadata replaces the private task directory with <TASK_ROOT>.
 The private invocation file is excluded. Mathematical matrix artifacts are
 copied unchanged; no server connection details are published.
+## run02 — MACHINE_PASS
+
+Repaired executable frozen at public
+`ee33372042d27911a97a14aefc6cb068404d190b`, local
+`4620bf66b130af4948f371bbad1b11c372c08273`. The only executable change from
+run01 was the list indexing repair. The original source/input definitions
+and mathematical targets were unchanged.
+
+| Field | Actual record |
+|---|---|
+| UTC start / finish | 2026-09-09 15:31:39 / 15:32:32 |
+| Wrapper / timeout / arithmetic PIDs | 174301 / 174313 / 174315 |
+| Reported arithmetic elapsed | 52.957 seconds |
+| Exit and result | exit0; PASS.json MACHINE_PASS |
+| Runtime | Python3.12.3; SymPy1.14.0 |
+| Remaining outer window at launch | 2484 seconds |
+| Shared absolute deadline | 2026-09-09 16:13:03 UTC |
+| Resource policy | one live process, one CPU/thread,16GiB,noGPU |
+| Peak memory | not measured |
+| stdout / stderr | empty / empty |
+| State after finish | arithmetic PID absent |
+
+All eight layers passed. Both algorithmic determinant paths and both Q
+constructions agree exactly. Fresh P was compared to author literals only
+after determinant extraction. Full mathematical artifacts are copied
+unchanged; only run metadata/layer input paths replace the private task
+root with <TASK_ROOT>. Both raw private runs are retained by the operator.
+All16 JSON output files across the two public runs parsed successfully.
+
+The combined reported arithmetic time is81.526seconds. The span from first
+launch to successful finish is269seconds, inside the single2700-second
+window. No concurrency overlap, resource increase, budget reset or extra
+scan occurred. Run01 and run02 PIDs were both confirmed absent after success.
+No further arithmetic is needed or running under this unit.
+
+C1 owns the analytical bridge review. The independent implementer inspects
+these actual outputs and reports machine coverage only; C2 does not assign
+a duplicate mathematical FIRST or SECOND.
