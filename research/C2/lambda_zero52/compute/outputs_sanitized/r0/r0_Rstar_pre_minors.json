@@ -1,0 +1,3189 @@
+{
+  "Rstar_clearing": {
+    "clearing_failures": [],
+    "denominator_lcm": "16*u*(u - 1)**2*(u + 1)**2*(u**2 + 1)**2",
+    "positive_scale_used": "denominator_lcm^2",
+    "scale": "256*u**2*(u - 1)**4*(u + 1)**4*(u**2 + 1)**4",
+    "scale_note": "A square scale is nonnegative wherever denominators are nonzero; denominator factors still need domain nonvanishing for a final global certificate."
+  },
+  "Rstar_determinant_degree_bound": {
+    "entry_term_counts": [
+      [
+        16,
+        18,
+        18,
+        20
+      ],
+      [
+        18,
+        33,
+        16,
+        36
+      ],
+      [
+        18,
+        16,
+        33,
+        36
+      ],
+      [
+        20,
+        36,
+        36,
+        56
+      ]
+    ],
+    "entry_total_degrees": [
+      [
+        23,
+        24,
+        24,
+        25
+      ],
+      [
+        24,
+        25,
+        21,
+        26
+      ],
+      [
+        24,
+        21,
+        25,
+        26
+      ],
+      [
+        25,
+        26,
+        26,
+        27
+      ]
+    ],
+    "leibniz_per_variable_degree_bounds": {
+      "mu": 12,
+      "nu": 12,
+      "u": 84
+    },
+    "leibniz_total_degree_bound": 100
+  },
+  "Rstar_scaled_entry_degrees": {
+    "entries": [
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 21
+        },
+        "entry": "0,0",
+        "part": "num",
+        "terms": 16,
+        "total_degree": 23
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 21
+        },
+        "entry": "0,1",
+        "part": "num",
+        "terms": 18,
+        "total_degree": 24
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "0,2",
+        "part": "num",
+        "terms": 18,
+        "total_degree": 24
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 21
+        },
+        "entry": "0,3",
+        "part": "num",
+        "terms": 20,
+        "total_degree": 25
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 21
+        },
+        "entry": "1,0",
+        "part": "num",
+        "terms": 18,
+        "total_degree": 24
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 2,
+          "u": 21
+        },
+        "entry": "1,1",
+        "part": "num",
+        "terms": 33,
+        "total_degree": 25
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 17
+        },
+        "entry": "1,2",
+        "part": "num",
+        "terms": 16,
+        "total_degree": 21
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "1,3",
+        "part": "num",
+        "terms": 36,
+        "total_degree": 26
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "2,0",
+        "part": "num",
+        "terms": 18,
+        "total_degree": 24
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 17
+        },
+        "entry": "2,1",
+        "part": "num",
+        "terms": 16,
+        "total_degree": 21
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 4,
+          "u": 21
+        },
+        "entry": "2,2",
+        "part": "num",
+        "terms": 33,
+        "total_degree": 25
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "2,3",
+        "part": "num",
+        "terms": 36,
+        "total_degree": 26
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 21
+        },
+        "entry": "3,0",
+        "part": "num",
+        "terms": 20,
+        "total_degree": 25
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "3,1",
+        "part": "num",
+        "terms": 36,
+        "total_degree": 26
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 21
+        },
+        "entry": "3,2",
+        "part": "num",
+        "terms": 36,
+        "total_degree": 26
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 4,
+          "u": 21
+        },
+        "entry": "3,3",
+        "part": "num",
+        "terms": 56,
+        "total_degree": 27
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      }
+    ],
+    "entry_count": 16,
+    "max_numerator_degrees": {
+      "mu": 4,
+      "nu": 4,
+      "u": 21
+    },
+    "max_numerator_total_degree": 27
+  },
+  "Rstar_scaled_matrix_upper_triangle": [
+    {
+      "entry": [
+        1,
+        1
+      ],
+      "polynomial": "-256*mu**2*u**21 + 768*mu**2*u**17 - 768*mu**2*u**13 + 256*mu**2*u**9 + 2048*mu*nu*u**13 - 4096*mu*nu*u**9 + 2048*mu*nu*u**5 - 256*nu**2*u**21 + 768*nu**2*u**17 - 768*nu**2*u**13 + 256*nu**2*u**9 + 512*u**21 - 1536*u**17 + 3584*u**13 - 4608*u**9 + 2048*u**5"
+    },
+    {
+      "entry": [
+        1,
+        2
+      ],
+      "polynomial": "128*mu**3*u**21 - 384*mu**3*u**17 + 384*mu**3*u**13 - 128*mu**3*u**9 + 128*mu**2*nu*u**21 - 128*mu**2*nu*u**17 - 1408*mu**2*nu*u**13 + 2688*mu**2*nu*u**9 - 1280*mu**2*nu*u**5 - 128*mu*u**21 + 384*mu*u**17 - 384*mu*u**13 + 128*mu*u**9 - 128*nu*u**21 + 128*nu*u**17 + 1408*nu*u**13 - 2688*nu*u**9 + 1280*nu*u**5"
+    },
+    {
+      "entry": [
+        1,
+        3
+      ],
+      "polynomial": "128*mu*nu**2*u**21 - 128*mu*nu**2*u**17 - 1408*mu*nu**2*u**13 + 2688*mu*nu**2*u**9 - 1280*mu*nu**2*u**5 - 128*mu*u**21 + 128*mu*u**17 + 1408*mu*u**13 - 2688*mu*u**9 + 1280*mu*u**5 + 128*nu**3*u**21 - 384*nu**3*u**17 + 384*nu**3*u**13 - 128*nu**3*u**9 - 128*nu*u**21 + 384*nu*u**17 - 384*nu*u**13 + 128*nu*u**9"
+    },
+    {
+      "entry": [
+        1,
+        4
+      ],
+      "polynomial": "-128*mu**2*nu**2*u**21 + 128*mu**2*nu**2*u**17 + 896*mu**2*nu**2*u**13 - 1664*mu**2*nu**2*u**9 + 768*mu**2*nu**2*u**5 + 128*mu**2*u**21 - 128*mu**2*u**17 - 896*mu**2*u**13 + 1664*mu**2*u**9 - 768*mu**2*u**5 + 128*nu**2*u**21 - 128*nu**2*u**17 - 896*nu**2*u**13 + 1664*nu**2*u**9 - 768*nu**2*u**5 - 128*u**21 + 128*u**17 + 896*u**13 - 1664*u**9 + 768*u**5"
+    },
+    {
+      "entry": [
+        2,
+        2
+      ],
+      "polynomial": "-64*mu**4*u**21 + 192*mu**4*u**17 - 192*mu**4*u**13 + 64*mu**4*u**9 - 128*mu**3*nu*u**21 + 128*mu**3*nu*u**17 + 896*mu**3*nu*u**13 - 1664*mu**3*nu*u**9 + 768*mu**3*nu*u**5 - 64*mu**2*nu**2*u**21 + 192*mu**2*nu**2*u**17 - 192*mu**2*nu**2*u**13 + 64*mu**2*nu**2*u**9 + 64*mu**2*u**21 - 448*mu**2*u**17 + 1216*mu**2*u**13 - 2112*mu**2*u**9 + 2048*mu**2*u**5 - 768*mu**2*u + 128*mu*nu*u**21 - 128*mu*nu*u**17 - 896*mu*nu*u**13 + 1664*mu*nu*u**9 - 768*mu*nu*u**5 + 64*nu**2*u**21 - 192*nu**2*u**17 + 192*nu**2*u**13 - 64*nu**2*u**9 + 256*u**17 - 1024*u**13 + 2048*u**9 - 2048*u**5 + 768*u"
+    },
+    {
+      "entry": [
+        2,
+        3
+      ],
+      "polynomial": "-256*mu**2*nu**2*u**17 + 1280*mu**2*nu**2*u**13 - 1792*mu**2*nu**2*u**9 + 768*mu**2*nu**2*u**5 + 256*mu**2*u**17 - 1280*mu**2*u**13 + 1792*mu**2*u**9 - 768*mu**2*u**5 + 256*nu**2*u**17 - 1280*nu**2*u**13 + 1792*nu**2*u**9 - 768*nu**2*u**5 - 256*u**17 + 1280*u**13 - 1792*u**9 + 768*u**5"
+    },
+    {
+      "entry": [
+        2,
+        4
+      ],
+      "polynomial": "32*mu**3*nu**2*u**21 + 96*mu**3*nu**2*u**17 - 736*mu**3*nu**2*u**13 + 1056*mu**3*nu**2*u**9 - 448*mu**3*nu**2*u**5 - 32*mu**3*u**21 - 96*mu**3*u**17 + 736*mu**3*u**13 - 1056*mu**3*u**9 + 448*mu**3*u**5 + 32*mu**2*nu**3*u**21 - 96*mu**2*nu**3*u**17 + 96*mu**2*nu**3*u**13 - 32*mu**2*nu**3*u**9 - 32*mu**2*nu*u**21 + 96*mu**2*nu*u**17 - 96*mu**2*nu*u**13 + 32*mu**2*nu*u**9 - 32*mu*nu**2*u**21 - 96*mu*nu**2*u**17 + 736*mu*nu**2*u**13 - 1056*mu*nu**2*u**9 + 448*mu*nu**2*u**5 + 32*mu*u**21 + 96*mu*u**17 - 736*mu*u**13 + 1056*mu*u**9 - 448*mu*u**5 - 32*nu**3*u**21 + 96*nu**3*u**17 - 96*nu**3*u**13 + 32*nu**3*u**9 + 32*nu*u**21 - 96*nu*u**17 + 96*nu*u**13 - 32*nu*u**9"
+    },
+    {
+      "entry": [
+        3,
+        3
+      ],
+      "polynomial": "-64*mu**2*nu**2*u**21 + 192*mu**2*nu**2*u**17 - 192*mu**2*nu**2*u**13 + 64*mu**2*nu**2*u**9 + 64*mu**2*u**21 - 192*mu**2*u**17 + 192*mu**2*u**13 - 64*mu**2*u**9 - 128*mu*nu**3*u**21 + 128*mu*nu**3*u**17 + 896*mu*nu**3*u**13 - 1664*mu*nu**3*u**9 + 768*mu*nu**3*u**5 + 128*mu*nu*u**21 - 128*mu*nu*u**17 - 896*mu*nu*u**13 + 1664*mu*nu*u**9 - 768*mu*nu*u**5 - 64*nu**4*u**21 + 192*nu**4*u**17 - 192*nu**4*u**13 + 64*nu**4*u**9 + 64*nu**2*u**21 - 448*nu**2*u**17 + 1216*nu**2*u**13 - 2112*nu**2*u**9 + 2048*nu**2*u**5 - 768*nu**2*u + 256*u**17 - 1024*u**13 + 2048*u**9 - 2048*u**5 + 768*u"
+    },
+    {
+      "entry": [
+        3,
+        4
+      ],
+      "polynomial": "32*mu**3*nu**2*u**21 - 96*mu**3*nu**2*u**17 + 96*mu**3*nu**2*u**13 - 32*mu**3*nu**2*u**9 - 32*mu**3*u**21 + 96*mu**3*u**17 - 96*mu**3*u**13 + 32*mu**3*u**9 + 32*mu**2*nu**3*u**21 + 96*mu**2*nu**3*u**17 - 736*mu**2*nu**3*u**13 + 1056*mu**2*nu**3*u**9 - 448*mu**2*nu**3*u**5 - 32*mu**2*nu*u**21 - 96*mu**2*nu*u**17 + 736*mu**2*nu*u**13 - 1056*mu**2*nu*u**9 + 448*mu**2*nu*u**5 - 32*mu*nu**2*u**21 + 96*mu*nu**2*u**17 - 96*mu*nu**2*u**13 + 32*mu*nu**2*u**9 + 32*mu*u**21 - 96*mu*u**17 + 96*mu*u**13 - 32*mu*u**9 - 32*nu**3*u**21 - 96*nu**3*u**17 + 736*nu**3*u**13 - 1056*nu**3*u**9 + 448*nu**3*u**5 + 32*nu*u**21 + 96*nu*u**17 - 736*nu*u**13 + 1056*nu*u**9 - 448*nu*u**5"
+    },
+    {
+      "entry": [
+        4,
+        4
+      ],
+      "polynomial": "-16*mu**4*nu**2*u**21 + 48*mu**4*nu**2*u**17 - 48*mu**4*nu**2*u**13 + 16*mu**4*nu**2*u**9 + 16*mu**4*u**21 - 48*mu**4*u**17 + 48*mu**4*u**13 - 16*mu**4*u**9 - 128*mu**3*nu**3*u**17 + 512*mu**3*nu**3*u**13 - 640*mu**3*nu**3*u**9 + 256*mu**3*nu**3*u**5 + 128*mu**3*nu*u**17 - 512*mu**3*nu*u**13 + 640*mu**3*nu*u**9 - 256*mu**3*nu*u**5 - 16*mu**2*nu**4*u**21 + 48*mu**2*nu**4*u**17 - 48*mu**2*nu**4*u**13 + 16*mu**2*nu**4*u**9 + 64*mu**2*nu**2*u**21 - 64*mu**2*nu**2*u**17 - 448*mu**2*nu**2*u**13 + 1216*mu**2*nu**2*u**9 - 1152*mu**2*nu**2*u**5 + 384*mu**2*nu**2*u - 48*mu**2*u**21 + 16*mu**2*u**17 + 496*mu**2*u**13 - 1232*mu**2*u**9 + 1152*mu**2*u**5 - 384*mu**2*u + 128*mu*nu**3*u**17 - 512*mu*nu**3*u**13 + 640*mu*nu**3*u**9 - 256*mu*nu**3*u**5 - 128*mu*nu*u**17 + 512*mu*nu*u**13 - 640*mu*nu*u**9 + 256*mu*nu*u**5 + 16*nu**4*u**21 - 48*nu**4*u**17 + 48*nu**4*u**13 - 16*nu**4*u**9 - 48*nu**2*u**21 + 16*nu**2*u**17 + 496*nu**2*u**13 - 1232*nu**2*u**9 + 1152*nu**2*u**5 - 384*nu**2*u + 32*u**21 + 32*u**17 - 544*u**13 + 1248*u**9 - 1152*u**5 + 384*u"
+    }
+  ],
+  "case": "r0",
+  "cleared_entries_are_polynomial": true,
+  "clearing_failures": [],
+  "common_scale": "8*(1 - u**4)**2",
+  "denominator_positive_argument": {
+    "J": "1-u^4 > 0 for 0<u<1",
+    "L": "1-r^2*u^4 > 0 for -1<r<1 and 0<u<1",
+    "scale": "positive scalar multiplying all matrix entries; det(M) has the same sign as det(scaled M)"
+  },
+  "determinant_degree_bound_before_extraction": {
+    "entry_term_counts": [
+      [
+        15,
+        12,
+        8,
+        8,
+        10,
+        8
+      ],
+      [
+        12,
+        15,
+        8,
+        8,
+        8,
+        10
+      ],
+      [
+        8,
+        8,
+        2,
+        8,
+        4,
+        4
+      ],
+      [
+        8,
+        8,
+        8,
+        20,
+        8,
+        8
+      ],
+      [
+        10,
+        8,
+        4,
+        8,
+        10,
+        8
+      ],
+      [
+        8,
+        10,
+        4,
+        8,
+        8,
+        10
+      ]
+    ],
+    "entry_total_degrees": [
+      [
+        17,
+        17,
+        13,
+        17,
+        15,
+        15
+      ],
+      [
+        17,
+        17,
+        13,
+        17,
+        15,
+        15
+      ],
+      [
+        13,
+        13,
+        5,
+        13,
+        11,
+        11
+      ],
+      [
+        17,
+        17,
+        13,
+        17,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        11,
+        15,
+        13,
+        13
+      ],
+      [
+        15,
+        15,
+        11,
+        15,
+        13,
+        13
+      ]
+    ],
+    "leibniz_per_variable_degree_bounds": {
+      "mu": 14,
+      "nu": 14,
+      "u": 58
+    },
+    "leibniz_total_degree_bound": 86
+  },
+  "environment": {
+    "cwd": "<private-runner-path>",
+    "pid": 172454,
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "sympy": "1.14.0",
+    "thread_env": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "positive_seed": {
+    "leading_principal_minors": [
+      "481/14400",
+      "241/216000",
+      "1009/810000",
+      "1/16875",
+      "737/7593750",
+      "9016/56953125"
+    ],
+    "point": {
+      "mu": "0",
+      "nu": "0",
+      "r": "0",
+      "u": "1/2"
+    },
+    "sylvester_positive": true
+  },
+  "raw6_determinant_degree_bound_after_extraction": {
+    "entry_term_counts": [
+      [
+        10,
+        6,
+        4,
+        8,
+        7,
+        4
+      ],
+      [
+        6,
+        10,
+        4,
+        8,
+        4,
+        7
+      ],
+      [
+        8,
+        8,
+        2,
+        8,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        2,
+        5,
+        2,
+        2
+      ],
+      [
+        7,
+        4,
+        2,
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        7,
+        2,
+        4,
+        4,
+        5
+      ]
+    ],
+    "entry_total_degrees": [
+      [
+        12,
+        12,
+        9,
+        13,
+        11,
+        11
+      ],
+      [
+        12,
+        12,
+        9,
+        13,
+        11,
+        11
+      ],
+      [
+        9,
+        9,
+        2,
+        10,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        6,
+        10,
+        8,
+        8
+      ],
+      [
+        11,
+        11,
+        8,
+        12,
+        10,
+        10
+      ],
+      [
+        11,
+        11,
+        8,
+        12,
+        10,
+        10
+      ]
+    ],
+    "leibniz_per_variable_degree_bounds": {
+      "mu": 8,
+      "nu": 8,
+      "u": 44
+    },
+    "leibniz_total_degree_bound": 60
+  },
+  "raw6_determinant_not_attempted": "The structure reduction was used before any raw 6x6 determinant, per C2 scope.",
+  "raw6_reduced_entry_degrees": {
+    "entries": [
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "0,0",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 8
+        },
+        "entry": "0,1",
+        "part": "num",
+        "terms": 6,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 7
+        },
+        "entry": "0,2",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "0,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "0,4",
+        "part": "num",
+        "terms": 7,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "0,5",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "1,0",
+        "part": "num",
+        "terms": 6,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 8
+        },
+        "entry": "1,1",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 7
+        },
+        "entry": "1,2",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "1,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "1,4",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "1,5",
+        "part": "num",
+        "terms": 7,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 5
+        },
+        "entry": "2,0",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 5
+        },
+        "entry": "2,1",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 0
+        },
+        "entry": "2,2",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 2
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 6
+        },
+        "entry": "2,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 5
+        },
+        "entry": "2,4",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 5
+        },
+        "entry": "2,5",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 0,
+          "u": 7
+        },
+        "entry": "3,0",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 2,
+          "u": 7
+        },
+        "entry": "3,1",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 9
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 6
+        },
+        "entry": "3,2",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 6
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "3,3",
+        "part": "num",
+        "terms": 5,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 0,
+          "u": 7
+        },
+        "entry": "3,4",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 1,
+          "u": 7
+        },
+        "entry": "3,5",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "4,0",
+        "part": "num",
+        "terms": 7,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 3,
+          "u": 8
+        },
+        "entry": "4,1",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 1,
+          "u": 7
+        },
+        "entry": "4,2",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "4,3",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "4,4",
+        "part": "num",
+        "terms": 5,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "4,5",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 0,
+          "u": 8
+        },
+        "entry": "5,0",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "5,1",
+        "part": "num",
+        "terms": 7,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 0,
+          "u": 7
+        },
+        "entry": "5,2",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 8
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 9
+        },
+        "entry": "5,3",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 12
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 0,
+          "u": 8
+        },
+        "entry": "5,4",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "5,5",
+        "part": "num",
+        "terms": 5,
+        "total_degree": 10
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      }
+    ],
+    "entry_count": 36,
+    "max_numerator_degrees": {
+      "mu": 3,
+      "nu": 3,
+      "u": 9
+    },
+    "max_numerator_total_degree": 13
+  },
+  "raw6_row_column_extraction_checkpoint": {
+    "column_factors": [
+      {
+        "classification": "positive_on_domain",
+        "column": 1,
+        "factor": "u"
+      },
+      {
+        "classification": "positive_on_domain",
+        "column": 2,
+        "factor": "u"
+      },
+      {
+        "classification": "unclassified",
+        "column": 3,
+        "factor": "4"
+      }
+    ],
+    "determinant_factor_product": "16*u**14*(mu - 1)**3*(mu + 1)**3*(nu - 1)**3*(nu + 1)**3",
+    "row_factors": [
+      {
+        "classification": "unclassified",
+        "factor": "u**2*(mu - 1)*(mu + 1)",
+        "row": 1
+      },
+      {
+        "classification": "unclassified",
+        "factor": "u**2*(nu - 1)*(nu + 1)",
+        "row": 2
+      },
+      {
+        "classification": "unclassified",
+        "factor": "4*u**3",
+        "row": 3
+      },
+      {
+        "classification": "unclassified",
+        "factor": "u**3*(mu - 1)*(mu + 1)*(nu - 1)*(nu + 1)",
+        "row": 4
+      },
+      {
+        "classification": "unclassified",
+        "factor": "u*(mu - 1)*(mu + 1)",
+        "row": 5
+      },
+      {
+        "classification": "unclassified",
+        "factor": "u*(nu - 1)*(nu + 1)",
+        "row": 6
+      }
+    ]
+  },
+  "scaled_entry_degrees": {
+    "entries": [
+      {
+        "degrees": {
+          "mu": 5,
+          "nu": 1,
+          "u": 11
+        },
+        "entry": "0,0",
+        "part": "num",
+        "terms": 15,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 11
+        },
+        "entry": "0,1",
+        "part": "num",
+        "terms": 12,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 9
+        },
+        "entry": "0,2",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 2,
+          "u": 11
+        },
+        "entry": "0,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 1,
+          "u": 10
+        },
+        "entry": "0,4",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 2,
+          "u": 10
+        },
+        "entry": "0,5",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "0,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 11
+        },
+        "entry": "1,0",
+        "part": "num",
+        "terms": 12,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 5,
+          "u": 11
+        },
+        "entry": "1,1",
+        "part": "num",
+        "terms": 15,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 9
+        },
+        "entry": "1,2",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 4,
+          "u": 11
+        },
+        "entry": "1,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 3,
+          "u": 10
+        },
+        "entry": "1,4",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 4,
+          "u": 10
+        },
+        "entry": "1,5",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "1,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 9
+        },
+        "entry": "2,0",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 9
+        },
+        "entry": "2,1",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 1,
+          "u": 3
+        },
+        "entry": "2,2",
+        "part": "num",
+        "terms": 2,
+        "total_degree": 5
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "2,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "2,4",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "2,5",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "2,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 2,
+          "u": 11
+        },
+        "entry": "3,0",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 4,
+          "u": 11
+        },
+        "entry": "3,1",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "3,2",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 3,
+          "u": 11
+        },
+        "entry": "3,3",
+        "part": "num",
+        "terms": 20,
+        "total_degree": 17
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 2,
+          "u": 10
+        },
+        "entry": "3,4",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 3,
+          "u": 10
+        },
+        "entry": "3,5",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "3,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 4,
+          "nu": 1,
+          "u": 10
+        },
+        "entry": "4,0",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 3,
+          "u": 10
+        },
+        "entry": "4,1",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 1,
+          "u": 8
+        },
+        "entry": "4,2",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 2,
+          "u": 10
+        },
+        "entry": "4,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 1,
+          "u": 9
+        },
+        "entry": "4,4",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "4,5",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "4,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 3,
+          "nu": 2,
+          "u": 10
+        },
+        "entry": "5,0",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,0",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 4,
+          "u": 10
+        },
+        "entry": "5,1",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,1",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 2,
+          "u": 8
+        },
+        "entry": "5,2",
+        "part": "num",
+        "terms": 4,
+        "total_degree": 11
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,2",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 3,
+          "u": 10
+        },
+        "entry": "5,3",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 15
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,3",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 2,
+          "nu": 2,
+          "u": 9
+        },
+        "entry": "5,4",
+        "part": "num",
+        "terms": 8,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,4",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      },
+      {
+        "degrees": {
+          "mu": 1,
+          "nu": 3,
+          "u": 9
+        },
+        "entry": "5,5",
+        "part": "num",
+        "terms": 10,
+        "total_degree": 13
+      },
+      {
+        "degrees": {
+          "mu": 0,
+          "nu": 0,
+          "u": 0
+        },
+        "entry": "5,5",
+        "part": "den",
+        "terms": 1,
+        "total_degree": 0
+      }
+    ],
+    "entry_count": 36,
+    "max_numerator_degrees": {
+      "mu": 5,
+      "nu": 5,
+      "u": 11
+    },
+    "max_numerator_total_degree": 17
+  },
+  "scaled_matrix_upper_triangle": [
+    {
+      "entry": [
+        1,
+        1
+      ],
+      "polynomial": "-mu**5*nu*u**11 + 2*mu**5*nu*u**7 - 3*mu**4*u**11 + 6*mu**4*u**7 - 6*mu**4*u**3 - 2*mu**3*nu*u**11 + 4*mu**3*nu*u**7 + 2*mu**2*u**11 - 4*mu**2*u**7 + 4*mu**2*u**3 + 3*mu*nu*u**11 - 6*mu*nu*u**7 + u**11 - 2*u**7 + 2*u**3"
+    },
+    {
+      "entry": [
+        1,
+        2
+      ],
+      "polynomial": "-mu**3*nu**3*u**11 + 2*mu**3*nu**3*u**7 + mu**3*nu*u**11 - 2*mu**3*nu*u**7 + mu**2*nu**2*u**11 - mu**2*u**11 + mu*nu**3*u**11 - 2*mu*nu**3*u**7 - mu*nu*u**11 + 2*mu*nu*u**7 - nu**2*u**11 + u**11"
+    },
+    {
+      "entry": [
+        1,
+        3
+      ],
+      "polynomial": "-4*mu**3*nu*u**9 + 12*mu**3*nu*u**5 - 4*mu**2*u**9 - 4*mu**2*u**5 + 4*mu*nu*u**9 - 12*mu*nu*u**5 + 4*u**9 + 4*u**5"
+    },
+    {
+      "entry": [
+        1,
+        4
+      ],
+      "polynomial": "-mu**4*nu**2*u**11 + 2*mu**4*nu**2*u**7 + mu**4*u**11 - 2*mu**4*u**7 + nu**2*u**11 - 2*nu**2*u**7 - u**11 + 2*u**7"
+    },
+    {
+      "entry": [
+        1,
+        5
+      ],
+      "polynomial": "-3*mu**4*nu*u**10 + 7*mu**4*nu*u**6 - 6*mu**3*u**10 + 10*mu**3*u**6 - 12*mu**3*u**2 + 6*mu*u**10 - 10*mu*u**6 + 12*mu*u**2 + 3*nu*u**10 - 7*nu*u**6"
+    },
+    {
+      "entry": [
+        1,
+        6
+      ],
+      "polynomial": "-3*mu**3*nu**2*u**10 + 7*mu**3*nu**2*u**6 + 3*mu**3*u**10 - 7*mu**3*u**6 + 3*mu*nu**2*u**10 - 7*mu*nu**2*u**6 - 3*mu*u**10 + 7*mu*u**6"
+    },
+    {
+      "entry": [
+        2,
+        2
+      ],
+      "polynomial": "-mu*nu**5*u**11 + 2*mu*nu**5*u**7 - 2*mu*nu**3*u**11 + 4*mu*nu**3*u**7 + 3*mu*nu*u**11 - 6*mu*nu*u**7 - 3*nu**4*u**11 + 6*nu**4*u**7 - 6*nu**4*u**3 + 2*nu**2*u**11 - 4*nu**2*u**7 + 4*nu**2*u**3 + u**11 - 2*u**7 + 2*u**3"
+    },
+    {
+      "entry": [
+        2,
+        3
+      ],
+      "polynomial": "-4*mu*nu**3*u**9 + 12*mu*nu**3*u**5 + 4*mu*nu*u**9 - 12*mu*nu*u**5 - 4*nu**2*u**9 - 4*nu**2*u**5 + 4*u**9 + 4*u**5"
+    },
+    {
+      "entry": [
+        2,
+        4
+      ],
+      "polynomial": "-mu**2*nu**4*u**11 + 2*mu**2*nu**4*u**7 + mu**2*u**11 - 2*mu**2*u**7 + nu**4*u**11 - 2*nu**4*u**7 - u**11 + 2*u**7"
+    },
+    {
+      "entry": [
+        2,
+        5
+      ],
+      "polynomial": "-3*mu**2*nu**3*u**10 + 7*mu**2*nu**3*u**6 + 3*mu**2*nu*u**10 - 7*mu**2*nu*u**6 + 3*nu**3*u**10 - 7*nu**3*u**6 - 3*nu*u**10 + 7*nu*u**6"
+    },
+    {
+      "entry": [
+        2,
+        6
+      ],
+      "polynomial": "-3*mu*nu**4*u**10 + 7*mu*nu**4*u**6 + 3*mu*u**10 - 7*mu*u**6 - 6*nu**3*u**10 + 10*nu**3*u**6 - 12*nu**3*u**2 + 6*nu*u**10 - 10*nu*u**6 + 12*nu*u**2"
+    },
+    {
+      "entry": [
+        3,
+        3
+      ],
+      "polynomial": "64*mu*nu*u**3 + 64*u**3"
+    },
+    {
+      "entry": [
+        3,
+        4
+      ],
+      "polynomial": "-4*mu**2*nu**2*u**9 + 12*mu**2*nu**2*u**5 + 4*mu**2*u**9 - 12*mu**2*u**5 + 4*nu**2*u**9 - 12*nu**2*u**5 - 4*u**9 + 12*u**5"
+    },
+    {
+      "entry": [
+        3,
+        5
+      ],
+      "polynomial": "-8*mu**2*nu*u**8 + 40*mu**2*nu*u**4 + 8*nu*u**8 - 40*nu*u**4"
+    },
+    {
+      "entry": [
+        3,
+        6
+      ],
+      "polynomial": "-8*mu*nu**2*u**8 + 40*mu*nu**2*u**4 + 8*mu*u**8 - 40*mu*u**4"
+    },
+    {
+      "entry": [
+        4,
+        4
+      ],
+      "polynomial": "-mu**3*nu**3*u**11 + 2*mu**3*nu**3*u**7 + mu**3*nu*u**11 - 2*mu**3*nu*u**7 + mu**2*nu**2*u**11 - 3*mu**2*nu**2*u**7 + 3*mu**2*nu**2*u**3 - mu**2*u**11 + 3*mu**2*u**7 - 3*mu**2*u**3 + mu*nu**3*u**11 - 2*mu*nu**3*u**7 - mu*nu*u**11 + 2*mu*nu*u**7 - nu**2*u**11 + 3*nu**2*u**7 - 3*nu**2*u**3 + u**11 - 3*u**7 + 3*u**3"
+    },
+    {
+      "entry": [
+        4,
+        5
+      ],
+      "polynomial": "-3*mu**3*nu**2*u**10 + 7*mu**3*nu**2*u**6 + 3*mu**3*u**10 - 7*mu**3*u**6 + 3*mu*nu**2*u**10 - 7*mu*nu**2*u**6 - 3*mu*u**10 + 7*mu*u**6"
+    },
+    {
+      "entry": [
+        4,
+        6
+      ],
+      "polynomial": "-3*mu**2*nu**3*u**10 + 7*mu**2*nu**3*u**6 + 3*mu**2*nu*u**10 - 7*mu**2*nu*u**6 + 3*nu**3*u**10 - 7*nu**3*u**6 - 3*nu*u**10 + 7*nu*u**6"
+    },
+    {
+      "entry": [
+        5,
+        5
+      ],
+      "polynomial": "-8*mu**3*nu*u**9 + 24*mu**3*nu*u**5 - 8*mu**2*u**9 + 16*mu**2*u**5 - 24*mu**2*u + 8*mu*nu*u**9 - 24*mu*nu*u**5 + 8*u**9 - 16*u**5 + 24*u"
+    },
+    {
+      "entry": [
+        5,
+        6
+      ],
+      "polynomial": "-8*mu**2*nu**2*u**9 + 24*mu**2*nu**2*u**5 + 8*mu**2*u**9 - 24*mu**2*u**5 + 8*nu**2*u**9 - 24*nu**2*u**5 - 8*u**9 + 24*u**5"
+    },
+    {
+      "entry": [
+        6,
+        6
+      ],
+      "polynomial": "-8*mu*nu**3*u**9 + 24*mu*nu**3*u**5 + 8*mu*nu*u**9 - 24*mu*nu*u**5 - 8*nu**2*u**9 + 16*nu**2*u**5 - 24*nu**2*u + 8*u**9 - 16*u**5 + 24*u"
+    }
+  ],
+  "started_utc": "2026-09-09T11:52:57Z",
+  "structure_reduction": {
+    "M_in_new_coordinates_upper_triangle": [
+      {
+        "entry": [
+          1,
+          1
+        ],
+        "value": "(mu**2*u**3 - u**3)/(4*u**4 - 4)"
+      },
+      {
+        "entry": [
+          1,
+          2
+        ],
+        "value": "0"
+      },
+      {
+        "entry": [
+          1,
+          3
+        ],
+        "value": "(-mu**2*u**5 + u**5)/(2*u**4 - 2)"
+      },
+      {
+        "entry": [
+          1,
+          4
+        ],
+        "value": "(mu**3*u**5 + mu**2*nu*u**5 - mu*u**5 - nu*u**5)/(4*u**4 - 4)"
+      },
+      {
+        "entry": [
+          1,
+          5
+        ],
+        "value": "0"
+      },
+      {
+        "entry": [
+          1,
+          6
+        ],
+        "value": "(-mu**2*nu**2*u**5 + mu**2*u**5 + nu**2*u**5 - u**5)/(8*u**4 - 8)"
+      },
+      {
+        "entry": [
+          2,
+          2
+        ],
+        "value": "(nu**2*u**3 - u**3)/(4*u**4 - 4)"
+      },
+      {
+        "entry": [
+          2,
+          3
+        ],
+        "value": "(-nu**2*u**5 + u**5)/(2*u**4 - 2)"
+      },
+      {
+        "entry": [
+          2,
+          4
+        ],
+        "value": "0"
+      },
+      {
+        "entry": [
+          2,
+          5
+        ],
+        "value": "(mu*nu**2*u**5 - mu*u**5 + nu**3*u**5 - nu*u**5)/(4*u**4 - 4)"
+      },
+      {
+        "entry": [
+          2,
+          6
+        ],
+        "value": "(-mu**2*nu**2*u**5 + mu**2*u**5 + nu**2*u**5 - u**5)/(8*u**4 - 8)"
+      },
+      {
+        "entry": [
+          3,
+          3
+        ],
+        "value": "(8*mu*nu*u**3 + 8*u**3)/(u**8 - 2*u**4 + 1)"
+      },
+      {
+        "entry": [
+          3,
+          4
+        ],
+        "value": "(mu**2*nu*u**7 - 5*mu**2*nu*u**3 - nu*u**7 + 5*nu*u**3)/(u**8 - 2*u**4 + 1)"
+      },
+      {
+        "entry": [
+          3,
+          5
+        ],
+        "value": "(mu*nu**2*u**7 - 5*mu*nu**2*u**3 - mu*u**7 + 5*mu*u**3)/(u**8 - 2*u**4 + 1)"
+      },
+      {
+        "entry": [
+          3,
+          6
+        ],
+        "value": "(-mu**2*nu**2*u**7 + 3*mu**2*nu**2*u**3 + mu**2*u**7 - 3*mu**2*u**3 + nu**2*u**7 - 3*nu**2*u**3 - u**7 + 3*u**3)/(u**8 - 2*u**4 + 1)"
+      },
+      {
+        "entry": [
+          4,
+          4
+        ],
+        "value": "(-mu**3*nu*u**8 + 3*mu**3*nu*u**4 - mu**2*u**8 + 2*mu**2*u**4 - 3*mu**2 + mu*nu*u**8 - 3*mu*nu*u**4 + u**8 - 2*u**4 + 3)/(u**9 - 2*u**5 + u)"
+      },
+      {
+        "entry": [
+          4,
+          5
+        ],
+        "value": "(-mu**2*nu**2*u**7 + 3*mu**2*nu**2*u**3 + mu**2*u**7 - 3*mu**2*u**3 + nu**2*u**7 - 3*nu**2*u**3 - u**7 + 3*u**3)/(u**8 - 2*u**4 + 1)"
+      },
+      {
+        "entry": [
+          4,
+          6
+        ],
+        "value": "(3*mu**3*nu**2*u**7 - 7*mu**3*nu**2*u**3 - 3*mu**3*u**7 + 7*mu**3*u**3 - 3*mu*nu**2*u**7 + 7*mu*nu**2*u**3 + 3*mu*u**7 - 7*mu*u**3)/(4*u**8 - 8*u**4 + 4)"
+      },
+      {
+        "entry": [
+          5,
+          5
+        ],
+        "value": "(-mu*nu**3*u**8 + 3*mu*nu**3*u**4 + mu*nu*u**8 - 3*mu*nu*u**4 - nu**2*u**8 + 2*nu**2*u**4 - 3*nu**2 + u**8 - 2*u**4 + 3)/(u**9 - 2*u**5 + u)"
+      },
+      {
+        "entry": [
+          5,
+          6
+        ],
+        "value": "(3*mu**2*nu**3*u**7 - 7*mu**2*nu**3*u**3 - 3*mu**2*nu*u**7 + 7*mu**2*nu*u**3 - 3*nu**3*u**7 + 7*nu**3*u**3 + 3*nu*u**7 - 7*nu*u**3)/(4*u**8 - 8*u**4 + 4)"
+      },
+      {
+        "entry": [
+          6,
+          6
+        ],
+        "value": "(-mu**3*nu**3*u**8 + 2*mu**3*nu**3*u**4 + mu**3*nu*u**8 - 2*mu**3*nu*u**4 + mu**2*nu**2*u**8 - 3*mu**2*nu**2*u**4 + 3*mu**2*nu**2 - mu**2*u**8 + 3*mu**2*u**4 - 3*mu**2 + mu*nu**3*u**8 - 2*mu*nu**3*u**4 - mu*nu*u**8 + 2*mu*nu*u**4 - nu**2*u**8 + 3*nu**2*u**4 - 3*nu**2 + u**8 - 3*u**4 + 3)/(2*u**9 - 4*u**5 + 2*u)"
+      }
+    ],
+    "Rstar_degree_bounds": {
+      "entries": [
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 2,
+            "u": 11
+          },
+          "entry": "0,0",
+          "part": "num",
+          "terms": 8,
+          "total_degree": 13
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "0,0",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 1,
+            "u": 11
+          },
+          "entry": "0,1",
+          "part": "num",
+          "terms": 10,
+          "total_degree": 14
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "0,1",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 1,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "0,2",
+          "part": "num",
+          "terms": 10,
+          "total_degree": 14
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "0,2",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 2,
+            "u": 11
+          },
+          "entry": "0,3",
+          "part": "num",
+          "terms": 12,
+          "total_degree": 15
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "0,3",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 1,
+            "u": 11
+          },
+          "entry": "1,0",
+          "part": "num",
+          "terms": 10,
+          "total_degree": 14
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "1,0",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 4,
+            "nu": 2,
+            "u": 12
+          },
+          "entry": "1,1",
+          "part": "num",
+          "terms": 19,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 9
+          },
+          "entry": "1,1",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 9
+        },
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 2,
+            "u": 7
+          },
+          "entry": "1,2",
+          "part": "num",
+          "terms": 8,
+          "total_degree": 11
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "1,2",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "1,3",
+          "part": "num",
+          "terms": 20,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "1,3",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 1,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "2,0",
+          "part": "num",
+          "terms": 10,
+          "total_degree": 14
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "2,0",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 2,
+            "u": 7
+          },
+          "entry": "2,1",
+          "part": "num",
+          "terms": 8,
+          "total_degree": 11
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "2,1",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 4,
+            "u": 12
+          },
+          "entry": "2,2",
+          "part": "num",
+          "terms": 19,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 9
+          },
+          "entry": "2,2",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 9
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "2,3",
+          "part": "num",
+          "terms": 20,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "2,3",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 2,
+            "nu": 2,
+            "u": 11
+          },
+          "entry": "3,0",
+          "part": "num",
+          "terms": 12,
+          "total_degree": 15
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "3,0",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "3,1",
+          "part": "num",
+          "terms": 20,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "3,1",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 3,
+            "nu": 3,
+            "u": 11
+          },
+          "entry": "3,2",
+          "part": "num",
+          "terms": 20,
+          "total_degree": 16
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 8
+          },
+          "entry": "3,2",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 8
+        },
+        {
+          "degrees": {
+            "mu": 4,
+            "nu": 4,
+            "u": 12
+          },
+          "entry": "3,3",
+          "part": "num",
+          "terms": 32,
+          "total_degree": 18
+        },
+        {
+          "degrees": {
+            "mu": 0,
+            "nu": 0,
+            "u": 9
+          },
+          "entry": "3,3",
+          "part": "den",
+          "terms": 3,
+          "total_degree": 9
+        }
+      ],
+      "entry_count": 16,
+      "max_numerator_degrees": {
+        "mu": 4,
+        "nu": 4,
+        "u": 12
+      },
+      "max_numerator_total_degree": 18
+    },
+    "Rstar_strings": [
+      [
+        "(-mu**2*u**11 + mu**2*u**7 + 8*mu*nu*u**3 - nu**2*u**11 + nu**2*u**7 + 2*u**11 - 2*u**7 + 8*u**3)/(u**8 - 2*u**4 + 1)",
+        "(mu**3*u**11 - mu**3*u**7 + mu**2*nu*u**11 + mu**2*nu*u**7 - 10*mu**2*nu*u**3 - mu*u**11 + mu*u**7 - nu*u**11 - nu*u**7 + 10*nu*u**3)/(2*u**8 - 4*u**4 + 2)",
+        "(mu*nu**2*u**11 + mu*nu**2*u**7 - 10*mu*nu**2*u**3 - mu*u**11 - mu*u**7 + 10*mu*u**3 + nu**3*u**11 - nu**3*u**7 - nu*u**11 + nu*u**7)/(2*u**8 - 4*u**4 + 2)",
+        "(-mu**2*nu**2*u**11 - mu**2*nu**2*u**7 + 6*mu**2*nu**2*u**3 + mu**2*u**11 + mu**2*u**7 - 6*mu**2*u**3 + nu**2*u**11 + nu**2*u**7 - 6*nu**2*u**3 - u**11 - u**7 + 6*u**3)/(2*u**8 - 4*u**4 + 2)"
+      ],
+      [
+        "(mu**3*u**11 - mu**3*u**7 + mu**2*nu*u**11 + mu**2*nu*u**7 - 10*mu**2*nu*u**3 - mu*u**11 + mu*u**7 - nu*u**11 - nu*u**7 + 10*nu*u**3)/(2*u**8 - 4*u**4 + 2)",
+        "(-mu**4*u**12 + mu**4*u**8 - 2*mu**3*nu*u**12 - 2*mu**3*nu*u**8 + 12*mu**3*nu*u**4 - mu**2*nu**2*u**12 + mu**2*nu**2*u**8 + mu**2*u**12 - 5*mu**2*u**8 + 8*mu**2*u**4 - 12*mu**2 + 2*mu*nu*u**12 + 2*mu*nu*u**8 - 12*mu*nu*u**4 + nu**2*u**12 - nu**2*u**8 + 4*u**8 - 8*u**4 + 12)/(4*u**9 - 8*u**5 + 4*u)",
+        "(-mu**2*nu**2*u**7 + 3*mu**2*nu**2*u**3 + mu**2*u**7 - 3*mu**2*u**3 + nu**2*u**7 - 3*nu**2*u**3 - u**7 + 3*u**3)/(u**8 - 2*u**4 + 1)",
+        "(mu**3*nu**2*u**11 + 5*mu**3*nu**2*u**7 - 14*mu**3*nu**2*u**3 - mu**3*u**11 - 5*mu**3*u**7 + 14*mu**3*u**3 + mu**2*nu**3*u**11 - mu**2*nu**3*u**7 - mu**2*nu*u**11 + mu**2*nu*u**7 - mu*nu**2*u**11 - 5*mu*nu**2*u**7 + 14*mu*nu**2*u**3 + mu*u**11 + 5*mu*u**7 - 14*mu*u**3 - nu**3*u**11 + nu**3*u**7 + nu*u**11 - nu*u**7)/(8*u**8 - 16*u**4 + 8)"
+      ],
+      [
+        "(mu*nu**2*u**11 + mu*nu**2*u**7 - 10*mu*nu**2*u**3 - mu*u**11 - mu*u**7 + 10*mu*u**3 + nu**3*u**11 - nu**3*u**7 - nu*u**11 + nu*u**7)/(2*u**8 - 4*u**4 + 2)",
+        "(-mu**2*nu**2*u**7 + 3*mu**2*nu**2*u**3 + mu**2*u**7 - 3*mu**2*u**3 + nu**2*u**7 - 3*nu**2*u**3 - u**7 + 3*u**3)/(u**8 - 2*u**4 + 1)",
+        "(-mu**2*nu**2*u**12 + mu**2*nu**2*u**8 + mu**2*u**12 - mu**2*u**8 - 2*mu*nu**3*u**12 - 2*mu*nu**3*u**8 + 12*mu*nu**3*u**4 + 2*mu*nu*u**12 + 2*mu*nu*u**8 - 12*mu*nu*u**4 - nu**4*u**12 + nu**4*u**8 + nu**2*u**12 - 5*nu**2*u**8 + 8*nu**2*u**4 - 12*nu**2 + 4*u**8 - 8*u**4 + 12)/(4*u**9 - 8*u**5 + 4*u)",
+        "(mu**3*nu**2*u**11 - mu**3*nu**2*u**7 - mu**3*u**11 + mu**3*u**7 + mu**2*nu**3*u**11 + 5*mu**2*nu**3*u**7 - 14*mu**2*nu**3*u**3 - mu**2*nu*u**11 - 5*mu**2*nu*u**7 + 14*mu**2*nu*u**3 - mu*nu**2*u**11 + mu*nu**2*u**7 + mu*u**11 - mu*u**7 - nu**3*u**11 - 5*nu**3*u**7 + 14*nu**3*u**3 + nu*u**11 + 5*nu*u**7 - 14*nu*u**3)/(8*u**8 - 16*u**4 + 8)"
+      ],
+      [
+        "(-mu**2*nu**2*u**11 - mu**2*nu**2*u**7 + 6*mu**2*nu**2*u**3 + mu**2*u**11 + mu**2*u**7 - 6*mu**2*u**3 + nu**2*u**11 + nu**2*u**7 - 6*nu**2*u**3 - u**11 - u**7 + 6*u**3)/(2*u**8 - 4*u**4 + 2)",
+        "(mu**3*nu**2*u**11 + 5*mu**3*nu**2*u**7 - 14*mu**3*nu**2*u**3 - mu**3*u**11 - 5*mu**3*u**7 + 14*mu**3*u**3 + mu**2*nu**3*u**11 - mu**2*nu**3*u**7 - mu**2*nu*u**11 + mu**2*nu*u**7 - mu*nu**2*u**11 - 5*mu*nu**2*u**7 + 14*mu*nu**2*u**3 + mu*u**11 + 5*mu*u**7 - 14*mu*u**3 - nu**3*u**11 + nu**3*u**7 + nu*u**11 - nu*u**7)/(8*u**8 - 16*u**4 + 8)",
+        "(mu**3*nu**2*u**11 - mu**3*nu**2*u**7 - mu**3*u**11 + mu**3*u**7 + mu**2*nu**3*u**11 + 5*mu**2*nu**3*u**7 - 14*mu**2*nu**3*u**3 - mu**2*nu*u**11 - 5*mu**2*nu*u**7 + 14*mu**2*nu*u**3 - mu*nu**2*u**11 + mu*nu**2*u**7 + mu*u**11 - mu*u**7 - nu**3*u**11 - 5*nu**3*u**7 + 14*nu**3*u**3 + nu*u**11 + 5*nu*u**7 - 14*nu*u**3)/(8*u**8 - 16*u**4 + 8)",
+        "(-mu**4*nu**2*u**12 + mu**4*nu**2*u**8 + mu**4*u**12 - mu**4*u**8 - 8*mu**3*nu**3*u**8 + 16*mu**3*nu**3*u**4 + 8*mu**3*nu*u**8 - 16*mu**3*nu*u**4 - mu**2*nu**4*u**12 + mu**2*nu**4*u**8 + 4*mu**2*nu**2*u**12 + 4*mu**2*nu**2*u**8 - 24*mu**2*nu**2*u**4 + 24*mu**2*nu**2 - 3*mu**2*u**12 - 5*mu**2*u**8 + 24*mu**2*u**4 - 24*mu**2 + 8*mu*nu**3*u**8 - 16*mu*nu**3*u**4 - 8*mu*nu*u**8 + 16*mu*nu*u**4 + nu**4*u**12 - nu**4*u**8 - 3*nu**2*u**12 - 5*nu**2*u**8 + 24*nu**2*u**4 - 24*nu**2 + 2*u**12 + 6*u**8 - 24*u**4 + 24)/(16*u**9 - 32*u**5 + 16*u)"
+      ]
+    ],
+    "case": "r0",
+    "checks": {
+      "alpha_beta_offdiag_zero": true,
+      "dalpha_identity": true,
+      "dbeta_identity": true,
+      "invisible_mixed_cancellation": true
+    },
+    "dalpha": "(mu**2*u**3 - u**3)/(4*u**4 - 4)",
+    "dbeta": "(nu**2*u**3 - u**3)/(4*u**4 - 4)",
+    "new_variables": [
+      "alpha",
+      "beta",
+      "m",
+      "p",
+      "q",
+      "h"
+    ],
+    "sign_variables": [
+      "mu",
+      "nu",
+      "u"
+    ],
+    "transform_determinant": "2/u**4",
+    "transform_old_from_new": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-u**2*(1/4 - mu**2/4)/2",
+        "-u**2*(1/4 - nu**2/4)/2",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2/u**2"
+      ],
+      [
+        "-mu*u/2",
+        "0",
+        "0",
+        "-1/u",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-nu*u/2",
+        "0",
+        "0",
+        "-1/u",
+        "0"
+      ]
+    ]
+  },
+  "structure_status": "ok",
+  "variables": [
+    "mu",
+    "nu",
+    "u"
+  ]
+}
+
