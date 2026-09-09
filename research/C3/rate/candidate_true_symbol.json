@@ -1,0 +1,16 @@
+{
+  "id": "C3-M1",
+  "convention": "f_t(theta)=(p+t*dp)+sum_{k=1}^2 [(a[k-1]+t*da[k-1])*cos(2*pi*k*theta)+(b[k-1]+t*db[k-1])*sin(2*pi*k*theta)]",
+  "fourier_convention": "K(i,j)=c_(i-j); c_k=(a_k+i*b_k)/2",
+  "p": "1/2",
+  "dp": "0",
+  "a": ["6/25", "594/2525"],
+  "b": ["0", "120/2525"],
+  "da": ["0", "120/2525"],
+  "db": ["6/25", "-594/2525"],
+  "step": "1/4",
+  "uniform_margin": "1/200",
+  "exact_sharper_margin": "1/2-3*sqrt(17)/25",
+  "endpoint_equality_assumed": false,
+  "source_input": "../mechanism/candidate.json"
+}

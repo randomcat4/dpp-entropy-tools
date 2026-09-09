@@ -1,0 +1,18 @@
+{
+  "run_dir": ".",
+  "mode": "research",
+  "ok": true,
+  "frozen_versions": [
+    "frozen_theorem_v2.md"
+  ],
+  "proof_count": 1,
+  "verification_count": 3,
+  "verification_statuses": {
+    "correct": 3,
+    "critical_gaps": 0,
+    "other": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "note": "Structure only; mathematical correctness, semantic fidelity, literature status, and novelty are not checked."
+}

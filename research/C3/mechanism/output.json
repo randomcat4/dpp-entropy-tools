@@ -1,0 +1,71 @@
+{
+  "status": "FLOATING_DIAGNOSTIC_NOT_CERTIFICATE",
+  "input": {
+    "id": "C3-M1",
+    "f_mean": "1/2",
+    "c1": [
+      "3/25",
+      "0"
+    ],
+    "c2": [
+      "297/2525",
+      "60/2525"
+    ],
+    "phase_velocity": [
+      1,
+      -1
+    ],
+    "step": "1/4",
+    "window": 8,
+    "scope": "one predeclared three-symbol chord, one full-event directional jet; no Hessian search"
+  },
+  "pid": 163278,
+  "versions": {
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "numpy": "2.5.3",
+    "sympy": "1.14.0",
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "spectral_margin_proven_lower": 0.005227324925880739,
+  "fisher": 0.001763694568746871,
+  "affine_acceleration": -0.0692249782788554,
+  "affine_H_second": -0.07098867284760227,
+  "radial_H_first": -0.11200845606788071,
+  "phase_acceleration": 0.04278347778902532,
+  "phase_H_second": 0.041019783220278445,
+  "affine_second_fd_delta_1e4": -0.07098890364432009,
+  "phase_second_fd_delta_1e4": 0.041019632135430584,
+  "H_minus": 5.517833093408155,
+  "H_center": 5.519657475320029,
+  "H_plus": 5.516674586550236,
+  "finite_gap": -0.002403635340833432,
+  "checks": {
+    "sum_p": 1.0,
+    "sum_p_first": -2.168404344971009e-19,
+    "sum_p_second": -1.0408340855860843e-17,
+    "sum_p_radial": -2.6020852139652106e-17,
+    "min_event_probability": 0.0009886542807422385,
+    "max_abs_score": 0.00045078753099392165,
+    "eigenvalue_intervals": [
+      [
+        0.17289313213596033,
+        0.9108116994835258
+      ],
+      [
+        0.2519187429503052,
+        0.9164215585684944
+      ],
+      [
+        0.2101553888315579,
+        0.9237367541124958
+      ]
+    ]
+  },
+  "elapsed_seconds": 0.0557280071079731
+}
