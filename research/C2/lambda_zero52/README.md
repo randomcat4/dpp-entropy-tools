@@ -11,7 +11,8 @@ The target is positive definiteness of `M = d/du[-Hess H(K(u))]` for all `|mu|, 
 | `compute/` | Independent event reconstruction, rational identity check and bounded sign computation | Sole owner, one process |
 | `formula_review/` | Independent analytic audit of the event-to-M formula and domain | None |
 | `structure/` | Bounded analytic congruence/factor/obstruction route | None |
+| `structure_review/` | Fresh nonauthor analytic review after the structural author finished | None |
 
-All three children are direct, with no descendants. A new sign certificate or counterexample requires a subsequent fresh nonauthor review. Routine coordination stays in issue52 and the associated draft PR; C3 alone integrates main.
+All children are direct, with no descendants; the fresh structural review reused a freed slot. A new sign certificate or counterexample requires a subsequent fresh nonauthor review. Routine coordination stays in issue52 and the associated draft PR; C3 alone integrates main.
 
 See `frozen_contract.md` for acceptance and stopping rules, `STATUS.md` for progress, and `provenance.md` for role separation. No computational outcome has yet been accepted.
