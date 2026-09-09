@@ -1,0 +1,57 @@
+{
+  "commit": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "purpose": "Exact prior accepted-input scope only, not review of new author claims",
+  "origin": "public immutable main source",
+  "files": [
+    {
+      "blob": "c43fb6318f0c8132e685e6c28e345feda427621a",
+      "download_hash_verified": true,
+      "path": "docs/verification_round3_20260909/accepted_pr51.md"
+    },
+    {
+      "blob": "d9fb50425daa633f68d1869f224ea3882098ef8b",
+      "download_hash_verified": true,
+      "path": "docs/verification_round3_20260909/archived_pr55.md"
+    },
+    {
+      "blob": "92746613904ec719685f4839dd580f2f1fcfca77",
+      "download_hash_verified": true,
+      "path": "docs/verification_round3_20260909/accepted_pr53.md"
+    },
+    {
+      "blob": "4a6ddd6499a104c5c9a5748e5fdd977e3862d663",
+      "download_hash_verified": true,
+      "path": "docs/verification_round3_20260909/accepted_pr54.md"
+    },
+    {
+      "blob": "c0331d6dca7e2d1a8cfec4feb162184132e92685",
+      "download_hash_verified": true,
+      "path": "docs/verification_20260909/w2/radial_quartic_audit.md"
+    },
+    {
+      "blob": "39032f0df6913b4e2f2a57cfc2fcb459ffeacf15",
+      "download_hash_verified": true,
+      "path": "research/I05-23-20260909/RESULT.md"
+    },
+    {
+      "blob": "ea9f470093dd15563af0015ad8bebc44c61230b1",
+      "download_hash_verified": true,
+      "path": "research/I05-23-20260909/ADDENDUM_OUTER_WEDGE_FLOW_RATE.md"
+    },
+    {
+      "blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d",
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md"
+    },
+    {
+      "blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f",
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md"
+    },
+    {
+      "blob": "877e76a94476aee8902af12f3e9d34a914088ba1",
+      "download_hash_verified": true,
+      "path": "research/I05-DPP-21-20260909/proof.md"
+    }
+  ]
+}
