@@ -1,0 +1,316 @@
+{
+  "steps": [
+    {
+      "details": {
+        "required_inputs": [
+          "<TASK_ROOT>/source/inputs/pr60/proof.md",
+          "<TASK_ROOT>/source/inputs/main/STRUCTURE.md",
+          "<TASK_ROOT>/source/inputs/reference_P_components.json",
+          "<TASK_ROOT>/source/inputs/SOURCE_BINDING.json"
+        ]
+      },
+      "elapsed_seconds": 0.002,
+      "end_utc": "2026-09-09T15:28:04.140256+00:00",
+      "name": "input_presence",
+      "start_utc": "2026-09-09T15:28:04.140060+00:00",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "gram_entries": 16,
+        "qdot_reductions": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "reflection_entries": 16
+      },
+      "elapsed_seconds": 0.467,
+      "end_utc": "2026-09-09T15:28:04.605352+00:00",
+      "name": "bernoulli_gram_and_reflection",
+      "start_utc": "2026-09-09T15:28:04.140420+00:00",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "entries_checked": 16
+      },
+      "elapsed_seconds": 2.964,
+      "end_utc": "2026-09-09T15:28:07.102300+00:00",
+      "name": "rstar_rbar_entry_identity",
+      "start_utc": "2026-09-09T15:28:04.605785+00:00",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "entry_summaries": [
+          {
+            "degrees": [
+              2,
+              2,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              0,
+              0
+            ],
+            "terms": 66,
+            "total_degree": 14
+          },
+          {
+            "degrees": [
+              3,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              0,
+              1
+            ],
+            "terms": 92,
+            "total_degree": 15
+          },
+          {
+            "degrees": [
+              1,
+              3,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              0,
+              2
+            ],
+            "terms": 92,
+            "total_degree": 15
+          },
+          {
+            "degrees": [
+              2,
+              2,
+              6,
+              4
+            ],
+            "domain": "QQ",
+            "entry": [
+              0,
+              3
+            ],
+            "terms": 40,
+            "total_degree": 14
+          },
+          {
+            "degrees": [
+              1,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              1,
+              0
+            ],
+            "terms": 46,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              2,
+              2,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              1,
+              1
+            ],
+            "terms": 83,
+            "total_degree": 14
+          },
+          {
+            "degrees": [
+              0,
+              2,
+              6,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              1,
+              2
+            ],
+            "terms": 20,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              1,
+              3,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              1,
+              3
+            ],
+            "terms": 80,
+            "total_degree": 15
+          },
+          {
+            "degrees": [
+              1,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              2,
+              0
+            ],
+            "terms": 46,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              2,
+              0,
+              6,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              2,
+              1
+            ],
+            "terms": 20,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              2,
+              2,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              2,
+              2
+            ],
+            "terms": 83,
+            "total_degree": 14
+          },
+          {
+            "degrees": [
+              3,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              2,
+              3
+            ],
+            "terms": 80,
+            "total_degree": 15
+          },
+          {
+            "degrees": [
+              0,
+              0,
+              6,
+              4
+            ],
+            "domain": "QQ",
+            "entry": [
+              3,
+              0
+            ],
+            "terms": 10,
+            "total_degree": 10
+          },
+          {
+            "degrees": [
+              1,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              3,
+              1
+            ],
+            "terms": 40,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              1,
+              1,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              3,
+              2
+            ],
+            "terms": 40,
+            "total_degree": 13
+          },
+          {
+            "degrees": [
+              2,
+              2,
+              7,
+              5
+            ],
+            "domain": "QQ",
+            "entry": [
+              3,
+              3
+            ],
+            "terms": 61,
+            "total_degree": 14
+          }
+        ]
+      },
+      "elapsed_seconds": 5.257,
+      "end_utc": "2026-09-09T15:28:09.395195+00:00",
+      "name": "ahat_polynomial_entries",
+      "start_utc": "2026-09-09T15:28:07.102526+00:00",
+      "status": "PASS"
+    },
+    {
+      "end_utc": "2026-09-09T15:28:32.705841+00:00",
+      "error": "TypeError('list indices must be integers or slices, not tuple')",
+      "name": "determinant_extract_fresh_P",
+      "start_utc": "2026-09-09T15:28:09.395597+00:00",
+      "status": "FAIL"
+    }
+  ]
+}

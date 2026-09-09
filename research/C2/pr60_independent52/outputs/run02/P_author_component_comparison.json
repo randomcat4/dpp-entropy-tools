@@ -1,0 +1,62 @@
+{
+  "P_leafswap": "PASS",
+  "P_signflip": "PASS",
+  "assembled_after_fresh_P": true,
+  "component_summaries": {
+    "c00": {
+      "degrees": [
+        6,
+        5
+      ],
+      "domain": "QQ",
+      "terms": 15,
+      "total_degree": 11
+    },
+    "c11": {
+      "degrees": [
+        8,
+        6
+      ],
+      "domain": "QQ",
+      "terms": 20,
+      "total_degree": 14
+    },
+    "c20": {
+      "degrees": [
+        8,
+        6
+      ],
+      "domain": "QQ",
+      "terms": 36,
+      "total_degree": 14
+    },
+    "c22": {
+      "degrees": [
+        10,
+        6
+      ],
+      "domain": "QQ",
+      "terms": 24,
+      "total_degree": 16
+    },
+    "c31": {
+      "degrees": [
+        10,
+        6
+      ],
+      "domain": "QQ",
+      "terms": 38,
+      "total_degree": 16
+    },
+    "c40": {
+      "degrees": [
+        10,
+        6
+      ],
+      "domain": "QQ",
+      "terms": 36,
+      "total_degree": 16
+    }
+  },
+  "status": "PASS"
+}

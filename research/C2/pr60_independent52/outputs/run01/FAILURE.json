@@ -1,0 +1,6 @@
+{
+  "elapsed_seconds": 28.569,
+  "error": "TypeError('list indices must be integers or slices, not tuple')",
+  "status": "FAIL",
+  "traceback": "Traceback (most recent call last):\n  File \"<TASK_ROOT>/source/implementation/pr60_independent_certificate.py\", line 929, in main\n    run(checker)\n  File \"<TASK_ROOT>/source/implementation/pr60_independent_certificate.py\", line 855, in run\n    p_poly, det_poly, det_details = extract_p_from_determinant(ahat_polys)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<TASK_ROOT>/source/implementation/pr60_independent_certificate.py\", line 549, in extract_p_from_determinant\n    det_perm = determinant_by_permutation_poly(ahat_polys)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<TASK_ROOT>/source/implementation/pr60_independent_certificate.py\", line 538, in determinant_by_permutation_poly\n    term *= mat[row, col]\n            ~~~^^^^^^^^^^\nTypeError: list indices must be integers or slices, not tuple\n"
+}
