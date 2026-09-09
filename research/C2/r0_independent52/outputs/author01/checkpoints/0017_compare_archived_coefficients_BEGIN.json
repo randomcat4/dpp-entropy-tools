@@ -1,0 +1,11 @@
+{
+  "details": {
+    "note": "reference coefficient files are first opened here, after fresh Q construction"
+  },
+  "elapsed_seconds": 9.678,
+  "index": 17,
+  "label": "compare_archived_coefficients",
+  "remaining_seconds": 2689.405,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:47Z"
+}

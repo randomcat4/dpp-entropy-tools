@@ -1,0 +1,13 @@
+{
+  "details": {
+    "min_coeff": 192,
+    "nonzero_count": 389,
+    "zero_count_in_box": 36
+  },
+  "elapsed_seconds": 9.677,
+  "index": 16,
+  "label": "validate_Q",
+  "remaining_seconds": 2689.406,
+  "status": "END",
+  "utc": "2026-09-09T13:32:47Z"
+}

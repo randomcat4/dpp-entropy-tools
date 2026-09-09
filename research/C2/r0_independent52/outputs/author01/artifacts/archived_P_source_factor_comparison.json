@@ -1,0 +1,34 @@
+{
+  "degree_box": [
+    4,
+    4,
+    16
+  ],
+  "full_degree_box_entries_checked": 425,
+  "identity": {
+    "label": "fresh P equals archived source_factor",
+    "remainder": "0",
+    "zero": true
+  },
+  "selected_scalar_facts": [
+    {
+      "path": "$.positive_coefficients",
+      "value": 389
+    },
+    {
+      "path": "$.nonzero_terms",
+      "value": 389
+    },
+    {
+      "path": "$.min_coefficient",
+      "value": "192"
+    },
+    {
+      "path": "$.max_coefficient",
+      "value": "99220032"
+    }
+  ],
+  "source": "resume/coefficient_outputs/r0_coefficient_report.json[source_factor]",
+  "source_factor": "mu**4*u**16 - mu**4*u**12 + 4*mu**3*nu*u**16 + 6*mu**3*nu*u**12 - 18*mu**3*nu*u**8 + 6*mu**2*nu**2*u**16 + 14*mu**2*nu**2*u**12 - 36*mu**2*nu**2*u**8 + 2*mu**2*u**12 - 6*mu**2*u**8 - 36*mu**2*u**4 + 4*mu*nu**3*u**16 + 6*mu*nu**3*u**12 - 18*mu*nu**3*u**8 + 4*mu*nu*u**12 - 60*mu*nu*u**8 - 144*mu*nu*u**4 + 216*mu*nu + nu**4*u**16 - nu**4*u**12 + 2*nu**2*u**12 - 6*nu**2*u**8 - 36*nu**2*u**4 - 48*u**8 - 72*u**4 + 216",
+  "status": "matched"
+}

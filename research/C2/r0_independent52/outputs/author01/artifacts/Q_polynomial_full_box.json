@@ -1,0 +1,6540 @@
+{
+  "degree_box": [
+    4,
+    4,
+    16
+  ],
+  "full_degree_box_coefficients": [
+    {
+      "coefficient": "432",
+      "exponents": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "785952",
+      "exponents": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "1883520",
+      "exponents": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "3440448",
+      "exponents": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "4878720",
+      "exponents": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "5417088",
+      "exponents": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "4712448",
+      "exponents": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "3187968",
+      "exponents": [
+        0,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "1648128",
+      "exponents": [
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "630272",
+      "exponents": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "167936",
+      "exponents": [
+        0,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "27648",
+      "exponents": [
+        0,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "2048",
+      "exponents": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        0,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        0,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        0,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        0,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        0,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        0,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        0,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        0,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        0,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        0,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        0,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        0,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        0,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        0,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        0,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        0,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        0,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        0,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        0,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        0,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        0,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        0,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        0,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        0,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        1,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        1,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        1,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        1,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        1,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        1,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        1,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        1,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        1,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        1,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        1,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        1,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "4320",
+      "exponents": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "69120",
+      "exponents": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "518400",
+      "exponents": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "2419200",
+      "exponents": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "7860672",
+      "exponents": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "18849024",
+      "exponents": [
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "34480512",
+      "exponents": [
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "49040640",
+      "exponents": [
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "54742176",
+      "exponents": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "48045312",
+      "exponents": [
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "32973696",
+      "exponents": [
+        1,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "17452800",
+      "exponents": [
+        1,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "6946560",
+      "exponents": [
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "1990656",
+      "exponents": [
+        1,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "380160",
+      "exponents": [
+        1,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        1,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "1664",
+      "exponents": [
+        1,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        1,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        1,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        1,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        1,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        1,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        1,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        1,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "2592",
+      "exponents": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "311040",
+      "exponents": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "1451520",
+      "exponents": [
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "4716864",
+      "exponents": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "11314944",
+      "exponents": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "20718720",
+      "exponents": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "29525760",
+      "exponents": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "33073248",
+      "exponents": [
+        1,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "29190912",
+      "exponents": [
+        1,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "20205696",
+      "exponents": [
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "10828032",
+      "exponents": [
+        1,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "4385344",
+      "exponents": [
+        1,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "1287424",
+      "exponents": [
+        1,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "254592",
+      "exponents": [
+        1,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "29440",
+      "exponents": [
+        1,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "1408",
+      "exponents": [
+        1,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        1,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        1,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        1,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        1,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        1,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        1,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        2,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        2,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        2,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        2,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        2,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        2,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        2,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        2,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        2,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        2,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        2,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        2,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        2,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        2,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        2,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        2,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        2,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        2,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        2,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        2,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        2,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        2,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "7776",
+      "exponents": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "124416",
+      "exponents": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "933120",
+      "exponents": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "4354560",
+      "exponents": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "14150592",
+      "exponents": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "33944832",
+      "exponents": [
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "62156160",
+      "exponents": [
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "88577280",
+      "exponents": [
+        2,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "99220032",
+      "exponents": [
+        2,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "87575040",
+      "exponents": [
+        2,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "60625152",
+      "exponents": [
+        2,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "32500224",
+      "exponents": [
+        2,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "13175936",
+      "exponents": [
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "3877376",
+      "exponents": [
+        2,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "770304",
+      "exponents": [
+        2,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "89600",
+      "exponents": [
+        2,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "4352",
+      "exponents": [
+        2,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        2,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        2,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        2,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        2,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        2,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        2,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        2,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        2,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        2,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        2,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        2,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        2,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        2,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        2,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        2,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        2,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        3,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        3,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        3,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        3,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        3,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        3,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        3,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        3,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        3,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        3,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        3,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        3,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        3,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        3,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "2592",
+      "exponents": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "311040",
+      "exponents": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "1451520",
+      "exponents": [
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "4716864",
+      "exponents": [
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "11314944",
+      "exponents": [
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "20718720",
+      "exponents": [
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "29525760",
+      "exponents": [
+        3,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "33073248",
+      "exponents": [
+        3,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "29190912",
+      "exponents": [
+        3,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "20205696",
+      "exponents": [
+        3,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "10828032",
+      "exponents": [
+        3,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "4385344",
+      "exponents": [
+        3,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "1287424",
+      "exponents": [
+        3,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "254592",
+      "exponents": [
+        3,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "29440",
+      "exponents": [
+        3,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "1408",
+      "exponents": [
+        3,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        3,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        3,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        3,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        3,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        3,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        3,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        3,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        3,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        3,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        3,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        3,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "4320",
+      "exponents": [
+        3,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "69120",
+      "exponents": [
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "518400",
+      "exponents": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "2419200",
+      "exponents": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "7860672",
+      "exponents": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "18849024",
+      "exponents": [
+        3,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "34480512",
+      "exponents": [
+        3,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "49040640",
+      "exponents": [
+        3,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "54742176",
+      "exponents": [
+        3,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "48045312",
+      "exponents": [
+        3,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "32973696",
+      "exponents": [
+        3,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "17452800",
+      "exponents": [
+        3,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "6946560",
+      "exponents": [
+        3,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "1990656",
+      "exponents": [
+        3,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "380160",
+      "exponents": [
+        3,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        3,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "1664",
+      "exponents": [
+        3,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        3,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        3,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        3,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        3,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        3,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        3,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        3,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        3,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        4,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        4,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        4,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        4,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        4,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        4,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        4,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        4,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        4,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        4,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        4,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        4,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        4,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        4,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        4,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        4,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        4,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        4,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        4,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        4,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        4,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        4,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        4,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        4,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        4,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        4,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        4,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        4,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        4,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        4,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        4,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        4,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        4,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        4,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        4,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "785952",
+      "exponents": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "1883520",
+      "exponents": [
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "3440448",
+      "exponents": [
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "4878720",
+      "exponents": [
+        4,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "5417088",
+      "exponents": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "4712448",
+      "exponents": [
+        4,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "3187968",
+      "exponents": [
+        4,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "1648128",
+      "exponents": [
+        4,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "630272",
+      "exponents": [
+        4,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "167936",
+      "exponents": [
+        4,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "27648",
+      "exponents": [
+        4,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "2048",
+      "exponents": [
+        4,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "0",
+      "exponents": [
+        4,
+        4,
+        16
+      ]
+    }
+  ],
+  "identities": [
+    {
+      "label": "direct Q transform equals coefficient-combinatorial Q",
+      "remainder": "0",
+      "zero": true
+    }
+  ],
+  "max_positive_coefficient": 99220032,
+  "min_positive_coefficient": 192,
+  "nonzero_count": 389,
+  "sparse_coefficients": [
+    {
+      "coefficient": "432",
+      "exponents": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "785952",
+      "exponents": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "1883520",
+      "exponents": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "3440448",
+      "exponents": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "4878720",
+      "exponents": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "5417088",
+      "exponents": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "4712448",
+      "exponents": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "3187968",
+      "exponents": [
+        0,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "1648128",
+      "exponents": [
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "630272",
+      "exponents": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "167936",
+      "exponents": [
+        0,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "27648",
+      "exponents": [
+        0,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "2048",
+      "exponents": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        0,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        0,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        0,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        0,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        0,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        0,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        0,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        0,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        0,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        0,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        0,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        0,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        0,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        0,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        0,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        0,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        0,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        0,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        0,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        0,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        0,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        0,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        0,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        1,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        1,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        1,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        1,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        1,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        1,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        1,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        1,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        1,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        1,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        1,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        1,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "4320",
+      "exponents": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "69120",
+      "exponents": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "518400",
+      "exponents": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "2419200",
+      "exponents": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "7860672",
+      "exponents": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "18849024",
+      "exponents": [
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "34480512",
+      "exponents": [
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "49040640",
+      "exponents": [
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "54742176",
+      "exponents": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "48045312",
+      "exponents": [
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "32973696",
+      "exponents": [
+        1,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "17452800",
+      "exponents": [
+        1,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "6946560",
+      "exponents": [
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "1990656",
+      "exponents": [
+        1,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "380160",
+      "exponents": [
+        1,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        1,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "1664",
+      "exponents": [
+        1,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        1,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        1,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        1,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        1,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        1,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        1,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        1,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "2592",
+      "exponents": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "311040",
+      "exponents": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "1451520",
+      "exponents": [
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "4716864",
+      "exponents": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "11314944",
+      "exponents": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "20718720",
+      "exponents": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "29525760",
+      "exponents": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "33073248",
+      "exponents": [
+        1,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "29190912",
+      "exponents": [
+        1,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "20205696",
+      "exponents": [
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "10828032",
+      "exponents": [
+        1,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "4385344",
+      "exponents": [
+        1,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "1287424",
+      "exponents": [
+        1,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "254592",
+      "exponents": [
+        1,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "29440",
+      "exponents": [
+        1,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "1408",
+      "exponents": [
+        1,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        1,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        1,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        1,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        1,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        1,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        1,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        2,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        2,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        2,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        2,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        2,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        2,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        2,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        2,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        2,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        2,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        2,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        2,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        2,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        2,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        2,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        2,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        2,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        2,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        2,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        2,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        2,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        2,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "7776",
+      "exponents": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "124416",
+      "exponents": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "933120",
+      "exponents": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "4354560",
+      "exponents": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "14150592",
+      "exponents": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "33944832",
+      "exponents": [
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "62156160",
+      "exponents": [
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "88577280",
+      "exponents": [
+        2,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "99220032",
+      "exponents": [
+        2,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "87575040",
+      "exponents": [
+        2,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "60625152",
+      "exponents": [
+        2,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "32500224",
+      "exponents": [
+        2,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "13175936",
+      "exponents": [
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "3877376",
+      "exponents": [
+        2,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "770304",
+      "exponents": [
+        2,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "89600",
+      "exponents": [
+        2,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "4352",
+      "exponents": [
+        2,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        2,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        2,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        2,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        2,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        2,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        2,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        2,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        2,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        2,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        2,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        2,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        2,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        2,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        2,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        2,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        2,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        3,
+        0,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        3,
+        0,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        3,
+        0,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        3,
+        0,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        3,
+        0,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        3,
+        0,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        3,
+        0,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        3,
+        0,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        3,
+        0,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        3,
+        0,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        3,
+        0,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        3,
+        0,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        3,
+        0,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        3,
+        0,
+        16
+      ]
+    },
+    {
+      "coefficient": "2592",
+      "exponents": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "311040",
+      "exponents": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "1451520",
+      "exponents": [
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "4716864",
+      "exponents": [
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "11314944",
+      "exponents": [
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "20718720",
+      "exponents": [
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "29525760",
+      "exponents": [
+        3,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "33073248",
+      "exponents": [
+        3,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "29190912",
+      "exponents": [
+        3,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "20205696",
+      "exponents": [
+        3,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "10828032",
+      "exponents": [
+        3,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "4385344",
+      "exponents": [
+        3,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "1287424",
+      "exponents": [
+        3,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "254592",
+      "exponents": [
+        3,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "29440",
+      "exponents": [
+        3,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "1408",
+      "exponents": [
+        3,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "5184",
+      "exponents": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "82944",
+      "exponents": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "622080",
+      "exponents": [
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "2903040",
+      "exponents": [
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "9433440",
+      "exponents": [
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "22626432",
+      "exponents": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "41418432",
+      "exponents": [
+        3,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "58988160",
+      "exponents": [
+        3,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "66004176",
+      "exponents": [
+        3,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "58155648",
+      "exponents": [
+        3,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "40152000",
+      "exponents": [
+        3,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "21441408",
+      "exponents": [
+        3,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "8644784",
+      "exponents": [
+        3,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "2524352",
+      "exponents": [
+        3,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "496032",
+      "exponents": [
+        3,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "56768",
+      "exponents": [
+        3,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "2624",
+      "exponents": [
+        3,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "4320",
+      "exponents": [
+        3,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "69120",
+      "exponents": [
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "518400",
+      "exponents": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "2419200",
+      "exponents": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "7860672",
+      "exponents": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "18849024",
+      "exponents": [
+        3,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "34480512",
+      "exponents": [
+        3,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "49040640",
+      "exponents": [
+        3,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "54742176",
+      "exponents": [
+        3,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "48045312",
+      "exponents": [
+        3,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "32973696",
+      "exponents": [
+        3,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "17452800",
+      "exponents": [
+        3,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "6946560",
+      "exponents": [
+        3,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "1990656",
+      "exponents": [
+        3,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "380160",
+      "exponents": [
+        3,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "41472",
+      "exponents": [
+        3,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "1664",
+      "exponents": [
+        3,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        3,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        3,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        3,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        3,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        3,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        3,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        3,
+        4,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        3,
+        4,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "coefficient": "786096",
+      "exponents": [
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficient": "1885248",
+      "exponents": [
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "coefficient": "3449952",
+      "exponents": [
+        4,
+        1,
+        6
+      ]
+    },
+    {
+      "coefficient": "4910400",
+      "exponents": [
+        4,
+        1,
+        7
+      ]
+    },
+    {
+      "coefficient": "5488464",
+      "exponents": [
+        4,
+        1,
+        8
+      ]
+    },
+    {
+      "coefficient": "4827264",
+      "exponents": [
+        4,
+        1,
+        9
+      ]
+    },
+    {
+      "coefficient": "3323712",
+      "exponents": [
+        4,
+        1,
+        10
+      ]
+    },
+    {
+      "coefficient": "1767552",
+      "exponents": [
+        4,
+        1,
+        11
+      ]
+    },
+    {
+      "coefficient": "708240",
+      "exponents": [
+        4,
+        1,
+        12
+      ]
+    },
+    {
+      "coefficient": "204864",
+      "exponents": [
+        4,
+        1,
+        13
+      ]
+    },
+    {
+      "coefficient": "39648",
+      "exponents": [
+        4,
+        1,
+        14
+      ]
+    },
+    {
+      "coefficient": "4416",
+      "exponents": [
+        4,
+        1,
+        15
+      ]
+    },
+    {
+      "coefficient": "192",
+      "exponents": [
+        4,
+        1,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        4,
+        2,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358144",
+      "exponents": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "coefficient": "5654016",
+      "exponents": [
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "coefficient": "10340352",
+      "exponents": [
+        4,
+        2,
+        6
+      ]
+    },
+    {
+      "coefficient": "14699520",
+      "exponents": [
+        4,
+        2,
+        7
+      ]
+    },
+    {
+      "coefficient": "16394160",
+      "exponents": [
+        4,
+        2,
+        8
+      ]
+    },
+    {
+      "coefficient": "14368128",
+      "exponents": [
+        4,
+        2,
+        9
+      ]
+    },
+    {
+      "coefficient": "9839424",
+      "exponents": [
+        4,
+        2,
+        10
+      ]
+    },
+    {
+      "coefficient": "5191296",
+      "exponents": [
+        4,
+        2,
+        11
+      ]
+    },
+    {
+      "coefficient": "2056768",
+      "exponents": [
+        4,
+        2,
+        12
+      ]
+    },
+    {
+      "coefficient": "585472",
+      "exponents": [
+        4,
+        2,
+        13
+      ]
+    },
+    {
+      "coefficient": "110592",
+      "exponents": [
+        4,
+        2,
+        14
+      ]
+    },
+    {
+      "coefficient": "11776",
+      "exponents": [
+        4,
+        2,
+        15
+      ]
+    },
+    {
+      "coefficient": "448",
+      "exponents": [
+        4,
+        2,
+        16
+      ]
+    },
+    {
+      "coefficient": "1296",
+      "exponents": [
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "coefficient": "20736",
+      "exponents": [
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "coefficient": "155520",
+      "exponents": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "coefficient": "725760",
+      "exponents": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "coefficient": "2358000",
+      "exponents": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": "5652288",
+      "exponents": [
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "coefficient": "10330848",
+      "exponents": [
+        4,
+        3,
+        6
+      ]
+    },
+    {
+      "coefficient": "14667840",
+      "exponents": [
+        4,
+        3,
+        7
+      ]
+    },
+    {
+      "coefficient": "16322784",
+      "exponents": [
+        4,
+        3,
+        8
+      ]
+    },
+    {
+      "coefficient": "14253312",
+      "exponents": [
+        4,
+        3,
+        9
+      ]
+    },
+    {
+      "coefficient": "9703680",
+      "exponents": [
+        4,
+        3,
+        10
+      ]
+    },
+    {
+      "coefficient": "5071872",
+      "exponents": [
+        4,
+        3,
+        11
+      ]
+    },
+    {
+      "coefficient": "1978816",
+      "exponents": [
+        4,
+        3,
+        12
+      ]
+    },
+    {
+      "coefficient": "548608",
+      "exponents": [
+        4,
+        3,
+        13
+      ]
+    },
+    {
+      "coefficient": "98688",
+      "exponents": [
+        4,
+        3,
+        14
+      ]
+    },
+    {
+      "coefficient": "9472",
+      "exponents": [
+        4,
+        3,
+        15
+      ]
+    },
+    {
+      "coefficient": "256",
+      "exponents": [
+        4,
+        3,
+        16
+      ]
+    },
+    {
+      "coefficient": "432",
+      "exponents": [
+        4,
+        4,
+        0
+      ]
+    },
+    {
+      "coefficient": "6912",
+      "exponents": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "coefficient": "51840",
+      "exponents": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "coefficient": "241920",
+      "exponents": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "coefficient": "785952",
+      "exponents": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "coefficient": "1883520",
+      "exponents": [
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "coefficient": "3440448",
+      "exponents": [
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "coefficient": "4878720",
+      "exponents": [
+        4,
+        4,
+        7
+      ]
+    },
+    {
+      "coefficient": "5417088",
+      "exponents": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "coefficient": "4712448",
+      "exponents": [
+        4,
+        4,
+        9
+      ]
+    },
+    {
+      "coefficient": "3187968",
+      "exponents": [
+        4,
+        4,
+        10
+      ]
+    },
+    {
+      "coefficient": "1648128",
+      "exponents": [
+        4,
+        4,
+        11
+      ]
+    },
+    {
+      "coefficient": "630272",
+      "exponents": [
+        4,
+        4,
+        12
+      ]
+    },
+    {
+      "coefficient": "167936",
+      "exponents": [
+        4,
+        4,
+        13
+      ]
+    },
+    {
+      "coefficient": "27648",
+      "exponents": [
+        4,
+        4,
+        14
+      ]
+    },
+    {
+      "coefficient": "2048",
+      "exponents": [
+        4,
+        4,
+        15
+      ]
+    }
+  ],
+  "status": "computed",
+  "variables": [
+    "X",
+    "Y",
+    "U"
+  ],
+  "zero_count_in_box": 36
+}

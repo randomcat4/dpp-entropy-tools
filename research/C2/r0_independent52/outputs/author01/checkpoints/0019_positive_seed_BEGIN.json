@@ -1,0 +1,12 @@
+{
+  "details": {
+    "point": "mu=nu=r=0,u=1/2",
+    "source": "rebuilt Rstar"
+  },
+  "elapsed_seconds": 9.682,
+  "index": 19,
+  "label": "positive_seed",
+  "remaining_seconds": 2689.401,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:47Z"
+}

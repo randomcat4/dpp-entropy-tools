@@ -1,0 +1,12 @@
+{
+  "details": {
+    "bareiss_records": 17,
+    "equality_checks": 1
+  },
+  "elapsed_seconds": 8.647,
+  "index": 6,
+  "label": "determinant",
+  "remaining_seconds": 2690.437,
+  "status": "END",
+  "utc": "2026-09-09T13:32:46Z"
+}

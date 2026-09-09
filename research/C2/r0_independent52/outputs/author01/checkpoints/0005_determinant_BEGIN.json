@@ -1,0 +1,14 @@
+{
+  "details": {
+    "methods": [
+      "cleared polynomial Bareiss",
+      "direct 24-term Leibniz"
+    ]
+  },
+  "elapsed_seconds": 0.782,
+  "index": 5,
+  "label": "determinant",
+  "remaining_seconds": 2698.301,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:38Z"
+}

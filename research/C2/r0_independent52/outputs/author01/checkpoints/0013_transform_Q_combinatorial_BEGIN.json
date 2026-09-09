@@ -1,0 +1,11 @@
+{
+  "details": {
+    "method": "coefficient binomial expansion"
+  },
+  "elapsed_seconds": 9.644,
+  "index": 13,
+  "label": "transform_Q_combinatorial",
+  "remaining_seconds": 2689.44,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:47Z"
+}

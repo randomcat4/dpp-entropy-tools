@@ -1,0 +1,11 @@
+{
+  "details": {
+    "result": "RESULT.json"
+  },
+  "elapsed_seconds": 9.708,
+  "index": 24,
+  "label": "write_result",
+  "remaining_seconds": 2689.375,
+  "status": "END",
+  "utc": "2026-09-09T13:32:47Z"
+}

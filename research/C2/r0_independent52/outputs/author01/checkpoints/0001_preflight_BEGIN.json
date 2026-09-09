@@ -1,0 +1,12 @@
+{
+  "details": {
+    "out": "<OUT>",
+    "source_root": "<SOURCE_ROOT>"
+  },
+  "elapsed_seconds": 0.002,
+  "index": 1,
+  "label": "preflight",
+  "remaining_seconds": 2699.082,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:37Z"
+}

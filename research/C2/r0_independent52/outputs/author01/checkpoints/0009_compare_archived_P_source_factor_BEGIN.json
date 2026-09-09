@@ -1,0 +1,11 @@
+{
+  "details": {
+    "note": "coefficient_report source_factor is first opened here, after fresh P construction"
+  },
+  "elapsed_seconds": 8.964,
+  "index": 9,
+  "label": "compare_archived_P_source_factor",
+  "remaining_seconds": 2690.119,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:46Z"
+}

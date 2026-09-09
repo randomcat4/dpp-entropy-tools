@@ -1,11 +1,12 @@
-# Independent r=0 author proof draft
+# Independent r=0 author proof
 
-Status: PENDING GUARDED COMPUTATION.  This file is an author-side proof
-shell for issue52 comment 5602242678.  It becomes a complete author
-candidate only if
-`implementation/verify_r0_chain_independent.py` finishes with
-`RESULT.json` status `PASS` under the shared guarded 2700-second window.
-It is not a nonauthor FIRST acceptance.
+Status: AUTHOR PASS, pending fresh nonauthor FIRST review.  The guarded
+author run of `implementation/verify_r0_chain_independent.py` finished
+with `RESULT.json` status `PASS` in 9.707 seconds.  The recorded process
+was PID 173696, started at 13:32:37 UTC and ended at 13:32:47 UTC, with
+the shared absolute deadline at 14:17:37 UTC.  This is an author-produced
+candidate proof for issue52 comment 5602242678; it is not a nonauthor FIRST
+acceptance.
 
 ## Frozen statement
 
@@ -76,26 +77,31 @@ unsimplified rows from the frozen structure note.  It rejects any SymPy
 
 ## Determinant certificate
 
-The guarded run must clear the actual rational denominators of `Rstar`,
-compute the determinant of the cleared polynomial matrix with an in-script
-Bareiss elimination, and independently recompute the same determinant by
-the 24-term Leibniz expansion of the original four-by-four matrix.
+The guarded run cleared the actual rational denominators of `Rstar`,
+computed the determinant of the cleared polynomial matrix with an in-script
+Bareiss elimination, and independently recomputed the same determinant by
+the 24-term Leibniz expansion of the original four-by-four matrix.  The two
+determinants are exactly equal in
+[`determinant_independent_equality.json`](outputs/author01/artifacts/determinant_independent_equality.json).
 
 The Bareiss records are exact symbolic division certificates only: their
 remainders must be zero in the polynomial ring after denominator clearing.
 No proof step assumes that an intermediate Bareiss pivot is nonzero at every
 point of the domain.
 
-From the resulting determinant the run must extract an integer polynomial
+From the resulting determinant the run extracted an integer polynomial
 `P(mu,nu,u)` through
 
 ```text
 det Rstar = (1-mu^2)^2(1-nu^2)^2 P / (2(1-u^4)^5).
 ```
 
-The artifact `artifacts/P_polynomial.json` must verify the identity above
-exactly, prove that no denominator remains, and record `P` as a `ZZ`
-polynomial of degree box `(4,4,16)`.
+The artifact [`P_polynomial.json`](outputs/author01/artifacts/P_polynomial.json)
+verifies the identity above exactly, proves that no denominator remains,
+and records `P` as a 26-term `ZZ` polynomial of degree box `(4,4,16)`.
+The fresh `P` also exactly matches the archived
+`coefficient_report["source_factor"]` in
+[`archived_P_source_factor_comparison.json`](outputs/author01/artifacts/archived_P_source_factor_comparison.json).
 
 ## Positive orthant polynomial
 
@@ -112,22 +118,25 @@ For `X,Y,U>0`, this is a bijective parametrization of
 X=(1+mu)/(1-mu), Y=(1+nu)/(1-nu), U=u/(1-u).
 ```
 
-The verifier constructs
+The verifier constructed
 
 ```text
 Q = (X+1)^4 (Y+1)^4 (U+1)^16
     P((X-1)/(X+1), (Y-1)/(Y+1), U/(U+1)).
 ```
 
-It must do this in two independent ways: direct homogeneous substitution
-and coefficient-wise binomial expansion.  The difference must be the zero
-polynomial.  The run then checks the entire `5 x 5 x 17` degree box,
-including omitted zero coefficients, and compares the completed box against
-the archived coefficient table only after the fresh `Q` has been built.
+It did this in two independent ways: direct homogeneous substitution and
+coefficient-wise binomial expansion.  The difference is the zero polynomial
+in [`Q_polynomial_full_box.json`](outputs/author01/artifacts/Q_polynomial_full_box.json).
+The run checked the entire `5 x 5 x 17` degree box, including omitted zero
+coefficients, and compared the completed box against the archived
+coefficient table only after the fresh `Q` had been built.
 
-If `RESULT.json` reports `389` positive nonzero coefficients, minimum
-coefficient `192`, and no mismatches in the completed degree box, then
-`Q(X,Y,U)>0` for every `X,Y,U>0`.
+The completed box has 425 entries: 389 positive nonzero coefficients and
+36 zero coefficients.  The minimum positive coefficient is 192 and the
+maximum coefficient is 99220032.  All archived coefficients match exactly
+in [`archived_coefficient_comparison.json`](outputs/author01/artifacts/archived_coefficient_comparison.json).
+Therefore `Q(X,Y,U)>0` for every `X,Y,U>0`.
 
 All factors used to clear denominators in this substitution are positive on
 the positive orthant, so `Q>0` implies `P>0` on the original open domain.
@@ -137,17 +146,23 @@ are strictly positive there.
 
 ## Seed and inertia continuation
 
-The run must compute the seed from the rebuilt `Rstar`, not from the old
-seed table.  At
+The run computed the seed from the rebuilt `Rstar`, not from the old seed
+table.  At
 
 ```text
 mu=0, nu=0, u=1/2,
 ```
 
-it must scale the exact rational `Rstar` to an integer matrix and verify
-strict diagonal dominance, or positive pivots, with all denominator factors
-recorded.  If that artifact passes, `Rstar` is positive definite at one
-strict interior point.
+it scaled the exact rational `Rstar` by 14400 and verified strict diagonal
+dominance.  The row margins before division by 14400 are
+
+```text
+10068, 88320, 88320, 40053.
+```
+
+These positive margins, recorded in
+[`positive_seed_certificate.json`](outputs/author01/artifacts/positive_seed_certificate.json),
+show that `Rstar` is positive definite at one strict interior point.
 
 The domain
 
@@ -190,17 +205,20 @@ zeta=(alpha,beta,gamma,eta,xi,omega)
 
 and `(alpha,beta,m,p,q,h)` is invertible for `u,a,b>0`.  At `r=0`,
 `a=b=1/2`, so the congruence preserves positive definiteness.  Therefore,
-conditional on the guarded artifacts passing, the original six fixed
-physical direction matrix `M` is positive definite for all
+the author artifacts establish the candidate conclusion that the original
+six fixed physical direction matrix `M` is positive definite for all
 `|mu|<1, |nu|<1, 0<u<1` at `r=0`.
 
-## Artifact slots to fill after the guarded run
+## Artifacts
 
-- `RESULT.json`: PENDING.
-- `artifacts/determinant_independent_equality.json`: PENDING.
-- `artifacts/P_polynomial.json`: PENDING.
-- `artifacts/archived_P_source_factor_comparison.json`: PENDING.
-- `artifacts/Q_polynomial_full_box.json`: PENDING.
-- `artifacts/archived_coefficient_comparison.json`: PENDING.
-- `artifacts/positive_seed_certificate.json`: PENDING.
-- `artifacts/domain_inertia_certificate.json`: PENDING.
+- [`RESULT.json`](outputs/author01/RESULT.json): AUTHOR PASS.
+- [`determinant_independent_equality.json`](outputs/author01/artifacts/determinant_independent_equality.json): two determinant methods match exactly.
+- [`P_polynomial.json`](outputs/author01/artifacts/P_polynomial.json): 26-term `ZZ` polynomial, degree `(4,4,16)`.
+- [`archived_P_source_factor_comparison.json`](outputs/author01/artifacts/archived_P_source_factor_comparison.json): fresh `P` matches archived `source_factor`.
+- [`Q_polynomial_full_box.json`](outputs/author01/artifacts/Q_polynomial_full_box.json): direct and combinatorial transforms match; full 425-entry box checked.
+- [`archived_coefficient_comparison.json`](outputs/author01/artifacts/archived_coefficient_comparison.json): all archived `Q` coefficients match, including omitted zeros.
+- [`positive_seed_certificate.json`](outputs/author01/artifacts/positive_seed_certificate.json): scale 14400, margins `(10068,88320,88320,40053)`.
+- [`domain_inertia_certificate.json`](outputs/author01/artifacts/domain_inertia_certificate.json): domain, nonvanishing, inertia, and Schur-lift chain recorded.
+
+This remains an author proof.  Fresh nonauthor FIRST review is still the
+next acceptance gate.

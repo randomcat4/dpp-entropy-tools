@@ -1,0 +1,16 @@
+{
+  "details": {
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "term_count": 26
+  },
+  "elapsed_seconds": 8.964,
+  "index": 8,
+  "label": "extract_P",
+  "remaining_seconds": 2690.119,
+  "status": "END",
+  "utc": "2026-09-09T13:32:46Z"
+}
