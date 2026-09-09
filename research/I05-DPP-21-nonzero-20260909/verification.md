@@ -16,7 +16,7 @@ This file is an **author self-audit**. It is not an independent review. The new 
    f_t^0=mu+t g, |t|<=T,
    ```
 
-   check the common pointwise margin, the signed accretivity estimate for every `K-I_Z`, the uniform Fourier truncation, the banded polynomial inverse, and the weighted Neumann restoration. All zero/one patterns must remain included.
+   check the common pointwise margin, the signed accretivity estimate for every `K-I_Z`, the uniform Fourier truncation, the banded polynomial inverse, and the weighted Neumann restoration. All zero/one patterns must remain included. The explicit justification of `||B_{t,Z}||<1` and the variable-name correction are frozen in `clarifications.md`.
 
 3. **Banach-parameter analyticity.** Check that a small center perturbation `u` and local complex parameter perturbation `z-t_*` enter the genuine kernel linearly. The weighted inverse radius must be independent of the word and volume.
 
@@ -149,7 +149,7 @@ This file is an **author self-audit**. It is not an independent review. The new 
 
 22. Do not replace occupation Shannon entropy by von-Neumann entropy. The known fermionic quantum inequality is not a proof of `E_occ>=0`.
 
-## E. Exact example-only checker
+## E. Exact explicit-family checker
 
 Run from the repository root:
 
@@ -159,18 +159,54 @@ python research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py
 
 The script uses Python's `fractions.Fraction` and integer arithmetic only. It checks the displayed Fourier coefficient, quartic constants, radial legality margin on `[-2,2]`, and the elementary strict margin for `|epsilon|<=1/24`. It does not compute a DPP entropy, curvature, RPF operator, or entropy rate.
 
-Expected output path:
+Recorded output:
 
 ```text
 research/I05-DPP-21-nonzero-20260909/output/explicit_family_exact.json
 ```
 
-## F. Error and computation boundary
+## F. Exact finite-memory RPF Hessian cross-check
 
-Theorem CT has no numerical error term. Its finite-to-rate passage is the exact RPF formula obtained from a geometrically summable `O(1)` block error. The example checker has no rounding tolerance.
+Install the pinned symbolic dependency and run
+
+```sh
+python -m pip install -r research/I05-DPP-21-nonzero-20260909/requirements.txt
+python research/I05-DPP-21-nonzero-20260909/code/check_rpf_hessian.py
+```
+
+The checker uses the non-i.i.d. normalized conditional family
+
+```text
+P_t(X_0=1|X_1=0)=1/3+t/20,
+P_t(X_0=1|X_1=1)=2/3-t/30.
+```
+
+Its invariant marginal changes with `t`, so the centered-resolvent response terms are nontrivial. On functions of two symbols, the script constructs `L`, `nu`, `Pi`, and `R` exactly, checks the two derivatives of `B=-L log G`, and simplifies
+
+```text
+[the five-term RPF Hessian]-d_t^2[nu_t(B_t)]
+```
+
+to the exact symbolic value `0` for all `t` in the rational domain. It also substitutes `t=1/7`. The output is
+
+```text
+research/I05-DPP-21-nonzero-20260909/output/rpf_hessian_exact.json
+```
+
+This is an author algebra cross-check of equation (6.9), not a proof of Theorem CT or a DPP curvature computation.
+
+## G. Run and error boundary
+
+Both actual invocations, dependency versions, exit statuses, and output paths are recorded in
+
+```text
+research/I05-DPP-21-nonzero-20260909/output/run_record.json
+```
+
+Theorem CT has no numerical error term. Its finite-to-rate passage is the exact RPF formula obtained from a geometrically summable `O(1)` block error. The example checker has no rounding tolerance; the symbolic checker verifies an exact identity in SymPy 1.14.0.
 
 No heavy elimination, interval arithmetic, or enumeration was required, so no compute issue was opened. Any future implementation of the interval certificate (7.4) in `proof.md` must freeze the symbol, interval, conditional depth, spectral-contour bound, directed rounding rules, and the geometric tail constant before execution.
 
-## G. Final scope
+## H. Final scope
 
 A successful review may accept only the compact radial-tube theorem, the exact RPF Hessian, the finite-state error interface, and the beam-splitter second-order obstruction. It must not upgrade the result to arbitrary centers, legal endpoints, the full PR39 example interval, or a counterexample. Novelty remains unassessed.
