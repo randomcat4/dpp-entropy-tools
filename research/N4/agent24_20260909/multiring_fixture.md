@@ -70,7 +70,8 @@ The first positive legal endpoint is a simple `I-K` Schur root `tau` with
 {2149\over1000}<\tau<{43\over20}.                 \tag{3}
 \]
 
-The exact discriminant is
+The `K`-side Schur complement remains positive definite at `t=43/20`, so this
+is indeed the first loss of strict legality.  The exact discriminant is
 
 \[
 {9646065\over286557184}>0,
@@ -121,7 +122,9 @@ u_{S,T}=-\operatorname{tr}(G_A(S)G_C(T)),
 v_{S,T}=\det G_A(S)\det G_C(T).                  \tag{6}
 \]
 
-The script constructs all 64 rational triples `(p,p',p'')`, checks
+The script independently cross-checks all 64 values at `t=1` against the full
+signed `6x6` event determinant, constructs all rational triples
+`(p,p',p'')`, and checks
 
 \[
 \sum p=1,\qquad\sum p'=\sum p''=0,
@@ -167,7 +170,7 @@ bracket.  The decimal signs establish only high-precision finite diagnostics.
 They do not prove `H''<0` between sample points and do not exclude another
 choice of `A,C,B`.
 
-A separate GitHub issue freezes the heavy task: interval-certify (7) on the
-compact middle and connect it to the simple-endpoint theorem, or return a
-positive interval box.  That computation is deliberately not hidden behind a
-claim of completion.
+GitHub issue #61 freezes the heavy task: interval-certify (7) on the compact
+middle and connect it to the simple-endpoint theorem, or return a positive
+interval box.  That computation is deliberately not hidden behind a claim of
+completion.
