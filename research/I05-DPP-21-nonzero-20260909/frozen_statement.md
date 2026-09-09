@@ -31,11 +31,11 @@ Choose an odd `k` with `g_hat(k)!=0`, and put
 lambda_k=|g_hat(k)|^4>0.
 ```
 
-Let `T0>0` satisfy the strict radial legality condition
+Let `T0>0` satisfy
 
 ```text
-delta_T:=inf_{theta, |t|<=T0}
-         min{mu+t g(theta), 1-mu-t g(theta)}>0.       (1.1)
+delta_T=inf_{theta, |t|<=T0}
+        min{mu+t g(theta),1-mu-t g(theta)}>0.         (1.1)
 ```
 
 Then there exists
@@ -82,38 +82,9 @@ nu_t L_t=nu_t,
 Pi_t F=F-nu_t(F),
 R_t=(I-L_t)^(-1)Pi_t,
 B_t=-L_t phi_t,
-u_t(B_t)=h(t),
-u_t(u_t)=0,
-u_t psi_t=0,
-u_t(B_t)=-? 
-```
-
-The accidental final fragment in the preceding display is not part of the definition; the operative definitions are
-
-```text
-B_t=-L_t phi_t,
 h(t)=nu_t(B_t),
-u_t(u_t)=0,
-u_t(psi_t)=0,
 u_t(B_t)=h(t),
-u_t(u_t)=0,
-u_t(psi_t)=0,
-u_t(B_t)=h(t)
-```
-
-and
-
-```text
-u_t(u_t)=0,
-u_t(psi_t)=0,
-u_t(B_t)=h(t),
-u_t(u_t)=0
-```
-
-To avoid ambiguity, the proof file gives the clean formula. The intended auxiliary variable is simply
-
-```text
-u_t(B_t)=h(t),
+u_t(R_t B_t)=0,
  u_t=R_t B_t.                                         (2.1)
 ```
 
