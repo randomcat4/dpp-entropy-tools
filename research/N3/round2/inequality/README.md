@@ -37,3 +37,10 @@ coordinate.  The added term is a real Fisher residual beyond Qk:
 This is a genuine new lower bound, but it still does not dominate the full
 cofactor term.  The second unit therefore stops at the precise remaining
 Fisher-versus-cofactor obligation.
+
+Degenerate locked-odds slices are corrected in
+[`locked_odds_degeneracy_addendum.md`](locked_odds_degeneracy_addendum.md).
+The correction keeps `F>=Q_k^lock`, but replaces the old informal
+continuity wording: when `R=0`, the right statement is the actual score
+identity `E=mL/V`; if `R_0+R_1=0` and the Lambda lock holds, then
+`A_0=A_1` and the extra locked term is defined as `0`.

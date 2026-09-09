@@ -133,9 +133,26 @@ The remaining non-equivalent obligation is to prove a dominance such as
 max_k Q_k^lock(D) >= 2 tr(N adj D)
 ```
 
-or a kernel-dependent convex combination of the three locked lower bounds.
-Without that additional sign/alignment argument, this second unit returns to
-the same Fisher-versus-cofactor gap and stops.
+or to add a genuinely different Fisher residual beyond this three-term
+locked-odds family.  The main instance's frozen obstruction
+`c6568dfe1c0c57aaf0b627e84601c35b79b22434` strictly refutes
+`max_k Q_k^lock(D) >= 2 tr(N adj D)` on an exact Lambda-tangent direction;
+because every convex combination of the same three `Q_k^lock` terms is at
+most their maximum at that witness, the same obstruction also rules out
+that same-family convex-combination closure.
+
+The addendum
+[`locked_odds_degeneracy_addendum.md`](locked_odds_degeneracy_addendum.md)
+also corrects the `R=0` discussion: `R=0` means
+`psi=(m/V)g` and imposes the actual score identity `E=mL/V`; it does not
+force the covariance root to vanish.  If `R_0+R_1=0` under the Lambda lock,
+then `A_0=A_1` and the locked residual term is defined as `0`.  This keeps
+the lower bound valid but makes no uniqueness claim about arbitrary
+degenerate limits.
+
+Without an additional Fisher residual or a different DPP-specific alignment
+argument, this second unit returns to the same Fisher-versus-cofactor gap and
+stops.
 
 The main instance's strict Lambda-tangent certificate against the pure
 acceleration shortcut `C<=0` is recorded as a route boundary: pure Rayleigh
