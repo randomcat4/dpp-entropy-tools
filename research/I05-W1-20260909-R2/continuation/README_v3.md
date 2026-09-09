@@ -1,24 +1,36 @@
-# I05-W1 第二轮延续 — 最新入口
+# I05-W1 第二轮延续 — 最新可审核入口
 
-总体状态：**PARTIAL / CONTINUATION NOT YET INDEPENDENTLY REVIEWED**。
+总体状态：**PARTIAL / PR #43 NEW CLAIMS NOT YET INDEPENDENTLY REVIEWED**。
 
-最新文件：
+## 权威入口
 
-- `RESULT_FINAL.md`：准确裁决、已证明范围和未解决范围；
-- `frozen_statement_v3.md`：最新冻结命题；
-- `proof_v3.md`：第二轮原证明与 continuation 证明的完整阅读顺序；
-- `attempts_continuation.md`：三条领域路线、失败桥梁和剩余义务；
-- `sources_continuation.md`：原始来源与采用边界；
-- `verification.md`：作者 exact 复算与独立审阅边界；
-- `CODEX_VERIFICATION_TASKS_v2.md`：非作者解析审阅、非可逆定向流 LP、全区间曲率和严格反例门槛；
-- `HANDOFF.md`：下一步顺序。
+1. `RESULT_FINAL.md`：一致性审计后的准确摘要，区分既有外部输入、PR #43 作者级主张和开放范围。
+2. `frozen_statement_v3.md`：最新冻结命题；现已纳入三点不定秩二定理、外幂充分统计、三点条件判据和相关 `3+3` 族。
+3. `proof_v3.md`：全部证明文件的完整顺序。
+4. `CONSISTENCY_AUDIT.md`：说明审计前遗漏、修正范围和未改动的证明文件。
+5. `verification.md`：作者 exact 复算覆盖与独立性边界。
+6. `CODEX_VERIFICATION_TASKS_v2.md`：新上下文非作者审阅与服务器计算接口。
+7. `attempts_continuation.md`、`sources_continuation.md`、`HANDOFF.md`：失败路线、来源边界和剩余义务。
 
-作者 exact 入口：
+## 当前作者级正结果
+
+除第二轮原有的条件 Schur、`m x 2`、两坐标支撑与 rank-two 外幂公式外，continuation 还证明：
+
+- 实三点核沿任意不定秩二方向整条合法线凹；
+- rank-two resolvent 特征精确保持 KL／互信息，并给出完整压缩 Hessian；
+- 三点条件方向满足“rank≤1／不定 rank2／穿过对角锚点”逐配置判据时，全局径向族凹；
+- 一个两侧相关、稠密非坐标的 `3+3` rank-two 结构族整条合法区间凹；
+- 对角活动约化扇区上的任意交叉秩定理及逐条件对角锚点判据；
+- 一般 Markov 密度伴随交织，以及可逆半群和统一经典量子测量通道的严格障碍。
+
+一般两侧相关、一般非坐标 rank-two 目标仍开放，但未解决范围必须排除上述已经证明的 `3+3` 族和三点条件判据。
+
+## 作者复算
 
 ```sh
-python -m pip install -r requirements.txt
+python ../code/verify_continuation.py
 python code/verify_continuation.py
 python code/verify_continuation_v2.py
 ```
 
-本轮新增的正结果是对角活动约化扇区上的任意秩跨块全弦凹性，以及逐条件线对角锚点判据。一般相关活动块的 rank-two 目标仍开放。外幂信息收缩路线已精确推广到非可逆 Markov 密度伴随，同时用 `-125/78` 有理矩严格排除了普遍可逆半群。相关准自由衰减也被证明不能自动下降为经典占据配置通道。
+三项均有仓库内保存的实际输出。复算不等于独立审阅。

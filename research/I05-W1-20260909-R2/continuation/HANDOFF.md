@@ -2,69 +2,60 @@
 
 ## 当前冻结状态
 
-本轮新增结论为 `PARTIAL`：
+总体裁决仍为 `PARTIAL`，但已经证明的范围比旧版 handoff 更大：
 
-- 已把第二轮条件 Schur、`m x 2` 与外幂结果完整纳入 continuation PR；
-- 新证对角活动约化扇区上的任意秩跨块全弦凹性；
-- 新证逐条件线对角锚点判据；
-- 新证 rank-two 外幂特征的精确 Markov 交织及真实 `t` 曲率的完整 Fisher 生成元公式；
-- 严格排除相关准自由衰减自动下降为经典占据配置通道。
+- 第二轮条件 Schur、`m x 2`、两坐标支撑与 rank-two 外幂公式；
+- 实三点核沿任意不定秩二方向全弦凹；
+- rank-two resolvent 特征的 KL／互信息充分统计与压缩 Hessian；
+- 三点条件方向的三分判据；
+- 两侧相关、稠密非坐标的 `3+3` rank-two 结构族；
+- 对角活动约化扇区的任意交叉秩定理和逐条件对角锚点判据；
+- Markov 密度伴随交织及完整 Fisher 曲率接口；
+- 可逆外幂半群和统一经典准自由测量通道的严格障碍。
 
-一般两侧相关大块、一般非坐标 `rank(B)=2` 仍开放。尚无严格正弦差反例。新增作者结论尚待新的非作者独立审阅。
+一般两侧相关大块、一般非坐标 rank two 在上述判据之外仍开放。没有严格正弦差反例。PR #43 的新增作者主张尚待新上下文独立审阅。
 
-## 下一任务 1：先裁决 exact Markov 生成元
+## 下一步 1：先做完整独立解析审阅
 
-输入固定在 `inputs/rational_examples.json` 的相关三点 `C,V`。目标是对
+以 `CODEX_VERIFICATION_TASKS_v2.md` 为唯一审阅清单。尤其不能遗漏：
 
-\[
-LG_{11}=-G_{11},\quad LG_{12}=-G_{12},
-\quad LG_{22}=-G_{22},\quad L\det G=-2\det G
-\]
+- `proof/04_three_point_indefinite_rank2.md`；
+- `proof/05_diagonal_and_feature_routes.md`；
+- `proof/06_correlated_3plus3_family.md`。
 
-返回非负有理可逆导通量，或有理 Farkas 不可行证书。不要只返回浮点 LP 状态。
+应分别裁决三点定理、外幂充分统计／Hessian、三点条件判据和相关 `3+3` 族，而不是只审后写的活动扇区与 Markov 文件。
 
-这个任务能直接区分两种局面：若可行，继续完整熵耗散曲率；若不可行，则“对所有相关 DPP 构造同次数 Markov 半群”的普遍机制已被一个明确输入严格排除。
+## 下一步 2：非可逆伴随生成元 LP
 
-## 下一任务 2：若生成元可行，认证整个合法区间
-
-使用 `CODEX_VERIFICATION_TASKS.md` 中固定的 `A,U,C,V`，构造全部 64 个联合事件和
-
-\[
-\Psi(s)=2\mathcal I''+\mathcal I'.
-\]
-
-必须覆盖由精确 Schur 补确定的完整闭合法区间，保留
+固定相关三点 `C,V`，使用定向平稳流，不再要求可逆或对称导通量。目标是对
 
 \[
-\left\langle (Lf)^2/f\right\rangle
+L^\dagger G_{11}=-G_{11},\quad
+L^\dagger G_{12}=-G_{12},\quad
+L^\dagger G_{22}=-G_{22},\quad
+L^\dagger\det G=-2\det G
 \]
 
-这一完整 Fisher 项。输出全区间非负证书或严格负子区间。单点浮点值不能裁决。
+返回有理非负流或有理 Farkas 不可行证书。浮点 LP 状态不够。
 
-## 下一任务 3：若 exact Markov 路线失败，转向加权条件 Hessian
+## 下一步 3：若 LP 可行，认证全参数区间
 
-直接研究
+保留全部 64 个联合事件和完整 Fisher，认证
 
 \[
-\sum_Sp_A(S)D^2H(C-sM_S)[M_S,M_S]
+\Psi(s)=2\mathcal I''+\mathcal I'\ge0
 \]
 
-而不是逐 `S` 要求每条 rank-two 线凹。优先利用随机 resolvent 的精确矩恒等式
+覆盖完整闭合法区间，或返回严格负子区间。使用向外舍入对数区间或带显式余项的有理级数；单点或中点符号不能裁决。
+
+## 下一步 4：若 Markov 路线失败
+
+转向跨左配置的加权条件 Hessian
 
 \[
-\mathbb E(A-E_{S^c})^{-1}=0
+\sum_Sp_A(S)D^2H(C-sM_S)[M_S,M_S],
 \]
 
-及其二阶外幂消去，寻找跨 `S` 的加权补偿。任何候选不等式必须保持完整事件 Fisher，且说明如何作用于非坐标二维奇异平面。
+利用随机 resolvent 与二阶外幂矩消去，而不是逐 `S` 要求一般 rank-two 线凹。任何候选必须保留完整事件 Fisher，并说明如何覆盖非坐标奇异平面。
 
-## 下一任务 4：严格反例门槛
-
-只有在有理 `3+3` 三核全部严格合法、64 个事件逐一认证并得到
-
-\[
-\frac{H(K_-)+H(K_+)}2-H(K_0)>0
-\]
-
-的向外舍入正下界后，才标记 `COUNTEREXAMPLE`。正加速度项、浮点正 Hessian或某个充分条件失败均不够。
-
-独立审阅与计算的完整输入、误差要求和输出格式见 `CODEX_VERIFICATION_TASKS.md`。
+严格反例仍须满足：有理三核全部严格合法、全部事件逐一认证、弦差有向外舍入严格正下界。已证明的三点判据和 `3+3` 结构族必须从搜索域中排除。
