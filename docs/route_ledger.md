@@ -7,6 +7,7 @@
 | 已覆盖 | 对角/常数中心完整合法线凹性及径向二次、四次严格性；W2/C3 共同骨干只计一次 | [径向审核](verification_20260909/w2/radial_quartic_audit.md) |
 | 已覆盖 | 循环平均完整等号条件及每个被删 Fourier 模式的严格真实熵率 gap | [循环平均审核](verification_20260909/w2/cyclic_audit.md) |
 | 已覆盖 | 半周期偶的非恒定 Wiener 中心、半周期奇方向及显式体积一致弱区间上的真实熵率四次严格凹性，含实非偶例 | [PR39 NC 独立审定](verification_20260909/w2_pr39/README.md) |
+| 已覆盖局部真实率 | 任意均值、严格指数加权Fourier半周期中心，无Wiener小范数假设，非零半周期奇方向有局部四次加强凹性；有限Fourier是特例 | [PR53精确量词与FR/EW双审](verification_round3_20260909/accepted_pr53.md) |
 | 已覆盖 | W1 rank-one 交叉块；实 `m×2` 及至多两实际坐标列/行支撑的全弦 | [W1 第二轮](../research/C1-verification-20260909/READY_BATCH_03.md) |
 | 固定反例对象已排除 | S1 三个固定符号对、C3-M1 固定三符号的正真实熵率 pair gap | [S1](verification_20260909/base_prs.md)、[C3-M1](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
 | 已覆盖 | C2 固定框架的显式上面锥/各向异性界；W3 标量中心 `epsilon^2/1000` 球内的全方向负曲率 | [C2](verification_20260909/base_prs.md)、[W3](../research/C2/verification2/w3/REVIEW.md) |

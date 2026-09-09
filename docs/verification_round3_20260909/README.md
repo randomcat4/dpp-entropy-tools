@@ -1,5 +1,7 @@
 # Third-round review records and dependency checks
 
+Current final disposition: nine PRs handled and merged at scoped levels. [PR51](accepted_pr51.md), [PR53](accepted_pr53.md), [PR54](accepted_pr54.md), [PR55 partial archive](archived_pr55.md), and [complete follow-on reviews](followon/README.md). PR53 FR/EW and all source clarifications are independently closed. PR55 r=0 remains INCOMPLETE; all arithmetic stopped within the original window. Earlier dependency/ownership notes below are historical, not current running-state claims.
+
 The historical dependency/handoff records in the table below are **not theorem reviews**. C1 owns the primary mathematical reviews in [issue 46](https://github.com/randomcat4/dpp-entropy-tools/issues/46); C2 owns exact computations in [issue 45](https://github.com/randomcat4/dpp-entropy-tools/issues/45). C3's three bounded contexts mapped versions/dependencies and checked whether author handoffs specify runnable objects. No C3 mathematical job or duplicate LP was run for these records.
 
 | Record | Head and result |
