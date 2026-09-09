@@ -1,0 +1,17 @@
+# PR39 nonconstant-center theorem: independent scoped acceptance
+
+Status: **ACCEPTED_SCOPED**. Frozen head: `5558a6b22ef8eb080d198d4af6b1a5cfe2fb164f`; merge: `7f72e1f5cea918ef80c9b28f1155b79e270fe62b`.
+
+The new [author theorem and proof](../../../research/W2/nonconstant_orbit/proof.md) have been evaluated in three bounded nonauthor contexts: [NC analytic proof](audit_nc.md), [NC-channel and explicit examples](audit_channel_examples.md), and [independently implemented finite arithmetic](computational_reproducibility_note.md). The examples report's condition on the general NC lemma is discharged by the separate NC audit. This does not recertify the older PR34/C3 shared theorem as a second result.
+
+For real Wiener symbols c,g, assume c has half-period symmetry and mean 1/2, g has half-period antisymmetry and is nonzero, and `a=2||c-1/2||_W<1`. Put `b=2||g||_W`, `R=(1-a)/(2b)`, `rho=(1+a)/2`, and `M=-log(1-rho)-rho`. For any odd k with `gamma=|ghat(k)|^2>0`, let `T_*=min(R/2,2 gamma R^3/sqrt(27M))`.
+
+Then `H_n(c+tg)+(2/3)(n-2k)gamma^2 t^4` is concave for every n>=2k on `[-T_*,T_*]`; finite Jensen inequalities give concavity of `h(c+tg)+(2/3)gamma^2 t^4` on the same interval. Valid upper bounds for the Wiener norms may be used in these sufficient constants. The analytic logarithm estimate is linear in n, and no derivative is interchanged with an entropy-rate limit.
+
+For `c=1/2+cos(4pi theta)/8` and `g=cos(2pi theta)/1024`, the certified interval contains [-1,1] and the rate correction is `t^4/(3*2^43)`. The full legal interval is [-384,384]; its concavity is not certified. The cross-parity rank grows with window size. A real non-even variant with `g=(cos(2pi theta)+sin(2pi theta))/2048` is also certified on [-1,1], with correction `t^4/(3*2^45)`.
+
+NC-channel rules out local Markov maps depending only on two fixed strict nondiagonal two-point blocks A,B and r, independent of the cross-block C, that implement C -> rC for every sufficiently small complex 2x2 C. It does not rule out C-dependent or nonlocal maps or a map for one fixed scalar family. The obstruction is to a proof mechanism, not to entropy concavity.
+
+The [independent checker](independent_pr39_exact_checker.py) reconstructs both named n=4 laws by principal minors and Mobius inversion, checks them by mixed-row determinants, derives exact t4/t6/t8 KL coefficients, and verifies Boolean moments, length-1-through-6 closed walks, the tail constant, and the local-channel determinant conflict `3/1048576`. [Server output](independent_pr39_exact_check.server.json) passed after the [frozen run plan](server_frozen_plan.md). To reproduce from the repository root, run `python docs/verification_20260909/w2_pr39/independent_pr39_exact_checker.py --output independent_pr39_exact_check.json` with SymPy 1.14 installed. The source inputs are the merged frozen author JSON files.
+
+The original audit notes name their frozen local input copies; the authoritative public inputs are the [frozen statement](../../../research/W2/nonconstant_orbit/frozen_statement.md), [proof](../../../research/W2/nonconstant_orbit/proof.md), [input](../../../research/W2/nonconstant_orbit/inputs/new.json), and [author output](../../../research/W2/nonconstant_orbit/output/new_audit.json) at the head above. Finite checks do not prove the analytic family or enlarge the interval. No CI is configured. General nonconstant-centered scalar chords, general real-kernel concavity, and novelty remain unproved or uncertified.

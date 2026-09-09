@@ -1,0 +1,131 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_CHECKS",
+  "pr": 39,
+  "head": "5558a6b22ef8eb080d198d4af6b1a5cfe2fb164f",
+  "method_independence": [
+    "does not import or execute the PR author audit script",
+    "event probabilities are rebuilt from principal minors and Mobius inversion",
+    "event probabilities are cross-checked by mixed-row determinants",
+    "KL coefficients are derived by formal log-series expansion from exact event polynomials",
+    "local-channel conflict is recomputed from block determinants"
+  ],
+  "inputs_sha256": "d3b74232f3b89929a5fa7a2fc49e5ccad26efb82850b52562a83e7f01d79425a",
+  "author_output_sha256": "cf70a48a59045f960ba0c61d4631d0042a635e4e17512863e0c370fb21e75b77",
+  "script_sha256": "3c7873d256fd21bdd3034507d791bfe34eb3c9c75f42ed70d76a022478ce1b65",
+  "checks": {
+    "example": {
+      "status": "PASS",
+      "n": 4,
+      "event_polynomial_method": "principal minors plus Mobius inversion, cross-checked by mixed-row determinants",
+      "event_polynomial_degree": "even through t^4 for all 16 events",
+      "positive_probability_checks": {
+        "t0": true,
+        "t_half": true
+      },
+      "boolean_character_moments_checked": 16,
+      "boolean_determinant_events_checked": 16,
+      "KL_coefficients": {
+        "t4": "311/214352422502400",
+        "t6": "172567/33126738110238488002560000",
+        "t8": "876170881736207/679568421119292207519480925913088000000"
+      },
+      "gamma": "1/4194304",
+      "quartic_lower_bound": "1/4398046511104",
+      "parameter_inequality_residual": "81/32",
+      "rate_quartic_correction": "1/26388279066624"
+    },
+    "non_even_example": {
+      "status": "PASS",
+      "n": 4,
+      "event_polynomial_method": "principal minors plus Mobius inversion, cross-checked by mixed-row determinants",
+      "event_polynomial_degree": "even through t^4 for all 16 events",
+      "positive_probability_checks": {
+        "t0": true,
+        "t_half": true
+      },
+      "boolean_character_moments_checked": 16,
+      "boolean_determinant_events_checked": 16,
+      "KL_coefficients": {
+        "t4": "251/720224139608064",
+        "t6": "408673/1855097334173355328143360000",
+        "t8": "2279487613173293/32619284213726025960935084443828224000000"
+      },
+      "gamma": "1/8388608",
+      "quartic_lower_bound": "1/17592186044416",
+      "parameter_inequality_residual": "47/4",
+      "rate_quartic_correction": "1/105553116266496"
+    },
+    "walks": {
+      "status": "PASS",
+      "parameter": "1/2",
+      "terms": [
+        {
+          "length": 1,
+          "nonzero_closed_walks": 0,
+          "expected_trace": "0"
+        },
+        {
+          "length": 2,
+          "nonzero_closed_walks": 10,
+          "expected_trace": "-8589934595/8796093022208"
+        },
+        {
+          "length": 3,
+          "nonzero_closed_walks": 12,
+          "expected_trace": "3/140737488355328"
+        },
+        {
+          "length": 4,
+          "nonzero_closed_walks": 50,
+          "expected_trace": "576460756787003393/590295810358705651712"
+        },
+        {
+          "length": 5,
+          "nonzero_closed_walks": 100,
+          "expected_trace": "0"
+        },
+        {
+          "length": 6,
+          "nonzero_closed_walks": 298,
+          "expected_trace": "-590349751286780788973/2475880078570760549798248448"
+        }
+      ],
+      "F_partial": "3627367783025756516778221/14855280471424563298789490688",
+      "actual_row_norm": "129/1024",
+      "absolute_tail_bound_from_proof": "594467302491009/1805763306590474076160",
+      "scope": "finite trace/moment identity and stated theorem tail constant only"
+    },
+    "channel": {
+      "status": "PASS",
+      "eigenvalues_K1": [
+        "11/16",
+        "9/16",
+        "7/16",
+        "5/16"
+      ],
+      "derivative_span_rank": 3,
+      "all_occupied_actual": "57057/1048576",
+      "all_occupied_forced_by_local_channels": "14265/262144",
+      "difference": "3/1048576",
+      "rank_one_factorization": "PASS",
+      "scope": "finite local-channel fixture only"
+    },
+    "tail_series": {
+      "status": "PASS",
+      "tail_series_at_half": "1424/27",
+      "strictly_less_than_54": true
+    }
+  },
+  "limits": [
+    "finite n=4 named examples only",
+    "no scan over other symbols or orbit families",
+    "no independent proof of the full analytic theorem or entropy-rate limit",
+    "no certification of the full legal interval beyond the stated finite fixtures"
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39"
+  },
+  "seconds": 2.452382
+}
