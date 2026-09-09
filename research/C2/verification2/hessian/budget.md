@@ -4,9 +4,9 @@ Status: frozen before computation.
 
 Scope:
 - Worker: C2 bounded strict-computation line.
-- Local writable area: `C:/game/gameproject/showa100/math/i05-seven-fronts-20260909/runs/C2/verification2/hessian/`.
-- Server writable area: `/root/i05-seven-fronts-20260909/C2/verification2/hessian/`.
-- Forbidden: `C:/canglan/`, old review files as substitutes for verification, source-proof edits, random spectral sweeps, recursive subagents.
+- Local writable area: the dedicated local directory assigned to this task.
+- Server writable area: the dedicated server directory assigned to this task.
+- Forbidden: accessing private directories outside this task, old review files as substitutes for verification, source-proof edits, random spectral sweeps, recursive subagents.
 
 Resource limits:
 - At most 2 CPU cores for this worker.
