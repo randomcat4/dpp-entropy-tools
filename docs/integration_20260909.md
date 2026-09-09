@@ -1,5 +1,11 @@
 # 2026-09-09 main 整合记录
 
+## 第四轮后继整合：PR57
+
+PR57 作者候选 `ba890f6294272849fa0a20d5c7e0e9f97d171d51` 经独立 FIRST 和隔离 SECOND 接受，仅覆盖 r=0 开域的 Rstar/M 正性。最终包 `169cda3daf8054b53ea5622a0cb14b35a097f2e3` 的数学源逐字未改，已以 `818ee1a210bdcf3a57d2fac6c73e806375a8eee7` 合入。
+
+[完整 accepted_scope、排除范围、两类核验覆盖及资源记录](verification_round4_20260909/accepted_pr57.md)保留 FIRST 独立执行、SECOND 解析/源代码/证书审核的差别；C3 未重复算术。旧 PR55 的未完成记录保持历史原样。后继 PR58/59/60 与新增队列不自动获审定，见[当前逐单元状态](verification_round4_20260909.md)。
+
 ## 后继整合批次 14：PR53 局部真实熵率定理与 PR56 审稿包
 
 PR53最终头`ebecc412467939591e018a295a18c49a0a341ce9`合为`717cdb1c6acc3f51de9e04c77ec4dc6d8baa3419`；PR56最终头`02417b25a5202485386ff069b93af7a7f9cc1e6e`合为`40d17f5c650a6259c54c9447e580b70f788c5714`。分别11作者文件、41审稿/绑定文件，全部按精确头和目录范围合并。
