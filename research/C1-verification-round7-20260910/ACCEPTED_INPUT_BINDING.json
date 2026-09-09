@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "hash_verified": true,
+      "blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "hash_verified": true,
+      "blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f"
+    },
+    {
+      "path": "research/I05-DPP-21-20260909/proof.md",
+      "hash_verified": true,
+      "blob": "877e76a94476aee8902af12f3e9d34a914088ba1"
+    }
+  ],
+  "scope": "Accepted PR53 source machinery and constant-centered radial source only; no earlier FIRST report/opinion supplied. Exact use must be identified, and no PR59 or PR60 theorem is inferred as a premise.",
+  "accepted_record_links": [
+    "https://github.com/randomcat4/dpp-entropy-tools/blob/9dcb6e9079ca57f94e0e30d63161cda89ca61fae/docs/verification_round3_20260909/accepted_pr53.md",
+    "https://github.com/randomcat4/dpp-entropy-tools/blob/9dcb6e9079ca57f94e0e30d63161cda89ca61fae/docs/verification_20260909/w2/radial_quartic_audit.md"
+  ],
+  "also_unchanged_at": "936b04e773977a5c9483a53b3449905a5472e10e",
+  "source_commit": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae"
+}
