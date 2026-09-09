@@ -1,0 +1,15 @@
+# PR51 original half-filled theorem: two independent reviews
+
+Status: **READY_SCOPED** for the original three-file unit at `4baebc317896278dcb8f0947d308fdce037c87cf`. Both nonauthor reviewers independently accepted the proof. The overall PR remains open because later continuation and summary files require their own review.
+
+For `K=[[1/2,0,b],[0,1/2,c],[b,c,1/2]]`, `bc!=0` and `4(b^2+c^2)<1`, the complete-configuration Shannon entropy has strictly negative Hessian in every nonzero real symmetric three-point direction. The ratio of the two nonzero edge strengths is unrestricted. This does not assert general unequal-diagonal missing-edge concavity, arbitrary chords leaving the stated center family, strictness on the zero-edge axes, or a finite Hessian at singular endpoints.
+
+- [First independent proof review](first/review_report.md), with [frozen scope](first/frozen_scope.md), [bounded compute plan](first/COMPUTE_PLAN.md), [independent exact checker](first/independent_pr51_symbolic_checks.py) and [actual exact results](first/independent_pr51_symbolic_checks.json).
+- [Second independent analytic review](second/review_report.md), with [its own frozen scope](second/frozen_scope.md). It read only the original three author files, did not read the first review or checker, and ran no mathematical computation.
+- [Frozen author source](https://github.com/randomcat4/dpp-entropy-tools/tree/4baebc317896278dcb8f0947d308fdce037c87cf/research/I05-22-missing-edge-20260909).
+
+The first independent checker reconstructed all eight complete events, full Fisher/acceleration identities, the 2+4 decomposition, rational derivative determinant and four seed minors, and the illustrative rigorous negative Jensen interval. Python 3.12.14 / SymPy 1.14.0, one arithmetic thread, no GPU; final run 82.806639 seconds, `PASS_EXACT_PUBLIC_IDENTITY_CHECKS`. The 4 GiB and 15 minute figures in its plan are targets, not an asserted operating-system memory cap. Identity checks accompany the analytic proof review and do not replace it. The illustrative negative Jensen gap is not a counterexample.
+
+The reviewers did not retrieve the private author reproduction packet or use PR41/43 as theorem black boxes. Public copies of the second report and its frozen scope replace one private source-directory string by the public research prefix; no mathematical or verdict text was changed. Historical pre-review status in each frozen scope is intentionally preserved; the final report supplies the verdict.
+
+Later head `2e4b8754ad4af2fe055ebeeef1159877773372a3` adds only `continuation.md`; `8b078ab834c46ce0c0e81967e3ada3fbbf542f1a` adds only `README.md`. The original three files are unchanged. A separate first continuation review accepted only identities, the positive two-dimensional block and method obstructions; a fresh second review and the README delta audit are active. The general four-dimensional Schur inequality and the global Lambda=0 derivative sign remain open. [Issue52](https://github.com/randomcat4/dpp-entropy-tools/issues/52) and [C2 PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) track the distinct bounded exact-computation handoff.

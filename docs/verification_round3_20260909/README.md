@@ -1,6 +1,6 @@
-# Third-round dependency and handoff checks
+# Third-round review records and dependency checks
 
-These records are **not theorem reviews**. C1 owns the primary mathematical reviews in [issue 46](https://github.com/randomcat4/dpp-entropy-tools/issues/46); C2 owns exact computations in [issue 45](https://github.com/randomcat4/dpp-entropy-tools/issues/45). C3's three bounded contexts mapped versions/dependencies and checked whether author handoffs specify runnable objects. No C3 mathematical job or duplicate LP was run for these records.
+The historical dependency/handoff records in the table below are **not theorem reviews**. C1 owns the primary mathematical reviews in [issue 46](https://github.com/randomcat4/dpp-entropy-tools/issues/46); C2 owns exact computations in [issue 45](https://github.com/randomcat4/dpp-entropy-tools/issues/45). C3's three bounded contexts mapped versions/dependencies and checked whether author handoffs specify runnable objects. No C3 mathematical job or duplicate LP was run for these records.
 
 | Record | Head and result |
 | --- | --- |
@@ -11,6 +11,10 @@ These records are **not theorem reviews**. C1 owns the primary mathematical revi
 
 The subsequent head `a7da3951a8ce02839dfa27f7205a1032d6f80f50` changes only three declaration/index documents to explain that an older ZIP is incomplete. C3 checked that delta: no substantive proof, code, exact input or output changes. The old ZIP is not used for review. Further source edits need their own recorded version comparison.
 
-C1's three primary review units cover PR41; PR43 E-H; and PR43 I-N. C3 has reserved second reviews only after the corresponding first pass, focusing on the new load-bearing statements. Any precise gap goes to correction, not an acceptance-oriented second pass. C2's nested continuation verifiers and 256-event fixture checks are separate from C1's small root 3+3 fixture check; task-letter changes do not start a new job.
+Final initial-round ownership supersedes the original reservation: C1 completed all three first and fresh second reviews for PR41, PR43 E-H and PR43 I-N. C3 detected that work and launched no duplicate supplement. The reviewed initial packet is merged; [accepted PR43 scope](accepted_pr43.md) records the precise conclusions and two-line descriptor correction. C2's nested continuation verifiers and 256-event fixture checks are separate from C1's small root 3+3 fixture check; task-letter changes do not start a new job.
 
 Author source snapshots are public at [PR41 frozen tree](https://github.com/randomcat4/dpp-entropy-tools/tree/6fd61dcd299417fc3a4eab3af682c03dd816b670/research/N3/round3/I05-W4-20260909/round2) and [PR43 v3.1 frozen tree](https://github.com/randomcat4/dpp-entropy-tools/tree/7bd5962bbb2020ce47fbe286adda7dfe02f9645d/research/I05-W1-20260909-R2). Existing accepted theorems retain their exact original scope. Novelty and formalization have not been audited here.
+
+## Follow-on reviews
+
+[PR51 original half-filled theorem](pr51/README.md) has two independent scoped acceptances and an independent exact checker. Its continuation is separately under review. PR53 and original PR54 are with C1 for first review; PR54 added appendices have a separate C3 first review. Current heads, second-review ownership and the distinct C2 issue52 budget are in the [live integration queue](../verification_round3_20260909.md). Historical maps above do not certify these new results.

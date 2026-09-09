@@ -7,9 +7,9 @@
 | 对象 | 可以使用的结论 | 不能外推到 | 审阅证据 |
 | --- | --- | --- | --- |
 | 过内部对角核的完整合法线；过常数的固定标量符号线 | 有限完整配置熵及真实熵率均凹，覆盖非交换有限方向、复 Toeplitz 压缩、非零均值和可行边界 | 任意非对角中心或任意两个标量符号之间的弦 | PR29/34；[C3 新非作者审核](../research/C1-verification-20260909/children/c3/review_radial_theorem.md)、[W2 定量审核](verification_20260909/w2/radial_quartic_audit.md)。共同刷新定理只计一次 |
-| 常数中心线的定量严格性 | `h(a+s u)+2(integral u)^2 s^2` 凹；均值保持时 `h(p+s(f-p))+(4/3)|fhat(k)|^4 s^4` 凹，非零方向给出严格 Jensen 缺口 | 非常数中心一般轨道的曲率；最优常数 | PR34；[完整范围和有限 Jensen 极限](verification_20260909/w2/README.md) |
-| 非恒定中心的 Wiener 弱区间 | 半周期偶中心 c、均值 1/2、半周期奇方向 g，且 `2||c-1/2||_W<1` 时，显式 `[-T_*,T_*]` 上 `h(c+tg)+(2/3)|ghat(k)|^4 t^4` 凹；含实非偶例及随窗口增长的交叉秩 | 任意非恒定中心；完整合法区间；均值非 1/2 的一般中心 | PR39；[独立解析审核、固定例及精确服务器复算](verification_20260909/w2_pr39/README.md) |
-| 循环平均 `A_q`，任意可测实 `0<=f<=1` | `h(A_q f)=h(f)` 当且仅当 `A_q f=f` 几乎处处；每个 `q` 不整除 `k` 的被删 Fourier 模式给出 gap 至少 `|fhat(k)|^4` | 平均轨道整条线的凹性 | PR34；[匹配密度、负关联和边界审核](verification_20260909/w2/cyclic_audit.md) |
+| 常数中心线的定量严格性 | `h(a+s u)+2(integral u)^2 s^2` 凹；均值保持时 `h(p+s(f-p))+(4/3)\|fhat(k)\|^4 s^4` 凹，非零方向给出严格 Jensen 缺口 | 非常数中心一般轨道的曲率；最优常数 | PR34；[完整范围和有限 Jensen 极限](verification_20260909/w2/README.md) |
+| 非恒定中心的 Wiener 弱区间 | 半周期偶中心 c、均值 1/2、半周期奇方向 g，且 `2\|\|c-1/2\|\|_W<1` 时，显式 `[-T_*,T_*]` 上 `h(c+tg)+(2/3)\|ghat(k)\|^4 t^4` 凹；含实非偶例及随窗口增长的交叉秩 | 任意非恒定中心；完整合法区间；均值非 1/2 的一般中心 | PR39；[独立解析审核、固定例及精确服务器复算](verification_20260909/w2_pr39/README.md) |
+| 循环平均 `A_q`，任意可测实 `0<=f<=1` | `h(A_q f)=h(f)` 当且仅当 `A_q f=f` 几乎处处；每个 `q` 不整除 `k` 的被删 Fourier 模式给出 gap 至少 `\|fhat(k)\|^4` | 平均轨道整条线的凹性 | PR34；[匹配密度、负关联和边界审核](verification_20260909/w2/cyclic_audit.md) |
 | 固定两块的交叉耦合径向线 | W1 首轮：Hermitian rank-one 交叉块全弦凹性；第二轮：实 `m×2` 交叉块，以及任意维中至多两实际坐标列/行支撑的推广，`B!=0` 时严格 Jensen 凹 | 两边均大于二且坐标支撑稠密的一般 rank-two；用谱基旋转替代观察坐标 | PR32/36/38；[首轮](../research/C1-verification-20260909/children/w1/W1_INDEPENDENT_REVIEW.md)、[第二轮](../research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md) |
 | 任意严格实三点核的不定秩二方向 | `rank(D)=2` 且两个非零特征值异号时，`H(K+zD)` 在完整合法区间凹，连续到边界 | 半定秩二、满秩及一般实三维全方向 | PR43 E；[精确范围与双审](verification_round3_20260909/accepted_pr43.md) |
 | 三点条件方向与相关非坐标 3+3 族 | 全部条件方向为秩至多一、不定秩二或有严格对角锚点时，全合法区间径向凹，`B!=0` 严格；覆盖显式 `A=alpha P+beta nn^T`、`n^T B=0`、`C=D0+eta B^T B` 结构族 | 任意两侧相关稠密 rank-two 块；一般未锚定半定条件方向 | PR43 G/H；[完整参数与双审](verification_round3_20260909/accepted_pr43.md) |
@@ -17,9 +17,9 @@
 | 外幂统计、密度伴随和单个非可逆流 | KL/互信息压缩与完整 Hessian 恒等式；给定固定有理三点 C、V 的 33 正边平稳生成元，完整 40 条方程独立精确验算通过 | 一般生成元存在性；熵耗散曲率自动非负；一般熵凹性或熵率 | PR43 F/K/L、PR47；[公式、固定输入与非作者证书](verification_round3_20260909/accepted_pr43.md) |
 | 固定真实熵率证书 | S1 三个固定符号对及 C3-M1 的严格负 pair gap；C3-M1 上端约 `-8.4037273824e-7<0` | 符号族定理、长程符号或所有非偶方向 | PR22/29；[S1 范围审定](verification_20260909/base_prs.md)、[C3-M1 独立审核与 288 项置换行列式复算](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
 | 连通严格实三维 beta 零集 | N3 有根存在的严格括号且全括号 `d alpha<0.661527927`；C1 归一化稀疏族的精确零点从下方按 `1/log(1/epsilon)` 接近阈值 1，排除统一正安全余量 | 全 B0、违反 B0 的零点、唯一性和显式 epsilon 阈值 | PR24/30/37；[根括号复算](verification_20260909/pr24.md)、[稀疏族及另一个有限有理核 cert60 的独立审核](../research/C2/verification2/beta/REVIEW.md) |
-| 固定五点 rank-three 框架 | N4 的支持/Hessian/内点提升接口和受限切片；C2 显式上面锥及各向异性低层补偿；W3 对每个标量中心 `aI`、半径 `epsilon^2/1000` 的球，所有实对称 V 满足 `H''<=-||V||F^2/25`，`epsilon=min(a,1-a)` | 整个中间谱带、任意框架或一般五点凹性 | PR23/31/35；[基础范围](verification_20260909/base_prs.md)、[W3 解析余项与精确常数审核](../research/C2/verification2/w3/REVIEW.md) |
+| 固定五点 rank-three 框架 | N4 的支持/Hessian/内点提升接口和受限切片；C2 显式上面锥及各向异性低层补偿；W3 对每个标量中心 `aI`、半径 `epsilon^2/1000` 的球，所有实对称 V 满足 `H''<=-\|\|V\|\|F^2/25`，`epsilon=min(a,1-a)` | 整个中间谱带、任意框架或一般五点凹性 | PR23/31/35；[基础范围](verification_20260909/base_prs.md)、[W3 解析余项与精确常数审核](../research/C2/verification2/w3/REVIEW.md) |
 | 固定五点框架的非标量六坐标盒 | `K=UAU^T`，固定有理 U；`A0=[[41/100,-3/25,0],[-3/25,17/50,0],[0,0,3/4]]` 的各六坐标误差不超过 `1/2048`，全盒所有非零实对称 V 均有 `H_A''[V,V]<0` | 其余 11 中心、完整中间谱带、任意框架、真实熵率；预条件后余量不是原坐标 Frobenius 曲率常数 | PR42；[冻结量词](../research/C2/verification2/hessian/frozen_scope.md)、[非作者最终审核](../research/C2/verification2/hessian_review/REVIEW_single_box_R12_boundary_mid.md) |
-| 三维实归一化弱相互作用子域 | `0<x_i<1`、`|K_ij|<=(1/4)sqrt(v_i v_j)`，`v_i=x_i(1-x_i)`，全部六方向满足 `-H''>=(7/10)(S+U+V)`；域凸且闭包上弦凹，非零边图连通时完整 Hessian 负定 | 子域外一般实三维、复杂域、高维或熵率；边界 Hessian 有限性 | PR33/40；[完整解析审核及修复后严格七点证据](../research/C1-verification-20260909/READY_BATCH_04.md) |
+| 三维实归一化弱相互作用子域 | `0<x_i<1`、`\|K_ij\|<=(1/4)sqrt(v_i v_j)`，`v_i=x_i(1-x_i)`，全部六方向满足 `-H''>=(7/10)(S+U+V)`；域凸且闭包上弦凹，非零边图连通时完整 Hessian 负定 | 子域外一般实三维、复杂域、高维或熵率；边界 Hessian 有限性 | PR33/40；[完整解析审核及修复后严格七点证据](../research/C1-verification-20260909/READY_BATCH_04.md) |
 | 三点强耦合等幅缺边中心 | `K=[[1/2,0,kappa],[0,1/2,sigma*kappa],[kappa,sigma*kappa,1/2]]`，`sigma=±1`、`0<8*kappa^2<1`，所有非零实对称六方向均有 `H''<0` | 一般不等幅或不等对角缺边中心；穿出该中心族的任意长弦；奇异边界 Hessian | PR41；[首审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41/review_report.md)、[新鲜独立第二审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41_second/review_report.md) |
 | 严格二点块加孤立点 | 任意实严格二点块 A 和 `0<z<1`，完整六方向满足 `-H3''= -H2''(A;D_block)+D33^2/[z(1-z)]>=0`；二点条件熵在真实核坐标中联合凹 | 连接方向的严格负 Hessian；一般连通三维。一般缺边的条件坐标/Jacobian/Fisher 只接受恒等式 | PR41；[首审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41/review_report.md)、[新鲜独立第二审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41_second/review_report.md) |
 
@@ -33,7 +33,7 @@
 
 PR39 的 NC 解析定理、通用局部块通道障碍及两个固定例分别通过独立审阅，独立编写的五组精确有限检查及服务器重跑全部通过。固定偶例认证区间为 `[-1,1]`，完整合法区间为 `[-384,384]`；不能据此宣称整条合法弦凹。C2 单盒证书已单独接受：全盒谱包络 `[509/2048,1539/2048]` 位于 `0<A<I`，没有声称整个盒位于 `[I/4,3I/4]`。正式与非作者精确分数重跑均退出 0；旧 INCOMPLETE、失败与修复记录保留。预算审计为 73 次不同尝试，保守计费 87 条状态记录，小于 128 上限。
 
-用户已批准[第三轮独立核验与整合](verification_round3_20260909.md)。PR41 完整头 `6fd61dcd299417fc3a4eab3af682c03dd816b670` 经两名先后独立的非作者解析审稿后，已以 `13d6c09d5d3fcf8c19cd0b01e5d735fd8778cdb6` 合入；上表已加入其限定范围。C2 的全事件与恒等式重建另行 PASS，不代替证明。PR43 的三点不定秩二、相关 3+3、对角活动扇区及通道条目也已分项双审，通过两行相关性说明修正后合入；C1 审阅包 PR49 与 C2 精确证据/独立流审核 PR47 同时归档。新收到 PR51 的半填充不等强缺边族由 C3 独立审阅中，仍为作者候选；未继承 PR41 的接受。
+用户已批准[第三轮独立核验与整合](verification_round3_20260909.md)。PR41 完整头 `6fd61dcd299417fc3a4eab3af682c03dd816b670` 经两名先后独立的非作者解析审稿后，已以 `13d6c09d5d3fcf8c19cd0b01e5d735fd8778cdb6` 合入；上表已加入其限定范围。C2 的全事件与恒等式重建另行 PASS，不代替证明。PR43 的三点不定秩二、相关 3+3、对角活动扇区及通道条目也已分项双审，通过两行相关性说明修正后合入；C1 审阅包 PR49 与 C2 精确证据/独立流审核 PR47 同时归档。PR51 原半填充不等强缺边定理已另行完成两次独立审稿，[报告和完整事件精确检查](verification_round3_20260909/pr51/README.md)为 READY_SCOPED；整体 PR 因新增续稿另审而尚未合入。PR53/54 和计算 issue52 见当前队列。
 
 下文保留历史八路结果及其原始证据入口。
 

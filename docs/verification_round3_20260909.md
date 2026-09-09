@@ -1,6 +1,6 @@
 # 第三轮核验与整合队列
 
-状态：RUNNING。初始作者 PR41/43 与 C1/C2 核验包均已完成限定接受并合入；新收到 PR51 后继续独立核验。[协调 issue #44](https://github.com/randomcat4/dpp-entropy-tools/issues/44)及各 PR/计算 issue 保存实际认领和恢复记录。C3 为唯一 main 集成人。
+状态：RUNNING。初始作者 PR41/43 与 C1/C2 核验包均已完成限定接受并合入；新收到 PR51/53/54 与计算 issue52 后继续独立核验。[协调 issue #44](https://github.com/randomcat4/dpp-entropy-tools/issues/44)及各 PR/计算 issue 保存实际认领和恢复记录。C3 为唯一 main 集成人。
 
 | 对象 | 最终头 / 当前冻结头 | 状态与范围 |
 | --- | --- | --- |
@@ -8,13 +8,16 @@
 | [PR43](https://github.com/randomcat4/dpp-entropy-tools/pull/43) | `6adb231c3c1d3bf3aafc0d21132e9ad34621df89` | ACCEPTED_SCOPED，merge `de0c592c01e5b9e59e64db9df9f0d05ea1a6c01f`。E–H、D/I–N 分组双审；两处 eta 描述修正已检查。完整范围见下文 |
 | [PR47](https://github.com/randomcat4/dpp-entropy-tools/pull/47) | `997c95eaf607a64d0e166dc8a08001794f59c657` | READY_SCOPED 已合，merge `6cbd76078caf1dc3444b0783409ef9af4968c265`。PR41 八事件符号、PR43 指定 256 事件/条件事件重建及独立有理有向流审核通过 |
 | [PR49](https://github.com/randomcat4/dpp-entropy-tools/pull/49) | `b3816871965782378da5d4b559992176a66b6c26` | 审阅记录已合，merge `580efb43568030013e0a2eac318bbe0e8db4051e`。三项首审和三项新鲜第二审均结束；旧 H 文字缺口由 PR43 的明确两行增量关闭 |
-| [PR51](https://github.com/randomcat4/dpp-entropy-tools/pull/51) | `4baebc317896278dcb8f0947d308fdce037c87cf` | IN_REVIEW，C3 已认领独立首审，通过后另用新鲜上下文第二审。目标仅半填充不等强缺边中心的全六方向；一般不等对角仍开放 |
+| [PR51](https://github.com/randomcat4/dpp-entropy-tools/pull/51) | 原三文件 `4baebc317896278dcb8f0947d308fdce037c87cf`；续稿 `2e4b8754ad4af2fe055ebeeef1159877773372a3`；新增索引 `8b078ab834c46ce0c0e81967e3ada3fbbf542f1a` | 原半填充不等强全六方向定理双审 READY_SCOPED，[报告与独立精确检查](verification_round3_20260909/pr51/README.md)已公开。续稿的恒等式/正定消元块/方法障碍首审通过、第二审进行中；索引增量另核。PR 整体未合，一般 Schur 与径向 M 正性仍开放 |
+| [PR53](https://github.com/randomcat4/dpp-entropy-tools/pull/53) | `e0688fbb713e55f93acf791b83437ddf2cc06b7f` | C1 FIRST_IN_REVIEW；熵率互信息归约、有限带宽配置一致逆界及量子分束器归约分项审查。C3 预留通过后的新鲜第二审；全熵率曲率尚未证明 |
+| [PR54](https://github.com/randomcat4/dpp-entropy-tools/pull/54) | 原稿 `203f7044815faac9a2de7bc8dbc5bfe249026b1f`；附录/端点算例 `c3b9e968c0b4557546c7b10137ef4fff295338b4` | 原 RESULT 与原算例由 C1 首审；三个新增附录及端点判别式增量由 C3 另行首审。全弦熵亏损不作曲率结论；任意相关块全弦凹性仍开放 |
+| [计算 #52 / PR55](https://github.com/randomcat4/dpp-entropy-tools/pull/55) | 解析输入 PR51 `2e4b8754ad4af2fe055ebeeef1159877773372a3`；初始计划 `df26ead9b56b0adcbe66722ba1d05fd01c901328` | C2 已认领独立八事件到 M 重建及有界精确符号任务。一次共享 2700 秒预算、单进程单线程、16 GiB、无 GPU；该计划检查点未声称 PID 或数学结果。C3 不重复消元 |
 
 ## 已接受结论与证据
 
 [成果页](research_status.md)与[路线台账](route_ledger.md)列当前可使用的范围；[PR43 的完整量词、双审、非可逆固定生成元与版本修正](verification_round3_20260909/accepted_pr43.md)区分正面定理、条件框架和机制障碍。外部对角输入 D 不重复计数。所有结果均使用完整配置概率，数值检查不替代全参数证明；新颖性和形式化另行记账。
 
-C1 已结束初始三项首审和三项新鲜第二审；C2 已结束初始三项计算及后续新鲜流证书审核。C3 根据实际在行任务撤回了先前 PR41/43 的补审预留，没有启动第三次重复审稿。当前新工作是 PR51 的独立首审。
+C1 已结束初始三项首审和三项新鲜第二审；C2 已结束初始三项计算及后续新鲜流证书审核。C3 根据实际在行任务撤回了先前 PR41/43 的补审预留，没有启动第三次重复审稿。当前新工作按上表分项认领。PR51 原定理的两名审稿与续稿审稿分别记账；C1 已明确不启动 PR53/54 第二审，C3 在对应首审通过后接续，新增附录不继承原稿审定。
 
 PR43 初始数值头 `4e1369ef2a59ccfaba3ca8fce95d85e78857bf78` 到统一 v3.1 `7bd5962bbb2020ce47fbe286adda7dfe02f9645d` 只改十二份声明/索引/任务文本；后继 a7da3951 只说明旧 ZIP 不完整；最终 6adb231c 在两处相关性描述补 eta!=0。旧输入中的 reversible 字段不适用于当前非可逆 LP，实际计算使用 PR47 的有向输入与右端位对应坐标1的明确约定。详见[初期依赖与交接检查](verification_round3_20260909/README.md)，它们是映射记录，不是额外审稿人数。
 

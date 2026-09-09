@@ -11,7 +11,7 @@
 | 固定反例对象已排除 | S1 三个固定符号对、C3-M1 固定三符号的正真实熵率 pair gap | [S1](verification_20260909/base_prs.md)、[C3-M1](../research/C1-verification-20260909/children/c3/review_rate_certificate.md) |
 | 已覆盖 | C2 固定框架的显式上面锥/各向异性界；W3 标量中心 `epsilon^2/1000` 球内的全方向负曲率 | [C2](verification_20260909/base_prs.md)、[W3](../research/C2/verification2/w3/REVIEW.md) |
 | 已覆盖 | 固定五点有理框架下 R12_boundary_mid 中心的六坐标半径 1/2048 小盒，全盒与全部非零实对称方向上的严格负曲率 | [单盒冻结范围与严格核验](../research/C2/verification2/hessian_review/REVIEW_single_box_R12_boundary_mid.md) |
-| 已覆盖 | W4 三维 `|K_ij|<=sqrt(v_i v_j)/4` 归一化子域的完整六方向界和闭包弦凹性；连通两边图也足以使 Hessian 负定 | [W4 最终审核](../research/C1-verification-20260909/READY_BATCH_04.md) |
+| 已覆盖 | W4 三维 `\|K_ij\|<=sqrt(v_i v_j)/4` 归一化子域的完整六方向界和闭包弦凹性；连通两边图也足以使 Hessian 负定 | [W4 最终审核](../research/C1-verification-20260909/READY_BATCH_04.md) |
 | 已覆盖 | PR41 等幅强耦合三点缺边中心 `0<8*kappa^2<1` 的全六方向严格负曲率；严格二点块加孤立点的全方向半负定恒等式及二点条件熵引理 | [首审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41/review_report.md)、[新鲜独立第二审](https://github.com/randomcat4/dpp-entropy-tools/blob/5612f0a61c9f3cfe3f5ffbea960a3a672c2f9f9a/research/C1-verification-round3-20260909/units/pr41_second/review_report.md) |
 | 已覆盖 | 任意严格实三点核的不定秩二仿射方向全合法熵凹性；逐条件判据及相关非坐标 3+3 特殊族 | [PR43 E/G/H 双审范围](verification_round3_20260909/accepted_pr43.md) |
 | 已覆盖 | 任意维/秩的对角活动坐标扇区、逐条件严格对角锚点的全合法径向熵凹性 | [PR43 I/J 坐标与严格性前提](verification_round3_20260909/accepted_pr43.md) |
@@ -26,7 +26,7 @@
 
 仍开放：一般非恒定中心标量弦、全实三维 beta 零集界、一般固定框架中谱带、任意稠密两边均大于二的 rank-two 交叉块，以及更高维一般实核问题。固定无命中、有限盒或特定符号的严格证书不能关闭这些全域问题。普通 Fourier 平方可和尾也不能直接替代体积一致的算子尾控制。
 
-PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 已认证 R12_boundary_mid 单盒；其余 11 中心及整个中间谱带仍未关闭。PR41 的完整强耦合等幅三点族与独立块结果已通过两名独立审稿并合入，覆盖范围如上；一般缺边的条件坐标只关闭恒等式推导，剩余 6×6 不等式仍开放。PR43 已按[第三轮队列](verification_round3_20260909.md)分项双审接受，并覆盖指定相关 3+3、对角活动扇区和条件锚点等结构。一般实三维、任意相关秩二块及一般生成元的熵耗散曲率均未关闭。PR51 新不等强半填充族仍在独立审阅，尚未用于扩大接受范围。
+PR39 已独立通过，但只关闭其半周期结构和 Wiener 小区间内的反例空间。固定偶例仅认证 `[-1,1]`，其完整合法区间 `[-384,384]` 仍未关闭。C2 已认证 R12_boundary_mid 单盒；其余 11 中心及整个中间谱带仍未关闭。PR41 的完整强耦合等幅三点族与独立块结果已通过两名独立审稿并合入，覆盖范围如上；一般缺边的条件坐标只关闭恒等式推导，剩余 6×6 不等式仍开放。PR43 已按[第三轮队列](verification_round3_20260909.md)分项双审接受，并覆盖指定相关 3+3、对角活动扇区和条件锚点等结构。一般实三维、任意相关秩二块及一般生成元的熵耗散曲率均未关闭。PR51 原不等强半填充族已经[独立双审 READY_SCOPED](verification_round3_20260909/pr51/README.md)，整体 PR 的新增续稿仍另行审核；不以此关闭一般不等对角缺边问题。
 
 更新于 2026-09-09。这里“关闭”必须带上范围：定理覆盖只排除所述区域；方法被反例否定只否定该方法。有限搜索没有命中，不能关闭数学上的反例空间。
 
