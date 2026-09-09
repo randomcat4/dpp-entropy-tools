@@ -1,0 +1,11 @@
+PR58 additive-criterion obstruction fixture: PASS
+rank(B)=2, dense: True
+s=9/10 legal, min q = 2069897581663368728180404141/60412814497637875000000000000
+P0 interval approx = 5.4701601089890834 5.4701601089890834
+A2 exact approx = 1.0088153687530381
+W interval approx = -2.253552138695407 -2.253552138695407
+true t^2 I'' interval approx = 4.653598245398841 4.653598245398841
+dual R_add lower bound approx = 192.45644754663817
+criterion failure threshold upper approx = 166.44125195305153
+strict: R_add >= dual lower > threshold, so joint-additive sufficient margin < 0
+strict: true t^2 I'' > 0, so entropy curvature H'' < 0 at t=sqrt(9/10)
