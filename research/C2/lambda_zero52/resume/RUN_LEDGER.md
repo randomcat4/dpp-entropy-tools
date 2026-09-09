@@ -32,3 +32,10 @@ arithmetic on the saved four-dimensional matrices; it does not import the
 original checker. The coefficient phase reads the saved fourth determinant's
 residual factor and performs integer binomial transformations. Neither phase
 performs a scout. Fresh review, not these author statuses, decides acceptance.
+
+The fresh r=0 review launched no arithmetic: its UTC check was 12:07:36,
+already after the 12:07:28 cutoff. Its first disposition is INCOMPLETE because
+the independent exact `Rstar -> det -> P -> Q` check remains missing. At
+12:12:31 UTC, root independently checked that author PIDs 172454, 173320 and
+173433 were all absent. C3's reserved second review is analytic/source only;
+no additional arithmetic budget is opened here.

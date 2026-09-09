@@ -26,7 +26,7 @@ failure.
 - Limits: one arithmetic Python process, one-thread environment, 16 GiB
   virtual-memory cap, no GPU, one 2700-second outer deadline.
 
-The executed source was the copy launched at 2026-09-09T11:22:10Z.  The current
+The source copy was prepared during the launch request at 2026-09-09T11:22:10Z; the authoritative process start was 11:22:28Z.  The current
 public script differs from that executed source by one privacy sanitation line:
 
 ```text
@@ -90,3 +90,10 @@ research/C2/lambda_zero52/compute/outputs_sanitized/
 
 The raw copied run is retained only in the private compute area because the
 launch-time JSON includes private runner path fields.
+
+Final archive validation found malformed quoting in the first sanitized copy
+of `run_final.json`. Root regenerated the JSON archive by parsing the private
+raw objects, replacing only private path prefixes inside string values, and
+serializing the objects normally. All 20 public JSON files then parsed
+successfully. The raw failure record is retained, and mathematical matrix and
+coefficient values were not altered by this metadata repair.

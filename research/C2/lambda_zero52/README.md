@@ -1,6 +1,6 @@
 # C2 issue 52: radial Hessian derivative on the Lambda-zero family
 
-Status: PARTIAL; full-r sign OPEN, r=0 certificate candidate under fresh review. This is a bounded computation under [issue 52](https://github.com/randomcat4/dpp-entropy-tools/issues/52), separate from the merged PR47 packet and C3's half-filled theorem review in PR51.
+Status: PARTIAL; full-r sign OPEN, r=0 certificate candidate with INCOMPLETE fresh review. This is a bounded computation under [issue 52](https://github.com/randomcat4/dpp-entropy-tools/issues/52), separate from the merged PR47 packet and C3's half-filled theorem review in PR51.
 
 Frozen author source: PR51 `2e4b8754ad4af2fe055ebeeef1159877773372a3`, `research/I05-22-missing-edge-20260909/continuation.md`, section 5. The complete requested rational construction is preserved in `inputs/frozen_issue52.md`; it is an input assertion to verify, not a theorem inherited from the author. Main queue was read at `f6d9eb6d2b6f7d6001bf5f230911f1e8c723f84e`.
 

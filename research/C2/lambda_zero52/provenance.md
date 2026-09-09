@@ -7,6 +7,7 @@
 - Structure child (new GPT-5.5 xhigh context): bounded analytic factor/congruence/obstruction route. Any new proof it authors requires another nonauthor review.
 - Structure-review child (fresh GPT-5.5 xhigh context, after an initial slot was freed): nonauthor analytic review of the structural reduction and the root-proposed determinant bookkeeping. It later reviewed only the separate root-authored positive seed; it did not duplicate C3's second structural audit. No arithmetic process was launched.
 - C2 primary also authored the explicit rational positive seed while the bounded arithmetic run was active. Its acceptance is based on the separate seed-only review, not primary self-acceptance.
+- After the original arithmetic process exited with per-stage implementation errors, C2 primary authored the publicly recorded remaining-window determinant repair and coefficient test. The root-authored r=0 certificate remains a candidate: its fresh nonauthor review is INCOMPLETE. The reviewer launched no arithmetic after discovering that the original deadline had passed. C3 reserves the separate second analytic/source review; C2 does not duplicate it.
 - C3: separate root PR51 half-filled theorem review and sole main integration. No acceptance of that theorem is automatically transferred to this stronger M assertion.
 
 Correctness of identities, global sign coverage and novelty are separate verdicts. Failed routes and partial r=0 results are preserved without promotion to the whole domain.

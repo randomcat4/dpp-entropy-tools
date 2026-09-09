@@ -117,7 +117,7 @@
     "leibniz_total_degree_bound": 86
   },
   "environment": {
-    "cwd": "<private-runner-path>",
+    "cwd": "<private-C2-dir>/lambda_zero52/compute/runs/run_20260909T112208Z",
     "pid": 172454,
     "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
     "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
@@ -1106,4 +1106,3 @@
     "u"
   ]
 }
-
