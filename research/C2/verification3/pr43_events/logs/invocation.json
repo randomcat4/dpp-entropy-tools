@@ -1,0 +1,15 @@
+{
+  "run_root": "[C2_EXECUTION_ROOT]/verification3/pr43_events",
+  "python": "[C2_EXECUTION_ROOT]/.venv/bin/python",
+  "source_root": "[C2_EXECUTION_ROOT]/verification3/pr43_events/source43/randomcat4-dpp-entropy-tools-4e1369e/research/I05-W1-20260909-R2",
+  "out_dir": "[C2_EXECUTION_ROOT]/verification3/pr43_events/output",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "memory_limit": "ulimit -v 4194304",
+  "gpu": "CUDA_VISIBLE_DEVICES empty",
+  "timeout": "45m"
+}

@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "start_epoch_utc": 1788949559,
+  "end_epoch_utc": 1788949564,
+  "duration_seconds": 5,
+  "stdout_file": "[C2_EXECUTION_ROOT]/verification3/pr43_events/logs/standalone_pr43_events.stdout",
+  "stderr_file": "[C2_EXECUTION_ROOT]/verification3/pr43_events/logs/standalone_pr43_events.stderr"
+}

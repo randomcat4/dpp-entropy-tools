@@ -1,0 +1,19 @@
+{
+  "certificate": "flow_certificate.json",
+  "equation_count": 40,
+  "flow_details": {
+    "primal_attempts": [
+      {
+        "attempt": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "objective": 0.0,
+        "status": 0,
+        "success": true,
+        "support_gt_1e-9": 33
+      }
+    ]
+  },
+  "outcome": "FEASIBLE_FLOW",
+  "seed": 4310043,
+  "variable_count": 56
+}
