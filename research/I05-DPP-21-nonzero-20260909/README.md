@@ -1,12 +1,12 @@
 # I05 DPP21 continuation — entropy-rate concavity away from the parity point
 
-Issue: #48. Branch: `research/I05-DPP-21-nonzero-20260909`.
+Issue: #48. Successor PR: #59. Branch: `research/I05-DPP-21-nonzero-20260909`.
 
 Base: `main@9dcb6e9079ca57f94e0e30d63161cda89ca61fae`.
 
 ## Status
 
-**PROVED (AUTHOR PROOF), NOT INDEPENDENTLY REVIEWED:** a compact radial-tube theorem, an exact arbitrary-center RPF Hessian identity, and a beam-splitter second-order obstruction.
+**PROVED (AUTHOR PROOF), NOT INDEPENDENTLY REVIEWED:** a compact radial-tube theorem, an exact arbitrary-center RPF Hessian identity, an exponentially accurate finite-state true-rate interface, and a beam-splitter second-order obstruction.
 
 **INCOMPLETE:** whole-legal-interval concavity for every strict exponentially local half-period center, legal endpoints, arbitrary measurable symbols, and a true entropy-rate counterexample.
 
@@ -45,7 +45,7 @@ concave on the **whole prescribed interval** `[-T,T]`. Hence `h(c+t g)` is stric
 
 The result is not a re-centering argument. At nonzero `t_*`, the symbol `c+t_*g` is generally not half-period invariant. The proof instead forms the normalized curvature `h''(c+t g)/t^2`, extends it analytically through `t=0`, uses the accepted `(4/3)|g_hat(k)|^4t^4` radial margin at the constant center, and transports that margin to nearby nonconstant centers uniformly over `[-T,T]`.
 
-A fixed explicit family has mean `1/3`, nonconstant center, and covers `[-2,2]`, so it lies outside PR39's mean-`1/2` scope and includes neighborhoods far from zero.
+An explicit mean-`1/3` one-parameter family covers `[-2,2]`, so it lies outside PR39's mean-`1/2` scope and includes neighborhoods far from zero. The theorem supplies a nonempty range of nonzero center amplitudes; it does not pretend the existential center radius is a displayed numerical constant.
 
 ## Other exact outputs
 
@@ -66,10 +66,13 @@ The balanced fermionic beam-splitter route is compared exactly. Its output occup
 
 - `frozen_statement.md`: exact quantifiers and status.
 - `proof.md`: complete proof, RPF Hessian, finite-state bridge, beam-splitter obstruction, explicit family, and remaining gap.
+- `clarifications.md`: the explicit event-matrix norm line and one variable-name correction before review.
 - `sources.md`: primary literature and exact roles.
 - `attempts.md`: failed shortcuts and why they do not settle the sign.
 - `verification.md`: author self-audit and independent-review checklist.
-- `code/check_explicit_family.py`: dependency-free exact arithmetic for the displayed example only.
-- `output/explicit_family_exact.json`: expected exact output; not an entropy computation.
+- `code/check_explicit_family.py`: dependency-free exact arithmetic for the displayed family constants.
+- `code/check_rpf_hessian.py`: exact symbolic cross-check of the five-term Hessian on a non-i.i.d. finite-memory `g`-function.
+- `output/*.json`: recorded outputs and run environment; none is an entropy-rate certificate.
+- `requirements.txt`: pinned symbolic-check dependency.
 
 No heavy computation is used by the theorem. No finite entropy or floating-point curvature is promoted to a rate statement.
