@@ -1,0 +1,552 @@
+{
+  "argv": [
+    "research\\N3\\round2\\review\\verify_weak_edge_candidate.py",
+    "--output",
+    "research\\N3\\round2\\review\\weak_edge_audit_results.json"
+  ],
+  "base_script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\round2\\review\\verify_round2_definitions.py",
+  "base_script_sha256": "680acb0024b90eef80747025d6113d9e7bfc593a58fa514101bb05b295a5094f",
+  "cases": [
+    {
+      "Fdo_order_ratio_bounded": true,
+      "Hdo_order_ratio_bounded": true,
+      "abc_sign": "positive",
+      "all_beta_positive": true,
+      "density_check": {
+        "T2_equals_4uvw": true,
+        "all_p_over_mu_identities_exact": true,
+        "p_over_mu": [
+          "472466773/472500000",
+          "315012977/315000000",
+          "708796609/708750000",
+          "756011329/756000000",
+          "472493891/472500000",
+          "504029171/504000000",
+          "141752129/141750000",
+          "47243873/47250000"
+        ],
+        "t": "1/100",
+        "u_v_w_T": [
+          "1/90000",
+          "1/250000",
+          "1/122500",
+          "1/26250000"
+        ]
+      },
+      "detN_alpha_smallest_t_less_than_one": true,
+      "edges": [
+        "1/3",
+        "1/5",
+        "2/7"
+      ],
+      "eta_off_factor2_ok": true,
+      "name": "abc_positive",
+      "probes": [
+        {
+          "Fdd_error_over_t2": 1.8904646056856964,
+          "Fdo_norm_over_t3": 1.050316142979289,
+          "Foo_leading_error_over_t4": 3.4864290595276115,
+          "Fpair_do_norm_over_t3": 1.0502916412009695,
+          "H_solve_residual_max_abs": 1.8189894035458565e-12,
+          "Hdo_norm_over_t3": 1.0258527783694666,
+          "Hoo_leading_error_over_t3": 0.03492640063329053,
+          "beta": 0.47826331213687223,
+          "beta_limit": 0.48187088154946733,
+          "beta_minus_limit_over_t": -0.3607569412595102,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.166666678190662,
+              "do": 1.0503161429792893e-06,
+              "oo": 0.0007561858422738016
+            },
+            "F_pair": {
+              "dd": 4.1666666781905946,
+              "do": 1.0502916412009698e-06,
+              "oo": 0.0007561769268095379
+            },
+            "H": {
+              "dd": 4.166761207711059,
+              "do": 1.0258527783694669e-06,
+              "oo": 0.0011342688324605847
+            }
+          },
+          "detN_alpha": 0.00012717093626040754,
+          "detN_alpha_coeff": 1.271798185941043,
+          "detN_alpha_coeff_error_over_t": -0.00888233369675806,
+          "detN_alpha_over_t2": 1.2717093626040754,
+          "eta_off": [
+            1.9150032964301618,
+            0.41036222185589655,
+            1.1722188919197463
+          ],
+          "eta_off_error_over_t": 0.5435661045832596,
+          "eta_off_factor2_error": 2.220446049250313e-16,
+          "eta_off_limit": [
+            1.9204389574759944,
+            0.4114285714285715,
+            1.1755102040816325
+          ],
+          "h_off_t2": [
+            0.16920441564414643,
+            0.1014208434287464,
+            0.14494739104745646
+          ],
+          "h_off_t2_error_over_t": 0.017732550583149376,
+          "h_off_t2_limit": [
+            0.16931216931216928,
+            0.10158730158730159,
+            0.14512471655328796
+          ],
+          "lambda_grad_o_error_over_t": 3.703621276756497,
+          "lambda_grad_o_limit": [
+            7.875,
+            13.125,
+            9.1875
+          ],
+          "lambda_grad_o_over_t2": [
+            7.837963787232435,
+            13.089509518212257,
+            9.155010003339195
+          ],
+          "strict_K": true,
+          "t": "1/100"
+        },
+        {
+          "Fdd_error_over_t2": 1.8904402504153193,
+          "Fdo_norm_over_t3": 1.0502592160003186,
+          "Foo_leading_error_over_t4": 3.4931914867094993,
+          "Fpair_do_norm_over_t3": 1.0502530285553873,
+          "H_solve_residual_max_abs": 3.637978807091713e-12,
+          "Hdo_norm_over_t3": 1.038016983898149,
+          "Hoo_leading_error_over_t3": 0.01748141714368614,
+          "beta": 0.48008649424796235,
+          "beta_limit": 0.48187088154946733,
+          "beta_minus_limit_over_t": -0.3568774603009972,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.1666666673868775,
+              "do": 1.3128240200003984e-07,
+              "oo": 0.00018904402504183235
+            },
+            "F_pair": {
+              "dd": 4.166666667386877,
+              "do": 1.3128162856942343e-07,
+              "oo": 0.00018904346519073352
+            },
+            "H": {
+              "dd": 4.166690298284134,
+              "do": 1.2975212298726865e-07,
+              "oo": 0.00028356541398228286
+            }
+          },
+          "detN_alpha": 3.179439968268126e-05,
+          "detN_alpha_coeff": 1.271798185941043,
+          "detN_alpha_coeff_error_over_t": -0.004439726758542761,
+          "detN_alpha_over_t2": 1.2717759873072503,
+          "eta_off": [
+            1.91776110730652,
+            0.410879498310589,
+            1.1738800782734804
+          ],
+          "eta_off_error_over_t": 0.5355700338948832,
+          "eta_off_factor2_error": 2.220446049250313e-16,
+          "eta_off_limit": [
+            1.9204389574759944,
+            0.4114285714285715,
+            1.1755102040816325
+          ],
+          "h_off_t2": [
+            0.16926888429403503,
+            0.10151040519214072,
+            0.14504509538783325
+          ],
+          "h_off_t2_error_over_t": 0.015924233090941486,
+          "h_off_t2_limit": [
+            0.16931216931216928,
+            0.10158730158730159,
+            0.14512471655328796
+          ],
+          "lambda_grad_o_error_over_t": 3.7110621061501092,
+          "lambda_grad_o_limit": [
+            7.875,
+            13.125,
+            9.1875
+          ],
+          "lambda_grad_o_over_t2": [
+            7.8564446894692495,
+            13.107216256768236,
+            9.171225927820172
+          ],
+          "strict_K": true,
+          "t": "1/200"
+        },
+        {
+          "Fdd_error_over_t2": 1.8904341398827509,
+          "Fdo_norm_over_t3": 1.050244862721731,
+          "Foo_leading_error_over_t4": 3.4965899102517874,
+          "Fpair_do_norm_over_t3": 1.0502433080587206,
+          "H_solve_residual_max_abs": 2.9103830456733704e-11,
+          "Hdo_norm_over_t3": 1.0441211057647264,
+          "Hoo_leading_error_over_t3": 0.008745331245425043,
+          "beta": 0.48098356646684304,
+          "beta_limit": 0.48187088154946733,
+          "beta_minus_limit_over_t": -0.35492603304971837,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.16666666671168,
+              "do": 1.641007598002705e-08,
+              "oo": 4.7260853497403935e-05
+            },
+            "F_pair": {
+              "dd": 4.16666666671168,
+              "do": 1.641005168841751e-08,
+              "oo": 4.726081842404617e-05
+            },
+            "H": {
+              "dd": 4.166672574343031,
+              "do": 1.6314392277573854e-08,
+              "oo": 7.089124118565101e-05
+            }
+          },
+          "detN_alpha": 7.948703983286605e-06,
+          "detN_alpha_coeff": 1.271798185941043,
+          "detN_alpha_coeff_error_over_t": -0.0022194460744806577,
+          "detN_alpha_over_t2": 1.2717926373258568,
+          "eta_off": [
+            1.9191100757942117,
+            0.4111500410583774,
+            1.1746990424609653
+          ],
+          "eta_off_error_over_t": 0.5315526727130759,
+          "eta_off_factor2_error": 2.220446049250313e-16,
+          "eta_off_limit": [
+            1.9204389574759944,
+            0.4114285714285715,
+            1.1755102040816325
+          ],
+          "h_off_t2": [
+            0.16929318138663924,
+            0.10155043920095488,
+            0.1450871717502109
+          ],
+          "h_off_t2_error_over_t": 0.015017921230819908,
+          "h_off_t2_limit": [
+            0.16931216931216928,
+            0.10158730158730159,
+            0.14512471655328796
+          ],
+          "lambda_grad_o_error_over_t": 3.714874579188887,
+          "lambda_grad_o_limit": [
+            7.875,
+            13.125,
+            9.1875
+          ],
+          "lambda_grad_o_over_t2": [
+            7.865712813552028,
+            13.116098377968926,
+            9.179355505209152
+          ],
+          "strict_K": true,
+          "t": "1/400"
+        }
+      ],
+      "solve_residual_ok": true,
+      "xs": [
+        "2/5",
+        "3/7",
+        "4/9"
+      ]
+    },
+    {
+      "Fdo_order_ratio_bounded": true,
+      "Hdo_order_ratio_bounded": true,
+      "abc_sign": "negative",
+      "all_beta_positive": true,
+      "density_check": {
+        "T2_equals_4uvw": true,
+        "all_p_over_mu_identities_exact": true,
+        "p_over_mu": [
+          "1511936689/1512000000",
+          "1080041711/1080000000",
+          "1323024911/1323000000",
+          "907214711/907200000",
+          "134999527/135000000",
+          "648006889/648000000",
+          "793823689/793800000",
+          "566954711/567000000"
+        ],
+        "t": "1/100",
+        "u_v_w_T": [
+          "1/160000",
+          "1/202500",
+          "1/360000",
+          "-1/54000000"
+        ]
+      },
+      "detN_alpha_smallest_t_less_than_one": true,
+      "edges": [
+        "1/4",
+        "-2/9",
+        "1/6"
+      ],
+      "eta_off_factor2_ok": true,
+      "name": "abc_negative",
+      "probes": [
+        {
+          "Fdd_error_over_t2": 1.03317418177983,
+          "Fdo_norm_over_t3": 0.4109893031838281,
+          "Foo_leading_error_over_t4": 1.3121028604478653,
+          "Fpair_do_norm_over_t3": 0.4109775439967395,
+          "H_solve_residual_max_abs": 3.637978807091713e-12,
+          "Hdo_norm_over_t3": 0.4158590680864652,
+          "Hoo_leading_error_over_t3": 0.01309657878096455,
+          "beta": 0.4790222079877592,
+          "beta_limit": 0.4762896722078402,
+          "beta_minus_limit_over_t": 0.27325357799189987,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.266666669695332,
+              "do": 4.1098930318382814e-07,
+              "oo": 0.00041326967271156
+            },
+            "F_pair": {
+              "dd": 4.2666666696953035,
+              "do": 4.109775439967396e-07,
+              "oo": 0.00041326578106928
+            },
+            "H": {
+              "dd": 4.266706626671999,
+              "do": 4.158590680864653e-07,
+              "oo": 0.0006199004997864846
+            }
+          },
+          "detN_alpha": 6.920255424443245e-05,
+          "detN_alpha_coeff": 0.6920399088669247,
+          "detN_alpha_coeff_error_over_t": -0.0014366422600220474,
+          "detN_alpha_over_t2": 0.6920255424443245,
+          "eta_off": [
+            -1.5854264302233263,
+            1.182468341314348,
+            -0.48720753027798497
+          ],
+          "eta_off_error_over_t": 0.33951802233262995,
+          "eta_off_factor2_error": 0.0,
+          "eta_off_limit": [
+            -1.58203125,
+            1.179917695473251,
+            -0.4861111111111111
+          ],
+          "h_off_t2": [
+            -0.2553751679769305,
+            0.22687769472932162,
+            -0.17031016195399434
+          ],
+          "h_off_t2_error_over_t": 0.017127306510544837,
+          "h_off_t2_limit": [
+            -0.25520833333333337,
+            0.22685185185185186,
+            -0.1701388888888889
+          ],
+          "lambda_grad_o_error_over_t": 2.2799003867097767,
+          "lambda_grad_o_limit": [
+            -5.224489795918367,
+            5.877551020408163,
+            -7.83673469387755
+          ],
+          "lambda_grad_o_over_t2": [
+            -5.239097617598907,
+            5.9003500242752605,
+            -7.853111488504011
+          ],
+          "strict_K": true,
+          "t": "1/100"
+        },
+        {
+          "Fdd_error_over_t2": 1.0331659873997063,
+          "Fdo_norm_over_t3": 0.41097068532428793,
+          "Foo_leading_error_over_t4": 1.3091046816394996,
+          "Fpair_do_norm_over_t3": 0.4109677642413506,
+          "H_solve_residual_max_abs": 1.4551915228366852e-11,
+          "Hdo_norm_over_t3": 0.4134057934420364,
+          "Hoo_leading_error_over_t3": 0.006539394298430606,
+          "beta": 0.4776663483718563,
+          "beta_limit": 0.4762896722078402,
+          "beta_minus_limit_over_t": 0.2753352328032199,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.266666666855948,
+              "do": 5.1371335665536e-08,
+              "oo": 0.00010331659873965653
+            },
+            "F_pair": {
+              "dd": 4.266666666855948,
+              "do": 5.1370970530168835e-08,
+              "oo": 0.00010331635618969806
+            },
+            "H": {
+              "dd": 4.266676655707602,
+              "do": 5.167572418025456e-08,
+              "oo": 0.00015497464816190923
+            }
+          },
+          "detN_alpha": 1.730090771128908e-05,
+          "detN_alpha_coeff": 0.6920399088669247,
+          "detN_alpha_coeff_error_over_t": -0.0007200830723252949,
+          "detN_alpha_over_t2": 0.692036308451563,
+          "eta_off": [
+            -1.5837439199312957,
+            1.181199639630926,
+            -0.48665062694831773
+          ],
+          "eta_off_error_over_t": 0.34253398625914144,
+          "eta_off_factor2_error": 2.220446049250313e-16,
+          "eta_off_limit": [
+            -1.58203125,
+            1.179917695473251,
+            -0.4861111111111111
+          ],
+          "h_off_t2": [
+            -0.2553004656629948,
+            0.22687256408994536,
+            -0.170230324353983
+          ],
+          "h_off_t2_error_over_t": 0.018426465932286362,
+          "h_off_t2_limit": [
+            -0.25520833333333337,
+            0.22685185185185186,
+            -0.1701388888888889
+          ],
+          "lambda_grad_o_error_over_t": 2.2760311109829345,
+          "lambda_grad_o_limit": [
+            -5.224489795918367,
+            5.877551020408163,
+            -7.83673469387755
+          ],
+          "lambda_grad_o_over_t2": [
+            -5.231782997315165,
+            5.888931175963077,
+            -7.844908725509539
+          ],
+          "strict_K": true,
+          "t": "1/200"
+        },
+        {
+          "Fdd_error_over_t2": 1.0331639449534578,
+          "Fdo_norm_over_t3": 0.4109660645759626,
+          "Foo_leading_error_over_t4": 1.3076115882686503,
+          "Fpair_do_norm_over_t3": 0.4109653366327004,
+          "H_solve_residual_max_abs": 5.820766091346741e-11,
+          "Hdo_norm_over_t3": 0.4121836772388479,
+          "Hoo_leading_error_over_t3": 0.003267494615034449,
+          "beta": 0.47698060361456335,
+          "beta_limit": 0.4762896722078402,
+          "beta_minus_limit_over_t": 0.27637256268926436,
+          "beta_positive": true,
+          "blocks": {
+            "F": {
+              "dd": 4.266666666678496,
+              "do": 6.4213447589994165e-09,
+              "oo": 2.5829098624202188e-05
+            },
+            "F_pair": {
+              "dd": 4.266666666678496,
+              "do": 6.421333384885945e-09,
+              "oo": 2.582908348595426e-05
+            },
+            "H": {
+              "dd": 4.266669163866946,
+              "do": 6.4403699568569995e-09,
+              "oo": 3.874363233481006e-05
+            }
+          },
+          "detN_alpha": 4.325243797826049e-06,
+          "detN_alpha_coeff": 0.6920399088669247,
+          "detN_alpha_coeff_error_over_t": -0.00036048590277282244,
+          "detN_alpha_over_t2": 0.6920390076521677,
+          "eta_off": [
+            -1.5828913500180954,
+            1.180560325330741,
+            -0.4863787060584826
+          ],
+          "eta_off_error_over_t": 0.34404000723817774,
+          "eta_off_factor2_error": 0.0,
+          "eta_off_limit": [
+            -1.58203125,
+            1.179917695473251,
+            -0.4861111111111111
+          ],
+          "h_off_t2": [
+            -0.2552565757991495,
+            0.22686415379584593,
+            -0.17018605547404592
+          ],
+          "h_off_t2_error_over_t": 0.019296986326455823,
+          "h_off_t2_limit": [
+            -0.25520833333333337,
+            0.22685185185185186,
+            -0.1701388888888889
+          ],
+          "lambda_grad_o_error_over_t": 2.274125313225639,
+          "lambda_grad_o_limit": [
+            -5.224489795918367,
+            5.877551020408163,
+            -7.83673469387755
+          ],
+          "lambda_grad_o_over_t2": [
+            -5.228133777106791,
+            5.883236333691227,
+            -7.840818165768398
+          ],
+          "strict_K": true,
+          "t": "1/400"
+        }
+      ],
+      "solve_residual_ok": true,
+      "xs": [
+        "5/12",
+        "7/15",
+        "3/8"
+      ]
+    }
+  ],
+  "coverage": {
+    "asymptotic_probe_points": 6,
+    "exact_density_checks": 2,
+    "fixed_candidate_objects": 1,
+    "sign_branches": 2,
+    "t_values": [
+      "1/100",
+      "1/200",
+      "1/400"
+    ]
+  },
+  "cwd": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo",
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "executable": "C:\\Users\\UIO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "non_coverage": [
+    "No uniformity as means or edge constants degenerate.",
+    "No zero-edge coverage for the weak-edge candidate, which assumes fixed nonzero a,b,c.",
+    "No proof of beta-zero implication B0 or global rho<=1.",
+    "No audit of any later beta-zero root certificate."
+  ],
+  "numpy": "2.3.5",
+  "pid": 64148,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "Non-author bounded audit of fixed dense weak-edge beta asymptotic candidate.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "script": "C:\\game\\gameproject\\showa100\\math\\i05-successors-20260909\\N3\\children\\review\\repo\\research\\N3\\round2\\review\\verify_weak_edge_candidate.py",
+  "script_sha256": "575d8496987c9a826b902c9c156c40e82a5d26f8eed98c87bc3a2d768d326ffb",
+  "status": "PASS",
+  "target_blob": "6a69ce2ba0ecc0f0826489501f126356708778f5",
+  "target_commit": "3087eb189237ec0a2d60127d0c35128f0cbcd91c"
+}
