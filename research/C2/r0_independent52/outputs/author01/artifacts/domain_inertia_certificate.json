@@ -1,0 +1,39 @@
+{
+  "Q_positive_orthant_certificate": {
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "max_positive_coefficient": 99220032,
+    "min_positive_coefficient": 192,
+    "nonzero_count": 389,
+    "reason": "Every nonzero Q coefficient is positive and every omitted degree-box coefficient is explicitly checked as zero, so Q(X,Y,U)>0 for X,Y,U>0.",
+    "zero_count_in_box": 36
+  },
+  "bareiss_scope_note": "Bareiss pivots in the determinant artifact certify exact symbolic divisions after denominator clearing.  They are not used as domain-wide nonvanishing assumptions.",
+  "cayley_map": {
+    "image": "X>0, Y>0, U>0 maps into |mu|<1, |nu|<1, 0<u<1",
+    "inverse": "X=(1+mu)/(1-mu), Y=(1+nu)/(1-nu), U=u/(1-u)",
+    "mu": "(X-1)/(X+1)",
+    "nu": "(Y-1)/(Y+1)",
+    "u": "U/(1+U)"
+  },
+  "determinant_identity": "det Rstar=(1-mu^2)^2(1-nu^2)^2 P/[2(1-u^4)^5]",
+  "domain": "|mu|<1, |nu|<1, 0<u<1, r=0",
+  "domain_connectedness": "The domain is the Cartesian product (-1,1) x (-1,1) x (0,1), hence open and connected.",
+  "inertia_continuation": "Rstar is real symmetric and its entries are continuous on the open domain. Since det Rstar is nonzero throughout the connected domain, no eigenvalue can cross zero.  The exact positive seed fixes all four eigenvalues of Rstar as positive everywhere.",
+  "nonvanishing": "The positive-denominator Cayley clearing gives sign(P)=sign(Q) on the open domain, so P>0 and det Rstar never vanishes there.",
+  "positive_denominators": {
+    "1-mu^2": "positive on |mu|<1",
+    "1-nu^2": "positive on |nu|<1",
+    "J=1-u^4": "positive on 0<u<1",
+    "d_alpha=u^3*v/J": "positive on the open r=0 domain",
+    "d_beta=u^3*w/J": "positive on the open r=0 domain",
+    "u": "positive on 0<u<1",
+    "v=(1-mu^2)/4": "positive on |mu|<1",
+    "w=(1-nu^2)/4": "positive on |nu|<1"
+  },
+  "schur_lift_to_six_directions": "The eliminated alpha,beta block has positive diagonal coefficients d_alpha,d_beta.  The Schur complement criterion therefore lifts Rstar positive definiteness to the full six fixed physical directions of the original M assertion through the displayed inverse coordinate map.",
+  "status": "conditional_on_exact_artifacts"
+}

@@ -1,0 +1,21 @@
+{
+  "details": {
+    "read_before_construction": [
+      {
+        "path": "structure/STRUCTURE.md"
+      },
+      {
+        "path": "structure/POSITIVE_SEED.md"
+      }
+    ],
+    "reference_coefficient_table_reserved_until_after_fresh_q": "resume/coefficient_outputs/r0_coefficient_table.json",
+    "reference_source_factor_reserved_until_after_fresh_p": "resume/coefficient_outputs/r0_coefficient_report.json",
+    "source_root_kind": "relative formulas plus downstream coefficient references"
+  },
+  "elapsed_seconds": 0.002,
+  "index": 2,
+  "label": "preflight",
+  "remaining_seconds": 2699.081,
+  "status": "END",
+  "utc": "2026-09-09T13:32:37Z"
+}

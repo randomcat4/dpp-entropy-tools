@@ -1,0 +1,47 @@
+{
+  "all_comparisons_summary": [
+    {
+      "duplicate_count": 0,
+      "json_path": "$",
+      "mismatch_count": 0,
+      "out_of_bounds_count": 0,
+      "raw_entries": 389,
+      "unique_entries": 389
+    }
+  ],
+  "best_comparison": {
+    "duplicates": [],
+    "json_path": "$",
+    "mismatch_count": 0,
+    "mismatches": [],
+    "out_of_bounds": [],
+    "raw_entries": 389,
+    "source_path": "resume/coefficient_outputs/r0_coefficient_table.json",
+    "unique_entries": 389
+  },
+  "candidate_count": 1,
+  "full_degree_box_entries_checked": 425,
+  "omitted_reference_entries_treated_as_zero": true,
+  "report_summary": {
+    "read": true,
+    "selected_scalar_facts": [
+      {
+        "path": "$.positive_coefficients",
+        "value": 389
+      },
+      {
+        "path": "$.nonzero_terms",
+        "value": 389
+      },
+      {
+        "path": "$.min_coefficient",
+        "value": "192"
+      },
+      {
+        "path": "$.max_coefficient",
+        "value": "99220032"
+      }
+    ]
+  },
+  "status": "matched"
+}

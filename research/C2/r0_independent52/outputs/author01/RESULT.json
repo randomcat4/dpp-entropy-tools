@@ -1,0 +1,129 @@
+{
+  "P": {
+    "archived_source_factor_comparison": "matched",
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "identity_count": 1,
+    "term_count": 26
+  },
+  "Q": {
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "identity_count": 1,
+    "max_positive_coefficient": 99220032,
+    "min_positive_coefficient": 192,
+    "nonzero_count": 389,
+    "zero_count_in_box": 36
+  },
+  "acceptance_boundary": "This is an author-produced exact artifact.  It is not an independent nonauthor FIRST acceptance.",
+  "artifacts": [
+    "run_manifest.json",
+    "artifacts/rstar_from_displayed_formula.json",
+    "artifacts/determinant_cleared_matrix_before_bareiss.json",
+    "artifacts/determinant_bareiss_certificate.json",
+    "artifacts/determinant_independent_equality.json",
+    "artifacts/P_polynomial.json",
+    "artifacts/archived_P_source_factor_comparison.json",
+    "artifacts/Q_direct_transform.json",
+    "artifacts/Q_combinatorial_transform.json",
+    "artifacts/Q_polynomial_full_box.json",
+    "artifacts/archived_coefficient_comparison.json",
+    "artifacts/positive_seed_certificate.json",
+    "artifacts/domain_inertia_certificate.json"
+  ],
+  "determinant": {
+    "bareiss_record_count": 17,
+    "common_denominator": {
+      "chars": 24,
+      "text": "16*u**9 - 32*u**5 + 16*u"
+    },
+    "equality_checks": [
+      {
+        "label": "Bareiss determinant equals Leibniz determinant",
+        "remainder": "0",
+        "zero": true
+      }
+    ]
+  },
+  "domain_inertia": {
+    "Q_positive_orthant_certificate": {
+      "degree_box": [
+        4,
+        4,
+        16
+      ],
+      "max_positive_coefficient": 99220032,
+      "min_positive_coefficient": 192,
+      "nonzero_count": 389,
+      "reason": "Every nonzero Q coefficient is positive and every omitted degree-box coefficient is explicitly checked as zero, so Q(X,Y,U)>0 for X,Y,U>0.",
+      "zero_count_in_box": 36
+    },
+    "bareiss_scope_note": "Bareiss pivots in the determinant artifact certify exact symbolic divisions after denominator clearing.  They are not used as domain-wide nonvanishing assumptions.",
+    "cayley_map": {
+      "image": "X>0, Y>0, U>0 maps into |mu|<1, |nu|<1, 0<u<1",
+      "inverse": "X=(1+mu)/(1-mu), Y=(1+nu)/(1-nu), U=u/(1-u)",
+      "mu": "(X-1)/(X+1)",
+      "nu": "(Y-1)/(Y+1)",
+      "u": "U/(1+U)"
+    },
+    "determinant_identity": "det Rstar=(1-mu^2)^2(1-nu^2)^2 P/[2(1-u^4)^5]",
+    "domain": "|mu|<1, |nu|<1, 0<u<1, r=0",
+    "domain_connectedness": "The domain is the Cartesian product (-1,1) x (-1,1) x (0,1), hence open and connected.",
+    "inertia_continuation": "Rstar is real symmetric and its entries are continuous on the open domain. Since det Rstar is nonzero throughout the connected domain, no eigenvalue can cross zero.  The exact positive seed fixes all four eigenvalues of Rstar as positive everywhere.",
+    "nonvanishing": "The positive-denominator Cayley clearing gives sign(P)=sign(Q) on the open domain, so P>0 and det Rstar never vanishes there.",
+    "positive_denominators": {
+      "1-mu^2": "positive on |mu|<1",
+      "1-nu^2": "positive on |nu|<1",
+      "J=1-u^4": "positive on 0<u<1",
+      "d_alpha=u^3*v/J": "positive on the open r=0 domain",
+      "d_beta=u^3*w/J": "positive on the open r=0 domain",
+      "u": "positive on 0<u<1",
+      "v=(1-mu^2)/4": "positive on |mu|<1",
+      "w=(1-nu^2)/4": "positive on |nu|<1"
+    },
+    "schur_lift_to_six_directions": "The eliminated alpha,beta block has positive diagonal coefficients d_alpha,d_beta.  The Schur complement criterion therefore lifts Rstar positive definiteness to the full six fixed physical directions of the original M assertion through the displayed inverse coordinate map.",
+    "status": "conditional_on_exact_artifacts"
+  },
+  "effective_deadline_epoch": 1788963457,
+  "elapsed_seconds": 9.707,
+  "external_deadline_epoch": 1788963457,
+  "internal_deadline_epoch": 1788963457,
+  "positive_seed": {
+    "row_margins": [
+      10068,
+      88320,
+      88320,
+      40053
+    ],
+    "scale": 14400,
+    "status": "positive"
+  },
+  "reference": {
+    "best_table_path": "$",
+    "full_degree_box_entries_checked": 425,
+    "status": "matched"
+  },
+  "remaining_seconds_at_result": 2689.376,
+  "requested_wall_seconds": 2700,
+  "source_checks": {
+    "read_before_construction": [
+      {
+        "path": "structure/STRUCTURE.md"
+      },
+      {
+        "path": "structure/POSITIVE_SEED.md"
+      }
+    ],
+    "reference_coefficient_table_reserved_until_after_fresh_q": "resume/coefficient_outputs/r0_coefficient_table.json",
+    "reference_source_factor_reserved_until_after_fresh_p": "resume/coefficient_outputs/r0_coefficient_report.json",
+    "source_root_kind": "relative formulas plus downstream coefficient references"
+  },
+  "status": "PASS",
+  "utc": "2026-09-09T13:32:47Z"
+}

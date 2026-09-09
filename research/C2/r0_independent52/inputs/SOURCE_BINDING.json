@@ -1,0 +1,46 @@
+{
+  "main_commit": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "request_comment": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5602242678",
+  "inputs": [
+    {
+      "source": "research/C2/lambda_zero52/structure/STRUCTURE.md",
+      "copy": "research/C2/r0_independent52/inputs/source/structure/STRUCTURE.md",
+      "blob": "36735e3a3d49f4c7ef732303e7615c943cc56175"
+    },
+    {
+      "source": "research/C2/lambda_zero52/inputs/frozen_issue52.md",
+      "copy": "research/C2/r0_independent52/inputs/source/inputs/frozen_issue52.md",
+      "blob": "6595f440e74ba2a1fd350902426e915fd05647ea"
+    },
+    {
+      "source": "research/C2/lambda_zero52/structure/POSITIVE_SEED.md",
+      "copy": "research/C2/r0_independent52/inputs/source/structure/POSITIVE_SEED.md",
+      "blob": "535877e443cc6a46aae3564bd4ade8d0b7c9923e"
+    },
+    {
+      "source": "research/C2/lambda_zero52/resume/R0_CANDIDATE.md",
+      "copy": "research/C2/r0_independent52/inputs/source/resume/R0_CANDIDATE.md",
+      "blob": "26b1d626704590e596ade08cd240a21a2f32fae9"
+    },
+    {
+      "source": "research/C2/lambda_zero52/resume/outputs/r0/report.json",
+      "copy": "research/C2/r0_independent52/inputs/source/resume/outputs/r0/report.json",
+      "blob": "879b4b0d6dfd39ba0178aa4e91ce8b8db8d59ae1"
+    },
+    {
+      "source": "research/C2/lambda_zero52/resume/coefficient_outputs/r0_coefficient_table.json",
+      "copy": "research/C2/r0_independent52/inputs/source/resume/coefficient_outputs/r0_coefficient_table.json",
+      "blob": "09da4c5cd295f79331ce2a123e0fb70251e18c7d"
+    },
+    {
+      "source": "research/C2/lambda_zero52/resume/coefficient_outputs/r0_coefficient_report.json",
+      "copy": "research/C2/r0_independent52/inputs/source/resume/coefficient_outputs/r0_coefficient_report.json",
+      "blob": "9ffd1c750ab053277bab5daa072bff637b1fbaeb"
+    },
+    {
+      "source": "docs/verification_round3_20260909/archived_pr55.md",
+      "copy": "research/C2/r0_independent52/inputs/archived_pr55.md",
+      "blob": "d9fb50425daa633f68d1869f224ea3882098ef8b"
+    }
+  ]
+}

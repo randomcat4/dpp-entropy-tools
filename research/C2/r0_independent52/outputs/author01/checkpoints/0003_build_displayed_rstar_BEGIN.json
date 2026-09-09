@@ -1,0 +1,11 @@
+{
+  "details": {
+    "construction": "fresh symbolic r=0 Gram/Schur formula"
+  },
+  "elapsed_seconds": 0.003,
+  "index": 3,
+  "label": "build_displayed_rstar",
+  "remaining_seconds": 2699.08,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:37Z"
+}

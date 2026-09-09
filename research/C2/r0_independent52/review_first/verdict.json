@@ -1,0 +1,82 @@
+{
+  "status": "CORRECT",
+  "review_role": "fresh nonauthor FIRST",
+  "reviewed_public_commit": "ba890f6294272849fa0a20d5c7e0e9f97d171d51",
+  "reviewed_local_equivalent": "0e339c0a8b7ecfc263418fb64b3608298161e590",
+  "reviewer_checker_public_commit": "591c65bdc354e2880c6ccb2506822275b0e45a12",
+  "reviewer_checker_local_equivalent": "10d05f1ef0c9491da40bbe27c338bfd14ac97194",
+  "scope": {
+    "domain": "|mu|<1, |nu|<1, 0<u<1, r=0",
+    "accepted_premise": "already-accepted main Schur reduction to the displayed four-by-four Rstar on six fixed physical directions",
+    "verified_chain": "displayed Rstar -> det -> P -> Q -> nonvanishing -> inertia -> six-direction M",
+    "excluded": [
+      "general r",
+      "entropy counterexample",
+      "novelty",
+      "Lean or formal verification",
+      "old eight-event derivation replay"
+    ]
+  },
+  "executed_coverage": {
+    "run_result": "review_first/run01/RESULT.json",
+    "run_status": "PASS",
+    "pid": 173840,
+    "started_utc": "2026-09-09T13:48:07Z",
+    "finished_utc": "2026-09-09T13:48:17Z",
+    "exit_code": 0,
+    "elapsed_seconds": 9.499,
+    "stdout_empty": true,
+    "stderr_empty": true
+  },
+  "math_coverage": {
+    "displayed_formula_identities_zero": [
+      "reflection S D^{-1} S = D",
+      "r=0 invisible mixed coefficient cancellation",
+      "d_alpha specialization",
+      "d_beta specialization",
+      "ell_alpha raw coupling equals displayed row",
+      "ell_beta raw coupling equals displayed row"
+    ],
+    "determinant": {
+      "permutation_equals_berkowitz": true,
+      "determinant_P_identity_zero": true,
+      "P_terms": 26,
+      "P_degree_box": [4, 4, 16]
+    },
+    "Q": {
+      "direct_equals_combinatorial": true,
+      "full_degree_box_entries_checked": 425,
+      "positive_nonzero_coefficients": 389,
+      "zero_coefficients": 36,
+      "min_positive_coefficient": 192,
+      "max_positive_coefficient": 99220032,
+      "archived_table_match": true,
+      "candidate_artifact_match": true
+    },
+    "seed": {
+      "scale": 14400,
+      "margins": [10068, 88320, 88320, 40053],
+      "positive": true
+    },
+    "domain_inertia_lift": "accepted"
+  },
+  "code_coverage": {
+    "candidate_source_inspected": true,
+    "old_checker_import_found": false,
+    "archived_P_read_after_fresh_P": true,
+    "archived_Q_read_after_fresh_Q": true,
+    "bareiss_used_only_as_symbolic_exact_division_certificate": true
+  },
+  "metadata_notes": {
+    "author_proof_mentions_scope_field": {
+      "recorded_value": false,
+      "assessment": "brittle checker substring; actual author_proof.md states Work only at r=0, so this is not a scope gap"
+    },
+    "manifest_deadline_epoch": {
+      "recorded_effective_epoch": 1788962587,
+      "supplied_outer_epoch": 1788963457,
+      "assessment": "checker used an internal 900-second cap and took the tighter deadline; run finished before both"
+    }
+  },
+  "second_review": "not claimed or scheduled"
+}

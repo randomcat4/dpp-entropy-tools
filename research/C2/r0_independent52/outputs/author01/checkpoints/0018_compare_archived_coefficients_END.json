@@ -1,0 +1,12 @@
+{
+  "details": {
+    "best_mismatch_count": 0,
+    "candidate_count": 1
+  },
+  "elapsed_seconds": 9.682,
+  "index": 18,
+  "label": "compare_archived_coefficients",
+  "remaining_seconds": 2689.401,
+  "status": "END",
+  "utc": "2026-09-09T13:32:47Z"
+}

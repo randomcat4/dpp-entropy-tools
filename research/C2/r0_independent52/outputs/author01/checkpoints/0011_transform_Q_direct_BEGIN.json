@@ -1,0 +1,11 @@
+{
+  "details": {
+    "method": "homogeneous rational substitution"
+  },
+  "elapsed_seconds": 8.971,
+  "index": 11,
+  "label": "transform_Q_direct",
+  "remaining_seconds": 2690.112,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:46Z"
+}

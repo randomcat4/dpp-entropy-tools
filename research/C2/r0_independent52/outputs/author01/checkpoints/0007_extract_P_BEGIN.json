@@ -1,0 +1,11 @@
+{
+  "details": {
+    "identity": "det Rstar=(1-mu^2)^2(1-nu^2)^2 P/[2(1-u^4)^5]"
+  },
+  "elapsed_seconds": 8.647,
+  "index": 7,
+  "label": "extract_P",
+  "remaining_seconds": 2690.436,
+  "status": "BEGIN",
+  "utc": "2026-09-09T13:32:46Z"
+}

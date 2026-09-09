@@ -1,0 +1,38 @@
+{
+  "argv_sanitized": [
+    "<IMPLEMENTATION>/verify_r0_chain_independent.py",
+    "--source-root",
+    "<SOURCE_ROOT>",
+    "--out",
+    "<OUT>",
+    "--wall-seconds",
+    "2700"
+  ],
+  "effective_deadline_epoch": 1788963457,
+  "external_deadline_epoch": 1788963457,
+  "forbidden_inputs": [
+    "old checker imports",
+    "saved Rstar matrices",
+    "old P/Q before fresh construction",
+    "C:\\canglan"
+  ],
+  "internal_deadline_epoch": 1788963457,
+  "pid": 173696,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "remaining_seconds_at_manifest": 2699.082,
+  "requested_wall_seconds": 2700,
+  "scope": "independent r=0 Rstar -> det -> P -> Q author run",
+  "status": "STARTED",
+  "sympy_version": "1.14.0",
+  "thread_environment": {
+    "BLIS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "SYMPY_USE_CACHE": "yes",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "utc_start": "2026-09-09T13:32:37Z"
+}

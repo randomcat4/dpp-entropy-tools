@@ -1,0 +1,24 @@
+{
+  "argv_sanitized": [
+    "<IMPLEMENTATION>/check_r0_first.py",
+    "--candidate-root",
+    "<CANDIDATE_ROOT>",
+    "--out",
+    "<OUT>",
+    "--deadline-epoch",
+    "1788963457"
+  ],
+  "candidate_root": "<CANDIDATE_ROOT>",
+  "deadline_epoch": 1788962587,
+  "out": "<OUT>",
+  "status": "STARTED",
+  "thread_env": {
+    "BLIS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "utc": "2026-09-09T13:48:07Z"
+}

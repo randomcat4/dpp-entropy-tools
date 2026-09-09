@@ -1,0 +1,183 @@
+{
+  "P": {
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "target_comparison": {
+      "comparisons": [
+        {
+          "status": "matched",
+          "target": "archived source_factor"
+        },
+        {
+          "status": "matched",
+          "target": "candidate P_polynomial.json"
+        }
+      ],
+      "status": "matched"
+    },
+    "term_count": 26
+  },
+  "Q": {
+    "coefficient_summary": {
+      "full_box_count": 425,
+      "max_positive": 99220032,
+      "min_positive": 192,
+      "nonzero_count": 389,
+      "zero_count": 36
+    },
+    "degree_box": [
+      4,
+      4,
+      16
+    ],
+    "omitted_archived_entries_treated_as_zero": true,
+    "target_comparison": {
+      "comparisons": [
+        {
+          "entries": 389,
+          "status": "matched",
+          "target": "archived r0_coefficient_table.json"
+        },
+        {
+          "entries": 425,
+          "status": "matched",
+          "target": "candidate Q_polynomial_full_box.json"
+        },
+        {
+          "status": "PASS",
+          "target": "candidate RESULT.json"
+        }
+      ],
+      "status": "matched"
+    }
+  },
+  "determinant": {
+    "determinant_expression_chars": 2777,
+    "identity_checks": [
+      {
+        "label": "permutation determinant equals berkowitz determinant",
+        "zero": true
+      },
+      {
+        "label": "determinant/P identity",
+        "zero": true
+      }
+    ],
+    "method": "explicit 24-term permutation determinant, checked against Berkowitz determinant"
+  },
+  "displayed_formula_checks": [
+    {
+      "label": "reflection S D^{-1} S = D",
+      "zero": true
+    },
+    {
+      "label": "r=0 invisible mixed coefficient cancellation",
+      "zero": true
+    },
+    {
+      "label": "d_alpha specialization",
+      "zero": true
+    },
+    {
+      "label": "d_beta specialization",
+      "zero": true
+    },
+    {
+      "label": "ell_alpha raw coupling equals displayed row",
+      "zero": true
+    },
+    {
+      "label": "ell_beta raw coupling equals displayed row",
+      "zero": true
+    }
+  ],
+  "domain_and_lift_review": {
+    "bareiss_note": "no domain nonvanishing is inferred from Bareiss pivots; this checker does not use them for the inertia argument",
+    "cayley_bijection": "mu=(X-1)/(X+1), nu=(Y-1)/(Y+1), u=U/(1+U) bijects to X,Y,U>0 with positive clearing factors",
+    "domain": "(-1,1) x (-1,1) x (0,1)",
+    "domain_connected": true,
+    "inertia": "real symmetric continuous Rstar on a connected domain plus one positive seed and nonzero determinant fixes four positive eigenvalues everywhere",
+    "nonvanishing": "Q has only positive nonzero coefficients and is not the zero polynomial, so P>0 and det Rstar is nonzero on the open domain",
+    "positive_denominators": [
+      "u",
+      "J=1-u^4",
+      "1-mu^2",
+      "1-nu^2",
+      "v=(1-mu^2)/4",
+      "w=(1-nu^2)/4",
+      "d_alpha=u^3*v/J",
+      "d_beta=u^3*w/J"
+    ],
+    "six_direction_lift": "accepted Schur reduction has positive eliminated block and invertible fixed-direction coordinate map at r=0"
+  },
+  "elapsed_seconds": 9.499,
+  "reviewer": "fresh nonauthor FIRST r=0 checker",
+  "scope": {
+    "chain": "displayed Rstar -> det -> P -> Q -> nonvanishing -> inertia -> six-direction Schur lift",
+    "excluded": [
+      "general r",
+      "entropy counterexample",
+      "novelty",
+      "Lean claim"
+    ],
+    "local_equivalent": "0e339c0a8b7ecfc263418fb64b3608298161e590",
+    "public_commit": "ba890f6294272849fa0a20d5c7e0e9f97d171d51"
+  },
+  "seed": {
+    "margins": [
+      10068,
+      88320,
+      88320,
+      40053
+    ],
+    "scale": 14400,
+    "scaled_Rstar": [
+      [
+        "16144",
+        "0",
+        "0",
+        "6076"
+      ],
+      [
+        "0",
+        "94336",
+        "6016",
+        "0"
+      ],
+      [
+        "0",
+        "6016",
+        "94336",
+        "0"
+      ],
+      [
+        "6076",
+        "0",
+        "0",
+        "46129"
+      ]
+    ],
+    "status": "positive"
+  },
+  "source_scan": {
+    "author_proof_mentions_scope": false,
+    "implementation_read_only_scan": "no import was performed",
+    "implementation_static_suspicious_imports": [],
+    "seed_note_mentions_seed": true,
+    "structure_fragments_present": [
+      "Rstar =",
+      "R0 = 4(R^T G + G R + G')",
+      "ell_alpha",
+      "ell_beta",
+      "a=b=1/2",
+      "n1=n2=4u/J",
+      "n3=4u^3/J"
+    ]
+  },
+  "status": "PASS",
+  "utc": "2026-09-09T13:48:17Z",
+  "verdict": "CORRECT within the frozen r=0 scope, conditional only on the already-accepted main Schur reduction to the displayed Rstar"
+}
