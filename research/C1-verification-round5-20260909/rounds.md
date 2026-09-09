@@ -71,3 +71,17 @@ implementation. Claims 1-3 are now CORRECT / ACCEPTED_SCOPED and READY
 for C3 SECOND. Claim 4 retains the separate radial exact gate; Claim 5
 stays accepted and the remaining general Claim 6 remains open. No C1
 arithmetic, coefficient diagnostic or formal check was run.
+## PR58 one-line domain closure and next FIRST queue
+
+The original PR58 FIRST accepts the isolated line 99 norm-domain repair
+at 5ab3cae1c49da8334057596f46a4bd8fc449b98c, parent 7d3dd405. The only
+delta is U to U becoming V to U; all other source, code, outputs, formulas
+and fixtures are unchanged. The additive analytic unit is READY for C3
+SECOND, with its new finite witness still separately INCOMPLETE_PENDING_C2.
+Original and follow-up reports remain preserved as distinct checkpoints.
+
+GitHub now records PR59 merged at its unchanged author head 892a121a.
+C3 reported an isolated PR60 SECOND underway, with no C1 FIRST material
+provided to that context. The next explicit C1 assignment starts fresh
+author-only FIRSTs for PR62 and PR66 in a separate round-six packet; it
+does not expand this packet's theorem scope or interrupt web tasks.

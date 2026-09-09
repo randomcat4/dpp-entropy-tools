@@ -8,7 +8,7 @@ their distinct computation gates.
 | Unit | Mathematical FIRST | Static code | Independent computation | Readiness for C3 SECOND |
 |---|---|---|---|---|
 | PR58 original analytic packet, repaired at 7d3dd405 | Analytic compensation/conditional criteria/centering ACCEPTED_SCOPED; original wording finding CLOSED | CORRECT at static level | Corridor and W/curvature certificates pending C2's separately claimed reconstruction | Original analytic scope READY; no whole-packet finite acceptance |
-| PR58 additive delta at a4f05cc9, unchanged by 7d3dd405 | Joint-additive projection/rank-four structure ACCEPTED_SCOPED; normal-equation norm-domain typo NEEDS_FIX | CORRECT at static level | New s=9/10 finite witness pending a distinct C2 unit | No whole-delta READY; line 99 domain must be fixed and finite scope separately gated |
+| PR58 additive analytic delta, domain repaired at 5ab3cae1 | Joint-additive projection, normal equations and rank-four structure CORRECT / ACCEPTED_SCOPED; domain finding CLOSED | CORRECT at static level | New s=9/10 finite witness pending a distinct C2 unit | Analytic delta READY for C3 independent SECOND; finite witness receives no inherited acceptance |
 | PR59 at 892a121a | CORRECT / ACCEPTED_SCOPED for all scoped analytic claims | CORRECT; both author outputs inspected, not executed | No finite computation is load-bearing for the accepted analytic theorem | READY for C3 independent second at the exact frozen head |
 | PR60 at f869fd25 with C2 PR64 evidence at 5b40617f | Claims 1-3 CORRECT / ACCEPTED_SCOPED: full Lambda-zero strictness, conditional entropy and stated center-dependent nonzero band; perspective identities accepted separately | CORRECT; original author static review and C2 source/evidence audit separate | Full-r independent certificate gate CLOSED; Claim 4 radial obstruction remains a separate exact unit | Claims 1-3 READY for C3 independent SECOND; no radial-obstruction acceptance inherited |
 
@@ -20,10 +20,10 @@ W>=0 compensation wording. Both sentences now correctly state the
 sufficient-criterion limitation. The original report's grouped wording is
 clarified in the separate wording review and retained historically.
 
-The new additive appendix is sound in projection/rank structure, but
-line 99 writes the norm domain U to U although K_s maps V to U. Change
-that one domain to V to U (or omit the domain after defining it). The
-new rational dual witness, W-negative sign and positive t^2 I'' remain
+The additive appendix's line 99 norm-domain typo is CLOSED at 5ab3cae1,
+parent 7d3dd405. Exactly U to U changed to V to U, matching K_s:V to U;
+all other files, formulas and fixtures are unchanged. The analytic delta
+is READY. Its rational dual witness, W-negative sign and positive t^2 I'' remain
 pending independent exact evidence; positive t^2 I'' means negative
 entropy H'', not an entropy counterexample.
 
@@ -52,6 +52,8 @@ The original source FIRSTs, PR58 additive delta/wording closure and PR60
 raw C2 evidence closure are complete. Follow-up dispositions are separately
 source-bound and preserve the original reports. Any later finite packet
 or one-line repair requires a bounded original-reviewer follow-up.
-No C1 arithmetic or formal job is running. No descendant, second review,
+No C1 arithmetic or formal job is running. The explicitly queued PR62/66
+fresh FIRSTs have now been assigned in a separate round-six packet; they
+inherit no verdict from this batch. No descendant, second review,
 author edit or main merge was performed.
 C3 owns independent-second scope coordination and sole main integration.

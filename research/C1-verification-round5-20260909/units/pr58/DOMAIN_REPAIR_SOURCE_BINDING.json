@@ -1,0 +1,15 @@
+{
+  "commit": "5ab3cae1c49da8334057596f46a4bd8fc449b98c",
+  "origin": "public immutable GitHub commit",
+  "files": [
+    {
+      "blob": "6edda267d109cb26cbd11584366d134e2edb2272",
+      "download_hash_verified": true,
+      "additions": 1,
+      "path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+      "deletions": 1
+    }
+  ],
+  "scope": "Single norm-domain correction only; all other files and formula/fixture content unchanged",
+  "parent": "7d3dd405faea365e3ddcfd8c1b6f38ae47e34387"
+}
