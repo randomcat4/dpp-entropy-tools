@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "target_commit": "c6568dfe1c0c57aaf0b627e84601c35b79b22434",
+  "target_blob_sha1": {
+    "research/N3/round2/falsification/locked_obstruction.md": "58b4370e2ff182b784c74f36df44ee72d97704e7",
+    "research/N3/round2/falsification/locked_certificate.py": "96cef39412aa31bbcdd833293e95fb690462ef2f",
+    "research/N3/round2/falsification/locked_certificate.json": "39fbc8fd65d8b7eb624b8a40f2fd2c1bd97c2d04",
+    "research/N3/round2/falsification/locked_source_manifest.json": "75dd35dd35b23e92204750e47ea057bef2f818e5",
+    "research/N3/round2/falsification/locked_probe.py": "a6c1055ebbe88346ebd24f62cce9edf8ade42a59",
+    "research/N3/round2/falsification/locked_probe_failed_v1.py": "0c45259ac37fb844d6b52704aeb5fcce558a5154",
+    "research/N3/round2/falsification/beta_affine_probe.py": "71997f911c79062bb060008496411c938c0bbb95",
+    "research/N3/round2/falsification/beta_root_certificate.py": "09ec56673a10bbd66bfab8e073ab387a4fa32fa7",
+    "research/N3/falsification/rank2_projection_check.py": "f7bfb2a20461c9449a222ff48bc08a98351db276",
+    "research/N3/falsification/unequal_sparse_probe.py": "b93acfc6388c0cb85b8c1abbd6eb564fcfd109c9"
+  },
+  "review_script_sha256": "0c9466158e070c82bb57e1721df5d87d69b7799760b12d52aabb3a3a9b053e65",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pid": 23608,
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "author_rerun": {
+    "command": [
+      "C:\\game\\gameproject\\showa100\\comfyui\\python_env\\Scripts\\python.exe",
+      "research/N3/round2/falsification/locked_certificate.py"
+    ],
+    "exit_status": 0,
+    "recorded_pid": 42080,
+    "status": "DISPROVED_LOCKED_DOMINANCE_ONLY",
+    "stdout_path": "research\\N3\\round2\\review\\locked_certificate_rerun.stdout.txt",
+    "stderr_path": "research\\N3\\round2\\review\\locked_certificate_rerun.stderr.txt"
+  },
+  "source_hash_checks": {
+    "research/N3/round2/falsification/locked_certificate.py": {
+      "manifest_sha256": "7b754d3d323f6643278648f19d560dc9c2b74bd376fd3814726273063eb569c7",
+      "extracted_sha256": "7b754d3d323f6643278648f19d560dc9c2b74bd376fd3814726273063eb569c7",
+      "matches_manifest": true
+    },
+    "research/N3/falsification/unequal_sparse_probe.py": {
+      "manifest_sha256": "4fb85bf2509889c16dc047539433c802e03b7b59b56232a2922f77e488f315b6",
+      "extracted_sha256": "4fb85bf2509889c16dc047539433c802e03b7b59b56232a2922f77e488f315b6",
+      "matches_manifest": true
+    },
+    "research/N3/falsification/rank2_projection_check.py": {
+      "manifest_sha256": "4766cc695164670b066d33ac868ae43c0f68137ca2c6a6746b71189ccbfca5e6",
+      "extracted_sha256": "4766cc695164670b066d33ac868ae43c0f68137ca2c6a6746b71189ccbfca5e6",
+      "matches_manifest": true
+    },
+    "research/N3/round2/falsification/locked_probe_failed_v1.py": {
+      "manifest_sha256": "040af5d88d969c19bdf2aebb0307879d1b40fb56c5e97b01fa3b323aa38e6db4",
+      "extracted_sha256": "040af5d88d969c19bdf2aebb0307879d1b40fb56c5e97b01fa3b323aa38e6db4",
+      "matches_manifest": true
+    },
+    "research/N3/round2/falsification/beta_affine_probe.py": {
+      "manifest_sha256": "d3c5b6e79d4f973c74cf25a6acec43e102f27fdddd9c292c1908d070b49ecc3a",
+      "extracted_sha256": "d3c5b6e79d4f973c74cf25a6acec43e102f27fdddd9c292c1908d070b49ecc3a",
+      "matches_manifest": true
+    },
+    "research/N3/round2/falsification/beta_root_certificate.py": {
+      "manifest_sha256": "6cba4b07b9d36da0a7a231b66d07c18dddf45f6c26a0917d4bd46733f642458d",
+      "extracted_sha256": "6cba4b07b9d36da0a7a231b66d07c18dddf45f6c26a0917d4bd46733f642458d",
+      "matches_manifest": true
+    },
+    "research/N3/round2/falsification/locked_probe.py": {
+      "manifest_sha256": "c115110640361afb57d024ed8869fa622513eed4e419a986f2df2085d8ae7de6",
+      "extracted_sha256": "c115110640361afb57d024ed8869fa622513eed4e419a986f2df2085d8ae7de6",
+      "matches_manifest": true
+    }
+  },
+  "critical_certificate_comparison": {
+    "critical_fields_match": true,
+    "mismatches": [],
+    "keys_checked": [
+      "status",
+      "baseline",
+      "locked_source",
+      "seed",
+      "kernel_calls",
+      "direction_calls",
+      "rejected",
+      "K",
+      "D",
+      "direction",
+      "exact_g",
+      "exact_g_dot_D",
+      "locked_odds_derivatives",
+      "Qlock",
+      "F_exact",
+      "C",
+      "max_Qlock_minus_C",
+      "actual_B",
+      "feasible_step",
+      "endpoints",
+      "interval_bits",
+      "log_series_terms"
+    ]
+  },
+  "exact_witness_audit": {
+    "event_atoms_positive": true,
+    "exact_g_matches_certificate": true,
+    "exact_g_dot_D": "0",
+    "lambda_tangent_exact": true,
+    "Qlock_matches_certificate": true,
+    "F_matches_certificate": true,
+    "locked_odds_derivatives_match_certificate": true,
+    "locked_odds_derivatives_equal_across_slices": true,
+    "F_ge_each_Qlock": true,
+    "Qlock_approx": [
+      "2.06836585318829631784693968810048065781",
+      "5.47939181745841587059830828975248234301",
+      "5.47939708169376931085445473100491376793"
+    ],
+    "F_approx": "59.13613025496833410279148296962370558313",
+    "conditioning_diagnostics": {
+      "conditioning": [
+        {
+          "k": 0,
+          "V": [
+            "155699073877191867/7580300000000000000",
+            "239815700001/1269100000000000000"
+          ],
+          "R": [
+            "458590148236800000000000000/3151073412013626446205001",
+            "258263509875200000000000000/111346652930293528261261"
+          ],
+          "R0_plus_R1": "78624523394003291111736048134183680000000000000000/31896497960487007766908335310626968226862978751",
+          "positive_denominators": true
+        },
+        {
+          "k": 1,
+          "V": [
+            "46315775262631347/6551300000000000000",
+            "8423840826441/4356100000000000000"
+          ],
+          "R": [
+            "408965649530400000000000000/2504963698802103629394733",
+            "270564201231200000000000000/19026243591525347987768101"
+          ],
+          "R0_plus_R1": "59152682313365859255125192073735280000000000000000/333287059589770323039770647031382619648910453231",
+          "positive_denominators": true
+        },
+        {
+          "k": 2,
+          "V": [
+            "2811402960503049/1612100000000000000",
+            "88531048139841/9501100000000000000"
+          ],
+          "R": [
+            "86656169843200000000000000/310688242580795259836799",
+            "27043139655539200000000000000/71340609090985466027015515581"
+          ],
+          "R0_plus_R1": "178149181951688422487924491941006080000000000000000/637851116956510405519542539230142535233416412031",
+          "positive_denominators": true
+        }
+      ]
+    },
+    "interval_log_comparison": {
+      "C": {
+        "lower": "10533672848217319185320659462293190881885544632026638149202727922656833081/1766847064778384329583297500742918515827483896875618958121606201292619776",
+        "upper": "10533672848217319185320659462293190881885544632026638149202727922656833171/1766847064778384329583297500742918515827483896875618958121606201292619776",
+        "approx_lower": "5.96184755217541028516703552118",
+        "approx_upper": "5.96184755217541028516703552118"
+      },
+      "max_Qlock_minus_C": {
+        "lower": "-426208098835718953694640678827997553416060680786223631537464717782277027/883423532389192164791648750371459257913741948437809479060803100646309888",
+        "upper": "-852416197671437907389281357655995106832121361572447263074929435564553963/1766847064778384329583297500742918515827483896875618958121606201292619776",
+        "approx_lower": "-0.482450470481640974312580790174",
+        "approx_upper": "-0.482450470481640974312580790174"
+      },
+      "actual_B": {
+        "lower": "93950825315125690439831629064972337992814206246135183356641406109132312531/1766847064778384329583297500742918515827483896875618958121606201292619776",
+        "upper": "46975412657562845219915814532486168996407103123067591678320703054566156311/883423532389192164791648750371459257913741948437809479060803100646309888",
+        "approx_lower": "53.1742827027929238176244474484",
+        "approx_upper": "53.1742827027929238176244474484"
+      },
+      "gap_hi_lt_0": true,
+      "actual_B_lo_gt_0": true,
+      "log_bounds_contain_high_precision_logs": true
+    },
+    "feasible_step": "1/1000",
+    "endpoints_feasible": [
+      true,
+      true
+    ],
+    "all_endpoints_feasible": true,
+    "connected_strict_kernel": true
+  },
+  "coverage": {
+    "fixed_commits": 1,
+    "author_script_reruns": 1,
+    "kernel_calls_certificate": 1,
+    "direction_calls_certificate": 1,
+    "q_lock_forms": 3,
+    "conditional_slices": 6,
+    "feasible_endpoints": 2,
+    "log_terms": 4
+  },
+  "noncoverage": [
+    "The float scout in locked_probe.py was read for provenance but was not rerun as proof-bearing evidence.",
+    "The audit covers only the exact rational K,D certificate at the frozen commit.",
+    "The result disproves max Qlock >= C dominance only; it retains F >= Qlock and does not decide B0/N3."
+  ],
+  "elapsed_seconds": 13.089622735977173,
+  "exit_status": 0
+}

@@ -1,0 +1,5 @@
+STATUS PASS
+wrote research\N3\round2\review\weak_edge_audit_results.json
+pid 64148
+target 3087eb189237ec0a2d60127d0c35128f0cbcd91c
+coverage {"asymptotic_probe_points": 6, "exact_density_checks": 2, "fixed_candidate_objects": 1, "sign_branches": 2, "t_values": ["1/100", "1/200", "1/400"]}

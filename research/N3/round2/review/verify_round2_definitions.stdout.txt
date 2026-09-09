@@ -1,0 +1,4 @@
+STATUS PASS
+wrote research\N3\round2\review\round2_definition_audit_results.json
+pid 9708
+coverage {"affine_derivative_identity_groups": 3, "deterministic_strict_kernels": 3, "pair_projection_cross_checks": 3, "rayleigh_polynomial_pairs": 9, "round2_quantity_rebuilds": 3, "zero_edge_connected_samples": 1}
