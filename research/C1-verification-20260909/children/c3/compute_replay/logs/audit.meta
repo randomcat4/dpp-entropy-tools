@@ -1,0 +1,8 @@
+name=audit
+start_utc=2026-09-09T06:43:56Z
+workdir=/root/i05-seven-fronts-20260909/C1/verification/c3/replay_20260909_c3/replay_rate
+command=/opt/venv/bin/python scripts/c3_m1_audit.py --candidate candidate.json --true-symbol candidate_true_symbol.json --boundary artifacts/c3_m1_boundary_M64.replay.json --rate artifacts/c3_m1_rate_n4.replay.json --output artifacts/c3_m1_audit_result.replay.json
+pid=167330
+end_utc=2026-09-09T06:43:56Z
+elapsed_seconds=0
+exit_status=0

@@ -1,0 +1,4 @@
+  File "/root/i05-seven-fronts-20260909/C1/verification/c3/replay_20260909_c3/reviewer_rate_checker.py", line 228
+    boundary_stable = sorted(stable_boundary(c) for c in boundary0["cases"], key=lambda x: (x["t"], x["complement_symbol"])) == sorted(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Generator expression must be parenthesized

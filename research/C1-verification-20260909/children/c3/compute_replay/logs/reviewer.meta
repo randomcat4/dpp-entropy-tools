@@ -1,0 +1,8 @@
+name=reviewer
+start_utc=2026-09-09T06:43:56Z
+workdir=/root/i05-seven-fronts-20260909/C1/verification/c3/replay_20260909_c3
+command=/opt/venv/bin/python reviewer_rate_checker.py --original-rate-dir original_rate --replay-rate-dir replay_rate --output logs/reviewer_rate_checker_result.json
+pid=167338
+end_utc=2026-09-09T06:43:56Z
+elapsed_seconds=0
+exit_status=1

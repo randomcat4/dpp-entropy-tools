@@ -1,0 +1,8 @@
+name=boundary
+start_utc=2026-09-09T06:43:51Z
+workdir=/root/i05-seven-fronts-20260909/C1/verification/c3/replay_20260909_c3/replay_rate
+command=/opt/venv/bin/python scripts/c3_m1_variational_boundary.py --candidate candidate.json --output artifacts/c3_m1_boundary_M64.replay.json --M 64 --bits 160
+pid=167315
+end_utc=2026-09-09T06:43:55Z
+elapsed_seconds=4
+exit_status=0
