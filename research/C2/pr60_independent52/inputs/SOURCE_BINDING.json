@@ -1,0 +1,47 @@
+{
+  "pr": 60,
+  "source_commit": "f869fd251c0d6fdad737b6d5efa287307795a87d",
+  "main": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "pr_inputs": [
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/README.md",
+      "copy": "inputs/pr60/README.md",
+      "blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/bridge_checks.py",
+      "copy": "inputs/pr60/bridge_checks.py",
+      "blob": "63df86ad1f93c551a6e3834bb183245657f28996"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/certificate.py",
+      "copy": "inputs/pr60/certificate.py",
+      "blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/proof.md",
+      "copy": "inputs/pr60/proof.md",
+      "blob": "0ab3e96592497382096c93c67e1e5224673fa119"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/sources_routes.md",
+      "copy": "inputs/pr60/sources_routes.md",
+      "blob": "93566de352021d64c3b061a8a86a066ebde6d287"
+    },
+    {
+      "source": "research/I05-22-R3-lambda-zero-global/verification.md",
+      "copy": "inputs/pr60/verification.md",
+      "blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7"
+    }
+  ],
+  "main_structure": {
+    "source": "research/C2/lambda_zero52/structure/STRUCTURE.md",
+    "copy": "inputs/main/STRUCTURE.md",
+    "blob": "36735e3a3d49f4c7ef732303e7615c943cc56175"
+  },
+  "comparison_data": {
+    "file": "inputs/reference_P_components.json",
+    "construction": "six exact literal RHS strings from certificate.py; no execution",
+    "use": "downstream only after fresh determinant and P construction"
+  }
+}

@@ -1,0 +1,1 @@
+PREPARING. New independent source under construction; no new arithmetic PID or deadline. Prior known C2 PIDs absent at15:13:10UTC preflight. OneCPU/thread,16GiB,noGPU,2700second new window to begin only at frozen-source launch. C1 mathematical bridge FIRST remains separate.
