@@ -1,0 +1,323 @@
+{
+  "origin": "public immutable GitHub commit",
+  "file_count": 52,
+  "computation": "C1 source/evidence review only; no arithmetic execution",
+  "prefix": "research/C2/pr60_independent52/",
+  "files": [
+    {
+      "path": "research/C2/pr60_independent52/.gitattributes",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "f38ced463e6c9f2ee81a3104a573bda12de50af3"
+    },
+    {
+      "path": "research/C2/pr60_independent52/FINAL_HANDOFF.md",
+      "download_hash_verified": true,
+      "lines": 69,
+      "blob": "a381b5a0bb8fecaf699aa72a1a491731936c62ab"
+    },
+    {
+      "path": "research/C2/pr60_independent52/README.md",
+      "download_hash_verified": true,
+      "lines": 42,
+      "blob": "3d5e867f041eae9454db20a0b40df5d0c22e8992"
+    },
+    {
+      "path": "research/C2/pr60_independent52/STATUS.md",
+      "download_hash_verified": true,
+      "lines": 26,
+      "blob": "ff0bf89bfc4d99fe29416bf5ea365ea1366d1e67"
+    },
+    {
+      "path": "research/C2/pr60_independent52/execution/LEDGER.md",
+      "download_hash_verified": true,
+      "lines": 72,
+      "blob": "f1d8e2ce015278ddfa3453b70e7b34ed34c29faf"
+    },
+    {
+      "path": "research/C2/pr60_independent52/execution/run_guard.sh",
+      "download_hash_verified": true,
+      "lines": 54,
+      "blob": "cb2fc2772d4fe1bcfeabf33a6bc0e7288767618a"
+    },
+    {
+      "path": "research/C2/pr60_independent52/frozen_contract.md",
+      "download_hash_verified": true,
+      "lines": 69,
+      "blob": "7a275d13d27f9120ebce2b60a8b754f8cb3cf49d"
+    },
+    {
+      "path": "research/C2/pr60_independent52/implementation/README.md",
+      "download_hash_verified": true,
+      "lines": 22,
+      "blob": "40811cd28365ba6dea1f0a0eb50fe485ca414658"
+    },
+    {
+      "path": "research/C2/pr60_independent52/implementation/pr60_independent_certificate.py",
+      "download_hash_verified": true,
+      "lines": 937,
+      "blob": "b39e87c4046809d019109cdb14cc552b83d459da"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/SOURCE_BINDING.json",
+      "download_hash_verified": true,
+      "lines": 47,
+      "blob": "3c2bb6459c5b5d49262e84605ff8ec50d5e52eec"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/main/STRUCTURE.md",
+      "download_hash_verified": true,
+      "lines": 343,
+      "blob": "36735e3a3d49f4c7ef732303e7615c943cc56175"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/README.md",
+      "download_hash_verified": true,
+      "lines": 48,
+      "blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/bridge_checks.py",
+      "download_hash_verified": true,
+      "lines": 54,
+      "blob": "63df86ad1f93c551a6e3834bb183245657f28996"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/certificate.py",
+      "download_hash_verified": true,
+      "lines": 116,
+      "blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/proof.md",
+      "download_hash_verified": true,
+      "lines": 263,
+      "blob": "0ab3e96592497382096c93c67e1e5224673fa119"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/sources_routes.md",
+      "download_hash_verified": true,
+      "lines": 69,
+      "blob": "93566de352021d64c3b061a8a86a066ebde6d287"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/pr60/verification.md",
+      "download_hash_verified": true,
+      "lines": 60,
+      "blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7"
+    },
+    {
+      "path": "research/C2/pr60_independent52/inputs/reference_P_components.json",
+      "download_hash_verified": true,
+      "lines": 13,
+      "blob": "4eaa1a68d53955e986d77a4b695f7ab48bbff47a"
+    },
+    {
+      "path": "research/C2/pr60_independent52/machine_notes.md",
+      "download_hash_verified": true,
+      "lines": 87,
+      "blob": "37c4f33fa8b13f4ac243343d98c4e18b957e49eb"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/Ahat_entries.json",
+      "download_hash_verified": true,
+      "lines": 270,
+      "blob": "ee32bbee9b469a72bb243807304bfa1ebbc0fa82"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/FAILURE.json",
+      "download_hash_verified": true,
+      "lines": 6,
+      "blob": "10901c2509bd9c37c1753967708e90d0c1632079"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/Rstar_and_Rbar_entries.json",
+      "download_hash_verified": true,
+      "lines": 55,
+      "blob": "c8c3f5706dcd8d876916cdc0fb49a4b1c36654b9"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/arithmetic_pid.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "749d5fd12d68562ebbe4527e3b8ead5c4f34fc67"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/cpu_affinity.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/deadline_utc.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "6ea651d8b1933b776c27b5ffb18362061e60d38d"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/exit.json",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "a0183a6ed80ee80c68afa7edd38425e5c65abf37"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/layer_results.json",
+      "download_hash_verified": true,
+      "lines": 316,
+      "blob": "00194841a925187eb0b31fd9fc104bb19766c62a"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/run_metadata.json",
+      "download_hash_verified": true,
+      "lines": 90,
+      "blob": "7111c4b43290ae3195ae7e1bac0c9d14f5141559"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/start_utc.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "0e7556ff92c8bcc752b579b02eedd21db65c44a5"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/stderr.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/stdout.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/timeout_pid.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "d1afaba2bb5bffc30dcfc90871f93b8d1ada0939"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run01/wrapper.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Ahat_entries.json",
+      "download_hash_verified": true,
+      "lines": 270,
+      "blob": "ee32bbee9b469a72bb243807304bfa1ebbc0fa82"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/PASS.json",
+      "download_hash_verified": true,
+      "lines": 5,
+      "blob": "9c98c66b237c5fd38dfcdae93bd80b771d16ba5e"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/P_author_component_comparison.json",
+      "download_hash_verified": true,
+      "lines": 62,
+      "blob": "78a0d0a31f2826d2ed2672e378b5462249c11366"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Q_full_box.json",
+      "download_hash_verified": true,
+      "lines": 17443,
+      "blob": "c11a1e02e3bfea2918aec27b9069e4d0a1bf9e11"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/Rstar_and_Rbar_entries.json",
+      "download_hash_verified": true,
+      "lines": 55,
+      "blob": "c8c3f5706dcd8d876916cdc0fb49a4b1c36654b9"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/arithmetic_pid.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "f3836d5c29ec9dc6255c6bef03ac0929591e38a5"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/cpu_affinity.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/deadline_utc.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "6ea651d8b1933b776c27b5ffb18362061e60d38d"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/determinant_and_P.json",
+      "download_hash_verified": true,
+      "lines": 2552,
+      "blob": "83e1cbca56a2ac61dbb0f6e6eb07d9817e22e028"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/exit.json",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "6f2dd4ef1f10fe7f9ad057a94d30edf6742729e0"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/layer_results.json",
+      "download_hash_verified": true,
+      "lines": 549,
+      "blob": "42d0c49c5cd7bf280fad929b305e9cfaed5abe7d"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/run_metadata.json",
+      "download_hash_verified": true,
+      "lines": 91,
+      "blob": "25fbc9d33f397b20f9a7e6e985bb86e39d33189c"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/seed_leafswap_scaling.json",
+      "download_hash_verified": true,
+      "lines": 12,
+      "blob": "ea08fc533cc349de734d15972aa3643f9f720fae"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/start_utc.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "a0e6969d54a09d8e520d88fc5b46507353d8025f"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/stderr.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/stdout.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/timeout_pid.txt",
+      "download_hash_verified": true,
+      "lines": 1,
+      "blob": "aea15d4eed990e4fb7e7cd01dddd833e3978a8f0"
+    },
+    {
+      "path": "research/C2/pr60_independent52/outputs/run02/wrapper.log",
+      "download_hash_verified": true,
+      "lines": 0,
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/C2/pr60_independent52/provenance.md",
+      "download_hash_verified": true,
+      "lines": 19,
+      "blob": "4a6da36b170f0e6fe4dbf764719891a7d6085387"
+    }
+  ],
+  "unit": "pr64_machine",
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "commit": "5b40617fe7172aa266614aa28688d310218cb387"
+}

@@ -26,3 +26,16 @@ reconstruction belongs to C2 and must have its own source binding and
 independent implementation/evidence. No new formal proof or novelty
 certification is implied by source review. Operational records remain
 outside the public packet; exported reports normalize source aliases.
+
+All three original FIRST reports are complete, with mathematics and static
+code reported separately. PR59 passed its scoped analytic claims. PR58
+retains a precise wording repair and independent finite-evidence gates;
+PR60's original report retains the main certificate and radial-obstruction
+gates. These are evidence-status gaps, not discovered counterexamples.
+
+A later explicit assignment reuses the original PR58 and PR60 FIRST
+reviewers only for bounded follow-ups: the three-file PR58 additive delta
+at a4f05cc9 and C2's newly frozen PR64 machine packet at 5b40617f. Original
+reports remain historical; follow-up dispositions require their own
+source bindings. C3 reported that PR59 SECOND has independently started.
+No first-review conclusions or reports were supplied by C1 to that second.

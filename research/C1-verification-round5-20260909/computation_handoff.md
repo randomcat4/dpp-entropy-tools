@@ -42,3 +42,47 @@ likewise retain their individual evidence scope. The latter are not
 calculations of a true DPP entropy rate. C1 will hand off precise additional
 load-bearing obligations if its source audit identifies them. No saved
 author output is relabeled as independent computation or a formal proof.
+
+## New machine-evidence checkpoint
+
+C2 subsequently reported full-r MACHINE_PASS in
+[issue 52](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5604494688).
+The complete PR64 packet is frozen at
+5b40617fe7172aa266614aa28688d310218cb387. C1's original PR60 FIRST will
+check the implementation and raw evidence against the original contract;
+this update does not accept a status summary as the certificate. The
+author source remains f869fd251c0d6fdad737b6d5efa287307795a87d. No C1
+arithmetic is launched and no prior C2 time window is reopened.
+
+## PR58 exact original-fixture unit
+
+Inputs are the original four PR58 blobs at 1770ed29 and the accepted PR54
+fixture source blob fb10a0431efdc1eff5fbe293e90acd15b1ef0a3e plus saved
+output blob aab9c442be9331ea3a791d36f173f6fa952dba91, bound in the PR58
+additional-input map. Independently rebuild the matrix literals, strict
+blocks, rank-two dense off-diagonal block and non-coordinate null planes;
+enumerate all 64 complete pairs and derive mu, a, b and q_s=1-sa+s^2 b.
+Then independently check exact endpoint/vertex extrema, q positivity,
+moment lower bounds and squared margins on [3,9], [8,12], [11,14], [14,15].
+At s=10 independently enclose all logarithms with rational tails and
+check min q>0, Wup<0, full normal-form Tlo>0 and the stated widths.
+Compare exact outputs only after reconstruction; preserve the first
+event or interval mismatch. See the full numbered contract in the
+[PR58 report](units/pr58/review_report.md#c2-contract).
+
+The new additive fixed example at a4f05cc9 is a separate finite obligation;
+the bounded delta FIRST will specify its contract. It inherits no finite
+pass from the original fixture or conditional-centering theorem.
+
+## PR60 separate radial-obstruction unit
+
+Use continuation.md lines 72-158 at f869fd25 as literal mathematical
+inputs, not continuation_exact.py as the implementation. Independently
+derive K*, D*, C* and all eight jets for K*+epsilon D*+delta C*:
+p, p_e, p_ee, p_d, p_ed, p_eed. Check exact Sylvester legality at radial
+endpoints and throughout the Jensen segment; the stated legal radius;
+exp(Lambda)>1; rational atanh/log2 enclosures; negative radial derivative
+of the negative Hessian; positive -H''(K*;D*); and the negative complete
+entropy Jensen difference. This only refutes an auxiliary monotonicity
+law. It is not an entropy counterexample. C3 coordinates this separate
+public computation assignment; C1 neither duplicates it nor assumes PASS.

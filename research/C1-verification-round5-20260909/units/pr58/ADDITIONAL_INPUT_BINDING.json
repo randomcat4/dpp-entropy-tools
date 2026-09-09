@@ -1,0 +1,72 @@
+{
+  "origin": "public immutable main source",
+  "files": [
+    {
+      "path": "docs/verification_round3_20260909/accepted_pr54.md",
+      "blob": "4a6ddd6499a104c5c9a5748e5fdd977e3862d663",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/ADDENDUM_ENDPOINT_RARE_EVENT.md",
+      "blob": "90a9a8e701b39596e5c6fc9bb11bfec035c1f8c2",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/ADDENDUM_OUTER_WEDGE_FLOW_RATE.md",
+      "blob": "ea9f470093dd15563af0015ad8bebc44c61230b1",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/ADDENDUM_RANK2_ENDPOINT_SPECTRUM.md",
+      "blob": "f0488330430c53a29cbff7ff91369137700c5d90",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/code/verify_local_and_matching.py",
+      "blob": "fb10a0431efdc1eff5fbe293e90acd15b1ef0a3e",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/code/verify_outer_wedge_and_flow.py",
+      "blob": "0bd4c9b7be87c7017e6e18769474cd830116a071",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/output/verify_local_and_matching.txt",
+      "blob": "aab9c442be9331ea3a791d36f173f6fa952dba91",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-23-20260909/output/verify_outer_wedge_and_flow.json",
+      "blob": "010291f7f4e08ec4c368ac090660acdb509959ab",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2/continuation/frozen_statement_v3.md",
+      "blob": "2fbc0278a9ef37f67a774faca82f8bcd22f90e0e",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2/continuation/proof_v3.md",
+      "blob": "c3021f727fc78c164eaefc9f271738e72c689804",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2/continuation/RESULT_FINAL.md",
+      "blob": "b429e328e7e1435ba3c234c931eefa4d0dcf8e21",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2/continuation/verification_output_v2.txt",
+      "blob": "678a800b83dc9c461d41b8d9dce4c48e15f7bace",
+      "download_hash_verified": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2/continuation/verification.md",
+      "blob": "7bdfa48fdef510235fa7a2a885f20b47eb399113",
+      "download_hash_verified": true
+    }
+  ],
+  "commit": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "purpose": "Prior accepted fixture and context only; no arithmetic rerun or new finite-certificate acceptance"
+}
