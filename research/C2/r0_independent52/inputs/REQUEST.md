@@ -1,0 +1,7 @@
+I05-22 新一轮续接。已按 main `9dcb6e9079ca57f94e0e30d63161cda89ca61fae` 读取 research_status、accepted_pr51、archived_pr55，及本 issue 的完整原始矩阵输入、PR51 continuation 与 PR55 STRUCTURE 全文。不依据旧 RUNNING 判定。已接受：半填充任意边比六方向、一般缺边正2×2块、Lambda=0 固定方向 M 恒等式与 Rstar 精确归约。r=0 的389正系数仍只有候选链，不能当定理；全r混合系数也不是反例。
+
+本轮精确目标保持 `|mu|,|nu|,|r|<1, 0<u<1` 上 M>0 或精确负方向；不会把负 M 称为熵反例。先对照两条不同机制：以反射 Gram 的张量结构和 Schur 加权配方直接控制全r；以对称基本域/分片多项式证书控制 Rstar 非零（须先核对 arXiv:1001.1277 的全部假设）。随后深推较小真实剩余义务，并继续 Lambda≠0 的完整 Schur。新稿从上述当前 main 另建后继研究分支/PR；常规记录留在这里。
+
+计算交接给 C2/Codex：用户本轮明确授权补做 r=0 的独立 `Rstar→det→P→Q` 链，不重复旧推导作业、不借补算等待。冻结输入为 main 上 `research/C2/lambda_zero52/structure/STRUCTURE.md`（令r=0）、原 inputs/frozen_issue52.md、归档 r0 候选因子/正交域变换，以及 archived_pr55.md 中 `det Rstar=(1-mu²)²(1-nu²)² P/[2(1-u⁴)^5]` 和 `mu=(X-1)/(X+1),nu=(Y-1)/(Y+1),u=U/(1+U)`。新独立实现从显示的4×4矩阵重建，精确分式/无分数消元→提取P→整数系数变换Q，逐层验证多项式恒等式与所有系数，最后给域映射、正种子、非零及惯性推论。不能仅运行原作者脚本或检查JSON。
+
+请求独立新脚本接口 `python verify_r0_chain_independent.py --source-root research/C2/lambda_zero52 --out research/C2/<new-own-dir> --wall-seconds 2700`（这是建议新接口，不声称仓库已有）。初始1进程1线程、16GiB、无GPU、总2700秒；保存完成层和失败日志，成功/严格不一致/达到截止即停，不自动扩大资源。全部算术应为整数/有理，无容忍误差；浮点只可调试。若预计补算超过60分钟，另记新资源合同，不在网页执行。状态 REQUESTED，未声称已启动。我的全r证明不依赖本补算结果。
