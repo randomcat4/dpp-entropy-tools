@@ -1,0 +1,23 @@
+{
+  "environment": {
+    "implementation": "CPython",
+    "python_version": "3.13.5",
+    "platform": "Linux x86_64",
+    "third_party_dependencies": []
+  },
+  "runs": [
+    {
+      "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/certify_point_curvatures.py --depth 18",
+      "exit_status": 0,
+      "scope": "true-rate curvature at t=1/2,1,3/2 with exact complete-event jets and analytic derivative tails"
+    },
+    {
+      "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/check_pair_fisher_projection.py",
+      "exit_status": 0,
+      "scope": "exact local-inclusion covariance polynomials and full-Fisher rate projection constants"
+    }
+  ],
+  "ci_claim": false,
+  "independent_review_claim": false,
+  "continuum_curvature_claim": false
+}
