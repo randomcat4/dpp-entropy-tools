@@ -1,0 +1,42 @@
+{
+  "status": "MACHINE_PASS",
+  "author_source_commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "checker_source_public_commit": "86617882b7db97f5db39bf613d876a5d5bcf9107",
+  "checker_source_local_commit": "ab02c1750efa8634cfe7df2be08f9d45c6fd739e",
+  "checker_path": "implementation/independent_pr58_certificate.py",
+  "argv": [
+    "--input-root",
+    "<TASK_ROOT>/source",
+    "--out",
+    "<TASK_ROOT>/runs/run01",
+    "--wall-seconds",
+    "2700",
+    "--log-terms",
+    "80"
+  ],
+  "runtime": "Existing isolated Python3.12.3; standard-library Fraction; no package changes",
+  "first_start_utc": "2026-09-09T16:09:13Z",
+  "absolute_deadline_utc": "2026-09-09T16:54:13Z",
+  "finished_utc": "2026-09-09T16:09:18Z",
+  "duration_note": "5seconds between guard UTC markers at1second resolution; no finer elapsed duration recorded",
+  "run_count": 1,
+  "failed_run_count": 0,
+  "repair_count": 0,
+  "arithmetic_pid": 174584,
+  "timeout_pid": 174582,
+  "wrapper_pid": 174568,
+  "exit_code": 0,
+  "pid_absent_confirmed_utc": "2026-09-09T16:11:32Z",
+  "no_live_arithmetic": true,
+  "bound": {
+    "gpu": false,
+    "total_wall_seconds": 2700,
+    "cpu_threads": 1,
+    "processes": 1,
+    "memory_gib": 16
+  },
+  "scope": "Only original64-event corridor ands10 signs; C1/C3 analytic review remains separate",
+  "metadata_redaction": "Private task paths generalized to <TASK_ROOT>; exact mathematical fractions unchanged",
+  "valid_json_packets_at_collection": 9,
+  "required_rational_comparison_count": 27
+}

@@ -1,0 +1,2705 @@
+{
+  "fiber_cancellations": {
+    "left": [
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 0
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 1
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 2
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 3
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 4
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 5
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 6
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "left_mask": 7
+      }
+    ],
+    "right": [
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 0
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 1
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 2
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 3
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 4
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 5
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 6
+      },
+      {
+        "a_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "b_sum": {
+          "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "fraction": {
+            "den": "1",
+            "num": "0"
+          }
+        },
+        "right_mask": 7
+      }
+    ]
+  },
+  "mobius_identity": {
+    "status": "all principal and complementary identities verified as QQ[t] polynomial equalities",
+    "subset_count": 64,
+    "subsets": [
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000000",
+        "subset_mask": 0
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "100000",
+        "subset_mask": 1
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "3"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "2"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "010000",
+        "subset_mask": 2
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "400",
+              "num": "119"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "400",
+              "num": "79"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "110000",
+        "subset_mask": 3
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "2"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "3"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "001000",
+        "subset_mask": 4
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "900",
+              "num": "179"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "900",
+              "num": "269"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "101000",
+        "subset_mask": 5
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "625",
+              "num": "149"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "625",
+              "num": "149"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "011000",
+        "subset_mask": 6
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5000",
+              "num": "587"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "18000",
+              "num": "2113"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "111000",
+        "subset_mask": 7
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "3"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "2"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000100",
+        "subset_mask": 8
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "10",
+              "num": "3"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "1"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100100",
+        "subset_mask": 9
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "25",
+              "num": "9"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2500",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "25",
+              "num": "4"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2500",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010100",
+        "subset_mask": 10
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2000",
+              "num": "357"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "25000",
+              "num": "-7"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1000",
+              "num": "79"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-11"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "110100",
+        "subset_mask": 11
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "25",
+              "num": "6"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "25",
+              "num": "6"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001100",
+        "subset_mask": 12
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1500",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-51"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2250",
+              "num": "269"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-49"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "101100",
+        "subset_mask": 13
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3125",
+              "num": "447"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "250000",
+              "num": "-187"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3125",
+              "num": "298"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "125000",
+              "num": "-69"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "011100",
+        "subset_mask": 14
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "25000",
+              "num": "1761"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "900000000",
+              "num": "-376991"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "45000",
+              "num": "2113"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "900000000",
+              "num": "-252791"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "111100",
+        "subset_mask": 15
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2",
+              "num": "1"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000010",
+        "subset_mask": 16
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4",
+              "num": "1"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2500",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4",
+              "num": "1"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2500",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100010",
+        "subset_mask": 17
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "10",
+              "num": "3"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "1"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010010",
+        "subset_mask": 18
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "800",
+              "num": "119"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "4000",
+              "num": "-3"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "800",
+              "num": "79"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "20000",
+              "num": "-11"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "110010",
+        "subset_mask": 19
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5",
+              "num": "1"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "625",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "10",
+              "num": "3"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "625",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001010",
+        "subset_mask": 20
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1800",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "18750",
+              "num": "-19"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1800",
+              "num": "269"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "37500",
+              "num": "-37"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "101010",
+        "subset_mask": 21
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1250",
+              "num": "149"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "125000",
+              "num": "-177"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1250",
+              "num": "149"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "250000",
+              "num": "-271"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "011010",
+        "subset_mask": 22
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "587"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "-21579"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "36000",
+              "num": "2113"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "75000000",
+              "num": "-43787"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "111010",
+        "subset_mask": 23
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "900",
+              "num": "269"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "900",
+              "num": "179"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000110",
+        "subset_mask": 24
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1800",
+              "num": "269"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "300000",
+              "num": "-83"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1800",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "300000",
+              "num": "-67"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100110",
+        "subset_mask": 25
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1500",
+              "num": "269"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-7"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2250",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "5000",
+              "num": "-3"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010110",
+        "subset_mask": 26
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "360000",
+              "num": "32011"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "3000000",
+              "num": "-1679"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "360000",
+              "num": "14141"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1000000",
+              "num": "-353"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "110110",
+        "subset_mask": 27
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2250",
+              "num": "269"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-133"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1500",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-117"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001110",
+        "subset_mask": 28
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "810000",
+              "num": "48151"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "9000000",
+              "num": "-7339"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "810000",
+              "num": "48151"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "9000000",
+              "num": "-6169"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "101110",
+        "subset_mask": 29
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "562500",
+              "num": "40081"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "7500000",
+              "num": "-8663"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "562500",
+              "num": "26671"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1875000",
+              "num": "-1427"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "011110",
+        "subset_mask": 30
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4500000",
+              "num": "157903"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "9000000000",
+              "num": "-6187351"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "15000000000",
+              "num": "539"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "16200000",
+              "num": "378227"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "9000000000",
+              "num": "-3606599"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "15000000000",
+              "num": "361"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "111110",
+        "subset_mask": 31
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "20",
+              "num": "9"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "20",
+              "num": "11"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000001",
+        "subset_mask": 32
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "40",
+              "num": "9"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "40",
+              "num": "11"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100001",
+        "subset_mask": 33
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "100",
+              "num": "27"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "625",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "50",
+              "num": "11"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "625",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010001",
+        "subset_mask": 34
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8000",
+              "num": "1071"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-73"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8000",
+              "num": "869"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "12500",
+              "num": "-13"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "110001",
+        "subset_mask": 35
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "50",
+              "num": "9"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "400",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "100",
+              "num": "33"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "400",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001001",
+        "subset_mask": 36
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2000",
+              "num": "179"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-171"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "18000",
+              "num": "2959"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "-169"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "101001",
+        "subset_mask": 37
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "12500",
+              "num": "1341"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "10000",
+              "num": "-23"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "12500",
+              "num": "1639"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "5000",
+              "num": "-9"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "011001",
+        "subset_mask": 38
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "100000",
+              "num": "5283"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "900000000",
+              "num": "-1332359"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "360000",
+              "num": "23243"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "900000000",
+              "num": "-909359"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "111001",
+        "subset_mask": 39
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1600",
+              "num": "431"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1600",
+              "num": "351"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000101",
+        "subset_mask": 40
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3200",
+              "num": "431"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "5000",
+              "num": "-3"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3200",
+              "num": "351"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2500",
+              "num": "-1"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100101",
+        "subset_mask": 41
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8000",
+              "num": "1293"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-59"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4000",
+              "num": "351"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-41"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010101",
+        "subset_mask": 42
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "640000",
+              "num": "51289"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2000000",
+              "num": "-2067"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "640000",
+              "num": "27729"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "2000000",
+              "num": "-1027"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "110101",
+        "subset_mask": 43
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4000",
+              "num": "431"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-99"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8000",
+              "num": "1053"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "50000",
+              "num": "-71"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001101",
+        "subset_mask": 44
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1440000",
+              "num": "77149"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "46875",
+              "num": "-61"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "6250000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "160000",
+              "num": "10491"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "187500",
+              "num": "-169"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "6250000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "101101",
+        "subset_mask": 45
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1000000",
+              "num": "64219"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "500000",
+              "num": "-891"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1000000",
+              "num": "52299"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "500000",
+              "num": "-487"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "011101",
+        "subset_mask": 46
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8000000",
+              "num": "252997"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "225000000",
+              "num": "-251003"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "3750000000",
+              "num": "539"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3200000",
+              "num": "82407"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "112500000",
+              "num": "-59911"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "3750000000",
+              "num": "361"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "111101",
+        "subset_mask": 47
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "9800",
+              "num": "2197"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "9800",
+              "num": "2687"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000011",
+        "subset_mask": 48
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "19600",
+              "num": "2197"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "140000",
+              "num": "-93"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "19600",
+              "num": "2687"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "140000",
+              "num": "-89"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100011",
+        "subset_mask": 49
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "49000",
+              "num": "6591"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1400000",
+              "num": "-1783"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "24500",
+              "num": "2687"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1400000",
+              "num": "-1717"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010011",
+        "subset_mask": 50
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "560000",
+              "num": "37349"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "14000000",
+              "num": "-15781"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3920000",
+              "num": "212273"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "14000000",
+              "num": "-10911"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "110011",
+        "subset_mask": 51
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "24500",
+              "num": "2197"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "700000",
+              "num": "-1459"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "49000",
+              "num": "8061"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "700000",
+              "num": "-1411"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001011",
+        "subset_mask": 52
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8820000",
+              "num": "393263"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "21000000",
+              "num": "-29107"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "8820000",
+              "num": "722803"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "7000000",
+              "num": "-9199"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "25000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "101011",
+        "subset_mask": 53
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "6125000",
+              "num": "327353"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "437500",
+              "num": "-827"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "6125000",
+              "num": "400363"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1400000",
+              "num": "-1983"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "100000000",
+              "num": "1"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "011011",
+        "subset_mask": 54
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "49000000",
+              "num": "1289639"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1800000000",
+              "num": "-2147597"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "15000000000",
+              "num": "539"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "176400000",
+              "num": "5677631"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "12600000000",
+              "num": "-9859763"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "15000000000",
+              "num": "361"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "111011",
+        "subset_mask": 55
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2352000",
+              "num": "314569"
+            },
+            "degree": 0
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "7056000",
+              "num": "767003"
+            },
+            "degree": 0
+          }
+        ],
+        "subset_bits": "000111",
+        "subset_mask": 56
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4704000",
+              "num": "314569"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "196000000",
+              "num": "-82311"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "14112000",
+              "num": "767003"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "588000000",
+              "num": "-164053"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "100111",
+        "subset_mask": 57
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "3920000",
+              "num": "314569"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "7056000000",
+              "num": "-6003311"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "17640000",
+              "num": "767003"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "7056000000",
+              "num": "-4214111"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "010111",
+        "subset_mask": 58
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "134400000",
+              "num": "5347673"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "1440000000",
+              "num": "-1061017"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "10500000000",
+              "num": "313"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2822400000",
+              "num": "60593237"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "70560000000",
+              "num": "-26093317"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "10500000000",
+              "num": "317"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "110111",
+        "subset_mask": 59
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "5880000",
+              "num": "314569"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "220500000",
+              "num": "-318751"
+            },
+            "degree": 2
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "11760000",
+              "num": "767003"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "220500000",
+              "num": "-231811"
+            },
+            "degree": 2
+          }
+        ],
+        "subset_bits": "001111",
+        "subset_mask": 60
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "2116800000",
+              "num": "56307851"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "4410000000",
+              "num": "-4154351"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "2625000000",
+              "num": "313"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "6350400000",
+              "num": "206323807"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "180000000",
+              "num": "-118397"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "2625000000",
+              "num": "317"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "101111",
+        "subset_mask": 61
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "1470000000",
+              "num": "46870781"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "17640000000",
+              "num": "-22865863"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "10500000000",
+              "num": "313"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "4410000000",
+              "num": "114283447"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "11760000000",
+              "num": "-8415887"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "10500000000",
+              "num": "317"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "011111",
+        "subset_mask": 62
+      },
+      {
+        "complementary_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "11760000000",
+              "num": "184652003"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "158760000000000",
+              "num": "-128050167109"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "225000000000",
+              "num": "24101"
+            },
+            "degree": 4
+          }
+        ],
+        "principal_minor_t_poly": [
+          {
+            "coeff": {
+              "den": "127008000000",
+              "num": "1620677339"
+            },
+            "degree": 0
+          },
+          {
+            "coeff": {
+              "den": "22680000000000",
+              "num": "-8811287017"
+            },
+            "degree": 2
+          },
+          {
+            "coeff": {
+              "den": "1575000000000",
+              "num": "114437"
+            },
+            "degree": 4
+          }
+        ],
+        "subset_bits": "111111",
+        "subset_mask": 63
+      }
+    ]
+  },
+  "moments": {
+    "Amax": {
+      "decimal_ceiling": "0.051367964655274438748599058682453770239522555461419119453741477310861499994828811196971580",
+      "decimal_floor": "0.051367964655274438748599058682453770239522555461419119453741477310861499994828811196971579",
+      "fraction": {
+        "den": "2492802040500",
+        "num": "128050167109"
+      }
+    },
+    "Bmax": {
+      "decimal_ceiling": "0.000008500821204440093776711094158224342205707263969020544111600584305700071879362325489795",
+      "decimal_floor": "0.000008500821204440093776711094158224342205707263969020544111600584305700071879362325489794",
+      "fraction": {
+        "den": "281394225625",
+        "num": "2392082"
+      }
+    },
+    "Ea2": {
+      "decimal_ceiling": "0.000248206905880695353751894274757682847397106221643937489274996501318991866271073697829036",
+      "decimal_floor": "0.000248206905880695353751894274757682847397106221643937489274996501318991866271073697829035",
+      "fraction": {
+        "den": "382590336991323629445458030795682891918156169363580024118475801169728125000",
+        "num": "94961563764468982096654209864288753221886065157614011838525236916413093"
+      }
+    },
+    "Eab": {
+      "decimal_ceiling": "0.000000000235742466628503522884968889140342230903420966174887180223201468053490461495193788",
+      "decimal_floor": "0.000000000235742466628503522884968889140342230903420966174887180223201468053490461495193787",
+      "fraction": {
+        "den": "25961487152982674855227509232564196237303454349671501636610857936517265625000",
+        "num": "6120225018788341160629998415220124615742968180366019277180061304103"
+      }
+    },
+    "Eb2": {
+      "decimal_ceiling": "0.000000000009391755988220460825443035445058199877969519699165571237133886614466083395284454",
+      "decimal_floor": "0.000000000009391755988220460825443035445058199877969519699165571237133886614466083395284453",
+      "fraction": {
+        "den": "218531036641268306862184421149530271357773184761544626570798467479101562500",
+        "num": "2052390171987656561610398263145999197560562972498285463711218801"
+      }
+    }
+  },
+  "normalization": {
+    "sum_mu": {
+      "decimal_ceiling": "1.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decimal_floor": "1.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "fraction": {
+        "den": "1",
+        "num": "1"
+      }
+    },
+    "sum_mu_a": {
+      "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "fraction": {
+        "den": "1",
+        "num": "0"
+      }
+    },
+    "sum_mu_b": {
+      "decimal_ceiling": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decimal_floor": "0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "fraction": {
+        "den": "1",
+        "num": "0"
+      }
+    }
+  },
+  "status": "OK"
+}

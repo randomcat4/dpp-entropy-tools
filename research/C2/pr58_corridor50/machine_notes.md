@@ -26,3 +26,44 @@ Run boundary:
 - The source reads `author_output_reference.txt` only after independent reconstruction. The downstream exact-fraction comparison requires all 26 frozen corridor values: `Amax`, `Bmax`, and for each of `[3,9]`, `[8,12]`, `[11,14]`, `[14,15]`, the `qminus`, `qplus`, `Psi`, `M2`, `left`, and `squared strict margin` fractions. It also compares the s10 `min q` fraction. The comparison record is written before any mismatch failure is raised.
 - Rounded decimal displays are not promoted to exact outward endpoints.
 - Runtime options are `--input-root`, `--out`, and `--wall-seconds`; wall time is capped at 2700 seconds and additionally bounded by `C2_ABSOLUTE_DEADLINE_EPOCH` when present.
+
+## Run01 result
+
+Root-run01 passed from the frozen public source `86617882b7db97f5db39bf613d876a5d5bcf9107` / local source `ab02c1750efa8634cfe7df2be08f9d45c6fd739e`.
+
+Run metadata from `research/C2/pr58_corridor50/outputs/run01`:
+
+- Guard start marker: `2026-09-09T16:09:13Z`.
+- Guard finish marker: `2026-09-09T16:09:18Z`.
+- Absolute deadline marker: `2026-09-09T16:54:13Z`.
+- Exit status: `0`.
+- Arithmetic PID: `174584`; timeout PID: `174582`; wrapper PID `174568` per root run record.
+- Root confirmed the arithmetic PID absent around `2026-09-09T16:09:55Z`; root owns the precise absence timestamp.
+- No exact checker-elapsed metadata is available. The guard UTC markers span 5 seconds at 1-second resolution; no finer runtime is inferred here.
+
+Saved artifacts:
+
+- All six progress layers were emitted: `inputs`, `events`, `identities`, `corridor`, `s10`, `reference_compare`.
+- `MACHINE_PASS.json` reports status `MACHINE_PASS`, no failures, source commit `1770ed29e8487b8f39aebb4c9466406c7493e580`, and the expected one-process, one-thread, no-GPU bound.
+- The output directory contains 9 JSON artifacts validated by root, including `events.json`, `identities.json`, `corridor.json`, `s10.json`, and `reference_compare.json`.
+- `s10.json` is about 14 MB and stores the full 64 events with 6400 one-sided atanh log terms.
+
+Finite certificate facts recorded by the artifacts:
+
+- `events.json`: 64 complete-event determinant polynomials were reconstructed directly over `QQ[t]`; the Schur-complement trace/e2 formula was used only as a posthoc cross-check.
+- `identities.json`: product weights sum to `1`, global `sum mu*a` and `sum mu*b` are both `0`, and all 64 principal/complementary Mobius polynomial identities are verified exactly.
+- `corridor.json`: each of the four intervals has 64 event extrema, strictly positive `q_minus`, and strictly positive squared margin:
+  - `[3,9]`: `q_minus = 745404441907/1384890022500`, squared-margin floor `0.000002115899093896045867781879411802214246581840219249767271937690274330601621019035655865`.
+  - `[8,12]`: `q_minus = 399437021266/1038667516875`, squared-margin floor `0.001055547360765217901145508654034145071973349945051536497047477991309660461039381995161377`.
+  - `[11,14]`: `q_minus = 1758582028579/6232005101250`, squared-margin floor `0.001061334831726561495214625142657240521529357877895619238045638365022883331449579089839312`.
+  - `[14,15]`: `q_minus = 1535668823/6647472108`, squared-margin floor `0.001114562525621531545890297076887913277059670745623859787734506782408556187478017573468095`.
+- `s10.json`: `min q = 121400093597/249280204050`, matching the frozen value. `W(10)` has negative upper endpoint, with width ceiling below `5.83e-83`. The true scaled curvature lower endpoint is greater than `0.17037745196806863130550498470533808479721333392335`, with width ceiling below `8.71e-79`.
+- `reference_compare.json`: all 27 required exact fractions matched author output: the 26 corridor values (`Amax`, `Bmax`, and six interval quantities for each of four intervals) plus `s10.q_min`. No required reference value was missing and no mismatch was recorded.
+
+Rounded display limitation:
+
+- The original output prints identical-looking decimal endpoints for `W(10)` and curvature. Those are treated only as rounded display text. The machine certificate uses the exact rational interval endpoints and width checks in `s10.json`.
+
+Interpretation boundary:
+
+- This is a C2 machine pass for the finite original PR58 corridor and s10 signs only. It does not assert theorem acceptance, novelty, full-chord coverage, entropy counterexample status, or publication integration. C1/C3 analytical gates remain separate.

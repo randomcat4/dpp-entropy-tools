@@ -1,0 +1,212 @@
+{
+  "A": [
+    [
+      {
+        "den": "2",
+        "num": "1"
+      },
+      {
+        "den": "20",
+        "num": "1"
+      },
+      {
+        "den": "30",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "20",
+        "num": "1"
+      },
+      {
+        "den": "5",
+        "num": "2"
+      },
+      {
+        "den": "25",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "30",
+        "num": "1"
+      },
+      {
+        "den": "25",
+        "num": "1"
+      },
+      {
+        "den": "5",
+        "num": "3"
+      }
+    ]
+  ],
+  "B_equals_UVt": [
+    [
+      {
+        "den": "100",
+        "num": "1"
+      },
+      {
+        "den": "50",
+        "num": "1"
+      },
+      {
+        "den": "100",
+        "num": "3"
+      }
+    ],
+    [
+      {
+        "den": "50",
+        "num": "1"
+      },
+      {
+        "den": "100",
+        "num": "3"
+      },
+      {
+        "den": "25",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "100",
+        "num": "3"
+      },
+      {
+        "den": "25",
+        "num": "1"
+      },
+      {
+        "den": "20",
+        "num": "1"
+      }
+    ]
+  ],
+  "B_rank": 2,
+  "C": [
+    [
+      {
+        "den": "5",
+        "num": "2"
+      },
+      {
+        "den": "30",
+        "num": "-1"
+      },
+      {
+        "den": "40",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "30",
+        "num": "-1"
+      },
+      {
+        "den": "2",
+        "num": "1"
+      },
+      {
+        "den": "35",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "40",
+        "num": "1"
+      },
+      {
+        "den": "35",
+        "num": "1"
+      },
+      {
+        "den": "20",
+        "num": "11"
+      }
+    ]
+  ],
+  "U": [
+    [
+      {
+        "den": "100",
+        "num": "1"
+      },
+      {
+        "den": "100",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "50",
+        "num": "1"
+      },
+      {
+        "den": "100",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "100",
+        "num": "3"
+      },
+      {
+        "den": "100",
+        "num": "1"
+      }
+    ]
+  ],
+  "V": [
+    [
+      {
+        "den": "1",
+        "num": "1"
+      },
+      {
+        "den": "1",
+        "num": "0"
+      }
+    ],
+    [
+      {
+        "den": "1",
+        "num": "1"
+      },
+      {
+        "den": "1",
+        "num": "1"
+      }
+    ],
+    [
+      {
+        "den": "1",
+        "num": "1"
+      },
+      {
+        "den": "1",
+        "num": "2"
+      }
+    ]
+  ],
+  "addendum_loaded_for_contract_context": true,
+  "author_checker_reference": {
+    "executed": false,
+    "imported": false,
+    "opened": false,
+    "path": "<TASK_ROOT>/source/inputs/author_checker_reference.py"
+  },
+  "claim": "https://github.com/randomcat4/dpp-entropy-tools/issues/50#issuecomment-5604628245",
+  "input_root_argument": "<TASK_ROOT>/source",
+  "inputs_dir": "<TASK_ROOT>/source/inputs",
+  "literal_matrices_source": "RESULT.md section 4",
+  "source_commit": "1770ed29e8487b8f39aebb4c9466406c7493e580",
+  "status": "OK"
+}

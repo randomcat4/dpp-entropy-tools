@@ -1,19 +1,30 @@
-# PR58 original 64-event corridor and s10 signs
+# PR58 original64-event corridor and s10 signs
 
-READY FOR FIRST EXECUTION. Source frozen at 1770ed29e8487b8f39aebb4c9466406c7493e580.
+MACHINE_PASS for the original four-file PR58 package frozen at
+1770ed29e8487b8f39aebb4c9466406c7493e580.
 
-This is a separately named independent machine-evidence unit. An independent
-implementation reconstructs complete-event determinant polynomials from
-literal rational matrices. Supplied author code is preserved only as a
-reference and is not executed or imported. Comparison targets are read only
-downstream of independent reconstruction.
+[Status](STATUS.md), [machine notes](machine_notes.md), and the
+[run ledger](execution/RUN_LEDGER.json) record the scope and provenance.
+The complete [64events](outputs/run01/events.json),
+[polynomial identities](outputs/run01/identities.json),
+[four-piece corridor](outputs/run01/corridor.json),
+[s10 exact log certificate](outputs/run01/s10.json), and
+[27rational comparisons](outputs/run01/reference_compare.json) retain the evidence.
 
-See [frozen_contract.md](frozen_contract.md) and
-[inputs/SOURCE_BINDING.json](inputs/SOURCE_BINDING.json). The new budget is
-2700 seconds total wall time from first arithmetic launch, one
-process/CPU/thread, 16 GiB, no GPU, shared by any necessary bounded repair.
-The operator runs these finite units serially. No arithmetic has started.
+The source constructs complete6x6eventpolynomials directly before any posthoc
+Schur cross-check or author-output comparison. It never reads/imports/executes
+the author checker. All rational endpoints are stored as numerator/denominator
+strings; the s10 artifact also retains every finite atanh term and its rigorous
+one-sided tail.
 
-C2 supplies machine evidence, C1 owns analytical review, and C3 controls the
-independent later gate and integration. No theorem FIRST/SECOND verdict,
-entropy counterexample, full-chord scan, novelty or Lean claim is made here.
+One run completed with exit0,16:09:13–16:09:18UTC, before its unchanged
+16:54:13UTC deadline; no repair, rerun or overlapping C2 arithmetic occurred.
+The2700second, one-process/CPU/thread,16GiB,noGPU bound was not extended.
+
+The original rounded decimal endpoint display is not an exact enclosure.
+The independent rational W sign, true curvature bound and both width targets
+pass. C1/C3 analytical review and integration remain separate from this
+machine packet. The new joint-additive s9/10 witness is a different unit;
+no whole-chord, entropy counterexample, novelty or Lean claim is made here.
+
+See [frozen contract](frozen_contract.md) and [input binding](inputs/SOURCE_BINDING.json).
