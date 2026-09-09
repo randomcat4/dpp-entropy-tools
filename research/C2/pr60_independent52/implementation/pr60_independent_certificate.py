@@ -535,7 +535,7 @@ def determinant_by_permutation_poly(mat: list[list[sp.Poly]]) -> sp.Poly:
         sign = -1 if inv_count % 2 else 1
         term = sp.Poly(sign, *VARS, domain=sp.QQ)
         for row, col in enumerate(perm):
-            term *= mat[row, col]
+            term *= mat[row][col]
         total = total + term
     return total
 

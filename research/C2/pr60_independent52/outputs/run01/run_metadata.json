@@ -1,0 +1,90 @@
+{
+  "argv": [
+    "<TASK_ROOT>/source/implementation/pr60_independent_certificate.py",
+    "--input-root",
+    "<TASK_ROOT>/source/inputs",
+    "--out",
+    "<TASK_ROOT>/runs/run01",
+    "--wall-seconds",
+    "2700"
+  ],
+  "construction_guard": {
+    "author_components_used_after_fresh_P": true,
+    "forbidden_author_scripts": [
+      "<TASK_ROOT>/source/inputs/pr60/certificate.py",
+      "<TASK_ROOT>/source/inputs/pr60/bridge_checks.py"
+    ]
+  },
+  "deadline_epoch": 1788970383.0,
+  "deadline_utc": "2026-09-09T16:13:03+00:00",
+  "end_utc": "2026-09-09T15:28:32.705856+00:00",
+  "input_root": "<TASK_ROOT>/source/inputs",
+  "memory_limit": {
+    "applied": true,
+    "hard": 17179869184,
+    "requested_bytes": 17179869184,
+    "soft": 17179869184
+  },
+  "out_dir": "<TASK_ROOT>/runs/run01",
+  "pid": 174230,
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "source_binding": {
+    "comparison_data": {
+      "construction": "six exact literal RHS strings from certificate.py; no execution",
+      "file": "inputs/reference_P_components.json",
+      "use": "downstream only after fresh determinant and P construction"
+    },
+    "main": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+    "main_structure": {
+      "blob": "36735e3a3d49f4c7ef732303e7615c943cc56175",
+      "copy": "inputs/main/STRUCTURE.md",
+      "source": "research/C2/lambda_zero52/structure/STRUCTURE.md"
+    },
+    "pr": 60,
+    "pr_inputs": [
+      {
+        "blob": "3a6a6204f7c3e63165f5d661c60653b8e042c679",
+        "copy": "inputs/pr60/README.md",
+        "source": "research/I05-22-R3-lambda-zero-global/README.md"
+      },
+      {
+        "blob": "63df86ad1f93c551a6e3834bb183245657f28996",
+        "copy": "inputs/pr60/bridge_checks.py",
+        "source": "research/I05-22-R3-lambda-zero-global/bridge_checks.py"
+      },
+      {
+        "blob": "c1babac65d7c2c4cef534ab5488802adf62e66f4",
+        "copy": "inputs/pr60/certificate.py",
+        "source": "research/I05-22-R3-lambda-zero-global/certificate.py"
+      },
+      {
+        "blob": "0ab3e96592497382096c93c67e1e5224673fa119",
+        "copy": "inputs/pr60/proof.md",
+        "source": "research/I05-22-R3-lambda-zero-global/proof.md"
+      },
+      {
+        "blob": "93566de352021d64c3b061a8a86a066ebde6d287",
+        "copy": "inputs/pr60/sources_routes.md",
+        "source": "research/I05-22-R3-lambda-zero-global/sources_routes.md"
+      },
+      {
+        "blob": "f5bedb3faeabafea9897d1f6dd0de7e403ba4db7",
+        "copy": "inputs/pr60/verification.md",
+        "source": "research/I05-22-R3-lambda-zero-global/verification.md"
+      }
+    ],
+    "source_commit": "f869fd251c0d6fdad737b6d5efa287307795a87d"
+  },
+  "start_utc": "2026-09-09T15:28:04.138390+00:00",
+  "status": "FAIL",
+  "sympy": "1.14.0",
+  "thread_env": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "wall_seconds": 2700
+}
