@@ -1,0 +1,26 @@
+{
+  "environment": {
+    "implementation": "CPython",
+    "platform": "Linux x86_64",
+    "python_version": "3.13.5"
+  },
+  "runs": [
+    {
+      "command": "python research/I05-DPP-21-nonzero-20260909/code/check_explicit_family.py",
+      "exit_status": 0,
+      "output": "research/I05-DPP-21-nonzero-20260909/output/explicit_family_exact.json",
+      "scope": "exact rational example constants only; no entropy or rate computation",
+      "third_party_dependencies": []
+    },
+    {
+      "command": "python research/I05-DPP-21-nonzero-20260909/code/check_rpf_hessian.py",
+      "exit_status": 0,
+      "output": "research/I05-DPP-21-nonzero-20260909/output/rpf_hessian_exact.json",
+      "scope": "exact symbolic finite-memory RPF Hessian identity only; not a DPP theorem",
+      "third_party_dependencies": [
+        "sympy==1.14.0"
+      ]
+    }
+  ],
+  "theorem_dependency_on_computation": false
+}
