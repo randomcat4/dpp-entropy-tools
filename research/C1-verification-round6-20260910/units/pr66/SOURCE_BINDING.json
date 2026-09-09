@@ -1,0 +1,68 @@
+{
+  "pr": 66,
+  "origin": "public immutable GitHub commit",
+  "files": [
+    {
+      "path": "research/I05-DPP-25-20260909/README.md",
+      "download_hash_verified": true,
+      "lines": 76,
+      "blob": "dc5191e88bcaa0430a5e5d6ed98cb750971e2711",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/attempts.md",
+      "download_hash_verified": true,
+      "lines": 109,
+      "blob": "bde6beb36322d090fe58bf16b9a3b890e1df38fb",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/equilibrium_bridge.md",
+      "download_hash_verified": true,
+      "lines": 218,
+      "blob": "10c53fb59b40ab65c49059339eaa3943ba6fe628",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/frozen_statement.md",
+      "download_hash_verified": true,
+      "lines": 120,
+      "blob": "7c502301636b359f7f7841822d3dab1e3fa31de6",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/proof.md",
+      "download_hash_verified": true,
+      "lines": 627,
+      "blob": "33c4d372c2f3df4b7a319beb622605c3207dc3f2",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/route_comparison_and_obstruction.md",
+      "download_hash_verified": true,
+      "lines": 126,
+      "blob": "681d028f7805dd6e2784373942266fef1bcc866e",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/sources.md",
+      "download_hash_verified": true,
+      "lines": 76,
+      "blob": "c794b1c4dd804dc44a8c5d6df2997d41f90604ee",
+      "status": "added"
+    },
+    {
+      "path": "research/I05-DPP-25-20260909/verification.md",
+      "download_hash_verified": true,
+      "lines": 321,
+      "blob": "418106388fb2f9b5c9ba833800968d1b47481f34",
+      "status": "added"
+    }
+  ],
+  "review_scope": "Entire frozen author packet; mathematical proof and static code review separated",
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "file_count": 8,
+  "prefix": "research/I05-DPP-25-20260909/",
+  "computation": "No C1 arithmetic execution; independent exact reconstruction assigned to C2",
+  "commit": "af1edaad69c4e1f5e4bbd1239b8463b56bf64075"
+}

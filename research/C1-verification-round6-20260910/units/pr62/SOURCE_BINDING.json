@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/README.md",
+      "lines": 58,
+      "blob": "7aed571e22e5b4637949daf53ff3a5f29fa8707f"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/code/probe_multiring_fixture.py",
+      "lines": 202,
+      "blob": "fd476d5d12240943ad5e24eb0e4e8c1693b4704c"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/code/verify_rank1_midpoint.py",
+      "lines": 213,
+      "blob": "dbb9fa96cff42f98403817fe2984f96d22262a10"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/failure_ledger.md",
+      "lines": 49,
+      "blob": "19811a3728f33829fffbe2f5cc6b7282a073545c"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/moving_rank1_theorem.md",
+      "lines": 310,
+      "blob": "57cf8735a215bba8059e364a0ae905426c2f2873"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/multiring_fixture.md",
+      "lines": 176,
+      "blob": "5ddc8b57959e655ba921ca3b6849d85457d325e6"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/output/probe_multiring_fixture.txt",
+      "lines": 91,
+      "blob": "595f3680b4caa95765f25b6c50f61dff4a2f40ae"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/output/verify_rank1_midpoint.txt",
+      "lines": 21,
+      "blob": "3429b53381dec9ca952cc977584bb2defe9da633"
+    },
+    {
+      "status": "added",
+      "download_hash_verified": true,
+      "path": "research/N4/agent24_20260909/prior_art.md",
+      "lines": 94,
+      "blob": "2395efc17869c325217a04ed0fdc8000d6791c9b"
+    }
+  ],
+  "base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "commit": "2ab69f71d4d36a2734beed83680dd3d9dc1f0a77",
+  "origin": "public immutable GitHub commit",
+  "prefix": "research/N4/agent24_20260909/",
+  "computation": "No C1 arithmetic execution; independent exact reconstruction assigned to C2",
+  "pr": 62,
+  "review_scope": "Entire frozen author packet; mathematical proof and static code review separated",
+  "file_count": 9
+}
