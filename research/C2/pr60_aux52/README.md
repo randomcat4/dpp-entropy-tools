@@ -1,6 +1,6 @@
 # PR60 fixed radial obstruction and true curvature
 
-PREPARING. Source frozen at f869fd251c0d6fdad737b6d5efa287307795a87d.
+READY FOR FIRST EXECUTION. Source frozen at f869fd251c0d6fdad737b6d5efa287307795a87d.
 
 This is a separately named independent machine-evidence unit. An independent
 implementation reconstructs complete-event determinant polynomials from
