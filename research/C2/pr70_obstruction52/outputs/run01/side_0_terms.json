@@ -1,0 +1,150 @@
+[
+  {
+    "side": 0,
+    "marginal": 0,
+    "r_jet": [
+      "31/11250",
+      "-109307/9450000",
+      "-6137/354375"
+    ],
+    "P_jet": [
+      "6/25",
+      "-221/500",
+      "-88/25"
+    ],
+    "q_jet": [
+      "31/2700",
+      "-409/15120",
+      "-1321/388800"
+    ],
+    "direct_full_derivative": {
+      "constant": "18894973/492156000",
+      "log_coefficients": {
+        "31/11250": "-6137/354375",
+        "6/25": "6137/354375"
+      }
+    },
+    "perspective_derivative": {
+      "constant": "18894973/492156000",
+      "log_coefficients": {
+        "31/11250": "-6137/354375",
+        "6/25": "6137/354375"
+      }
+    },
+    "conditional_Fisher": "167281/10936800",
+    "acceleration_log_coefficient": "-6137/354375",
+    "retained_Psecond_term": "682/16875",
+    "retained_rsecond_constant": "-6137/354375"
+  },
+  {
+    "side": 0,
+    "marginal": 1,
+    "r_jet": [
+      "427/90000",
+      "-82393/9450000",
+      "-14113/354375"
+    ],
+    "P_jet": [
+      "1/100",
+      "121/500",
+      "88/25"
+    ],
+    "q_jet": [
+      "427/900",
+      "-11674/945",
+      "864512/2025"
+    ],
+    "direct_full_derivative": {
+      "constant": "106394479/70615125",
+      "log_coefficients": {
+        "427/90000": "-14113/354375",
+        "1/100": "14113/354375"
+      }
+    },
+    "perspective_derivative": {
+      "constant": "106394479/70615125",
+      "log_coefficients": {
+        "427/90000": "-14113/354375",
+        "1/100": "14113/354375"
+      }
+    },
+    "conditional_Fisher": "136282276/42369075",
+    "acceleration_log_coefficient": "-14113/354375",
+    "retained_Psecond_term": "-9394/5625",
+    "retained_rsecond_constant": "-14113/354375"
+  },
+  {
+    "side": 0,
+    "marginal": 2,
+    "r_jet": [
+      "931/3750",
+      "-480077/1050000",
+      "-128207/39375"
+    ],
+    "P_jet": [
+      "18/25",
+      "-279/500",
+      "88/25"
+    ],
+    "q_jet": [
+      "931/2700",
+      "-5561/15120",
+      "-2635337/388800"
+    ],
+    "direct_full_derivative": {
+      "constant": "-20630425411/4926852000",
+      "log_coefficients": {
+        "931/3750": "-128207/39375",
+        "18/25": "128207/39375"
+      }
+    },
+    "perspective_derivative": {
+      "constant": "-20630425411/4926852000",
+      "log_coefficients": {
+        "931/3750": "-128207/39375",
+        "18/25": "128207/39375"
+      }
+    },
+    "conditional_Fisher": "30924721/109485600",
+    "acceleration_log_coefficient": "-128207/39375",
+    "retained_Psecond_term": "-20482/16875",
+    "retained_rsecond_constant": "-128207/39375"
+  },
+  {
+    "side": 0,
+    "marginal": 3,
+    "r_jet": [
+      "727/30000",
+      "651377/1050000",
+      "130457/39375"
+    ],
+    "P_jet": [
+      "3/100",
+      "379/500",
+      "-88/25"
+    ],
+    "q_jet": [
+      "727/900",
+      "254/945",
+      "388064/2025"
+    ],
+    "direct_full_derivative": {
+      "constant": "740512541/120227625",
+      "log_coefficients": {
+        "727/30000": "130457/39375",
+        "3/100": "-130457/39375"
+      }
+    },
+    "perspective_derivative": {
+      "constant": "740512541/120227625",
+      "log_coefficients": {
+        "727/30000": "130457/39375",
+        "3/100": "-130457/39375"
+      }
+    },
+    "conditional_Fisher": "64516/24045525",
+    "acceleration_log_coefficient": "130457/39375",
+    "retained_Psecond_term": "15994/5625",
+    "retained_rsecond_constant": "130457/39375"
+  }
+]

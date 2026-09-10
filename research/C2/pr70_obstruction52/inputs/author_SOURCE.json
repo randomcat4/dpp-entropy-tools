@@ -1,0 +1,73 @@
+{
+  "pr": 70,
+  "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+  "observed_live_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+  "prefix": "research/I05-22-R4-paired-perspective/",
+  "files": [
+    {
+      "path": "research/I05-22-R4-paired-perspective/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a35d09435161d9ef3918eb9992a551c14855b24",
+      "size": 6343,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/9a35d09435161d9ef3918eb9992a551c14855b24"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/inputs.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ee62b8eb0eb7b1343d81781d039a88ba5f0f6a",
+      "size": 1228,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/64ee62b8eb0eb7b1343d81781d039a88ba5f0f6a"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/post_checkpoint.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37206206cb83cfb948832ac731d34eaf966a26da",
+      "size": 9354,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/37206206cb83cfb948832ac731d34eaf966a26da"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/proof.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+      "size": 17447,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/5732657cd5e5ce87d2d2409a4556379228ae3145"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/tail_bound.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14341499ba19fc6f597627a27c5c160f69193d6e",
+      "size": 4990,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/14341499ba19fc6f597627a27c5c160f69193d6e"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/thinning_bridge.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+      "size": 6616,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/6e10862d47ca0e66c0fc0b468342688f6648f761"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/verification.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9473a7f61590fc57f73285ef3e4e24c4c36c5c1d",
+      "size": 6845,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/9473a7f61590fc57f73285ef3e4e24c4c36c5c1d"
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective/verify_bridges.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655f546ae76edd996dcbd14fecc243af1e94f0f0",
+      "size": 5762,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/655f546ae76edd996dcbd14fecc243af1e94f0f0"
+    }
+  ],
+  "note": "Source snapshot only; no mathematical verdict."
+}
