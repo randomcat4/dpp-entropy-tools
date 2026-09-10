@@ -1,0 +1,18 @@
+Same-author exact checker run; not independent review.
+
+Source: research/I05-22-R5-logmean-imbalance/verify_shared_corner_cell.py
+Command: python verify_shared_corner_cell.py
+Environment: Python 3.13.5, SymPy 1.14.0, GCC 14.2.0
+Exit status: 0
+
+SymPy 1.14.0
+PASS: half-leaf corner transform and R edge/cell decomposition
+PASS: complete six-coordinate quadratic decomposition
+PASS: inverse-root curvature and one-edge 3/8 completion
+PASS: independent exact reconstruction of prior relaxed witness
+PASS: exact fixed-shape rational gates
+PASS: direct original eight-event comparisons in three physical directions
+PASS: fixed-shape quantitative Gram minors
+ALL SHARED-CORNER CELL CHECKS PASSED
+
+No retry, precision change, numerical scan, interval subdivision, or issue73 computation was performed.
