@@ -1,0 +1,3 @@
+PASS full_square_certificate.json
+boxes 4096 minimum lower 0.012067200390564330 at (63, 63)
+q range 576/390625 558671015947/1638400000000
