@@ -1,0 +1,7 @@
+PASS strong_family_certificate.json
+acceleration global upper 2.389230399161136
+complete Fisher global lower 2.893054742726601
+H_second global upper -0.5038243435654648
+midpoint acceleration family interval [0.01938776527730126, 0.16625409146835987]
+left/right maximizing boxes (31,15) (0,15)
+runtime 14.914 seconds
