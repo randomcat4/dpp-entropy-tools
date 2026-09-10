@@ -26,3 +26,10 @@ Later PR80/PR81/PR82 heads are not inherited. PR70's raw PR85 evidence is
 under a separate original-reviewer closure in PR78. PR77's finite raw
 evidence remains pending there; these states do not accept the new PR79
 thresholds or the PR80 fixture cone.
+
+The user then explicitly assigned PR80/81/82 successor deltas and PR79's
+RESULT-only ae1149f2 text patch. Immutable comparisons bind six additions,
+one addition, two additions, and one changed RESULT respectively. Original
+reports and source scopes are preserved. PR79's original reviewer closed
+F1/F3 in ae1149f2 without arithmetic; the three other successor reviews are
+in progress. No later author source beyond those exact heads is inherited.

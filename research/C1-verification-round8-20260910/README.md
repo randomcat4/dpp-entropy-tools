@@ -26,8 +26,23 @@ See [freeze](frozen_theorem_v1.md), [claim ledger](lemma_ledger.md),
 Each unit has a scope, mathematical report and static evidence report:
 [PR79](units/pr79/review_report.md), [PR80](units/pr80/review_report.md),
 [PR81](units/pr81/review_report.md), [PR82](units/pr82/review_report.md).
-Later unassigned author heads are excluded. Future finite-check suggestions
-are not authorizations and do not expand the existing PR70/PR77 contracts.
+The original reports remain unchanged. Separately assigned deltas have
+their own freezes and reports:
+
+| PR | Explicit delta head | Changed files | Delta-FIRST |
+|---|---|---|---|
+| 79 | ae1149f2ed7d657afa494740c3abae83de549d3f | RESULT only | ACCEPTED_DELTA: original text findings closed; numerical comparisons pending |
+| 80 | 76eae9dbe1294358d1488f80a7e31a67f0b3dca4 | 6 additions; original RESULT unchanged | IN_PROGRESS |
+| 81 | 92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac | 1 coupled-Gram addition; original proof unchanged | IN_PROGRESS |
+| 82 | 5e0861e4725d35c9e9b408c45c45291e121d5011 | 2 low-regularity additions; original README unchanged | IN_PROGRESS |
+
+See [PR79 text delta](units/pr79/budget_scope_ae11_review.md). PR70's fixed
+finite gate has now passed actual source/evidence FIRST in
+[PR78 at 9091413](https://github.com/randomcat4/dpp-entropy-tools/blob/9091413a1364366652c6b4f3d9f1edc0de5cf02f/research/C1-verification-round7-20260910/units/pr70/machine_pr85_review.md);
+this supplies the previously pending fixed auxiliary witness at FIRST,
+while isolated SECOND remains separate. Original PR81 review history is
+preserved. Future finite-check suggestions are not authorizations and do
+not expand the existing PR70/PR77 contracts.
 
 Novelty is NOT_ASSESSED. A short lemma is not an automatic global theorem.
 PR66's external theorem-applicability gap remains open unless a separately

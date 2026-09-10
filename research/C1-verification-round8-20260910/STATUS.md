@@ -12,8 +12,25 @@ of review, not acceptance of all author claims or a SECOND verdict.
 
 Novelty is NOT_ASSESSED and no formal verification was performed. C1
 performed no arithmetic or code execution. C3 owns isolated SECOND and
-integration. No later author delta has been assigned to this archive.
+integration. Later explicitly assigned deltas are recorded separately
+below; original reports retain their historical findings.
 
 PR79 and PR80 report checklists are future suggestions only. They require
 new explicit contracts if pursued, and do not enlarge the PR70 600-second
 or PR77 2700-second contracts recorded in PR78.
+
+PR79 delta ae1149f2: ACCEPTED_DELTA. The RESULT text now defines the explicit
+upper budget, removes actual-tail lower-bound and necessary-depth inferences,
+and separates positive-interval coverage from gauge-evenness transfer.
+All finite values/thresholds and whole-interval curvature remain pending/open.
+Unchanged code naming is a nonblocking cleanup recommendation for this text
+delta. Original F1/F3 findings are preserved and closed by this later review.
+
+PR80 76eae9db, PR81 92c1b3df and PR82 5e0861e4: separately frozen
+successor FIRSTs IN_PROGRESS. No new author material or finite PASS is
+accepted before those reviews finish.
+
+PR81's PR70 dependency: the actual PR85 raw packet has passed C1 FIRST in
+PR78 at 9091413. The fixed auxiliary witness therefore no longer awaits
+C2 raw evidence at this review layer; C3's isolated SECOND is still separate.
+No original PR81 report is rewritten and no general determinant claim follows.

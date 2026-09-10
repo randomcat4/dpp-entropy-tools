@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "lines": 149,
+      "bytes": 5634,
+      "git_blob": "ce3340bb51d30d29eb2f8b396d79e01adff2aeef",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+      "additions": 149,
+      "sha256": "a08b6bee79f5cc1b8d5aa29725cad4509abae7a5b239435c6c25017736f8c73e",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 170,
+      "bytes": 8557,
+      "git_blob": "776126d257696850c8f3367c9789b9d143e8bbde",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_S09_SIGNED_FIBERS.md",
+      "additions": 170,
+      "sha256": "13bbb70836e00d58f54f46708ce3410bef118e13d5e6251d116b9d674a6907e7",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 52,
+      "bytes": 2075,
+      "git_blob": "6b6bb663a3c267fb99e8a3d1472f4f473e1b5580",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_fiber_window_bound.py",
+      "additions": 52,
+      "sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 233,
+      "bytes": 7060,
+      "git_blob": "e19531953a017d1cb8c6b40111332880e9eeb01e",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_signed_fibers.py",
+      "additions": 233,
+      "sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 25,
+      "bytes": 1207,
+      "git_blob": "ba1db176107962cc2ed15521ed733a9b81b78c20",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_fiber_window_bound.txt",
+      "additions": 25,
+      "sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 31,
+      "bytes": 1572,
+      "git_blob": "f745bdd841a15b29bbe32feecf940bdab4af0f93",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_signed_fibers.txt",
+      "additions": 31,
+      "sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a",
+      "status": "added",
+      "deletions": 0
+    }
+  ],
+  "pr": 80,
+  "head": "76eae9dbe1294358d1488f80a7e31a67f0b3dca4",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/1b8c322faa6571a4da060677b757615e65594e35...76eae9dbe1294358d1488f80a7e31a67f0b3dca4",
+  "base": "1b8c322faa6571a4da060677b757615e65594e35"
+}

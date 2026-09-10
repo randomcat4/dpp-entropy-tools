@@ -4,7 +4,7 @@ All twelve source/evidence reports are complete against the exact heads
 in [README](README.md) and the unit bindings. Original author files were
 read by immutable blob; no live author head is silently included.
 
-PR79 needs a text delta before SECOND: the code sums the published upper
+PR79 originally needed a text delta before SECOND: the code sums the published upper
 majorant B_R, while the source names the actual sum of absolute curvature
 increments. B20 above a threshold only makes the current bound insufficient;
 it cannot lower-bound the actual tail. Clarify the positive interval versus
@@ -33,3 +33,16 @@ Feed isolated SECOND the frozen author source and permitted source premises,
 not FIRST opinions. No author edit, merge, arithmetic or formal check was
 performed by C1. Suggested future C2 checks in the reports are not execution
 authorization and cannot consume or expand the PR70/PR77 finite contracts.
+
+The newly authorized PR79 RESULT-only ae1149f2 delta has now passed the
+same reviewer's independent delta-FIRST: original F1/F3 are closed in the
+text, while numerical signs and interval curvature remain pending/open.
+See [delta review](units/pr79/budget_scope_ae11_review.md). Its unchanged
+tail(R) name is not a blocker once the text accurately identifies the
+computed upper majorant. C3 can now supply that exact delta to SECOND.
+
+PR80/81/82 successors are separately frozen and under their original
+reviewers; the original twelve reports are preserved. PR70's fixed raw
+finite evidence has meanwhile passed FIRST in PR78 at 9091413, supplying
+the previously pending auxiliary-witness dependency at that layer. This
+does not replace C3's separate SECOND or prove the general determinant.

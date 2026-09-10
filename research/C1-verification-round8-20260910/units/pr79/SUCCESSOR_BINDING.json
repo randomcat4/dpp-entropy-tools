@@ -1,0 +1,19 @@
+{
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/bee0e5b5264ced09feb6403a718e25f835e91d21...ae1149f2ed7d657afa494740c3abae83de549d3f",
+  "files": [
+    {
+      "lines": 130,
+      "status": "modified",
+      "path": "research/I05-DPP-27-rate-curvature-20260910/RESULT.md",
+      "git_blob": "84aa5f1c0fb3b628bbab8999eb12002331715cc1",
+      "deletions": 20,
+      "bytes": 8272,
+      "sha256": "33b4e1b8fe000c008004def8da8fa5a2cbf4e4d14de89b79781fabcbb3a06be5",
+      "additions": 24
+    }
+  ],
+  "base": "bee0e5b5264ced09feb6403a718e25f835e91d21",
+  "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+  "pr": 79
+}
