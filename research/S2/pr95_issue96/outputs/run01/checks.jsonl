@@ -1,0 +1,477 @@
+{"data": {"actual": "89aa874c24dd5a3ea98f8474826392560b1d0397"}, "name": "fixture_source_ref", "passed": true, "sequence": 1}
+{"data": {"actual": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md"}, "name": "fixture_source_path", "passed": true, "sequence": 2}
+{"data": {"expected": 9, "found": 9}, "name": "source_A_entry_count", "passed": true, "sequence": 3}
+{"data": {"expected": 9, "found": 9}, "name": "source_C_entry_count", "passed": true, "sequence": 4}
+{"data": {"expected": 6, "found": 6}, "name": "source_U_entry_count", "passed": true, "sequence": 5}
+{"data": {"expected": 6, "found": 6}, "name": "source_V_entry_count", "passed": true, "sequence": 6}
+{"data": {"value": "219/500"}, "name": "source_binding_A_0_0", "passed": true, "sequence": 7}
+{"data": {"value": "-47/1000"}, "name": "source_binding_A_0_1", "passed": true, "sequence": 8}
+{"data": {"value": "73/1000"}, "name": "source_binding_A_0_2", "passed": true, "sequence": 9}
+{"data": {"value": "-47/1000"}, "name": "source_binding_A_1_0", "passed": true, "sequence": 10}
+{"data": {"value": "461/1000"}, "name": "source_binding_A_1_1", "passed": true, "sequence": 11}
+{"data": {"value": "23/1000"}, "name": "source_binding_A_1_2", "passed": true, "sequence": 12}
+{"data": {"value": "73/1000"}, "name": "source_binding_A_2_0", "passed": true, "sequence": 13}
+{"data": {"value": "23/1000"}, "name": "source_binding_A_2_1", "passed": true, "sequence": 14}
+{"data": {"value": "43/100"}, "name": "source_binding_A_2_2", "passed": true, "sequence": 15}
+{"data": {"value": "231/500"}, "name": "source_binding_C_0_0", "passed": true, "sequence": 16}
+{"data": {"value": "1/50"}, "name": "source_binding_C_0_1", "passed": true, "sequence": 17}
+{"data": {"value": "-49/1000"}, "name": "source_binding_C_0_2", "passed": true, "sequence": 18}
+{"data": {"value": "1/50"}, "name": "source_binding_C_1_0", "passed": true, "sequence": 19}
+{"data": {"value": "43/100"}, "name": "source_binding_C_1_1", "passed": true, "sequence": 20}
+{"data": {"value": "11/200"}, "name": "source_binding_C_1_2", "passed": true, "sequence": 21}
+{"data": {"value": "-49/1000"}, "name": "source_binding_C_2_0", "passed": true, "sequence": 22}
+{"data": {"value": "11/200"}, "name": "source_binding_C_2_1", "passed": true, "sequence": 23}
+{"data": {"value": "3/5"}, "name": "source_binding_C_2_2", "passed": true, "sequence": 24}
+{"data": {"value": "7/40"}, "name": "source_binding_U_0_0", "passed": true, "sequence": 25}
+{"data": {"value": "-22/125"}, "name": "source_binding_U_0_1", "passed": true, "sequence": 26}
+{"data": {"value": "339/1000"}, "name": "source_binding_U_1_0", "passed": true, "sequence": 27}
+{"data": {"value": "13/250"}, "name": "source_binding_U_1_1", "passed": true, "sequence": 28}
+{"data": {"value": "229/500"}, "name": "source_binding_U_2_0", "passed": true, "sequence": 29}
+{"data": {"value": "-231/500"}, "name": "source_binding_U_2_1", "passed": true, "sequence": 30}
+{"data": {"value": "141/200"}, "name": "source_binding_V_0_0", "passed": true, "sequence": 31}
+{"data": {"value": "981/1000"}, "name": "source_binding_V_0_1", "passed": true, "sequence": 32}
+{"data": {"value": "-343/1000"}, "name": "source_binding_V_1_0", "passed": true, "sequence": 33}
+{"data": {"value": "113/250"}, "name": "source_binding_V_1_1", "passed": true, "sequence": 34}
+{"data": {"value": "187/250"}, "name": "source_binding_V_2_0", "passed": true, "sequence": 35}
+{"data": {"value": "577/1000"}, "name": "source_binding_V_2_1", "passed": true, "sequence": 36}
+{"data": {"count": 30}, "name": "source_binding_total_30", "passed": true, "sequence": 37}
+{"data": {"minors": ["69/500", "20009/1000000", "1512373/1000000000"]}, "name": "A_spectrum_above_3_10", "passed": true, "sequence": 38}
+{"data": {"minors": ["131/500", "60409/1000000", "15056027/1000000000"]}, "name": "A_spectrum_below_7_10", "passed": true, "sequence": 39}
+{"data": {"minors": ["81/500", "1033/50000", "264401/50000000"]}, "name": "C_spectrum_above_3_10", "passed": true, "sequence": 40}
+{"data": {"minors": ["119/500", "3193/50000", "256279/50000000"]}, "name": "C_spectrum_below_7_10", "passed": true, "sequence": 41}
+{"data": {"exact": "301217/500000"}, "name": "U_frobenius_lt_9_10", "passed": true, "sequence": 42}
+{"data": {"exact": "668443/250000"}, "name": "V_frobenius_lt_19_10", "passed": true, "sequence": 43}
+{"data": {"exact": "17191/250000", "margin": "2000000000001/500000000000000000000000"}, "name": "U_top_minor_box_persistence", "passed": true, "sequence": 44}
+{"data": {"exact": "655143/1000000", "margin": "2000000000001/500000000000000000000000"}, "name": "V_top_minor_box_persistence", "passed": true, "sequence": 45}
+{"data": {"exact": "7337/250000", "margin": "9/1000000000000"}, "name": "B_all_entries_box_persistence", "passed": true, "sequence": 46}
+{"name": "B_rank_two", "passed": true, "sequence": 47}
+{"data": {"value": "168392327/1000000000"}, "name": "marginal_A_positive_0", "passed": true, "sequence": 48}
+{"data": {"value": "138308673/1000000000"}, "name": "marginal_A_positive_1", "passed": true, "sequence": 49}
+{"data": {"value": "146618673/1000000000"}, "name": "marginal_A_positive_2", "passed": true, "sequence": 50}
+{"data": {"value": "116680327/1000000000"}, "name": "marginal_A_positive_3", "passed": true, "sequence": 51}
+{"data": {"value": "132316673/1000000000"}, "name": "marginal_A_positive_4", "passed": true, "sequence": 52}
+{"data": {"value": "99982327/1000000000"}, "name": "marginal_A_positive_5", "passed": true, "sequence": 53}
+{"data": {"value": "114672327/1000000000"}, "name": "marginal_A_positive_6", "passed": true, "sequence": 54}
+{"data": {"value": "83028673/1000000000"}, "name": "marginal_A_positive_7", "passed": true, "sequence": 55}
+{"data": {"value": "5980789/50000000"}, "name": "marginal_C_positive_0", "passed": true, "sequence": 56}
+{"data": {"value": "5267961/50000000"}, "name": "marginal_C_positive_1", "passed": true, "sequence": 57}
+{"data": {"value": "4659161/50000000"}, "name": "marginal_C_positive_2", "passed": true, "sequence": 58}
+{"data": {"value": "4092089/50000000"}, "name": "marginal_C_positive_3", "passed": true, "sequence": 59}
+{"data": {"value": "9332211/50000000"}, "name": "marginal_C_positive_4", "passed": true, "sequence": 60}
+{"data": {"value": "7919039/50000000"}, "name": "marginal_C_positive_5", "passed": true, "sequence": 61}
+{"data": {"value": "6927839/50000000"}, "name": "marginal_C_positive_6", "passed": true, "sequence": 62}
+{"data": {"value": "5820911/50000000"}, "name": "marginal_C_positive_7", "passed": true, "sequence": 63}
+{"data": {"total": "1"}, "name": "marginal_A_total", "passed": true, "sequence": 64}
+{"data": {"total": "1"}, "name": "marginal_C_total", "passed": true, "sequence": 65}
+{"name": "mobius_shifted_identity_0", "passed": true, "sequence": 66}
+{"name": "odd_and_rank2_degrees_0", "passed": true, "sequence": 67}
+{"data": {"mu": "1007118977006003/50000000000000000"}, "name": "event_mu_0", "passed": true, "sequence": 68}
+{"data": {"mobius": "6223365089393245108359/5035594885030015000000", "schur": "6223365089393245108359/5035594885030015000000"}, "name": "schur_a_0", "passed": true, "sequence": 69}
+{"data": {"mobius": "479107182265213678115726511/1258898721257503750000000000", "schur": "479107182265213678115726511/1258898721257503750000000000"}, "name": "schur_b_0", "passed": true, "sequence": 70}
+{"name": "mobius_shifted_identity_1", "passed": true, "sequence": 71}
+{"name": "odd_and_rank2_degrees_1", "passed": true, "sequence": 72}
+{"data": {"mu": "827194990082997/50000000000000000"}, "name": "event_mu_1", "passed": true, "sequence": 73}
+{"data": {"mobius": "3901139448212077256641/4135974950414985000000", "schur": "3901139448212077256641/4135974950414985000000"}, "name": "schur_a_1", "passed": true, "sequence": 74}
+{"data": {"mobius": "68352943961792330726534163/344664579201248750000000000", "schur": "68352943961792330726534163/344664579201248750000000000"}, "name": "schur_b_1", "passed": true, "sequence": 75}
+{"name": "mobius_shifted_identity_2", "passed": true, "sequence": 76}
+{"name": "odd_and_rank2_degrees_2", "passed": true, "sequence": 77}
+{"data": {"mu": "876895346672997/50000000000000000"}, "name": "event_mu_2", "passed": true, "sequence": 78}
+{"data": {"mobius": "-117208001443530411453/1461492244454995000000", "schur": "-117208001443530411453/1461492244454995000000"}, "name": "schur_a_2", "passed": true, "sequence": 79}
+{"data": {"mobius": "-159701983851978391010841837/365373061113748750000000000", "schur": "-159701983851978391010841837/365373061113748750000000000"}, "name": "schur_b_2", "passed": true, "sequence": 80}
+{"name": "mobius_shifted_identity_3", "passed": true, "sequence": 81}
+{"name": "odd_and_rank2_degrees_3", "passed": true, "sequence": 82}
+{"data": {"mu": "697840416238003/50000000000000000"}, "name": "event_mu_3", "passed": true, "sequence": 83}
+{"data": {"mobius": "-1390386356759772130641/3489202081190015000000", "schur": "-1390386356759772130641/3489202081190015000000"}, "name": "schur_a_3", "passed": true, "sequence": 84}
+{"data": {"mobius": "-205060062594655497262803489/872300520297503750000000000", "schur": "-205060062594655497262803489/872300520297503750000000000"}, "name": "schur_b_3", "passed": true, "sequence": 85}
+{"name": "mobius_shifted_identity_4", "passed": true, "sequence": 86}
+{"name": "odd_and_rank2_degrees_4", "passed": true, "sequence": 87}
+{"data": {"mu": "791358102394997/50000000000000000"}, "name": "event_mu_4", "passed": true, "sequence": 88}
+{"data": {"mobius": "-82095102929800188359/3956790511974985000000", "schur": "-82095102929800188359/3956790511974985000000"}, "name": "schur_a_4", "passed": true, "sequence": 89}
+{"data": {"mobius": "-379739077614501240621962511/989197627993746250000000000", "schur": "-379739077614501240621962511/989197627993746250000000000"}, "name": "schur_b_4", "passed": true, "sequence": 90}
+{"name": "mobius_shifted_identity_5", "passed": true, "sequence": 91}
+{"name": "odd_and_rank2_degrees_5", "passed": true, "sequence": 92}
+{"data": {"mu": "597973201516003/50000000000000000"}, "name": "event_mu_5", "passed": true, "sequence": 93}
+{"data": {"mobius": "-248139727209318176641/2989866007580015000000", "schur": "-248139727209318176641/2989866007580015000000"}, "name": "schur_a_5", "passed": true, "sequence": 94}
+{"data": {"mobius": "-304426936536089429673366489/747466501895003750000000000", "schur": "-304426936536089429673366489/747466501895003750000000000"}, "name": "schur_b_5", "passed": true, "sequence": 95}
+{"name": "mobius_shifted_identity_6", "passed": true, "sequence": 96}
+{"name": "odd_and_rank2_degrees_6", "passed": true, "sequence": 97}
+{"data": {"mu": "685830991926003/50000000000000000"}, "name": "event_mu_6", "passed": true, "sequence": 98}
+{"data": {"mobius": "-1523877447176383228547/1143051653210005000000", "schur": "-1523877447176383228547/1143051653210005000000"}, "name": "schur_a_6", "passed": true, "sequence": 99}
+{"data": {"mobius": "126579282301740911846253837/285762913302501250000000000", "schur": "126579282301740911846253837/285762913302501250000000000"}, "name": "schur_b_6", "passed": true, "sequence": 100}
+{"name": "mobius_shifted_identity_7", "passed": true, "sequence": 101}
+{"name": "odd_and_rank2_degrees_7", "passed": true, "sequence": 102}
+{"data": {"mu": "496576974162997/50000000000000000"}, "name": "event_mu_7", "passed": true, "sequence": 103}
+{"data": {"mobius": "-3480627004846690949359/2482884870814985000000", "schur": "-3480627004846690949359/2482884870814985000000"}, "name": "schur_a_7", "passed": true, "sequence": 104}
+{"data": {"mobius": "3345364475223823458863379/6821112282458750000000000", "schur": "3345364475223823458863379/6821112282458750000000000"}, "name": "schur_b_7", "passed": true, "sequence": 105}
+{"name": "mobius_shifted_identity_8", "passed": true, "sequence": 106}
+{"name": "odd_and_rank2_degrees_8", "passed": true, "sequence": 107}
+{"data": {"mu": "887084211335247/50000000000000000"}, "name": "event_mu_8", "passed": true, "sequence": 108}
+{"data": {"mobius": "273932113701033561849/492824561852915000000", "schur": "273932113701033561849/492824561852915000000"}, "name": "schur_a_8", "passed": true, "sequence": 109}
+{"data": {"mobius": "-455719311825142338538737/7247420027248750000000000", "schur": "-455719311825142338538737/7247420027248750000000000"}, "name": "schur_b_8", "passed": true, "sequence": 110}
+{"name": "mobius_shifted_identity_9", "passed": true, "sequence": 111}
+{"name": "odd_and_rank2_degrees_9", "passed": true, "sequence": 112}
+{"data": {"mu": "728604695325753/50000000000000000"}, "name": "event_mu_9", "passed": true, "sequence": 113}
+{"data": {"mobius": "1495893394246590578359/3643023476628765000000", "schur": "1495893394246590578359/3643023476628765000000"}, "name": "schur_a_9", "passed": true, "sequence": 114}
+{"data": {"mobius": "-1105276400607587654024157/33731698857673750000000000", "schur": "-1105276400607587654024157/33731698857673750000000000"}, "name": "schur_b_9", "passed": true, "sequence": 115}
+{"name": "mobius_shifted_identity_10", "passed": true, "sequence": 116}
+{"name": "odd_and_rank2_degrees_10", "passed": true, "sequence": 117}
+{"data": {"mu": "772381451235753/50000000000000000"}, "name": "event_mu_10", "passed": true, "sequence": 118}
+{"data": {"mobius": "120677770622365452151/429100806242085000000", "schur": "120677770622365452151/429100806242085000000"}, "name": "schur_a_10", "passed": true, "sequence": 119}
+{"data": {"mobius": "2582402800096998817239843/35758400520173750000000000", "schur": "2582402800096998817239843/35758400520173750000000000"}, "name": "schur_b_10", "passed": true, "sequence": 120}
+{"name": "mobius_shifted_identity_11", "passed": true, "sequence": 121}
+{"name": "odd_and_rank2_degrees_11", "passed": true, "sequence": 122}
+{"data": {"mu": "614667412103247/50000000000000000"}, "name": "event_mu_11", "passed": true, "sequence": 123}
+{"data": {"mobius": "6049703175953098547/1024445686838745000000", "schur": "6049703175953098547/1024445686838745000000"}, "name": "schur_a_11", "passed": true, "sequence": 124}
+{"data": {"mobius": "3315849102559186265511471/85370473903228750000000000", "schur": "3315849102559186265511471/85370473903228750000000000"}, "name": "schur_b_11", "passed": true, "sequence": 125}
+{"name": "mobius_shifted_identity_12", "passed": true, "sequence": 126}
+{"name": "odd_and_rank2_degrees_12", "passed": true, "sequence": 127}
+{"data": {"mu": "697039073013753/50000000000000000"}, "name": "event_mu_12", "passed": true, "sequence": 128}
+{"data": {"mobius": "-1212503955743186976641/3485195365068765000000", "schur": "-1212503955743186976641/3485195365068765000000"}, "name": "schur_a_12", "passed": true, "sequence": 129}
+{"data": {"mobius": "6140432533680084207962529/96810982363021250000000000", "schur": "6140432533680084207962529/96810982363021250000000000"}, "name": "schur_b_12", "passed": true, "sequence": 130}
+{"name": "mobius_shifted_identity_13", "passed": true, "sequence": 131}
+{"name": "odd_and_rank2_degrees_13", "passed": true, "sequence": 132}
+{"data": {"mu": "526702999325247/50000000000000000"}, "name": "event_mu_13", "passed": true, "sequence": 133}
+{"data": {"mobius": "-946653555118909658359/2633514996626235000000", "schur": "-946653555118909658359/2633514996626235000000"}, "name": "schur_a_13", "passed": true, "sequence": 134}
+{"data": {"mobius": "4922624969170098509268471/73153194350728750000000000", "schur": "4922624969170098509268471/73153194350728750000000000"}, "name": "schur_b_13", "passed": true, "sequence": 135}
+{"name": "mobius_shifted_identity_14", "passed": true, "sequence": 136}
+{"name": "odd_and_rank2_degrees_14", "passed": true, "sequence": 137}
+{"data": {"mu": "604089346415247/50000000000000000"}, "name": "event_mu_14", "passed": true, "sequence": 138}
+{"data": {"mobius": "-76130342044814673779/143830796765535000000", "schur": "-76130342044814673779/143830796765535000000"}, "name": "schur_a_14", "passed": true, "sequence": 139}
+{"data": {"mobius": "-120400247704777664794579/1645123492416250000000000", "schur": "-120400247704777664794579/1645123492416250000000000"}, "name": "schur_b_14", "passed": true, "sequence": 140}
+{"name": "mobius_shifted_identity_15", "passed": true, "sequence": 141}
+{"name": "odd_and_rank2_degrees_15", "passed": true, "sequence": 142}
+{"data": {"mu": "437391811245753/50000000000000000"}, "name": "event_mu_15", "passed": true, "sequence": 143}
+{"data": {"mobius": "-14369634822877321051/24032517101415000000", "schur": "-14369634822877321051/24032517101415000000"}, "name": "schur_a_15", "passed": true, "sequence": 144}
+{"data": {"mobius": "-54094998570401338601181/667569919483750000000000", "schur": "-54094998570401338601181/667569919483750000000000"}, "name": "schur_b_15", "passed": true, "sequence": 145}
+{"name": "mobius_shifted_identity_16", "passed": true, "sequence": 146}
+{"name": "odd_and_rank2_degrees_16", "passed": true, "sequence": 147}
+{"data": {"mu": "784566962657647/50000000000000000"}, "name": "event_mu_16", "passed": true, "sequence": 148}
+{"data": {"mobius": "214920460569665698641/3922834813288235000000", "schur": "214920460569665698641/3922834813288235000000"}, "name": "schur_a_16", "passed": true, "sequence": 149}
+{"data": {"mobius": "-326740002220710298800436761/980708703322058750000000000", "schur": "-326740002220710298800436761/980708703322058750000000000"}, "name": "schur_b_16", "passed": true, "sequence": 150}
+{"name": "mobius_shifted_identity_17", "passed": true, "sequence": 151}
+{"name": "odd_and_rank2_degrees_17", "passed": true, "sequence": 152}
+{"data": {"mu": "644402375203353/50000000000000000"}, "name": "event_mu_17", "passed": true, "sequence": 153}
+{"data": {"mobius": "301403621029029645453/1074003958672255000000", "schur": "301403621029029645453/1074003958672255000000"}, "name": "schur_a_17", "passed": true, "sequence": 154}
+{"data": {"mobius": "-46615124733206658681547413/268500989668063750000000000", "schur": "-46615124733206658681547413/268500989668063750000000000"}, "name": "schur_b_17", "passed": true, "sequence": 155}
+{"name": "mobius_shifted_identity_18", "passed": true, "sequence": 156}
+{"name": "odd_and_rank2_degrees_18", "passed": true, "sequence": 157}
+{"data": {"mu": "683120003113353/50000000000000000"}, "name": "event_mu_18", "passed": true, "sequence": 158}
+{"data": {"mobius": "-1394374571092392857547/1138533338522255000000", "schur": "-1394374571092392857547/1138533338522255000000"}, "name": "schur_a_18", "passed": true, "sequence": 159}
+{"data": {"mobius": "108913054301828495719828587/284633334630563750000000000", "schur": "108913054301828495719828587/284633334630563750000000000"}, "name": "schur_b_18", "passed": true, "sequence": 160}
+{"name": "mobius_shifted_identity_19", "passed": true, "sequence": 161}
+{"name": "odd_and_rank2_degrees_19", "passed": true, "sequence": 162}
+{"data": {"mu": "543632429025647/50000000000000000"}, "name": "event_mu_19", "passed": true, "sequence": 163}
+{"data": {"mobius": "-2600072195704535062359/2718162145128235000000", "schur": "-2600072195704535062359/2718162145128235000000"}, "name": "schur_a_19", "passed": true, "sequence": 164}
+{"data": {"mobius": "139846213514844787685593239/679540536282058750000000000", "schur": "139846213514844787685593239/679540536282058750000000000"}, "name": "schur_b_19", "passed": true, "sequence": 165}
+{"name": "mobius_shifted_identity_20", "passed": true, "sequence": 166}
+{"name": "odd_and_rank2_degrees_20", "passed": true, "sequence": 167}
+{"data": {"mu": "616484682491353/50000000000000000"}, "name": "event_mu_20", "passed": true, "sequence": 168}
+{"data": {"mobius": "3551898357038617381359/3082423412456765000000", "schur": "3551898357038617381359/3082423412456765000000"}, "name": "schur_a_20", "passed": true, "sequence": 169}
+{"data": {"mobius": "258973256206310357635672761/770605853114191250000000000", "schur": "258973256206310357635672761/770605853114191250000000000"}, "name": "schur_b_20", "passed": true, "sequence": 170}
+{"name": "mobius_shifted_identity_21", "passed": true, "sequence": 171}
+{"name": "odd_and_rank2_degrees_21", "passed": true, "sequence": 172}
+{"data": {"mu": "465833758647647/50000000000000000"}, "name": "event_mu_21", "passed": true, "sequence": 173}
+{"data": {"mobius": "2746114779326423983641/2329168793238235000000", "schur": "2746114779326423983641/2329168793238235000000"}, "name": "schur_a_21", "passed": true, "sequence": 174}
+{"data": {"mobius": "207612120214019917209406239/582292198309558750000000000", "schur": "207612120214019917209406239/582292198309558750000000000"}, "name": "schur_b_21", "passed": true, "sequence": 175}
+{"name": "mobius_shifted_identity_22", "passed": true, "sequence": 176}
+{"name": "odd_and_rank2_degrees_22", "passed": true, "sequence": 177}
+{"data": {"mu": "534276833737647/50000000000000000"}, "name": "event_mu_22", "passed": true, "sequence": 178}
+{"data": {"mobius": "-135855730680269502453/890461389562745000000", "schur": "-135855730680269502453/890461389562745000000"}, "name": "schur_a_22", "passed": true, "sequence": 179}
+{"data": {"mobius": "-86324138963695181998240587/222615347390686250000000000", "schur": "-86324138963695181998240587/222615347390686250000000000"}, "name": "schur_b_22", "passed": true, "sequence": 180}
+{"name": "mobius_shifted_identity_23", "passed": true, "sequence": 181}
+{"name": "odd_and_rank2_degrees_23", "passed": true, "sequence": 182}
+{"data": {"mu": "386843955123353/50000000000000000"}, "name": "event_mu_23", "passed": true, "sequence": 183}
+{"data": {"mobius": "-226381358999273857641/1934219775616765000000", "schur": "-226381358999273857641/1934219775616765000000"}, "name": "schur_a_23", "passed": true, "sequence": 184}
+{"data": {"mobius": "-175497007209843388715433/408753122488750000000000", "schur": "-175497007209843388715433/408753122488750000000000"}, "name": "schur_b_23", "passed": true, "sequence": 185}
+{"name": "mobius_shifted_identity_24", "passed": true, "sequence": 186}
+{"name": "odd_and_rank2_degrees_24", "passed": true, "sequence": 187}
+{"data": {"mu": "689076389001103/50000000000000000"}, "name": "event_mu_24", "passed": true, "sequence": 188}
+{"data": {"mobius": "-2029846388684051863641/3445381945005515000000", "schur": "-2029846388684051863641/3445381945005515000000"}, "name": "schur_a_24", "passed": true, "sequence": 189}
+{"data": {"mobius": "-82642125335256601518862989/861345486251378750000000000", "schur": "-82642125335256601518862989/861345486251378750000000000"}, "name": "schur_b_24", "passed": true, "sequence": 190}
+{"name": "mobius_shifted_identity_25", "passed": true, "sequence": 191}
+{"name": "odd_and_rank2_degrees_25", "passed": true, "sequence": 192}
+{"data": {"mu": "565971399387897/50000000000000000"}, "name": "event_mu_25", "passed": true, "sequence": 193}
+{"data": {"mobius": "-689485963338917771359/2829856996939485000000", "schur": "-689485963338917771359/2829856996939485000000"}, "name": "schur_a_25", "passed": true, "sequence": 194}
+{"data": {"mobius": "-11790331623117383158769337/235821416411623750000000000", "schur": "-11790331623117383158769337/235821416411623750000000000"}, "name": "schur_b_25", "passed": true, "sequence": 195}
+{"name": "mobius_shifted_identity_26", "passed": true, "sequence": 196}
+{"name": "odd_and_rank2_degrees_26", "passed": true, "sequence": 197}
+{"data": {"mu": "599976658977897/50000000000000000"}, "name": "event_mu_26", "passed": true, "sequence": 198}
+{"data": {"mobius": "-803093595730560087453/999961098296495000000", "schur": "-803093595730560087453/999961098296495000000"}, "name": "schur_a_26", "passed": true, "sequence": 199}
+{"data": {"mobius": "27547304349276905935854663/249990274574123750000000000", "schur": "27547304349276905935854663/249990274574123750000000000"}, "name": "schur_b_26", "passed": true, "sequence": 200}
+{"name": "mobius_shifted_identity_27", "passed": true, "sequence": 201}
+{"name": "odd_and_rank2_degrees_27", "passed": true, "sequence": 202}
+{"data": {"mu": "477466282633103/50000000000000000"}, "name": "event_mu_27", "passed": true, "sequence": 203}
+{"data": {"mobius": "-1210967889660391102641/2387331413165515000000", "schur": "-1210967889660391102641/2387331413165515000000"}, "name": "schur_a_27", "passed": true, "sequence": 204}
+{"data": {"mobius": "35371207156778033187607011/596832853291378750000000000", "schur": "35371207156778033187607011/596832853291378750000000000"}, "name": "schur_b_27", "passed": true, "sequence": 205}
+{"name": "mobius_shifted_identity_28", "passed": true, "sequence": 206}
+{"name": "odd_and_rank2_degrees_28", "passed": true, "sequence": 207}
+{"data": {"mu": "541451602099897/50000000000000000"}, "name": "event_mu_28", "passed": true, "sequence": 208}
+{"data": {"mobius": "2087713613810208783641/2707258010499485000000", "schur": "2087713613810208783641/2707258010499485000000"}, "name": "schur_a_28", "passed": true, "sequence": 209}
+{"data": {"mobius": "65501928605070125114626989/676814502624871250000000000", "schur": "65501928605070125114626989/676814502624871250000000000"}, "name": "schur_b_28", "passed": true, "sequence": 210}
+{"name": "mobius_shifted_identity_29", "passed": true, "sequence": 211}
+{"name": "odd_and_rank2_degrees_29", "passed": true, "sequence": 212}
+{"data": {"mu": "409136580511103/50000000000000000"}, "name": "event_mu_29", "passed": true, "sequence": 213}
+{"data": {"mobius": "1721916608030964851359/2045682902555515000000", "schur": "1721916608030964851359/2045682902555515000000"}, "name": "schur_a_29", "passed": true, "sequence": 214}
+{"data": {"mobius": "52511191599538625880544011/511420725638878750000000000", "schur": "52511191599538625880544011/511420725638878750000000000"}, "name": "schur_b_29", "passed": true, "sequence": 215}
+{"name": "mobius_shifted_identity_30", "passed": true, "sequence": 216}
+{"name": "odd_and_rank2_degrees_30", "passed": true, "sequence": 217}
+{"data": {"mu": "469249367921103/50000000000000000"}, "name": "event_mu_30", "passed": true, "sequence": 218}
+{"data": {"mobius": "477450154981742447453/782082279868505000000", "schur": "477450154981742447453/782082279868505000000"}, "name": "schur_a_30", "passed": true, "sequence": 219}
+{"data": {"mobius": "-21833905439214747134442663/195520569967126250000000000", "schur": "-21833905439214747134442663/195520569967126250000000000"}, "name": "schur_b_30", "passed": true, "sequence": 220}
+{"name": "mobius_shifted_identity_31", "passed": true, "sequence": 221}
+{"name": "odd_and_rank2_degrees_31", "passed": true, "sequence": 222}
+{"data": {"mu": "339760719467897/50000000000000000"}, "name": "event_mu_31", "passed": true, "sequence": 223}
+{"data": {"mobius": "1097600342088640022641/1698803597339485000000", "schur": "1097600342088640022641/1698803597339485000000"}, "name": "schur_a_31", "passed": true, "sequence": 224}
+{"data": {"mobius": "-577048394362247358152121/4667042849833750000000000", "schur": "-577048394362247358152121/4667042849833750000000000"}, "name": "schur_b_31", "passed": true, "sequence": 225}
+{"name": "mobius_shifted_identity_32", "passed": true, "sequence": 226}
+{"name": "odd_and_rank2_degrees_32", "passed": true, "sequence": 227}
+{"data": {"mu": "1571472726344997/50000000000000000"}, "name": "event_mu_32", "passed": true, "sequence": 228}
+{"data": {"mobius": "1886171838515507816547/2619121210574995000000", "schur": "1886171838515507816547/2619121210574995000000"}, "name": "schur_a_32", "passed": true, "sequence": 229}
+{"data": {"mobius": "371099502613630010854827/5502355484401250000000000", "schur": "371099502613630010854827/5502355484401250000000000"}, "name": "schur_b_32", "passed": true, "sequence": 230}
+{"name": "mobius_shifted_identity_33", "passed": true, "sequence": 231}
+{"name": "odd_and_rank2_degrees_33", "passed": true, "sequence": 232}
+{"data": {"mu": "1290725719566003/50000000000000000"}, "name": "event_mu_33", "passed": true, "sequence": 233}
+{"data": {"mobius": "921352477423274728453/2151209532610005000000", "schur": "921352477423274728453/2151209532610005000000"}, "name": "schur_a_33", "passed": true, "sequence": 234}
+{"data": {"mobius": "900044197980880540789647/25609637292976250000000000", "schur": "900044197980880540789647/25609637292976250000000000"}, "name": "schur_b_33", "passed": true, "sequence": 235}
+{"name": "mobius_shifted_identity_34", "passed": true, "sequence": 236}
+{"name": "odd_and_rank2_degrees_34", "passed": true, "sequence": 237}
+{"data": {"mu": "1368276392976003/50000000000000000"}, "name": "event_mu_34", "passed": true, "sequence": 238}
+{"data": {"mobius": "345803748323270075151/760153551653335000000", "schur": "345803748323270075151/760153551653335000000"}, "name": "schur_a_34", "passed": true, "sequence": 239}
+{"data": {"mobius": "-2102891779648233142954353/27148341130476250000000000", "schur": "-2102891779648233142954353/27148341130476250000000000"}, "name": "schur_b_34", "passed": true, "sequence": 240}
+{"name": "mobius_shifted_identity_35", "passed": true, "sequence": 241}
+{"name": "odd_and_rank2_degrees_35", "passed": true, "sequence": 242}
+{"data": {"mu": "1088885431112997/50000000000000000"}, "name": "event_mu_35", "passed": true, "sequence": 243}
+{"data": {"mobius": "329727790605754229547/1814809051854995000000", "schur": "329727790605754229547/1814809051854995000000"}, "name": "schur_a_35", "passed": true, "sequence": 244}
+{"data": {"mobius": "-2700148799429652378037941/64814608994821250000000000", "schur": "-2700148799429652378037941/64814608994821250000000000"}, "name": "schur_b_35", "passed": true, "sequence": 245}
+{"name": "mobius_shifted_identity_36", "passed": true, "sequence": 246}
+{"name": "odd_and_rank2_degrees_36", "passed": true, "sequence": 247}
+{"data": {"mu": "1234807111254003/50000000000000000"}, "name": "event_mu_36", "passed": true, "sequence": 248}
+{"data": {"mobius": "-961461537718534456547/2058011852090005000000", "schur": "-961461537718534456547/2058011852090005000000"}, "name": "schur_a_36", "passed": true, "sequence": 249}
+{"data": {"mobius": "-5000252128783086447616059/73500423288928750000000000", "schur": "-5000252128783086447616059/73500423288928750000000000"}, "name": "schur_b_36", "passed": true, "sequence": 250}
+{"name": "mobius_shifted_identity_37", "passed": true, "sequence": 251}
+{"name": "odd_and_rank2_degrees_37", "passed": true, "sequence": 252}
+{"data": {"mu": "933056171834997/50000000000000000"}, "name": "event_mu_37", "passed": true, "sequence": 253}
+{"data": {"mobius": "-819686369201316088453/1555093619724995000000", "schur": "-819686369201316088453/1555093619724995000000"}, "name": "schur_a_37", "passed": true, "sequence": 254}
+{"data": {"mobius": "-4008572009591265359284941/55539057847321250000000000", "schur": "-4008572009591265359284941/55539057847321250000000000"}, "name": "schur_b_37", "passed": true, "sequence": 255}
+{"name": "mobius_shifted_identity_38", "passed": true, "sequence": 256}
+{"name": "odd_and_rank2_degrees_38", "passed": true, "sequence": 257}
+{"data": {"mu": "1070146351424997/50000000000000000"}, "name": "event_mu_38", "passed": true, "sequence": 258}
+{"data": {"mobius": "-452135725960117195151/594525750791665000000", "schur": "-452135725960117195151/594525750791665000000"}, "name": "schur_a_38", "passed": true, "sequence": 259}
+{"data": {"mobius": "98043841633256386116609/1249003678133750000000000", "schur": "98043841633256386116609/1249003678133750000000000"}, "name": "schur_b_38", "passed": true, "sequence": 260}
+{"name": "mobius_shifted_identity_39", "passed": true, "sequence": 261}
+{"name": "odd_and_rank2_degrees_39", "passed": true, "sequence": 262}
+{"data": {"mu": "774841095486003/50000000000000000"}, "name": "event_mu_39", "passed": true, "sequence": 263}
+{"data": {"mobius": "-1037108266714144869547/1291401825810005000000", "schur": "-1037108266714144869547/1291401825810005000000"}, "name": "schur_a_39", "passed": true, "sequence": 264}
+{"data": {"mobius": "44050419945915122142351/506829601966250000000000", "schur": "44050419945915122142351/506829601966250000000000"}, "name": "schur_b_39", "passed": true, "sequence": 265}
+{"name": "mobius_shifted_identity_40", "passed": true, "sequence": 266}
+{"name": "odd_and_rank2_degrees_40", "passed": true, "sequence": 267}
+{"data": {"mu": "1333505404813753/50000000000000000"}, "name": "event_mu_40", "passed": true, "sequence": 268}
+{"data": {"mobius": "-1133981383839442114641/6667527024068765000000", "schur": "-1133981383839442114641/6667527024068765000000"}, "name": "schur_a_40", "passed": true, "sequence": 269}
+{"data": {"mobius": "-541864649989032814194472989/1666881756017191250000000000", "schur": "-541864649989032814194472989/1666881756017191250000000000"}, "name": "schur_b_40", "passed": true, "sequence": 270}
+{"name": "mobius_shifted_identity_41", "passed": true, "sequence": 271}
+{"name": "odd_and_rank2_degrees_41", "passed": true, "sequence": 272}
+{"data": {"mu": "1095271775525247/50000000000000000"}, "name": "event_mu_41", "passed": true, "sequence": 273}
+{"data": {"mobius": "-1715027567135620520359/5476358877626235000000", "schur": "-1715027567135620520359/5476358877626235000000"}, "name": "schur_a_41", "passed": true, "sequence": 274}
+{"data": {"mobius": "-77306384513922533196899337/456363239802186250000000000", "schur": "-77306384513922533196899337/456363239802186250000000000"}, "name": "schur_b_41", "passed": true, "sequence": 275}
+{"name": "mobius_shifted_identity_42", "passed": true, "sequence": 276}
+{"name": "odd_and_rank2_degrees_42", "passed": true, "sequence": 277}
+{"data": {"mu": "1161078989615247/50000000000000000"}, "name": "event_mu_42", "passed": true, "sequence": 278}
+{"data": {"mobius": "2130908949517914329547/1935131649358745000000", "schur": "2130908949517914329547/1935131649358745000000"}, "name": "schur_a_42", "passed": true, "sequence": 279}
+{"data": {"mobius": "180621086023718297657724663/483782912339686250000000000", "schur": "180621086023718297657724663/483782912339686250000000000"}, "name": "schur_b_42", "passed": true, "sequence": 280}
+{"name": "mobius_shifted_identity_43", "passed": true, "sequence": 281}
+{"name": "odd_and_rank2_degrees_43", "passed": true, "sequence": 282}
+{"data": {"mu": "923996060045753/50000000000000000"}, "name": "event_mu_43", "passed": true, "sequence": 283}
+{"data": {"mobius": "3958262089678278646359/4619980300228765000000", "schur": "3958262089678278646359/4619980300228765000000"}, "name": "schur_a_43", "passed": true, "sequence": 284}
+{"data": {"mobius": "231920545459645520811997011/1154995075057191250000000000", "schur": "231920545459645520811997011/1154995075057191250000000000"}, "name": "schur_b_43", "passed": true, "sequence": 285}
+{"name": "mobius_shifted_identity_44", "passed": true, "sequence": 286}
+{"name": "odd_and_rank2_degrees_44", "passed": true, "sequence": 287}
+{"data": {"mu": "1047820893837247/50000000000000000"}, "name": "event_mu_44", "passed": true, "sequence": 288}
+{"data": {"mobius": "-5504181663067287965359/5239104469186235000000", "schur": "-5504181663067287965359/5239104469186235000000"}, "name": "schur_a_44", "passed": true, "sequence": 289}
+{"data": {"mobius": "7279330161285174544919271/22199595208416250000000000", "schur": "7279330161285174544919271/22199595208416250000000000"}, "name": "schur_b_44", "passed": true, "sequence": 290}
+{"name": "mobius_shifted_identity_45", "passed": true, "sequence": 291}
+{"name": "odd_and_rank2_degrees_45", "passed": true, "sequence": 292}
+{"data": {"mu": "791763946823753/50000000000000000"}, "name": "event_mu_45", "passed": true, "sequence": 293}
+{"data": {"mobius": "-4170625844924445399641/3958819734118765000000", "schur": "-4170625844924445399641/3958819734118765000000"}, "name": "schur_a_45", "passed": true, "sequence": 294}
+{"data": {"mobius": "344303324014975115634934011/989704933529691250000000000", "schur": "344303324014975115634934011/989704933529691250000000000"}, "name": "schur_b_45", "passed": true, "sequence": 295}
+{"name": "mobius_shifted_identity_46", "passed": true, "sequence": 296}
+{"name": "odd_and_rank2_degrees_46", "passed": true, "sequence": 297}
+{"data": {"mu": "908094629733753/50000000000000000"}, "name": "event_mu_46", "passed": true, "sequence": 298}
+{"data": {"mobius": "63831731719699575779/216213007079465000000", "schur": "63831731719699575779/216213007079465000000"}, "name": "schur_a_46", "passed": true, "sequence": 299}
+{"data": {"mobius": "-143159695865982458976312663/378372762389063750000000000", "schur": "-143159695865982458976312663/378372762389063750000000000"}, "name": "schur_b_46", "passed": true, "sequence": 300}
+{"name": "mobius_shifted_identity_47", "passed": true, "sequence": 301}
+{"name": "odd_and_rank2_degrees_47", "passed": true, "sequence": 302}
+{"data": {"mu": "657507299605247/50000000000000000"}, "name": "event_mu_47", "passed": true, "sequence": 303}
+{"data": {"mobius": "9146825874956959051/36126774703585000000", "schur": "9146825874956959051/36126774703585000000"}, "name": "schur_a_47", "passed": true, "sequence": 304}
+{"data": {"mobius": "-3783568306954428976442121/9031693675896250000000000", "schur": "-3783568306954428976442121/9031693675896250000000000"}, "name": "schur_b_47", "passed": true, "sequence": 305}
+{"name": "mobius_shifted_identity_48", "passed": true, "sequence": 306}
+{"name": "odd_and_rank2_degrees_48", "passed": true, "sequence": 307}
+{"data": {"mu": "1166594930291353/50000000000000000"}, "name": "event_mu_48", "passed": true, "sequence": 308}
+{"data": {"mobius": "-3887278983829615756641/5832974651456765000000", "schur": "-3887278983829615756641/5832974651456765000000"}, "name": "schur_a_48", "passed": true, "sequence": 309}
+{"data": {"mobius": "-284849702477569293190462989/1458243662864191250000000000", "schur": "-284849702477569293190462989/1458243662864191250000000000"}, "name": "schur_b_48", "passed": true, "sequence": 310}
+{"name": "mobius_shifted_identity_49", "passed": true, "sequence": 311}
+{"name": "odd_and_rank2_degrees_49", "passed": true, "sequence": 312}
+{"data": {"mu": "958180218847647/50000000000000000"}, "name": "event_mu_49", "passed": true, "sequence": 313}
+{"data": {"mobius": "-1939847507308308878359/4790901094238235000000", "schur": "-1939847507308308878359/4790901094238235000000"}, "name": "schur_a_49", "passed": true, "sequence": 314}
+{"data": {"mobius": "-1401336116764971151778253/13766957167351250000000000", "schur": "-1401336116764971151778253/13766957167351250000000000"}, "name": "schur_b_49", "passed": true, "sequence": 315}
+{"name": "mobius_shifted_identity_50", "passed": true, "sequence": 316}
+{"name": "odd_and_rank2_degrees_50", "passed": true, "sequence": 317}
+{"data": {"mu": "1015750560937647/50000000000000000"}, "name": "event_mu_50", "passed": true, "sequence": 318}
+{"data": {"mobius": "-1273300401136326456453/1692917601562745000000", "schur": "-1273300401136326456453/1692917601562745000000"}, "name": "schur_a_50", "passed": true, "sequence": 319}
+{"data": {"mobius": "94949656922762791293054663/423229400390686250000000000", "schur": "94949656922762791293054663/423229400390686250000000000"}, "name": "schur_b_50", "passed": true, "sequence": 320}
+{"name": "mobius_shifted_identity_51", "passed": true, "sequence": 321}
+{"name": "odd_and_rank2_degrees_51", "passed": true, "sequence": 322}
+{"data": {"mu": "808342519923353/50000000000000000"}, "name": "event_mu_51", "passed": true, "sequence": 323}
+{"data": {"mobius": "-1348784395186136995641/4041712599616765000000", "schur": "-1348784395186136995641/4041712599616765000000"}, "name": "schur_a_51", "passed": true, "sequence": 324}
+{"data": {"mobius": "121916973867833409516007011/1010428149904191250000000000", "schur": "121916973867833409516007011/1010428149904191250000000000"}, "name": "schur_b_51", "passed": true, "sequence": 325}
+{"name": "mobius_shifted_identity_52", "passed": true, "sequence": 326}
+{"name": "odd_and_rank2_degrees_52", "passed": true, "sequence": 327}
+{"data": {"mu": "916668607559647/50000000000000000"}, "name": "event_mu_52", "passed": true, "sequence": 328}
+{"data": {"mobius": "3684793971470717676641/4583343037798235000000", "schur": "3684793971470717676641/4583343037798235000000"}, "name": "schur_a_52", "passed": true, "sequence": 329}
+{"data": {"mobius": "3826629086654842345529271/19420945075416250000000000", "schur": "3826629086654842345529271/19420945075416250000000000"}, "name": "schur_b_52", "passed": true, "sequence": 330}
+{"name": "mobius_shifted_identity_53", "passed": true, "sequence": 331}
+{"name": "odd_and_rank2_degrees_53", "passed": true, "sequence": 332}
+{"data": {"mu": "692661464301353/50000000000000000"}, "name": "event_mu_53", "passed": true, "sequence": 333}
+{"data": {"mobius": "2877804137372410958359/3463307321506765000000", "schur": "2877804137372410958359/3463307321506765000000"}, "name": "schur_a_53", "passed": true, "sequence": 334}
+{"data": {"mobius": "180994828523486085008944011/865826830376691250000000000", "schur": "180994828523486085008944011/865826830376691250000000000"}, "name": "schur_b_53", "passed": true, "sequence": 335}
+{"name": "mobius_shifted_identity_54", "passed": true, "sequence": 336}
+{"name": "odd_and_rank2_degrees_54", "passed": true, "sequence": 337}
+{"data": {"mu": "794431419211353/50000000000000000"}, "name": "event_mu_54", "passed": true, "sequence": 338}
+{"data": {"mobius": "115155038069741973779/189150337907465000000", "schur": "115155038069741973779/189150337907465000000"}, "name": "schur_a_54", "passed": true, "sequence": 339}
+{"data": {"mobius": "-75256794801118259691642663/331013091338063750000000000", "schur": "-75256794801118259691642663/331013091338063750000000000"}, "name": "schur_b_54", "passed": true, "sequence": 340}
+{"name": "mobius_shifted_identity_55", "passed": true, "sequence": 341}
+{"name": "odd_and_rank2_degrees_55", "passed": true, "sequence": 342}
+{"data": {"mu": "575209278927647/50000000000000000"}, "name": "event_mu_55", "passed": true, "sequence": 343}
+{"data": {"mobius": "287851168775047273663/410863770662605000000", "schur": "287851168775047273663/410863770662605000000"}, "name": "schur_a_55", "passed": true, "sequence": 344}
+{"data": {"mobius": "-1988962200360076970552121/7901226358896250000000000", "schur": "-1988962200360076970552121/7901226358896250000000000"}, "name": "schur_b_55", "passed": true, "sequence": 345}
+{"name": "mobius_shifted_identity_56", "passed": true, "sequence": 346}
+{"name": "odd_and_rank2_degrees_56", "passed": true, "sequence": 347}
+{"data": {"mu": "980196748549897/50000000000000000"}, "name": "event_mu_56", "passed": true, "sequence": 348}
+{"data": {"mobius": "-7511083332465626578359/4900983742749485000000", "schur": "-7511083332465626578359/4900983742749485000000"}, "name": "schur_a_56", "passed": true, "sequence": 349}
+{"data": {"mobius": "694231830033536193509762739/1225245935687371250000000000", "schur": "694231830033536193509762739/1225245935687371250000000000"}, "name": "schur_b_56", "passed": true, "sequence": 350}
+{"name": "mobius_shifted_identity_57", "passed": true, "sequence": 351}
+{"name": "odd_and_rank2_degrees_57", "passed": true, "sequence": 352}
+{"data": {"mu": "805082476061103/50000000000000000"}, "name": "event_mu_57", "passed": true, "sequence": 353}
+{"data": {"mobius": "-4720940100032733786641/4025412380305515000000", "schur": "-4720940100032733786641/4025412380305515000000"}, "name": "schur_a_57", "passed": true, "sequence": 354}
+{"data": {"mobius": "99044203742508205241886087/335451031692126250000000000", "schur": "99044203742508205241886087/335451031692126250000000000"}, "name": "schur_b_57", "passed": true, "sequence": 355}
+{"name": "mobius_shifted_identity_58", "passed": true, "sequence": 356}
+{"name": "odd_and_rank2_degrees_58", "passed": true, "sequence": 357}
+{"data": {"mu": "853454246471103/50000000000000000"}, "name": "event_mu_58", "passed": true, "sequence": 358}
+{"data": {"mobius": "57623063047988901453/1422423744118505000000", "schur": "57623063047988901453/1422423744118505000000"}, "name": "schur_a_58", "passed": true, "sequence": 359}
+{"data": {"mobius": "-231410015573868192948737913/355605936029626250000000000", "schur": "-231410015573868192948737913/355605936029626250000000000"}, "name": "schur_b_58", "passed": true, "sequence": 360}
+{"name": "mobius_shifted_identity_59", "passed": true, "sequence": 361}
+{"name": "odd_and_rank2_degrees_59", "passed": true, "sequence": 362}
+{"data": {"mu": "679185798917897/50000000000000000"}, "name": "event_mu_59", "passed": true, "sequence": 363}
+{"data": {"mobius": "1584616266287434660641/3395928994589485000000", "schur": "1584616266287434660641/3395928994589485000000"}, "name": "schur_a_59", "passed": true, "sequence": 364}
+{"data": {"mobius": "-297134394539456230389207261/848982248647371250000000000", "schur": "-297134394539456230389207261/848982248647371250000000000"}, "name": "schur_b_59", "passed": true, "sequence": 365}
+{"name": "mobius_shifted_identity_60", "passed": true, "sequence": 366}
+{"name": "odd_and_rank2_degrees_60", "passed": true, "sequence": 367}
+{"data": {"mu": "770203577349103/50000000000000000"}, "name": "event_mu_60", "passed": true, "sequence": 368}
+{"data": {"mobius": "358759392576334658359/3851017886745515000000", "schur": "358759392576334658359/3851017886745515000000"}, "name": "schur_a_60", "passed": true, "sequence": 369}
+{"data": {"mobius": "-550246300924016181136526739/962754471686378750000000000", "schur": "-550246300924016181136526739/962754471686378750000000000"}, "name": "schur_b_60", "passed": true, "sequence": 370}
+{"name": "mobius_shifted_identity_61", "passed": true, "sequence": 371}
+{"name": "odd_and_rank2_degrees_61", "passed": true, "sequence": 372}
+{"data": {"mu": "581988227039897/50000000000000000"}, "name": "event_mu_61", "passed": true, "sequence": 373}
+{"data": {"mobius": "478642710126821706641/2909941135199485000000", "schur": "478642710126821706641/2909941135199485000000"}, "name": "schur_a_61", "passed": true, "sequence": 374}
+{"data": {"mobius": "-441118140337044628098894261/727485283799871250000000000", "schur": "-441118140337044628098894261/727485283799871250000000000"}, "name": "schur_b_61", "passed": true, "sequence": 375}
+{"name": "mobius_shifted_identity_62", "passed": true, "sequence": 376}
+{"name": "odd_and_rank2_degrees_62", "passed": true, "sequence": 377}
+{"data": {"mu": "667497409629897/50000000000000000"}, "name": "event_mu_62", "passed": true, "sequence": 378}
+{"data": {"mobius": "1818695206542873738547/1112495682716495000000", "schur": "1818695206542873738547/1112495682716495000000"}, "name": "schur_a_62", "passed": true, "sequence": 379}
+{"data": {"mobius": "183414839204028188824325913/278123920679123750000000000", "schur": "183414839204028188824325913/278123920679123750000000000"}, "name": "schur_b_62", "passed": true, "sequence": 380}
+{"name": "mobius_shifted_identity_63", "passed": true, "sequence": 381}
+{"name": "odd_and_rank2_degrees_63", "passed": true, "sequence": 382}
+{"data": {"mu": "483302515981103/50000000000000000"}, "name": "event_mu_63", "passed": true, "sequence": 383}
+{"data": {"mobius": "4181050254735181419359/2416512579905515000000", "schur": "4181050254735181419359/2416512579905515000000"}, "name": "schur_a_63", "passed": true, "sequence": 384}
+{"data": {"mobius": "4847471688450288382004871/6638770823916250000000000", "schur": "4847471688450288382004871/6638770823916250000000000"}, "name": "schur_b_63", "passed": true, "sequence": 385}
+{"name": "global_cancel_a", "passed": true, "sequence": 386}
+{"name": "global_cancel_b", "passed": true, "sequence": 387}
+{"name": "conditional_T_cancel_a_0", "passed": true, "sequence": 388}
+{"name": "conditional_T_cancel_b_0", "passed": true, "sequence": 389}
+{"name": "conditional_T_cancel_a_1", "passed": true, "sequence": 390}
+{"name": "conditional_T_cancel_b_1", "passed": true, "sequence": 391}
+{"name": "conditional_T_cancel_a_2", "passed": true, "sequence": 392}
+{"name": "conditional_T_cancel_b_2", "passed": true, "sequence": 393}
+{"name": "conditional_T_cancel_a_3", "passed": true, "sequence": 394}
+{"name": "conditional_T_cancel_b_3", "passed": true, "sequence": 395}
+{"name": "conditional_T_cancel_a_4", "passed": true, "sequence": 396}
+{"name": "conditional_T_cancel_b_4", "passed": true, "sequence": 397}
+{"name": "conditional_T_cancel_a_5", "passed": true, "sequence": 398}
+{"name": "conditional_T_cancel_b_5", "passed": true, "sequence": 399}
+{"name": "conditional_T_cancel_a_6", "passed": true, "sequence": 400}
+{"name": "conditional_T_cancel_b_6", "passed": true, "sequence": 401}
+{"name": "conditional_T_cancel_a_7", "passed": true, "sequence": 402}
+{"name": "conditional_T_cancel_b_7", "passed": true, "sequence": 403}
+{"name": "conditional_S_cancel_a_0", "passed": true, "sequence": 404}
+{"name": "conditional_S_cancel_b_0", "passed": true, "sequence": 405}
+{"name": "conditional_S_cancel_a_1", "passed": true, "sequence": 406}
+{"name": "conditional_S_cancel_b_1", "passed": true, "sequence": 407}
+{"name": "conditional_S_cancel_a_2", "passed": true, "sequence": 408}
+{"name": "conditional_S_cancel_b_2", "passed": true, "sequence": 409}
+{"name": "conditional_S_cancel_a_3", "passed": true, "sequence": 410}
+{"name": "conditional_S_cancel_b_3", "passed": true, "sequence": 411}
+{"name": "conditional_S_cancel_a_4", "passed": true, "sequence": 412}
+{"name": "conditional_S_cancel_b_4", "passed": true, "sequence": 413}
+{"name": "conditional_S_cancel_a_5", "passed": true, "sequence": 414}
+{"name": "conditional_S_cancel_b_5", "passed": true, "sequence": 415}
+{"name": "conditional_S_cancel_a_6", "passed": true, "sequence": 416}
+{"name": "conditional_S_cancel_b_6", "passed": true, "sequence": 417}
+{"name": "conditional_S_cancel_a_7", "passed": true, "sequence": 418}
+{"name": "conditional_S_cancel_b_7", "passed": true, "sequence": 419}
+{"data": {"exact": "2069897581663368728180404141/60412814497637875000000000000"}, "name": "J1_all64_q_lower_robust", "passed": true, "sequence": 420}
+{"data": {"exact": "347756746781930154687368281859/122524593568737125000000000000"}, "name": "J1_all64_q_upper_robust", "passed": true, "sequence": 421}
+{"data": {"exact": "12943861595784931302761706865214819065306491748262024486408055007057364661709048685122723204430297873780634488221301651378443/23532093450994501178727642037817310407590862598755718812045144845116125284737898251164657877415548992549010828450000000000000"}, "name": "J1_all64_V_robust", "passed": true, "sequence": 422}
+{"data": {"exact": "12943861595784931302761706865214819065306491748262024486408055007057364661709048685122723204430297873780634488221301651378443/23532093450994501178727642037817310407590862598755718812045144845116125284737898251164657877415548992549010828450000000000000"}, "name": "J1_all64_Z_robust", "passed": true, "sequence": 423}
+{"data": {"exact": "479289422143827648787447269618585858421688979610757032219891979274263483264773620480600366932323068310057028871884560543080727970548208140382947/4158887155742378340897140934755150751671660739826347464905215790230828646374823919787370983359404389308164062500000000000000000000000000000000000"}, "name": "J1_all64_N_robust", "passed": true, "sequence": 424}
+{"data": {"claim": "8287/15000", "exact": "8287/15000"}, "name": "J1_all64_rhs_literal", "passed": true, "sequence": 425}
+{"data": {"exact": "8287/15000", "gate": "1/2"}, "name": "J1_all64_rhs_gate", "passed": true, "sequence": 426}
+{"data": {"exact": "16598440977829642401181401061/6041281449763787500000000000000"}, "name": "J2_all64_q_lower_robust", "passed": true, "sequence": 427}
+{"data": {"exact": "37646556770884826514027709604939/12252459356873712500000000000000"}, "name": "J2_all64_q_upper_robust", "passed": true, "sequence": 428}
+{"data": {"exact": "61620765824949814650349735551631839142801046903612298607218226378256507185649764845266575858475838611031476938836650708432343595003871081/73537792034357816183523881368179095023721445621111621287641077640987891514805932034889555866923590601715658838906250000000000000000000000"}, "name": "J2_all64_V_robust", "passed": true, "sequence": 429}
+{"data": {"exact": "13139231962318156520843856032304010868344953652631529215216842519062347896429126819318786712261070824257618936393927997008992352170942113/13370507642610512033367978430578017277040262840202112961389286843815980275419260369979919248531561927584665243437500000000000000000000000"}, "name": "J2_all64_Z_robust", "passed": true, "sequence": 430}
+{"data": {"exact": "1868132522809674775049185371286862072008002404741977768249846678459855998908228175705935196160296134836499205435325192929153416203136434582401451/13929509285728631263471500283873453449832513363267882544061234085846249792480151567893393937789676418359375000000000000000000000000000000000000000"}, "name": "J2_all64_N_robust", "passed": true, "sequence": 431}
+{"data": {"claim": "4177/7750", "exact": "4177/7750"}, "name": "J2_all64_rhs_literal", "passed": true, "sequence": 432}
+{"data": {"exact": "4177/7750", "gate": "1/2"}, "name": "J2_all64_rhs_gate", "passed": true, "sequence": 433}
+{"data": {"exact": "6864958247433504187575913/278123920679123750000000000"}, "name": "J3_other63_q_lower_robust", "passed": true, "sequence": 434}
+{"data": {"exact": "3797248598837314088099512739/1225245935687371250000000000"}, "name": "J3_other63_q_upper_robust", "passed": true, "sequence": 435}
+{"data": {"exact": "2229157514150402207346153051871469809136034487088457167035608166024802892274190900800129711800710365992282855829476743388330134721362215877671684837228741/2484384866025601898092023019195239696747346135848365584041928298682023361986686893070593103612283466274177663476562500000000000000000000000000000000000000"}, "name": "J3_other63_V_robust", "passed": true, "sequence": 436}
+{"data": {"exact": "201920373025561930712009546056146384414323913478437837869873984938746392216307420459684967268326289322773710869195904961924685473819387288989778204719890251/183844480085894540458809703420447737559303614052779053219102694102469728787014830087223889667308976504289147097265625000000000000000000000000000000000000000"}, "name": "J3_other63_Z_robust", "passed": true, "sequence": 437}
+{"data": {"exact": "1163282203185748693829553590522714482184575580831948882962868760190984872867876550639766124042957614485419363508614546218603825261923794680387/10518851755054539431075811560887907456392188218683598226724583638094204103908935448785841807991739453125000000000000000000000000000000000000000"}, "name": "J3_other63_N_robust", "passed": true, "sequence": 438}
+{"data": {"claim": "110979/77500", "exact": "110979/77500"}, "name": "J3_other63_rhs_literal", "passed": true, "sequence": 439}
+{"data": {"exact": "110979/77500", "gate": "7/5"}, "name": "J3_other63_rhs_gate", "passed": true, "sequence": 440}
+{"data": {"x": "3"}, "name": "log_positive_argument", "passed": true, "sequence": 441}
+{"data": {"x": "3/2"}, "name": "log_unit_domain", "passed": true, "sequence": 442}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 443}
+{"data": {"bound": "1", "lower": "672308804737646720268849901980470886156724780483167493170171023645299305058742025889399346030542453022847086014429372675712/611961846478808982584608037425101939107152713846416799555204581900350504949283466336884540481833028024993836879730224609375", "upper": "108914026367498768683553684120836283557395624776135596664983486454720316520464817770563793276850665575849756128408859220630323/99137819129567055178706502062866514135358739643119521527943142267856781801783921546575295558056950540049001574516296386718750"}, "name": "log_3_gt_1", "passed": true, "sequence": 444}
+{"data": {"x": "30"}, "name": "log_positive_argument", "passed": true, "sequence": 445}
+{"data": {"x": "15/8"}, "name": "log_unit_domain", "passed": true, "sequence": 446}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 447}
+{"data": {"bound": "87/25", "lower": "51574741265779240732773826774587445814274742969958277753886006088345987479546511238730306116200228309466238563378965638176237738854479493300157582432513236161530443526416353408/15163701331727714388949032559731308321310259565561711692512760939603048027804963838649197458084978918466424519429906022832719967796430606576855771260097920051658951277279068275", "upper": "66840864680449895989674879499865329775304991967561988779220420243365861243739380160168739743239821717425633718803085014431428913568985495967644826843157804801998464369511331965453/19652156925919117848077946197411775584418096396967978353496538177725550244035233134889359905678132678332486177181158205591205078264174066123605079553086904386950000855353672484400"}, "name": "log_30_lt_87_25", "passed": true, "sequence": 448}
+{"data": {"x": "31/10"}, "name": "log_positive_argument", "passed": true, "sequence": 449}
+{"data": {"x": "31/20"}, "name": "log_unit_domain", "passed": true, "sequence": 450}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 451}
+{"data": {"bound": "21/20", "lower": "20159083553252085586799273895044681129062268613112262197064722353678524933788328891085501917791586839343403097762788028549188617975014462753658014661925102338182208/17817788519666072668991882917433467553415084439830262404385696132656589784827429260069833922733664768363192250075780958680712534730850064820811484290125678937191475", "upper": "13063086142507351460245929483988953371633073338326552489850524450854204729447383786362150723797677025231061941173990885758038226819627186526315991736154965784730324779/11545926960743615089506740130496886974612974717010010038041931093961470180568174160525252381931414769899348578049106061225101722505590842003885841820001439951300075800"}, "name": "log_31_10_gt_21_20", "passed": true, "sequence": 452}
+{"data": {"x": "400"}, "name": "log_positive_argument", "passed": true, "sequence": 453}
+{"data": {"x": "25/16"}, "name": "log_unit_domain", "passed": true, "sequence": 454}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 455}
+{"data": {"bound": "6", "lower": "48915836166381203784108366945094452451980410188595769864471914633235174707366548901078450132405170810266603319482312544131724010778474807475105204154768731412197615437278365675221584555079653248/8164253628103728384797445688529652320371244032918226147899039473712904993813038080157538320700710058012530570489040271505617491527516609362097363676417665168668362724962052662366378117131828725", "upper": "126789847343260080208408887121684820755543828371622505485953774784356202052479277516448935648108795336720561554865429961763974290058199632776534348939070218778014814363362253682569354608305356141997/21161745404044863973394979224668858814402264533324042175354310315863849743963394703768339327256240470368479238707592383742560538039323051466556366649274588117188396183101640500853652079605700055200"}, "name": "log_400_lt_6", "passed": true, "sequence": 456}
+{"data": {"x": "50"}, "name": "log_positive_argument", "passed": true, "sequence": 457}
+{"data": {"x": "25/16"}, "name": "log_unit_domain", "passed": true, "sequence": 458}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 459}
+{"data": {"bound": "4", "lower": "7108624166412951415619197089563165721067592953602566351450272848139091770857658181757849628128329649890966119650287113900337985235481741039667438426946624809843584915920985714395002002895593024/1817122280863212273732346846036380297010527668768633405958720384431398917118262394016254610563480922002788935751479182686203266139353226535137657746161925476412080731888105764978096696916488525", "upper": "18425553839342370069284958856147725549008676183695416971028587171344758216141153910531261838905738667809210822495999169055438825902129801573549346546041796801307078679090495044327222720591040935837/4709980951997446213514243024926297729851287717448297788245003236446185993170536125290131950580542549831228921467834041522638865833203563179076808878051710834860113257053970142823226638407538256800"}, "name": "log_50_lt_4", "passed": true, "sequence": 460}
+{"data": {"x": "300"}, "name": "log_positive_argument", "passed": true, "sequence": 461}
+{"data": {"x": "75/64"}, "name": "log_unit_domain", "passed": true, "sequence": 462}
+{"data": {"x": "2"}, "name": "log_unit_domain", "passed": true, "sequence": 463}
+{"data": {"bound": "6", "lower": "104801183484609712624076790798353164424800324650103540603615732891347721883750172145398987174360415209925912288852065646506480193063903426709008532642312473887285763818899181303855311391571111328176473756578643590246984366394449309347317632/18373979714387103688401998938126529466275137976703270392562584444622361894733720111044297230781764565272502862259022971431956583134309040001626815746413528111000772109133276278607876729595824176651636328980588825528556643486320971157126025", "upper": "1086578670368433500486428166997325608756425235346305908285780096544134620800008119345307194801111817175844135384941987540417670108148230292972672839962001841099971768833847070244664152093689487073736125524638498191740976911726956504796479714339/190501421678765491041351924990495857506340630542459507430088875521844648124599210111307273688745335012745309675901550167806525853936516126736866825658815459454856005227493808456606465932449505063524165458870744943080075279666175828957082627200"}, "name": "log_300_lt_6", "passed": true, "sequence": 464}
+{"data": {"exact": "4847471688450288382004871/6638770823916250000000000"}, "name": "rare_b_robust", "passed": true, "sequence": 465}
+{"data": {"exact": "81511358192921434657431739/302064072488189375000000000"}, "name": "rare_v_robust", "passed": true, "sequence": 466}
+{"data": {"exact": "483754223359005351358678986922985704280518746503682637/182485407776300250555197731725781250000000000000000000"}, "name": "rare_abs_z_robust", "passed": true, "sequence": 467}
+{"data": {"exact": "16598440977829642401181401061/6041281449763787500000000000000"}, "name": "rare_q_99_upper_robust", "passed": true, "sequence": 468}
+{"data": {"exact": "-14495058440362077306739/604128144976378750000000000"}, "name": "rare_q_1_negative_robust", "passed": true, "sequence": 469}
+{"name": "rare_tail_constant", "passed": true, "sequence": 470}
+{"data": {"exact": "4181050254735181419359/2416512579905515000000"}, "name": "rare_a_literal", "passed": true, "sequence": 471}
+{"data": {"exact": "4847471688450288382004871/6638770823916250000000000"}, "name": "rare_b_literal", "passed": true, "sequence": 472}
+{"data": {"value": "769762265375708129339486245402934483632789/6041281449763787500000000000000000000000000000000000000000000"}, "name": "root_s_lower_sign", "passed": true, "sequence": 473}
+{"data": {"value": "-86124914764717323517853204576304240534131299/604128144976378750000000000000000000000000000000000000000000000"}, "name": "root_s_upper_sign", "passed": true, "sequence": 474}
+{"data": {"value": "46688953358121129598283083369199904704883867552657903565797510513449427482449021/604128144976378750000000000000000000000000000000000000000000000000000000000000000000000000000000000"}, "name": "root_t_lower_sign", "passed": true, "sequence": 475}
+{"data": {"value": "-17468676898755256850422790884453398688779858035403322370846772018474451911315139/37758009061023671875000000000000000000000000000000000000000000000000000000000000000000000000000000"}, "name": "root_t_upper_sign", "passed": true, "sequence": 476}
+{"data": {"v_min": "81511358192921434657431739/302064072488189375000000000"}, "name": "root_simple_decreasing_segment", "passed": true, "sequence": 477}
