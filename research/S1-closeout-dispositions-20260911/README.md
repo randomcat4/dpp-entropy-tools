@@ -15,7 +15,7 @@ author-only finite certificates.  No checker or certificate program was run.
 | 120 | `83b89e8b9b4c542e5d1cd8b38b64b7ff2449ad41` | **MIXED: SUPERSEDED + EVIDENCE_INSUFFICIENT** | The equal-strength theorem is the same theorem already accepted from PR124 and is counted once; the pointwise obstruction is also superseded by PR124/PR127.  The later compact unequal-strength middle has a correct static reduction from the six-dimensional form and its Schur core to complete Shannon curvature, but its 1024-box interval/Gershgorin margin is author evidence only.  Without an independent finite audit, that new compact-middle theorem is not importable. |
 | 115 | `dd52c147efc4a0908b8e9545628f031d1be97027` | **SUPERSEDED** | The unfinished Poisson/Neumann true-rate route and its `n=6,7,8` author certificates are replaced by PR136 at `39098dac760cea2d27f2955bed31f80c87913810`.  PR137 accepts the PR136 analytic interface, while the PR136 theorem remains conditional on its separate S2 finite-evidence gate.  Supersession does not promote the older PR115 finite signs. |
 | 110 | `142420531ed7a41d1abc4c8040c6485bf21b1bc7` | **SUPERSEDED** | Its local corrected-concavity theorem is contained in the accepted arbitrary-strict-`A_0` theorem of PR117 at `70d69bf5c47282c953010518ff264cb2a7a09bf9`, reviewed in PR126 and merged as `2f66f1a67af9e23bf77ec04f1d6f716947072394`.  The Fang--Shin and BFG source conditions were spot-checked and revealed no contradiction, but no duplicate theorem import is needed. |
-| 106 | `a175bf1d1b5a8c16537aa4924731de426dfc882d` | **MIXED: SUPERSEDED + PASS_SCOPED** | The `A_p`, `p>=1`, local-concavity theorem is strictly contained in accepted PR117 and is superseded.  A fresh bounded reconstruction accepts the separate centered full-conditional Fisher expansion for `p>=1/2`, including its matching lower bound, but not any nearby-curvature or local-concavity conclusion below `p=1`. |
+| 106 | `a175bf1d1b5a8c16537aa4924731de426dfc882d` | **MIXED: SUPERSEDED + PASS_SCOPED** | The `A_p`, `p>=1`, local-concavity theorem is strictly contained in accepted PR117 and is superseded.  Fresh bounded reconstructions accept both the centered full-conditional Fisher expansion for `p>=1/2` and the sparse exact-score moment obstruction for the stated response method.  Neither supplies nearby-curvature control or an entropy counterexample below `p=1`. |
 | 104 | `d980dbb04840bd21e6c62cf88ffd45a9b0d1b4f8` | **PASS_SCOPED_ANALYTIC** | The actual fixed-ratio failure of the old parallel criterion, the common-leaf-diagonal sufficient criterion, and the compact-uniform double-boundary wedge are correct.  The shared-variable minimization gives the stated coefficient, the strictness argument retains the dropped nonnegative edge squares, and the limiting gap is the positive trapezoid gap for `log`.  The saved rational witness, Sylvester intervals, and displayed decimal margins remain author-only finite evidence and are excluded. |
 | 94 | `a9db9f98dc6dac766dd9b214f056ee9b30109b23` | **MIXED: PASS_SCOPED + SUPERSEDED + EVIDENCE_INSUFFICIENT** | Reuse PR100 and the public S3 SECOND: the exact local-channel theorem and actual-coordinate mode-expansion construction pass structurally.  `WHOLE_CHORD.md` is superseded by accepted PR95 at `54d9803b29f73669b9028e3519d17493e1b81be3`, with S1 PR99 and S2 PR109.  The explicit PR94 3+3 rational/64-event arithmetic remains pending its own finite audit. |
 | 66 | `af1edaad69c4e1f5e4bbd1239b8463b56bf64075` | **SUPERSEDED** | Do not retry the invalid Dobrushin import.  Its earliest load-bearing defect is that the proved polynomial interval estimate does not establish class `A1`'s exponential support-cardinality summability, while class `A2` requires a controlled null-state interaction representation that the submitted telescope does not provide.  The theorem is replaced by the DPP-specific finite-response proof in accepted PR82 at `290a84064eaae2e857d637f58531e95f4ca3cb3b`, merged as `09e09086c0dc8b30d5859a7e1e2cba86623d2631`. |
@@ -72,6 +72,16 @@ response.  For `U_s=partial_s ell_s`, normalization gives `L_s U_s=0` and
 Integration gives the claimed coefficient.  No second Poisson inverse is
 used.  The result gives no control of `D''(s)` for `s>0` and hence no local
 concavity theorem in `1/2<=p<1`.
+
+The companion `dpp_score_moment_obstruction.md` is also
+**PASS_SCOPED_METHOD_OBSTRUCTION**.  At a constant center its complete
+conditional score has exact tail variation comparable to
+`sum_{j>n}|g_hat(j)|^2`, so membership in `V_0` and `V_1` is respectively
+equivalent to finite first and second moments of that squared Fourier tail.
+The sparse odd-frequency construction lies in every stated `A_p` class while
+forcing the required moment to diverge for `p<1` (and already the `V_0` moment
+for `p<1/2`).  This blocks only the generic moment-space response route; it is
+not an entropy counterexample.
 
 ## PR112 file-level theory map
 
