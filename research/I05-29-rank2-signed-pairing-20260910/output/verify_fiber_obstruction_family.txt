@@ -1,0 +1,21 @@
+FROZEN s=9/10: all 64 events, both sets of 224 pairs checked
+negative ratio-cone counts: [75, 66]
+negative complete event integrands: [(0, 6), (1, 5), (2, 5), (3, 0)]
+min left/right window bounds: [1.149416870206, 1.149416870207] [0.702423465205, 0.702423465206]
+full t^2 I'': [4.653598245398, 4.653598245399]
+CONTINUUM ALGEBRA: Eab=0; Ma=16r^2(1+12r^2)/(1-16r^4); Mb/Ma=16r^2/(1+12r^2)
+LOG CONSTANTS: log(5)<81/50; log(7/3)>5/6; both rationally certified
+ANALYTIC LOWER BOUND: H''(t) <= -(700/19) r^2 t^2, 0<r<=1/8, |t|<=1
+RATIONAL r=1/8: strict legal on |t|<=1; full left fibers:
+0 [0.840565528856, 0.840565528857]
+1 [-0.031290785739, -0.031290785738]
+2 [0.459497907072, 0.459497907073]
+3 [0.840565528856, 0.840565528857]
+negative-fiber exact form: -(1/4) log(17/15)
+global t^2 I'': [0.527334544761, 0.527334544762]
+BOTH BLOCKS CORRELATED: A12=3/8, C12=1/64, B=(1/16)[[1,2],[2,-1]]
+strict legal on |t|<=1; negative fiber: [-0.0000076293969566, -0.0000076293969565]
+full t^2 I'' at s=1/2: [0.0331791958709964, 0.0331791958709965]
+PASS: author-side exact checks only; continuum proof and novelty require separate review
+Python 3.13.5 SymPy 1.14.0
+Elapsed seconds: 0.477
