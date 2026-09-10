@@ -1,0 +1,9 @@
+PYTHON=3.13.5
+SYMPY=1.14.0
+ONE_PROCESS=TRUE
+WALL_SECONDS=3.07
+PEAK_RSS_KIB=127676
+PASS: equal-strength antisymmetric determinant and exact chain gap
+PASS: removable b=0 pivot and small-edge Schur asymptotics
+PASS: residual-only network limit and exact negative-gap criterion
+ALL I05-35 SMALL-EDGE ALGEBRA CHECKS PASSED
