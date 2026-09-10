@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "ff28ace73f0adcce4d66ab985da6aabbe1382870638e5248f1e9f16b4cd84f76",
+      "published_copy_sha256": "ff28ace73f0adcce4d66ab985da6aabbe1382870638e5248f1e9f16b4cd84f76"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "7c4d0dbb16035c5a7f4177dbc837cc41e286c4ad229773b47f61f7be42722152",
+      "published_copy_sha256": "7c4d0dbb16035c5a7f4177dbc837cc41e286c4ad229773b47f61f7be42722152"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "4f745e843c52d8fc6f9f85efffdf8bc8054ba94107cb66960a7bb52caeb910bd",
+      "published_copy_sha256": "4f745e843c52d8fc6f9f85efffdf8bc8054ba94107cb66960a7bb52caeb910bd"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "73583c4abc478d557c7e6151f0bef8a6e5f9f9c3ae24ac95ef7ff34ca7ad80d3",
+      "published_copy_sha256": "6c49ee24232f3822b3c55212e73abb5f495e6844240960d8868390a5becd039f"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "48f44ccbb15ecf9235a009c606bcd6bc25a66f9af0aa7ac5a03a9b8e576855f7",
+      "published_copy_sha256": "48f44ccbb15ecf9235a009c606bcd6bc25a66f9af0aa7ac5a03a9b8e576855f7"
+    }
+  ],
+  "scope": "Representation changes only; original report verdicts preserved."
+}

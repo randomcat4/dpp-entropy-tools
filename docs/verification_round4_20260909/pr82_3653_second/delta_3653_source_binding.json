@@ -1,0 +1,134 @@
+{
+  "review": "pr82_delta_3653_second",
+  "role": "continuing_independent_SECOND_source_review",
+  "frozen_pr": 82,
+  "frozen_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+  "previous_head": "6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "local_root": "review-local-input",
+  "input_binding_file": {
+    "path": "delta_3653_input_binding.json"
+  },
+  "verification": {
+    "delivered_sha256": "matched_binding_for_all_files",
+    "line_counts": "matched_binding_for_all_files",
+    "original_sha256": "recorded_from_binding_not_recomputed_as_review_input",
+    "forbidden_material": "not_opened",
+    "subagents": "not_used",
+    "math_computation": "not_performed",
+    "primary_sources": "used_only_from_prior_direct_check_BFG_Tanaka"
+  },
+  "files": [
+    {
+      "path": "delta_3653_input/I05-DPP-31-20260910/README.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "70fb4e1517ae1a1b101ee3c3d08d16717b91e244",
+      "original_sha256": "370ec3ecf3a865997867574e08d77d3d50af9855bab9a92344d1c0382afcac85",
+      "delivered_sha256_expected": "f9169510a5e7365c520fe72b8d548e25a7475f7497a673275696de25a34d39e9",
+      "delivered_sha256_observed": "f9169510a5e7365c520fe72b8d548e25a7475f7497a673275696de25a34d39e9",
+      "line_count_expected": 237,
+      "line_count_observed": 237,
+      "redactions": [
+        "Nonmathematical prior-review-status adjective replaced; mathematical premise preserved.",
+        "Nonmathematical prior-review-status adjective replaced; mathematical premise preserved."
+      ],
+      "status": "MATCH_WITH_RESIDUAL_WORDING_NEEDS_FIX_LINE_191"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_continuity_detail.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "9f33c28507ce07d916199d7a0cb69a45ecde485c",
+      "original_sha256": "8458e48bb0b5af66eb0c712a3b6d5c708e2475b2faba8ba5552310d2941f06ff",
+      "delivered_sha256_expected": "8458e48bb0b5af66eb0c712a3b6d5c708e2475b2faba8ba5552310d2941f06ff",
+      "delivered_sha256_observed": "8458e48bb0b5af66eb0c712a3b6d5c708e2475b2faba8ba5552310d2941f06ff",
+      "line_count_expected": 230,
+      "line_count_observed": 230,
+      "redactions": [],
+      "status": "MATCH"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_measure_continuity.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "acd6ebaf2892ffdc487792251a52a07da8b8dfd8",
+      "original_sha256": "4d42530c641185771438a2fd6413f4902eeb5a2ef2da34e4a5ae052891f239de",
+      "delivered_sha256_expected": "4d42530c641185771438a2fd6413f4902eeb5a2ef2da34e4a5ae052891f239de",
+      "delivered_sha256_observed": "4d42530c641185771438a2fd6413f4902eeb5a2ef2da34e4a5ae052891f239de",
+      "line_count_expected": 95,
+      "line_count_observed": 95,
+      "redactions": [],
+      "status": "MATCH"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_one_loss.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "8ac6d2ada008474aaa6bd05cf7ebd2ed7eff419d",
+      "original_sha256": "53497bc566bdf6753e0fa1a88643a6990ee43fb64e206ad6b9ef231ba4f3c20a",
+      "delivered_sha256_expected": "18ac7c46f471b7c4b738b13b06095d52f8e0db9bed39380dd5583a654678ee4f",
+      "delivered_sha256_observed": "18ac7c46f471b7c4b738b13b06095d52f8e0db9bed39380dd5583a654678ee4f",
+      "line_count_expected": 618,
+      "line_count_observed": 618,
+      "redactions": [
+        "Nonmathematical prior-review-status adjective replaced; mathematical premise preserved.",
+        "Nonmathematical prior-review-status adjective replaced; mathematical premise preserved."
+      ],
+      "status": "MATCH"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_pr66_dependency_audit.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "137d24374a8a09c1530d9fff536eacd26c3801f0",
+      "original_sha256": "fa369e01f38437b23ffc15a70b7c4210c9a04280a05035b123dbec66eb9be5e1",
+      "delivered_sha256_expected": "fa369e01f38437b23ffc15a70b7c4210c9a04280a05035b123dbec66eb9be5e1",
+      "delivered_sha256_observed": "fa369e01f38437b23ffc15a70b7c4210c9a04280a05035b123dbec66eb9be5e1",
+      "line_count_expected": 304,
+      "line_count_observed": 304,
+      "redactions": [],
+      "status": "MATCH"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_selfcontained_closures.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "3867b39d24dffcbd510ecf329541f791c735f020",
+      "original_sha256": "6947bffaade967691f4a3644ce61681be1b702f80bb4a7c4cdf82466580b91b8",
+      "delivered_sha256_expected": "6947bffaade967691f4a3644ce61681be1b702f80bb4a7c4cdf82466580b91b8",
+      "delivered_sha256_observed": "6947bffaade967691f4a3644ce61681be1b702f80bb4a7c4cdf82466580b91b8",
+      "line_count_expected": 258,
+      "line_count_observed": 258,
+      "redactions": [],
+      "status": "MATCH"
+    },
+    {
+      "path": "delta_3653_input/I05-DPP-31-pr66-lowreg-20260910/c4_response_spatial_truncation_p6.md",
+      "binding_head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+      "original_git_blob": "3cc31ea531155be5ccf0b9bb20eb4c5d134db22c",
+      "original_sha256": "0acd16578b7e0f5165f4613e2899cd0000c7acafa94d3cac692326a164661963",
+      "delivered_sha256_expected": "0acd16578b7e0f5165f4613e2899cd0000c7acafa94d3cac692326a164661963",
+      "delivered_sha256_observed": "0acd16578b7e0f5165f4613e2899cd0000c7acafa94d3cac692326a164661963",
+      "line_count_expected": 231,
+      "line_count_observed": 231,
+      "redactions": [],
+      "status": "MATCH"
+    }
+  ],
+  "outputs": [
+    "delta_3653_scope.md",
+    "delta_3653_review.md",
+    "delta_3653_code.md",
+    "delta_3653_source_binding.json"
+  ],
+  "findings": [
+    {
+      "severity": "needs_fix",
+      "file": "delta_3653_input/I05-DPP-31-20260910/README.md",
+      "line": 191,
+      "summary": "Residual prior-review-status phrase 'independently accepted' should be removed."
+    }
+  ],
+  "non_assessed": [
+    "novelty",
+    "formal verification",
+    "machine recomputation",
+    "determinant/log/entropy arithmetic",
+    "whole-legal-interval concavity",
+    "entropy counterexample"
+  ]
+}

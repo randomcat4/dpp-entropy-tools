@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "delta_3653_scope.md",
+      "original_sha256": "83d6c0bd9fecc957336e372fb6a23d946b09bb983a1bbfbd1d5c5a7161d80f33",
+      "published_copy_sha256": "83d6c0bd9fecc957336e372fb6a23d946b09bb983a1bbfbd1d5c5a7161d80f33"
+    },
+    {
+      "file": "delta_3653_review.md",
+      "original_sha256": "e7d75efea4687cd2c2fac713c323a0910b8e24f0c116f4e2bc8754ce0c004094",
+      "published_copy_sha256": "e7d75efea4687cd2c2fac713c323a0910b8e24f0c116f4e2bc8754ce0c004094"
+    },
+    {
+      "file": "delta_3653_code.md",
+      "original_sha256": "cd65421a2c6fa96001213e178d911ecd4b4f6ddba2e738b66aef3ac417b7caeb",
+      "published_copy_sha256": "cd65421a2c6fa96001213e178d911ecd4b4f6ddba2e738b66aef3ac417b7caeb"
+    },
+    {
+      "file": "delta_3653_source_binding.json",
+      "original_sha256": "046ccad3bfbc6188413cd4ea32e5529cf086d9b054860a8de78ebd600943d503",
+      "published_copy_sha256": "85a57837cdf9822eb4e11ee9e2b13a51c9f6e0cb706098ca925eda013d8ff401"
+    },
+    {
+      "file": "delta_3653_input_binding.json",
+      "original_sha256": "58a1f334212817943cba2cc8a64d5d032f8bcb099e899dc201769356994a6f8f",
+      "published_copy_sha256": "58a1f334212817943cba2cc8a64d5d032f8bcb099e899dc201769356994a6f8f"
+    }
+  ],
+  "scope": "Representation changes only; original report verdicts preserved."
+}

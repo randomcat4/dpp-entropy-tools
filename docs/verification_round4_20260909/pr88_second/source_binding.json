@@ -1,0 +1,385 @@
+{
+  "review": "PR88 independent bounded SECOND static review",
+  "review_directory": "review-local-input",
+  "frozen_head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+  "input_binding_sha256": "48f44ccbb15ecf9235a009c606bcd6bc25a66f9af0aa7ac5a03a9b8e576855f7",
+  "rules_observed": [
+    "Only pr88_second/input_binding.json and the six bound input files were read as PR88 evidence.",
+    "No FIRST, other SECOND, C3 opinion, public comments, later live checkout, or private excluded directory was read.",
+    "No author script was run, imported, or compiled.",
+    "No determinant/log/entropy/interval/finite arithmetic reconstruction was performed.",
+    "certificate_compact.json was inspected only for hash/schema/short metadata; large rational payloads are not reproduced in reports.",
+    "No sub-agent was spawned."
+  ],
+  "binding": {
+    "pr": 88,
+    "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+    "file_count": 6,
+    "all_delivered_sha256_match": true,
+    "all_line_counts_match": true,
+    "all_byte_counts_match": true,
+    "original_blob_verification_status": "INCOMPLETE: local pr88_second is not a git repository and no local object store is available to recompute original_git_blob -> original_sha256; delivered SHA/line/byte counts were verified.",
+    "files": [
+      {
+        "path": "input/README.md",
+        "public_path": "research/N4/I05_20260910/README.md",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "ce6719c6cb58773e1209dcc61b680d73104cdfd9",
+        "original_sha256": "311c9df6b71dfd294e7b643bd0cf3663a060e1505e138fd1d0737208edf09abf",
+        "delivered_sha256_expected": "0a0e03f4793c20b439e114569899bf4d425a7c17833f5e5274dbebf98bd7138d",
+        "delivered_sha256_actual": "0a0e03f4793c20b439e114569899bf4d425a7c17833f5e5274dbebf98bd7138d",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": false,
+        "line_count_expected": 74,
+        "line_count_actual": 74,
+        "line_count_match": true,
+        "bytes_expected": 10503,
+        "bytes_actual": 10503,
+        "bytes_match": true,
+        "redactions": [
+          {
+            "line": 42,
+            "kind": "prior-review reading history paragraph"
+          }
+        ]
+      },
+      {
+        "path": "input/certificate_compact.json",
+        "public_path": "research/N4/I05_20260910/certificate_compact.json",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "ca24722d147a060b9f052ddcca58b7224993b3a4",
+        "original_sha256": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b",
+        "delivered_sha256_expected": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b",
+        "delivered_sha256_actual": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "line_count_expected": 1,
+        "line_count_actual": 1,
+        "line_count_match": true,
+        "bytes_expected": 10056,
+        "bytes_actual": 10056,
+        "bytes_match": true,
+        "redactions": []
+      },
+      {
+        "path": "input/continuation.md",
+        "public_path": "research/N4/I05_20260910/continuation.md",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "b6f1791268c585d144fed3e373d30618b710347a",
+        "original_sha256": "2b6770aa3b987502d04572af82680f89219593a1dab561ea0ff741926358fea3",
+        "delivered_sha256_expected": "0d25f74742134d50a70a7c0fa8936dd7f9f86d1e0bf4788a9c8d1e922069f466",
+        "delivered_sha256_actual": "0d25f74742134d50a70a7c0fa8936dd7f9f86d1e0bf4788a9c8d1e922069f466",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": false,
+        "line_count_expected": 243,
+        "line_count_actual": 243,
+        "line_count_match": true,
+        "bytes_expected": 11643,
+        "bytes_actual": 11643,
+        "bytes_match": true,
+        "redactions": [
+          {
+            "line": 21,
+            "kind": "prior-review status adjective only; proof/source premise retained"
+          },
+          {
+            "line": 86,
+            "kind": "prior-review status adjective only; proof/source premise retained"
+          },
+          {
+            "line": 166,
+            "kind": "prior-review status adjective only; proof/source premise retained"
+          }
+        ]
+      },
+      {
+        "path": "input/fixtures.md",
+        "public_path": "research/N4/I05_20260910/fixtures.md",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "19b62f741d90db851d73fcd4c8e652aa41b60299",
+        "original_sha256": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e",
+        "delivered_sha256_expected": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e",
+        "delivered_sha256_actual": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "line_count_expected": 166,
+        "line_count_actual": 166,
+        "line_count_match": true,
+        "bytes_expected": 8705,
+        "bytes_actual": 8705,
+        "bytes_match": true,
+        "redactions": []
+      },
+      {
+        "path": "input/proof.md",
+        "public_path": "research/N4/I05_20260910/proof.md",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "ef3d234f2211792f4fb0f4c1bcc66806d5d6a3f4",
+        "original_sha256": "347a32f40ab1e60e440642f6c90049178ee98b85fd20f85a77bdc2a6fbe91d85",
+        "delivered_sha256_expected": "33b6cbd00fe7ea6bc4da307a2e8e1e7abf1fdc913b844548a02e98638b7597e3",
+        "delivered_sha256_actual": "33b6cbd00fe7ea6bc4da307a2e8e1e7abf1fdc913b844548a02e98638b7597e3",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": false,
+        "line_count_expected": 269,
+        "line_count_actual": 269,
+        "line_count_match": true,
+        "bytes_expected": 14513,
+        "bytes_actual": 14513,
+        "bytes_match": true,
+        "redactions": [
+          {
+            "line": 83,
+            "kind": "prior-review status adjective only; proof/source premise retained"
+          },
+          {
+            "line": 186,
+            "kind": "prior-review status adjective only; proof/source premise retained"
+          }
+        ]
+      },
+      {
+        "path": "input/verify.py",
+        "public_path": "research/N4/I05_20260910/verify.py",
+        "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+        "original_git_blob": "9b7282e9abb87d03057d6e36d3b28c75d63f03fa",
+        "original_sha256": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003",
+        "delivered_sha256_expected": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003",
+        "delivered_sha256_actual": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "line_count_expected": 311,
+        "line_count_actual": 311,
+        "line_count_match": true,
+        "bytes_expected": 12108,
+        "bytes_actual": 12108,
+        "bytes_match": true,
+        "redactions": []
+      }
+    ]
+  },
+  "certificate_schema": {
+    "top_keys": [
+      "status",
+      "python",
+      "sympy",
+      "log_scale_bits",
+      "atanh_terms",
+      "display_digits_outward",
+      "method",
+      "common_mode",
+      "multiring",
+      "author_runtime_seconds",
+      "array_index"
+    ],
+    "status": "AUTHOR_RATIONAL_CERTIFICATES; PENDING_REVIEW",
+    "python": "3.13.5",
+    "sympy": "1.14.0",
+    "log_scale_bits": 192,
+    "atanh_terms": 80,
+    "display_digits_outward": 36,
+    "author_runtime_seconds": 0.616,
+    "array_index": "mask=sum(2^(i-1) for i in S), coordinates 1-based; all atoms including exact zeros retained; multiring coefficient entries are [t^0,t^2,t^4]",
+    "method": {
+      "keys": [
+        "ranks",
+        "bridge_Hmix_minus_Hmid",
+        "true_Delta",
+        "epsilon",
+        "lift_bridge_lower_bound_enclosure",
+        "lift_Delta_upper_bound_enclosure",
+        "midpoint_quadruple_atom",
+        "pair_inclusion_corrections",
+        "atoms_minus",
+        "atoms_plus",
+        "atoms_mid"
+      ],
+      "ranks": [
+        2,
+        2,
+        4
+      ],
+      "epsilon": "1/1000000",
+      "atoms_minus_len": 16,
+      "atoms_plus_len": 16,
+      "atoms_mid_len": 16,
+      "pair_inclusion_corrections_len": 6
+    },
+    "common_mode": {
+      "keys": [
+        "ranks",
+        "r",
+        "G",
+        "r_times_rank1_G",
+        "empty_branch_G",
+        "epsilon",
+        "lift_G_lower_bound_enclosure",
+        "atoms_minus",
+        "atoms_plus",
+        "atoms_mid",
+        "D_diagonal",
+        "all_epsilon_G_lower_bound"
+      ],
+      "ranks": [
+        2,
+        2,
+        3
+      ],
+      "r": "77/200",
+      "epsilon": "1/100000",
+      "atoms_minus_len": 64,
+      "atoms_plus_len": 64,
+      "atoms_mid_len": 64,
+      "all_epsilon_G_lower_bound": "49*(1-2*epsilon)^2/7200"
+    },
+    "multiring": {
+      "keys": [
+        "beta",
+        "count_layer_lower_bound",
+        "zero_layers",
+        "conditional_obstruction_S",
+        "conditional_M",
+        "conditional_trace",
+        "conditional_e2",
+        "offdiagonal_anchor_ratios",
+        "probes",
+        "atom_polynomials"
+      ],
+      "beta": "6784/16875",
+      "count_layer_lower_bound": "128/625",
+      "conditional_obstruction_S": [
+        2
+      ],
+      "conditional_trace": "-113/345",
+      "conditional_e2": "44/1725",
+      "zero_layers_keys": [
+        "cardinality=0,order=2",
+        "cardinality=1,order=1",
+        "cardinality=2,order=1",
+        "cardinality=4,order=1",
+        "cardinality=5,order=1",
+        "cardinality=6,order=2"
+      ],
+      "atom_polynomials_len": 64,
+      "probes_len": 3,
+      "probe_t_values": [
+        "1/2",
+        "3/4",
+        "9/10"
+      ]
+    }
+  },
+  "line_anchors": {
+    "scope_readme": [
+      "input/README.md:1-21",
+      "input/README.md:40-74"
+    ],
+    "rank2_cauchy_binet_mobius": [
+      "input/proof.md:15-79"
+    ],
+    "three_coordinate_indefinite_and_rank1": [
+      "input/proof.md:81-101",
+      "input/proof.md:169-186"
+    ],
+    "common_dense_mode": [
+      "input/proof.md:103-168",
+      "input/continuation.md:84-118"
+    ],
+    "coordinate_supported_whole_chord": [
+      "input/continuation.md:5-82"
+    ],
+    "multiple_boundary_fixed_line": [
+      "input/proof.md:188-243"
+    ],
+    "bitflip_continuity": [
+      "input/proof.md:245-265"
+    ],
+    "method_bridge_fixture": [
+      "input/fixtures.md:1-94"
+    ],
+    "common_mode_fixture": [
+      "input/fixtures.md:96-130"
+    ],
+    "multiring_fixture": [
+      "input/continuation.md:120-243",
+      "input/fixtures.md:132-166"
+    ],
+    "verify_code": [
+      "input/verify.py:1-311"
+    ],
+    "certificate_json": [
+      "input/certificate_compact.json:top-level schema only"
+    ]
+  },
+  "gate_verdicts": [
+    {
+      "gate": "delivered binding hash/line/byte counts",
+      "verdict": "CORRECT",
+      "basis": "All six delivered files match bound SHA-256, line_count, and byte count."
+    },
+    {
+      "gate": "original blob mapping and redaction equivalence",
+      "verdict": "INCOMPLETE",
+      "basis": "Original blob IDs and original SHA values are recorded, but no local git object store is available; for redacted files, original mathematical equivalence is accepted only as binding metadata."
+    },
+    {
+      "gate": "full rank-two Cauchy-Binet/Mobius/mixed-area expansion",
+      "verdict": "CORRECT",
+      "basis": "The proof keeps pair mixed areas plus triple/quadruple terms and applies full Mobius atoms, while explicitly denying an entropy sign conclusion from nonnegative inclusion minors alone."
+    },
+    {
+      "gate": "three-coordinate indefinite direction lemma and rank-one strict mechanism",
+      "verdict": "CORRECT",
+      "basis": "The text rederives the complete coefficient law, covariance sign pairing, Hessian sign, boundary regularization, and rank-one strict interpolation mechanism."
+    },
+    {
+      "gate": "common dense mode decomposition",
+      "verdict": "CORRECT",
+      "basis": "The outside law is fixed, conditional branches retain common-mode interactions and midpoint triples, and the rank-one occupied branch gives strictness under the stated support/intersection hypotheses."
+    },
+    {
+      "gate": "coordinate-supported whole-chord/Fisher strictness",
+      "verdict": "CORRECT",
+      "basis": "Theorem 3 uses complete outside conditioning with fixed q weights and a Fisher Cauchy-Schwarz bound; it is limited to actual three-coordinate support and not spectral rotations."
+    },
+    {
+      "gate": "fixed affine multiple-boundary beta/h theorem",
+      "verdict": "CORRECT",
+      "basis": "For a fixed legal affine line, the proof separates simple zero atoms, higher-order rare atoms, and acceleration terms, giving H\"(h)=-beta/h+O(1+|log h|) with correct nonuniform quantifiers."
+    },
+    {
+      "gate": "specific multiring beta/64 atoms/probe intervals",
+      "verdict": "SOURCE_ONLY",
+      "basis": "The exact beta value, 64 atom quartics, conditional obstruction matrix/ratios, and sample interval signs are author finite certificate data without independent C2 reconstruction."
+    },
+    {
+      "gate": "method bridge failure versus real entropy counterexample",
+      "verdict": "CORRECT_WITH_SOURCE_LIMIT",
+      "basis": "The packet correctly distinguishes the failed auxiliary bridge from the true Jensen Delta; the displayed finite signs remain SOURCE_ONLY."
+    },
+    {
+      "gate": "small common bit-flip continuity",
+      "verdict": "CORRECT",
+      "basis": "The bit-flip channel preserves midpoints and the finite-alphabet continuity proof is self-contained; finite lifted numeric signs remain SOURCE_ONLY."
+    },
+    {
+      "gate": "author verify.py and certificate_compact.json",
+      "verdict": "SOURCE_ONLY",
+      "basis": "Static inspection only; no execution/import. The JSON schema and short metadata were checked, not the large rational payload."
+    },
+    {
+      "gate": "unrestricted moving rank-two midpoint / real-kernel conjecture / multiring compact middle",
+      "verdict": "INCOMPLETE",
+      "basis": "The packet explicitly leaves these global conclusions unresolved."
+    },
+    {
+      "gate": "novelty",
+      "verdict": "NOT_ASSESSED",
+      "basis": "No novelty or priority review was performed."
+    },
+    {
+      "gate": "formal proof",
+      "verdict": "NOT_PERFORMED",
+      "basis": "No formal/Lean check was performed."
+    }
+  ]
+}

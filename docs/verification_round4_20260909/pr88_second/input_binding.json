@@ -1,0 +1,100 @@
+{
+  "pr": 88,
+  "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+  "files": [
+    {
+      "path": "input/README.md",
+      "public_path": "research/N4/I05_20260910/README.md",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "ce6719c6cb58773e1209dcc61b680d73104cdfd9",
+      "original_sha256": "311c9df6b71dfd294e7b643bd0cf3663a060e1505e138fd1d0737208edf09abf",
+      "delivered_sha256": "0a0e03f4793c20b439e114569899bf4d425a7c17833f5e5274dbebf98bd7138d",
+      "line_count": 74,
+      "bytes": 10503,
+      "redactions": [
+        {
+          "line": 42,
+          "kind": "prior-review reading history paragraph"
+        }
+      ]
+    },
+    {
+      "path": "input/certificate_compact.json",
+      "public_path": "research/N4/I05_20260910/certificate_compact.json",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "ca24722d147a060b9f052ddcca58b7224993b3a4",
+      "original_sha256": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b",
+      "delivered_sha256": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b",
+      "line_count": 1,
+      "bytes": 10056,
+      "redactions": []
+    },
+    {
+      "path": "input/continuation.md",
+      "public_path": "research/N4/I05_20260910/continuation.md",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "b6f1791268c585d144fed3e373d30618b710347a",
+      "original_sha256": "2b6770aa3b987502d04572af82680f89219593a1dab561ea0ff741926358fea3",
+      "delivered_sha256": "0d25f74742134d50a70a7c0fa8936dd7f9f86d1e0bf4788a9c8d1e922069f466",
+      "line_count": 243,
+      "bytes": 11643,
+      "redactions": [
+        {
+          "line": 21,
+          "kind": "prior-review status adjective only; proof/source premise retained"
+        },
+        {
+          "line": 86,
+          "kind": "prior-review status adjective only; proof/source premise retained"
+        },
+        {
+          "line": 166,
+          "kind": "prior-review status adjective only; proof/source premise retained"
+        }
+      ]
+    },
+    {
+      "path": "input/fixtures.md",
+      "public_path": "research/N4/I05_20260910/fixtures.md",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "19b62f741d90db851d73fcd4c8e652aa41b60299",
+      "original_sha256": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e",
+      "delivered_sha256": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e",
+      "line_count": 166,
+      "bytes": 8705,
+      "redactions": []
+    },
+    {
+      "path": "input/proof.md",
+      "public_path": "research/N4/I05_20260910/proof.md",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "ef3d234f2211792f4fb0f4c1bcc66806d5d6a3f4",
+      "original_sha256": "347a32f40ab1e60e440642f6c90049178ee98b85fd20f85a77bdc2a6fbe91d85",
+      "delivered_sha256": "33b6cbd00fe7ea6bc4da307a2e8e1e7abf1fdc913b844548a02e98638b7597e3",
+      "line_count": 269,
+      "bytes": 14513,
+      "redactions": [
+        {
+          "line": 83,
+          "kind": "prior-review status adjective only; proof/source premise retained"
+        },
+        {
+          "line": 186,
+          "kind": "prior-review status adjective only; proof/source premise retained"
+        }
+      ]
+    },
+    {
+      "path": "input/verify.py",
+      "public_path": "research/N4/I05_20260910/verify.py",
+      "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "original_git_blob": "9b7282e9abb87d03057d6e36d3b28c75d63f03fa",
+      "original_sha256": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003",
+      "delivered_sha256": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003",
+      "line_count": 311,
+      "bytes": 12108,
+      "redactions": []
+    }
+  ],
+  "scope": "Six pure author source/code/output files, original and delivered hashes separated. Prior-review history/status withheld with line counts and mathematics preserved. No independent reviewer opinions or later live sources. Certificate JSON is SOURCE_ONLY: inspect schema/hash/short metadata only, no huge rational dump or mathematical reconstruction. No math execution or new C2 contract."
+}

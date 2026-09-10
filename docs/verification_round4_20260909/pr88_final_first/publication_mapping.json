@@ -1,0 +1,21 @@
+{
+  "origin": "C1 completed local FIRST reports; no inference of later PR90 coverage",
+  "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "a9f4c9dda1e2d2b5a019f69cd633bd88f1c4daefc93a3ceb8acba436533556af",
+      "published_copy_sha256": "a9f4c9dda1e2d2b5a019f69cd633bd88f1c4daefc93a3ceb8acba436533556af"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "a5e0cf2a3599ce39f30afda7ba4087d5f961bc26f0bd5c9f6d5aa76f90b8d4ce",
+      "published_copy_sha256": "a5e0cf2a3599ce39f30afda7ba4087d5f961bc26f0bd5c9f6d5aa76f90b8d4ce"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "e2b7fbdb300c03ead7a0b63bf38aaeb1051169ad5011fdffda4c46932c5c0e00",
+      "published_copy_sha256": "e2b7fbdb300c03ead7a0b63bf38aaeb1051169ad5011fdffda4c46932c5c0e00"
+    }
+  ]
+}
