@@ -6,7 +6,7 @@
 | PR70 | Positive L/R/Y pivots and paired compensation | ACCEPTED_SCOPED |
 | PR70 | Full 2x2 core equivalence, back-map, Fisher inverse and symmetries | ACCEPTED_SCOPED: equivalence only, no determinant sign proof |
 | PR70 | Strict quadratic perspective, fixed-shape tail and thinning bridge | ACCEPTED_SCOPED with stated auxiliary/fixed-shape/hypothetical scope |
-| PR70 | Fixed rational paired-resolvent obstruction and full entropy signs | PENDING_C2 / INCOMPLETE for independent finite acceptance |
+| PR70 | Fixed rational paired-resolvent obstruction and P5/P6 entropy signs | ACCEPTED_SCOPED FIRST on actual PR85 raw evidence; isolated SECOND separate |
 | PR70 | General one-sided/full entropy target | Open author target; no inherited theorem |
 | PR77 | Fixed-path legality and complete-event influence/entropy tail | Legality/formulas ACCEPTED_SCOPED; analytic tail structure accepted modulo exact constants PENDING_C2 |
 | PR77 | Fixed true-rate Jensen numerical certificate | Correct analytic tail allocation; independent finite sign PENDING_C2 and raw output packaging NEEDS_FIX |

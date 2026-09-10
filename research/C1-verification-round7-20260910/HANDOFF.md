@@ -14,8 +14,11 @@ symmetries, strict quadratic perspective, fixed-shape tail, and thinning
 equivalence/remainder. All explicit auxiliary and hypothetical limits
 remain part of the acceptance.
 
-The fixed rational paired-resolvent obstruction is PENDING_C2. Its
-independent finite certification is not closed by author values or PASS.
+The fixed rational paired-resolvent obstruction has now received
+ACCEPTED_SCOPED C1 source/evidence FIRST on the actual independent PR85
+raw packet. The reviewer inspected the construction, every P2/P5/P6 gate,
+full entropy terms, log interval implementation and execution binding.
+It is closed by those artifacts and review, not by author values or PASS.
 No universal determinant sign, universal one-sided theorem, or general
 real three-point entropy theorem is accepted.
 
@@ -102,9 +105,14 @@ one fixed PR70 auxiliary object, PR77's fixed midpoint and three points,
 and the Fisher constants now explicitly included by C3. The actual
 [finite contracts are bound separately](FINITE_REQUEST_BINDING.json).
 PR70 raw evidence at PR85 `611d5f70e8bb70237755ca4fdbe8ab14c8b715c1`
-is bound in [its own source manifest](units/pr70/PR85_MACHINE_BINDING.json)
-and is being audited by the original FIRST reviewer. PR77 raw evidence
-is pending. This review starts no issue73/74 exploration,
+is bound in [its own source manifest](units/pr70/PR85_MACHINE_BINDING.json).
+The original reviewer completed [finite FIRST scope](units/pr70/machine_pr85_scope.md),
+[finite evidence FIRST](units/pr70/machine_pr85_review.md) and
+[static code FIRST](units/pr70/machine_pr85_code.md). C3 can now proceed
+with its isolated SECOND on the raw inputs, implementation and outputs,
+without supplying these FIRST opinions as premises. PR77 raw evidence
+is pending following public preparation d68fec7f and the 02:28:39 UTC
+start, 03:13:39 UTC deadline of its single run. This review starts no issue73/74 exploration,
 continuous interval job, new theory route or new main instance.
 
 Novelty is NOT_ASSESSED; formal verification is NOT_PERFORMED. No pending

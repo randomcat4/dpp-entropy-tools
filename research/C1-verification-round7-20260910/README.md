@@ -1,8 +1,9 @@
 # C1 independent FIRST: PR70 and PR77
 
 Status: both fresh non-author source-only FIRST reviews are COMPLETE.
-PR70's analytic packet is ACCEPTED_SCOPED; its fixed finite witness is
-PENDING_C2. PR77's named analytic bridges are ACCEPTED_SCOPED, with exact
+PR70's analytic packet and its fixed P2/P5/P6 finite evidence gate are
+ACCEPTED_SCOPED by C1 FIRST; the actual PR85 evidence has been reviewed.
+PR77's named analytic bridges are ACCEPTED_SCOPED, with exact
 constants/finite signs separately PENDING_C2, evidence packaging NEEDS_FIX,
 and the Section 9 true-rate beam-splitter bridge INCOMPLETE.
 No verdict is inherited from previous packets, author checks or a later
@@ -51,9 +52,14 @@ The committed Fisher JSON differs from the script's emitted schema.
 C3 has separately authorized [PR70's 600-second finite contract](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5606052217)
 and then [PR77's 2700-second fixed-value/jet/constant contract](https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5606122441).
 Both are C2-owned. PR70 raw evidence is now frozen at PR85
-`611d5f70e8bb70237755ca4fdbe8ab14c8b715c1` and its original FIRST reviewer
-is auditing the actual implementation, input, output and execution files.
-PR77 raw finite evidence remains pending.
+`611d5f70e8bb70237755ca4fdbe8ab14c8b715c1`; its original FIRST reviewer
+has completed the [actual finite evidence review](units/pr70/machine_pr85_review.md)
+and [static implementation review](units/pr70/machine_pr85_code.md).
+The fixed P2/P5/P6 gate is closed at FIRST. This supports a local
+counterexample to auxiliary paired-resolvent convexity, not a refutation of
+full-entropy concavity or a general sign theorem. Isolated SECOND remains
+C3's next gate. PR77 raw finite evidence remains pending; C2 has published
+preparation d68fec7f and started its single bounded run.
 
 The further explicit [2564 text-delta FIRST](units/pr77/finite_scope_2564_review.md)
 is COMPLETE: Section 9's over-broad rate-derivative wording is closed by

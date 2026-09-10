@@ -79,3 +79,10 @@ README/STATUS interpretation is excluded from reviewer input. The exact
 implementation and inputs match pre-execution public head29d4d77. The
 original reviewer audits P2/P5/P6 and raw execution/interval evidence,
 without running any code. No acceptance is inferred from178 machine checks.
+
+PR85 actual finite-evidence closure is COMPLETE. The original PR70 reviewer
+accepted the fixed P2/P5/P6 gate after reading the independently frozen
+implementation, raw checks/intervals/log schemas and execution records.
+The original PR70 reports remain unchanged. This closes the fixed auxiliary
+witness at FIRST and leaves C3's isolated SECOND and all universal targets
+separate. No arithmetic or code execution was performed by C1.
