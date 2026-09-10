@@ -43,9 +43,14 @@
     {
       "number": 106,
       "head": "a175bf1d1b5a8c16537aa4924731de426dfc882d",
-      "disposition": "MIXED_SUPERSEDED_AND_EVIDENCE_INSUFFICIENT",
+      "disposition": "MIXED_SUPERSEDED_AND_PASS_SCOPED",
       "superseding_author_pr": 117,
-      "standalone_unreviewed_unit": "centered_Fisher_expansion_for_p_ge_1_over_2"
+      "accepted_standalone_unit": {
+        "path": "research/I05-DPP-32-p1-20260910/center_quartic_p_half.md",
+        "blob": "0ab72e5c87e9ee1fc89222be6ce0459d36319a46",
+        "scope": "centered_full_conditional_Fisher_expansion_for_p_ge_1_over_2"
+      },
+      "local_concavity_below_p_1": "not_claimed"
     },
     {
       "number": 104,
