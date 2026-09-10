@@ -1,0 +1,31 @@
+I05-29 s=9/10 signed-fiber certificate: PASS
+rank(B)=2, dense: True
+strict legal, min q > 0
+left unordered ratio pairs: 224; rigorously negative F: 75
+right unordered ratio pairs: 224; rigorously negative F: 66
+worst left F enclosure approx: -4245.633453787008 -4245.633453787008 fiber/pair= (7, 6, 7)
+worst right F enclosure approx: -3807.017321311469 -3807.017321311469 fiber/pair= (7, 6, 7)
+negative complete one-event integrands: [(0, 6), (1, 5), (2, 5), (3, 0)]
+left fiber curvature lower/upper approximations:
+0 3.79240050874127 3.79240050874127
+1 1.9627394166787633 1.9627394166787633
+2 4.755182676542391 4.755182676542391
+3 3.24698718938302 3.24698718938302
+4 4.0525673997184875 4.0525673997184875
+5 4.994354981416588 4.994354981416588
+6 6.966445986814543 6.966445986814543
+7 10.033125221068001 10.033125221068001
+right fiber curvature lower/upper approximations:
+0 4.6368817292152755 4.6368817292152755
+1 1.3207440843329576 1.3207440843329576
+2 4.077807248777139 4.077807248777139
+3 3.4680480234512174 3.4680480234512174
+4 1.8603200513837412 1.8603200513837412
+5 4.404026700680843 4.404026700680843
+6 5.729366067841557 5.729366067841557
+7 12.518773590285306 12.518773590285306
+global true t^2 I'' enclosure approx: 4.653598245398841 4.653598245398841
+strict: every left and right complete conditional fiber average is positive
+strict: ratio-cone fails on both orientations; this is a method failure, not entropy failure
+
+All asserted signs are decided by exact rational endpoints from the atanh-log remainder enclosure; decimal displays are not promoted to proof.
