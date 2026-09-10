@@ -1,4 +1,4 @@
-# DPP32 checkpoint: the unresolved response is the parameter derivative of the entropy corrector
+# DPP32 checkpoint: parity information curvature and conditional affine-kernel reduction
 
 Status: AUTHOR_PROOF / PENDING_REVIEW. Date: 2026-09-10. This checkpoint is a successor to PR112 and inherits its fixed family and notation only as explicitly stated below. It does not upgrade PR112's arithmetic interval certificate, does not use the old |t-1|<=2^-27 claim, and does not assert the full [1/2,3/2] sign.
 
@@ -6,115 +6,182 @@ We work with the original complete-configuration Shannon entropy rate per origin
 
     f_t(theta)=1/2+cos(4*pi*theta)/4+t*cos(2*pi*theta)/8,
 
-with the physical affine kernel path kept in t. Put s=t^2/256 only as the auxiliary lifted parameter. Let P_s be the full four-branch probability operator, B_s its complete-cell entropy observable, eta_s its invariant law, and Phi_s any C^1 Poisson corrector solving
+with the physical affine kernel path kept in t. Put s=t^2/256 only as the auxiliary squared coupling parameter. Let P_s be the full four-branch probability operator, B_s its complete-cell entropy observable, eta_s its invariant law, and Phi_s a differentiable Poisson corrector solving
 
     (I-P_s) Phi_s = B_s - c_s,        c_s=2 h(s).
 
-All derivatives below hold the test observable fixed inside partial_s P_s, exactly as in PR91/PR112.
+All derivatives hold the test observable fixed inside partial_s P_s, exactly as in PR91/PR112.
 
-## Theorem 1: exact identification of the second unresolved Poisson observable
+## 1. Previously isolated exact response identity
 
-Define
-
-    C_s := partial_s B_s + (partial_s P_s) Phi_s.
-
-Differentiating the Poisson equation gives
-
-    (I-P_s) partial_s Phi_s = C_s - partial_s c_s.      (1)
-
-Applying eta_s to the definition and using eta_s(I-P_s)=0 gives
-
-    eta_s C_s = partial_s c_s = 2 partial_s h.          (2)
-
-Therefore, for the centered resolvent R_s=(I-P_s)^(-1) on zero-mean observables,
-
-    V_s := R_s C_s
-
-as used in PR112 is exactly the centered class of partial_s Phi_s:
-
-    V_s = partial_s Phi_s  modulo constants.            (3)
-
-Since partial_s P_s annihilates constants, the remaining response scalar is normalization-independent:
-
-    eta_s (partial_s P_s) V_s
-      = eta_s (partial_s P_s)(partial_s Phi_s).          (4)
-
-Proof: (1) is ordinary differentiation of (I-P_s)Phi_s=B_s-c_s. Equation (2) follows by eta_s. The centered inverse applied to (1) yields (3), and partial_s P_s 1=partial_s(P_s1)=0 yields (4).
-
-This is entropy-specific because Phi_s is the entropy-excess Poisson corrector; it is not a generic contraction statement.
-
-## Theorem 2: exact collapse of PR112's two-term Gamma decomposition
-
-PR112 writes
-
-    Gamma(t)= eta_s(partial_s P_s)Phi_s/256
-              +(t^2/16384) eta_s(partial_s P_s)V_s.
-
-Its displayed curvature identity is
-
-    h_tt = eta_s partial_s B_s/256
-           -(t^2/32768) eta_s(I_s+K_s)
-           +Gamma(t).
-
-Using (2), the acceleration piece and the first Gamma term combine exactly:
-
-    [eta_s partial_s B_s + eta_s(partial_s P_s)Phi_s]/256
-      = (partial_s c_s)/256
-      = (partial_s h)/128.                              (5)
-
-Using (3)-(4), the full physical curvature becomes
-
-    h_tt = (partial_s h)/128
-           +(t^2/16384) [ eta_s(partial_s P_s)(partial_s Phi_s)
-                           -(1/2) eta_s(I_s+K_s) ].       (6)
-
-Equivalently the auxiliary curvature is exactly
+Differentiating the Poisson equation shows that the PR112 second Poisson observable is the centered class of partial_s Phi_s. Consequently the exact auxiliary curvature can be organized as
 
     partial_s^2 h
       = eta_s(partial_s P_s)(partial_s Phi_s)
-        -(1/2) eta_s(I_s+K_s).                           (7)
+        -(1/2) eta_s(I_s+K_s),                         (1)
 
-No Fisher, state-motion, invariant-law response, or t-to-s acceleration term is dropped: (6) is just a reorganization of PR112's full formula.
+and restoration of the genuine affine physical t path gives
 
-## Theorem 3: the unresolved scalar is exactly parity mutual-information curvature
+    h_tt = (partial_s h)/128
+           +(t^2/16384) partial_s^2 h.                 (2)
 
-Let mu_s be the stationary complete-configuration DPP law for the same symbol, with s=t^2/256. At s=0 the nearest-neighbor Fourier mode vanishes, so the Toeplitz kernel splits into the even and odd coordinate blocks while each block marginal is unchanged from mu_s. The already accepted cyclic block-decoupling identity (q=2) therefore gives, first on every finite coordinate window and then per original coordinate,
+Equation (2) retains Fisher, state motion, invariant-law response and the t-to-s acceleration. This section is retained only to state the dependency used below; no generic sign for partial_s P_s is asserted.
 
-    D_rate(mu_s || mu_0) = h(0)-h(s).                  (8)
+## 2. Parity mutual information and corrected physical implication
 
-Equivalently this is the mutual-information rate between the even and odd coordinate sub-processes. Define
+Let mu_s be the stationary complete-configuration DPP law. At s=0 the nearest-neighbor Fourier mode vanishes, so the Toeplitz kernel splits into the even and odd coordinate blocks while each parity marginal is unchanged. The accepted cyclic block-decoupling identity therefore gives
 
-    D(s):=D_rate(mu_s || mu_0)=h(0)-h(s).
+    D(s):=D_rate(mu_s || mu_0)=h(0)-h(s),             (3)
 
-Combining (7) with D''=-h_ss gives the exact identity
+which is the mutual-information rate between the even and odd subprocesses. Hence
 
     D''(s)
       = (1/2) eta_s(I_s+K_s)
-        - eta_s(partial_s P_s)(partial_s Phi_s).        (9)
+        - eta_s(partial_s P_s)(partial_s Phi_s).       (4)
 
-Thus the remaining PR112 response inequality
+Thus convexity of D in squared coupling is exactly the remaining auxiliary-curvature inequality.
 
-    eta_s(partial_s P_s)(partial_s Phi_s)
-      <= (1/2) eta_s(I_s+K_s)                           (10)
+The physical implication must be stated carefully. Since
 
-is neither a generic cone-monotonicity assertion nor an arbitrary Poisson estimate: it is EXACTLY convexity of the parity mutual-information rate in the squared coupling s.
+    h_tt = -D'(s)/128 -(t^2/16384)D''(s),             (5)
 
-Moreover D(0)=0 and D(s)>=0 by relative entropy. Hence if D is convex on [0,S], then 0 is a global minimum on that interval and D'(s)>=0 for every s>0. With h_s=-D' and h_ss=-D'', equation (6) becomes
+there are two valid sufficient routes on a target interval J:
 
-    h_tt = -D'(s)/128 - (t^2/16384) D''(s).            (11)
+1. prove D''>=0 on a connected interval [0,S] containing J. Then D(0)=0 and D>=0 imply D'(s)>=0 on [0,S], so (5) is nonpositive;
+2. prove D''>=0 only on J AND independently prove D'>=0 on J.
 
-Therefore convexity of D(s) alone on [0,S] implies physical affine-t concavity for every positive t with t^2/256 in [0,S]. A strict positive lower bound on either D' or D'' gives strict physical curvature. In particular, proving mutual-information convexity on s in [1/1024,9/1024] would close the entire requested t in [1/2,3/2] interval without any sign claim for a generic concave observable.
+In particular, convexity merely on J=[1/1024,9/1024], corresponding to t in [1/2,3/2], does NOT follow from D(0)=0 and D>=0 to give D'>=0 there. The earlier stronger sentence in this checkpoint was incorrect and is withdrawn.
 
-Proof of (8): for a finite window, deleting all odd-even kernel entries leaves exactly the product of the true parity-block marginals, and for this family that deleted kernel is the t=0 compression. The standard block-decoupling identity gives H(mu_0,n)-H(mu_s,n)=D(mu_s,n||mu_0,n). Divide by n and use the stationary entropy-rate limit. Equations (9)-(11) are algebraic consequences of (7) and s=t^2/256.
+The accepted cyclic theorem supplies only the value bound D(s)>=s^2 for this family. It cannot be differentiated into a derivative bound.
 
-## Precise remaining obstruction
+## 3. Finite complete-event likelihood: Fisher plus exact acceleration
 
-The macroscopic sign problem has therefore collapsed to one entropy-specific global question:
+The next theorem is stated for a general finite real DPP block family because the target parity split is a specialization. Let a finite coordinate set be partitioned as E union O and let
 
-    Is the parity mutual-information rate D(s) convex in squared nearest-neighbor coupling s?
+    K_s = [[A, sqrt(s) B],
+           [sqrt(s) B^T, C]],                         (6)
 
-Strong state concavity of Phi_s alone gives no sign for the equivalent bilinear term in (9), and the already-published concave-observable counterexample to monotonicity of partial_s P_s cannot be applied as an entropy counterexample. Conversely, a proof of D''>=0 would simultaneously control the formerly separate acceleration sign, because D>=0 and D(0)=0 force D'>=0 under convexity.
+on an interval of s>=0 for which 0<K_s<I. This notation is only for the squared-coupling analysis; in the original target family sqrt(s)=t/16 and the physical K path remains affine in t.
 
-The accepted cyclic theorem also supplies the value bound D(s)>=s^2 for this family (the removed Fourier coefficient has magnitude |hat f_t(1)|=|t|/16, so |hat f_t(1)|^4=s^2). This certifies a nontrivial mutual-information gap but, by itself, does not imply D''(s)>=0 away from zero; differentiating a value inequality is invalid.
+For complete configurations e on E and o on O put
 
-No finite sample, generic operator contraction, or old narrow-interval claim is used here. The next theoretical target is a complete-word relative-entropy/Fisher representation that can prove or disprove convexity of D(s) itself.
+    A_e=A-I_{E\e},   C_o=C-I_{O\o},
+    eps_e=(-1)^|E\e|, eps_o=(-1)^|O\o|.
+
+The exact complete-event probability is
+
+    p_s(e,o)=eps_e eps_o det [[A_e,sqrt(s)B],
+                              [sqrt(s)B^T,C_o]].       (7)
+
+At s=0, p_0(e,o)=p_E(e)p_O(o). Schur complementation gives the complete-event likelihood ratio
+
+    L_{e,o}(s):=p_s(e,o)/p_0(e,o)
+      = det(I-s A_e^{-1} B C_o^{-1}B^T).              (8)
+
+No inclusion minor has replaced a complete event. Therefore finite parity mutual information is
+
+    D_{E,O}(s)=sum_{e,o} p_0(e,o)L_{e,o}(s)log L_{e,o}(s),
+
+and ordinary differentiation, using sum p_0 L''=0, yields
+
+    D_{E,O}''(s)
+      =sum_{e,o} p_0(e,o)
+         [ (L'_{e,o})^2/L_{e,o}
+           +L''_{e,o} log L_{e,o} ].                  (9)
+
+The first term is the full finite complete-event Fisher contribution. The second is the exact cross-event acceleration contribution. It first becomes nontrivial once the determinant in (8) has degree at least two; it may not be dropped or signed eventwise.
+
+## 4. New theorem: all cross-event acceleration is an average of genuine affine-kernel DPP Hessians
+
+For each complete E-configuration e define
+
+    M_e=B^T A_e^{-1}B,
+    C_e(s)=C-s M_e.                                   (10)
+
+Then, conditional on E=e, the complete O-configuration law is exactly the DPP with correlation kernel C_e(s). Indeed (7) and the Schur determinant identity give
+
+    p_s(o|e)=eps_o det(C_o-sM_e),                     (11)
+
+while p_E(e)=eps_e det A_e is independent of s. Thus C_e(s) is a genuine correlation kernel of a conditional DPP and, crucially, is AFFINE in s.
+
+Because the O marginal remains the DPP with kernel C and is independent of s,
+
+    D_{E,O}(s)
+      = H_DPP(C)-sum_e p_E(e) H_DPP(C_e(s)),           (12)
+
+where every H_DPP is the full complete-configuration Shannon entropy, not spectral entropy. Twice differentiating the genuine affine kernel paths C_e(s) proves
+
+    D_{E,O}''(s)
+      = -sum_e p_E(e)
+          D_K^2 H_DPP(C_e(s))[M_e,M_e].                (13)
+
+Equation (13) is exactly equal to the Fisher-plus-acceleration expression (9). Hence the apparently unsigned cross-event acceleration is not an extra missing term: after conditioning on one fixed marginal it is absorbed into the ordinary complete-Shannon Hessian of conditional DPP kernels along true affine K directions. This is a structural identity, not a sign theorem for arbitrary dimension.
+
+There is also an exact first-moment cancellation. Differentiating the normalization of the complete E-event probabilities in an arbitrary matrix direction X gives
+
+    0=sum_e p_E(e) tr(A_e^{-1}X).
+
+Therefore
+
+    sum_e p_E(e) A_e^{-1}=0,
+    sum_e p_E(e) M_e=0.                               (14)
+
+This explains algebraically why the first variation of the conditional-kernel mixture cancels at s=0; it does not by itself sign the second variation.
+
+## 5. Immediate verified-scope consequence and the first dimension obstruction
+
+Whenever |O|<=2, the already accepted global concavity of the finite real two-coordinate DPP Shannon entropy applies to every affine conditional path C_e(s). Equation (13) therefore gives
+
+    D_{E,O}''(s)>=0                                    (15)
+
+throughout every legal squared-coupling interval. The same conclusion holds if |E|<=2 by conditioning in the opposite direction.
+
+For the target consecutive-coordinate windows split by parity, the smaller parity block has size floor(n/2). Thus the complete finite-window parity mutual information is rigorously convex in s for n<=5. The first window not covered by this reduction is n=6, where both parity blocks have dimension three. At that point (13) lands exactly in the still-open three-dimensional complete-Shannon Hessian problem for the eight conditional affine kernels/directions; no finite-event acceleration has been omitted.
+
+This is a precise obstruction rather than a counterexample. Failure to control the n=6 conditional Hessians would not imply D_6''<0, and a finite D_n''<0 would not by itself imply a negative entropy-rate curvature.
+
+## 6. Exact finite-to-rate boundary identity
+
+For the target process group original coordinates into two-site cells and let H_m(s) be the complete Shannon entropy of m cells (2m original sites). Let c_s=2h(s) be the cell entropy rate and choose any Poisson solution
+
+    (I-P_s)Phi_s=B_s-c_s.
+
+The exact chain rule and telescoping Poisson identity give
+
+    H_m(s)=m c_s + Phi_s(0)-(P_s^m Phi_s)(0).          (16)
+
+Define the boundary corrector
+
+    Psi_m(s)=Phi_s(0)-(P_s^m Phi_s)(0).
+
+Since the parity marginals equal the s=0 blocks,
+
+    D_{2m}(s)=H_m(0)-H_m(s),                           (17)
+
+and therefore, wherever the already-proved C2 response applies,
+
+    D_{2m}''(s)/(2m)
+      =D''(s)-Psi_m''(s)/(2m).                        (18)
+
+This identity preserves the entire finite-event Fisher and acceleration response: all finite-volume boundary discrepancy is a single twice-differentiated Poisson boundary term.
+
+The PR91 uniform contraction/smooth-resolvent machinery implies uniform C2 convergence of P_s^m Phi_s to its invariant value on compact parameter intervals. In particular there is a finite constant C_J, depending only on the already explicit common derivative/contraction bounds on a compact J, such that
+
+    sup_{s in J,m>=1}|Psi_m''(s)| <= C_J,             (19)
+
+and hence
+
+    sup_{s in J}|D_{2m}''(s)/(2m)-D''(s)| <= C_J/(2m). (20)
+
+For this checkpoint (19) is a qualitative uniform constant consequence of the proved smooth contraction bounds; no new numerical value for C_J is claimed. Producing a sharp explicit rational C_J is a separate arithmetic task and is not needed to justify the exact structural identity (18).
+
+## 7. Current target
+
+The squared-coupling convexity question is now reduced in two complementary ways:
+
+- finite volume: prove the averaged conditional DPP Hessian in (13) is nonpositive for all window sizes, or exhibit an actual legal finite DPP with the average positive;
+- rate: use (18)-(20) to pass any n-uniform strict finite curvature margin to the true parity-information curvature without confusing finite samples with the rate.
+
+For the fixed Toeplitz family the first genuinely new local algebra begins at the n=6, 3-by-3 conditional kernels. The next theoretical step is to exploit their special tridiagonal signed-event inverses and the averaging identity (14), rather than invoke generic operator contraction or Gaussian I-MMSE analogies.
+
+All new statements in this file are AUTHOR_PROOF / PENDING_REVIEW. No S2 result concerning a previous r1 differentiation convention is used here; that superseded computation is not an obstacle or dependency. PR112's newer [49/40,51/40] physical interval remains pending independent review and is not upgraded by this checkpoint.
