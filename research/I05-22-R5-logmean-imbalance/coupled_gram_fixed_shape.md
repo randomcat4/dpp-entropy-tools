@@ -1,6 +1,6 @@
 # I05-22 R5 continuation: a four-scalar rectangle Gram inequality and a fixed-shape determinant audit
 
-Status: **PROVED (author; PENDING_REVIEW)** for the rectangle inequality in Sections 2-3, the exact relaxed non-sufficiency witness in Section 5, and the same-q edge-placement inequality in Section 6. **INCOMPLETE** for the actual full determinant sign away from already accepted scopes. Numerical values in Section 4 are diagnostics only, not independent evidence or interval certificates. Novelty is unassessed.
+Status: **PROVED (author; PENDING_REVIEW)** for the rectangle inequality in Sections 2-3, the exact relaxed non-sufficiency witness in Section 5, and the same-q edge-placement inequality in Section 6. **INCOMPLETE** for the actual full determinant sign away from already accepted scopes. Numerical values and relaxed searches explicitly labelled diagnostics are not independent evidence or interval certificates. Novelty is unassessed.
 
 This continuation stays on PR81's branch and uses the accepted PR70 full core exactly as inherited in `proof.md`: complete eight-event Shannon entropy, true kernel-affine directions, the complete paired Fisher `F`, the positive update `R`, marginal Fisher `diag(1/v,1/w)`, and all mixed directions are retained. No PR60 Lambda-zero arithmetic is rerun. Issue73's 273 points / three filaments / shared 2700-second contract is not started or duplicated.
 
@@ -198,10 +198,10 @@ eig(E_H) approx (4.38384371, 5.16173247).
 A chain-rule diagnostic at the same actual point, varying the four paired values only for the purpose of identifying sensitivity and holding the rational Fisher shape fixed, gives
 
 ```text
-partial_ell det   approx +0.26358749,
-partial_k det     approx +0.69585634,
+partial_ell det    approx +0.26358749,
+partial_k det      approx +0.69585634,
 partial_lambda det approx -0.03405463,
-partial_J det     approx -0.21876945,
+partial_J det      approx -0.21876945,
 explicit-q channel approx -12.54285715.
 ```
 
@@ -363,6 +363,21 @@ but gives approximately
 
 whose left inequality fails. This is only a compact display; exact nonrealizability was already proved rationally by (10). The point is structural: the new secant inequality rejects the same false determinant point for the correct reason—its two opposite edge integrals cannot occur at the same q.
 
+### Two-axis stress test and the remaining shared-corner correlation
+
+A bounded same-author diagnostic was then performed at the single fixed rational point `q*=11/144`: relaxed tuples were required to satisfy the two Gram ellipses (5)-(7), both secant constraints (14)-(15), the previous coarse positivity/imbalance ranges, and `Y>0`. Negative relaxed determinants still occur. This search is **not** a theorem, not issue73, and no such tuple is promoted to a DPP point.
+
+This shows what (14)-(15) do and do not encode. They constrain each axis separately, but a free relaxation can still choose an A-edge pair and a B-edge pair that do not arise from the **same four corner logits**. Actual realizability has the stronger shared-corner form
+
+```text
+ell-lambda/2 = g(q+A)-g(q),
+ell+lambda/2 = g(q+A+B)-g(q+B),
+k-lambda/2   = g(q+B)-g(q),
+k+lambda/2   = g(q+A+B)-g(q+A).                     (16)
+```
+
+Thus after the two proved analytic refinements, the smallest missing correlation is now explicit: the two edge pairs must share `g(q)`, `g(q+A)`, `g(q+B)`, `g(q+A+B)` simultaneously. Any further relaxed determinant argument that treats the A and B secants independently can still manufacture nonrealizable negatives.
+
 ## 7. Concrete mathematical outcome and next analytic target
 
 This continuation therefore gives more than a renamed interface:
@@ -370,9 +385,9 @@ This continuation therefore gives more than a renamed interface:
 1. a proved strict Cauchy/Gram theorem, (5)-(7), simultaneously coupling `ell,k,lambda,J` on an actual nonzero-Lambda DPP family;
 2. an exact fixed-shape q-derivative ledger showing the wrong-sign `J` channel in the actual determinant derivative;
 3. an exact positive-pivot relaxed negative determinant satisfying the new Gram constraints, followed by an exact proof that the tuple is not realizable;
-4. proved same-q secant constraints (14)-(15), which add the missing absolute edge placement relative to the rational corners;
-5. a narrowed next bridge: a successful determinant proof on the fixed shape must exploit the edge-placement information, not merely independent ranges, strong convexity of `J`, or the two Gram ellipses.
+4. proved same-q secant constraints (14)-(15), which add absolute edge placement relative to rational corners;
+5. a narrowed remaining bridge, (16): both axes must be controlled as one shared four-corner object, not as two independent one-dimensional edge problems.
 
-The next analytic task is to insert (14)-(15) into the exact derivative of `det E_H` for the fixed shape and determine whether the wrong-sign `J`/near-boundary `lambda` channels can be absorbed by the rational Fisher and edge channels. A full long-filament interval verification remains reserved to issue73 and is not launched here.
+The next analytic task is to use the shared-corner representation (16) directly in the exact derivative of `det E_H` for the fixed shape and determine whether the wrong-sign `J`/near-boundary `lambda` channels can be absorbed by the rational Fisher and edge channels. A full long-filament interval verification remains reserved to issue73 and is not launched here.
 
-Final classification: **PROVED (author; PENDING_REVIEW)** for Lemma 2.1, inequalities (4)-(7), the exact relaxed non-sufficiency/nonrealizability witness (8)-(10), and same-q inequalities (12)-(15). **INCOMPLETE** for `det E_H>=0` on the actual fixed shape and for the general missing-edge entropy theorem.
+Final classification: **PROVED (author; PENDING_REVIEW)** for Lemma 2.1, inequalities (4)-(7), the exact relaxed non-sufficiency/nonrealizability witness (8)-(10), and same-q inequalities (12)-(15). The two-axis relaxed stress test is diagnostic only. **INCOMPLETE** for `det E_H>=0` on the actual fixed shape and for the general missing-edge entropy theorem.
