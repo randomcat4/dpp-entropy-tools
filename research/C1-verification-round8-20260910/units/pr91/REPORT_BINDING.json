@@ -1,0 +1,23 @@
+{
+  "pr": 91,
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "reports": [
+    {
+      "bytes": 5433,
+      "sha256": "379071ada749ea3229fe4af6b8452f6ea339c08dd88d42f54a1a7d4ce59b827d",
+      "path": "units/pr91/frozen_scope.md"
+    },
+    {
+      "bytes": 9811,
+      "sha256": "4fadf928083e2315e0c4205b1105864da428ed0d1f293cd6dc045850704d49b2",
+      "path": "units/pr91/review_report.md"
+    },
+    {
+      "bytes": 4825,
+      "sha256": "b3e498a11e87eaf9f75412db6aad4e048348ed2b34978626ca50dff57d6a59a4",
+      "path": "units/pr91/code_review.md"
+    }
+  ],
+  "scope": "Explicitly assigned source/evidence FIRST only; no arithmetic execution",
+  "head": "c7a072ec4eea0c5b0f445bca5796873a9e234948"
+}

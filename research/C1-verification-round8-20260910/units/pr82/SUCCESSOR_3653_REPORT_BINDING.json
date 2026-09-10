@@ -1,0 +1,23 @@
+{
+  "pr": 82,
+  "base": "6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "reports": [
+    {
+      "bytes": 4671,
+      "sha256": "100d6400d6fa0171dc4a6161eb98021027ae29cb29ec018360ec1e01af2aedd0",
+      "path": "units/pr82/successor_3653_scope.md"
+    },
+    {
+      "bytes": 13873,
+      "sha256": "f0a5418cbf8932921a308f232a360821f19dfdd3631058948d6030489ca409ea",
+      "path": "units/pr82/successor_3653_review.md"
+    },
+    {
+      "bytes": 5204,
+      "sha256": "8f8daccad21611342e49960a57b056ba010e0863d8987860fe3ca2bda4ced1a1",
+      "path": "units/pr82/successor_3653_code.md"
+    }
+  ],
+  "scope": "Explicitly assigned source/evidence FIRST only; no arithmetic execution",
+  "head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa"
+}

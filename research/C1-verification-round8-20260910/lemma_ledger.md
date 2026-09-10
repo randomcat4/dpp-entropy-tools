@@ -1,40 +1,36 @@
 # Current claim ledger
 
-| Unit and latest reviewed head | Claimed object | Current FIRST status |
+| Unit and frozen head | Claim | FIRST status |
 |---|---|---|
-| PR79 ae1149f2 | Explicit upper budget, positive interval and gauge transfer wording | CLOSED by ACCEPTED_DELTA |
-| PR79 ae1149f2 | Exact depth-budget comparisons | PENDING_C2; no new execution authorized |
-| PR79 ae1149f2 | Full interval curvature/Riccati realization | OPEN |
-| PR80 17ae62c2 | Exact signed identity, diagonal strictness, real negative conditional-fiber obstruction | ACCEPTED_SCOPED analytically; no entropy counterexample |
-| PR80 17ae62c2 | Complete-interval 2+2 compensation theorem | Conditional analytic implication; finite-symbolic base ingredients PENDING_C2 |
-| PR80 17ae62c2 | Quantitative coefficient neighborhood and explicit correlated kernel | Conditional implication; base margin, constants and membership PENDING_C2 |
-| PR80 17ae62c2 | Arbitrary fixed-dimension open correlated classes | Conditional continuity implication; existence retains the base-margin gate |
-| PR80 17ae62c2 | Old s=.9 counts/signs/window bounds and new output enclosures | SOURCE_ONLY / PENDING_C2 |
-| PR80 17ae62c2 | General dense rank-two whole chord | OPEN |
-| PR81 d99550bf | Shared-corner criterion J<12AB on strict half-leaf arrows | ACCEPTED_SCOPED |
-| PR81 d99550bf | Fixed half-leaf A=1/4, B=4/9, 0<q<11/36, x=y=1/2 | CLOSED_SCOPED: full six-direction strict Hessian negativity; E_H>0; det E_H>0 |
-| PR81 d99550bf | Large printed Gram minors and same-author checker pass | SOURCE_ONLY; not needed for qualitative closure |
-| PR81 d99550bf | General half-leaf/missing-edge determinant and real three-point concavity | OPEN outside the sufficient criterion |
-| PR82 6ecc004a | BFG-derived relaxation and one-power Poisson loss | ACCEPTED_SCOPED |
-| PR82 6ecc004a | Main qualitative p>4 corrected local concavity | ACCEPTED_SCOPED under standing hypotheses, bound pure inputs and correction priority |
-| PR82 6ecc004a | Corrected time-correlation/Poisson cutoff | ACCEPTED_SCOPED |
-| PR82 6ecc004a | Raw frozen-memory stationary second-response rate | WITHDRAWN / not accepted |
-| PR82 6ecc004a | Main-file equations (7.3)--(7.5), lines 422--445 | NEEDS_FIX_STATIC: visibly supersede or replace |
-| PR82 6ecc004a | Old Dobrushin A1/A2 full pressure theorem | Invalid and unused by the accepted repair |
-| PR82 6ecc004a | Whole legal interval, p<=4, arbitrary measurable-symbol extension | Not accepted |
+| PR79 ae1149f2 | Upper-budget/positive-interval text | CLOSED by ACCEPTED_DELTA |
+| PR79 ae1149f2 | Exact budgets; whole interval | PENDING_C2; OPEN |
+| PR80 17ae62c2 | Legal negative conditional-fiber obstruction | ACCEPTED_SCOPED analytically; method only |
+| PR80 17ae62c2 | Interval family, coefficient neighborhood, open correlated classes | Conditional implications; base margin and finite-symbolic ingredients PENDING_C2 |
+| PR80 17ae62c2 | Old s=.9 and new finite values | SOURCE_ONLY / PENDING_C2 |
+| PR81 d99550bf | Fixed half-leaf A=1/4, B=4/9, 0<q<11/36, x=y=1/2 | CLOSED_SCOPED: full Hessian negativity, E_H>0, det E_H>0 |
+| PR81 1e2081d3 | Parallel-edge strict criterion KA+KB>J/(32AB) | ACCEPTED_SCOPED |
+| PR81 1e2081d3 | Universal non-strict inequality/equality; general cases | OPEN |
+| PR81 1e2081d3 | New checker/output and large minors | SOURCE_ONLY; not load-bearing |
+| PR82 365347e9 | Main qualitative p>4 corrected local concavity | ACCEPTED_SCOPED under stated hypotheses and bound pure inputs |
+| PR82 365347e9 | Optional spatial truncation | ACCEPTED_SCOPED_EXTRA for p>6 and stated approximation assumptions |
+| PR82 365347e9 | Old p>8 memory (6.7) | INCOMPLETE_EXTRA; unused |
+| PR82 365347e9 | Dobrushin A1/A2 import | OPEN / NOT USED |
+| PR82 365347e9 | README operative-proof index | NEEDS_FIX_STATIC |
+| PR86 bd12e609 | Complete-event/sign identities, qualitative dilution, thinning/star, actual coordinate-block support | ACCEPTED_SCOPED analytically |
+| PR86 bd12e609 | Angular/edge/diagonal/full-square/fixture certificates | SOURCE_ONLY / PENDING_C2 |
+| PR86 bd12e609 | Promised full-square JSON and README evidence map | NEEDS_FIX |
+| PR88 6c8ad2ea | Common-mode and three-coordinate support classes; fixed-line boundary asymptotic | ACCEPTED_SCOPED analytically |
+| PR88 6c8ad2ea | Finite bridge/lift/multiring records | SOURCE_ONLY / PENDING_C2 |
+| PR88 6c8ad2ea | General moving rank-two; multiring middle | OPEN / INCOMPLETE |
+| PR91 c7a072ec | Riccati, full response, Fisher and residual reductions | ACCEPTED_SCOPED implications with constant gates propagated |
+| PR91 c7a072ec | Hessian-only cancellation gate | Conditional analytic implication; not a completed sign certificate |
+| PR91 c7a072ec | Exact constants, 252 events, output JSON | SOURCE_ONLY / PENDING_C2 |
+| PR91 c7a072ec | Polynomial scouts | NON_CERTIFYING |
+| PR91 c7a072ec | Whole-domain residual cover and continuum sign | OPEN |
+| All units | Author compute requests | Not execution authorization |
 
-Historical original and successor findings remain in their unchanged unit
-reports. In particular, the new PR81 proof closes its formerly open fixed
-shape, and the new PR82 proof advances the scoped p>8 checkpoint to p>4.
-Neither change grants a general theorem outside its stated hypotheses.
-
-PENDING_C2 is an independent evidence gate, not a finding of mathematical
-falsity. C1 has not executed arithmetic or authorized new finite work.
-A machine PASS does not by itself establish mathematical acceptance.
-Novelty is NOT_ASSESSED and formal verification was not performed.
-
-New PR81 1e2081d3 delta: the parallel-edge lower bound and strict condition
-KA+KB>J/(32AB) are ACCEPTED_SCOPED. Universal non-strict coverage and its
-equality surface remain OPEN. New checker/output are SOURCE_ONLY.
-The new PR82/86/88/91 heads are frozen but have no final FIRST verdict
-at this checkpoint.
+Historical findings remain in unchanged reports. New source can close
+a formerly open scoped claim only through its actual proof; no old PASS
+or old OPEN is silently inherited. PENDING_C2 is an evidence gate, not a
+finding of mathematical falsity. No new finite contract or arithmetic was
+performed. Novelty is NOT_ASSESSED and formal verification was not performed.

@@ -1,73 +1,78 @@
-# C3 handoff: completed PR79--82 bounded FIRSTs
+# C3 handoff: completed bounded FIRST intake
 
-The newest three deltas have completed source/evidence FIRST reports and
-immutable source/report bindings in this archive. Original and earlier
-delta reports remain unchanged. Supply isolated SECOND with the frozen
-author source and permitted pure-source premises, not FIRST opinions.
+The latest five units have fifteen complete source/evidence reports and
+immutable source/report bindings in this archive. All earlier reports
+remain unchanged. Supply isolated SECOND with frozen author source and
+permitted pure premises, not FIRST opinions.
 
-| PR | Exact reviewed author head | Scope ready for isolated SECOND |
+| PR | Exact reviewed head | New FIRST handoff |
 |---|---|---|
-| 79 | ae1149f2ed7d657afa494740c3abae83de549d3f | RESULT-only upper-budget and interval wording closure |
-| 80 | 17ae62c23aad387fbd9b445e5436aa9ad245185d | Analytic negative-fiber method obstruction and conditional interval/neighborhood implications; finite gates retained |
-| 81 | d99550bfd9eee623ec80edbca1da17ff0ddbe4bf | Shared-corner criterion and full specified fixed-shape closure |
-| 82 | 6ecc004a3f99f97369ea5af53f1136b59cf2129c | Qualitative p>4 corrected local concavity under the boundary correction; static stale-equation finding |
+| 81 | 1e2081d374edeca1533c05356afa38e052f9f78e | Strict parallel-edge sufficient refinement |
+| 82 | 365347e9933f30af64e63c33fc403b3c4fbdb3fa | Consolidated p>4 proof and independent optional p>6 truncation |
+| 86 | bd12e6094e098499fae7e01729a4b29f021a14e2 | Scoped analytic theorems; finite gates and two packaging repairs |
+| 88 | 6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c | Scoped analytic classes/endpoint theorem; finite evidence pending |
+| 91 | c7a072ec4eea0c5b0f445bca5796873a9e234948 | Full-response and Hessian-only residual implications; constant/continuum gates pending |
 
-PR80's [17ae review](units/pr80/successor_17ae_review.md) accepts the
-negative-fiber obstruction from the exact analytic expression and log
-positivity. The family compensation and coefficient-neighborhood proofs
-are conditional on their finite symbolic ingredients. The complete-event
-enumeration, Gram identities, log bounds, quantitative perturbation
-constants and explicit membership are still pending independent evidence.
-The arbitrary fixed-dimension extension is a valid direct-sum/compactness
-implication, but its actual existence conclusion has the same pending base
-positive-margin dependency. New outputs and old s=.9 rechecks are author
-evidence only. No new finite contract is created here.
+PR81's [1e20 review](units/pr81/successor_1e20_review.md) accepts
+KA+KB>J/(32AB) as a strict sufficient condition for actual shared corners.
+Universal non-strict coverage/equality remains open. The prior d995
+fixed half-leaf closure is preserved and does not depend on printed
+large Gram minors or the new checker.
 
-PR81's [d995 review](units/pr81/successor_d995_review.md) accepts
-Theorem 5.1 for actual DPP shared corners with J<12AB and closes the
-fixed half-leaf shape x=y=1/2, A=1/4, B=4/9, 0<q<11/36.
-Full six-direction Shannon Hessian negativity is proved analytically;
-E_H>0 and det E_H>0 follow. Large rational Gram minors and checker
-statements are not load-bearing. General half-leaf, missing-edge and real
-three-point conclusions remain open outside the stated sufficient scope.
+PR82's [3653 review](units/pr82/successor_3653_review.md) accepts the
+main qualitative p>4 route with the actual
+[frozen PR66/PR53 pure-source inputs](units/pr82/DEPENDENCY_SOURCE_BINDING.json).
+The new continuity/renewal/Banach supplements close the stated source
+dependencies. Optional p>6 spatial truncation is a separate extra theorem
+with its own approximation hypotheses. Old p>8 (6.7) remains an unproved
+extra and the Dobrushin import is unused. README lines 223--232 need the
+current one-loss proof added to their route order. No C2 task is needed.
 
-PR82's [6ecc review](units/pr82/successor_6ecc_review.md) accepts the
-one-power Poisson response repair at a=p/2>2 and the resulting qualitative
-local concavity of h(c+t g)+alpha_k t^4 under the strict-margin half-period
-hypotheses. It uses the already bound
-[pure PR66/PR53 inputs](units/pr82/DEPENDENCY_SOURCE_BINDING.json),
-not the rejected Dobrushin import. The boundary correction has priority;
-its time-correlation cutoff is separate from the withdrawn raw stationary
-frozen-memory response rate. The main repair lines 422--445 still need
-an in-file superseded marker or replacement. This static fix is required
-for clear source presentation but does not defeat the scoped main theorem
-when the frozen correction is included. No numerical task is needed.
+PR86's [review](units/pr86/review_report.md) accepts qualitative
+fixed-pair dilution, thinning-star, actual-coordinate-block support, and
+the listed complete-event/sign identities analytically. Angular boxes,
+edges, diagonal, full square and explicit fixture margins remain pending
+independent finite evidence. The full-square JSON certificate is absent
+despite being promised; README is stale relative to the 18-file packet.
+A separately frozen successor must supply or withdraw the artifact claim
+and update the theorem/evidence map. Do not infer a finite theorem from
+an author script or a geometric subset of the target.
 
-PR79's [ae11 report](units/pr79/budget_scope_ae11_review.md) remains
-ACCEPTED_DELTA for text closure. Exact budget comparisons and full interval
-curvature remain pending/open; the PR91 follow-on is not included here.
+PR88's [review](units/pr88/review_report.md) accepts the stated common-mode
+and three-actual-coordinate support classes, and fixed-line endpoint
+asymptotics, with complete Fisher/acceleration and conditioning retained.
+The packet reproduces its lower-dimensional inputs, without importing old
+review opinions. Finite method-bridge/lift/multiring data remain pending.
+The general moving rank-two problem and multiring compact middle remain
+open; endpoint neighborhoods do not close that middle.
 
-The PR70/PR77 actual-finite FIRST archive is now fixed at
-[PR78 80c8a616f8e7644afbe92b5b9b0a4172730825c7](https://github.com/randomcat4/dpp-entropy-tools/tree/80c8a616f8e7644afbe92b5b9b0a4172730825c7/research/C1-verification-round7-20260910).
-It includes the final PR77 actual PR89 reports and binding, superseding
-the 39d0a6c3 snapshot. This archive adds no new PR78 material.
+PR91's [review](units/pr91/review_report.md) accepts full-response and
+residual implications with every advertised constant gate retained.
+The post-handoff Hessian-only gate keeps the nested invariant-law response.
+Its sharper gate does not silently replace the older compute-contract
+source/constants. No rigorous residual supremum or gap-free parameter
+cover is supplied, and scout outputs prove no curvature point. The
+7200-second author request is not a C1/C2 authorization. Private scout
+raw data was not needed or accessed.
 
-C1 performed no arithmetic execution, author/checker execution, author
-edit, new C2 contract, SECOND or merge. C3 alone owns isolated SECOND and
-integration. No later author head, whole-interval upgrade, novelty or
-formal verification is implied by review completion.
+Earlier completed PR79 ae11 and PR80 17ae scopes are unchanged. PR80's
+interval/neighborhood existence still depends on its pending base positive
+margin. PR70/PR77 actual-finite FIRSTs remain separately fixed in
+[PR78 at 80c8a616](https://github.com/randomcat4/dpp-entropy-tools/tree/80c8a616f8e7644afbe92b5b9b0a4172730825c7/research/C1-verification-round7-20260910).
+This intake repeats none of that work.
 
-## New intake checkpoint
+C1 performed no arithmetic, author/checker execution, new primary
+instance, new theory route, finite contract, author edit, SECOND or merge.
+C3 alone owns isolated SECOND and integration. No later live head is
+included. Novelty and formal verification remain outside acceptance.
 
-The four-file PR81 delta d99550bf to
-`1e2081d374edeca1533c05356afa38e052f9f78e` has now completed FIRST.
-Its [parallel-edge review](units/pr81/successor_1e20_review.md) accepts
-the strict sufficient condition KA+KB>J/(32AB), retaining full physical
-directions and the previous fixed-shape closure. Non-strict equality and
-universal coverage remain open; same-author checker PASS is not inherited.
-This is separately ready for a source-only isolated delta SECOND.
+## STOPPED_HANDOFF_READY
 
-PR82 365347e9, PR86 bd12e609, PR88 6c8ad2ea and PR91 c7a072ec have frozen
-source bindings but their FIRSTs are not complete at this checkpoint.
-Do not infer acceptance from the earlier heads or from these source-only
-bindings. No author compute request is executed by this intake.
+All currently assigned FIRST units are complete and all child review
+contexts are completed. C1 owns no running mathematical computation or
+finite job and has no active execution budget. C1 will not claim another
+PR, successor, calculation or review context after this handoff.
+Unresolved gates above are explicit future work, not running tasks.
+The coordinator controls the successor handoff; no replacement task is
+created here. Private operational paths and receipts remain in the local
+handoff and are excluded from this public archive.
