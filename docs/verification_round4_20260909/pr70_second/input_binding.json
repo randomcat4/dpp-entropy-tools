@@ -1,0 +1,56 @@
+{
+  "pr": 70,
+  "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+  "prefix": "research/I05-22-R4-paired-perspective/",
+  "files": [
+    {
+      "path": "README.md",
+      "source_path": "research/I05-22-R4-paired-perspective/README.md",
+      "git_blob": "9a35d09435161d9ef3918eb9992a551c14855b24",
+      "sha256": "c5cd2d02cb9804e040f4bed7fdd6a0c8993dc7a14b5decd648d9a4721b9e7304"
+    },
+    {
+      "path": "inputs.json",
+      "source_path": "research/I05-22-R4-paired-perspective/inputs.json",
+      "git_blob": "64ee62b8eb0eb7b1343d81781d039a88ba5f0f6a",
+      "sha256": "c8ee511a142b72ef0c794c6eeb6b2ffa8b6cd974f7a6aaaea213ba31d57e4ef4"
+    },
+    {
+      "path": "post_checkpoint.md",
+      "source_path": "research/I05-22-R4-paired-perspective/post_checkpoint.md",
+      "git_blob": "37206206cb83cfb948832ac731d34eaf966a26da",
+      "sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a"
+    },
+    {
+      "path": "proof.md",
+      "source_path": "research/I05-22-R4-paired-perspective/proof.md",
+      "git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+      "sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf"
+    },
+    {
+      "path": "tail_bound.md",
+      "source_path": "research/I05-22-R4-paired-perspective/tail_bound.md",
+      "git_blob": "14341499ba19fc6f597627a27c5c160f69193d6e",
+      "sha256": "cf8ea71fb89dc7364577b8dac2ee60ffc4afb15c4e8097a5b90a923e9e8390ba"
+    },
+    {
+      "path": "thinning_bridge.md",
+      "source_path": "research/I05-22-R4-paired-perspective/thinning_bridge.md",
+      "git_blob": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+      "sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57"
+    },
+    {
+      "path": "verification.md",
+      "source_path": "research/I05-22-R4-paired-perspective/verification.md",
+      "git_blob": "9473a7f61590fc57f73285ef3e4e24c4c36c5c1d",
+      "sha256": "1389a48241d2673a7c30ea727740c805d86f7e04a72948cf1a7c2f8eff587cbf"
+    },
+    {
+      "path": "verify_bridges.py",
+      "source_path": "research/I05-22-R4-paired-perspective/verify_bridges.py",
+      "git_blob": "655f546ae76edd996dcbd14fecc243af1e94f0f0",
+      "sha256": "3d7dc802ca1313bf9c6c45a09c0dea08f8b5f7d2f13547bdb0dbfd34890631b0"
+    }
+  ],
+  "independence": "Frozen author sources only. No FIRST, SECOND, machine-owner opinion, C3 adjudication or live successor. Author assertions and outputs are not independent certification."
+}

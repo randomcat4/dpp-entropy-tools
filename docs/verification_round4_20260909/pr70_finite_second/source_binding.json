@@ -1,0 +1,1467 @@
+{
+  "review_package": "docs/verification_round4_20260909/pr70_finite_second",
+  "review_role": "PR70 fixed finite independent SECOND verifier",
+  "hash_method": "SHA-256 over delivered file bytes",
+  "restrictions_observed": {
+    "no_author_or_c2_checker_execution": true,
+    "no_new_det_log_entropy_arithmetic": true,
+    "forbidden_material_not_read": [
+      "C1 FIRST",
+      "earlier SECOND",
+      "C3 adjudication",
+      "machine topREADME",
+      "machine_notes",
+      "FINAL_HANDOFF",
+      "[excluded private directory]"
+    ]
+  },
+  "binding_files": {
+    "input_binding_sha256": "1c3903cdb653213d178150cf124dc905e580c7ac5b5c9aeac312ebeb01a8fe47",
+    "machine_input_binding_sha256": "656ccb1ec498507b033de39f882f0714f832d4d00cc67b66350ad9a66c9e2632"
+  },
+  "author_input_binding": {
+    "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+    "listed_files": 8,
+    "actual_files_under_input": 8,
+    "all_match": true,
+    "files": [
+      {
+        "path": "README.md",
+        "source_path": "research/I05-22-R4-paired-perspective/README.md",
+        "git_blob": "9a35d09435161d9ef3918eb9992a551c14855b24",
+        "expected_sha256": "c5cd2d02cb9804e040f4bed7fdd6a0c8993dc7a14b5decd648d9a4721b9e7304",
+        "actual_sha256": "c5cd2d02cb9804e040f4bed7fdd6a0c8993dc7a14b5decd648d9a4721b9e7304",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs.json",
+        "source_path": "research/I05-22-R4-paired-perspective/inputs.json",
+        "git_blob": "64ee62b8eb0eb7b1343d81781d039a88ba5f0f6a",
+        "expected_sha256": "c8ee511a142b72ef0c794c6eeb6b2ffa8b6cd974f7a6aaaea213ba31d57e4ef4",
+        "actual_sha256": "c8ee511a142b72ef0c794c6eeb6b2ffa8b6cd974f7a6aaaea213ba31d57e4ef4",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "post_checkpoint.md",
+        "source_path": "research/I05-22-R4-paired-perspective/post_checkpoint.md",
+        "git_blob": "37206206cb83cfb948832ac731d34eaf966a26da",
+        "expected_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "actual_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "proof.md",
+        "source_path": "research/I05-22-R4-paired-perspective/proof.md",
+        "git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+        "expected_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "actual_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "tail_bound.md",
+        "source_path": "research/I05-22-R4-paired-perspective/tail_bound.md",
+        "git_blob": "14341499ba19fc6f597627a27c5c160f69193d6e",
+        "expected_sha256": "cf8ea71fb89dc7364577b8dac2ee60ffc4afb15c4e8097a5b90a923e9e8390ba",
+        "actual_sha256": "cf8ea71fb89dc7364577b8dac2ee60ffc4afb15c4e8097a5b90a923e9e8390ba",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "thinning_bridge.md",
+        "source_path": "research/I05-22-R4-paired-perspective/thinning_bridge.md",
+        "git_blob": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+        "expected_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+        "actual_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "verification.md",
+        "source_path": "research/I05-22-R4-paired-perspective/verification.md",
+        "git_blob": "9473a7f61590fc57f73285ef3e4e24c4c36c5c1d",
+        "expected_sha256": "1389a48241d2673a7c30ea727740c805d86f7e04a72948cf1a7c2f8eff587cbf",
+        "actual_sha256": "1389a48241d2673a7c30ea727740c805d86f7e04a72948cf1a7c2f8eff587cbf",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "verify_bridges.py",
+        "source_path": "research/I05-22-R4-paired-perspective/verify_bridges.py",
+        "git_blob": "655f546ae76edd996dcbd14fecc243af1e94f0f0",
+        "expected_sha256": "3d7dc802ca1313bf9c6c45a09c0dea08f8b5f7d2f13547bdb0dbfd34890631b0",
+        "actual_sha256": "3d7dc802ca1313bf9c6c45a09c0dea08f8b5f7d2f13547bdb0dbfd34890631b0",
+        "match": true,
+        "exists": true
+      }
+    ]
+  },
+  "machine_input_binding": {
+    "pr": 85,
+    "head": "611d5f70e8bb70237755ca4fdbe8ab14c8b715c1",
+    "executable_head": "29d4d77d7dba65de933d196a89b4db2616234991",
+    "author_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+    "listed_files": 74,
+    "actual_files_under_machine_input": 74,
+    "all_match": true,
+    "files": [
+      {
+        "path": "execution/RUN_LEDGER.json",
+        "source_path": "research/C2/pr70_obstruction52/execution/RUN_LEDGER.json",
+        "git_blob": "b18f1ff1446f37709cb07e0a3954655ce191248d",
+        "expected_sha256": "9b7cf42bbe5c12106f8d2fc9e405a94613ff86353d736dc2afe4ad57bbda18a4",
+        "actual_sha256": "9b7cf42bbe5c12106f8d2fc9e405a94613ff86353d736dc2afe4ad57bbda18a4",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "execution/RUN_PLAN.md",
+        "source_path": "research/C2/pr70_obstruction52/execution/RUN_PLAN.md",
+        "git_blob": "4cad849b592df0d5adde14461427d96fc108389b",
+        "expected_sha256": "ae1529e0a65a67ff21f31af4823cb68c7471ef1b4f6124d5633d26f280840564",
+        "actual_sha256": "ae1529e0a65a67ff21f31af4823cb68c7471ef1b4f6124d5633d26f280840564",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "execution/run_guard.sh",
+        "source_path": "research/C2/pr70_obstruction52/execution/run_guard.sh",
+        "git_blob": "c247b99b61a033a48795cd4098e458c3e8100505",
+        "expected_sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f",
+        "actual_sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "implementation/README.md",
+        "source_path": "research/C2/pr70_obstruction52/implementation/README.md",
+        "git_blob": "c307fb8820f79af3dd92769d1ec0523d3ee5d011",
+        "expected_sha256": "e6e1ec055ffcc4cda6834fffc2978b5ad614eee96ed66635b214bf8d646dc386",
+        "actual_sha256": "e6e1ec055ffcc4cda6834fffc2978b5ad614eee96ed66635b214bf8d646dc386",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "implementation/independent_pr70_checker.py",
+        "source_path": "research/C2/pr70_obstruction52/implementation/independent_pr70_checker.py",
+        "git_blob": "70a0b0aa99a909fa596cd9738aa78a0657230df1",
+        "expected_sha256": "68ac82b5fd62b6b2f4210f17304e43457123d0879469a8b0ef02071bf4709769",
+        "actual_sha256": "68ac82b5fd62b6b2f4210f17304e43457123d0879469a8b0ef02071bf4709769",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/PREPARATION_SHA256.json",
+        "source_path": "research/C2/pr70_obstruction52/inputs/PREPARATION_SHA256.json",
+        "git_blob": "43eb97c45cc14707f1555597c8090474046e97f9",
+        "expected_sha256": "3f55cd69c4c3059f0916101e4e1dbfc08f544be2b2799c749d2a922e42ba6a51",
+        "actual_sha256": "3f55cd69c4c3059f0916101e4e1dbfc08f544be2b2799c749d2a922e42ba6a51",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/REQUEST.md",
+        "source_path": "research/C2/pr70_obstruction52/inputs/REQUEST.md",
+        "git_blob": "709608d202cf3dbe94ec7752b0b1c48d9d6b7833",
+        "expected_sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+        "actual_sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/author_SOURCE.json",
+        "source_path": "research/C2/pr70_obstruction52/inputs/author_SOURCE.json",
+        "git_blob": "7dd24672b13183af52bbd04cf975576392e8c018",
+        "expected_sha256": "cb2ec932cb9f58f81fbe1d12628a1398a01191666fe447179ee9e6ab11f9b985",
+        "actual_sha256": "cb2ec932cb9f58f81fbe1d12628a1398a01191666fe447179ee9e6ab11f9b985",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/author_post_checkpoint.md",
+        "source_path": "research/C2/pr70_obstruction52/inputs/author_post_checkpoint.md",
+        "git_blob": "37206206cb83cfb948832ac731d34eaf966a26da",
+        "expected_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "actual_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/author_proof.md",
+        "source_path": "research/C2/pr70_obstruction52/inputs/author_proof.md",
+        "git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+        "expected_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "actual_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/expected.json",
+        "source_path": "research/C2/pr70_obstruction52/inputs/expected.json",
+        "git_blob": "e34253f6d496ff714610f6eb99d25ac177dbe953",
+        "expected_sha256": "41629bf9535161fe24a6704d4bd47972247695b1ab416a10f2c52f2d3aa9870d",
+        "actual_sha256": "41629bf9535161fe24a6704d4bd47972247695b1ab416a10f2c52f2d3aa9870d",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "inputs/object.json",
+        "source_path": "research/C2/pr70_obstruction52/inputs/object.json",
+        "git_blob": "da85ce063b8485362ad47aa2963894b04c2295ec",
+        "expected_sha256": "e90fa460dbf966e2834e2191f53ee35dfc978dbca5ddd9a4775bc3565ce26c98",
+        "actual_sha256": "e90fa460dbf966e2834e2191f53ee35dfc978dbca5ddd9a4775bc3565ce26c98",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/CHECKS.jsonl",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/CHECKS.jsonl",
+        "git_blob": "5ee10c4e279e2ecf807c9f02c121c06bcb4d4555",
+        "expected_sha256": "41fee4040f62c43b3adba4360a92d11c650caafed79b4659553ba696bcdf311a",
+        "actual_sha256": "41fee4040f62c43b3adba4360a92d11c650caafed79b4659553ba696bcdf311a",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/STATUS.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/STATUS.json",
+        "git_blob": "8ef49d0e5e8a8ea204cbf30b84d60db0e437eff2",
+        "expected_sha256": "946e7df94f2b4ce5b3214883db999921c22b2f5851f80bd6efab0f90df57bf51",
+        "actual_sha256": "946e7df94f2b4ce5b3214883db999921c22b2f5851f80bd6efab0f90df57bf51",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/arithmetic_pid.txt",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/arithmetic_pid.txt",
+        "git_blob": "5cf8a3601c66ddb16322686a8fc4226506eeec07",
+        "expected_sha256": "1999f36cdfdb84e28ae9a23ca817d5876c2c65cb519e191c0feca74ab319d5ff",
+        "actual_sha256": "1999f36cdfdb84e28ae9a23ca817d5876c2c65cb519e191c0feca74ab319d5ff",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/cpu_affinity.txt",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/cpu_affinity.txt",
+        "git_blob": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+        "expected_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+        "actual_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/curvature_components_intervals.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/curvature_components_intervals.json",
+        "git_blob": "78f635106801ad7d8e04c7b259921e73a3d04f29",
+        "expected_sha256": "d95c40ef8cdfe7e9088776e7b74b3ceac36002e9609598a77366de38c4238d29",
+        "actual_sha256": "d95c40ef8cdfe7e9088776e7b74b3ceac36002e9609598a77366de38c4238d29",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/curvature_exact_forms.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/curvature_exact_forms.json",
+        "git_blob": "e327b2bc4fb5b24bc00e25d1788112345e011f47",
+        "expected_sha256": "5f01da93b59349b26ebcdb67742d27cd549c13463619f1657cfe7d220793e74c",
+        "actual_sha256": "5f01da93b59349b26ebcdb67742d27cd549c13463619f1657cfe7d220793e74c",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/deadline_utc.txt",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/deadline_utc.txt",
+        "git_blob": "9b947a4aaca655cbe322124d97d00893d43083b5",
+        "expected_sha256": "cd464eca78f7c7349007dad0e05c26e02383008d0c8a66e1f1e0dfee18271193",
+        "actual_sha256": "cd464eca78f7c7349007dad0e05c26e02383008d0c8a66e1f1e0dfee18271193",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/environment.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/environment.json",
+        "git_blob": "6efc6749655d902589aa50e1ff90fa76fb3a1f9a",
+        "expected_sha256": "c0ffded5ca01c99ef046d2329356f695a8c09dc25ca883aa5e0826ef9712dddf",
+        "actual_sha256": "c0ffded5ca01c99ef046d2329356f695a8c09dc25ca883aa5e0826ef9712dddf",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/events.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/events.json",
+        "git_blob": "c8593c838d664e3311d4d9fed5083fac2b971502",
+        "expected_sha256": "30377ef4d49c3b1048eea721edb91afdfb353e51193cb133a1c1ada2f7b0e294",
+        "actual_sha256": "30377ef4d49c3b1048eea721edb91afdfb353e51193cb133a1c1ada2f7b0e294",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/exit.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/exit.json",
+        "git_blob": "8f115e3bf9c51562843e5c268ef85cee02a8e58b",
+        "expected_sha256": "c53c58f481a03ace1b6ed90315f598341767bdb3dd8bd254cf15dd046d2cd7d1",
+        "actual_sha256": "c53c58f481a03ace1b6ed90315f598341767bdb3dd8bd254cf15dd046d2cd7d1",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/input_echo.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/input_echo.json",
+        "git_blob": "9b0ac20cd01783107de2c2349e4f7f9dcbe3ed19",
+        "expected_sha256": "cfb4d08125b64d8912daa03d64a8c6d95365bc84ffcc60a57777c58d3051d5e0",
+        "actual_sha256": "cfb4d08125b64d8912daa03d64a8c6d95365bc84ffcc60a57777c58d3051d5e0",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/G0.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/G0.json",
+        "git_blob": "e826a1341c0457867d97b080d241fbe7278c9548",
+        "expected_sha256": "c52d07e9de2ab9d404e0397ddc1d2aa7a81f28a42ddc587084127d7a0c910a0c",
+        "actual_sha256": "c52d07e9de2ab9d404e0397ddc1d2aa7a81f28a42ddc587084127d7a0c910a0c",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/G1.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/G1.json",
+        "git_blob": "3e150c451f2cbb40742ab758a7903db358178f46",
+        "expected_sha256": "c059e4e673eaaade0f5ed122aa7b73cb91204f3184dcb1af950aedb763a5b7b8",
+        "actual_sha256": "c059e4e673eaaade0f5ed122aa7b73cb91204f3184dcb1af950aedb763a5b7b8",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/Jensen.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/Jensen.json",
+        "git_blob": "a68741aeba7f16ca3ce7bf8ecf18a075c7bc06b9",
+        "expected_sha256": "ab45e49c09f105a3c71b55c0bc67228c49cac2b04e94a84a714083eec3b1b524",
+        "actual_sha256": "ab45e49c09f105a3c71b55c0bc67228c49cac2b04e94a84a714083eec3b1b524",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/Phi_pair.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/Phi_pair.json",
+        "git_blob": "3a01d4c08fafd2ec09e53e53a6553a4aeecbf09a",
+        "expected_sha256": "0675f50b5e02a23bbf0f14700b5714be7a765b8042a8b0d703c19f424cedc551",
+        "actual_sha256": "0675f50b5e02a23bbf0f14700b5714be7a765b8042a8b0d703c19f424cedc551",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/negative_Hconditional.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/negative_Hconditional.json",
+        "git_blob": "1c5a6212d620f2b8234fd7391826689fc9d1dbe5",
+        "expected_sha256": "980c303c1926fcebb88ea6e224903318dc2e2842785a13f799a15de1de186322",
+        "actual_sha256": "980c303c1926fcebb88ea6e224903318dc2e2842785a13f799a15de1de186322",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/intervals/negative_Hfull.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/intervals/negative_Hfull.json",
+        "git_blob": "fa78ec05dddeaf99156d5e583c2d9cba518862a4",
+        "expected_sha256": "03c61101ae613388e9c2bc3304fd39167b685d6dca7dd8ad32aca38c3bd6480d",
+        "actual_sha256": "03c61101ae613388e9c2bc3304fd39167b685d6dca7dd8ad32aca38c3bd6480d",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/jensen_assembly.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/jensen_assembly.json",
+        "git_blob": "3ee2093fed83517bf37087e27efe91bb8b071517",
+        "expected_sha256": "a925ab44fb4edd63c939fe12be57eca03353731b3ff646677c6aad85623dd530",
+        "actual_sha256": "a925ab44fb4edd63c939fe12be57eca03353731b3ff646677c6aad85623dd530",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/jensen_exact_form.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/jensen_exact_form.json",
+        "git_blob": "4e486de0efc68cf1d997a72016ff9d840b870e5a",
+        "expected_sha256": "59b97888508b76485cd47d0aadf0ee500fdf471adfcb698883ff73eccf4aa501",
+        "actual_sha256": "59b97888508b76485cd47d0aadf0ee500fdf471adfcb698883ff73eccf4aa501",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/legality.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/legality.json",
+        "git_blob": "b43f2f80dfd64173a99dc373a843e3a587bebea7",
+        "expected_sha256": "2029d1e85264119aa9c17f1e17d853b129eb7ce8f40089320308a39e1d36b62e",
+        "actual_sha256": "2029d1e85264119aa9c17f1e17d853b129eb7ce8f40089320308a39e1d36b62e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/log_inventory.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/log_inventory.json",
+        "git_blob": "2f2e9cbc7bc7e5bdb8c64f1436d44262ba159e2f",
+        "expected_sha256": "e79026ccd5dc07dcc8d34873d18db4916d021e331047404ca113466a2dd25d74",
+        "actual_sha256": "e79026ccd5dc07dcc8d34873d18db4916d021e331047404ca113466a2dd25d74",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log2.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log2.json",
+        "git_blob": "f85de806b265f78cb15d3c42621be2b64b92c2ce",
+        "expected_sha256": "e5ba5e76a41aa0125014be6e62672d4339d6e79ad0ce398f793d86898a24a565",
+        "actual_sha256": "e5ba5e76a41aa0125014be6e62672d4339d6e79ad0ce398f793d86898a24a565",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_000.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_000.json",
+        "git_blob": "e3cfd0c35ecc6a695830a4f5a24e966ea3c697fa",
+        "expected_sha256": "4e79f3495aae6fa51cbc826e175c70716b3fbc8f7e3b582494ca37ea03ef3f3f",
+        "actual_sha256": "4e79f3495aae6fa51cbc826e175c70716b3fbc8f7e3b582494ca37ea03ef3f3f",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_001.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_001.json",
+        "git_blob": "79e028f031ac6bae435632b77907b4562bce5603",
+        "expected_sha256": "539efbcc231361ff6cad15d4ef776530d59d23f7a464ba17e14f5c790d5b870d",
+        "actual_sha256": "539efbcc231361ff6cad15d4ef776530d59d23f7a464ba17e14f5c790d5b870d",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_002.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_002.json",
+        "git_blob": "93dd77a8e5171843f2a68d53f98715441bea9faf",
+        "expected_sha256": "c78108791388a078c1ad45bdab902fbaf6c39bacb1dffdcf283c658a77279895",
+        "actual_sha256": "c78108791388a078c1ad45bdab902fbaf6c39bacb1dffdcf283c658a77279895",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_003.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_003.json",
+        "git_blob": "287e9dbf699c3fa78eaf089052395d0262da1c85",
+        "expected_sha256": "ff97c47692b1c7ac723e7d83fe09efba790198ef6306c74fd3c4a21671631939",
+        "actual_sha256": "ff97c47692b1c7ac723e7d83fe09efba790198ef6306c74fd3c4a21671631939",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_004.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_004.json",
+        "git_blob": "735aae5b9b72bacde2569e9733c830b9865b5674",
+        "expected_sha256": "225afac2aa1946e8c362d34c28c40d14997c87ae7e8f0e16efb785a0437dc8b0",
+        "actual_sha256": "225afac2aa1946e8c362d34c28c40d14997c87ae7e8f0e16efb785a0437dc8b0",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_005.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_005.json",
+        "git_blob": "eab84508025c17ceaec474723c71ae151738095e",
+        "expected_sha256": "a0fe7a80c0f8c20b200b10569fe2cd7dc1d3cf3bc7ae932bb369cb5d5cdb83bf",
+        "actual_sha256": "a0fe7a80c0f8c20b200b10569fe2cd7dc1d3cf3bc7ae932bb369cb5d5cdb83bf",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_006.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_006.json",
+        "git_blob": "2f9ca749c9a9305e5ca98e5ff1bc7de446126643",
+        "expected_sha256": "273c762e6e363e5b2cdd0043a2a5502ca5c1f3121c172ae55d6e85b6493478b9",
+        "actual_sha256": "273c762e6e363e5b2cdd0043a2a5502ca5c1f3121c172ae55d6e85b6493478b9",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_007.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_007.json",
+        "git_blob": "8b57c6b6446d40740b2e960ff43dae3e4641e821",
+        "expected_sha256": "6419b13787455dfad4c13c366dd03de2f83b4ebeab9f0461cd2381a943106784",
+        "actual_sha256": "6419b13787455dfad4c13c366dd03de2f83b4ebeab9f0461cd2381a943106784",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_008.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_008.json",
+        "git_blob": "e2b316919340b2cacec52d5749034353bbc8e618",
+        "expected_sha256": "2ad333ecdb8815890189c906d5479d61211e624ea9a8bd73e4b29d67748c8046",
+        "actual_sha256": "2ad333ecdb8815890189c906d5479d61211e624ea9a8bd73e4b29d67748c8046",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_009.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_009.json",
+        "git_blob": "81e34e0da8096048e65460a652b80d626badc4ae",
+        "expected_sha256": "e83199d9c04a9741870171de6b6cd9d32f1519b1ea870a479b90076a8b23da46",
+        "actual_sha256": "e83199d9c04a9741870171de6b6cd9d32f1519b1ea870a479b90076a8b23da46",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_010.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_010.json",
+        "git_blob": "0a95a3ea6096d3d14c6234c6321ad573c659b607",
+        "expected_sha256": "81868c934fcc3a0a1c49e4d2e580f29d62bda51f74b107d0b97c6583c174d47a",
+        "actual_sha256": "81868c934fcc3a0a1c49e4d2e580f29d62bda51f74b107d0b97c6583c174d47a",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_011.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_011.json",
+        "git_blob": "ff77d26d18bec576de033d72c3ab6bdd6fa995e6",
+        "expected_sha256": "45b7685052ec98e5f49853e0902faafebb021bf401990c28bd83d704664f8088",
+        "actual_sha256": "45b7685052ec98e5f49853e0902faafebb021bf401990c28bd83d704664f8088",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_012.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_012.json",
+        "git_blob": "a7d1562af4e0debe3d83bf94d84e84c50ffc0bd9",
+        "expected_sha256": "4bf1e06c0014ad0909f8bb6ec025c7efa72a12d3257bd4d222a3a3c363896ccd",
+        "actual_sha256": "4bf1e06c0014ad0909f8bb6ec025c7efa72a12d3257bd4d222a3a3c363896ccd",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_013.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_013.json",
+        "git_blob": "a1f62107f4b7cc4c15becd29330bc8aae196e035",
+        "expected_sha256": "53bf1a6573b31e64815f4b85e181f79ee325403f2eb5fb9b4d19bafd5b1cb8d7",
+        "actual_sha256": "53bf1a6573b31e64815f4b85e181f79ee325403f2eb5fb9b4d19bafd5b1cb8d7",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_014.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_014.json",
+        "git_blob": "ace2a64628da66669cd1cac44ec0d0beb7807ebf",
+        "expected_sha256": "f37bd45e36425459acd7cf11b0da7fe4d188b7090b2fbea02e2d054b3ae3f868",
+        "actual_sha256": "f37bd45e36425459acd7cf11b0da7fe4d188b7090b2fbea02e2d054b3ae3f868",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_015.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_015.json",
+        "git_blob": "b46f844bd4f67ac0a79b71eb039332bfb8fd07b5",
+        "expected_sha256": "20a5eb86287dc58d93575bc8766c3989f0e680d015b7cb0d44788856be0f8e7e",
+        "actual_sha256": "20a5eb86287dc58d93575bc8766c3989f0e680d015b7cb0d44788856be0f8e7e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_016.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_016.json",
+        "git_blob": "e224ff09baffb26e81e3f9f1bfd7e0bd4fe6f73f",
+        "expected_sha256": "db32279f475dc74297fc17177f380a94d2a2dfad2b5a8d83a06a95da50c584d3",
+        "actual_sha256": "db32279f475dc74297fc17177f380a94d2a2dfad2b5a8d83a06a95da50c584d3",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_017.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_017.json",
+        "git_blob": "3ed846dda766203a45d27a9a3f9a7e724e9dd37d",
+        "expected_sha256": "397b6721bfff05c3d2d59fd4e2dcdbfb775d3d9b9907e69e436728f0c34dcd3d",
+        "actual_sha256": "397b6721bfff05c3d2d59fd4e2dcdbfb775d3d9b9907e69e436728f0c34dcd3d",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_018.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_018.json",
+        "git_blob": "246670914fc8031f38f5b6b8a973262f980d7e52",
+        "expected_sha256": "e29eaab14ad0f6b6eec2a67124282f56f0bdc096dc33bb34822b45e71ccb9019",
+        "actual_sha256": "e29eaab14ad0f6b6eec2a67124282f56f0bdc096dc33bb34822b45e71ccb9019",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_019.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_019.json",
+        "git_blob": "eebcef215bdb35fcd17b5bb4eeb86925019fb98b",
+        "expected_sha256": "95323a710f51243c3a129de6cf4015ffe2b5e6eca986f506aa085da2ae2ecc45",
+        "actual_sha256": "95323a710f51243c3a129de6cf4015ffe2b5e6eca986f506aa085da2ae2ecc45",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_020.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_020.json",
+        "git_blob": "89ba56055d195d243f42ab8f94e1c94065712439",
+        "expected_sha256": "3f18e7a46deb2903a3865339c82e2a56a867a1ea010a0098e1cb26aaa170bc0a",
+        "actual_sha256": "3f18e7a46deb2903a3865339c82e2a56a867a1ea010a0098e1cb26aaa170bc0a",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_021.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_021.json",
+        "git_blob": "e69f2c0875995e4b8813256ad998990f91a7e31a",
+        "expected_sha256": "d0a86a05e6c16530ac12c2486f4773650b408ac9679a8e35305c0a626f840151",
+        "actual_sha256": "d0a86a05e6c16530ac12c2486f4773650b408ac9679a8e35305c0a626f840151",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_022.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_022.json",
+        "git_blob": "7f4b529fbecf289e5d100bd9b6b553154f2aa4f3",
+        "expected_sha256": "f0d03c81d3eb96c77a9e77d2ddc192c50d78d15f6aefd7400b1b99315ac33b4b",
+        "actual_sha256": "f0d03c81d3eb96c77a9e77d2ddc192c50d78d15f6aefd7400b1b99315ac33b4b",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_023.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_023.json",
+        "git_blob": "0d89b9af945537d461e504bc605bdce5ce230088",
+        "expected_sha256": "38e660a532bd5af12f1350187ea5765865aca31341756cf8a1c2f8b65b065d9e",
+        "actual_sha256": "38e660a532bd5af12f1350187ea5765865aca31341756cf8a1c2f8b65b065d9e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_024.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_024.json",
+        "git_blob": "c7cc886f3b919e60d4331f9b477f79bee3fb0e4a",
+        "expected_sha256": "3821d63149ea2e1dffe390dc3c86e299bfc62c12656d6b71405502634c64f155",
+        "actual_sha256": "3821d63149ea2e1dffe390dc3c86e299bfc62c12656d6b71405502634c64f155",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_025.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_025.json",
+        "git_blob": "03b7c76523bef637249b4727f68935510b728c1e",
+        "expected_sha256": "f83b55b88686992c34f50e00e46d15618ff5041c757e6168b17eea5df75b4f3b",
+        "actual_sha256": "f83b55b88686992c34f50e00e46d15618ff5041c757e6168b17eea5df75b4f3b",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_026.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_026.json",
+        "git_blob": "244161e8d919626ca203c1df9e0ffb89142d33e9",
+        "expected_sha256": "348f9b66dc491c3ad97d89f619a82b957fdda383dfe3d6c47290103661a9eb1e",
+        "actual_sha256": "348f9b66dc491c3ad97d89f619a82b957fdda383dfe3d6c47290103661a9eb1e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/logs/log_027.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/logs/log_027.json",
+        "git_blob": "2701c751a14ad762683198cd93150a9c93b76dc9",
+        "expected_sha256": "d363fee19cffbb51797f0a0f0e972eb3774d0a88b0bb0cff7c1091fa578a38f4",
+        "actual_sha256": "d363fee19cffbb51797f0a0f0e972eb3774d0a88b0bb0cff7c1091fa578a38f4",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/output_hashes.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/output_hashes.json",
+        "git_blob": "35978dd3476a6404ebd526fa1d89a0c41e4012b9",
+        "expected_sha256": "25714a7d7293be05fd271f84ccd41108ceae27e01b6bd4c47628092c254046c1",
+        "actual_sha256": "25714a7d7293be05fd271f84ccd41108ceae27e01b6bd4c47628092c254046c1",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/phi_exact.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/phi_exact.json",
+        "git_blob": "87f4fbfb44d177a996ac841528be8817dc78e01a",
+        "expected_sha256": "1dda8cd5848622d6505ddd7646bdd3641301f3083800855a792c8133b7953f08",
+        "actual_sha256": "1dda8cd5848622d6505ddd7646bdd3641301f3083800855a792c8133b7953f08",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/phi_rows.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/phi_rows.json",
+        "git_blob": "0177f07eaa51a5cb186e3a24461d65a2d72d08f3",
+        "expected_sha256": "e4938bcec13b8ac0718df58c5c99100af1d85e0eb59b7fc1a1cd8ff5fd29e94c",
+        "actual_sha256": "e4938bcec13b8ac0718df58c5c99100af1d85e0eb59b7fc1a1cd8ff5fd29e94c",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/pid_absence.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/pid_absence.json",
+        "git_blob": "57405b395e62c7667d873de97b364f7a5b560eae",
+        "expected_sha256": "5157df6139805cb923e36cb26e8f22ec01a8a8ed02b9dd900e1c87b4854cdad1",
+        "actual_sha256": "5157df6139805cb923e36cb26e8f22ec01a8a8ed02b9dd900e1c87b4854cdad1",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/side_0_terms.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/side_0_terms.json",
+        "git_blob": "63fe7734665f753ad3a10002a34c81d9b2355e6c",
+        "expected_sha256": "7a933564e6162b28287919bc8a2c25361f26bf945e4054243b473766c51afde5",
+        "actual_sha256": "7a933564e6162b28287919bc8a2c25361f26bf945e4054243b473766c51afde5",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/side_1_terms.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/side_1_terms.json",
+        "git_blob": "bb2e12ef532890c9ba239519ab16411341fae82b",
+        "expected_sha256": "f927634ece68300a5eddc2ac6f854d306db4f74d03ffebe8468fbc1d6843686e",
+        "actual_sha256": "f927634ece68300a5eddc2ac6f854d306db4f74d03ffebe8468fbc1d6843686e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/start_utc.txt",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/start_utc.txt",
+        "git_blob": "4f486a5a090c601ab96730b8e5caba1080b4f10e",
+        "expected_sha256": "1d00578e8ad8ae4812423e82310b8605c86bb39809cad271e96757a6e3d8e535",
+        "actual_sha256": "1d00578e8ad8ae4812423e82310b8605c86bb39809cad271e96757a6e3d8e535",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/stderr.log",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/stderr.log",
+        "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/stdout.log",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/stdout.log",
+        "git_blob": "2033f8a25d5000cbfb940f1ff52e5c78091a118f",
+        "expected_sha256": "55825a4e459e5ac45a97dfbc0c9e8cad1077a3cf827ff345bdf397f7baaff575",
+        "actual_sha256": "55825a4e459e5ac45a97dfbc0c9e8cad1077a3cf827ff345bdf397f7baaff575",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/three_entropy_intervals.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/three_entropy_intervals.json",
+        "git_blob": "e10b2fc8ef1f8a6f68eab5e28f4f3fec941c3773",
+        "expected_sha256": "50fedcc817f689c7c10a8c67d0fe8f841b0c96b51bb916f8130a2faa5bda836e",
+        "actual_sha256": "50fedcc817f689c7c10a8c67d0fe8f841b0c96b51bb916f8130a2faa5bda836e",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/three_point_probabilities.json",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/three_point_probabilities.json",
+        "git_blob": "e1d25e5871e21b1a89216cdd8542fa892547e7c5",
+        "expected_sha256": "e1fa6d55784f0f9c0cc65587a6d0a6e8fd0bd0613cb993cb081aa345e40bb6a8",
+        "actual_sha256": "e1fa6d55784f0f9c0cc65587a6d0a6e8fd0bd0613cb993cb081aa345e40bb6a8",
+        "match": true,
+        "exists": true
+      },
+      {
+        "path": "outputs/run01/timeout_pid.txt",
+        "source_path": "research/C2/pr70_obstruction52/outputs/run01/timeout_pid.txt",
+        "git_blob": "49e2389d934f0cdf5391c8f492f4319755586ae8",
+        "expected_sha256": "1ed9cfd3cc75803893bc3ba40aecd7963fdc0d09b08d0c0881b037f75bc5b02b",
+        "actual_sha256": "1ed9cfd3cc75803893bc3ba40aecd7963fdc0d09b08d0c0881b037f75bc5b02b",
+        "match": true,
+        "exists": true
+      }
+    ]
+  },
+  "preparation_consistency": {
+    "author_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+    "phase": "UNEXECUTED_PREPARATION",
+    "listed_files": 12,
+    "delivered_computation_files_match": true,
+    "missing_from_review_package": [
+      ".gitattributes",
+      "README.md"
+    ],
+    "rows": [
+      {
+        "path": ".gitattributes",
+        "expected_sha256": "2689eb7575309e4c0fcb8b68bd07bb41834e75ce1b0318dcadc1c52945a0bbbf",
+        "actual_sha256": null,
+        "bytes_expected": 70,
+        "bytes_actual": null,
+        "exists_in_review_package": false,
+        "match": false
+      },
+      {
+        "path": "execution/run_guard.sh",
+        "expected_sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f",
+        "actual_sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f",
+        "bytes_expected": 2415,
+        "bytes_actual": 2415,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "execution/RUN_PLAN.md",
+        "expected_sha256": "ae1529e0a65a67ff21f31af4823cb68c7471ef1b4f6124d5633d26f280840564",
+        "actual_sha256": "ae1529e0a65a67ff21f31af4823cb68c7471ef1b4f6124d5633d26f280840564",
+        "bytes_expected": 2720,
+        "bytes_actual": 2720,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "implementation/independent_pr70_checker.py",
+        "expected_sha256": "68ac82b5fd62b6b2f4210f17304e43457123d0879469a8b0ef02071bf4709769",
+        "actual_sha256": "68ac82b5fd62b6b2f4210f17304e43457123d0879469a8b0ef02071bf4709769",
+        "bytes_expected": 21525,
+        "bytes_actual": 21525,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "implementation/README.md",
+        "expected_sha256": "e6e1ec055ffcc4cda6834fffc2978b5ad614eee96ed66635b214bf8d646dc386",
+        "actual_sha256": "e6e1ec055ffcc4cda6834fffc2978b5ad614eee96ed66635b214bf8d646dc386",
+        "bytes_expected": 2006,
+        "bytes_actual": 2006,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/author_post_checkpoint.md",
+        "expected_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "actual_sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+        "bytes_expected": 9354,
+        "bytes_actual": 9354,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/author_proof.md",
+        "expected_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "actual_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+        "bytes_expected": 17447,
+        "bytes_actual": 17447,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/author_SOURCE.json",
+        "expected_sha256": "cb2ec932cb9f58f81fbe1d12628a1398a01191666fe447179ee9e6ab11f9b985",
+        "actual_sha256": "cb2ec932cb9f58f81fbe1d12628a1398a01191666fe447179ee9e6ab11f9b985",
+        "bytes_expected": 2906,
+        "bytes_actual": 2906,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/expected.json",
+        "expected_sha256": "41629bf9535161fe24a6704d4bd47972247695b1ab416a10f2c52f2d3aa9870d",
+        "actual_sha256": "41629bf9535161fe24a6704d4bd47972247695b1ab416a10f2c52f2d3aa9870d",
+        "bytes_expected": 2040,
+        "bytes_actual": 2040,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/object.json",
+        "expected_sha256": "e90fa460dbf966e2834e2191f53ee35dfc978dbca5ddd9a4775bc3565ce26c98",
+        "actual_sha256": "e90fa460dbf966e2834e2191f53ee35dfc978dbca5ddd9a4775bc3565ce26c98",
+        "bytes_expected": 460,
+        "bytes_actual": 460,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "inputs/REQUEST.md",
+        "expected_sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+        "actual_sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+        "bytes_expected": 6462,
+        "bytes_actual": 6462,
+        "exists_in_review_package": true,
+        "match": true
+      },
+      {
+        "path": "README.md",
+        "expected_sha256": "34fb953a9f7c75578e18291da3069b20e1e0640b18671d12d1b066c12ce9a78d",
+        "actual_sha256": null,
+        "bytes_expected": 1958,
+        "bytes_actual": null,
+        "exists_in_review_package": false,
+        "match": false
+      }
+    ],
+    "verdict": "CORRECT for delivered computation-bearing files; INCOMPLETE for full prep-manifest reproduction because two top-level prep files are absent/not read in this review package."
+  },
+  "execution": {
+    "ledger": {
+      "source_public_commit": "29d4d77d7dba65de933d196a89b4db2616234991",
+      "guard_start_utc": "2026-09-10T02:10:08Z",
+      "absolute_deadline_utc": "2026-09-10T02:20:08Z",
+      "guard_finish_utc": "2026-09-10T02:10:10Z",
+      "pid": 175598,
+      "pid_absent_checked_utc": "2026-09-10T02:10:38Z",
+      "prior_arithmetic_attempts": 0,
+      "repairs": [],
+      "budget_state": "CLOSED_ON_SUCCESS; original deadline retained; no rerun or continuation",
+      "status": "MACHINE_PASS",
+      "exit_code": 0,
+      "ordered_checks": 178
+    },
+    "pid_absence": {
+      "pid": 175598,
+      "present": false,
+      "checked_utc": "2026-09-10T02:10:38Z"
+    },
+    "status_file": {
+      "status": "MACHINE_PASS",
+      "scope": "fixed PR70 K,D,tau only",
+      "all_checks": 178,
+      "elapsed_seconds": 1.154991258867085,
+      "pid": 175598,
+      "finish_utc": "2026-09-10T02:10:10.072956+00:00",
+      "mathematical_review": "not supplied"
+    },
+    "first_failure_file_present": false,
+    "stdout_sha256": "55825a4e459e5ac45a97dfbc0c9e8cad1077a3cf827ff345bdf397f7baaff575",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "fixed_object": {
+    "input_echo": {
+      "source_pr": 70,
+      "source_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+      "K": [
+        [
+          "1/25",
+          "0",
+          "2/15"
+        ],
+        [
+          "0",
+          "3/4",
+          "1/4"
+        ],
+        [
+          "2/15",
+          "1/4",
+          "18/25"
+        ]
+      ],
+      "D": [
+        [
+          "1",
+          "-7/5",
+          "11/9"
+        ],
+        [
+          "-7/5",
+          "1/5",
+          "0"
+        ],
+        [
+          "11/9",
+          "0",
+          "-1/7"
+        ]
+      ],
+      "tau": "1/100000",
+      "mask_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_bit_mask": 4,
+      "derivative_parameter": "physical t in K+tD",
+      "logarithm": "natural",
+      "atanh_terms": 80,
+      "maximum_interval_width": "1e-32"
+    },
+    "events_sha256": "30377ef4d49c3b1048eea721edb91afdfb353e51193cb133a1c1ada2f7b0e294",
+    "jets_p_pprime_psecond": [
+      [
+        "31/11250",
+        "-109307/9450000",
+        "-6137/354375"
+      ],
+      [
+        "427/90000",
+        "-82393/9450000",
+        "-14113/354375"
+      ],
+      [
+        "931/3750",
+        "-480077/1050000",
+        "-128207/39375"
+      ],
+      [
+        "727/30000",
+        "651377/1050000",
+        "130457/39375"
+      ],
+      [
+        "2669/11250",
+        "-4067593/9450000",
+        "-1241263/354375"
+      ],
+      [
+        "473/90000",
+        "2369293/9450000",
+        "1261513/354375"
+      ],
+      [
+        "1769/3750",
+        "-105823/1050000",
+        "266807/39375"
+      ],
+      [
+        "173/30000",
+        "144523/1050000",
+        "-269057/39375"
+      ]
+    ],
+    "marginal_jets": [
+      [
+        "6/25",
+        "-221/500",
+        "-88/25"
+      ],
+      [
+        "1/100",
+        "121/500",
+        "88/25"
+      ],
+      [
+        "18/25",
+        "-279/500",
+        "88/25"
+      ],
+      [
+        "3/100",
+        "379/500",
+        "-88/25"
+      ]
+    ]
+  },
+  "raw_result_extracts": {
+    "phi_exact": {
+      "Phi0": "-17195245284290193050175018195000/102736068486597078628140399487",
+      "Phi1": "459391680374575413414186538171831635000/2825836508547416584007832972390257641",
+      "Phi_pair": "-125413424484215487448116244468280440113219969455538795750000/26102637294738394550409051443126654598253142521608171454843"
+    },
+    "legality_leading_sylvester_minors": {
+      "minus_K": [
+        "3999/100000",
+        "1874526239/62500000000",
+        "81722984551974671/14175000000000000000"
+      ],
+      "minus_complement": [
+        "96001/100000",
+        "15000276239/62500000000",
+        "4340182176969481/1575000000000000000"
+      ],
+      "center_K": [
+        "1/25",
+        "3/100",
+        "173/30000"
+      ],
+      "center_complement": [
+        "24/25",
+        "6/25",
+        "31/11250"
+      ],
+      "plus_K": [
+        "4001/100000",
+        "1875473739/62500000000",
+        "81762005761973329/14175000000000000000"
+      ],
+      "plus_complement": [
+        "95999/100000",
+        "14999723739/62500000000",
+        "5579765768960953/2025000000000000000"
+      ]
+    },
+    "intervals": {
+      "Phi_pair": {
+        "outward_decimal_40": [
+          "-4.8046265619871114230253298325745148413179",
+          "-4.8046265619871114230253298325745148413178"
+        ],
+        "width": "0",
+        "sha256": "0675f50b5e02a23bbf0f14700b5714be7a765b8042a8b0d703c19f424cedc551"
+      },
+      "G0": {
+        "outward_decimal_40": [
+          "6.3836477267924650532084343120505471181471",
+          "6.3836477267924650532084343120505471181472"
+        ],
+        "width": "822593317153225201193644764741947766895659716661547600023124668729686485118708551873824133841080355410168150492428224744853300909829547709240800087934232955269124935906918397807320285668485570556444466133463228172470115339025700652352223753901799072002006203521351924001816415924733355266771957979261173617291479127619266102080135969350768761800243520843943385858402391028199704042304843882254117913309631063777389708269028911206412097840183586970869846980613402884052644613191743701145671074070059873457403675204517861200409442383101794599037414433865504486976006414336003589077412684175122068327233535771380736754485365144823197244788561957820177903322895105693071502838484664972990838176188229043993736206775041387680656643290425081355763167691210312316742921291854391883366935968611956259245827783833185822617531307679987499141468183184549467124395968541462198623686213893948947620167573790109005107683034804587714170552790609686039323177587983643172922988301621340318514771191672753474328773042280278836180519715970229957435771254747349205051514753123439687868884805661424172431050646359350535051488739468884691127302763422283024402157861742208433398857813292644723633570173195285390758035604284544682816060571781476727363334663808582756219971439642750295651826739806146367401003544245910500386678679772380089708449146178459421744503207028071519778984471806522149308831543679376952012053711465368414958288117615908599027358938124893112666529557385141367837369376338940109693350816909946917496482198333716548816971987231595527596956541210632179339062827694890165909887070062257042739191454010189115706967457240695499336523913086615662130492833424531625656150558179004510817210722112362826827609906674640331316656516382655065806584559287634024455997724593002125379628426569633181720195641638407396206000840571952485658914988734426987619361078676944454276480365396915885293703337728418606354658293093842800733364713446114152832925601744534757133000040245838485087104644420108976330821083840125177977860981447527457668087229500587061703996005459901156116951201354339048894311705310276094922190798243445327097938406883114536162300780222603592854202274707584766319263509575105156992781409572965853932642818679352340692368881339106694051873603579458824341377730763294682747692624052523858954963094183844755138017513426682591676775687208857342050669366948615671432701573616704486137429149839475504799204913402708841828883574141108899363138557695289128617805461666729276897485929533289477607006447701527781763142339328294902167378241358730148126260104277211689048606658343468730894741505980526275254708803494086862309338870282570255638436300669783793592286547800635278748363038086831677714212004259603623706589272227817863654562246057560359772823449181230993239470344603638948813574151589076295418853020595959120039391949913577728566382263065537098030217550854376450857898960326011260603551604855110978202719363605802112678268051027460576569471202662162665510552401741743680398788819708074399504016930542541390112481737427720224697601899963609020632551067160661704244994004154826214547495003000853916040078216038669783271754614901144198864202001656815322211531625894560929543313466540418137591201869888897079480652215658033442525271062895989204004128635597141187201436629534221766924784495651813/71033018394749971118378267170963573080282291369833850991823168028979694812913742767013833177729826100319664834017410397719201773752180986969880624792913932825454215184763625401817102357342646472936110924001581413339152388414600038834078021126090041714035917307042467771840482098135197119515214006727750899738422283723496842885845899667829634956004617947579144705508039504682602552412593419498136705548180055994794409714460040825680224444931741328837875656234240828378159924828373800286070684965936257603629397764413051512182302355926906958049987803604379421713288763343993469121231580093462519110987666061681216745999289753979475126100025024607807050549768831655260266728037034539859609119790234794607624030357085704899194968694291697328302609171977847610774823582483536032166577742816904231874026130549069878148336674000224028133194149283067290913573125493564361384752912825662596359413046535516556377128367301123628228789031087169587830883015948457913743781447854771428835972674798997376641205224574060659069920821273689978127602223779865180193043020250703494174318521563265091939035534510438134828569365521757776324576089589275248892912027869560778481725719972157941328578963613750742059332799418209381749248083097791415046383615064063030959023235189656667816161563054029102289351911499335775078130377855789974900217586331819547079029755595481472703190369989559809579695508551721400966132364035222365407656344600625936273925123566960497455183341968163208704170194336700368676635241235110984715200549677440186185697351402238858709802051929061079788672554113163982816282788188314161689056681737533843681443623129140747094139947529070466974980354876110320760393628784474370922341378471642523949616584661691172708872996645092048960962373881825179841983456063848519777547459664974944237901895178576027779958479711571662767248308701726532636008475902283412276739089478080528974753978959649463115331043986692201780241005956297700159719913482456388150395440238306330053273620918811757778918393142485641304900439890722865650244518292852762127809686471022157742475792909487184719731731297129573581037422490673516531783583622699866831018147081145029183067758092975678297249893513439632710130183474077181393743539989383653709230198991042039740656100938786761921093370999016759572483797214864423028979003985467160149147123377633398225387407656895398548156549379788747985566372743751130982699840166376333723874609001610907476128835455196237116704266949548839517485272294157636339445825790969917901065141046421856524757817146414615552792512596684037221011563733497957720739682756018257156138227102611990901651553382233856643278270624020497298301361936804575345285777282205176633162972657154119794278177374611616353491200056556351741353815024999002090387156120494855979445213944785644193372494040581828415811762278583065569755560098569618926126662859859909488107160371859746974080736892217243343880585771368491883100791614104408549965331655742564403966506981119483910689361940751527783776484795560911532575080713029171739284178996594732131853674798606728049785589369747001019842458345747597624387713411671596067889888289508134759498722394132510796209407850035726628758963567554049779376657708648709974851978503881003745874213568676083303910357388777495094851211447787241107396551887027606621106069003300025072118439056462002698579980310730316605950003282961417147014055595800000000",
+        "sha256": "c52d07e9de2ab9d404e0397ddc1d2aa7a81f28a42ddc587084127d7a0c910a0c"
+      },
+      "G1": {
+        "outward_decimal_40": [
+          "9.2177300388618574492302078622332257604485",
+          "9.2177300388618574492302078622332257604486"
+        ],
+        "width": "364198548241933342088267256048607582444072355419222682245285074559959784986938889960517774382837074448309362230451836708531318193173497164563683946036014794193616974419245904384034915735114523147391922411010099075841316967260044952693578926282938234943180868271664104911330501566666824656039431414724391645372035240915580555585668139084189570081606185529515035130302408546654635923086624845708521405570512509279419251088704316694278981510599298632240236598623676667700484899237808589204542033446216211772309241020393671519789993202511079181635233901800731863630013946349689408990325243327374499999727190807089522789105030877321821905489270756952178478110314995551769839006752305671897028098486580108499865615813877278804639056607892318917591104756747978397694706023003099146008648040040298939623778171014537025107491911862293475343238277730321018538261442658412294672539647948721979568742025578425981894385133628037998215563610576714487335616700221327206598191027872001759945176846186690643075835258003433931932027019086935555619959579035584005438249017499364958507526205511797449142007008295990281948155206376096479426995261049563940058571214805444758607985350923746736978400372470458220809884253065457713865573158265080114185489558240436368875289259013918482769038835700167212103903748257040217752501298198118351271199079354019272146480282452097773766543633056465238457868439630937800773644427925220891788308233295569547617879504034809206082204913826961535782147203125012023724001151295543500892189657730774580513564700409984906412244875909584137060267314257099318506804538454898385475084328627762866988270604722536973271341425584442751459480693287935639960858564891164738888678386537451441133307068886540580516036060647246870967517869125236164343300137934045167581085528587409074791925221381619388728671210508602603373048005472088211749407220462676472177646411240546291235830560844704772577317304529868086352129719873506195871349353363496598880607290212876367788483196790764711156843888960044545966980186770478734330657089880670564598300434547018499907043366776387296022043080959080699479398834192454684260628632413470082894492485632407273541323675572399490187889168527011343881525011011622321024513855996946546476070258974262062272040081225441755425480976953030437025726880795678692418195819096176130113855709416832921835765774505236052418758477052792988992883664355426815577412409654578872501554920129115221238255706561053211638771075194452764631515652158261509390233334092628796308929752519952675309690326490856605671874510511123639773062756659665811438633268253550405137904401794584420660098221061332803710745792523289615239096004257701483903917354651713992530785743090426745761620330262196773026457268663017587821578228878191646287227856816465464597597927517802724516616501694441226767214723312762341969196014169602173309166858170866209076467755662539412137989645432033751598442035614764352726949756238236754862642265549665195696199707627030878756563225226016025617577699589772920686106852216897253998285537430401063354771150807586749037004653337791923018844827287287300862155938259179789105133803289989149716609620769197919582674720587809501844315705718084530191017819010577884210769532899014444164910505956521564123823190436848218489130419320567649592749583273046048824813164867450764475035951591/8970557402709291385465656207254930719032691000797504449070956163996922618494107769108836473471738107003590848010564374423865231063858963648732180126353734972267224046639573647759340219914321456221824081008977628878382753271745339029739273964940345269160459575247692977291842635192797375327343233777948779583480422852239359663977205797582806249485164059076227323956201443626894067239494828777383418208748627300594247231885900244711919535569620150776142845207171120232646090461770495039059671700295927654198082711284288555757942431060205668071858885924501731641925489301514001884586861930191273390335027284270597319507131703515849383226793288547343249786328625554654894649476008081888959890082732240733663259011447277876679321569544562395083323323833696774956069746164163769124517945322221119552509912523309955866613224379407776739398860385959133558678994832346295895513593690149598787861388107525504433450527877057320998341399257806446094575468123194859169720125130014504628623282771032028045953443770468126916708119107457436778825229320110744215162093212657150799319293752870199252784346769683119997907511884465438632839297279077101339129368830490334820161068852767291323853244514493445441170594962472862767075362805118267624301084285026004886350410553558183347439367890174034365930955641209249862168859909541917060636999807161236201520621100928680963525158045334690367793647658303869631155207394426962804711208733220579030148159330208020737098174681576711874162530372992352049028992490783827570063830179147784143894387105648784915329457486297865038067135593795004124218156283986287108245063677644559094969205903609185809005267087718491705218577615142859084324187708244503328753581389260931057822567986213653688547075805184394941275624625476486960183088698582881782866478833264928936435766774196751680728058339789277421979020783727446534558126581994190347794113634776490283104848037898514193482964607508543217296031930717233800876851830237211415532275784817017969220753792252851687040797214261001237520779571160787880736275044697197774183510382860420537205112992727236870955353436165969509784909899240924014395399333117138507201164213251068900569020877110506281298252696778263440455385517530478170379508152300595960299985328905125772596616289533262784879810916979768063947000128097018763114035264757865378620493365087901759166244122839421261340713886412613967253531403321316980781457577177683376030735985262759968343259270142467486921241075156145855614056086773450083026045671964181400784414124295560198452075984955380227413521519716532089055266677748737961766195590909949875372629358217363081101891898134048402398454163199266910266022726838472200840441890845193287830358108427616221662378097377084631993243298406633589307185741303153724873603353871761386793966980490889013906753112665566337673865690827574044693172530303024366724454903653353377607321968927052692542556369053510203756896949919906727159872428032786020855707706755020902763180423894555924254364247984979648537461199128016681428123000032559432007734090358041648771419194115054549162715343499735135538802910846522102353304245075666654287232226975651311528639325280772096487891773735200268895454108865404287649425715641554415679960748759486538861822817087959033646713669840982880976336041219868713903288206782778912676480114669327568112410018242497353446915744987330061450114296435041592022970981716381118096903975000000",
+        "sha256": "c059e4e673eaaade0f5ed122aa7b73cb91204f3184dcb1af950aedb763a5b7b8"
+      },
+      "negative_Hconditional": {
+        "outward_decimal_40": [
+          "15.6013777656543225024386421742837728785956",
+          "15.6013777656543225024386421742837728785957"
+        ],
+        "width": "564038741713672034556219164011670115848838219747076865445616299333958780547913382546092614806324125568508933917531951047606552702501211701364836932720943499800601924812548096000414117481418055501996943269182268068527876746259995376576202150875673778297917496798735722993957167989410464395441619647790738420499961849229544783230341703835006226232474467947996500760851424902526090618164983169941045183970512562683143202497333764747450766048158090842393938060854278745146680549904967538309209885116213796156108948403754822997418048224839364680249428296849026922566495472477178218109471695055942183928695459823193575414321226637436000284507761072714518409817713752391486836343437048002969987127779756014350085552680127679536866838402940894248005587662837138356965454583347506868813390877544211927596821398275702429779742917116177995124697653377732820975721178551468322658900170928223326681797796182020360546019641383117951478303528470714174432460984790320834892617736155069154055352987416356471433308144406592267495170426419692683705865580767814422689735198260156660741850061651901674509258113985195703700638880355446295205680033454905024498836548368121427565818581573214518026087020247960734747751251301768983070998371554695747884091307225152166832311161309856913266639540782318881704083719817775810457030152933066568505695557605745472901144566639227426550255965378793367625676474084013137530184601377212912398583063866108043919212338261160164654887386406590779620465657432059853818462324737158874079688487399732921753886463193070646406300745784182577662149785926969308138493946504812431042211296145868872116565918517949564397146754585424202692707607143004468640876030778164033913191100326765901033614968223153643326972034729986727871472614042203771607623599182991718778774769515158693632330256833466374970503475675059105881298397679336351706992293382398008464620797443595981129701415475475163046309206399246392957965465250387881691903009756486368597364863222861555458045345906791517901880095434164130716297083660047943877070502252050433751503193299026945792782937497750085708952772366702893620981307976981720126524559235830948611736259810598049376111438613254342888679036688263407066090301948474589304050313554320841332101319403401384979682340676970663083713216536052956097372400270482810364196967507289795293155957896043883835974390207101392457847547073991601537091923217410303502530257143897430308247326456605641005242463892171900156910739502037833976996422151827187025403042207699667985764377946034095148156678826026058834373066271998145999920987393021956116516466161234693215694322984124262149445896395726495627647705493513266634465217814992393874072165026888437276145178564336948616878082718179646599736464425017738274721601401130301733466053736125332153772788600252772644633979171636623198040721022467606334506326930064261711470954585662277419057420809696416842766404211506154469100146079542620834818052831900585452647932141622551528967220685954907884966117542980252558000792583653657020119343182007561338111965735159629819398342162127962224082706126280849743643047923124936213691500379950957180569235950926200331199657520703592525348139006401879714904893067571988436259423338804172487744045508753901654255953516452739367150404416894033393783018144273279231875000145447032426883466911630229566789766536552246450322668806577201214346330096451214464327051747792282544135622645576919899950712282346477231828930190502998062979943079619290014856578494459147962554017452031058269542091688005291646433293074242411008730125370530533057236487793341332072960074878174312621051661851799118385513496876953771644489758720886601456557385294978344528713094484980314144518614464069083807334815038718034527590499227138369013288086899013462755748085386720356166156353365223495071985593399657098433045670327491800358000488712347632882632070175768581419600068988138171031432977554962373131904553081759178479362991003123230034826245324342890448834025724812852458647084140803305564397079017321652893893606966970738947907607824388852206971313095853700147652608869017722090570270207573696447535065228797911444158980941744046104749067508003070246861260649098181984242111883614234808891723352514377695399234599475485892539874618581881797928550599376158703239087706363547764361209356578936127408299174158309267345602242335106281433644768127285985621113353753043094563355068419563391669505251057562135001340825387990840629376520065526296482518863218449547876216235599712351863929962501754356179680859684229695763480914926510251656949210758458477171069635874243258797259873029492489112333490004440550321507087575186284556225095005134117935068310601076641877218683282938005337799479432735811584145557833852380614084308999396401423165139674134041682529480980199658356869578534741023751647872626418845443098830282785302793895544743735472219283064828942437427950870917118579272853770051545918943477380102629309798752787376059096212655777361971998673058816249924740434309876366263407779299165738475844033125107767821561330397917173122932326375068765706202286633295331159310785237918886978620946600598701395897146133477178415733340101571695450977606820800103858360149406677753782616003333619562978680226012407199908084395562650965462901086206161378841144774559377316100983908082698273060582826863068497537763418364177197050506144881795902217715520619418513085041755575343072014267294490313680081965648309384118353546119203634540344967737820592726272387997273686039578144165372752442954207702732166996196385518571962214780042975568406420329658904999531816849706201142543686342510962962201207982837839315153921990126288303732821044961006524309345013464021073634392573215976851444054496038406293254344488815619188960665217334091795650367841947095231974686927025202151198924885895732415178601761647930340436665220177708164167254835394257/13367499535532072001572946287703160291001889234793341890005912599667973984257295159910357551969797146305661757256039736745427453767777773854208739397202577637074793164336290891883329091034563638238253529716771331951846354814730987911205219804210160931423488416588937918349302625416802973866211594655534812655109471785590725403814191199363855061360323868614130873256649297594990872813356003275975545798863092924738860296312545119988960638964840258237819669701423658418238736184974763709677622669372327663317018952971160229561014526712515942304408720056933026611077625023485498107262749375925958642208397877108728207450527941633538575730011244759692940890310056490052271838329587462918146875314979497729346593003093309050821676538786526180473169645691950786424517633282089027151761178261555475929069025287162449509672459820298053065617128903669130736373936703670593302595818432174014989671393242389927211696469470143072699508605645485966851997146660916772214661795979529339180827103205178768088903790831666367175499052456578240929244446179810239796362688843489016389897864828742902592454890223387175301260826049406333519716548019569928867854745282351942170055818788226149351487910180297595701074610970331444001440320177426432622521704568084738719466359048666243931262349946968179974733580212702566431231268499917130128623538598038192015541665130216755640236435246694289252988768244327815909563564717591400922299529235469963877237638224567878011213516645900882211107381877102770361953520616534664869008496656231070884444681649292097502220678967603363456615777471012336405103738588460486712635311143465186912708725284582396562654741082191443293642514739780374537882913950958332148986336286774333284609233784244466145546685867592337288597280473736340228981174036652142249051873071124878189810125129933399694145854051529734376564318370103854312617772865349383412936763451915994725078634965616848663472936816365385576770158626559052344359991220411212355927860987448839733926056567544285692238158549606156038249803974791942401041612762928540436657687196914536260058625983392467548132394826752620055557369962736568002983648693292681168100044240952092907085006354957305963058170084510094519407245588302923914466715749073251191262693061014539567119895781822203252997683701240869506792449318314196506398247015902919971636069958845409921715496452879528761389182466185356369238326701192775951806390403531354500267361613106515116338665728454203699109724982265203141674850893783870433252636666746626559248444670245711712685066211930074764536852560197001787760531894768400184315927155619914919334043429589486433049595171539101437562690381934465613441061828899631756427578419503098504583545018799091251771657531627736009185330812969416893686581391271045691384362319987568958638111985255105152145923519652229093753504715426446705051262288145672441593447864797697877741067204960873254940647183591920424002710016971565465132433928489825870440428962928219304785139293548286968334457884677822016879419020472902666519028560040669348170682910667627069533953288379388429395435522218711318298208268830713063737302660475326811243410254464234041649584017888266112234888205393860286702060723253953247117038979280608807491324685960918048171251979479252013957695504498334398281359292459946520783959165457554284045411027310181667650912078701968833010178110372725007641457792819388610260430183463509526682712402107940523161631289601670865861626684232440606574496097812439939105783292416724083119562378749050242448699124823314733812044370871612541604161995372949606625837868015916326117392143216289954046388953448610247816699780276250406950033926091813581013840641528614605951801048174990786275951562764223962261634355728366532475866580871664823584176172801428872057382455500590229477035672162773992693663932098812818994067492504553958335650491288185268444841504513832631049778993489855283747281105816622223939236943779409101000469856341054692058157129490740550938808953035172932624563594758923085062932610814944021654464434397185750278523377085686067533337016166011801024011158486278884699622389906188897966422074982541858059979786986055005061156206453855688347633986172020992413550969496807236901607578378373238965674037638335340293265420081540434634386989170101363849346926904832373584809690334468687738544078525201562541455937835868483058822808967173722442841594304265472842797660479818591341282983138369218496894206800844409997493687331777713305994065923322926986249073081488011805561119150847839359080246108810037787683480447993774367733518440691089836728483553771054950001894524850259749329810989511610486757120404730550339666821857874781747819699423570604710725947193220692378379427727240964637835093599287567559473374043784262383255746458591443933232791006644830582041718379705802323740041700286364780708791560821181288683087422339539097236484804941509020948993987356527221018385242840964218761427021465710985773567197094038958866178967848801725354000745404822523431753515780701139503773220610882567022692943337672408069779259401488790171178164560640736172283736345696239663437317570814087573496431459494398107533741479757630682178935062486408006469886158297768502040389432291588817382791251790305531725194053672418112848883891531650472673497296547537072685701836124265531709589831317497475543012134219709482048352909634032497107560840586531536066788115265537538971217553496024686329198645474235096169135644371812823600256241429722681318080756130146197891321548931683538824780420332976377760464106931518715914039828270822933952053956029183838214742139205323744539545625234837789759330949020274775582420648854278793812632912306287068368579362524124975917810158266122302331947063705577876467420236214804556200425123773402605560446076600120336278779887540034096379452031644694193870065632232788148533272660709944893685445420080495564666967224661280957004332324008593511776391574576910849937949152452600000000",
+        "sha256": "980c303c1926fcebb88ea6e224903318dc2e2842785a13f799a15de1de186322"
+      },
+      "negative_Hfull": {
+        "outward_decimal_40": [
+          "41.8563777656543225024386421742837728785956",
+          "41.8563777656543225024386421742837728785957"
+        ],
+        "width": "159001590369013020989618251179358077075044058155260082609626766303131350501314150726790420669184233866657256551838042599769967910371901349846386181500988672390822851574021759589845648453293021584041853642872602450227738216512093056202353162298492888536991326444864891556429691064478875679024213351262034985965759056919377474526044212468633951160684829214154280531035996904506227580069092775629197577947654967097282899925734897852683678303687058971996099345105495820285007588658173970950697773872802817387830462085250418221014098458465696879193532764417326846165021925790754098674576917465154568181814001672288460920021192586239141663267569226070379742773407061152574768333801306103233820696704474441133253004548820223918827446209239537479513023528863320520341497359094523877031645290226664280681309795271573564346284250718039156538702521189997680004500000084439772160432274084635588452949934798877660428526732858910111724247118741029153048005178094525638304081962514342130202625717998713195932208831967558576788837318501164477472305786396708682421349231644412969767842765241395650108904135204577675543627108545291798849880047222579705728843343442038420442042482793963685289377857946320913495376736819008034752878156651951143262774621005750969499197940988292514449986661931521101419879581636228741576756691215882085315817845175240478405525888540391522607047913926681443419273018325930737511426853396639990037653447320917521010043642618345491208727143950213289544452664240021368447500339357867894737956180217949539469182087576470861569866505630329495720771316337472237256630815255801597826102491191694000485957064256386650470425979537266312783368810542365717150663260367824225026603672556096552278093438578420332035151476689230733810010984178547267046506058494213407037412884324576720804043672601063570891531425097499331372275016979630700449336788875735838294049893113906023708375391855359080722595468338366089277626974295050328887568768643074674265403234503731391476736049402691706174040718929543499149628832579015127480431828788068707720391082779425421902561097090692995868274290845094399373909009476752756256612595259890277120759438873007849652874650247878888277174358487051995232882899509248769713826298568796412337296505272330880614908583216413545378397460742729986932975900086259283182060946621645668141269942763825868228872707223713512209940933076141745604088279070163980373419810812808834460704735414500309351975774635676274658675049928677423559550721896361860685845716388364687907080530572900631183743756337470817571614476823093455793578249212185015718491498995642791135757420949973974208121861391837717828104887662782082462890250185760713170969462228204515649470564469451425846778541017978527441663499009587328017527446446850401927579318643740567972918575723307189456761095902465551396456524022575769293588655702434779419637776597614659337666924353687386686899525173732751505268392810913140908297101766490603178097301361182950270045307122870099270796173225416719044695267362430290335718520051394294003666670718980761560852280395397973871667519009695260636915393250920197834219004459238059849896556751316168890217457355107165628791357958342228194450814338653883015175632210927775755336505915937436734654996627668837708612087238276315774502883350469134944194660774944594904495691444151261103815703254541320097987966089972952239376529422360669935833371883260264418899066712831300821024140140012960478071162335756647039699539116444842766232220453175596558903366992642417631921743779761528412274907508403000114051415033141681548577226129523347964288723268631942876449224703303234377705779320281271095716970483391844093383791444319419438567681118791122670320447243547708440236610278185718009938025944481038847401665054908982399777703572338610854339063416368645442624789084112525731709847201160410844864066311300900601768189572995930068164822377561948520748951386186883571322237475896403722982580500260840790857271563217730589776426577121958090588015280282153207336642241853390350810217309319017918902121788893664214937907509714889318956767136297233128675612767706947695448405562992646321638809647427780351822846904921319244524275686444171698047192179990647047328604994479209623641043788167047426400959985562206794364006632190161341401653282344366512563160382696094952857480275666245069163892754559027681203070092959425791532090311446348795848755069444217163689688841587819149855422039801325455681177793174774517946909436499462721481700892873276777864050934075080989781559676937365628374221108825033664637826555088722432875736042637801594110754286947925716518397167805935448857449847351901686296492384289623340708331317383309260083893102250375535682663858222541294021717177441542704129158184513186832603831128019650441018788728565861481177900405851554425511101960912686810911520243804639358648046649921907333492061324693707015625902716082200298012741031129686910225126667468676712363097248848933710892679454031511847152112843916415864204833563015100718846152750659576743256104227465011717342225005708761305947846830632841/5401725816590742381819330799693969816197167393778544219471436267796710895818611078753086187171698322509009696936691590318505595826597696330086654413942876858082459906519493667966184626935270142623976385517083990111721514610248821277479333417936793443996280150966837673937410212042592046476812546006836862489672857164265119688485867317904956240032257943424352305134948623932552249491798788101827420666083763291521565627956747094422685801650718964322713951366590645976135577422388115295319963306306489006175443331436479179602863479575985192933842288972041036523718120161535021900534141706375322945862046137665246122447986930867402983132129652791011553336800168261441677709499838898507035059231628545161759393513819568311459298369362121534123136678207216320429561341186106293798056726696506817334989082570114179294712438201115662058822548074030998180851536019649858749903473974165186426993853436980231316496732516550611563667058957711266916116558376686958197638627186234902949597835118579720183434202158815777511873801310884761483990955964920107802931652557781242188370897122093176153391083335485834398206185999092698605897734555434235193563315183435072133633539129617449346982302753335921502359457284259405803755761244863405613108149220810437231556312939316877521179345662434034167935832977060842775886666265923064622737876360461795939750795218368979278051963147873066562262612180342095182118344254032088542715770762815633975970021567914249401583885777394291280540857730650794120571717740558139018927940821379948887751869118365317686071811811442881587018722152782866724409102856216232738795869930799630394592415906450619971018347555885873162732862952541952687425630897076337440426430493012361497808358164895732258100441540528294222664579763536186951600330845047653116524979977258499328690210863722554883438966568448119604544914370471542874287746722703391608468417287397469966163680874061771768818012531051758130461637513092747541784273679568738414433593066959755079157582398934366445592737182504639865205291931194040277126241753680505298832624353178814652102292595284780578644766523757028783503233355124109149044589318473167591814352894716650894080505879443393079846494084307987732431594165779496384639981881865458679407771743098295521536138019426042481599501497346826452721166623367552569547381043737334042448882661277031032104637807917009744202264328257572084648183648422506515091441816729846065992367477361054539169255196838915019462605577948194619209018767696666084110815203810000462415024947919561180352825992254830350951993699637078486903455044254874790734726227277592388651387071148227138263575931460806648603303868935672005502628703470562688980564945983390260218614512650575526317502695805088666427464492496388451723291424138402388951616073186784059585311815511255353199743244160464018067301462967582613656450519802610054133990506810720783118067061758454615157710514437969924599607192988099341611555043341627195293528258770585782013177435598548894392692999401090996895969711580196901640532984140324796921497523435029008502392226698181021099509419829918830167648281442999845140258773934992858700089519908033435317756736536255284671691836089609720867375631880783845682777475389494287614519365133989796563928005111133279326241232153570142388913930889556921839085559188882444173750130652842788103147067688180672354235701346559307002500555838970103245406406000334564502632053663793046944925887451117066342190201019332589214637579235404250802317039866222661024731820272461243077050476366764305335200868121188664823793417406630086724726119418365020573130628601669012000252891657680756249362513863731422039692168696526071648299874212199006017401352717454296131009034571583507443056823049778628216276173115291241454111034001900292652021470219760804922248199143222473404854319554152045856665143624763511142843338087891756524905497733898713006757156490767520395305274042968602095752090422127759845269597300057588754222062504928495886789185417519918747687308864553176370434514286589734565703413182645231386490032518344032385060560986093366259494643641005936706445828127416131823044579136027242816254912719950602406519288304070379492671836790609304029472123636318848206832281018887475176030765019839186842978032217722004367936038229945662932359008857430622561572916553209853880968597348060340926809851773481685542113193806043325026686756494443171282900662713796735621261211349387930946353364733039060723825231881078224062510605516420523913883142612735673850415059800230962102497054303492760255275344451670216985704426907898189229592437646692830447603816304442769942840669520795000571863432283110447861799678062176073247095822383618387483091410778168468488875181675466422513597493691400772758654428391133173259351648241931552194890646098635429257846315474348221909236348450797199058978682434715341933759665308887835705205380355477356265946611689351608522462664728854842023956659044897805819510636836497410121043087795000215644791284528464508689344495698298730831911680868428859976383975369218021312630620155361057647008977724085164250592681389051579492260893650932836697053003330321557470307284383800000000",
+        "sha256": "03c61101ae613388e9c2bc3304fd39167b685d6dca7dd8ad32aca38c3bd6480d"
+      },
+      "Jensen": {
+        "outward_decimal_40": [
+          "-0.0000000020928189192765834280721741836172",
+          "-0.0000000020928189192765834280721741836171"
+        ],
+        "width": "1022849236593307255412809930289539718666580355413590252640542111833373473006805877593426105448076971310825232873767636608590602710085082840848181906050790849412609241901344751445524291887068136507193969920541932282705874400329929158059674516424571100134982402810524063380678723094965283851896030559904327256568654184941104023445785366218577088798909582665282101554311516011713115807422433568935915881947358373100763679664878973511101376138364797429294028047530299423782883649101421837672542343512864338715383493134461857849406688810944512456722980216288762289895397767070514466719841791228748298210864425516095908262183302403985011593040695246978895718925547921361269921626566901264697031430656398887186846633896520776349923079686458200239989555575033669147473926893275048270721882918359221795663564406558252091259215822076060596399614946952090886322343509906382552174395628096608156275982246333653988784397286091690674561245341048397668068420525264701507852832683437193895183720757065577309407794610952972680922845750531473605115746492131657261191469380877322607109687787196281675945606855840203532105440078154655910465566585047382642482679986946428484056150071092404840814300445142590667694094281582842479049296971328747960831541416845666266814299986296389469806698261781982970510179492444067846045503038492834615455808717288022789658687363168515633225760063013851636531788526780638185196108953460816652797087088541874342515548566199759049020519996493542014277748733910482855272556109242261235820651241155489941269814019105634054014613285287284569563413734604855841497469739333807638940508034098006380811831838638927462455030686788441557352298879104776590465162091152968369415636225576836840444586025445580496817484556816013865157272999800792200845717551052212957480427349314272094885913443754509832084390711549572763012431704521811823622303157258950349474292215896890779390079674577161458264503708962840017037119753996982034439140865062986183839383988932944870654189663816464320538102811772523803743265138538469720538626133734612556936496882098419693929077336120489091882178262188309931220372769923317225275043682337764644049432721373591342647415962066322811460099349018407076533820218670439896149122665699742960051819093036555938573805836335569318843249236099556762647721385809062495636908649903376602358978619433731328901299334133258225853422462981652928985055624036517317587331408104853103713981967297442130151130894134921735157184324823386341433451052276845806927643700757558152523106029277900135231272550721380253753133748381641436576834569738835462290275960554612936991911378561090212521819730923879780546544745587232888733047098840709808826470499314889371130001714392119741000688303038064696768714629027429476981460258638345796939861895666812036369374832376148515203348518611620675418333348558612024209190788937754185890959169938747738648493856228762699922229546889398864017868347764372534631078612378428312327471200716725192241387621612722847198078977890177158687751901834319466241717788865392371892525167186962917822322114470068836406342786012670587926303043064133347540950895183587036838551116781141637058265242213673117493060894116312917497191799571245135255121192688766968242298740408953691727367137613750057982376471407845923187588673330752527113825279098512280412892370072465811578331030223150424594401681188630812583136409156482931421974150304921804131983167203326031152715279829959053088180963218617050848061648442020167335958839920596160762405766394461125376596603170933187008384308461897303764721854783660654576549168505160979383414470019781875344954693604769682334709332723783632529173315326889198223790340838969849787753044489076111800988165606327820929028893942317030579883735435259614559504764978764786058687617771195563674010893353983266587496178289098841128539412725499505144485164726947947106892178682906241777083986097564326226037906879404556414547752599014776236904599624454680805315062046085099895146888000589736929046986132787692113526581079927264464126904730346929179766608241145226625923306438703972672170992422440487525268383695975021463504669800267469832611049141631789079248119022151290434067872210411475413043900858703837036639034363981854060156231962479687055364032502669930351969099930295725558876952467082231220219871085324081746313673278420865499794498379630749632215969176436724800725198604185487359306127326678304080484320099664253867041594913467602927010147231322244237672829435734609264802477653364927766201213334307439277525902186519902668230443331826295962719074658512627600395707482925016131633834425978427899658477313204647599307488872508148501686242549898644385329044230110537655834932554642931800984908216881479724832209440799111773730579245734124816586481042403962352610185764956111773006875916770629709287849379477852676280230460736464405838943421584656949281063781440414105023225754857261833182519792875612695033686289286468289562112380248203019317070515928399472962653464873972957638078720113028273864673699344222303363768133438073013000823132072341713032004732501406754439999062093787759553040847479554714886492068997978029966270010298561968919382531961333213268107922295016299714303830753232652970801761472729103510338982684077776691167634080118192266017875169037173579219791734683015991108605858915139278426571141548145681056492173140825706522788629495743849023347472617445830698593371622272531229764085512779591467731594335559674452851788922889199011703190842953576477246983829983484173546011091186189195929461167530460555432011952061818642239849106316261114095200790212921994698633548343275523120347259046358972530117459433189681634198844539256793286714935708541569447589916959225353838376992834046533188232379985397831862042819525989281387767842585777121948346735277630211636054517164036529905644474689947473061296274959968388383154460452981696360613331215690302624186004094561266783038838511101583009901961554849996897788156505950684559546881634581126388794508369949090767868770662653229249321493869995259237568125989371948813594933658618538101547382144016771884246815680194429460548222125517414718865587464067891992529307954501557007220669936124887235036388831417151959599921976989963647326702773805994474751969222382368653735252271315079954441083892526390963078765814360815320259986555923654832741328766522055951113783386934930713391393032899234101398623706300030311881893432642914344623700189742752221023094710205307101397974197538179904524238858374791131320938170242876061716242334736636473216028779526357498668027738303674864862549588541712147098759290833278666972492491499579913091242554131401385860639100957567472114187758485668583231364860414892691244540226844592861463567146520659001718298433336742675732608259838154146152233785437037529120913333315056763305602781220125513720982737655935081911149542399719598262452284706733730964471682104115338445577742518224315311181516107293016417517575536569110842958421554563878130584237248305344756210564140904120602741338266082685448853079356505026493768338500401192640570170476145857984214368525633086975927352715245782930763365109169811148024688108726045840969685649676634788852446340160243573752586489769093075884966313591308320440416999206415857622578945804478287251213297664772290853262933785966616151157529801395454486100795479797067222246427058966117005741959648196017259879296702046934968604763109236729985492084479227421909924564473778211815209809044067082317683416667705132220363086993360449561923067294476119074752134308938143983477874816317361989218557433484146222916347140001181027273892190416363948921431326900901796507235306545140280412084201996761812652426560132200076307113068354115625719055060707226579345624944040294566084921411733128157694652663253845038154939714568042394676955538977520985724188821809341765043098174817302510859704643825295028785505499753456191898968600696177515137533389704133949915015292388991709703334741716906093222367182703987758821303506179411133873885692049956042581079930084599645923713569588008470978068366089348339789885323306332298578219929826073554252869059165077052837452369636868452780601040776101817683296075143427848160629031581800684491043115778730530753153398570285614789134197982122329938997376823500928123893403258627140101605143661599786679732715540685797421335527180772681663469196267628428082085283384955086072821874405727355866912277148985733023245921600486658404598117666030382995378634376156496405757093559455891971904208024537169387443371881359678606832305427701282437874907516107230940255081020536485537490185829397603884964646028880245126447205667405405722297053640836719554567621076631555965587630437895553158590966648276793679890308029129556335475298442097935655030629418597694934525371236247978866891293950455928817504364570507487254802385262589399075247091338338699354833027348147514478580896920544824444179294972147870612641993713347929153782393861425824399583441059678308290098559968637545250025901045124393981910810723115426859221997278949990596551848072496162117847297835647130011403917710366316624755754675933950089096985948156130975667069007726017239380787524436074264856299903395937063949810188592035721167415377172039288452540108511996357227250976115613462641310411396897099187072595820298560732070146475621158128542731460153348472595437884084212572025222136476992136827338573089720881624986831952472611736465693973227863560946820195951426684120061088478735758270864147110406363368695781552789727202985088645166729683366126813760337808379885028157418041023804457457735403232039509163276509522459210923745754999927478289929951094515755674424799025403471586186838418539094006684467031598211736435006908770450661633358549488183987714423271564676762526414915236003571798206450744571778060478900971714956268440355312817076340479414376580588090247952489529593851748504328635810759647028743772430201027954240728536413958244614924049402864846764937019500156615781494743299358715949799556887218388491943173382875289209721775014996841574872815223780216841218594519673735366690252747786499365087601927409267553653279421001716337593977645659889404149190039363827163560579187995004316712098765656904731875673271440786881525732220604869219750593314930362399889432488173177077107831625466363282445821424088343788831654491865352605444737274821923444571059533107113272992578972568488049140494959155686674700648092704511561251202051245007351839633815028837425895802498540703696082226421310206457780730976167371714966996381883957784463993673421091757391903239846916324718503014037658960147060266198032722287169872456706874044467778295805267958472198843398658790956176050556376986909256558843986639126228379646417636663081896215672926225220314961887283927035985394826351695221210487544428654064152062786906769180912716096473206554784232576316357720214057809020429535164490676952556288323300040801430411213594432447661560574616911627290233647330025725056835022851614918261997970879154954833172452195028849070073307128908025668962177267634646504070745241197915669751193845188229012396159340888714592851303357018809074599203771950717426471510465573604930990229192065187321917425208415030595229354413410078451142066473137133806162487359166110706969426461748228549049461162550947766653307625240283620984640592019600912737476352977605606705394022531726822729648036711972515547468407687264261767845959641402836123267920750729978956713598669813357014664897237214875436804875278797334199460058290017425147197254036602942656279640435232881732225267826687216949000924717766094533117151805145629052569756171859328247220599739474046887055513036190977631038855842195910925674648091178602020008491029091291784695727617974813485714913465015544837324695653802253048450685890497246788411332708118337876752939394056267046137991594027812405689939577967099235012819359847060124457854383414159786705248903920804897476378801589910207649832172788115046031890266075173799236075939802713805492623889999434548596378962118173957973229416464250318702556114542889052950062488470290266111744856740761695925307906044879665465452706031198022939261204872761846315450716076935381233590918351326385483537413821673593317291877867849392664162138038226912507935632936324947600444453718677502370067367690587843209671980636190922384518722824128405928252290288064264177659783707512246443953224319497532526271165517212193677195505523693538634381802198541374287715427176405434346984614098832046653604856833779751455748652290087928106406048630806567832710733301614555638922901513200360023719791130440602989538141467018419065355890091549692359633214003325012956592442297752222323528924751924961499906173584303406312598950560066066152486713850161033640305929816198477466722314939092089028161806724389189902146617555741859548179399803044327587878374109220758189172272794924303632022360182695402567248372942629334164198272569444544145514654321238110591430535619437609796146479003021838978023771174032678903029702846806460707050895422453916349736619075620797445634010182695691922285941149760914440504885057999102908774934483005296964880926829417837098659632043090371845465315288854843123751698336000109539037682050022720006551771237660167304144697490910312076878816831661381103989171636216513577205459195981360472128543984059268599969117345062215283453460016727997448609803553839287030979816813574819084034072183290208251012897802741454601426588054636580515545977669610444566771957017569614178741013863856959687643449644942887240361484861907561076769452738840817162914557221302653079987792462808736526530426408219498314605193394765000064868202374965517455036691895028757400074153318836199851927981284175283385180013491784102616274042904564361426165549112080935456669453765797404631425021720866385558881959339364996724356955413161013960367168580420006190775655596074355613613343686279834046871944764399039076714407961987625598887178733097423934987807367534603357089022604148090599386919322520283064519541859919665449001750146656797437937519129621452179036556402599476124025703115370644732053026987340340538167126376673700664941961496644841032744132747010663251967872224834234944756560787573387203801137549444083378549021914071930854012883858596429430576974863351371428523221280114544099500791278501095485455517175524326205289196990530649266559021156209431299512629899978948549712916931790625318837848050225690409499705089251837400495985830683152651165018784635599812325591849347527741425352807029573858223886421008824543782730400585183275580589962041465748332206149283954498957766056370638688349820231775656146059728479159083838434765221430026077012175502934137787912566679608487129461754505281472055646023723162289558769467565910830879085425264158726928337800607328908963237668287742034723923108670994762530414243873551370961319528039244859307833282457583229546657185923829956520582903058359877415219405429566660544183576389048459406174655387260376524176933017981719069997603058138388009969922282956021231817779205959941193607974572881641294233204103788140293934764020250666477906322535891557347979011772837911307600732194678242372857044631982430611424208458180793836997849881983926676302183348634361094812948913673736062957684649512489387198697598582678725790386494178948781624217788593964554310270584358125216495691378359200064390562061480368645320237222295006605976035941312834259448467903066171317638875327508964374421629565123516448363195620421392384662926479666063829221299894893601607915981275580383267227987939360795284871934267318524929315785344401976945411663352157157017892139323551020541709889394545039046196816790649784546499369080825507257999703381019148495407861843966566454845110069063001793856013659332487912425683874719215982778685147229244447170537765866682941332852360142149634510856755679585815927984591111464209056554360344559122010043261842573313520159481217196300841374382946649127767195728439887177105672608154010330230555715988361810054201918170655494606525627394955791656926793060880444988926198984895095187366426928290300865062504651315421644312526458573686767650955973949960422672171234521587455238163349149366962894054053316645367911408570343461835319864070743404529835627565470662849199522345053136705651792811442258566804570810873973283125391451396618134873706502906664701787974439122793288451167465630747173399484014602504526911962525175414144292525937683964709925683332164931158680640920950862203655307590956727221885985848688485270799413311958038359804662923277947029454753147716367509625339397937901665024763417624080806504835205649926964411210882052694251833067897866902910297954550961011619509108602350703447924070357294766751887199324977402181665945027524341615836970921695952488327135135967474967739647047137728761563683519011531200381803287716642379866218958743968094514493789445959804608843630024988439070124477851262292610011857797123329176584774356803235555068418777139890432578919183448469383174951971193518097132892197906648885608266360713814993373188598222885582666120388102404031022587490923776058319956427308391471303707521013670094513993346548369276286639410480638502647763132262350665284706828417334048321429388560497562205549641293868415118145190466290680670903979366900045709652755219509127003142235778185032292377662836481700431167558330436782425379412383701691654397042849063343377683803619684860943498402592787311289036806316181270316027667966304292943160860356675752603576219878825248601857443258734167947485393828966494738403738612703942816239718813353948054202390415956263830393764499312197850592239029318448932896622007768812066559613001296076492288070141940161548805511889968256553372111389159838468690823259461882857321787742463973523634658831470906711412558918861621563919131050567371417825703006883244151557398602817274574130255741789788495484775641192194504541973341924038823867616260289648879418277054772783422326743628682320053762004019209545595273051904952627822698011360967935910095306937867979195673533830963250619978590005182863108320717926947581563841675423024147062359030844296711534337730307630428438468652304539464443537316861074324274329787566300550995540939176218720752682949092629288089253129170131514288080770893895559459111325544750128308098174859120806355582087435739507981772849293702299201385029894365268346101596015132574256675296438795760673432315833598605429788768165300676178214801926620956236369418743538634361140243600149769085515904984842858138808005107917324664998849225738909127699596321046821735258855690583162087221247743408012728606010197211516633373145565086108937346293574082202803391195255564162206215100623837020277510936849870729722268237511911441875019516250285018362763446332737408966945300342746505742309736574073030426572890648246460613270247808886091486233186308494993522041780730268441651002109390061410299439786145956276103090186790839859202851828437748487716996879318448372875289451494163303941595288432027589431064548327922738322992364917213236376437019518926720157149892455886383080353755281917109482177979550226275485881592686514122258817179814768762347846726689923435071351778660650608837861949603031037814074163638300204832922033907885814086961899700041727664191628441737607573704388020350750417460063576880956135050259087163156908599266772314147171067840818820280000786460508536670805238580742656479866879260593784461028470442446551683096402054967895712130734449008406458718259629682705823569517177783798475459570333471262777625106685556104689800496119796846751594864560664253214995594831018518147667930547273867485100877920488483852766587457188823807326881826979721921586640621177318606204043104967130151475330509882992666846231150007128935818058179482041624835243225809786639456557133116472092253973749565143141620927219369564597907373990585490205394028614760971317563042599571069964427277382362572157312239594028001798611560727580527568092063091525742736589344290412075486419051417555972179763642467423712005380899925823100333768432905178653185728348210880758126713030226970713140694151831815523998359283626514620790078238301787787801229717994101367700937031670455541697344546535626928316301805740206902676025358038902667776148892215038137632260664490229495316629852911314304252957248091693965904523020467831916253153946831539041663228145919110393742816431329647572655422724516378018632392705709275301731948213947350991379134447838757003535614793963408794724711248712232032950071506416281164956926933221457256191165539121038955372930532655223766005394924490588785013488377984224708593827946769426828517907269873158430358956059146297281715029513505048507013387063874093393818764846227840759581875796936516999860117872819378589512397286428751457462172901947581642210582296286892620707755867307564730513150678057722350545682527984099367320388544293062402012678073641120534863848380642159126736828804163354020716078262685581637471947803459354587518050842480284363851774316250136013520721303323765341494196619311796151534347331502476875384060259789405502536554752186567353691111811761955755865824116331023564504605890508109305767034676248118024326286311614743139424788253463047793207459179623805595781190789340370498792663562471075435255695399195209220148664512408632486057741998211633871491845042790481735812458656043351335015721725842727050393313060133123713761037717175849623771293877553790340857248559128077619882088039399998871374998702390738123327437871102508618533813765016952499468125965959133386533497148729621568036005083458226930040130431771181615648326922137565088082622370860262126597042189265870326832850847696608911698001418148609042493071216670398829415137688477450644292539355075841047087231555224387578379406857157736225410503313792412418190625253143012746796459141747418712740518745658713673838440901217475572206434248717019985606778913788681642077251020715161573501033863149133509396843676882845979460123451100118107970054028552927118437421132976161145798549418150654345659245764120207254707908286392538276830481778945373915526709712839871572431745284035424853426985762116559357059853193982948317126695099064661376437848931031219434562612708257662858808473994329163970096707154336991410962831245530640225019786797518207318863725996662020370883275699179170795510099235895578660014893869889683334944543863935610028216262537038451660374520212140522473987245754861801996860749574961253079204596251399312759589598545800540356890226602671925144996239249897349546380333203034750780420684140230400121499944603049801990761547623914014297558639611135445580367573566406074265770005307280827337577466793910350033619981942499447297873639456675835220154370259626282136425823917421396418636808461543456503987187464546580532199111875755412198546494195789275778376761770674569368067227231480546965141268555773197776704496032285237863222028643210458286638122966747431069207257221107973686896540338874010587572808954708602393850404183390531498995876594430258477681977144888565974675942386606266737953894661670995459588265907284398018495159539113587354300267146730991216001272718802835999438663701267540183070486798090896579255891812180987322498626373983348617223322266673650173009602097074110249935984559712377905294944542928446596316260849465298742798868464225842909232091583567707640879453772056825387366120686889259835478493901927551683295660751579996199748987572948164845255145071188048620607103966208889041628900883456217656197283326860621262942668519723495805416844362944347633363564407126400562186273792552887301520965482850779551781139375163431035301236178690616837101614576247171231231986405061290472490556639037698008110595052754421612668323482981819448362869156036698055849885844190117611643720253353555587315224628104741556866435169591231932995081750993973425815068957754900997791206245975912613808517036960532219029076562201469293982792628024208486596697775940830851012886610770715579714926999099423958930921269180071898978433303449951383113425097024767918500654365474054371512827614483933298690580457743671733719458972240191992938286751295657866561185783305086926275712579398413132152664384705380153719974904845997259676882539706831826569365820047665953895349965954454563976103771394027876575476935873135318687534264210863906755189263601040371470931010052881681167912626706143363145393202717806803989023951619269003723737852817980195359821186586765699991533412343318622100911342595882039579417313615477275937958505555872159806044652715943160312073135598743516347960566277372157790315545761356975863917126108163059817626568559022357470178714552893539315329132418417495555655819962112919338689601366410013314489388447101920965421722851265678304686562359614378314743704140048070216494312807987154248526208450093718428515097972979184754188768338472677590824625048786196007846960802923573921413864864012626009881093465646206189603578016192251373415329043002433901342250358865643741929675433434385974022911445692604337204462541309170456098418245753441964469436503353698197510977394868471854315160411265299104342410793985723561147696227310000894165919732235292421144822256601907242677142912433974434401535933626383484798693756527692356920767900641277107927092899252901988738678745004203021015540682256128518744493653314918819111883015794867492778585069044751014500797541712303734006232713892242989231578139527389660051046438397415121704658140769243312254946623285421230003338453204349283496608473009484966161824027631166748811698249881627142895246816380051468749083096892472850210125418382479694933044701274204065123966257657580820866799577192978080010926786784920655946453659324207682872335019825079197130156974636182707425939514489594712933638368430094949072482031915349845062736073092694623450583361184765791496277629555017355205325393128700236729765557644717598185476093349248265742256670122983126565549041766695623742472951121613368906154756799888376612112436503568964122189969641863448653347444256376067615727835555693498374365906186878032769912954854934290172247399395499045098504153327282533786087873832088508523185576925988775836407801914390940646602746423772314786627096545654073308444426184033671888817511887838566250946167694475464034991944002316650667528119248207813616013261562493337711515353702485183339924083683950531924432630893309958408480069081043790112674588327973755474889073497308621770672812701931605573511621398332840795037441341421553240430960362063154073746373801579778367896137768740394178598257141464739808162135258086625966590215679723451008007040479554652706962335188553103739852856352135229591662066028074424145996907068255447688274481211903766675738385603076666062653761069485015189446013475811315816133055570885006109413908144820724969319635115087086939605327921745772486313112957877449452021864195163972149620370457872279335257180729107458019137040967673052790451056349349648254713888379530466203749081660850512142350163141506559008484247149095929237177935859034662766999627296860331165586473162473786491048467890514725864506446209072737915815264073948983749914702073047936497175704300775035002719248351967628077690699894369511439516495148636262326533162970587719042330068292787526925282782557590796537662589058463102245016946169206916409239553387647750202898579496609316730996804970969469385829870533605385227349388735740702269079859422757954509576631582397260907353797708296553328551915469315603183384361013871976209966205627449193789170877059006200211778643812822934831846442519780685431633050157371057349947151759601740345403370241641001529792527325644517111378666606660043611013550459984552669256506006155022182785854314407896453824571466598751079386256671487371061012736880873179267636737888532736239406631291313975036588496533610412302449146282367477686433752918102375104770324314840594361654148975827561318255891356014422169322470261204860185661788270381223862553795011255435048612396704139366204681517975438280758640295158214746370990781006905007603335893884100384922367802001847955680826847737355335592503524199186630297278039325792633189265498813960122319480831573420208514917781694180156378755477431873642510451404482842764704997020812058079343459770796085401272945157864622979884305982335261055472347323195115523084470569598246399162579933632900943019035099958046066014529663845591910524343979827201601753473296127520818167459033417034082323727538753536244315902662783763623470854210480149203587043811996669896948056171778845444790491711011580176155385967448699984068245832100318267104194696248778698841121576029518736216951224898921965224395327741306099687176964990111263994913735646182914139695798511417776145216426743615406300381452687533321492188366108266514938393138961612764482336074794378670723388308084035142227150721103855609515968121594133524730214444630591638855094646492801006173830304343709938994579612423599460111203666092431523408179522158906141811355512316425857501435759270789700648303634845204256976502391763966950498788344791396333044238132011731330635033684880954379445605820723504015027703129191951319670107827704535765336711069351434936970085335227140704880618276241865962645748973487920769408554794515699461939822953016365136820520451079800584825225750466524699485532725337309370272760298576894698074669876146235949296001928159475961562433673264403619486207676175840136385534646119103719360151744951547954683811805560863134772627758949242950570334008805319853529607500476955436824006661049136867500381015052418801828475705876856425451842106935554056902145988196056213452263464142241109607508391596355100678013845590141917882047606899320936213617948632665309271970886567462803513638607731072967364616965427725661318293060625501027083573140999106902039776098694989535826419997434309297950283588133052352845822874667978123860032876640395765297645849258531689004198678437718387420355758830251191497921182419019362244976052815812237312148088474678761898234325739076488062775394878340174259587423347573201889819813800328393696178602747992255866072851185483633505759537083262967385765659087662633678755369919988167591779509176411351911158713004789520932280030110455260974254174983468621795029264440028833824210517907099889710846810849713785296426189469868727220964657400064182976635319477622166324571193063635776294303297188073029855427244971297201846707816342036722337618468338764039325049349064095910741653615650602591886143084841669127951394863774843479556221735835988170253433470977760560079966960353460083954285960313814554941203917453197415369682465056763622320231312646902209630808326582913880074854210031532676005823963517008362336482213469824891589095387887738316679986974553459268434730929424674412840341616824682579880914215654514483649850284684074136767166236173314458830091793340488733576100330834739708616511504242292421808225986473507635588734760536044979479693145759826758094326410389825174701959297193115835998969248160910258036120890930902194873631313715511777952170716539690109312168922987437234177107323536703531817353894942151755622716334508822488231285738374834133347384038557978084269649204122538168745211037333050311011633716113089339944742901936169607998217344146919380301250321671300713689228265398586570150993575644399281911415859163438152208184475661671061040358167738451848751086393990312820649786831834939245728153366579180606362832079058907660112837744627129049707227348222185495710517549707967774686174738070969693304133107302765676994336461201943955991943009582304214818022131931386248878131644393073136621367102665841380708562138330579742091039696248173434476496064881785373882004860480461766280887217826780085010105744874638391044358143593966750438340710294158618861621505436941618641426173439434026988517495568337622651161327153200305281835270552277736597105573645092143569026726111026784294802302257943385914663283370069414201693590566857313421362547428443355262974355924011935755233276111724094769038006665022209239047432769140486156110089591227070138534719543858161520962149895154842921039663240895374942037420196909641633697690585947777394569793176128496673620837524701606800891458842750051361405620040955947037866172591681769915056675775545099049954143607196575369043033918212615088915836441829604192646773377201489592242785796686280885090772535410950923029657346171101676533339851921089908723176154342628351735578190294741176683446485556258713904234546422478205944670342115740252098902758330893521172497307004463385183814635799811906499809395767794340646372611636032143878181151569704163471069507721230352314219041554876378893473166299881164029640122510731722508175863554385734926030708204781664784050313728830586303276219792138702440196000682888429554121149569615198374765282127951255407100643792340855742154012052784065146122308815849287887752616078119693451362942433044581850154459793756293369648961257600990077925252689239649823223277621154292922871550344498776081469654125138766961030301368318070625905980201051210010116713275369982513387178056859302211276702605957350316190755194642386319915488168666513779610870300813935795736714754711410370786571036477040765005591848671276873039318196059930543154056474274945187482347834953712316097220457923229142549067011273610354970769852810529383200380529823453399612027387573561271356932021536277973604408421743805621573738859302287694169197080767653648182831734374116479544642696658797171022281565680196376221094301494131031930596725196219670768311085761679675102180014329564677226247867221533738811842929352885436683398471304303700362488854151584962893616869337361789232788249521441358548239516601764818778663636688641092547946885831768427090010340728005900659392890590134885814316072269241691269055386597294156267767265729847327442326146146507101220358131290388923682278202406880126223462301126889878242407165517060655220957848590356448657773511244554966513288322282035809063866151445867167365610894311080555701079506408830970917411607810624622440384355585835572428623564223221405605637691039690682056944076405360936919826244065353492824334784614683737078030074084898298064671637451622429438997086967265234410247829921496433641763210490333778640903750680148961279215953060053586590894235612938870465365075638911175790336252489852152778177773619329281400092879295973260755552085060649592514728297223061150685914928615365602000106714297243974167241635729892065302752881490920828557759008175081007341127700730240673735612209836409057263558300203493742549666738644063791412255586883978640534129950571869842059201401204135878376004189247035521457798947220191014668834520951676367972225007116506092759098351941358909619900569916912018043040842725503714181489281277357287062869969826114745811690095500329015618674199835962533298402978936384485670974953792210533996464038176259428814937844849327877992207567169272621891710598922093147878177806938005651744095857551443588309932408617604989045873226490411202827596596270439323094169282719634662207617052768497126170120483285950427392296307678113453423250840480178956374516131815322825797108528365090750931960506016782466545639089408452991379132300609765789611813254660347225245390809905837091243386974224645138378378456898919515941869977794517943563210524350016148179877034812285328281248375814993564264133330050746502117283425923039692568000899826828255334687039841642453837813682442781967358285284403510984546904954261827759172409250558172258416395718620667059692739946176150400687845779100132379009772311909649571002551386320680413934513503938748864568114225721559348251450990883510775365443120574890835529737130357138077191791924278607219365581033955847656201832949247818202329678241295051506297648233952958933081456535281813023601441510539385619837936085058148148550825320372820956405777186649765905981416862955512916961496292896189997307867171745623946902329898240728658419612415360527906823192508341822047757660214797181696479066221889361260772697966338972129409427004634407942848848061967032391688712444811814175495770232317257238615237457693107131076624854127499122150995951357944169427388695260714486388883958052452593801072470764885862728701092889340393192139220934014471765465301068584374737655877612188570171640074881853092778242608832765625068042330595036688519620666975362809938565512175293090151366710389895828085747633037747579182937880441336416614328331402175677403378240029630232981967004377883317212039944637536422949405855501639573030035926519495478111590309609211815355025295112144712167940739656882042285262097211291610595391140808570507105802444254064684470161888168497265534228684130399321842150521263433424157949686714610872835771479147356031186468271963248696080218902394391956357780002363056773937859801029138137805029088051140350357956040927566942829520032863767182019329064915243512606268710481983456559850654148129958356734972730908509220318050291231923735891004992830139477373248073492646038479968029637640291647722714615751452501375640344478480669128076284013470311802941437563886740482268771080078125899592861147657182059890167301309143820403772538593983531285063902956900033466843530120990320412145755957168938286346604680322914519224654813721327211640754586948024226242373323601659133862401999254027745616013659671376273187140054894861040043929380918583614616811718170805446960287286997496050258116444942470300565493889574632707331552653894898250212991675060934076311687165010389338834044692667075813899538415589860823354760081344274184611126610592563603211163857423818619094620698424472640139313857276806886269152459558441006050929625755908144702684098933688021282985685949343074159746451282082141021964409774174884585973623202466093369840981242483719470778864301669196111789414382584319834999995878343217498940688157878989931087574603736655823428433551126950177561884754624852503084396688933303189962903133566016556511467155403342551486130182368203925921645231511035397414734908146140834800161948761539922883955630805734710967465387779771771107771090743284507170041319571362422280229833647375351815088771066725529728666446808358601178225131147244457807042406754272324508173621828731280610828760199983439709984709500143849960412961331899708702215476611698434181002431560964760435885447769337597135169137441167187430810783518771653329665586544601913663753574488512712476552059324779742636049067417996125168535732587144406567980622939766935154293804116602326364854763805382877546789181098627126205759287211735350067780911740712845369194630296264044777906949305401303259201056584657730728747900650400006727458690869451022260373401418669137128065262976913081608494359796893618256441952520273199397167476331174757366386178318913370008318551368457447069577727578134815460575263388597437961936538237591497092368967968382953940469704182696284339692068928628725840688702900088164223291286647449333662688012001721572535091316322885908738571979609555765016666191705188002168277735135385036375639146852299629131072766177697248002390775365770144745237515785267832045678358557461860279563530963292039165199329028381027193613558601723650196454370597853659608204362070538222283793122829820776197032533942677944715720974374853954190953953271838080656659221112065529789790842824107491955476947046455295817057449446847037906972277697762845055974508021311553760535072057072279427148762025652494177974081684931263910614396273206590181625600242584433108104855816299890524715497271988304894793122593160960270345482534940042487934869740258447122845976335283913832896134608120749474160849379038119089693833304434748014597505603484221035483025215072215071975139309777612982547316526784963056795012316856548598125149201988959012705072118737572503147986080999333901341731269609335067602422171574563810884383044670598506761174882929693958650622143046040530790400378517454490878738322116190548124415140791161816903358395836565788282964733594837803784518001224044417894388001761579071404355202554286086638435281514330260645784236166690943345050997305323662865254009550574848638311065576795170829778953496639333954869866713457318172641764184810700353761272686046373911475590959756906680938686046505549784036657183353488118491117777702332903707011113115655406719081926412006178986790381882293087350128091660945504419245783503085471789774351268044540666201967918118871946373209234429933843377004570207779578003198878127625030959297719917588454951517105090067948955095665588691274704000199227731049053484975214296590319106897472113864832098134595641835623539751104650313732911977104148405049431827543671866748540818261648236197606420145424186118619318608769862271536319921005456595365727000499152759779621730377803514122000526540225038194983924070070329056228700917747031323320023148976323441258503757603393494721731740113207969481793428368683630666443250341654934397890815080179341204030264063527106710509385534919234330867616275519396345704739372653821548892939863632580113562960868011747524635633146332912534823945913269092813592503749466766166969026935209404040885846383910511340621976981593491344687172188898611835567299061502070237857068141758320641654931722136098443653591445964638423276028417089268660768664918114926320517721438073648140103597259239844623956460921375985471090151054867395792758516312879535715916709830128612976555348230500313465696023049243080398406470502928671406923244504720315265000337274218843047164119022819514823033297494146963368302436901673886755766641530481901902665986687167019490614833168041023195744512382263324698844115658164228097179552890587446570901642086656382080330087046764068556536558768332122538764713397045746964423649774850194359819349812708274412424369172760695775164756350749635568163483530495559332973136632987360907884549805489325105361270617398284627190875698228769083672127031692002494725001495053851611633629137673932012876527104006693413337328038435127949477079993019514748740621186636222843747268032417417537855856541795264683887946694296539143363280545427925628280481247488306468099813817496542857234317219612199067635173043670185006378951472626843801937316303568699266099449762073520064540450694666513096369056171652119983612920255222081019941514518053181017071243183632771850300001731803279883020256393820236387882962983363098626250611493186750228957927904254958106669669213462878945797029793875076877233657251136670922479553415452361781689524460511760871203417722356525431150437901155826513448902798908538579837363496676620102811877069536398696081140298531561510002040399209454847069881841121804942333484363878930246236373430589421882206698763794464477363161248288240626242029923454452559731134009348855170125028465489179892971644397830453845789867315594244513080610883692241144327265264000845656727249616037692269650224100517503487263839321965741840648439277393068911969644424319212695213627521204289420298961296272011075751324608956654253909869980597952418551283711940923336711978351485430041481361092793360417825826820093555451324173831560671528209790220396578247685413491093029334182818972283270697375667970633960184835876462208603165280010229679177752466605662546024692094009468565656565097846760155553349592193809755656684002297043737960105749523805027821025652171154033319542159158765792620718119721687400948154894739704347010157750079290927956301090545344136106852966371558663421381660607962029756469357657116507752088191126862006136378097329505495366988159793556586276899443011348049105903923383102752053527134042369860919884551925447153893856842061130979183477545848107598168951183616839679582113396231457908646454804948687257528079480667775972988405931001994603912573328038396266611118894621385528057735916330760423223890568480807325386079843397706546240171820007160983994758963571272090082383945194292743511458076970861834720584709796497150565676564414187218051991676514121346444427938509708936674737897797185389340555325303156876336967863835698360735163426506001735756359257968150720378164681869536238062118968192506294335550884114266185177947504752161662882141022256738301880298708107732930751148550748373735917876391602226091676896471953269752002303040218217290151943592983698620174358297036913317964406420893242565907648022185965327795838787662893677850785792072093247352342288096366510865560570307519303928013966012358774190289244722074025976664423795413453824622444301586249871667493672189330185311032366828084744917092246763224763955962720329151403324315036030179795314288775842092470867762667378710633053523289331326732030705640072526624198078554652477268235660576341368374033501043852556126388252286169612496719590877604484997134348311755765194151597612374358925542770587339250394402979451758158987343342589881857513458485447652973728269163070591357162732896853686223670972842842422663454401227541973793191578283832354717731581708286644001234585343893452984069253895428629126269024570796351888541634137068715226692833739561983852254603044338038750124239326636011697937696651751219157046556434935444654099622860489988211193812226281436377107720395051065302506178663597294758708648629481177923103034493676989361349193635083927710722397804424170634291798283461054798705711934883013717854365893185571769198935449210345245312535122610215915905106317577665040047561484152254356013495672281075378902677784275726493957134967447026830964660531190207808694291342331471685639450144077990178391869438213262065075986713967371136066282743045123072433831342542131828840319313621585885427193802942593225539393757013543491611280274852019411124522688383464571998501407531406032904542597260594694898356963829722896587804016422554052352917822887803914924927820812481244048724626872555611894373488660489651177021285355948444742589054347409441241149610870164173247120324166028762888312552468063540347211646675705964262131784308510059518526838602748049888264130732488166811908493620897519016091060907269774609413607223999368188084668330135998471658156808387130689647613761941066868131633812626651798531136351911137412443018514439808910067298849327279373092783461752874498595286798036673553496464606521566861375880661031402676530449835869015957202794047994135119725392546936902599829742653205948866551242649462155749618491902113949113576554802676156584364175614505159615293527388401540217783007679251931664284938561221280918972735082866274713628071649737485999965747274138289756902180196415585373950307727125033441724544026434146612599041930505964474974664080809059960753064713707170612438188846278534862215588687013612685288307178825155826390610181834422690743474433305105175884412216488790156377734493763959825769508106924592877499267541944276692674979472735776234447829773145958180230651965044806664419392706246752133078655314227169823200370277960882634240237470573594198499680709718477208340625741137309075362917740164202751104682885851761914442692577957093958821511876947077339304476931960023049214945924321292753307235306434446740249922675458003063140410980046756286677988141179652687512269718144237167394919983527982379034759222303605122361028086650379513740276682270429988260879574391809361339104232213560815513197424308242379533646348340230428623246269033818791144631992958973769019742893977166139554610782784116076898673074335662452832919866057932585785614113194832254118299046879900507956382443460330652100685342361171845571226311590799584328202762345953894983172842811019172218104331236263035233111485244733154281695483147602159571524312758020739103694697427680670530167429954491597745652051591561039046114090690387287185936057047396602450129319886922214389367406900709257251302506713713291728077982547454389894496617595785246743615484273341614692173526443476330547769967001873922244031401433389822061209709180401969371952910045757310337101516328956907314165284806531489505126147881980556332431621312548048404573416891804243728042341416264716845129938619836744745919413111422231318483834841647390528850625476346864430125461405804243281749474858659703464681055113440730369038727463828013097948350319060678378996670581709822425491189789856000231466657329163025567993278070654986019955892125818631855855268745039895849616167875080759993906124904310251094910131722460662721074549157373986791767646294303094775641354012621110113232815709674988808189848195115745563674880198049451202398606153219748296405136498502830992608890144891562226727778387728663232222310533308548459430381776448761563001552066823903401716121859521970885309279556367084701942549936318861447856729273044640956268794118478653760845699585064601955572023581834563195671333024868444196088663851448072999629420663892828041125644837686701945741760022108336229397161170908963842633100604560871178510138492377110221635240770200801541228611390141885485870620462156838247294490088894756463105070464370246095826798993284160307145317331710625103860074858072424168713290856804532344711/871727305338346951760711672730359349750091381939439904941956399023012860208116521337745487987793450240279059576509963931484790935132893106699168307469932422675212565797190471982239729951162734421725570911397395430759535386698711032241480302885423647784933307325439084219062332471791991558860527065297941661848030101539382572688471250852871043516331720114246950154101657810258916518939196641420059656072125933143062628503454779539081046190712591733201221418193611742693293600954813967554431919561609117805817279812966271638436519611412030392312801034023070606235360756904291679514414149549155593314601822578771105731096120889080500940636498574786171357056877069577450440472953881362114118639111622351502138153026119888991880380052799158348956524185089628835588437269840342996766251277370681758474256048238619710021861534139010025495786708968111942691246725464927349769497204501438628592084949784198113754946143460496020059774433961423401722016010641580828019942200960113218192431512282356393720588286800406562710549840051107485678883848927702507441882146114981799490760073085957508884706187675675003790260337395247373921905387392745511400992188060523543913411761087301478206053761568571088023317439118657713628119774984856894398687084741306318694132627223911106954350013662131513649641125441292080325946293576873619398770310485510543646345266167074953733945996450844205554488302951472639482544065910944728024503448663808336102213637140571513961870761162583654613010251133837920286544099995149771007778159833757846205307208373654239808140446188996004721588489430262502181588518140607814020477950551804330191780176370976258968514735523160815991484247180157399432737438354048942068522406963568017219465052953410968048213789703680409778324091914309187189733773195363273491975351177133930077046795210938427191789673054334607470689145577043890303404955288886640725467045554575717262272338952814316647456618859718976527388841951380698475783296850044485667556713803513214663032774834985219267812956507386421507524914598483596171413026559542045552860403032710802181751479520040348521212118979935647471786656361592407897262556223600135079017471269018482372476208430085224347836203631679704755332648972653297789354936420247963739541591924311377277910388506459224906829922854653782258839557385025757833973677242620722774509983996803454793195727070215875381099951899120473813726396840806744039795099951812268306324611603260317438904377539079856532285729271164251583315601832303396067110317574118754022541318498721329695266566716632562886219312491754980036124538282178044349839128366785328510234622409764965018762267209332189915801871330740285930356413759657875436396762242906653489901501302916998379878036114153539201646361995292469101468716254689015879434470040440825565782644630367022891293990643954906744658489879559030228868900370695073195384629584654598084289355786620575942581078397741437939023807394470953352477420067296445845304898056175099719105289577508777429074745891207951357248461392217813491333254049508227274619632705177444626589374871382724091189957000521629795409850203486472164473781420650756671828159807163065410501327303227474888008353232251313294717276114022992829573540204466695315385610108172162178519574934566441719782538471043543856763965401477113215914822027417054514438121628597483051017823905041040909483757790772704669339267553721194887096333332394036732984246787322845672977621746437385985204264699172768450703651536372662479417008900891798607028064019973951224934273192676132181266523218255252947735425592764449888477223201274989742318138725965793373015307888171470954618179445285227858020173361411539456634799163059098531403463681310071667274285191579866827997378309147324917485875634665285499483249220881851338464566724289193033056204457568885586441842705331235947122113278745398571118600501345584362979272503152356523649682516276272953158384837623890997151134536357046461919124549842687987175322589221372044025259786429310860035153491512755028625987681856983053538671945705561471086396598885833065057962799716143294912180710571334698914816169042184138432185173813972876665909826885911009350444973846950710143245884312337732456266897000239605050787936004379129451767689314235699599405156402544440705443060970377057946360555755811211617704572802921339875731196619834963456881188151866345553992610150892721538109139923291812736360398171973556677214068228348007122570156379861675592962437780824922610014322763702119294113483368429755242823811307518325945459197481777672334788172703636923376539894105063321457768638762595967311424940176703513143527937332847100283922020591623736853544659530717308207716378790222694099223660051038666855168264512158458788672152706793923432136230118051984115872212836069344027343540900722351753954230835476637396894471472114377229469038290461524455803861021199976197340363944494932053089338915188790247887498352378745970821219340952658330115752345011425421483789266030601013441614859388766565044810733387076632394513458715917897630319006056689130846698250236148914764776321753864489959024037899569755659893596165464847500602483731112339074699628244662338149064339830965142647625981963250839691714912539058074771652198177568702417684287902871722440119952479572691401288870257307618786369198543132577691531291179016820734103424269425997350347746689676743844986662014518180829500392146815554911929706576000666952672054948975902344434857761694811554994179624176855504435217233833129180659557991013525894845740088716113141880839166068043418359351483673037257183201551926028636084582531044417701692780014420401424009548245984133605705826150811271947382326831752432579652213053896459849131559757860957373966060882366668221395876265269350280582824096937373828086317509610153673411144303398650134110569523753645833770293567957795830856344937989328169552095579208595803088847612145694746428315294396409250782122170640762209572592143118637810977316466241096169770432808394787064425259396527647235491787081323306001248648793470492606165036341858773927221420256048419125299286486743098894728706729495311199330147573543808177032404238399223728074324428224160454224340562029386924363535674625575363869350178705459258565768983534551371935730576952887511352668470609552940369107840225666954159650155308539879847319026762636632363783670542546753226193874132220958773422999214521547965892586864342428946289673791018709532045933800707274893538118496702735696796961770400061406760013925795526617725316133590722046421774923321708623894492961427101957438599812156448258343333803009781248753190402602648424666508819899764776653470974863077776288930501297520821391334829988620180511755379540576015928815274198548498152312047630976827380330661093659494438268832066474195065025054080020343413179656822668271482279725058115354121285900537939492853870755938077940323760307019409713229465294318583620089215002019684392738496742494957222644242372252349360427395484626746283692990311846473530198328385891431727935808295721784787285734363261110102294163004017188757562458713547661235513309724081851586219512552726111659484341243177855820919993325455405636079693399538733032926575716182748918361796178397591281641915835261081189485342588035477179599082941837426059918069490104394069185864783363715458123086133242631793568074250517956411961496376153202025772757389426311991293567116541344615709527330089452252029012773146185077903237414975925931876504160210030357903031049342412542985281669068679518608102258279948539997865460998141194202986727816072544617346225731302958252139878137761677146956643675676520922526960674880924218981185707686624514038328150267260409224552067369751616114121644849973212394066438835258378895095096595730141290671788336418610114826494729717992700013385591178807201698269559737039212585019995824767729538610687705659031925078571849734349992933261576547308216588530838073472225443413252884214999489326207453124680142046719612051138703998363616468202089463662273574257655167049036117439892204056794180223906133870706806651573230759937320786585454647387913240152078286334438987717632422761591415435720460221978553004200643861708277041835257258783389008170917221329102194694090298485285252096918854951723025933987622171245915772347067145029849182340277247908984066739741354780887628411778685409356847310659309622844017085726371526756028090236992355286147066141308308460296310756041198950926518527941119610043904337311280430863104667556058667873066398607431240273220332909147253321537202154841913422456476524644762466200213238627381293120413380372511514363031524824060288862516943607366881943742603171909909793901476102043921436661032153205423160445488287470484505683653252133691904041256487452539383252322681600887817729790185586573215337444164877274591347817647741264426684154382398424229670934420683479857580604639975393264075610213442147263287634356460432986717578786396638528405431884694303938035894725635561824402139737651168607338252650499833125796396278484352259453046076085423380056043301540400074490237084408717404828790724200834646391301280817265920232632485567447078545791355323126082626657045945916366105073191088382159370794984357248002457849936636461917638062097151575721997757101049863783374352694365650806045140341163755803406939923467938196072647076404014703796732382918119881190005395780017502772338475594363629625425023467588757405476604415708720091680028906329547733356228194008848695155984451954715638539682885197217996911921425815758010635597596249520487634492805032966019828465852664677236482894773179074472868928380252976594831151319571925955054520686187739037643808490978019192411357500548046244197762583012854215548844174387592395681560528604187418115076141819870873734161945382832857839154118388090856399690687274917733333896669945644034530981787276062270189148307733331395958850126145555896319467222475876069662515120628904328688015120348540748986641494365978784169106503150901683384614386102447894502540105540859058558818551525651250831214490960290359206633149288206915326683702994571966226401557848686418362839881393884753168134837020322361909512919719490432773377148651354376320085683677407829927161336114209591051675540692285475569654818927474295907652166851364657143192839665429169798218751768025852583856728995078009890088442651684221354223016733549824697433226800453569271074423311379206942308170367883395741075926885272026103181298668314815886642931629749669816457706947863201621220605861514207035055990295051784902996794793907073156198577175781471482829900585518587455816660407488206779599483758838753106552688168386901609008495003219620547782027800105916762695165734077916492719820663991091172181996895970040393199919257246925291626108238527287861708044650524779983041566890108363194764201489480795214061522269740626509512088882595506255668890461175944121162625551026575997015869621412753193552889751587360974020768497006330959586743155781651305265357172138493110936627604702481918911044200524961652127005927921337954941884328992545681142556432952917193448217506442608380908255837663205320797672786348707551245808301077417087273350389561218343469252197780699700998180431056380197496112676149877204108625974383748235035996480410318981037458009057554520037112377809136094971791473439534749360990518728582509668522012380454264010738353345673529684664445567550215064478066806278250347146877003571187538841298430440376971876572959903755848924296090632111225119469885897412859464814719916214605562052387633243516771741977990479091240921938268739344688526455942513212463250065071408953537312131426638231617687651776174865391235912587894669397868303432003096816720229164436385478981515459827023900148745031032477999811049402791419079969297242054064626645033058758411852552911384292264609462582415632469941029071548910725856212982821795304268664490776012028519932654054781978216098633853073630248314687534298270682774905691886933359357721137994522865490529824843138396659009137275604212667184586530328164128339784749382297724527246943809773571789708685326446695615447879852683350687979050323209102556148549901513940820270097890529154531616295477045014528927902530247416499124164389551790340744602495058106299672807628219834226575372369418238990200833325339708098633824747654634165390784320555214862093166128346178504310218153611277488796343974560946691304814916249099690652477085249667760670022472035732616876193319457433599776096508052441200467092452191218794888963441069233166123522533613578784887292185230583495744741861643980690402799180827039960150591936962402618167969436946520471005568591546220925248670479348696720130982326139139254630377097266756141628996581311362306269979975816734142012805994988784839357238286840880626329637055302480563769601011716841941462529510036386283083684896387117390624293579659811612672899319514396262090150787486265485469577923591453149607397080575940697448142466095162716232017196078003342461068377178348015104584590239723319260139609108528922810196046158533091614773010893388866961330013483053454670950586173396612743891167599994784522359707293325627970375958319841029327846147586764419453969595332032802350515323197920270323998939241387545325504366771417141406926457464027452103148489342536456573248591440776384464129340265956165926892959435948816605746890454710037493375797082768103748834517034321439786174200051877658231867923789894519783815319294639102224667123558459143216297721493598208176884939150585615065169146785169067863433204787682069974327587250380230358012081405625885765273415968879178431257634012596736745491409107384424486797465302115970673385584480522923711403068243959941999145596694332647322733835880214130131509725639400305319212913185033223370418552498443862388249116231328863920089070458215654845712096478686790841595152109661989099984173753981754925762571720270376958541409724140359891524603368377701678407843444237061457571086111107101715221704854791741441639343335566775982165167993325341422989124521949388676685864358187614083153921911383113826493169789326374661672186992775540296594845278460921060648792569637563515436335893806266197524135326932529205894456059990453959602711424722749966919636428500431608033895929834219887730749339548809418733889265297584139036339901505491575716873153312413724520122860388338159216620731120266945259349190101865933705828849315002560798098243545026552128688490994505108369094840282664464302483265000984530600318989080952308978490133173107615647590011470599311616342941842848894910640163585761619536010715573145853111904547997961328198694332106891928098772013904136588568321628548987483197316982376070462634927984506786238918824287598805802599902734814364161725823183284202213138949411283952731107512881649980153406137822399619336446338032382879736578203212644925372399978485279693768266949350042054603690501975437501934513114047319199884777139871127129144274662280888296098459186976988175689276306637407230773884770166216198363877584130559958397252748865255414967913626072736824438531596829599566240684047764144311663277585005194614068392441402929477310988336049536896565585317133593777217981350357744070020037690312775772687976558923369260116897238224892887915378976814315598944355703075850637762484432268806944724688214141028395175926481229111851963117999895762399956717072019519450284338214503103798288369470660498768321313148346419875060728106813445317461359400104438899623973740649982116979090494641747214715962152415318977914755330214433210404142414700325746425537557266250161941232726472048626142049839777890029084638161401338904934026611001567046033057802041971075417871333791460966255496448373749096084479712904637018686577114691726180135158668649029999715947340773020622916557635400499329541499361572746261133817256776938340442875896901579170579906847131667645825989172924286715206003662339391481399769261621554620073378387636375159272647952540971559293980355242350591260014556722939883560527830254784835078980143210609534753775548006137903675073071198325736766788014323979272554136539754131049547192525517329747863891726640313093498935211124018875194201509077461868898226615201985333222155434621761388806483799060070963425076074787016379767140129759936544122794902594870126019160892795127854737242926262995619320091139625094776958565818588698419885105734849794589064521592375713517267279044058564789173063877112625459581173452838321927719817874500254067702382314950533093763424181393982193870237923062773866878032593901357960748860959094731600908583164435130796151024453141451113135807763740917568164570410067753993453660178485514393358802287715295113822614512698645106636817620931819045724019954601903273546133120718474054332692144054252550638929025798994718985268707309630378770945869143345887181450492482939241906629454824494226329048400479791802781352305291406713065376386898725279677743457489011337999692928540028640938169790822045763341676476654742040270983102629220686981757941169675772697600978152858962457282503466975807165556078608652274792314327406573195557161821893542569402010596178965412441733451329758325412050677580235001043819977726878183227673699537951910837601738598252190842097739034597885755836388834289800912397075257108332519948989612629831159939646787920788960918153447636912997099894468106755856929551568316760222978532960251143253715947388717479729539281785468634429730473344207072189252101695883756107861108631614972052725820401453145816371014459618720077414232833238837205794381979565027134811288947390463820206840598090037134633459756952459004155922438535567424551633449832860543456136867807052525305912428646065952324450161872752556326277212975110727127196169415637036989056806042646643733434706182053374639033488694836072921167046486818745257205301197915940314067739713144934743097235604918021944694354015503705074402406844923846110466475121726277222156907539624398118332936384586507782716828022893136205602779136870582788964274393394812127094043179694310130406020001631061079449404946738814273350548848804058183810525327518600791712944387964746465069382072776495355578807278225552030998481736462736628707532991105513023745901211198255571525178257813520339993527354423814663108450932374763055815598342327335002800446073944932815947343039923689213347716514564292725708782058787555604610805904760237547329439717559261854757651212175226586229389934014188933481830621775713701790975584959404861423934914608979939194357728099011212963210500494048414101911133432647839532399347556309609470818983614990519353021122164749019148273709077178615896180608479480429265962974129474452401933923835026805522846387176703859473654460623905509090140274721088304057637403526142573824062365208421697741380761821191434162489239443676078496864301358409736281274620279694228993917430288139633158759289684133537551143484914097654358943635074097206768604808241108326692432109013576801572034103435414998865398281876042629355447297236278276555766135824193439142469705931565473149139893611064540544399791424565651973799313239264275743562981409630491627708320397304113192381806630765769631596363177015337661812834453942710569439330908825170852109679213334375848093063695933780098172416633968285124866564618947754886773917592281848704503947141224942564755741253796755726143172077712587594571662324714726739387683493780124054349397880352823809617352522720786137398862982578862906905437733159488816775548187763010017222004386923144048333949750254154461247337777139987527186401713360473676488166816191508101664865064977128197366066518021931831709702619342794021990196865194015293772981698582713296070767612485628535068120695081222422017401550636751266800336603663319305232074435563001481521910540667935916861999734305302189221504255051165211319142713211621597760733654556455713779393403443356723566097640380181423679954039425494730813604045730412879830856403019034342620713824496591043989021690020908009574576021521309007211542080306651946805757600947871602906628285654725655023717044650959565084371628396865939916472033768100674413755634364525067989457762406479454715790723082460655540307441139939121036054514434152625467837748620524532412774633653476694440819390772430648281423672114393329919924777715215856162060555793508040602581282794192137429091040026917535855898398990853308296564318840511980743085206751707320085240169008142385622303331254449530462329959026199004899393036223144749615753190279881723192225956664974073842288145430099348441109177198925446010930547698486010630770555008333086876483047808843687265590597311937182612330410768143869042705119113197764453135754567581681932744727880265499464013269876719700688262494678152689431479707761516753148436333848378628905426342585347242784821075397761554743909849514016248938826626496685544963292145102758616387998227248387612314062208502725881026504456559749199972351844602167353787924589580725693149216972446352878057467150710287919992209626933011929973443584422330422247219457830118279208540471909447589677128613271059517453124132292976713255257722924231661284160201148425953147607360011947342198948667941424706415570735555601194222875166028649941395792860125935529748124695790380659437237555341665749158983784753704504964607769307912253243932203170107606906638527104942189250003871660863556048117938873867541611241497470372076010114265002010166476988991731317371419128980283736531445049564347528909148519832838095591322124095477134932284264882540035699487140961276018110333219755206891202216746486204701978479760735775966446605297463516675007045045487483085976498627730815492640951606105619977265069815354417740261700226866058201546820082698351186042124355854697987779508761664689009947129219888492197221479330193589574255002751964390866495926686542408174616883204862883467085829947313361225569837510183570553646110346742256994680453201663326737511200304187671031622818110396284514308207754279860704274236146216496430094378618371588349474214257204710229895823600509980175763935838319931912568353467997392831577965945514834994035879055902428017489038863069463949084537908575941690298489312388673989391347654922347225203186951963328725322340037318164059235260189299162641892399284533898684497385824379103011336165250627388959695847936745782949807385682609225338430028739651105737158710644957884902233976313175437424928357227115342713134085251270655777964415438566885176186429937452760628171832500220419687415945025844666585425995548959189390448450899315475676222397659552732380339700475624449426506396789649553781316436709022120743045271047118139716740999401131813363617405053838795776213707628436618520167323218962430330835401374467002270408224564699521087279902848160824396322436930486774320470717934795068746689296924240413946149727137609908587335561644336335573605690486592299784512069811299645664916573872238118463979418804914467162879852098962174095004830013159438036419850484869469218712072015854839023745041108712507690886827542959927715699718188250677062670491857407919687753462520999451534703035141713859723449766783173902955720007444408717085886743627165817647624831820916891533671874670682178086139906674247708999698762340635082348936065405857498976401577571990962453843279647211493846560725501790656598525069527220484021588541284845214685284418889077539984908410401974593322042265974823861509445057092525825800793013698599313836427058998592990288651142171875843103136037403526168260115150855900575550569108109692038510592190205937520479018823538642419559541976277080332058882244193414181014957949813458599370112681225089103213031741953212562538872677614410632053855788340235600178351508921589863213421006645576347868966105748728493497354404282307536597962139047441523503092858913950360340213839827392848764905342018561210564515140402488084578481228761173847343836061781004844953705235975747037813612486319456244331437892223829891060844530186468542265051520024934162082763193824070971574552103305741479210382682623875585093708201245024075898599155611873200400740608161224443280635414360755603987669595115353302162902191586400642213278333718716566094924156580081380423861793723922821601169617818959254460259328574370203803374675684927463934947062329718399023063428943656414818874630358038622185698654409468391680980583898163566648842791924426976956648844510816020423430829838795105447554789669941607960658849451505328297821864456391503740650155610211007995976709299666157184412053859349649353268524767635194768893952584427038976632599752877941302688990451824821159784441657196588650459748432804665214418002160056992324601566198080080098735697564552022862454409926273486765326857366554679808415333914462912248136208293092077430762681969868569932684479192358394368512373203713618394343078070932257527579706564824979802249205238065054115929689967346070196645761580370006432990892587729582936286775270593434853819834260218647739648520299251384135619549767208479918001591653284724930034514339203502113277089838316768675533789419046760548242050914527026193517754526332345102787342668651172425329854326803694069685027848869261770534085571040020131238934816934183617666306371578031994919350022100452971822018375723777944755153780169987201246617425667647540010584262431417797119195367776578241352399782409136537523600104845739200279388014552141378386730203014342118510925167359546995855812581387111577505740553360325075552456576160720302848018873949545142599271548873432376357785511161310281421937783612611426016153773264118931107431265115393175466665216452175402512830167127195325628522067475576046632830122438309494572677730146829565004918959877162602708240272775760539510826298481673207496647313899176613250961158519439835152142901184718623219033293451905417658885103573690329287065073072337149018949731797914188522594199881426012642508639160612167317788642361508975224649629090195123768932879603711331249622403372789222483528634278653885426609588390613357620506728464772782633945166681979287106633171456931617190399623505246050870573906795039874949496216803693058918057392444397987903334243137139212397259917092941656293236099822453519993289392805136874224389318469671042847043130184237998281200522158350937460197322769095136733291896012433529034933335985162254839673466467596254880461644024880395980982821544246644502057599066024663642878564187019383516260341925300123751327143432693449460108401341745596614604836778856959784150340095280039620877802725520071220143251648257593950008297023946372347422414130964265462051973284548838287788831219619601497087696475872517283874775329316583592039438026234802369625857520310627298208149992002868671634827078700438795364063253406734547758071409697126847403006942030501165735572960253025961647553449873271404041173577145317113672609571299860545986224260610386118394335035448662381666140371165307975642937360260206665017489335618458343214796063152577069339321202206814932402554095698699592134363394318688001820121344545716682540171121793815597221411296193962061536011843065512508483303519531467049081486939114556249519039474841967112615158102682988580315098322266186923892885960135625967907899968061218092166258935546604529955367567355092825056151678002893134746358679083281068606242571383870309873140456385490159903834555884074886351469170632274549830580025450854831412082622163946342490137549138134985413539454826861137490223706367135105520897186546899012104842106590690611331357188011355292190426669435720277478056135949633017031385069751485882968613340618987773952603497532165630456076701928940721254134014218136111044724993819293135587992604980438408082772995395501442602156494234432143228335591505837199834276424053492909725988258024326478919903655868993009070199867063080634430216913284608184092233358621775451644014921196364403266103018975025191465006653295777008045365487814306557686347456495192316857104055949336430359296503862786024488036020263078513442271533928269780422549374147921705171200941805174286293116774883984797376055436406205212383184362717495784377496213240352573168609674615927149144055566346582032626251946622495155769676904716317979163781879265384508198595027555322962805373531288865747718663154914246491004822767561837983362034804696275892817264029011654603139911723462250978483938162325604318366262235908223045692385034920452874173705807315444420045269695865407134092061527656925255773145733241577879955351447200356252331545119943551501209605924946018226573464649787816994747783539495923542853991029174467538241738352283089014581151003558410036601886854603750546797119519248857106880987278244600814996723976077056252828019936553826626904107250468478373891368065677899233436422586627125464470248382956791000536409656254362582517762863837536750594680662649506470297093973741801975694943902324375751080023360265462364839525813122424828955267742986633684817689224314565534765426550765722455491880368083097433405305889129979262908642571036782444448000183621070728886251513297476771725022401256843391613114625343791858942642160890381310711486185804072994079238988050331936206911884208599510187604094313013561058044132248162455401058965899078043456472934388093246687414514884445525750058169910414716330808924050941940933513757532977241423671425867673425447038742256246154231392139235270200194102974229696819403401943699641666314825732224322407303359742262769139459037583213438765336550553581643082121302169420776258906166630400706579350384642680110275684120814959547933041909608154128915523945593199589206996147077952872582342729189031704688699852175181385815015024234468698419472061542767370751367634605658785528640758267808291707865003683598854547197923785172846405272663117631157604209270933428296200031810576008086813025988757536444053212233869554234456827387462547204012011329122118362398688146109352832480198296940794094058510270279541236454529974311669015511587310384935065768788644361275062257625367196858684722566395832811962547449578044363985018554660747494843511774131604741258734170879519544589549090532156915442975663893712129335432628848608595006470972363023729888588082740127471062270877083546756243425160234959231727942776285715347767698768968574096229863495253516325697181125279873443473707160255849918446417815498044096906283708642301311027024409047218812572401094274522444259933488926411024921214116163572505123782596972773697083467553063906664847176181197467097739452811062579018381267747810797704183802790824295488806918284588267561341675010085213509866915106326013957148836287961818845409498215802321258517451961880900927251119673685990981303447796506120777624922253106141754759594369082306475408258590700444189130054033537768774476764060531164124566875174936426510102782426158423701714183677511707062868029469418633027369561964881293736651694286633875557501950356091422957515479722296500099547916625227473642836358782117048145107835680861653729596083143484961031894163800967544162091408254866412090299521222343213475062617630603236338299934132586325561898104614764162128660549518933462337112783535899785880886582554975859377009453803861986771440710890194628422113735512874695089206332092160137864500907717943045648570826566171750749567639790514690227545936547970287512324768235103687869496449604236638238269677852450907677049384206634181746711815064183893357690307530184172095828213643974551876068257783029259424045096191796188823620210727984575893455844193163346381081838286277238373647568671094748639497254511873732240052981096988326714614807685897561359375091529618221870054671393290929886875919437120661063496775244727019751913257558818045203285135304852033623231674271806985836050865265356383596581174592037686737734480151004357369729938778158324682368899479626018625029503812680604960170353507846493841912702500522032346921618326269149663141968000237500328818159896421139625968264570173185783508219697715946121994789160917322021070412561362534215437410866175961615349728131094865596583170579703016432183175494092485967454348458429647088322883002995146110959203801079784317441236313675410160921071182202873039205615473838215620010111536569120264815444962352524052589657459801522384340437683986764991952198712851750105863278998369076245987144217161849643772668152721056228937836470574581657427385365399836543478608942804064387124918467109417794269222897557095533978168495665888120587768043620511953040515020682948355996290113650144465039961280060803414624120079388721310238907355423780070021481497456023749898366808411674296728536557210093967153469980756448900202624847857745262169366465900508260934153373344694954144098662743817563710668152178431875787524862188467637757240769112578177885988398977392778386989570478029530848332626660626745069496028077757792193854615415718077558624326075205960965819578952057948674933045534941161025049213614584072173757340483811325252441814065899339853745002015460220574498838374911216231618667652424145581845510721601344316181801522460448331369612314286630077399015600404559865655249918540877079058268091271470826895586294251379496173925619167687621238116943757023103723333324167376391658299526099835907232044303575494677437639863855038378099964740572933230214165908256289550091570823700520398503106166192793266452450658520566215054344002450452121068183402802552953313410306183176218799290458093688884050950600583102530617621605677188356740737343989283600010936973848849092403042676986100802892108665892578052329353143269488415556209812523503551011651339986535774180532955198894409153889695020217883500515878257811188826527543135133028377843743766171359989847288021645640023218526834673176340834270955013412537277166643886712829625882160023280872358871036991545024400131967290928907603227580439811748846464237151473219235533503084884701413183828701147005711687633800446158443448943708649722940917860422790235580917558178618614155225404619499072304827306597335285990043619129945612615872496971793057967552238745608604848565442889597552162557370132689728168325010513578045343871879670991046690239952299752402507052924628916311725408366082687184415578566918697191075447204851056216323233607365362372008061982204226264158938377538438529104613088720345864063624644275372072938212862222259722784753833354372379397814095192393394446512224901024872982066351203648763337080821336004262409045699032775417090937385313500128597447889635590492356743688171043774894987418769036120572685239240028461670437241714801001576799687095476986325715482559515944349031797303574846104519094812302703965836830086934747460234790624508573264143367416490602314408770692916044403821042125328034080907603761135962393987765350926835897684852664640342650600708386734696131342820763088874614015181569003179017239921224417893094779108379210530796257602907692847882238465558256716362097023108137601879042786756889433844652849597834182221725466307100452607731586086503178263267993864336870894834142782630035252473193177824740275337294933685776553538777563004016348710550655266838409007583720456266926136962680521953086544893842697346845668955027161116350178946961384325990729404830619370409301603897242085197041313890210603605604494851814278736505875446494689465122195188565787954742912185404101630562225095706826392584479214927124945536400897450939283540848679234320523456998375496359436038240371325618953750679608546426654065263057607655004598533613076239066423088290896048675138089040473327638570129941063029852754124790203237517381618049162232633641736386252830860699684815109385385148481583242030816723710042593620732348187342119587927066110975963949362115695200633684794621996739520581841812444436037645711428990485520339794121247198624110894871256721052464129818117663537750768457167498376001502127026638912878356534277263793233820701738845501337764367846158864804514682173477940647199024589452153744308717623092142494215837987922397974812754708015809597418758725156792549592893958326294423727112962399139181186920046344979515746441506799675093240893696143161661155995421360401044177818571439727792169916082169017008672361936896453252709210096039056679336296750542926999927769049749344607878091727132717856705828889425216823201275044720200840935079162249086189626972831098615764123993793798587679068520163418863139609614361329261799389056334319883976515636096864771777067001439970363602356004978827607450458900713813072588865270596164651706475858314466109439820377814461184866291797273266435489173872657030776558611989519592571409260115366002210751786171428947270918631922878123007694445025034419722137206902379071885019973280612679354598899356466809034449840089307257530902422831087774534171526052194197803227746445870170440054138241320334882536827183735584864663794611903730387557664085260455032720934952985000671129209856045463215780477354997651370565458653555578746117206343867181988663774390983411229863597997636351885925329057207916169946919637533683329266020062464032515752869682961079343784138284972323543098369644003091778025188231202868318168379761713924705521936610053956621250713907941605501346601500033464227917867349409535703967875590671458314793316410461584268957992374564384410097632949312829877401101412009106445279309935051298104673813603621299801231845013752018261576473560890537965101957643801091115107218758994330259759631248978308782468972075287213921481701928292838619167338287400081600555266811992232912818054104016733894650362257048096789527282144393868697365328716440826680930044069983932277191930858630861531637000029628248617603674622209670827013622066107848423817595221231702833773268678166257025633276734792451513888591513799576956375873319390662307703802626283745873361285064638796949190192505947717085280065150930046271690228230091709836682606945765725510926233941347422917048125890241872878451262780977727028554377473831017690630294302557736960700853818063174756727727491963405976159015237083612847363846535443354263313100749182058175509595969024370762775422672314295821363196155939947468942343773991401349113763205871256559514017243030473534596548541030481921311449924792917318491061626239266076859003588099540629011888442480555645877557335351720367591214033532724566833467581846678734700598087700426174358076216193997993019686134998391882793336510091306291355302718920654964348219034522795455872681155424145168275247215849905243686428706662399147491869352496629433817948649721002364994301874535899767676446566744335432018248652130897078204459298825574206483631533554733653947565509398033272290768520949004689206156924155708396035631645779991568259910227121906438711024127697672187394500294262983528928984043435079341607509244514626570021042558562880900963763603606621721357880573593781979949419148824124901217176190485063138085488214631119178706648792066269787218483058596189860787898424154689111611314056210769580557809007895134132294908747579213304141179695376508094487567362106071800141494624187507611435562810321699651197995760499332721495534837027680082401149012272879374398759788458957266392774032042195128729851688088934326133674339700747967272845440595664854533535953055172098373562530457096145157864166351688973887784124263860078419699364135772777098833408705909462515854575644448473543291850176419724427564999601014910479573745278905421794341390750096957219947022599858722404126201096243613306173876789054321528783313591847703416669984113434484900290866422684289671940836924270965612435503337999412618372936888373537365933961662174319377173204794592559649801218474361245373074159670832435292463458338646119555686462259888387507208934981653467956955751510690233932749707396820434964100441864596767541986759433876855757202138486077175952615204210329093211257573930310958417829562060491856772270293575466112892828211731821154140741397235739557367573779144493356861614059697565050150251279893141576483124479054425962499466260473416909635946445148804767473019049151051723006327027442993235615932058305199159804131055366336672422491731634872805752494100037369373861811473239115909107150749412842510916256687258782962041079097624397108674293975916192366325371173944579509212639094048970395267526086047556043533766217494360299989822897779985699602724448693152946838954567712550006606867742156459834116925041426299968097783119398494501680992769696722247700209717256029790974966899140757560954581431494960850580532702842682923775315617192528208845069970317905270195802099922877392954909862959084054176709609681180336117864190378545897370786820911025175170179498528834490253706174064248241978211944481723515813102486344704004234631042011024764135661532546021871383495445853523260436268833535203076730652473343635855235109969700221473893159499434130618265988263170277848746782553862176349410848723439592946141735008313321500462991375952205598094379264057832276632466150044985440117462753683805389288915845139744798251171950463869397841297296436668455680085252183735038979636862020140752226746949260498656405298821609837828715476318776530870651245535121082473621584566784304187775347433956867074535967232616995648927475770678537845102782634555160897086863482286085246724509193454917336388997497943502289247058501670874350709193243310119390414218237742842938261676104323759896243921041091927343398329958381703469551605916378373621460231171834437964107193073969697612769962460828477829960741199152938830468084704010573037818753833673482112435339880322408138595809594829382100592158520636444249730423679201214553515388925545145455486362473996071046446894991004273709670466955344699870130482956835175259335359915537030201750808928515700300345549200162788384202954204118961847700477245020070720300069931124651463621132129948433371202164941322923454806151179121686322055561286212868082413080553067690466906782500188304614587994596435296595032712175931213595208267888366268141795627211425270638953521060347499591664146728059882684982564647811359620519821709610510272034656857204848540240881951417376023064600907568614808882085467573273117759268585961223940310541125241431127174499615581270261570711650467712344145576196224467614262972204790232854450569161811091371397116641761259615913652878651407870134212451132148628459197320517717752589956893896350834241111418487335594111712147868552871282129298371173442673056930889658144089726121364554399564405379708834417448061149196013650814964934236065302158534572688079975522742057457953296744515783464584781561170531558313334665772524341554514479202557420321748504012014444556139028905978356736026988907358755903816272084259146103696106511364459346771896392487230469951886237575312777424586926566153574742059039124375438707383794830171414778707806678787229514986591185454699507320216531500924434721158775002410674205518994194839592255289094970853571655999922096070158596807774875170133289405387161876023369204327897971880459483383770739853722558539332630843507348967145505744625295926295775424358617089948481392784749952747994095389893432042377340952520460679683992695547590887172770283209811579259634135668549164040420171855451593960092414525962571272081916352674129658823233705106759334615669846872455656046920149144132596094008153845776577365278811671680672211438532182555645947530315273729532661757645244266693627216949731833398118924413967670536152633719252358132792894934046921607478844876188413617131567969917152839949779798809421900634060984390591901219556058946118608471459845368070876583207517200186177327363230247657193479610160478013589003171720273024418827008735446563859735101077710971524159483949083142578761910456173901284034086574333260768385407737420041798093177200019941273090490769851479566545574253343269268201047839160329784149204151220190863907491364960950864741482657236951741670569710966789177490334107936588409974118943620802702174733203700350804191310081883909520397276097684443412435018912272691410352718289296808884201116014468173443198238721159940205426564550693821907339033254702181729721708882149482607535274387260702747534346265808432350858718602939484090770533435645375469589970853242403996758904945219121114250268612219624826167073642413906285550168320182449075820423619940442152311573207005575899813098341975708099250828947265401849316680045346610969587319246228062377459279709855510104639464270633173104125598097567306480659587942829619801410243566316571411645150334349602514443251606937181022134933598224689806904854390558023420459191064656527964801335495821706411831810807975691401246139981927994590291443452137272166075078641091430643227013686845822486096983642999361333889539474327902901355943899650814121698305270253964380189213193808746142996355941070214937225305661413335472342224688748029653907445742903229979671470158665652840958044795564788013120345981869615382584834886479501493618704239371035148942011281865398144969172464249918078503033856766210912313225112441568809929474928813760029198854941118927850566019905856863776683354663922840026428784911209827809254267416959750619235766735807667047996700726501770230301514832247472668827183249405826168811734681868689509486695770167276313732006247074270159218238503440749544221352195182377490356395993535863376136582458467157864492436120177304045670219670121168883515654783218057935120302986812873473651485713915899529899136838199545311889509379689086203849392934374325660149090348764230809435110234853156371373570856173320909590839969512743364005009647203838428363750449079555186472076920237322536614640796062665742209545591414048343396506353078630080880230781721412823982464838981554577534616352815817647825086881911739008602619479175801132602157954096000523320719591456156901479091162753268825619779128496246530897340489385317475352725370558691265343518659554700280019182822367859514306425100612300275358375182489417233057725215529556025675601504938068262354864829807853550322319065464789398661779628715443031437845972863339557111715763118100836924815854437297452042170472591029953436417159573763596815385401037640026916381622602304878593155117830747338906633335724028034207160598790321506336470318219138860977971877545307551523918410252371830062692810377249343365807707184147490151138014051727309138199893372146373978738912727487704465496166189169317574080169984932462575877371221449120307727001678760451100015503851342175606185251816665272390348723025734030922559393161244977746482483689674312396431177092338827765886511156811203105246125119625623112914833177010389839694612774163132654603065127590888548859994761322808862763734772316462093639462353869651910454013256841856707209369132302719990967148800512166164669881957812145129854650312596834378709814925073900334654871993654205941883212803533033918056379955537203393012827940470973568495616416446113352459040962460539188956341335861608568044773495187775756649327245066193634097666804050035473445372646146185571814274757010564355925866869660461831295354779035279742665991926579901572341320694054028318020492157171528538648682443067898181554304968966433332253275705645865027801417162715555965521023038442325502217177993310534742714125392213331279958561957658597383878127228316215422730973932004610242272562257699027667748529604426979165418070242719625428996690857224464231937615319475082726679508625907746724899419030324647595539330781165026551059767711175508191917355768557668011553002426605401726614346919837750290655947465736914027273618938481749619139170708140478507145601974020180731445918490609617320333892771948951429040695246887161057052849846123778241876657031365650387379025342965609120231868456472755471383065780920889765731718576118914888838857474874964797529920473820718724735159781656356538356022678611855449782849893574698833166635967242621766296786651519294739589351877343427414203278602096661159123917141599909163217167743196076616452298369336251383071076475188654488829523644183870894207227513339702012289764924366789157137669205409273181658288338598445726897145889377263405602001302401368830496495193023921898280847856246658808833329349712939382929045347407910058859039074471665818510479747096231111820595666775276262989879731430950779070900896549296327509185768260695422275074426102707319376559187918307422912576394893608288821763047348370790393595910436569603634187930770083901706783239670385644105033669962315093555132002999344237726973663090295374023810876107885304531218536851267296263764842404885096960715800335813915290930842946795317361969420275610495158239364592395128414743797391352218386505233323042468472053775555297903677309353248807116479298446764607194150157219328721277796686530667419252438603838645182572436262755453555422038332150035160610687018262312208517583054323925816841281627692558097336929448098110326379623585817162579263257586295069375973348869637451776806480599251143460981991203769733446541506768928857623975524089095620859070527084268432766167720734325606698635248227199350576982153392904800742284164586160601464491118006494912978924062285935403879055161052763317996407526599316901718437500000000000000000000000000000",
+        "sha256": "ab45e49c09f105a3c71b55c0bc67228c49cac2b04e94a84a714083eec3b1b524"
+      }
+    },
+    "log_inventory": {
+      "N": 80,
+      "count": 28,
+      "tail_formula": "2*w^(2*N+1)/((2*N+1)*(1-w^2))",
+      "normalization": "argument=2^k*y; 1<=y<2; w=(y-1)/(y+1)",
+      "negative_multiplier_rule": "swap lower and upper before scaling"
+    }
+  },
+  "check_summary": {
+    "count": 178,
+    "all_passed": true,
+    "first_gate": "fixed_arithmetic_contract",
+    "last_gate": "Jensen_literal_containment",
+    "prefix_groups": [
+      {
+        "prefix": "event_polynomial_dual",
+        "count": 8,
+        "all_passed": true
+      },
+      {
+        "prefix": "center_atom_positive",
+        "count": 8,
+        "all_passed": true
+      },
+      {
+        "prefix": "leaf_marginal_dual",
+        "count": 4,
+        "all_passed": true
+      },
+      {
+        "prefix": "literal_atom",
+        "count": 24,
+        "all_passed": true
+      },
+      {
+        "prefix": "minus_K_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "minus_complement_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "center_K_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "center_complement_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "plus_K_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "plus_complement_minor",
+        "count": 6,
+        "all_passed": true
+      },
+      {
+        "prefix": "P3_dual",
+        "count": 8,
+        "all_passed": true
+      },
+      {
+        "prefix": "G0_dual",
+        "count": 5,
+        "all_passed": true
+      },
+      {
+        "prefix": "G1_dual",
+        "count": 5,
+        "all_passed": true
+      },
+      {
+        "prefix": "positive_log_argument",
+        "count": 28,
+        "all_passed": true
+      }
+    ],
+    "named_gates": [
+      {
+        "gate": "fixed_arithmetic_contract",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "full_polynomial_normalization",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "jet_normalization",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Phi0_P2_exact",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Phi1_P2_exact",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Phi_pair_P2_exact",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Phi_pair_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Phi_pair_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "conditional_structural_identity",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G0_width",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G0_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G0_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G1_width",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G1_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "G1_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hconditional_width",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hconditional_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hconditional_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hfull_width",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hfull_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "negative_Hfull_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Jensen_assembly_overlap",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Jensen_width",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Jensen_broad_sign",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      },
+      {
+        "gate": "Jensen_literal_containment",
+        "hits": 1,
+        "passed": [
+          true
+        ]
+      }
+    ]
+  },
+  "gate_verdicts": [
+    {
+      "gate": "source/file binding",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "fixed object/input echo",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "prep consistency for computation-bearing files",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "full prep-manifest reproduction from delivered package",
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "gate": "single-run execution envelope",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "complete eight-event jets via dual constructions",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "leaf marginals and normalization",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "six Sylvester triples and three-point events",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "P2/P3 quotient exact fractions and interval",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "P5 side/conditional/full curvature and structural identity",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "N80 log normalization/remainder/endpoint reversal/width/literal gates",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "P6 complete Shannon Jensen sign and interpretation",
+      "verdict": "CORRECT"
+    },
+    {
+      "gate": "global one-sided/full entropy/general concavity claims",
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "gate": "novelty",
+      "verdict": "NOT_ASSESSED"
+    },
+    {
+      "gate": "formal proof",
+      "verdict": "NOT_PERFORMED"
+    }
+  ]
+}

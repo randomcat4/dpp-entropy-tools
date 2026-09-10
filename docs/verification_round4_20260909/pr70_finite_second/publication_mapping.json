@@ -1,0 +1,40 @@
+{
+  "note": "Publication aliases and UTF-8 LF copies only. Original mathematical assertions retained; separate sign note supersedes an ambiguous report sentence. No primary PDFs/text published.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "0f4b220b8dc56344e66e405173d9482baf2445cf207aa1b35de296bcfd4d10b3",
+      "published_copy_sha256": "a1fec4a3d9e205b840916dd5b701bc47b4efcf93bbd0d9667fe03cb6254cf846"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "d89b96d63fbb05b645ce59ed35acf9320c4dc6ec2bbc362ef52b7d04a42e74df",
+      "published_copy_sha256": "298f5f1b702b1626526a1509e33f4c79c7d85650337fb930d50a7186ee1614c2"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "de4d4eeef1adc30a647ee73b6fe88184f7f512613def6ae121fe651aa5bab198",
+      "published_copy_sha256": "de4d4eeef1adc30a647ee73b6fe88184f7f512613def6ae121fe651aa5bab198"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "c0f703d175f69d52871137913fe11f944b7ccd1577b87ce7675d6f57fc7d5aee",
+      "published_copy_sha256": "e3775b23025ff47259d61b596ff2f4bbe47d6c191c514ccabd0acd4d3062bb59"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "1c3903cdb653213d178150cf124dc905e580c7ac5b5c9aeac312ebeb01a8fe47",
+      "published_copy_sha256": "08d53bf2b33f1a0ac59fdb1e849bf07d3bd88822ea371f0b3c15befec4dde88e"
+    },
+    {
+      "file": "machine_input_binding.json",
+      "original_sha256": "656ccb1ec498507b033de39f882f0714f832d4d00cc67b66350ad9a66c9e2632",
+      "published_copy_sha256": "2c071615f627c161f637db39edd1b58b1fcfeb1463a7e815f7addff621a5e355"
+    },
+    {
+      "file": "sign_interpretation_note.md",
+      "original_sha256": "fa64d49c445874713238b1f80c1a61a57076bba6f2e8e56f935d74f3431dad0d",
+      "published_copy_sha256": "fa64d49c445874713238b1f80c1a61a57076bba6f2e8e56f935d74f3431dad0d"
+    }
+  ]
+}

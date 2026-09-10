@@ -1,5 +1,11 @@
 # 2026-09-09 main 整合记录
 
+## 2026-09-10 后继整合：PR70
+
+[PR70 限定范围与完整双审](verification_round4_20260909/accepted_pr70.md)已接受：一般严格连通缺边三点的完整六方向 paired-perspective、Schur 和 thinning 归约；固定有理对象的辅助配对预解式负曲率及完整熵凹向证据。独立 PR85 原始证据通过 178 项固定检查。全域单侧符号、完整 2×2 核的行列式非负及一般三点熵凹性仍开放。PR77 的固定独立原始证据正在隔离 SECOND 审查，后继 PR79–82 新增内容分别排队，不继承旧版接受。
+
+PR85 合并 `877e284640973dadbd3f3bd23c3f78f8e09f5b85`；PR70 合并 `0e8776c3f719ece9f2f4d426d02c6215f112ce94`。原始作者头、证据头和全部父提交已核对；C3 未复跑数学计算。
+
 ## 第四轮后继整合：PR58与完整FIRST档案
 
 [PR58完整限定范围](verification_round4_20260909/accepted_pr58.md)经过原始解析/有限和新增解析/修订有限各自FIRST、隔离SECOND，最终作者头以 `e158da11499436f9696ffd740e41ce804faf3f12` 合入。独立PR72成功证据与PR76停止于首错的证据分别合入 `eae4393ff9ca8bb629f7f54416c072e28facca66`、`4276137487c0dbaba7e0eb43380d9f1b960812e6`；后者没有变成MACHINE_PASS。C1第五轮及第六轮FIRST档案分别以 `7d0039121fc8b52a44ca865c7b7115375450c0cb`、`017606ca996bb05b932d0544ec6d71b7c0ba6ea0` 归档；PR66最终定理仍[未通过引用适用性门槛](verification_round4_20260909/deferred_pr66.md)。PR70与PR77后继作者稿仅冻结待FIRST，不继承已接受结果。
