@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "head": "d980dbb04840bd21e6c62cf88ffd45a9b0d1b4f8",
+  "independent_complete_event_jets_checked": 168,
+  "old_parallel_gap_decimal": [
+    -0.8407635409128217,
+    -0.8407635409128217
+  ],
+  "old_parallel_gap_exact_upper_negative": true,
+  "new_shared_leaf_gap_decimal": [
+    0.3743163926963885,
+    0.3743163926963885
+  ],
+  "new_shared_leaf_gap_exact_lower_positive": true,
+  "leading_minor_lower_bounds_decimal": [
+    5.507931773762095,
+    22.032109032812787,
+    97.2440619081729,
+    163728.30604090536,
+    748331.8146320921,
+    2110737763.881347
+  ],
+  "all_leading_minor_exact_lower_bounds_positive": true,
+  "all_eight_events_and_normalization_checked_per_direction": true,
+  "strict_K_and_I_minus_K": true
+}

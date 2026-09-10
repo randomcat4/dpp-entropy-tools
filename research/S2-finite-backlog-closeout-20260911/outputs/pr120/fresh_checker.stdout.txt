@@ -1,0 +1,19 @@
+OBJECT=integrated complete-event occupied-side Hessian
+PATH=true affine K+tD; all six real-symmetric physical directions
+NORMALIZED_DOMAIN=1/4 <= a=A/q <= 4, 1/4 <= b=B/q <= 4
+R_GRID=[1/5,4/5], GRID=32x32, BOXES=1024
+FIXED_POINT_BITS=140, PRECONDITIONER_BITS=44
+LOG_ATANH_TERMS=56, exact positive-series tail retained
+CERTIFICATE=for each box, exact rational P is nonsingular and
+P^T M(a,b) P is uniformly strictly diagonally dominant with positive diagonal
+MIN_GERSHGORIN_MARGIN_SCALED=164880134291545266513358110774173383066734
+MIN_GERSHGORIN_MARGIN=164880134291545266513358110774173383066734/1393796574908163946345982392040522594123776
+MIN_MARGIN_BOX_INDEX=(31, 31)
+MIN_MARGIN_A_INTERVAL=[25/7,4]
+MIN_MARGIN_B_INTERVAL=[25/7,4]
+MIN_MARGIN_DECIMAL=0.11829569483797094
+PASS: full 1024-box continuum square certified; M(a,b)>0 everywhere
+CONCLUSION: E(a,b)>0 and integrated G1'' is positive definite on the square
+NONCLAIM: no pointwise-in-r resolvent positivity and no all-a,b theorem
+WALL_SECONDS=3.483315
+PEAK_RSS_KIB=0

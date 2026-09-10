@@ -1,0 +1,40 @@
+{
+  "status": "PASS_LIGHT_WITH_FROZEN_ENDPOINT_CHECKER_DEFECT",
+  "head": "3f276c09fe4da3aded2ab6cf457adb7fdc4254d8",
+  "exchangeable_events": 64,
+  "exchangeable_types": 11,
+  "acceleration_reserve": "195191/1755000",
+  "generic_types": 13,
+  "negative_point": {
+    "R_exact_negative": true,
+    "R_decimal": -19828.13763706689,
+    "A_norm_interval_decimal": [
+      6.938164883622434,
+      6.938164883622434
+    ],
+    "F_norm_decimal": 847.7432215357995,
+    "Gamma_positive": true
+  },
+  "cardinality_label_points": [
+    {
+      "alpha": "1/10",
+      "beta": "2/7",
+      "s": "1/4",
+      "cells": 16,
+      "channel_formulas": 4
+    },
+    {
+      "alpha": "1/5",
+      "beta": "3/11",
+      "s": "9/16",
+      "cells": 16,
+      "channel_formulas": 4
+    }
+  ],
+  "endpoint_phase": {
+    "C_A_identity": true,
+    "C_F_identity": true,
+    "alpha_1_over_10_slice": true,
+    "frozen_checker_structural_equality_defect": true
+  }
+}

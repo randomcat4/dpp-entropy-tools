@@ -1,0 +1,23 @@
+{
+  "status": "DATA_RESTORATION_ONLY",
+  "degrees": {
+    "6": {
+      "terms": 83,
+      "coefficient_count": 252,
+      "parse_write_parse": "PASS",
+      "original_zip_numeric_equality": "NOT_CHECKED"
+    },
+    "8": {
+      "terms": 164,
+      "coefficient_count": 495,
+      "parse_write_parse": "PASS",
+      "original_zip_numeric_equality": "NOT_CHECKED"
+    },
+    "10": {
+      "terms": 285,
+      "coefficient_count": 858,
+      "parse_write_parse": "PASS",
+      "original_zip_numeric_equality": "NOT_CHECKED"
+    }
+  }
+}

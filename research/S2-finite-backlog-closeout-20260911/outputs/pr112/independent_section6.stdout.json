@@ -1,0 +1,29 @@
+{
+  "status": "PASS_NEW_RECONSTRUCTION_HISTORICAL_CHECKER_ABSENT",
+  "head": "2ea07741114aa7cd20210dfc84becda378381e7b",
+  "first_shortcut_derivative_at_s_1_over_256": "34799/67076100",
+  "first_shortcut_exact_positive": true,
+  "joint_second_derivative": "62133760927002633199475/123948511626037169227442",
+  "joint_second_derivative_matches_display_19": true,
+  "finite_epsilon_gap": "83227040581365279974557560989255720223314146025/1426167397794154630144461142089621826100832351402858643456",
+  "finite_epsilon_gap_matches_display_20": true,
+  "endpoint_checks": [
+    {
+      "endpoint": "minus",
+      "cone_interior": true,
+      "minimum_branch_weight": "396967/1966080",
+      "minimum_scalar_block": "7871/24576",
+      "minimum_2x2_diagonal": "8633/24576",
+      "2x2_block_determinant": "80721304301/137103409152"
+    },
+    {
+      "endpoint": "plus",
+      "cone_interior": true,
+      "minimum_branch_weight": "397657/1966080",
+      "minimum_scalar_block": "8513/24576",
+      "minimum_2x2_diagonal": "7751/24576",
+      "2x2_block_determinant": "648109604267/1239970480128"
+    }
+  ],
+  "historical_exact_lift_check_present_at_head": false
+}
