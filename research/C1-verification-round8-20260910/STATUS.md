@@ -33,6 +33,11 @@ erroneous; distinguish the diagonal witness from off-diagonal Cauchy slack.
 The s>0 endpoint caveat remains necessary. Saved outputs are edited or stale
 relative to script stdout; a companion value is mislabeled as an upper
 endpoint; fixture provenance needs binding. These are NEEDS_FIX items.
+The later 1a322ace four-document delta closes those source-wording and
+evidence-disclosure gates: s>0, positive q windows, covered t bands,
+diagonal versus reserve strictness, product-reference weights, edited
+summaries and companion conservative hi value are explicit. The two scripts
+and outputs are unchanged; no independent certificate follows from labels.
 Both claimed ratio-cone failure and new window-bound coverage of s=.9
 remain independently PENDING_C2; no such execution is authorized here.
 
@@ -51,7 +56,9 @@ boundary/remainder estimate (6.7) is INCOMPLETE_BRIDGE. The full application
 initially remained conditional on unread PR66/PR53 source inputs; a newly
 authorized six-file pure-source dependency follow-up is now IN_PROGRESS
 to resolve that avoidable input limitation. It cannot close (6.7) by binding
-alone and does not repair the original p>4 theorem. No C2 task is needed.
+alone and does not repair the original p>4 theorem. The follow-up also
+checks whether (6.7) is actually needed for the main qualitative theorem,
+separately from its own quantitative claim. No C2 task is needed.
 
 PR82 e91c1733: separate README-only delta FIRST ACCEPTED_SCOPED. Hamiltonian
 sign/Mobius convention, fixed-length grouping of trace series, direct primary

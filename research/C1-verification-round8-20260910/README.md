@@ -33,12 +33,14 @@ their own freezes and reports:
 |---|---|---|---|
 | 79 | ae1149f2ed7d657afa494740c3abae83de549d3f | RESULT only | ACCEPTED_DELTA: original text findings closed; numerical comparisons pending |
 | 80 | 76eae9dbe1294358d1488f80a7e31a67f0b3dca4 | 6 additions; original RESULT unchanged | COMPLETE: reserve/square/window identities accepted in scope; strictness and evidence wording NEEDS_FIX; finite fixture claims pending |
+| 80 | 1a322ace19fd8ccc679f849780850dde31deb3d2 | 4 documents; scripts/outputs unchanged | COMPLETE: source wording and edited-summary disclosure gates CLOSED; all finite claims pending |
 | 81 | 92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac | 1 coupled-Gram addition; original proof unchanged | COMPLETE: strict half-leaf Gram/secant inequalities accepted; arithmetic diagnostics unverified; determinant sign open |
 | 82 | 5e0861e4725d35c9e9b408c45c45291e121d5011 | 2 low-regularity additions; original README unchanged | Source delta COMPLETE: corrected conditional response mechanism accepted; inherited-input follow-up in progress; finite-memory remainder incomplete |
 | 82 | e91c17333c2e2c3e86d8f6b24b29e121d3c31e75 | README only; low-regularity files unchanged | ACCEPTED_SCOPED: sign, grouped convergence and corrected quartic conventions |
 
 See [PR79 text delta](units/pr79/budget_scope_ae11_review.md),
-[PR80 successor](units/pr80/successor_76ea_review.md) and
+[PR80 successor](units/pr80/successor_76ea_review.md),
+[PR80 document closure](units/pr80/scope_1a32_review.md) and
 [PR81 successor](units/pr81/successor_92c1_review.md),
 [PR82 low-regularity delta](units/pr82/successor_5e08_review.md) and
 [PR82 README delta](units/pr82/readme_e91c_review.md).

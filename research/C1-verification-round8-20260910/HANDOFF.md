@@ -77,3 +77,13 @@ explicitly authorized pure PR66/PR53 source files. That follow-up will
 state whether the actual imports support the new application; unread input
 scope is not itself a permanent mathematical counterargument. No new theory
 or arithmetic is authorized, and (6.7) cannot be closed by metadata alone.
+The follow-up will distinguish a gap in that additional estimate from any
+actual load-bearing gap in the main qualitative p>8 application.
+
+PR80's exact four-document 1a322ace repair has now passed the original
+reviewer's [document delta-FIRST](units/pr80/scope_1a32_review.md).
+All wording and disclosure gates above are closed at the documentation
+level; the fixed s=.9 counts, signs, window lower endpoints, fixture equality
+and any PR76 consistency comparison remain independently pending. C3 can
+now supply this exact text delta to SECOND. Unchanged author scripts and
+edited output summaries are not independent certificates.

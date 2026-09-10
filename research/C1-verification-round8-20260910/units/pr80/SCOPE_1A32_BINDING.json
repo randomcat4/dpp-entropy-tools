@@ -1,0 +1,49 @@
+{
+  "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/76eae9dbe1294358d1488f80a7e31a67f0b3dca4...1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "files": [
+    {
+      "git_blob": "8fe111c13195442dd5749f8965e93b67bc8ef720",
+      "deletions": 3,
+      "status": "modified",
+      "sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5",
+      "bytes": 5878,
+      "additions": 3,
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+      "lines": 149
+    },
+    {
+      "git_blob": "0ac9e4848a47b9c1a1605b8774ada8695da88158",
+      "deletions": 6,
+      "status": "modified",
+      "sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e",
+      "bytes": 8738,
+      "additions": 6,
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_S09_SIGNED_FIBERS.md",
+      "lines": 170
+    },
+    {
+      "git_blob": "585c0d99bb721a4ff5a3881ce154c5e7f67d3658",
+      "deletions": 0,
+      "status": "added",
+      "sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b",
+      "bytes": 2627,
+      "additions": 15,
+      "path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+      "lines": 15
+    },
+    {
+      "git_blob": "510833bd63251028dd9340195e12392f5c08227f",
+      "deletions": 5,
+      "status": "modified",
+      "sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498",
+      "bytes": 11483,
+      "additions": 5,
+      "path": "research/I05-29-rank2-signed-pairing-20260910/RESULT.md",
+      "lines": 245
+    }
+  ],
+  "pr": 80,
+  "base": "76eae9dbe1294358d1488f80a7e31a67f0b3dca4"
+}

@@ -47,3 +47,11 @@ PR66/PR53 dependency files, with no old review opinions, to resolve the
 initial inherited-input limitation for the p>8 application. That follow-up
 is in progress and preserves the real finite-memory remainder gap. README
 e91c1733 acceptance does not inherit theorem acceptance for the p>8 files.
+
+PR80's explicitly assigned four-document 1a322ace delta has passed the
+original reviewer after source-only comparison. It closes source-wording
+and disclosure gates without changing the two scripts or two outputs;
+all finite claims remain independently pending. C1 read both reports fully.
+The PR82 dependency follow-up is checking actual logical dependence on the
+separate (6.7) estimate; an unproved extra claim is not automatically a
+failure of the main qualitative application.
