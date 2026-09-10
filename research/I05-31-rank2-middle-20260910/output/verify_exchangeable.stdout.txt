@@ -1,0 +1,19 @@
+PASS
+events=64 groups=11
+acceleration_reserve = 195191/1755000
+fisher_normalized_lower = 16/625
+quartic_correction = 4/1875
+group table:
+mult 12 weight 13/375 a -17/13 b 0 q (17*t**2 + 13)/13
+mult 6 weight 507/5000 a 302/1521 b 9/169 q (81*t**4 - 302*t**2 + 1521)/1521
+mult 1 weight 1/90000 a -18 b 81 q (9*t**2 + 1)**2
+mult 6 weight 2/675 a -9/4 b 0 q (9*t**2 + 4)/4
+mult 2 weight 9/2500 a 2 b 1 q (t - 1)**2*(t + 1)**2
+mult 3 weight 507/10000 a -898/1521 b 9/169 q (t**2 + 9)*(81*t**2 + 169)/1521
+mult 1 weight 729/2500 a -2/9 b 1/81 q (t**2 + 9)**2/81
+mult 12 weight 67/750 a 1 b 0 q -(t - 1)*(t + 1)
+mult 6 weight 13/5000 a -14/13 b -27/13 q -(t - 1)*(t + 1)*(27*t**2 + 13)/13
+mult 6 weight 1053/2500 a 14/117 b -1/39 q -(t**2 + 9)*(3*t**2 - 13)/117
+mult 9 weight 13/6750 a -9 b 0 q 9*t**2 + 1
+
+Execution note: this was a fresh author-side exact symbolic reconstruction for the new I05-31 candidate, not a rerun of any prior PR checker. The in-session exact run completed in under one second after the derivation was fixed; no >60-minute compute contract was triggered. The checker output is author evidence only and remains PENDING independent review.
