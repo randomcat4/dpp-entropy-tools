@@ -1,0 +1,65 @@
+{
+  "scope": "Twelve original FIRST reports; source-only, no arithmetic execution",
+  "reports": [
+    {
+      "bytes": 3397,
+      "sha256": "4adea42e984c72c22a6f1316a977a0e51acc61309b979f3c1a26479a588b8a42",
+      "path": "units/pr79/frozen_scope.md"
+    },
+    {
+      "bytes": 10549,
+      "sha256": "bb3284e344a7c6f773754aca5874eeca731e2794ed578513e3ccfb565589832e",
+      "path": "units/pr79/review_report.md"
+    },
+    {
+      "bytes": 5509,
+      "sha256": "ece8b0e1e06e29dc79792563a0fbf217537f09782eb98007a7df5b6919433d7f",
+      "path": "units/pr79/code_review.md"
+    },
+    {
+      "bytes": 3386,
+      "sha256": "e07f555595df7832b9bfdde2051f49db7902c6e807c1db4b468aa302fd0d3b12",
+      "path": "units/pr80/frozen_scope.md"
+    },
+    {
+      "bytes": 8594,
+      "sha256": "cd3aa43e5ab734544c25002f37cec18f6fc45668da12d016ccc4c00a500f8c1b",
+      "path": "units/pr80/review_report.md"
+    },
+    {
+      "bytes": 1613,
+      "sha256": "6b1b3124eb8a554bc3da18fc1b557f9810f6eab14b20bb00dd536e24682a7d01",
+      "path": "units/pr80/code_review.md"
+    },
+    {
+      "bytes": 2713,
+      "sha256": "c391a493eca7cadbb410a0c4e70ca08e166436735edc94bf054063d1679b5b58",
+      "path": "units/pr81/frozen_scope.md"
+    },
+    {
+      "bytes": 8531,
+      "sha256": "1f299f77d70e181dbe7c1d2ecb96df944a42d1efc50516c3b0fcf3c01b170088",
+      "path": "units/pr81/review_report.md"
+    },
+    {
+      "bytes": 3309,
+      "sha256": "39aaa6126cd75e48af4f3df6c0dd6b0838858db1acbfb603b0d7b3a68c371a6d",
+      "path": "units/pr81/code_review.md"
+    },
+    {
+      "bytes": 3738,
+      "sha256": "1c855efb39e24e3050a4a9b6116ee744f3bfbd418a5f8d33fea9b2d9d7ef14e1",
+      "path": "units/pr82/frozen_scope.md"
+    },
+    {
+      "bytes": 9198,
+      "sha256": "031d616cffa926b6d512debd8cf24b54be01dbdd06e2c5d2243ba78e782ce8ea",
+      "path": "units/pr82/review_report.md"
+    },
+    {
+      "bytes": 3261,
+      "sha256": "5c11166922beed27e7394c1a79a36990b469e61ec917fe5056398e6dac808c3f",
+      "path": "units/pr82/code_review.md"
+    }
+  ]
+}

@@ -2,12 +2,27 @@
 
 All four exact author heads and six source blobs were frozen before
 review. PR79, PR80 and PR81 were assigned to three separate fresh
-non-author GPT-5.5/xhigh contexts with no descendants. PR82 is queued
-for a released review slot, preserving the parent-plus-three limit.
+non-author GPT-5.5/xhigh contexts with no descendants. PR82 subsequently
+used the released PR79 reviewer slot, preserving the parent-plus-three
+limit and excluding old PR66 opinions.
 
 The PR77 successor delta in the earlier archive was recovered from fully
 saved reports without rerunning completed review. Its original report
 history remains separate. PR70/PR77 finite closures await independently
 frozen C2 artifacts and do not authorize C1 arithmetic or old-chain reruns.
 
-No new mathematical verdict is recorded at this initial round8 freeze.
+All twelve original reports are complete. C1 read the reports and requested
+two narrow clarifications: PR80's original strictness condition has a valid
+diagonal-pair witness, while the corollary needs explicit quantifiers; PR79's
+future C2 suggestion must require independent reconstruction, not execution
+of the author script plus PASS. Neither clarification involved arithmetic,
+new author inputs, a new theory route or a finite execution.
+
+PR82's Dobrushin hypothesis check uses the primary paper, printed pages
+14--18 and 24--25, with its PDF hash recorded in the unit scope. No old
+review opinion or full copyrighted primary-source copy is published.
+
+Later PR80/PR81/PR82 heads are not inherited. PR70's raw PR85 evidence is
+under a separate original-reviewer closure in PR78. PR77's finite raw
+evidence remains pending there; these states do not accept the new PR79
+thresholds or the PR80 fixture cone.
