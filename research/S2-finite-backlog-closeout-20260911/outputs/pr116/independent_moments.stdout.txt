@@ -1,0 +1,20 @@
+{"stage": "general_64_events", "types": 13, "elapsed_seconds": 11.276892299996689}
+{"stage": "global_moments", "elapsed_seconds": 12.43873990001157}
+{"stage": "boundary_ray", "elapsed_seconds": 40.62212410004577}
+{
+  "status": "PASS",
+  "head": "3f276c09fe4da3aded2ab6cf457adb7fdc4254d8",
+  "general_complete_events": 64,
+  "general_types": 13,
+  "M_a_M_ab_M_b_closed_forms": true,
+  "alpha_1_over_10_specializations": true,
+  "M_b_le_1_factor_identity": true,
+  "boundary_ray_leading_coefficients": {
+    "R": true,
+    "A_norm": true,
+    "F_norm": true
+  },
+  "two_scale_corner_A_coefficient": "612/625",
+  "f0_f1_forms_and_endpoints": true,
+  "elapsed_seconds": 41.01766050001606
+}

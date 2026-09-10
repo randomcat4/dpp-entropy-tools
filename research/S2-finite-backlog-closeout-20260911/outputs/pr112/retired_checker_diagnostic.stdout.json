@@ -1,0 +1,17 @@
+{
+  "status": "REPRODUCED_OLD_CHECKER_FAILURE_SINGLE_CASE",
+  "input": {
+    "t": "1/2",
+    "n": 4,
+    "mask": 1
+  },
+  "old_formula_mass": "65823/1048576",
+  "complete_signed_determinant_mass": "65055/1048576",
+  "complete_mobius_mass": "65055/1048576",
+  "corrected_first_component_mass": "65055/1048576",
+  "old_error": "3/4096",
+  "scope": "One diagnostic case only. The old checker is retired, not validated.",
+  "historical_production_evidence": false,
+  "independent_review": false,
+  "wide_interval_certificate": false
+}
