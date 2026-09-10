@@ -1,0 +1,34 @@
+{
+  "status": "ACCEPTED_SCOPED",
+  "repository": "randomcat4/dpp-entropy-tools",
+  "reviewed_pr": 113,
+  "reviewed_commit": "a2bced01cc5de30943b20387b7e1d260c384661e",
+  "base_at_claim": "bcbf7016e2abc6401b66f39ac9202d235ee32fad",
+  "review_kind": "independent mathematical/source FIRST",
+  "included_files": [
+    {"path": "research/I05-DPP-34-small-wiener-20260910/README.md", "blob": "097e2d621dcc52dc5a224ff1de27cdc52c525b07"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/author_self_audit.md", "blob": "bde06aac882be680bf5a567aa5074dfc76710fd3"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/complete_event_loop_C4.md", "blob": "f2bfac4a8d0c418f141dc53be1c2d88c2c0ccefc"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/explicit_zero_positive_moment_family.md", "blob": "fa10cb9d9af8693c9afa5a7a50038a214231e02c"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/parity_matching_concavity.md", "blob": "3aa0d324f0eac2ab338b7f4eeb18dd08fc55cee3"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/review_addendum.md", "blob": "d0df208401b2d3ee2fdecb395290770d68ff48e3"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/review_contract.md", "blob": "df78865e423f4ef9aeef15c27c88b1db8b64a273"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/route_comparison_sources.md", "blob": "82df1d44dba252cefbcfa4f80878be2d422601a2"},
+    {"path": "research/I05-DPP-34-small-wiener-20260910/smoothness_extension.md", "blob": "882c4cc4bc587b8ff8ebb0417f0e72a1e2a98e6d"}
+  ],
+  "accepted_import": {
+    "claim": "PR53 disjoint-matching binary-KL lower bound only",
+    "checkpoint_path": "docs/verification_round3_20260909/accepted_pr53.md",
+    "checkpoint_blob": "92746613904ec719685f4839dd580f2f1fcfca77",
+    "proof_path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+    "proof_blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d",
+    "author_head": "ebecc412467939591e018a295a18c49a0a341ce9"
+  },
+  "execution": "NOT_RUN_BY_REVIEWER",
+  "formal_verification": "NOT_ASSESSED",
+  "novelty": "NOT_ASSESSED",
+  "second_review": "NOT_PERFORMED",
+  "merge": "NOT_PERFORMED",
+  "accepted_smoothness": "C_INFINITY_REAL_PARAMETER_ONE_FIXED_ORDER_AT_A_TIME",
+  "excluded_analyticity": true
+}
