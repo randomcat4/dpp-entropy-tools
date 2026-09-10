@@ -1,0 +1,15 @@
+{
+  "scope": "PR82 qualitative p>8 application: six pure-source imports and main-vs-extra claim dependence",
+  "reports": [
+    {
+      "bytes": 8880,
+      "sha256": "1c73d3d50a189cec3fb90ee27d380ad61685c2c684247ef9ade0d80295fedc2b",
+      "path": "units/pr82/dependency_followup_scope.md"
+    },
+    {
+      "bytes": 14903,
+      "sha256": "73b6b0fb0e7f4367d84674350a2fc6fe13485d5bc9ae7b18a5bad1863eb12a96",
+      "path": "units/pr82/dependency_followup_review.md"
+    }
+  ]
+}

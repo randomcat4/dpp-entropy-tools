@@ -16,6 +16,9 @@
 | PR82 | Finite null-state Mobius/connected-walk identity | ACCEPTED_SCOPED with stated finite convergence domain |
 | PR82 | Conditional C4 response observation | ACCEPTED_SCOPED as an implication only |
 | PR82 | Infinite A2/absolute norm/response import and PR66 theorem | INCOMPLETE |
+| PR82 successor5e08 plus pure-source follow-up | Qualitative p>8 corrected local concavity | ACCEPTED_SCOPED under standing hypotheses and BFG correction priority |
+| PR82 successor5e08 | Additional finite-memory estimate (6.7) | INCOMPLETE_EXTRA; not a main Section7 premise |
+| PR82 successor5e08 | Stronger real-analyticity/full frozen PR66 wording | Not proved by C2 response; NEEDS_FIX narrowing if asserted |
 
 PENDING_C2 is an independent finite-evidence gate, not a finding of
 mathematical falsity. A failed sufficient interval test is inconclusive

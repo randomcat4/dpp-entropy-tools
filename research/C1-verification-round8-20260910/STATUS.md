@@ -52,13 +52,17 @@ PR82 5e0861e4: two-file low-regularity successor source FIRST COMPLETE.
 Corrected BFG relaxation, conditional derivative-memory/response mechanism,
 two-power Poisson loss, parity reduction and the p>8 threshold are accepted
 in scope. The main file needs an inline correction pointer. The finite-memory
-boundary/remainder estimate (6.7) is INCOMPLETE_BRIDGE. The full application
-initially remained conditional on unread PR66/PR53 source inputs; a newly
-authorized six-file pure-source dependency follow-up is now IN_PROGRESS
-to resolve that avoidable input limitation. It cannot close (6.7) by binding
-alone and does not repair the original p>4 theorem. The follow-up also
-checks whether (6.7) is actually needed for the main qualitative theorem,
-separately from its own quantitative claim. No C2 task is needed.
+boundary/remainder estimate (6.7) is INCOMPLETE_EXTRA. The completed six-file
+pure-source dependency follow-up accepts the main qualitative p>8 corrected
+local concavity under strict margin, half-period-even center, nonzero odd
+direction, the corrected BFG proof and the C2-in-s response mechanism.
+The true conditional entropy formula and inherited matching floor are
+source-supported. (6.7) is not needed by the Section 7 qualitative path.
+No explicit radius, whole-legal-interval sign or real analyticity is accepted.
+The main source must visibly prioritize the correction and narrow line421
+if it claims the entire PR66 frozen statement including real analyticity;
+(6.7) must be proved or labeled as an unproved extra claim. Original p>4
+remains incomplete. No C2 task is needed.
 
 PR82 e91c1733: separate README-only delta FIRST ACCEPTED_SCOPED. Hamiltonian
 sign/Mobius convention, fixed-length grouping of trace series, direct primary

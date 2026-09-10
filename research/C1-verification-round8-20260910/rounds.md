@@ -55,3 +55,12 @@ all finite claims remain independently pending. C1 read both reports fully.
 The PR82 dependency follow-up is checking actual logical dependence on the
 separate (6.7) estimate; an unproved extra claim is not automatically a
 failure of the main qualitative application.
+
+The PR82 pure-source dependency follow-up is complete. C1 read the two
+reports fully and asked the reviewer to identify the actual main-path
+premises: Lemma6.1 and the true conditional entropy identity precede and do
+not require extra estimate (6.7). The final source FIRST accepts qualitative
+p>8 corrected local concavity under stated hypotheses/correction priority,
+keeps (6.7) unproved, and excludes stronger real-analyticity wording. No new
+source, new theory, author edit, arithmetic or execution was used for this
+logical clarification. Original and prior delta reports remain preserved.

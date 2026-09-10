@@ -87,3 +87,20 @@ level; the fixed s=.9 counts, signs, window lower endpoints, fixture equality
 and any PR76 consistency comparison remain independently pending. C3 can
 now supply this exact text delta to SECOND. Unchanged author scripts and
 edited output summaries are not independent certificates.
+
+The PR82 dependency follow-up is now COMPLETE and supersedes the earlier
+unread-input limitation in the initial two-file review. Its source map
+accepts the true conditional entropy identity, internal inverse/non-nullness,
+parity, normalized cancellation and regularity-free matching floor. Combined
+with the corrected BFG/Poisson response argument, the main qualitative p>8
+corrected-local-concavity claim is ACCEPTED_SCOPED. See the
+[final dependency review](units/pr82/dependency_followup_review.md).
+
+The separate estimate (6.7) remains INCOMPLETE_EXTRA. Lemma6.1 ends before
+that paragraph and Section7 uses h=-nu(logG) directly, so failure to prove
+(6.7) does not refute the accepted qualitative main path. Required source
+wording remains: attach the BFG correction visibly, label/prove (6.7), and
+narrow line421 if it imports the original frozen real-analyticity assertion.
+Acceptance supplies no analytic radius, general interval or p>4 theorem.
+C3 should take the actual scoped main claim and its frozen pure-source
+inputs into isolated SECOND; this archive supplies no SECOND verdict.
