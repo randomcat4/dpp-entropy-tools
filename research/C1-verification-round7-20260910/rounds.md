@@ -94,3 +94,12 @@ verified implementation/inputs unchanged from preparation d68fec7f. The
 histogram/log artifacts, and is with the original PR77 reviewer. No raw
 mathematics was rerun; copying, hashes and schema review do not constitute
 independent arithmetic or numerical acceptance.
+
+Actual PR89 finite FIRST is COMPLETE. The original reviewer read the full
+independent implementation, all compact A-D raw evidence and check ledger,
+manifest/schema bindings and execution record, including the official
+Decimal.ln contract. Fixed constants, midpoint Jensen, three point-curvature
+bounds and quantitative Fisher covariance evidence are accepted in scope.
+C1 read all three reports fully; prior reports remain unchanged. No C1
+arithmetic, full gzip mathematical reconstruction or new finite job occurred.
+C3's isolated SECOND is the next coordinated publication gate.

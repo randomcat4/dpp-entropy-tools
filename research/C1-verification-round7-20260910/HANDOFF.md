@@ -4,6 +4,12 @@ Both explicitly assigned source-only FIRSTs are complete at their original
 immutable heads. No author file was changed, arithmetic executed, old
 machine chain rerun, SECOND performed, or main merge made by C1.
 
+Both actual finite follow-ups are now also COMPLETE: PR85 closes the fixed
+PR70 P2/P5/P6 gate and PR89 closes the fixed PR77 constants/midpoint/three
+point/Fisher finite gates at C1 FIRST. The historical original-version
+findings below are preserved; the final finite closures supersede pending
+evidence for certification. C3 isolated SECOND remains separate.
+
 ## PR70 at f7be60759fd4d65184803b6585965dc7e5ccd624
 
 Eight files. The analytic packet is ACCEPTED_SCOPED: complete-event and
@@ -123,3 +129,26 @@ continuous interval job, new theory route or new main instance.
 Novelty is NOT_ASSESSED; formal verification is NOT_PERFORMED. No pending
 finite assertion is refuted by an absent run or a nondecisive interval.
 All general/continuous author targets remain open as originally stated.
+## Completed actual PR77 finite closure
+
+Raw PR89 1d805e094a0faf0018127ee832f5e1ac74996b41 and unchanged preparation
+d68fec7f10f4451dd9a16c19000c35219db33400 have passed the original PR77
+reviewer's source/evidence FIRST. See [scope](units/pr77/machine_pr89_scope.md),
+[finite review](units/pr77/machine_pr89_review.md),
+[static review](units/pr77/machine_pr89_code.md) and the raw/report bindings.
+
+The review covers all A-D obligations: exact analytic constants and point
+tails, independent determinant/physical-t jet cross-checks, complete n18/19
+event aggregation, explicit Decimal nearest-log widening plus directed
+arithmetic, retained Fisher/acceleration terms, midpoint-only tail allocation,
+all three point-specific margins, and actual single-run execution records.
+Gzip data were inspected for schema/hash evidence, without arithmetic rerun.
+
+Fixed midpoint Jensen, three point-curvature bounds, quantitative Fisher
+covariance algebra and bound are ACCEPTED_SCOPED. The old abbreviated
+author summaries are superseded by independent raw evidence for these
+certifications. C3 may now give the raw packet and frozen mathematical
+sources to its isolated SECOND without FIRST opinions as premises.
+No further C2 execution is required by this FIRST for these fixed claims.
+Section9 true-rate derivatives and all continuum/general signs remain
+outside this closure. A machine PASS by itself is not the reviewer verdict.

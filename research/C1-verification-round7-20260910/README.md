@@ -3,9 +3,11 @@
 Status: both fresh non-author source-only FIRST reviews are COMPLETE.
 PR70's analytic packet and its fixed P2/P5/P6 finite evidence gate are
 ACCEPTED_SCOPED by C1 FIRST; the actual PR85 evidence has been reviewed.
-PR77's named analytic bridges are ACCEPTED_SCOPED, with exact
-constants/finite signs separately PENDING_C2, evidence packaging NEEDS_FIX,
-and the Section 9 true-rate beam-splitter bridge INCOMPLETE.
+PR77's named analytic bridges and fixed constants/midpoint/three-point
+finite evidence are ACCEPTED_SCOPED after actual PR89 FIRST. Independent
+raw evidence supersedes the old abbreviated author summaries for
+certification. Section9's true-rate derivative bridge remains unproved and
+was removed as a premise by the separately accepted 2564 text narrowing.
 No verdict is inherited from previous packets, author checks or a later
 live head. Review completion does not mean every author claim is accepted.
 
@@ -61,8 +63,12 @@ full-entropy concavity or a general sign theorem. Isolated SECOND remains
 C3's next gate. PR77 actual raw finite evidence is now bound at PR89
 1d805e094a0faf0018127ee832f5e1ac74996b41, with unchanged preparation
 d68fec7f10f4451dd9a16c19000c35219db33400. Its original FIRST reviewer is
-reviewing the independent implementation, full raw output schemas and
-actual execution records; no numerical acceptance is inferred from PASS.
+finished reviewing the independent implementation, full raw output schemas
+and actual execution records. The [PR89 finite FIRST](units/pr77/machine_pr89_review.md)
+closes the fixed midpoint, three point-curvature and quantitative Fisher
+finite gates; [static review](units/pr77/machine_pr89_code.md) records the
+implementation coverage and limits. No numerical acceptance is inferred
+from PASS alone. C3 isolated SECOND remains the next publication gate.
 
 The further explicit [2564 text-delta FIRST](units/pr77/finite_scope_2564_review.md)
 is COMPLETE: Section 9's over-broad rate-derivative wording is closed by

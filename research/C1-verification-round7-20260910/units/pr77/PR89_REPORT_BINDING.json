@@ -1,0 +1,22 @@
+{
+  "scope": "C1 actual PR77 fixed numerical finite-evidence FIRST",
+  "reports": [
+    {
+      "sha256": "1a557a8ce778c962b23daf7ed3ff3ee14b426ec177a4042b0dfaeb5e4c27ab2a",
+      "path": "units/pr77/machine_pr89_scope.md",
+      "bytes": 3725
+    },
+    {
+      "sha256": "e3c54a132c2e361600bca726304f74f3d224f6f56903f48a9999fdf2329e2a75",
+      "path": "units/pr77/machine_pr89_review.md",
+      "bytes": 18904
+    },
+    {
+      "sha256": "15f33750fe4a641c07f42e59ce2927b4ea757f079b3a54d8ba62a99b593fbb09",
+      "path": "units/pr77/machine_pr89_code.md",
+      "bytes": 9599
+    }
+  ],
+  "raw_head": "1d805e094a0faf0018127ee832f5e1ac74996b41",
+  "preparation_head": "d68fec7f10f4451dd9a16c19000c35219db33400"
+}
