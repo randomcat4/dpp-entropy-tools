@@ -1,0 +1,79 @@
+{
+  "schema": [
+    "N",
+    "count",
+    "sum_Nprime",
+    "sum_Nsecond",
+    "sum_Nprime_squared"
+  ],
+  "compression": "gzip level1,mtime0,ASCII JSONL,all integer fields decimal strings",
+  "ordering": "ascending integer N",
+  "chunks": [
+    {
+      "path": "C/t2_n19_histogram_000.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1548887,
+      "sha256": "3760c610b5ed1233a42bf911e5ce20432c97e0118cdf50ad3e9dc621b50ec461"
+    },
+    {
+      "path": "C/t2_n19_histogram_001.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1542014,
+      "sha256": "18864d8dd4af6e8f8f23c28e816a85060ac4b2010ec48fbf83aaadb50ecc0063"
+    },
+    {
+      "path": "C/t2_n19_histogram_002.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1535696,
+      "sha256": "60257234fdc3a9d60bd9ed6365f5b47ad11581b537c6a1533144788357f7ed17"
+    },
+    {
+      "path": "C/t2_n19_histogram_003.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1543222,
+      "sha256": "ffc681ed76bb21c07f7f71810cc8ac30b1d422d59110d8ed420359e54daef40a"
+    },
+    {
+      "path": "C/t2_n19_histogram_004.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1532066,
+      "sha256": "ba0760b0f1d8d13fa7f25aa67eb6557bff1038dcf18ac631ae31b2794d46309a"
+    },
+    {
+      "path": "C/t2_n19_histogram_005.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1542432,
+      "sha256": "606b368bcf06137ac8242d68c1c9e02c7ba738d80e10097d8d4ad9864ddb5759"
+    },
+    {
+      "path": "C/t2_n19_histogram_006.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1531061,
+      "sha256": "d2eb3f9ae4dae4aa022a46403529bdab4d6c1170de85be441c60655ed0ce98d9"
+    },
+    {
+      "path": "C/t2_n19_histogram_007.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1540723,
+      "sha256": "0d5270d7435016f62bb4ad861d6159a659e2455b549698370578a740a7f26cd5"
+    },
+    {
+      "path": "C/t2_n19_histogram_008.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1539994,
+      "sha256": "0c9b8aaa5799ecc05a092440db0f000d54c8f5999d74a544c1d7e54009161cf0"
+    },
+    {
+      "path": "C/t2_n19_histogram_009.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1540151,
+      "sha256": "40a78a20db86e549b6b2b1e18b62f2e03e51d77fbf81a898ed90d71fb1b5bc95"
+    },
+    {
+      "path": "C/t2_n19_histogram_010.jsonl.gz",
+      "rows": 12656,
+      "bytes": 780530,
+      "sha256": "a389cb13070fdd088662897dd41c97d68764e19cad36dd3f98289e3c16906f24"
+    }
+  ]
+}

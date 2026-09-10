@@ -1,0 +1,47 @@
+{
+  "schema": [
+    "N",
+    "natural_log_lower",
+    "natural_log_upper"
+  ],
+  "compression": "gzip level1,mtime0,ASCII JSONL,all integer fields decimal strings",
+  "ordering": "ascending integer N",
+  "chunks": [
+    {
+      "path": "D/t3_n18_log_intervals_000.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1817796,
+      "sha256": "383a23b9f6efcf23c27c836d6295d7a9878a98ca7073a6f1ac9917ce7b9711b8"
+    },
+    {
+      "path": "D/t3_n18_log_intervals_001.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1808961,
+      "sha256": "accf9a61f175e62ea9f62756501bcaf497daa2220a51c9024cf9dce40fd706fb"
+    },
+    {
+      "path": "D/t3_n18_log_intervals_002.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1807401,
+      "sha256": "084279b154fd15b7f7bcacc527821ec9250a9ddaf1178ecb93863d6de6bee7c4"
+    },
+    {
+      "path": "D/t3_n18_log_intervals_003.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1808267,
+      "sha256": "608cf2ddf3a0704893ee209b9f2ffbe7a55bbe700889b7df97379105afb5d9b7"
+    },
+    {
+      "path": "D/t3_n18_log_intervals_004.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1813279,
+      "sha256": "694f2e6365c0776ec2d41c25624827f36e76aa8f0e46bada0cb94995d9668053"
+    },
+    {
+      "path": "D/t3_n18_log_intervals_005.jsonl.gz",
+      "rows": 6328,
+      "bytes": 462683,
+      "sha256": "d1257126103421c7cd49a69c680ad4703879721339b8a916f14baa80f8a6599b"
+    }
+  ]
+}

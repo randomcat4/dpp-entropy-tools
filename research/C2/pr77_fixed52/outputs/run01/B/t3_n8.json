@@ -1,0 +1,12 @@
+{
+  "t": "3/2",
+  "n": 8,
+  "all_word_count": 256,
+  "event_jet_sha256": "669b1e953b342c2717a0975a7cbdce0a89a3c3dcd796988030224046998a98dc",
+  "all_agreements": true,
+  "value_routes": [
+    "frontier permutation recurrence",
+    "pivoted Bareiss signed determinant"
+  ],
+  "jet_route": "not requested"
+}

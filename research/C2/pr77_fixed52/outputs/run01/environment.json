@@ -1,0 +1,27 @@
+{
+  "pid": 175737,
+  "start_utc": "2026-09-10T02:28:39.879858+00:00",
+  "deadline_epoch": 1789010019,
+  "deadline_utc": "2026-09-10T03:13:39+00:00",
+  "source_commit": "d68fec7f10f4451dd9a16c19000c35219db33400",
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "implementation": "CPython",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "affinity": [
+    0
+  ],
+  "address_space_limit_bytes": [
+    17179869184,
+    17179869184
+  ],
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "decimal_version": "1.70",
+  "libmpdec_version": "2.5.1",
+  "clock": "external immutable2700second deadline started before this Python/package loading"
+}

@@ -1,0 +1,11 @@
+{
+  "mobius_word_cases": 378,
+  "direct_word_cases": 1530,
+  "jet_word_cases": 378,
+  "n_ranges": {
+    "mobius_max_n": 6,
+    "direct_max_n": 8,
+    "jet_max_n": 6
+  },
+  "jet_parameter": "physical t; first offdiagonal derivative2"
+}
