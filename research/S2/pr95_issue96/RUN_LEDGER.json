@@ -1,0 +1,31 @@
+{
+  "status": "MACHINE_PASS",
+  "scope": "frozen PR95 finite/source reconstruction only; not mathematical FIRST/SECOND, entropy rate, novelty, or merge",
+  "author_head": "54d9803b29f73669b9028e3519d17493e1b81be3",
+  "source_ref": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+  "implementation": "implementation/independent_pr95_finite_checker.py",
+  "wrapper": "implementation/run_once.sh",
+  "runtime": "Python 3.12.3 standard library",
+  "command": "python3 implementation/independent_pr95_finite_checker.py --fixture inputs/fixture.json --source inputs/PR58_ADDENDUM_JOINT_ADDITIVE.md --out outputs/run01",
+  "bounds": {
+    "processes": 1,
+    "cpu_threads": 1,
+    "address_space_gib": 2,
+    "absolute_wall_seconds": 600,
+    "gpu": false
+  },
+  "started_utc": "2026-09-10T05:46:22Z",
+  "deadline_utc": "2026-09-10T05:56:22Z",
+  "finished_utc": "2026-09-10T05:46:24Z",
+  "elapsed_wall_seconds": 2.24,
+  "max_rss_kib": 15404,
+  "arithmetic_pid": 176618,
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "pid_postcheck": "ABSENT",
+  "run_count": 1,
+  "retry_count": 0,
+  "repair_count": 0,
+  "check_count": 477,
+  "failed_count": 0
+}
