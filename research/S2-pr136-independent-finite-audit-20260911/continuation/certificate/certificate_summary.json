@@ -1,0 +1,18 @@
+{
+  "status": "AUTHOR_CERTIFICATE_PASS_PENDING_INDEPENDENT_REVIEW",
+  "conclusion": "h_tt < -1/3000 on [1/2,3/2] for the specified fixed two-harmonic family",
+  "kind": "Derived short rational upper bounds, rounded toward +infinity from the exact audit; not literal stdout",
+  "complete_future_words_per_node": 262144,
+  "complete_current_future_atoms_per_node": 1048576,
+  "nodes": 128,
+  "tail_E9_upper": "115/1000000",
+  "chebyshev_error": "80000000/617673396283947",
+  "cells": [
+    {"cell": ["1/2", "3/4"], "true_curvature_upper": "-37469/100000000"},
+    {"cell": ["3/4", "1"], "true_curvature_upper": "-103064/100000000"},
+    {"cell": ["1", "5/4"], "true_curvature_upper": "-195772/100000000"},
+    {"cell": ["5/4", "3/2"], "true_curvature_upper": "-317121/100000000"}
+  ],
+  "full_exact_results": "Reconstruct certificate_result.json with check_certificate.py; original full JSON is also retained in the evidence ZIP",
+  "all_new_claims_pending_independent_review": true
+}
