@@ -32,3 +32,9 @@ PENDING_C2 is an independent evidence gate, not a finding of mathematical
 falsity. C1 has not executed arithmetic or authorized new finite work.
 A machine PASS does not by itself establish mathematical acceptance.
 Novelty is NOT_ASSESSED and formal verification was not performed.
+
+New PR81 1e2081d3 delta: the parallel-edge lower bound and strict condition
+KA+KB>J/(32AB) are ACCEPTED_SCOPED. Universal non-strict coverage and its
+equality surface remain OPEN. New checker/output are SOURCE_ONLY.
+The new PR82/86/88/91 heads are frozen but have no final FIRST verdict
+at this checkpoint.

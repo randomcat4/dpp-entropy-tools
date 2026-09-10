@@ -86,3 +86,20 @@ equations still displayed in the main file. No mathematical execution,
 new author source, new theory or finite contract was used for these
 report clarifications. Current overview documents now state the final
 scoped conclusions; the historical unit reports remain unchanged.
+
+The next authorized intake resolved actual heads for PR81/82 successors
+and queued PR86/88/91. PR81 1e2081d3 and PR82 365347e9 returned to their
+original reviewers; PR86 bd12e609 used the released PR80 reviewer context.
+PR88 6c8ad2ea and PR91 c7a072ec were frozen for sequential slot reuse.
+All 49 changed source files were Git/SHA256 verified before review.
+Public claims register the exact heads, including the observed PR82/PR91
+advances, and exclude later live changes. No new arithmetic contract,
+primary instance or theory route is introduced.
+
+PR81 1e20's three reports completed and were read in full by C1. The
+parallel-edge sufficient condition is analytically accepted with strict
+inequality; the universal non-strict condition and its equality surface
+remain open. C1 clarified that recovering the old coarse sufficient
+condition does not by itself demonstrate a strictly larger actual DPP
+acceptance region. All checker/output claims remain source-only. The
+same reviewer then continued to PR88 using only its frozen source packet.

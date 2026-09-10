@@ -1,8 +1,9 @@
 # C1 bounded FIRST: PR79 through PR82
 
-All explicitly assigned original and successor source/evidence FIRSTs are
-COMPLETE at the exact heads below. Review completion does not accept every
-author claim. Original reports and every previous delta report are preserved.
+The preceding original and successor source/evidence FIRSTs are COMPLETE
+at the exact heads below. A newly authorized intake follows in its own
+section. Review completion does not accept every author claim. Original
+reports and every previous delta report are preserved.
 
 | PR | Latest reviewed author head | Current FIRST conclusion |
 |---|---|---|
@@ -47,3 +48,27 @@ C1 performed no arithmetic execution, author/checker execution, new finite
 contract, author edit, SECOND or merge. C3 owns isolated SECOND and sole
 integration. No later live author head is included. Novelty is NOT_ASSESSED;
 formal verification was not performed.
+
+## New intake checkpoint
+
+PR81's additional four-file delta is COMPLETE at
+`1e2081d374edeca1533c05356afa38e052f9f78e`. Its strict parallel-edge
+sufficient condition KA+KB>J/(32AB) is ACCEPTED_SCOPED and recovers the
+earlier coarse condition. The universal non-strict condition and equality
+surface remain open; checker and output claims remain source-only. See
+[review](units/pr81/successor_1e20_review.md),
+[static evidence](units/pr81/successor_1e20_code.md),
+[source binding](units/pr81/SUCCESSOR_1E20_BINDING.json), and
+[report binding](units/pr81/SUCCESSOR_1E20_REPORT_BINDING.json).
+
+The remaining new units are frozen, with no new verdict at this checkpoint:
+
+| PR | Frozen author head | Source binding | FIRST state |
+|---|---|---|---|
+| 82 | 365347e9933f30af64e63c33fc403b3c4fbdb3fa | [seven-file delta](units/pr82/SUCCESSOR_3653_BINDING.json) | In progress |
+| 86 | bd12e6094e098499fae7e01729a4b29f021a14e2 | [18 files](units/pr86/SOURCE_BINDING.json) | In progress |
+| 88 | 6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c | [six files](units/pr88/SOURCE_BINDING.json) | In progress in a released context |
+| 91 | c7a072ec4eea0c5b0f445bca5796873a9e234948 | [14 files](units/pr91/SOURCE_BINDING.json) | Frozen; queued for an existing context |
+
+No acceptance is inherited by these later sources. Their author compute
+requests are review inputs only, not execution authorization.

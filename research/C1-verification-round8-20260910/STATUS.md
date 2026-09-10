@@ -1,7 +1,8 @@
 # Current scoped FIRST status
 
-All assigned reviews are COMPLETE. The following are the current scoped
-conclusions; historical reports remain unchanged.
+The preceding assigned reviews are COMPLETE. The following records their
+scoped conclusions; the new intake checkpoint is recorded below.
+Historical reports remain unchanged.
 
 **PR79 at ae1149f2.** The text now distinguishes the explicit upper budget
 from the actual curvature tail and separates positive-interval coverage
@@ -66,3 +67,18 @@ these deltas. No fixed finite PASS transfers to a different claim.
 C1 performed source/evidence FIRST only. No arithmetic, author/checker
 execution, new C2 contract, author edit, SECOND, merge or formal check.
 Novelty is NOT_ASSESSED.
+
+**New PR81 delta at 1e2081d3: COMPLETE / ACCEPTED_SCOPED.** The optimal
+edge conductances and opposite-edge parallel sums give strict full
+Shannon Hessian negativity under the actual condition
+KA+KB>J/(32AB). The new lower bound recovers J<12AB; no strictly larger
+actual DPP acceptance region is inferred just from that implication.
+The universal non-strict inequality, equality surface and general
+half-leaf/missing-edge problems remain open. The failure ledger correctly
+separates failed sufficient methods from entropy counterexamples.
+The added checker and output are source-only. See the
+[delta report](units/pr81/successor_1e20_review.md).
+
+PR82 365347e9, PR86 bd12e609, PR88 6c8ad2ea and PR91 c7a072ec are a new
+explicit intake. Their immutable sources are bound in the README checkpoint;
+no completed FIRST verdict for these four packets is recorded yet.

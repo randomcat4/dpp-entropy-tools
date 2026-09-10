@@ -1,0 +1,189 @@
+{
+  "head": "bd12e6094e098499fae7e01729a4b29f021a14e2",
+  "review_scope": "Explicitly assigned new source/evidence FIRST; no earlier acceptance inherited",
+  "pr": 86,
+  "files": [
+    {
+      "status": "added",
+      "lines": 67,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/README.md",
+      "additions": 67,
+      "git_blob": "8039b08ef693c702b6dacf64734454aba574e0c9",
+      "bytes": 10275,
+      "sha256": "8f3d4f919947fc364369311c9044e3a5a5de6262a44ce7fc23e0a65ca94bdd5e"
+    },
+    {
+      "status": "added",
+      "lines": 1,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/certificate.json",
+      "additions": 1,
+      "git_blob": "fb4f1bb83da82483007b5bccb39300c2d997f103",
+      "bytes": 7170,
+      "sha256": "69c4a7344c6cd5b04916df8f25646502ba17dbcdd324c7aef233a6f70b99b948"
+    },
+    {
+      "status": "added",
+      "lines": 36,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/certificate_stdout.txt",
+      "additions": 36,
+      "git_blob": "13ae00813d4580055c8b57bc275f406520746f30",
+      "bytes": 2127,
+      "sha256": "04f339afc75bfc593209f71abbc2d3db79fd597f0fcb56b1dad8de0777f5f8e6"
+    },
+    {
+      "status": "added",
+      "lines": 163,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/certify.py",
+      "additions": 163,
+      "git_blob": "a1783b51a0b48bac3571b8d6555006a3a8b75b42",
+      "bytes": 7728,
+      "sha256": "b9eb621b947d64e47f886f4a8606855079f4a29f03c735fcb8f0ccb333c445f8"
+    },
+    {
+      "status": "added",
+      "lines": 194,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/certify_full_square.py",
+      "additions": 194,
+      "git_blob": "a4708c36ee546d21dd0e5b183ab1d840cebf1135",
+      "bytes": 8082,
+      "sha256": "4c6d3c14433b019ab6d1a5ee7dff59ebe35c9ad5d3094b69720384f38f34d880"
+    },
+    {
+      "status": "added",
+      "lines": 122,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/diagonal_extension_certificate.json",
+      "additions": 122,
+      "git_blob": "5c090fe2be27dc58e80dcd98f95898e76980fb0e",
+      "bytes": 8819,
+      "sha256": "67159be6d4077ddd639e7113d5a5cdc59e33da534dabf279b8b6156b58c0cf70"
+    },
+    {
+      "status": "added",
+      "lines": 115,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/dilute.py",
+      "additions": 115,
+      "git_blob": "18bc874b70f1047217c5af388a97c3ca6d0f099e",
+      "bytes": 5038,
+      "sha256": "3c87c86bce0cea98756d98241f560d09ec0a224a535889fbf36facca7742cb95"
+    },
+    {
+      "status": "added",
+      "lines": 1,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/dilute_certificate.json",
+      "additions": 1,
+      "git_blob": "c84cb30d816b5639462a836f423a6258fd13dba5",
+      "bytes": 4094,
+      "sha256": "aebf57c5f5c2316f973b1eb5f11724d6e14e926f855682c055dec10969fbbc2d"
+    },
+    {
+      "status": "added",
+      "lines": 162,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/dilute_chord_theorem.md",
+      "additions": 162,
+      "git_blob": "1ca6169c67a76693477ab1ed49e407c7cb6dbab6",
+      "bytes": 10018,
+      "sha256": "59216fa189a14b7a6f739becbfc2fade1a0bb06307ad7f06434abb4e7a7d4965"
+    },
+    {
+      "status": "added",
+      "lines": 2,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/dilute_stdout.txt",
+      "additions": 2,
+      "git_blob": "e14f4dbbc58da3441f3a53715612b803a799eee4",
+      "bytes": 1248,
+      "sha256": "083050d009f548fdc2d34b70e649ed454db3aa40b43bc79a27991725bee28c6d"
+    },
+    {
+      "status": "added",
+      "lines": 133,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/edge_extension_certificate.json",
+      "additions": 133,
+      "git_blob": "032081e09c6d9bb41324bc92cf2acc6096a849ba",
+      "bytes": 10807,
+      "sha256": "8c4a4cfd6595fc45204a1c1ec8e2ae8a0ebd1e078a191f990137aa24866ae14e"
+    },
+    {
+      "status": "added",
+      "lines": 139,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/equal_angle_diagonal.md",
+      "additions": 139,
+      "git_blob": "b1379224077ecabaf4cc5327f7391498cf0b7a61",
+      "bytes": 5982,
+      "sha256": "18eea57ad6e921e78e21c5e6a6a1a4c935ec3080079832aa213a7e0490169ac8"
+    },
+    {
+      "status": "added",
+      "lines": 151,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/extend_diagonal.py",
+      "additions": 151,
+      "git_blob": "c32176c2269ae8d732789697fcd8330eb2f8733d",
+      "bytes": 5772,
+      "sha256": "003744273bacb1dbb1e624a82477983974c41c56ca272934b531fec38bfb9fb3"
+    },
+    {
+      "status": "added",
+      "lines": 306,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/extend_edges.py",
+      "additions": 306,
+      "git_blob": "422f1b758a04e9bf2b7b2e388c225fc774235b80",
+      "bytes": 11605,
+      "sha256": "dc8ae4e7061523960c14e12d74f375d922bbcdcfef96546db11d29e475e2c6a0"
+    },
+    {
+      "status": "added",
+      "lines": 227,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/fresh_recheck_and_edge_extension.md",
+      "additions": 227,
+      "git_blob": "f1caf9a17531849a06442dd43889ec29ee941a18",
+      "bytes": 9890,
+      "sha256": "29216815a1b9551fa7d10f78e8a7df2413c77f5e84db4328f0df960e861fe264"
+    },
+    {
+      "status": "added",
+      "lines": 167,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/full_canonical_square.md",
+      "additions": 167,
+      "git_blob": "1ae5a27501bb463f7c4aad2b491066064bbec24c",
+      "bytes": 7329,
+      "sha256": "2e83d65d1efcf7989db0b85ee0b1571f36013749fc03ab514ff9e49c2b4f6c5e"
+    },
+    {
+      "status": "added",
+      "lines": 222,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/rank2_atoms_and_angular_box.md",
+      "additions": 222,
+      "git_blob": "03118dc0665f6cabfa94205a3c520ecc9bd3b8e1",
+      "bytes": 14096,
+      "sha256": "cb7a339a788a96efa91e99455da2e52cf10217da6486852b16638b0b74c1fcd4"
+    },
+    {
+      "status": "added",
+      "lines": 153,
+      "deletions": 0,
+      "path": "research/N4/I05_30_20260910/thinning_star_and_orthogonal_support.md",
+      "additions": 153,
+      "git_blob": "4097ee4d9ab57beccf7a3ec2ce05e1718306e21d",
+      "bytes": 6732,
+      "sha256": "1e6516f25c98f9964907e868545a4f180d8c9f9b9dfcc0ccbfdee205293b6abe"
+    }
+  ],
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/65e59a46b49cd2dbb5c779a4cfae8cef26441984...bd12e6094e098499fae7e01729a4b29f021a14e2"
+}

@@ -35,3 +35,17 @@ Git's object digest and a recorded SHA256. The three original reviewers
 were reused, without descendants. New finite assertions do not inherit old
 machine PASS results. PR82 may reuse only the previously bound six pure
 PR66/PR53 source files; reviewer opinions are not source premises.
+
+The next intake was explicitly authorized with an instruction to resolve
+actual current heads before review. PR81 is frozen at
+`1e2081d374edeca1533c05356afa38e052f9f78e` relative to d99550bf, and PR82 at
+`365347e9933f30af64e63c33fc403b3c4fbdb3fa` relative to 6ecc004a. PR82 had
+advanced beyond the coordinator's last-observed c4402e7. New units PR86,
+PR88 and PR91 are frozen respectively at
+`bd12e6094e098499fae7e01729a4b29f021a14e2`,
+`6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c`, and
+`c7a072ec4eea0c5b0f445bca5796873a9e234948`, against their original source
+base 65e59a46. PR91 had advanced beyond the last-observed 110559a.
+The four/seven/eighteen/six/fourteen changed files were retrieved from
+immutable blobs and Git/SHA256 verified. Reviewers use the three existing
+contexts sequentially, without descendants or later-head inheritance.

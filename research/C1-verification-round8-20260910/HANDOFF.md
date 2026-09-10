@@ -56,3 +56,18 @@ C1 performed no arithmetic execution, author/checker execution, author
 edit, new C2 contract, SECOND or merge. C3 alone owns isolated SECOND and
 integration. No later author head, whole-interval upgrade, novelty or
 formal verification is implied by review completion.
+
+## New intake checkpoint
+
+The four-file PR81 delta d99550bf to
+`1e2081d374edeca1533c05356afa38e052f9f78e` has now completed FIRST.
+Its [parallel-edge review](units/pr81/successor_1e20_review.md) accepts
+the strict sufficient condition KA+KB>J/(32AB), retaining full physical
+directions and the previous fixed-shape closure. Non-strict equality and
+universal coverage remain open; same-author checker PASS is not inherited.
+This is separately ready for a source-only isolated delta SECOND.
+
+PR82 365347e9, PR86 bd12e609, PR88 6c8ad2ea and PR91 c7a072ec have frozen
+source bindings but their FIRSTs are not complete at this checkpoint.
+Do not infer acceptance from the earlier heads or from these source-only
+bindings. No author compute request is executed by this intake.
