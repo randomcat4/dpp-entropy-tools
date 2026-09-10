@@ -1,0 +1,32 @@
+{
+  "status": "ACCEPTED_SCOPED",
+  "repository": "randomcat4/dpp-entropy-tools",
+  "reviewed_pr": 102,
+  "reviewed_commit": "16a25c3810977d67207a95f935990df0a807bff9",
+  "review_kind": "independent mathematical/source FIRST for the general multiple-boundary analytic unit",
+  "included_source": [
+    {"path": "research/I05-30-multiple-endpoint-20260910/RESULT.md", "blob": "4e9717293099472e51440c97ace685a5c613dd04", "scope": "Sections 1-3"},
+    {"path": "research/I05-30-multiple-endpoint-20260910/ADDENDUM_TWO_SCALE_STABILITY.md", "blob": "59025a1d65c21ff0b94df19194eb61d4e656604a", "scope": "Sections 1-5"},
+    {"path": "research/I05-30-multiple-endpoint-20260910/README.md", "blob": "70f8d017a0b503ed7fa614aa513f3880705d0c28"},
+    {"path": "research/I05-30-multiple-endpoint-20260910/REVIEW_HANDOFF.md", "blob": "a75e37c467a8c72a4249e6091fd00b963c8eb91a"},
+    {"path": "research/I05-30-multiple-endpoint-20260910/SOURCES_AND_FAILURES.md", "blob": "080c01c1e0a9fbe10bb1ae0cc3458bd5b5d0f8c2"}
+  ],
+  "accepted_premise": {
+    "checkpoint_path": "docs/verification_round4_20260909/accepted_pr58.md",
+    "checkpoint_blob": "dadf6976fb422700789bf7fdd2eb045dfe0aee51",
+    "author_head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+    "source_path": "research/I05-23-middle-20260909/RESULT.md",
+    "source_blob": "7e981841708a117a2f07852f10eb7b4a53f93515"
+  },
+  "excluded_source": [
+    "RESULT.md Sections 4-7",
+    "ADDENDUM_TWO_SCALE_STABILITY.md Section 6",
+    "ADDENDUM_SIMULTANEOUS_ENDPOINT.md",
+    "all code, fixtures, outputs, arithmetic, and explicit whole-chord constants"
+  ],
+  "execution": "NOT_RUN_BY_REVIEWER",
+  "formal_verification": "NOT_ASSESSED",
+  "novelty": "NOT_ASSESSED",
+  "second_review": "NOT_PERFORMED",
+  "merge": "NOT_PERFORMED"
+}
