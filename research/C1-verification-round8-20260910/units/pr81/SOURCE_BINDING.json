@@ -1,0 +1,16 @@
+{
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "head": "449465e2b424c7f284bf4e8317d95966f6743371",
+  "pr": 81,
+  "files": [
+    {
+      "lines": 279,
+      "bytes": 10770,
+      "blob": "ad51fb200fb44e888025507f57189d55ec7dbd1a",
+      "path": "research/I05-22-R5-logmean-imbalance/proof.md",
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Source-only immutable freeze; review not started; no verdict inherited",
+  "file_count": 1
+}

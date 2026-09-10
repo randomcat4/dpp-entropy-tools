@@ -1,0 +1,30 @@
+{
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "head": "bee0e5b5264ced09feb6403a718e25f835e91d21",
+  "pr": 79,
+  "files": [
+    {
+      "lines": 126,
+      "bytes": 7202,
+      "blob": "271ff817964908670585ac082264143c6d9e715d",
+      "path": "research/I05-DPP-27-rate-curvature-20260910/RESULT.md",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 17,
+      "bytes": 660,
+      "blob": "b7c0184fb8fdb1255e24f2054627a9d999a4e85a",
+      "path": "research/I05-DPP-27-rate-curvature-20260910/run_record.txt",
+      "download_hash_verified": true
+    },
+    {
+      "lines": 55,
+      "bytes": 1639,
+      "blob": "1e0e2870cc5186fd04c06e35e39609317a15dd43",
+      "path": "research/I05-DPP-27-rate-curvature-20260910/tail_budget.py",
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Source-only immutable freeze; review not started; no verdict inherited",
+  "file_count": 3
+}

@@ -1,0 +1,16 @@
+{
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "head": "2e21cc4abd67f5b8ab486d1f61a43b4b4fb1ba9e",
+  "pr": 82,
+  "files": [
+    {
+      "lines": 230,
+      "bytes": 12377,
+      "blob": "7c744e1ebde320bdd7519b4b78ce31d36d1ff5c4",
+      "path": "research/I05-DPP-31-20260910/README.md",
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Source-only immutable freeze; review not started; no verdict inherited",
+  "file_count": 1
+}
