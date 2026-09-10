@@ -1,0 +1,187 @@
+{
+  "review": {
+    "name": "pr81_second",
+    "role": "independent SECOND verifier",
+    "scope": "Static source/hash review of frozen PR81 packet only",
+    "current_date": "2026-09-10"
+  },
+  "git_binding": {
+    "pr": 81,
+    "head": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac"
+  },
+  "files": [
+    {
+      "path": "input/coupled_gram_fixed_shape.md",
+      "absolute_path": "docs/verification_round4_20260909/pr81_second/input/coupled_gram_fixed_shape.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/coupled_gram_fixed_shape.md",
+      "head": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac",
+      "expected_git_blob": "d4ce531dcbe8aabc6ea0224b0642ac045d829987",
+      "observed_git_blob": "d4ce531dcbe8aabc6ea0224b0642ac045d829987",
+      "expected_sha256": "d50f7cb0af86c26518a8f7dec03f7b98cb01de365853e2ba198c2d4322d130af",
+      "observed_sha256": "d50f7cb0af86c26518a8f7dec03f7b98cb01de365853e2ba198c2d4322d130af",
+      "status": "MATCH",
+      "lines_read": "1-393"
+    },
+    {
+      "path": "input/proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr81_second/input/proof.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/proof.md",
+      "head": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac",
+      "expected_git_blob": "ad51fb200fb44e888025507f57189d55ec7dbd1a",
+      "observed_git_blob": "ad51fb200fb44e888025507f57189d55ec7dbd1a",
+      "expected_sha256": "2b6b61248552990bf93e9785b16b9b82656ba2b8aeb51b5bcfe315f4dbed8bfc",
+      "observed_sha256": "2b6b61248552990bf93e9785b16b9b82656ba2b8aeb51b5bcfe315f4dbed8bfc",
+      "status": "MATCH",
+      "lines_read": "1-279"
+    },
+    {
+      "path": "pr70_source/proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr81_second/pr70_source/proof.md",
+      "public_path": "research/I05-22-R4-paired-perspective/proof.md",
+      "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+      "expected_git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+      "observed_git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+      "expected_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+      "observed_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+      "status": "MATCH",
+      "lines_read": "1-332",
+      "use": "SOURCE_ONLY formula source"
+    },
+    {
+      "path": "pr70_source/thinning_bridge.md",
+      "absolute_path": "docs/verification_round4_20260909/pr81_second/pr70_source/thinning_bridge.md",
+      "public_path": "research/I05-22-R4-paired-perspective/thinning_bridge.md",
+      "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+      "expected_git_blob": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+      "observed_git_blob": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+      "expected_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+      "observed_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+      "status": "MATCH",
+      "lines_read": "1-112",
+      "use": "SOURCE_ONLY formula source"
+    }
+  ],
+  "anchors": [
+    {
+      "claim": "all eight entropy atoms and true Hessian terms",
+      "file": "pr70_source/proof.md",
+      "lines": "13-22",
+      "verdict": "SOURCE_ONLY"
+    },
+    {
+      "claim": "six-coordinate physical direction map and acceleration warning",
+      "file": "pr70_source/proof.md",
+      "lines": "40-60",
+      "verdict": "SOURCE_ONLY"
+    },
+    {
+      "claim": "paired scalar compression and Fisher",
+      "file": "input/proof.md",
+      "lines": "39-102",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "rectangle FTC and lambda equals J prime",
+      "file": "input/proof.md",
+      "lines": "106-124",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "complement symmetry and imbalance bounds",
+      "file": "input/proof.md",
+      "lines": "126-201",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "determinant target remains incomplete",
+      "file": "input/proof.md",
+      "lines": "248-267",
+      "verdict": "INCOMPLETE_FOR_TARGET"
+    },
+    {
+      "claim": "fixed-shape rational derivatives",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "39-54",
+      "verdict": "SOURCE_ONLY_PENDING"
+    },
+    {
+      "claim": "half-leaf Gram and rectangle inequalities",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "56-183",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "diagnostic numerical determinant sensitivity",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "184-220",
+      "verdict": "SOURCE_ONLY_PENDING"
+    },
+    {
+      "claim": "relaxed tuple Gram residuals, minors, determinant",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "222-259",
+      "verdict": "SOURCE_ONLY_PENDING"
+    },
+    {
+      "claim": "relaxed tuple nonrealizability",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "261-294",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "same-q secant constraints",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "296-336",
+      "verdict": "CORRECT"
+    },
+    {
+      "claim": "secant diagnostic and two-axis stress test",
+      "file": "input/coupled_gram_fixed_shape.md",
+      "lines": "338-379",
+      "verdict": "SOURCE_ONLY_PENDING"
+    },
+    {
+      "claim": "thinning bridge distinguishes side/conditional/full entropy",
+      "file": "pr70_source/thinning_bridge.md",
+      "lines": "5-44, 76-106",
+      "verdict": "SOURCE_ONLY"
+    }
+  ],
+  "verdicts": {
+    "binding_hashes": "CORRECT",
+    "pr70_formula_source": "SOURCE_ONLY",
+    "scalar_compression": "CORRECT",
+    "paired_fisher": "CORRECT_SOURCE_FORMULA",
+    "acceleration_and_marginal_schur_retained": "CORRECT",
+    "rectangle_ftc": "CORRECT",
+    "complement_imbalance_bounds": "CORRECT",
+    "fixed_shape_large_rationals": "SOURCE_ONLY_PENDING",
+    "half_leaf_gram": "CORRECT",
+    "rectangle_gram_ellipses": "CORRECT",
+    "relaxed_minors_determinant": "SOURCE_ONLY_PENDING",
+    "relaxed_tuple_nonrealizability": "CORRECT",
+    "same_q_secant_constraints": "CORRECT",
+    "diagnostic_numerics_and_stress_test": "SOURCE_ONLY_PENDING",
+    "full_fixed_shape_det_E_H": "INCOMPLETE",
+    "general_missing_edge_entropy": "INCOMPLETE",
+    "novelty": "NOT_ASSESSED",
+    "formal_c2_verification": "NOT_PERFORMED"
+  },
+  "restrictions_observed": {
+    "no_first_reports_opened": true,
+    "no_other_second_reports_opened": true,
+    "no_c3_opinions_opened": true,
+    "no_public_comments_opened": true,
+    "no_later_live_materials_read": true,
+    "no_forbidden_private_directory_access": true,
+    "no_checker_imported_or_executed": true,
+    "no_python_sympy_finite_enumeration_entropy_recompute": true,
+    "no_subagents": true
+  },
+  "outputs": [
+    "frozen_scope.md",
+    "review_report.md",
+    "code_review.md",
+    "source_binding.json"
+  ]
+}

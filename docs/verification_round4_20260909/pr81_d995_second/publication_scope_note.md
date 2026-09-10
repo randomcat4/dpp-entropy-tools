@@ -1,0 +1,5 @@
+# PR81 d995 original/delivered source mapping
+
+C3 verified all five original public Git blobs and SHA-256 values, all five delivered hashes/byte lengths/line counts in the SECOND report, and the input-binding digest. Reapplying the four specified nonmathematical review-history/status replacements reproduces every delivered byte. Changed lines are PR81 proof.md:5,27, shared_corner_cell_theorem.md:5, and PR70 proof.md:5. No formula changed; original and delivered hashes remain separate. SECOND independently checked delivered integrity, while this note supplies the integration-layer original-object/redaction comparison.
+
+Public report source links are mapped to immutable original GitHub lines. Redactions preserve line numbers; the review-history lines themselves are not used as mathematical premises. Local/private operational path aliases are removed in public copies; all mathematical verdicts and limitations are preserved. This metadata work runs no mathematical checker and certifies no printed large-rational minors or author output.

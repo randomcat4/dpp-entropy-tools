@@ -1,0 +1,60 @@
+{
+  "note": "Local paths replaced, prohibited operational-directory literal withheld, and source line links mapped to immutable GitHub original lines. Mathematical statements and verdicts preserved.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "e50d0d0d919ba7d132fda8f28dbb8c6afd58e659e3833ccc8c4b575582125f28",
+      "published_copy_sha256": "8c3a2b289d2e28c323b6e79adfb481676f9bcdd41f3be13ddcf361210d995571"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "7936008cd76310f6eb67b433dd40e557ffc5eee4130737b36aa8d63aea6e49b2",
+      "published_copy_sha256": "b7639315e7e2939575fd01a97b6639d33bd3de105daaab5230abd78ad2b5fc59"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "cf705e689f58265d79ef75f8c78259dbfc82a929da353c929a980af872847a28",
+      "published_copy_sha256": "636e4dbc78424430702d55926ff2cf2e20cf4124706f527e92aec15f2d97ad7b"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "62a86f982f494ad12aaa094034ab491871553b7c8d85e2df7b6133fe780a32a5",
+      "published_copy_sha256": "fea3a4ef543c90ae3eaf05aa156873b3accb16aa61313baa812a0e5f7a904b01"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "663105cd5ad007189399339a17fa496641d9e17fe5f6fc42291b99f9db747535",
+      "published_copy_sha256": "663105cd5ad007189399339a17fa496641d9e17fe5f6fc42291b99f9db747535"
+    },
+    {
+      "file": "publication_scope_note.md",
+      "original_sha256": "3b940d49ee659441c5e8834ed9063d47691c6e55d50733d73577fa40b7d4e0fb",
+      "published_copy_sha256": "3b940d49ee659441c5e8834ed9063d47691c6e55d50733d73577fa40b7d4e0fb"
+    },
+    {
+      "file": "delta_1e20_scope.md",
+      "original_sha256": "36b10167a615a580c272d9c2d60d43eb1be795dbb4f390001dac01286bcb307c",
+      "published_copy_sha256": "5d4ae43331d0d1796787f389fd4c0922e5d3dce11afda726614257906bf77842"
+    },
+    {
+      "file": "delta_1e20_review.md",
+      "original_sha256": "27067ea9619d10e36d44b7d5fec76cdf7efac45903d3f7a4840a94cea401eee5",
+      "published_copy_sha256": "93caef0fbd130d4298bf6fccfc6bd96c537e5d0dfdb3346ab6a609e713afe270"
+    },
+    {
+      "file": "delta_1e20_code.md",
+      "original_sha256": "853448a4957926bf2733f9bd741dd49cdb5fef838ee89ec267f4c5c0aa292fae",
+      "published_copy_sha256": "639e27322e919b0c1d29b8b6f35df8bbab4015281fb8cb0632b9715a0936da3f"
+    },
+    {
+      "file": "delta_1e20_source_binding.json",
+      "original_sha256": "b36c6c0a484a58bb3d4c7fabee7a0301f389d8afe6b53db5352b4e27917f2588",
+      "published_copy_sha256": "28fa2832146c31079f8de0d81f80e07cf8b45b692d753aa47db1b24c95e7076f"
+    },
+    {
+      "file": "delta_1e20_input_binding.json",
+      "original_sha256": "2e54f251ea6dbf44c40c58a749336d645573b52961f751a182e29ec073bbf186",
+      "published_copy_sha256": "2e54f251ea6dbf44c40c58a749336d645573b52961f751a182e29ec073bbf186"
+    }
+  ]
+}

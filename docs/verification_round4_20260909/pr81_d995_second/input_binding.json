@@ -1,0 +1,77 @@
+{
+  "pr": 81,
+  "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+  "previous_head": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac",
+  "files": [
+    {
+      "path": "input/coupled_gram_fixed_shape.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/coupled_gram_fixed_shape.md",
+      "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+      "original_git_blob": "d4ce531dcbe8aabc6ea0224b0642ac045d829987",
+      "original_sha256": "d50f7cb0af86c26518a8f7dec03f7b98cb01de365853e2ba198c2d4322d130af",
+      "delivered_sha256": "d50f7cb0af86c26518a8f7dec03f7b98cb01de365853e2ba198c2d4322d130af",
+      "line_count": 393,
+      "redactions": []
+    },
+    {
+      "path": "input/proof.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/proof.md",
+      "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+      "original_git_blob": "ad51fb200fb44e888025507f57189d55ec7dbd1a",
+      "original_sha256": "2b6b61248552990bf93e9785b16b9b82656ba2b8aeb51b5bcfe315f4dbed8bfc",
+      "delivered_sha256": "f95f7c7dc75c1919aadda5d5f920363dd635e065f0a7a804a1864d0896a3b2de",
+      "line_count": 279,
+      "redactions": [
+        {
+          "line": 5,
+          "kind": "review-history paragraph only; no formula removed"
+        },
+        {
+          "line": 27,
+          "kind": "review-status adjective removed; mathematical statement unchanged"
+        }
+      ]
+    },
+    {
+      "path": "input/shared_corner_cell_theorem.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/shared_corner_cell_theorem.md",
+      "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+      "original_git_blob": "a45186d74f8ea9e512d46bc7ea30380149ec9a33",
+      "original_sha256": "8b5f34ee7c10b51044110e786a4dba8422bab6ba4f0b37ab9887edce4d73422c",
+      "delivered_sha256": "01b4fb2b469dd78d6b10baa78803f245f6afbfcb82aae7f5235f9f09543b7e5b",
+      "line_count": 373,
+      "redactions": [
+        {
+          "line": 5,
+          "kind": "review-history paragraph only; no formula removed"
+        }
+      ]
+    },
+    {
+      "path": "pr70_source/proof.md",
+      "public_path": "research/I05-22-R4-paired-perspective/proof.md",
+      "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+      "original_git_blob": "5732657cd5e5ce87d2d2409a4556379228ae3145",
+      "original_sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+      "delivered_sha256": "74453a3061d5a1cfd894b583663c7af682b8e4976697fe22cde503a5e6ab7bf8",
+      "line_count": 332,
+      "redactions": [
+        {
+          "line": 5,
+          "kind": "nonmathematical public-comment status sentence only"
+        }
+      ]
+    },
+    {
+      "path": "pr70_source/thinning_bridge.md",
+      "public_path": "research/I05-22-R4-paired-perspective/thinning_bridge.md",
+      "head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+      "original_git_blob": "6e10862d47ca0e66c0fc0b468342688f6648f761",
+      "original_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+      "delivered_sha256": "3b664d7872fcf172b7a2971dbaf3bde9db0eab0874f632d9c517ba742fdefa57",
+      "line_count": 112,
+      "redactions": []
+    }
+  ],
+  "scope": "Five pure author/proof source files. Review-history prose withheld with line counts preserved; formulas and mathematical premises retained. No reviewer reports or verdicts delivered. No later live source, mathematical execution, or independent arithmetic contract."
+}

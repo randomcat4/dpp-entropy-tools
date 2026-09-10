@@ -1,0 +1,82 @@
+{
+  "generated_at_utc": "2026-09-10T03:58:02.9877858Z",
+  "reviewer": "pr81_d995_second delta_1e20 independent static review",
+  "allowed_directory": "docs/verification_round4_20260909/pr81_d995_second",
+  "binding": {
+    "pr": 81,
+    "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+    "previous_head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+    "scope": "Four unchanged pure author delta files. Previously delivered own d995 author context allowed; no reviewer report, live opinion, or mathematical execution. All checker outputs SOURCE_ONLY."
+  },
+  "reused_prior_context": "Own previously read d995 five pure mathematical sources only; not re-read from sibling or later source.",
+  "verification": {
+    "binding_file_count": 4,
+    "computed_delta_file_count": 4,
+    "missing_count": 0,
+    "sha256_mismatch_count": 0,
+    "line_count_mismatch_count": 0
+  },
+  "mismatches": {
+    "missing": [],
+    "sha256_mismatches": [],
+    "line_count_mismatches": []
+  },
+  "files": [
+    {
+      "path": "delta_1e20_input_binding.json",
+      "bytes": 2031,
+      "sha256": "2e54f251ea6dbf44c40c58a749336d645573b52961f751a182e29ec073bbf186",
+      "line_count": 44,
+      "role": "binding",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e"
+    },
+    {
+      "path": "delta_1e20_input/failure_ledger_shared_corner.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/failure_ledger_shared_corner.md",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "git_blob": "2920df933887bd85fe0e449fb103002855bde9f2",
+      "binding_sha256": "a4f21633aff813e8a740b796615ec6c3d72b08c5b99d29ec0e1aefb473720615",
+      "bytes": 2908,
+      "binding_bytes": 2908,
+      "sha256": "a4f21633aff813e8a740b796615ec6c3d72b08c5b99d29ec0e1aefb473720615",
+      "line_count": 44,
+      "binding_line_count": 44
+    },
+    {
+      "path": "delta_1e20_input/shared_corner_cell_check.txt",
+      "public_path": "research/I05-22-R5-logmean-imbalance/shared_corner_cell_check.txt",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "git_blob": "f140e6320fe13950b9e25b96d4b7d17f946b118d",
+      "binding_sha256": "0471833a235cae557a22d95c842e2fe887ead5c9bb0aa5502a81544a7ce4566c",
+      "bytes": 793,
+      "binding_bytes": 793,
+      "sha256": "0471833a235cae557a22d95c842e2fe887ead5c9bb0aa5502a81544a7ce4566c",
+      "line_count": 18,
+      "binding_line_count": 18
+    },
+    {
+      "path": "delta_1e20_input/shared_corner_parallel_refinement.md",
+      "public_path": "research/I05-22-R5-logmean-imbalance/shared_corner_parallel_refinement.md",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "git_blob": "2c4a6d065caca66d9db43fd52a827c2f4ffbe1d6",
+      "binding_sha256": "c562e2dbf99dcc801fa725aee48fa5cbbc674f314def4a7eda733a544d3cf8e4",
+      "bytes": 4666,
+      "binding_bytes": 4666,
+      "sha256": "c562e2dbf99dcc801fa725aee48fa5cbbc674f314def4a7eda733a544d3cf8e4",
+      "line_count": 130,
+      "binding_line_count": 130
+    },
+    {
+      "path": "delta_1e20_input/verify_shared_corner_cell.py",
+      "public_path": "research/I05-22-R5-logmean-imbalance/verify_shared_corner_cell.py",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "git_blob": "95478434dc98d4b8beab2e3d1f801f1c64e7f758",
+      "binding_sha256": "ea2cee266e78ea1d721961fe3ce2abf1b3a0e8f71f48caedd0fc138cd0a3ff83",
+      "bytes": 12804,
+      "binding_bytes": 12804,
+      "sha256": "ea2cee266e78ea1d721961fe3ce2abf1b3a0e8f71f48caedd0fc138cd0a3ff83",
+      "line_count": 419,
+      "binding_line_count": 419
+    }
+  ]
+}

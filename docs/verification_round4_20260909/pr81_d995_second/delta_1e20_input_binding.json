@@ -1,0 +1,44 @@
+{
+  "pr": 81,
+  "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+  "previous_head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+  "files": [
+    {
+      "path": "delta_1e20_input/failure_ledger_shared_corner.md",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "public_path": "research/I05-22-R5-logmean-imbalance/failure_ledger_shared_corner.md",
+      "git_blob": "2920df933887bd85fe0e449fb103002855bde9f2",
+      "sha256": "a4f21633aff813e8a740b796615ec6c3d72b08c5b99d29ec0e1aefb473720615",
+      "bytes": 2908,
+      "line_count": 44
+    },
+    {
+      "path": "delta_1e20_input/shared_corner_cell_check.txt",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "public_path": "research/I05-22-R5-logmean-imbalance/shared_corner_cell_check.txt",
+      "git_blob": "f140e6320fe13950b9e25b96d4b7d17f946b118d",
+      "sha256": "0471833a235cae557a22d95c842e2fe887ead5c9bb0aa5502a81544a7ce4566c",
+      "bytes": 793,
+      "line_count": 18
+    },
+    {
+      "path": "delta_1e20_input/shared_corner_parallel_refinement.md",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "public_path": "research/I05-22-R5-logmean-imbalance/shared_corner_parallel_refinement.md",
+      "git_blob": "2c4a6d065caca66d9db43fd52a827c2f4ffbe1d6",
+      "sha256": "c562e2dbf99dcc801fa725aee48fa5cbbc674f314def4a7eda733a544d3cf8e4",
+      "bytes": 4666,
+      "line_count": 130
+    },
+    {
+      "path": "delta_1e20_input/verify_shared_corner_cell.py",
+      "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+      "public_path": "research/I05-22-R5-logmean-imbalance/verify_shared_corner_cell.py",
+      "git_blob": "95478434dc98d4b8beab2e3d1f801f1c64e7f758",
+      "sha256": "ea2cee266e78ea1d721961fe3ce2abf1b3a0e8f71f48caedd0fc138cd0a3ff83",
+      "bytes": 12804,
+      "line_count": 419
+    }
+  ],
+  "scope": "Four unchanged pure author delta files. Previously delivered own d995 author context allowed; no reviewer report, live opinion, or mathematical execution. All checker outputs SOURCE_ONLY."
+}
