@@ -1,6 +1,6 @@
 # I05-22 R5 continuation: a four-scalar rectangle Gram inequality and a fixed-shape determinant audit
 
-Status: **PROVED (author; PENDING_REVIEW)** for the rectangle inequality in Sections 2-3 and the exact relaxed non-sufficiency witness in Section 5. **INCOMPLETE** for the actual full determinant sign away from already accepted scopes. Numerical values in Section 4 are diagnostics only, not independent evidence or interval certificates. Novelty is unassessed.
+Status: **PROVED (author; PENDING_REVIEW)** for the rectangle inequality in Sections 2-3, the exact relaxed non-sufficiency witness in Section 5, and the same-q edge-placement inequality in Section 6. **INCOMPLETE** for the actual full determinant sign away from already accepted scopes. Numerical values in Section 4 are diagnostics only, not independent evidence or interval certificates. Novelty is unassessed.
 
 This continuation stays on PR81's branch and uses the accepted PR70 full core exactly as inherited in `proof.md`: complete eight-event Shannon entropy, true kernel-affine directions, the complete paired Fisher `F`, the positive update `R`, marginal Fisher `diag(1/v,1/w)`, and all mixed directions are retained. No PR60 Lambda-zero arithmetic is rerun. Issue73's 273 points / three filaments / shared 2700-second contract is not started or duplicated.
 
@@ -293,15 +293,86 @@ k+lambda/2   = h_B(q+A).                              (11)
 
 These are the minimal realizability data not captured by the previous global scalar bounds or by (5)-(7).
 
-## 6. Concrete mathematical outcome and next analytic target
+## 6. Same-q edge-placement inequality
+
+The same strict concavity used above gives more than the rectangle integral estimate. For any positive concave differentiable `u`, the secant slope lies between its endpoint derivatives. Applying this to `u_A=h_A^(-1/2)` on `[q,q+B]` gives
+
+```text
+u_A'(q)
+ > [u_A(q+B)-u_A(q)]/B
+ > u_A'(q+B),                                        (12)
+```
+
+with strict inequalities because `u_A` is strictly concave and `B>0`. Since
+
+```text
+u_A'(t)=-h_A'(t)/(2 h_A(t)^(3/2)),
+h_A'(t)=f(t+A)-f(t),                                 (13)
+```
+
+(12) is an explicit same-q constraint whose derivative coefficients are rational functions of the four DPP corners. For `x=y=1/2`, substitute
+
+```text
+h_A(q)=ell-lambda/2,
+h_A(q+B)=ell+lambda/2
+```
+
+to obtain
+
+```text
+-[f(q+A)-f(q)]/[2(ell-lambda/2)^(3/2)]
+ > { 1/sqrt(ell+lambda/2)-1/sqrt(ell-lambda/2) }/B
+ > -[f(q+A+B)-f(q+B)]/[2(ell+lambda/2)^(3/2)].       (14)
+```
+
+Swapping A and B yields the companion inequality for `k±lambda/2`:
+
+```text
+-[f(q+B)-f(q)]/[2(k-lambda/2)^(3/2)]
+ > { 1/sqrt(k+lambda/2)-1/sqrt(k-lambda/2) }/A
+ > -[f(q+A+B)-f(q+A)]/[2(k+lambda/2)^(3/2)].         (15)
+```
+
+Unlike a free scalar range, (14)-(15) knows exactly where each opposite edge sits in the same rational q-rectangle. Together with (5)-(7), they give a strictly stronger realizability envelope while still being analytic and one-dimensional.
+
+For the relaxed negative tuple of Section 5, the A-edge values would be
+
+```text
+h_A(q)=14,
+h_A(q+B)=6.
+```
+
+At the fixed rational q, the exact endpoint derivatives are
+
+```text
+h_A'(q)=f(q+A)-f(q)<0,
+h_A'(q+B)=f(q+A+B)-f(q+B)>0.
+```
+
+Numerically the concavity secant test would require
+
+```text
+u_A'(q) > secant > u_A'(q+B),
+```
+
+but gives approximately
+
+```text
+0.09187 > 0.31722 > -0.05627,
+```
+
+whose left inequality fails. This is only a compact display; exact nonrealizability was already proved rationally by (10). The point is structural: the new secant inequality rejects the same false determinant point for the correct reason—its two opposite edge integrals cannot occur at the same q.
+
+## 7. Concrete mathematical outcome and next analytic target
 
 This continuation therefore gives more than a renamed interface:
 
 1. a proved strict Cauchy/Gram theorem, (5)-(7), simultaneously coupling `ell,k,lambda,J` on an actual nonzero-Lambda DPP family;
 2. an exact fixed-shape q-derivative ledger showing the wrong-sign `J` channel in the actual determinant derivative;
 3. an exact positive-pivot relaxed negative determinant satisfying the new Gram constraints, followed by an exact proof that the tuple is not realizable;
-4. a narrowed next bridge: any successful determinant proof on the fixed shape must exploit at least one of the same-q edge-placement identities (11), rather than only independent ranges, strong convexity of `J`, or the two Gram ellipses (7).
+4. proved same-q secant constraints (14)-(15), which add the missing absolute edge placement relative to the rational corners;
+5. a narrowed next bridge: a successful determinant proof on the fixed shape must exploit the edge-placement information, not merely independent ranges, strong convexity of `J`, or the two Gram ellipses.
 
-A natural next inequality is therefore an **edge-placement refinement** of (4): combine concavity of `h_A^{-1/2}` with the known rational endpoint intervals for `f` to bound the pair `(h_A(q),h_A(q+B))` jointly as q moves. That is a one-dimensional analytic task on the fixed shape. A full long-filament interval verification remains reserved to issue73 and is not launched here.
+The next analytic task is to insert (14)-(15) into the exact derivative of `det E_H` for the fixed shape and determine whether the wrong-sign `J`/near-boundary `lambda` channels can be absorbed by the rational Fisher and edge channels. A full long-filament interval verification remains reserved to issue73 and is not launched here.
 
-Final classification: **PROVED (author; PENDING_REVIEW)** for Lemma 2.1, inequalities (4)-(7), and the exact relaxed non-sufficiency/nonrealizability witness (8)-(10). **INCOMPLETE** for `det E_H>=0` on the actual fixed shape and for the general missing-edge entropy theorem.
+Final classification: **PROVED (author; PENDING_REVIEW)** for Lemma 2.1, inequalities (4)-(7), the exact relaxed non-sufficiency/nonrealizability witness (8)-(10), and same-q inequalities (12)-(15). **INCOMPLETE** for `det E_H>=0` on the actual fixed shape and for the general missing-edge entropy theorem.
