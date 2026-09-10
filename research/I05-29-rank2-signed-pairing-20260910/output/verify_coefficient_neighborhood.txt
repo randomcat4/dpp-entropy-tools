@@ -1,0 +1,12 @@
+EXPLICIT CORRELATED KERNEL:
+A=[[1/2,1/100000],[1/100000,1/2]]; C=[[1/2,1/8],[1/8,1/2]]
+B=(1/4)[[1,1],[1,-1]]; strict legal on |t|<=1
+coefficient radius delta=1/40000; exact rational membership PASS
+max marginal-weight changes: 1/10000000000 0
+max a difference: [0.000018823623, 0.000018823624]
+max b difference: [0.0000000001066666, 0.0000000001066667]
+uniform normalized-curvature lower bound: 242629/475000 >1/2
+uniform bad-fiber upper bound at s=1/2: -274937/17000000 <0
+direct bad-fiber enclosure at s=1/2: [-0.0312907854259852, -0.0312907854259851]
+direct full t^2 I'' enclosure at s=1/2: [0.5273345452082112, 0.5273345452082113]
+PASS: exact coefficient membership, not a grid; continuum proof is author-only/PENDING_REVIEW
