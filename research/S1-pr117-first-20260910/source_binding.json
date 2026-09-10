@@ -1,0 +1,20 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 117,
+  "review_class": "independent_mathematical_FIRST",
+  "verdict": "ACCEPTED_SCOPED",
+  "reviewed_head": "70d69bf5c47282c953010518ff264cb2a7a09bf9",
+  "author_base": "bcbf7016e2abc6401b66f39ac9202d235ee32fad",
+  "review_date": "2026-09-10",
+  "files": [
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/README.md", "blob": "f791de7a0244c4d8c78ae3dfcdaf5a47ced0a4d4"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/arbitrary_A0_C4_proof.md", "blob": "4cc7de41e1c889da94b2c53327410062daf374db"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/arbitrary_A0_concavity.md", "blob": "0da9051afb4263ebd21dae880ff54fb96f4a29cb"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/operator_vs_absolute_sum_audit.md", "blob": "57b1aaf049b2218b2e9fd3e59c37c4029fbb0f8c"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/review_contract.md", "blob": "a303600a686d642023e8d103488fa5076a922694"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/source_and_failure_audit.md", "blob": "86909f9b5edfc8bbbfed9b2d3f9150d72a3f33ab"},
+    {"path": "research/I05-DPP-35-arbitrary-A0-20260910/support_count_correction.md", "blob": "bce19809dfbf2f82fc3d8780a55f52a67e6e0521"}
+  ],
+  "computation": "none",
+  "novelty": "not_assessed"
+}
