@@ -65,3 +65,15 @@ and general entropy determinant remain open. The successor's PR70 pending
 label describes its restricted predecessor inputs; the separate 9091413
 closure above supplies the fixed auxiliary witness at FIRST without being
 a premise of the new Gram proof.
+
+PR82 README-only e91c1733 has passed FIRST: the Hamiltonian coefficient
+sign, grouped finite trace-series convergence and corrected quartic target
+are explicit and valid. It is ready for the isolated text-delta SECOND.
+The unchanged p>8 files have their own completed source review: corrected
+BFG/Poisson response lemmas are accepted conditionally, the finite-memory
+remainder (6.7) is underproved, and the main file needs a correction pointer.
+The initial inherited-input limitation is now being addressed through six
+explicitly authorized pure PR66/PR53 source files. That follow-up will
+state whether the actual imports support the new application; unread input
+scope is not itself a permanent mathematical counterargument. No new theory
+or arithmetic is authorized, and (6.7) cannot be closed by metadata alone.

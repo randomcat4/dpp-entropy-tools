@@ -43,9 +43,20 @@ diagnostics and large rational relaxed determinants are SOURCE_ONLY,
 without independent arithmetic. Actual fixed-shape and general determinant
 positivity remain OPEN. No author text fix is required for this addition.
 
-PR82 5e0861e4: two-file low-regularity successor FIRST IN_PROGRESS.
-Its separate README-only e91c1733 patch is queued. No new theorem is
-accepted before the relevant review finishes.
+PR82 5e0861e4: two-file low-regularity successor source FIRST COMPLETE.
+Corrected BFG relaxation, conditional derivative-memory/response mechanism,
+two-power Poisson loss, parity reduction and the p>8 threshold are accepted
+in scope. The main file needs an inline correction pointer. The finite-memory
+boundary/remainder estimate (6.7) is INCOMPLETE_BRIDGE. The full application
+initially remained conditional on unread PR66/PR53 source inputs; a newly
+authorized six-file pure-source dependency follow-up is now IN_PROGRESS
+to resolve that avoidable input limitation. It cannot close (6.7) by binding
+alone and does not repair the original p>4 theorem. No C2 task is needed.
+
+PR82 e91c1733: separate README-only delta FIRST ACCEPTED_SCOPED. Hamiltonian
+sign/Mobius convention, fixed-length grouping of trace series, direct primary
+source wording and the corrected quartic condition are valid. No remaining
+text defect in that delta. This does not upgrade the unchanged p>8 files.
 
 PR81's PR70 dependency: the actual PR85 raw packet has passed C1 FIRST in
 PR78 at 9091413. The fixed auxiliary witness therefore no longer awaits

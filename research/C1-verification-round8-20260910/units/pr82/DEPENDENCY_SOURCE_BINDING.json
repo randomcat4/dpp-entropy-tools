@@ -1,0 +1,59 @@
+{
+  "scope": "Explicitly assigned pure-source dependency follow-up for PR82 p>8 application; no prior review opinions or author verification materials",
+  "files": [
+    {
+      "bytes": 5029,
+      "sha256": "44b8cbe40946a03080e8bec509f547c2bdc0918ff55b846eaa3d2c6dba7c569f",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/af1edaad69c4e1f5e4bbd1239b8463b56bf64075/research/I05-DPP-25-20260909/equilibrium_bridge.md",
+      "path": "research/I05-DPP-25-20260909/equilibrium_bridge.md",
+      "head": "af1edaad69c4e1f5e4bbd1239b8463b56bf64075",
+      "lines": 218,
+      "git_blob": "10c53fb59b40ab65c49059339eaa3943ba6fe628"
+    },
+    {
+      "bytes": 3429,
+      "sha256": "0279dd9b1c48f492e27909ae084d4a2e0bc2a7ff990e2e3729604bf09b4ae752",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/af1edaad69c4e1f5e4bbd1239b8463b56bf64075/research/I05-DPP-25-20260909/frozen_statement.md",
+      "path": "research/I05-DPP-25-20260909/frozen_statement.md",
+      "head": "af1edaad69c4e1f5e4bbd1239b8463b56bf64075",
+      "lines": 120,
+      "git_blob": "7c502301636b359f7f7841822d3dab1e3fa31de6"
+    },
+    {
+      "bytes": 15259,
+      "sha256": "9f8c0e0959729dc18bed4d35f42752860207df864fac847d5f6e62299e86a47c",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/af1edaad69c4e1f5e4bbd1239b8463b56bf64075/research/I05-DPP-25-20260909/proof.md",
+      "path": "research/I05-DPP-25-20260909/proof.md",
+      "head": "af1edaad69c4e1f5e4bbd1239b8463b56bf64075",
+      "lines": 627,
+      "git_blob": "33c4d372c2f3df4b7a319beb622605c3207dc3f2"
+    },
+    {
+      "bytes": 13376,
+      "sha256": "a8606092ce8bf56e0c590b89b4117cd2aeb43de54e772be27d7ead8f1172d55a",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/65e59a46b49cd2dbb5c779a4cfae8cef26441984/research/I05-DPP-21-20260909/proof.md",
+      "path": "research/I05-DPP-21-20260909/proof.md",
+      "head": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+      "lines": 341,
+      "git_blob": "877e76a94476aee8902af12f3e9d34a914088ba1"
+    },
+    {
+      "bytes": 17755,
+      "sha256": "93839094c482036b89f28319f4863f6c762b7e45afcea3de3540b13fc78f9c49",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/65e59a46b49cd2dbb5c779a4cfae8cef26441984/research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "head": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+      "lines": 473,
+      "git_blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d"
+    },
+    {
+      "bytes": 9381,
+      "sha256": "f105b80253ded39e98f03207153386ec92308d15492210189b72ede05355b311",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/blob/65e59a46b49cd2dbb5c779a4cfae8cef26441984/research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "head": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+      "lines": 268,
+      "git_blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f"
+    }
+  ]
+}

@@ -40,3 +40,10 @@ PR80 finite task must independently reconstruct from mathematical inputs;
 author scripts/output are comparison only, not independent computation.
 PR82's low-regularity delta continues separately from the newly assigned
 README-only e91c1733 convention patch. No arithmetic was performed by C1.
+
+PR82 low-regularity and README-only delta reports completed separately and
+were read in full by C1. The user then explicitly authorized six pure source
+PR66/PR53 dependency files, with no old review opinions, to resolve the
+initial inherited-input limitation for the p>8 application. That follow-up
+is in progress and preserves the real finite-memory remainder gap. README
+e91c1733 acceptance does not inherit theorem acceptance for the p>8 files.
