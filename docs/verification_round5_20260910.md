@@ -2,10 +2,11 @@
 
 ## S3 本批结论
 
-PR82、PR88、PR91、PR95、PR102 与 PR113 已在冻结头完成限定整合；“源码进入 main”不等于作者包内每个主张或输出获证。精确接受边界分别见 [PR82](verification_round5_20260910/accepted_pr82.md)、[PR88](verification_round5_20260910/accepted_pr88.md)、[PR91](verification_round5_20260910/accepted_pr91.md)、[PR95](verification_round5_20260910/accepted_pr95.md)、[PR102](verification_round5_20260910/accepted_pr102.md) 与 [PR113](verification_round5_20260910/accepted_pr113.md)。
+PR82、PR88、PR91、PR95、PR102、PR113 与 PR117 已在冻结头完成限定整合；“源码进入 main”不等于作者包内每个主张或输出获证。精确接受边界分别见 [PR82](verification_round5_20260910/accepted_pr82.md)、[PR88](verification_round5_20260910/accepted_pr88.md)、[PR91](verification_round5_20260910/accepted_pr91.md)、[PR95](verification_round5_20260910/accepted_pr95.md)、[PR102](verification_round5_20260910/accepted_pr102.md)、[PR113](verification_round5_20260910/accepted_pr113.md) 与 [PR117](verification_round5_20260910/accepted_pr117.md)。
 
 | 对象 | 本批状态 | 仍未完成 |
 | --- | --- | --- |
+| PR117，头 `70d69bf5c47282c953010518ff264cb2a7a09bf9` | 任意严格半周期偶 `A_0` 中心、任意非零半周期奇 `A_0` 方向的真实完整配置熵率局部 `C^4` 四次加强凹性 `ACCEPTED_SCOPED` | 整个合法区间、`A_0` 外符号、一般标量弦/有限实核、解析性、新颖性与形式化 |
 | PR102，头 `16a25c3810977d67207a95f935990df0a807bff9` | 任意多重/同时活动有限仿射 DPP 端点的 `H''->-infinity`，以及以前置内点余量为条件的秩二双尺度移动端点稳定 `ACCEPTED_SCOPED` | 两个作者 fixture 的 `1/100`、`1/10` 全弦常数待独立有限门；普遍 rank-two 中段/全弦、高秩层级、熵率、新颖性与形式化 |
 | PR113，头 `a2bced01cc5de30943b20387b7e1d260c384661e` | 小 Wiener `A_0` 中心的真实完整配置熵率局部四次加强凹性、逐固定阶 `C^infty` 与无任意正矩/无 `H^1` 的显式族 `ACCEPTED_SCOPED` | 一般 `A_0`、整个合法区间、解析性、任意可测符号、全局标量猜想、新颖性与形式化 |
 | PR95，头 `54d9803b29f73669b9028e3519d17493e1b81be3` | PR58 固定稠密相关 `3+3` 秩二对象的整个最大合法弦、显式移动端点邻域及一般固定维简单端点结构 `ACCEPTED_SCOPED`；PR109 独立 `477/477` 关闭有限门 | 同时/多重端点、全部稠密秩二路径的统一邻域、另一 fixture、一般混合方向、真实熵率、新颖性与形式化 |
@@ -17,6 +18,7 @@ PR82、PR88、PR91、PR95、PR102 与 PR113 已在冻结头完成限定整合；
 
 ## 合并记录
 
+- PR117 FIRST 档案 PR126 在 `b42f0fc2bccf793312298d22721ae1b7b8bd501a` 合入；作者源 PR117 在 `2f66f1a67af9e23bf77ec04f1d6f716947072394` 合入，第二父为精确冻结作者头 `70d69bf5c47282c953010518ff264cb2a7a09bf9`。
 - PR102 FIRST 档案 PR119 在 `dece41304b0612288b97576a8d7915ed0ac165f5` 合入；作者源 PR102 在 `a2cdc406ad8b04d9362a87e02a53b399827646b7` 以混合状态档案合入，第二父为冻结作者头 `16a25c3810977d67207a95f935990df0a807bff9`。
 - PR113 FIRST 档案 PR118 在 `e702f9ffbf3435229704b477c82d75dc63d9366c` 合入；作者源 PR113 在 `433dc32d02f97c801d625549a5feb80ee947cfb1` 合入，第二父为冻结作者头 `a2bced01cc5de30943b20387b7e1d260c384661e`。
 - PR95 FIRST 档案 PR99 在 `b5caca9848742c1b6d290f8e6726beb3a1110b85` 合入；独立有限档案 PR109 在 `33db530a6e3a28e41a16e1cb6682869e7b1d2d99` 合入；作者源 PR95 在 `a55385ba6956b5b7a3d730070df5b4884246918d` 合入，第二父为精确作者头 `54d9803b29f73669b9028e3519d17493e1b81be3`。
