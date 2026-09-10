@@ -1,0 +1,12 @@
+{
+  "status": "STOPPED_MATHEMATICAL_IMPLEMENTATION_MISMATCH",
+  "valid_mathematical_result": false,
+  "raw_output_status_retracted": "RIGOROUS_TRIAL_SCHEME_OBSTRUCTION",
+  "mismatch": "r1 state Hessian differentiated Lv in t instead of using fixed-t Lv",
+  "launcher_pid": 61900,
+  "python_pid": 26792,
+  "launcher_present_after_stop": false,
+  "python_present_after_stop": false,
+  "raw_output_sha256": "2cab6117959b35e92c353bfd5c00167495c2f183077e458a644bf78933246196",
+  "resume_requires_new_issue_authorization": true
+}

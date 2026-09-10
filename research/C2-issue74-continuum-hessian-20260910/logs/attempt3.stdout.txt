@@ -1,0 +1,1 @@
+{"elapsed_seconds": 45.21899999998277, "margins": ["0.1497565534121870504963674696766741422596", "0.1231025984238276619307192212380574131433"], "output": "C:\\game\\gameproject\\showa100\\.codex-work\\issue74-continuum-hessian-20260910\\output\\point_obstruction.json", "pid": 26792, "status": "RIGOROUS_TRIAL_SCHEME_OBSTRUCTION"}

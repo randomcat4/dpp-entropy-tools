@@ -14,5 +14,7 @@
   "gpu": false,
   "clock_start_utc": "2026-09-10T09:26:19Z",
   "absolute_deadline_utc": "2026-09-10T11:26:19Z",
-  "status": "IMPLEMENTED_NOT_RUN"
+  "status": "STOPPED_MATHEMATICAL_IMPLEMENTATION_MISMATCH",
+  "raw_output_valid": false,
+  "invalidation": "INVALIDATION.md"
 }

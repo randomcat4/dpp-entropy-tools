@@ -1,6 +1,10 @@
 # Issue74 PR91 Hessian point-obstruction unit
 
-Status before execution: `IMPLEMENTED_NOT_RUN`.
+Final status: `STOPPED_MATHEMATICAL_IMPLEMENTATION_MISMATCH`.
+
+The raw attempt-3 obstruction output is invalidated by `INVALIDATION.md` and
+must not be used as mathematical evidence.  No curvature sign or trial-scheme
+obstruction was certified.
 
 This unit tests the frozen PR98 degree-10 trial against the accepted-scoped
 PR91 Hessian-only residual gate.  It does not estimate or assert the sign of
