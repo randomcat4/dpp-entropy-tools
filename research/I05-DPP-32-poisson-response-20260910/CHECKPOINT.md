@@ -76,21 +76,45 @@ Equivalently the auxiliary curvature is exactly
 
 No Fisher, state-motion, invariant-law response, or t-to-s acceleration term is dropped: (6) is just a reorganization of PR112's full formula.
 
+## Theorem 3: the unresolved scalar is exactly parity mutual-information curvature
+
+Let mu_s be the stationary complete-configuration DPP law for the same symbol, with s=t^2/256. At s=0 the nearest-neighbor Fourier mode vanishes, so the Toeplitz kernel splits into the even and odd coordinate blocks while each block marginal is unchanged from mu_s. The already accepted cyclic block-decoupling identity (q=2) therefore gives, first on every finite coordinate window and then per original coordinate,
+
+    D_rate(mu_s || mu_0) = h(0)-h(s).                  (8)
+
+Equivalently this is the mutual-information rate between the even and odd coordinate sub-processes. Define
+
+    D(s):=D_rate(mu_s || mu_0)=h(0)-h(s).
+
+Combining (7) with D''=-h_ss gives the exact identity
+
+    D''(s)
+      = (1/2) eta_s(I_s+K_s)
+        - eta_s(partial_s P_s)(partial_s Phi_s).        (9)
+
+Thus the remaining PR112 response inequality
+
+    eta_s(partial_s P_s)(partial_s Phi_s)
+      <= (1/2) eta_s(I_s+K_s)                           (10)
+
+is neither a generic cone-monotonicity assertion nor an arbitrary Poisson estimate: it is EXACTLY convexity of the parity mutual-information rate in the squared coupling s.
+
+Moreover D(0)=0 and D(s)>=0 by relative entropy. Hence if D is convex on [0,S], then 0 is a global minimum on that interval and D'(s)>=0 for every s>0. With h_s=-D' and h_ss=-D'', equation (6) becomes
+
+    h_tt = -D'(s)/128 - (t^2/16384) D''(s).            (11)
+
+Therefore convexity of D(s) alone on [0,S] implies physical affine-t concavity for every positive t with t^2/256 in [0,S]. A strict positive lower bound on either D' or D'' gives strict physical curvature. In particular, proving mutual-information convexity on s in [1/1024,9/1024] would close the entire requested t in [1/2,3/2] interval without any sign claim for a generic concave observable.
+
+Proof of (8): for a finite window, deleting all odd-even kernel entries leaves exactly the product of the true parity-block marginals, and for this family that deleted kernel is the t=0 compression. The standard block-decoupling identity gives H(mu_0,n)-H(mu_s,n)=D(mu_s,n||mu_0,n). Divide by n and use the stationary entropy-rate limit. Equations (9)-(11) are algebraic consequences of (7) and s=t^2/256.
+
 ## Precise remaining obstruction
 
-The macroscopic sign problem is thus reduced to two scalar entropy-specific questions, not to generic state concavity:
+The macroscopic sign problem has therefore collapsed to one entropy-specific global question:
 
-1. control partial_s h (the physical acceleration contribution in t);
-2. control the bilinear information-response term
+    Is the parity mutual-information rate D(s) convex in squared nearest-neighbor coupling s?
 
-       J_s := eta_s(partial_s P_s)(partial_s Phi_s)
+Strong state concavity of Phi_s alone gives no sign for the equivalent bilinear term in (9), and the already-published concave-observable counterexample to monotonicity of partial_s P_s cannot be applied as an entropy counterexample. Conversely, a proof of D''>=0 would simultaneously control the formerly separate acceleration sign, because D>=0 and D(0)=0 force D'>=0 under convexity.
 
-   against (1/2) eta_s(I_s+K_s).
+The accepted cyclic theorem also supplies the value bound D(s)>=s^2 for this family (the removed Fourier coefficient has magnitude |hat f_t(1)|=|t|/16, so |hat f_t(1)|^4=s^2). This certifies a nontrivial mutual-information gap but, by itself, does not imply D''(s)>=0 away from zero; differentiating a value inequality is invalid.
 
-Strong state concavity of Phi_s alone gives no sign for J_s, and the already-published concave-observable counterexample to monotonicity of partial_s P_s cannot be applied as an entropy counterexample. Conversely, any proof that
-
-    J_s <= (1/2) eta_s(I_s+K_s)
-
-throughout an interval would prove auxiliary s-concavity there; together with partial_s h<=0 it would prove physical t-concavity on the corresponding positive-t interval by (6).
-
-This checkpoint makes no claim that either inequality has yet been proved. The next step is to seek a relative-entropy / complete-word Fisher representation of J_s that uses the special identity V_s=partial_s Phi_s rather than an arbitrary concave test observable.
+No finite sample, generic operator contraction, or old narrow-interval claim is used here. The next theoretical target is a complete-word relative-entropy/Fisher representation that can prove or disprove convexity of D(s) itself.
