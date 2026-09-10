@@ -18,7 +18,7 @@ The full primary Dobrushin text is available and the source-access issue is clos
 
 Primary source: R. L. Dobrushin, *Analyticity of the correlation functions for one-dimensional classical systems with power law decay of the potential*, Math. USSR-Sb. 23:1 (1974), 13–44, MathNet `https://www.mathnet.ru/eng/sm3631`.
 
-The source-bound FIRST addendum in `research/C1-verification-round6-20260910/units/pr66/import_closure_review.md` pins the relevant printed pages as follows.
+The relevant hypotheses are located directly in the primary source at the following printed pages.
 
 * pp. 14–15: classes A1/A2. A1 has an exponential factor in support cardinality in its D2 summability condition. A2 removes that factor only under the stronger null-state condition C2/(2.5).
 * pp. 17–18: perturbation hypotheses and Theorems 1–2.
@@ -44,7 +44,7 @@ That ordinary first-moment estimate does **not** imply Dobrushin A1, because A1 
 
 whereas A2 requires the interaction to vanish whenever **any** coordinate in its support lies in the distinguished null state. A generic Boolean Möbius conversion can cost `2^|A|`; merely renaming the representation does not close the theorem.
 
-This agrees with the source-bound FIRST. The inherited internal inverse/two-leg/equilibrium/parity lemmas remain usable only inside the ranges already checked there.
+The internal inverse/two-leg/equilibrium/parity lemmas of PR66 are separate source claims. This checkpoint neither repairs the external import nor enlarges the scope of those lemmas.
 
 ## 2. Route comparison
 
@@ -73,7 +73,7 @@ Then, for every finite `S`,
 \tag{2.1}
 \]
 
-The series is absolutely convergent in operator norm. Applying Boolean Möbius inversion over `B\subseteq A` to (2.1) cancels every closed-walk monomial whose visited vertex set is a proper subset of `A`. For `|A|\ge2`, the resulting null-state coefficient has the exact formal closed-walk representation
+The series is absolutely convergent in operator norm. Use the Hamiltonian convention `H(S)=-log det L_S`, omitting only the common normalization constant, and define `J_A=sum_{B subseteq A} (-1)^(|A|-|B|) H(B)`. Thus `J_A` is the coefficient of the Hamiltonian, rather than of the log weight. Applying Boolean Möbius inversion over `B\subseteq A` to (2.1) cancels every closed-walk monomial whose visited vertex set is a proper subset of `A`. For `|A|\ge2`, the resulting null-state coefficient has the exact grouped closed-walk representation
 
 \[
 J_A
@@ -84,7 +84,7 @@ R_{i_1i_2}R_{i_2i_3}\cdots R_{i_ki_1},
 \tag{2.2}
 \]
 
-up to the overall Hamiltonian sign convention. In particular every contributing walk visits all vertices, so `k\ge |A|`.
+with the displayed positive sign for the Hamiltonian coefficient. The corresponding coefficient of `log det L_S` is `-J_A`. Group the walks at each fixed `k` before summing over `k`: this grouped series converges as a finite Boolean Möbius combination of the absolutely convergent trace series. This does not assert an absolutely summable bound after taking absolute values of individual walks or all supports. In particular every contributing walk visits all vertices, so `k\ge |A|`.
 
 Equation (2.2) is the first nontrivial way found here to avoid a literal `2^{|A|}` bound: the cancellation is performed algebraically before absolute values are taken.
 
@@ -191,13 +191,13 @@ A potentially cheaper target than full complex pressure analyticity is fourth-or
 F(t)=h(c+tg)+\alpha t^4,
 \]
 
-local concavity follows if `h` is `C^4` near zero, is even, has `h''(0)=0`, and the quartic coefficient has the accepted strict negative margin. Indeed continuity of `h^{(4)}` gives
+write `H(t)=h(c+tg)`. The conditional calculus requires `H` to be `C^4` near zero and even, `H''(0)=0`, and the strict corrected quartic inequality `H^{(4)}(0)/24+alpha<0`. This is a condition on the corrected functional, including its `alpha t^4` term. Continuity of `H^{(4)}` then gives
 
 \[
-h''(t)=\frac12h^{(4)}(0)t^2+o(t^2),
+F''(t)=\left(\frac12 H^{(4)}(0)+12\alpha\right)t^2+o(t^2),
 \]
 
-so a sixth-order analytic expansion is stronger than necessary.
+so `F` is strictly concave for sufficiently small nonzero `t`, with `F''(0)=0`. A sixth-order analytic expansion is stronger than necessary for this conditional conclusion.
 
 This observation narrows the external theorem search: one can replace the unsupported claim of full holomorphic pressure by a theorem giving enough differentiability/response of the stationary chain for the parameterized normalized one-sided conditional `G_t`, with a uniform remainder sufficient to differentiate the entropy identity twice.
 
