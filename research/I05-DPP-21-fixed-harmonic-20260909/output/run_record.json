@@ -1,0 +1,27 @@
+{
+  "environment": {
+    "implementation": "CPython",
+    "python_version": "3.13.5",
+    "platform": "Linux x86_64",
+    "third_party_dependencies": []
+  },
+  "runs": [
+    {
+      "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/certify_midpoint_rate_gap.py --depth 18",
+      "exit_status": 0,
+      "scope": "fixed three-symbol complete-event entropy-rate certificate"
+    },
+    {
+      "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/check_band_automaton.py",
+      "exit_status": 0,
+      "scope": "integer automaton versus direct Bareiss determinants through length 8"
+    },
+    {
+      "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/check_analytic_constants.py",
+      "exit_status": 0,
+      "scope": "pure-rational legality, inverse, tail, and derivative constants"
+    }
+  ],
+  "ci_claim": false,
+  "independent_review_claim": false
+}

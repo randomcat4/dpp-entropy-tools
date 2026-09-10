@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "exact legality, inverse-decay, conditional-tail, and entropy-derivative constants only",
+  "rho": "49/64",
+  "comparison_residuals": {
+    "distance_0": "3243/16384",
+    "distance_1": "146619/2097152",
+    "distance_2": "241611/134217728",
+    "distance_at_least_3_coefficient": "241611/78675968"
+  },
+  "inverse_constant": "16384/3243",
+  "propagation_constants": ["1661/8192", "2445/8192"],
+  "advertised_tail_constant": "1033420800/1263214441",
+  "verified_strict_inequality": "(16384/3243)^3*(1661/8192)^2*(2445/8192)^2 < 1033420800/1263214441 < 1",
+  "symbol_range_at_abs_t_3_over_2": ["119/512", "15/16"],
+  "binary_entropy_derivative_bounds": {
+    "M2": "256/15",
+    "M3": "57344/225",
+    "M4": "27656192/3375"
+  },
+  "conditional_derivative_bounds": {"U1": "9/8", "U2": "37/8"},
+  "arithmetic": "fractions.Fraction and integers only",
+  "exit_status": 0
+}

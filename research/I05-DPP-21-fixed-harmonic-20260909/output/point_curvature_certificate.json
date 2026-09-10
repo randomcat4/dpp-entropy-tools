@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "three fixed nonzero true entropy-rate curvature points only; continuum not certified",
+  "symbol": "1/2+(1/4)cos(4*pi*theta)+(t/8)cos(2*pi*theta)",
+  "conditioning_depth": 18,
+  "certified_bounds": {
+    "t=1/2": "h''(1/2)<-1/2500",
+    "t=1": "h''(1)<-1/1000",
+    "t=3/2": "h''(3/2)<-1/500"
+  },
+  "negative_parameters": "same bounds by the exact t -> -t diagonal gauge",
+  "finite_object": "H_19''-H_18'' from all complete events",
+  "true_rate_error": "closed exact sum of conditional-mutual-information second-derivative tails",
+  "jet_arithmetic": "integer determinant value/first/second jets",
+  "logarithm_arithmetic": "Decimal/libmpdec precision 100, per-log widening 1e-90, directed floor/ceiling operations",
+  "independent_jet_crosscheck": "direct signed determinants with exact polynomial interpolation through length 6",
+  "command": "python research/I05-DPP-21-fixed-harmonic-20260909/code/certify_point_curvatures.py --depth 18",
+  "exit_status": 0,
+  "python_version": "3.13.5",
+  "third_party_dependencies": []
+}
