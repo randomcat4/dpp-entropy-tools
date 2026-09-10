@@ -64,4 +64,4 @@ B=\begin{pmatrix}3/5&9/25\\9/25&3/5\end{pmatrix}.
 
 The physical parameters are `c1,c2 in [0,1]` with `s_j=sqrt(1-c_j^2)` and the only midpoint is `(EAE^T+VBV^T)/2`. The checker reconstructs all sixteen signed event determinants, removes the two rare-coordinate factors algebraically, and covers the entire square by 4096 closed rational boxes. It uses a 32-term rational `atanh` logarithm expansion with the written geometric tail. Negative polynomial lower enclosures are clipped only to the exact legal lower bound zero; no positive probability floor is introduced.
 
-Author environment for this repair run: Python 3.11.8 and SymPy 1.13.1 in the present container. The frozen source previously recorded a different author environment; equality of environments is not required by the proof, but the independent gate should record its own versions. No checksum procedure is requested or used.
+Author environment for this repair run: Python 3.13.5 and SymPy 1.14.0. The independent gate should record its own versions and regenerate the mathematics rather than trusting the stored output. No checksum procedure is requested or used.
