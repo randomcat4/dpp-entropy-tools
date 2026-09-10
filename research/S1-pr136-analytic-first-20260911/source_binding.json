@@ -1,0 +1,35 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 136,
+  "review_class": "independent_analytic_FIRST_and_static_certificate_interface",
+  "verdict": "ACCEPTED_SCOPED_ANALYTIC_INTERFACE",
+  "main_theorem_status": "CONDITIONAL_ON_S2_FINITE_EVIDENCE",
+  "reviewed_head": "39098dac760cea2d27f2955bed31f80c87913810",
+  "author_base": "3e27a09e9185cb63d8a42e4db022008ee9828136",
+  "review_date": "2026-09-11",
+  "files": [
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/BOUNDARY_AND_COROLLARIES.md", "blob": "c8489172669e203f6d0d180d76e002fa184c7e79"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/ENTROPY_KL_C2_TAIL.md", "blob": "0dc7fc75fc66be75f8bfddf026aa244fe1ebb9cd"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/HIGH_ORDER_CLOSURE.md", "blob": "28544be1fe00a1dc17db1af87b6807c20ea37c5e"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/RESULT.md", "blob": "6e0d6c3926c4b5fc7f0384b93c1ad8d38605e9aa"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/certificate_summary.json", "blob": "187d8f6c8609e3b568cb9f48ebf22bfeee911194"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/certify_nodes.cpp", "blob": "0df668fa2d6375e9ea52788c586143adfda96409"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/check_certificate.py", "blob": "0040029e4c31c524daadabb69c44e9d010c5a51c"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/make_inputs.py", "blob": "a9037aecb464aa190246b1e11aa9e36462d89ba0"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/node_output.part0.tsv", "blob": "44a1a7426bef6adf84ba3d4a3405dda2ef720c61"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/node_output.part1.tsv", "blob": "937275fd4ac4fe25ff42859cfe35dee0b49a81b4"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/node_output.part2.tsv", "blob": "e284d7acfaa04eae8f2def5e98d1babf0bbb88e4"},
+    {"path": "research/I05-DPP-32-effective-curvature-20260910/certificate/node_output.part3.tsv", "blob": "48c6cf862ba09081d2120946dae6bed81a90f3f6"}
+  ],
+  "accepted_dependency": {
+    "pull_request": 91,
+    "head": "c7a072ec4eea0c5b0f445bca5796873a9e234948",
+    "merge_commit": "9043d8e2b763c974ff430b80505bbad5e79bf6c4",
+    "scope_record_blob": "dedab91fdd58b1563ea6f54edc4cc15c6b7eb23f"
+  },
+  "execution": "none",
+  "finite_evidence": "pending_S2",
+  "novelty": "not_assessed",
+  "merge": "not_performed"
+}
+
