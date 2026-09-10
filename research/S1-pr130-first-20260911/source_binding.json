@@ -1,0 +1,25 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 130,
+  "review_class": "independent_version_bound_analytic_FIRST",
+  "verdict": "ACCEPTED_SCOPED",
+  "reviewed_head": "4cae5c29effcf01b1fadc7452780b73a58ec94e7",
+  "author_base": "1d440702b16b8e65954edde076686dba8f1901ae",
+  "review_date": "2026-09-11",
+  "files": [
+    {"path": "research/I05-DPP-37-Linf-parity-fisher-20260910/README.md", "blob": "49ccc4190bc1263d6a0e27059a355ae40a2b7e6e"},
+    {"path": "research/I05-DPP-37-Linf-parity-fisher-20260910/maximal_legal_scope_corollary.md", "blob": "57213e01239da2aa7335307d16be1b715edb73b1"},
+    {"path": "research/I05-DPP-37-Linf-parity-fisher-20260910/quartic_rate_theorem.md", "blob": "291536db2e43b20efe16e71eacf3e40a227cf236"},
+    {"path": "research/I05-DPP-37-Linf-parity-fisher-20260910/reverse_audit_and_review_contract.md", "blob": "9647ea69b5e0e0dbeec741de5da2823bbfbab108"}
+  ],
+  "accepted_dependency": {
+    "source": "PR53 regularity-free parity matching lower bound only",
+    "author_head": "ebecc412467939591e018a295a18c49a0a341ce9",
+    "merge_commit": "717cdb1c6acc3f51de9e04c77ec4dc6d8baa3419",
+    "scope_record_blob": "92746613904ec719685f4839dd580f2f1fcfca77"
+  },
+  "computation": "none",
+  "novelty": "not_assessed",
+  "merge": "not_performed"
+}
+
