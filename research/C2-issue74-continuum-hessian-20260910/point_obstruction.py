@@ -525,7 +525,10 @@ def main() -> int:
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temporary = args.output.with_suffix(args.output.suffix + ".tmp")
-    temporary.write_text(json.dumps(record, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    temporary.write_text(
+        json.dumps(record, indent=2, sort_keys=True, default=str) + "\n",
+        encoding="utf-8",
+    )
     os.replace(temporary, args.output)
     print(json.dumps({
         "status": record["status"],
