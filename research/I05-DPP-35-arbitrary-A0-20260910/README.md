@@ -1,10 +1,10 @@
-# I05-DPP-35 — arbitrary strict A0 center via finite-range complete-event preconditioning
+# I05-DPP-35 — arbitrary strict `A_0` center via finite-range complete-event preconditioning
 
-Status: **AUTHOR PROOF IN PROGRESS / PENDING INDEPENDENT REVIEW.**
+Status: **PROVED AS AN AUTHOR THEOREM / PENDING FINAL INDEPENDENT DELTA/CROSS-REVIEW.**
 
-This is a successor to PR113. It starts from `main@bcbf7016e2abc6401b66f39ac9202d235ee32fad` and does not alter PR82, PR106, PR110, or PR113. No review verdict transfers.
+This is a successor to PR113. It started from `main@bcbf7016e2abc6401b66f39ac9202d235ee32fad` and does not alter predecessor sources. No older verdict transfers automatically.
 
-## Target theorem
+## Theorem
 
 Let real `c,g in A_0` satisfy
 
@@ -12,7 +12,7 @@ Let real `c,g in A_0` satisfy
 - `g(theta+1/2)=-g(theta)`, `g!=0`;
 - `delta <= c <= 1-delta` a.e. for some `delta>0`.
 
-Put `mu=c_hat(0)`. For every odd `k` with `g_hat(k)!=0`, the target is to prove that there exists `epsilon>0` such that the true stationary DPP configuration entropy rate for the physical affine path
+Put `mu=c_hat(0)`. For every odd `k` with `g_hat(k)!=0`, there exists `epsilon>0` such that the true stationary DPP complete-configuration Shannon entropy rate for the physical affine path
 
 `K_t=T(c)+t T(g)`
 
@@ -20,84 +20,99 @@ satisfies concavity of
 
 `h(c+t g)+|g_hat(k)|^4 t^4/[8 mu^2(1-mu^2)]`
 
-on `[-epsilon,epsilon]`.
+on `[-epsilon,epsilon]`, with strict negative second derivative away from zero after shrinking the interval.
 
-Every complete occupied/vacant event is retained. This is configuration Shannon entropy, not spectral/von-Neumann entropy.
+Every complete occupied/vacant event is retained. Fisher, atom acceleration, and thermodynamic response remain inside the exact complete-law differentiation. No spectral/von-Neumann entropy is substituted.
 
-If completed, this removes PR113's small-Wiener center condition rather than merely lowering a positive moment exponent.
+## Authoritative proof order
 
-## New mechanism
+The initial checkpoint version of this README contained two exploratory claims that are now explicitly superseded: a common inverse-`ell^1`-envelope contraction and an `O(mR)` local-support count. Neither is part of the final proof.
 
-The unweighted convolution-dominated algebra `C_{1,0}` is inverse-closed but does not admit norm-controlled inversion from only the algebra norm and the `ell^2` inverse norm. Therefore PR106/PR110's common-envelope step cannot simply be pushed to bare `A_0` by citing inverse-closedness.
+Read the mathematical chain in this order:
 
-Instead, for the **fixed** strict `A_0` center, choose a half-period-even finite Fourier truncation `c^(L)` with the same mean such that
+1. `arbitrary_A0_C4_proof.md` — finite-range reference factorization, localization, relative-KL and reference-cross-entropy `C^4` bridge;
+2. `support_count_correction.md` — authoritative safe support count `O(m^2 R)` and corresponding polynomial-in-`m` correction;
+3. `operator_vs_absolute_sum_audit.md` — authoritative separation between signed operator trace-log convergence and the later absolute localized/displacement sums, including the fixed-center-tail quantifier order;
+4. `arbitrary_A0_concavity.md` — parity mutual information, accepted matching floor, and the quadratic/quartic two-case curvature proof;
+5. `source_and_failure_audit.md` — corrected source scope and failure ledger;
+6. `review_contract.md` — independent audit units.
 
-`r=c-c^(L)`
+## Final preconditioning mechanism
 
-has arbitrarily small Wiener norm and `c^(L)` remains uniformly strict. For every finite complete word `x`, write
+Choose a half-period-even finite Fourier truncation `c^0` of the fixed strict `A_0` center, with the same mean, and write
 
-`M_x^0=T(c^(L))-I_{Z_x}`.
+`r=c-c^0`, `e_t=r+t g`.
 
-Because `M_x^0` is self-adjoint, uniformly gapped away from zero, and finite-band, polynomial approximation of `1/x` on the two spectral intervals gives an event- and volume-uniform exponential off-diagonal bound for `(M_x^0)^(-1)`. In particular there is one summable diagonal envelope `u` with
+For every finite complete word `x`,
 
-`sup_x |(M_x^0)^(-1)(i,j)| <= u(i-j)`, `u in ell^1`.
+`M_x^0=T(c^0)-I_{Z_x}`, `R_x^0=(M_x^0)^(-1)`.
 
-After increasing `L` and shrinking `|t|`, arrange
+Complete-event coercivity gives the event/volume-uniform operator bound
 
-`||u||_1 ||r+t g||_W < rho < 1`.
+`||R_x^0||_{2->2} <= delta_0^(-1)`.
 
-Then every full atom has the exact non-product-reference factorization
+Because `M_x^0` is finite-band Hermitian with a uniform two-sided spectral gap, the elementary geometric inverse expansion gives event/volume-uniform exponential off-diagonal decay and exponentially accurate configuration-local approximants `R_x^[R]`.
 
-`p_t(x)=p_0(x) det(I+(M_x^0)^(-1) T(r+t g))`,
+The exact atom factorization is
 
-where `p_0` is the finite-range reference DPP complete-event law. This supplies a genuine event-uniform trace-log expansion without assuming that the original center is Wiener-small.
+`p_t(x)=p_0(x) det(I+R_x^0 T(e_t))`.
 
-## Two load-bearing lemmas being closed
+Two estimates are deliberately separated.
 
-### Lemma A — configuration quasilocality of finite-range event inverses
+### A. Signed trace-log existence
 
-For two complete words that agree on an `R`-neighborhood of coordinates `i,j`, the corresponding inverse entries satisfy
+The series for `log det(I+R_x^0 T(e_t))` exists from the operator inequality
 
-`|R_x(i,j)-R_y(i,j)| <= C exp(-a R)`
+`||R_x^0 T(e_t)|| <= delta_0^(-1)||e_t||_W < 1`.
 
-uniformly in the finite volume. The proof uses the resolvent identity under one-site diagonal flips together with the uniform exponential inverse bound. A telescoping local approximation then has shell increments with exponentially summable norm. The support cardinality of an `R`-local approximation is `O(m R)` for an `m`-step trace term and is independent of the physical diameter of the visited vertices.
+This alone is **not** used to claim absolute convergence of a spatially expanded walk sum.
 
-This cardinality point is essential: complete-event Bell differentiation costs support **size**, not spatial diameter, so no positive Fourier moment is introduced.
+### B. Absolute localized/displacement domination
 
-### Lemma B — C4 thermodynamic passage relative to the finite-range DPP
+After replacing inverse factors by configuration-local approximants, normalized trace products are bounded using only
 
-Split the true entropy density as
+`B := sup ||R_x^[R]||_{2->2} <= delta_0^(-1)+1`.
 
-`h_t = - ell_0(t) - d_0(t)`,
+The inverse family is not assigned a common `ell^1` diagonal-envelope norm in the final proof. The Toeplitz perturbations alone are expanded into shifts; absolute displacement summation pays only
 
-where `d_0` is the relative-entropy rate of `p_t` with respect to the finite-range reference `p_0`, and `ell_0(t)` is the reference cross-entropy density `lim n^{-1} E_t log p_0`.
+`sum_d |e_t(d)| = ||e_t||_W`, `sum_d |g_hat(d)|=||g||_W`.
 
-For `d_0`, expand the exact log likelihood ratio into preconditioned closed walks. Use the common `ell^1` diagonal envelope, the shell-localization from Lemma A, and the complete-event derivative bound
+The safe localized support cardinality is
 
-`|partial_t^r p_{J,t}(x)| <= p_{J,t}(x) C_r |J|^r`, `r<=4`,
+`|J| <= C m^2(R+1)`,
 
-to obtain a derivative majorant summable first in localization shells, then in walk displacements, then in walk length.
+independent of the magnitudes of the Fourier displacements. Complete-event Bell differentiation therefore adds only polynomial factors. For fixed derivative order `q<=4` the coarse length bound is
 
-For `ell_0`, use the accepted finite-range complete-event conditional potential of the strict reference DPP, whose variations are exponential. Decompose it into local shell increments; the same Bell bound makes `sum_R R^r exp(-aR)` the only differentiation loss.
+`C_q m^(3q+1) B^(m-1) eta^(m-q)(1+||g||_W)^q`,
 
-The intended conclusion is `h(c+t g) in C^4` on a common real interval, with normalized finite-volume derivatives converging through order four. Fisher, atom acceleration, and invariant-law movement are not discarded; they are retained inside the exact complete-event differentiation before the limit.
+where `eta=sup_|t|<=tau ||e_t||_W`.
 
-## Final curvature step once Lemmas A/B close
+The geometric constant after absolute summation is `B eta`, with `B` an **operator-norm** bound, not an inverse `ell^1` norm.
 
-Half-period symmetry makes the even and odd parity marginals fixed in `t` and independent at `t=0`. Hence
+## Quantifier order for the center tail
 
-`J(t)=h(c)-h(c+t g)`
+Shrinking `t` cannot shrink the frozen center tail. The proof uses the following order.
 
-is the true parity mutual-information rate, is even and nonnegative, and the accepted regularity-free PR53 matching floor gives the same quartic lower coefficient used in PR113. `C^4` then yields the two-case local corrected-concavity argument.
+1. Given `c` and its strict margin `delta`, choose the finite truncation so far out that `epsilon_0=||c-c^0||_W<delta/2` and, with `delta_0=delta-epsilon_0`,
+   `B epsilon_0<1/4`, where `B=delta_0^(-1)+1<=2/delta+1`.
+2. Freeze that truncation and all of its localization constants.
+3. Only then choose `tau>0` so that `B tau ||g||_W<1/4`.
+4. Hence `B eta<1/2` on the fixed interval.
 
-## Evidence boundary
+Thus arbitrary slow Wiener tails are allowed; there is no attempt to repair a fixed uncontrolled `B*tail` by shrinking `t` afterward.
 
-- New statements here: author proof in progress; no independent review.
-- PR53 matching floor and finite-range local conditional regularity: accepted scoped inputs only where explicitly used.
-- PR82/PR106/PR110/PR113: comparison/predecessor context, not theorem premises.
-- arXiv:1809.04097: comparison source for norm-controlled inversion; it is not used as a black-box theorem for the nonnormal complete-event family.
-- No computation, finite-window extrapolation, entropy counterexample, or novelty claim.
+## Source correction
 
-## Precise current obstacle
+The initial checkpoint also stated too strongly that the unweighted `p=1` BGS algebra lacks norm-controlled inversion in `B(ell^2)`. That literature statement is withdrawn. Fang--Shin (2020) explicitly recalls Baskakov norm-control results in the classical `p=1`, `ell^2` BGS setting.
 
-The remaining proof obligation is not inverse existence. It is to write the preconditioned trace terms as exponentially quasilocal complete-event observables with a localization-shell decomposition whose derivative bound is uniform in volume and summable after the `ell^1` displacement sums. Inverse-closedness alone does not supply this common differentiated envelope.
+This correction is non-load-bearing: PR117 neither needs nor establishes a BGS norm-control theorem for the complete-event family. The final proof uses the direct finite-range-reference operator/localization argument above. See `source_and_failure_audit.md` for the corrected exact source boundary.
+
+## Review state
+
+At author head `7a960926e44f2a81ea43ba2c35e3d7534e76bad5`, S3 fresh SECOND independently audited the seven-file mathematical packet and returned `CORRECT_WITHIN_SCOPE`, including the operator-vs-absolute-sum transition, corrected support count, complete-event Bell bounds, `C^4` thermodynamic passage, and parity/matching curvature step. That SECOND also found the non-load-bearing BGS source wording error corrected after its freeze.
+
+S1 FIRST had separately frozen the same mathematical head. The present README/source blobs are later author source corrections and therefore require an exact delta/cross-review before any integration claim. No acceptance is inherited merely from the earlier frozen-head reports.
+
+## Nonclaims
+
+No whole-legal-interval result, arbitrary measurable-symbol result, general finite real-kernel concavity theorem, entropy counterexample, analytic entropy-rate theorem, or novelty claim is made. Failure or non-use of an inverse/response method is not an entropy counterexample.
