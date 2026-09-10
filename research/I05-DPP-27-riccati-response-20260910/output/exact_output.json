@@ -1,0 +1,45 @@
+{
+  "status": "AUTHOR_MACHINE_CHECK_PASS_NOT_INDEPENDENT_REVIEW",
+  "utc_start": "2026-09-10T02:50:00.808594+00:00",
+  "elapsed_seconds_display_only": 0.4270306209999717,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "arithmetic": "fractions.Fraction; derivative jets contain exact first/second derivatives",
+  "input": {
+    "symbol": "1/2+cos(4*pi*theta)/4+t*cos(2*pi*theta)/8",
+    "theory_interval": ["1/2", "3/2"],
+    "test_parameters": ["1/2", "5/4", "3/2"],
+    "event_lengths": [2, 4, 6]
+  },
+  "constants": {
+    "kappa": "34/81",
+    "beta": "4363/5184",
+    "branch_lower": "81/1024",
+    "first_jet_margin": "7/1080",
+    "second_jet_margin": "187/4050",
+    "B2": "16399/2916",
+    "Ct": "575/3072",
+    "Ctt": "257/1536",
+    "residual_L1": "30801807981/2534394160",
+    "residual_H2": "8322993/71000080",
+    "response_residual_L1": "15525/13136"
+  },
+  "event_value_first_second_jet_matches": 252,
+  "branch_state_jet_checks": 252,
+  "normalization_layers": 9,
+  "weighted_state_and_determinant_identity": "all value/first/second jets checked at every parent",
+  "outside_domain_negative_weight": "-191/256",
+  "rows": [
+    {"t":"1/2","cells":1,"events":4,"mass_jet":["1","0","0"],"minimum_probability":"255/1024"},
+    {"t":"1/2","cells":2,"events":16,"mass_jet":["1","0","0"],"minimum_probability":"56545/1048576"},
+    {"t":"1/2","cells":3,"events":64,"mass_jet":["1","0","0"],"minimum_probability":"12387711/1073741824"},
+    {"t":"5/4","cells":1,"events":4,"mass_jet":["1","0","0"],"minimum_probability":"999/4096"},
+    {"t":"5/4","cells":2,"events":16,"mass_jet":["1","0","0"],"minimum_probability":"816625/16777216"},
+    {"t":"5/4","cells":3,"events":64,"mass_jet":["1","0","0"],"minimum_probability":"644237559/68719476736"},
+    {"t":"3/2","cells":1,"events":4,"mass_jet":["1","0","0"],"minimum_probability":"247/1024"},
+    {"t":"3/2","cells":2,"events":16,"mass_jet":["1","0","0"],"minimum_probability":"48177/1048576"},
+    {"t":"3/2","cells":3,"events":64,"mass_jet":["1","0","0"],"minimum_probability":"8903335/1073741824"}
+  ],
+  "failure_ledger": [],
+  "not_certified": ["whole-interval curvature sign", "independent review", "novelty"]
+}

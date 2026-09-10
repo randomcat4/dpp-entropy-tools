@@ -1,0 +1,44 @@
+# Sources, bridge audit, execution and failure ledger
+
+This is an author record, not an independent review. New analytic claims are AUTHOR_PROOF/PENDING_REVIEW; whole-interval curvature and novelty remain unresolved.
+
+## Primary-source comparison and what is actually used
+
+1. Guangyue Han and Brian Marcus, *Derivatives of Entropy Rate in Special Families of Hidden Markov Chains*, arXiv:cs/0603059v2 (2006), https://arxiv.org/abs/cs/0603059 . The introduction gives the Blackwell invariant-measure integral for a finite hidden-chain model; Section II's Black-Hole condition uses rank-one symbol matrices with the stated positivity condition, under which the filtering maps collapse and finite derivative approximations stabilize. The abstract and parsed PDF text were inspected. PDF screenshot requests failed with a cache error, so no visual-page verification is claimed. This work does NOT import their finite stabilization theorem: our four correction maps are injective with a positive lower Lipschitz constant, and no exact finite-word reset is available in this representation. This is a specific failed bridge, not merely a literature entry.
+
+2. Alexandra M. Jurgens and James P. Crutchfield, *Shannon Entropy Rate of Hidden Markov Processes*, Journal of Statistical Physics 183, article 32 (2021), DOI 10.1007/s10955-021-02769-3, https://link.springer.com/article/10.1007/s10955-021-02769-3 ; preprint https://arxiv.org/abs/2008.12886 . The primary full HTML was read, especially Sections 3, 4 and 6: state-dependent IFS probabilities, invariant mixed-state measures, and entropy-rate averaging. The large PDF fetch failed; HTML supplied the needed mathematics. Their finite hidden-chain starting point is not assumed for this DPP. Here the complete-event Schur identity independently supplies the process representation, the explicit coupling supplies quantitative law contraction, and conditional entropies supply the factor-1/2 rate identity. No uniqueness/minimality claim about our predictive statistic is inherited from the paper.
+
+Two genuinely different methods are compared. The original PR77 route works on future words with normalized prediction potentials, a centered RPF/Poisson series and conditional-mutual-information truncation tails. The present route works on a three-real-coordinate correction state and approximates three smooth Poisson solutions with explicitly controlled residuals. Their agreement is checked at the complete-event, invariant-law and full-Fisher levels, not by replacing occupation Shannon entropy with von Neumann entropy. Both routes must retain the acceleration and invariant-law response. Only the new route here yields the particular uniform residual coefficients 13,1/8,6/5,1/2.
+
+## Repository source scope
+
+Read main docs/research_status.md and docs/route_ledger.md at main 65e59a46b49cd2dbb5c779a4cfae8cef26441984. Read issue74's exact model and compute contract; PR77's original complete-event/Poisson proof and PR79's current comments and text-only repair ae1149f2ed7d657afa494740c3abae83de549d3f. The PR79 B_R is an explicit UPPER MAJORANT; B_R being too large never proves that the actual curvature tail is too large or that some depth is necessary.
+
+Issue74 comment 5611794230 reports the completed, separately frozen PR77 finite C2 MACHINE_PASS. It explicitly excludes continuum work. Its report is not a mathematical verdict and is not a premise of our new analytic theorem. The new continuation was claimed as author theory in issue74 comment 5611899656, not as a C2 execution.
+
+## Actual bounded computations in this author task
+
+A. Initial Sympy 1.14.0 symbolic/small rational exploration established the four-weight polynomial identity, the weighted Q and det Q cancellations, and candidate constants. The auditable assertions were then reconstructed in the separate standard-library Fraction checker. This is one author using two implementations, not two independent reviewers.
+
+B. `code/exact_checks.py`: CPython 3.13.5; exact Fraction value/first/second derivative jets. Actual run began 2026-09-10T02:50:00.808594+00:00 and elapsed 0.4270306209999717 seconds; exit zero. Parameters 1/2,5/4,3/2; complete event lengths 2,4,6. All 252 complete events and both derivative layers match independent inclusion-minor/Mobius enumeration. All 252 branch state/jet bounds and nine normalization layers pass. The exact rational proof constants, jet slacks and residual-error constants pass. `output/exact_output.json` retains every aggregate and minimum. The published source omits a few non-executable comments relative to the original local file; the JSON formatting was compacted. No rerun or independent-review claim is inferred from publication.
+
+C. `code/poisson_scout.py`: NumPy 2.3.5, one BLAS thread, fixed seed 270074; exactly the three degree-6/8/10 scouts at t=5/4 were executed. Each uses 1800 fit points, 600 diagnostic points and finite differences of step 1/2048. The three elapsed times were 0.5508419180000601,1.0449943150000536,2.425091973000008 seconds. Raw UTC fields in the scout outputs are end-of-run timestamps, not starts. All three records are preserved, not just the best one. These runs produce candidate polynomials; sampled derivative maxima and the fields named `invalid_as_certificate_sampled_budget` are NOT mathematical error bounds. No continuum certification was run in this task.
+
+D. After the first PR91 checkpoint, further theory proved disjoint branch images, non-atomicity, uniform C2 coding forgetting, the complete-Fisher boundary estimate, exact invariant moments, and the value-rate bound. A further short Fraction calculation verified Cscore=32135398/894645 and the value constant 9/16. No additional sampled curvature point was added.
+
+## Preserved failure ledger
+
+- Previous inverse-box claim: the PR79 comment asserted a 4096-box run without a complete source/output packet. It is not used here and is not relabeled as independently checked. Sections 1-3 of proof.md supply a wholly analytic replacement on a convex domain.
+- Branch contraction alone: insufficient for the state-dependent probability operator. The missing changing-weight term is explicitly included in beta=k+(3/8)*(9/8). Omitting it would invalidate the resolvent budget.
+- Finite stationary-grid route: a W1 residual gives a valid optional error, but a sufficiently fine three-dimensional grid may be costly. The third Poisson equation removes the need to approximate eta directly. A small sampled stationary discrepancy is not a rigorous W1 certificate.
+- All three polynomial scouts: promising sampled separation, but unverified suprema, binary floating rounding and no t-interval cover. They prove no h'' sign, even at their single test point. Increasing degree is not itself certification.
+- Local network transport: a container attempt to retrieve a published raw GitHub file failed DNS resolution. GitHub connector reads/writes remained available; no permission failure is claimed.
+- Raw archive transport: attempted textual transcriptions of two compressed coefficient chunks were corrupt (observed file sizes 8219 and 5308 rather than the intended 8217 bytes each). They were withdrawn from the branch in commits 39a3dcb8d28247056ac4f8f9738eb47103ca015c and 8953448de1c74bbfa120bd4e39dce1f541a60eb8. The failed contents remain in Git history and are NOT usable evidence. They did not alter any original local computation. Rather than claim a successful archive, the original 43,421-byte JSON containing all three full records and all polynomial coefficients was uploaded by direct file transfer to the existing connected Drive. Metadata readback confirms its size and private status.
+
+Raw coefficient archive: https://drive.google.com/file/d/1c4vQq1T2ofa819OZzGgwO_tp2DuFmXJh/view?usp=drivesdk . File name: DPP27_PR91_full_scout_records_20260910.json. It is a PRIVATE connected-Drive fallback, not a claimed public GitHub mirror; external reviewers may need access. Daily collaboration and all proof/source/status discussion remain in this PR and issue74. The mathematical theorems do not depend on the scout coefficients. A local raw-execution ZIP is supplied in the chat as a second copy.
+
+## What remains exact and open
+
+To prove the whole curvature interval using the new method, certify |Dr0|,|D2r0|,|Dr1|,|r2| uniformly on B times each parameter cell and pass the explicit curvature_certificate.md gate on a complete cover. This is narrower than an unspecified invariant-response gap: the response is proved and bounded, and the remaining task is four specified supremum enclosures for finite trial data. It is still substantive and has not been silently discharged.
+
+No counterexample to entropy concavity, finite-HMM impossibility theorem for all representations, accepted independent review, or novelty/priority conclusion is claimed.
