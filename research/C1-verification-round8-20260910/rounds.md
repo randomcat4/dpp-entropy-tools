@@ -64,3 +64,25 @@ p>8 corrected local concavity under stated hypotheses/correction priority,
 keeps (6.7) unproved, and excludes stronger real-analyticity wording. No new
 source, new theory, author edit, arithmetic or execution was used for this
 logical clarification. Original and prior delta reports remain preserved.
+
+The user explicitly assigned PR80 17ae62c2, PR81 d99550bf and PR82 6ecc004a
+as new deltas. C1 froze the seven/one/four changed files and returned each
+delta to its original reviewer. Public claims bind the exact author heads
+in the corresponding PRs and issue44. These additions do not change PR78,
+whose completed PR77 actual-finite FIRST reports and binding are fixed at
+80c8a616f8e7644afbe92b5b9b0a4172730825c7. No new primary instance, finite
+contract, arithmetic execution or SECOND is authorized by this assignment.
+
+All nine new delta reports are complete and were read in full by C1. PR80
+retains the finite-symbolic evidence gates; C1 clarified that any actual
+open-class existence conclusion inherits the base positive-margin gate,
+while its continuity implication is analytically accepted. PR81's new
+shared-corner proof closes the specified fixed half-leaf family; a stale
+cross-task PR70 pending label was replaced by an out-of-scope statement,
+without importing any finite-review opinion into that proof. PR82's
+one-power Poisson repair supports the main qualitative p>4 conclusion,
+with boundary-correction priority and a static finding on withdrawn
+equations still displayed in the main file. No mathematical execution,
+new author source, new theory or finite contract was used for these
+report clarifications. Current overview documents now state the final
+scoped conclusions; the historical unit reports remain unchanged.

@@ -1,106 +1,58 @@
-# C3 handoff: original PR79--82 FIRST archive
+# C3 handoff: completed PR79--82 bounded FIRSTs
 
-All twelve source/evidence reports are complete against the exact heads
-in [README](README.md) and the unit bindings. Original author files were
-read by immutable blob; no live author head is silently included.
+The newest three deltas have completed source/evidence FIRST reports and
+immutable source/report bindings in this archive. Original and earlier
+delta reports remain unchanged. Supply isolated SECOND with the frozen
+author source and permitted pure-source premises, not FIRST opinions.
 
-PR79 originally needed a text delta before SECOND: the code sums the published upper
-majorant B_R, while the source names the actual sum of absolute curvature
-increments. B20 above a threshold only makes the current bound insufficient;
-it cannot lower-bound the actual tail. Clarify the positive interval versus
-the absolute-value target. Exact threshold comparisons remain independently
-pending; the complete interval curvature claim remains open.
+| PR | Exact reviewed author head | Scope ready for isolated SECOND |
+|---|---|---|
+| 79 | ae1149f2ed7d657afa494740c3abae83de549d3f | RESULT-only upper-budget and interval wording closure |
+| 80 | 17ae62c23aad387fbd9b445e5436aa9ad245185d | Analytic negative-fiber method obstruction and conditional interval/neighborhood implications; finite gates retained |
+| 81 | d99550bfd9eee623ec80edbca1da17ff0ddbe4bf | Shared-corner criterion and full specified fixed-shape closure |
+| 82 | 6ecc004a3f99f97369ea5af53f1136b59cf2129c | Qualitative p>4 corrected local concavity under the boundary correction; static stale-equation finding |
 
-PR80's signed identity and ratio-cone algebra are sound. The original
-first-line strictness condition has a positive diagonal witness whenever a
-positive-mass atom has nonzero u or y. Required text gates are s>0 or an
-endpoint argument, a positive likelihood window, precise corollary
-strictness and covered connected bands, and J>=Q=(Delta u)^2 F notation.
-The old PR58 fixture's coverage by this new cone is not accepted.
+PR80's [17ae review](units/pr80/successor_17ae_review.md) accepts the
+negative-fiber obstruction from the exact analytic expression and log
+positivity. The family compensation and coefficient-neighborhood proofs
+are conditional on their finite symbolic ingredients. The complete-event
+enumeration, Gram identities, log bounds, quantitative perturbation
+constants and explicit membership are still pending independent evidence.
+The arbitrary fixed-dimension extension is a valid direct-sum/compactness
+implication, but its actual existence conclusion has the same pending base
+positive-margin dependency. New outputs and old s=.9 rechecks are author
+evidence only. No new finite contract is created here.
 
-PR81's four-scalar compression and Sections 2--4 estimates are accepted in
-scope. General det E_H positivity remains open. Its PR70 finite-refutation
-wording depends on the separate actual finite-evidence closure in PR78;
-it is not a defect in the four-scalar derivation.
+PR81's [d995 review](units/pr81/successor_d995_review.md) accepts
+Theorem 5.1 for actual DPP shared corners with J<12AB and closes the
+fixed half-leaf shape x=y=1/2, A=1/4, B=4/9, 0<q<11/36.
+Full six-direction Shannon Hessian negativity is proved analytically;
+E_H>0 and det E_H>0 follow. Large rational Gram minors and checker
+statements are not load-bearing. General half-leaf, missing-edge and real
+three-point conclusions remain open outside the stated sufficient scope.
 
-PR82 is ready for SECOND only as a method/localization checkpoint and
-finite determinant identity. The original PR66 arbitrary-center p>4 theorem
-is still incomplete. Neither failure of an exponential inverse-localization
-mechanism nor a finite null-state formula proves failure of the entropy
-theorem or completes the infinite-volume interaction/response import.
+PR82's [6ecc review](units/pr82/successor_6ecc_review.md) accepts the
+one-power Poisson response repair at a=p/2>2 and the resulting qualitative
+local concavity of h(c+t g)+alpha_k t^4 under the strict-margin half-period
+hypotheses. It uses the already bound
+[pure PR66/PR53 inputs](units/pr82/DEPENDENCY_SOURCE_BINDING.json),
+not the rejected Dobrushin import. The boundary correction has priority;
+its time-correlation cutoff is separate from the withdrawn raw stationary
+frozen-memory response rate. The main repair lines 422--445 still need
+an in-file superseded marker or replacement. This static fix is required
+for clear source presentation but does not defeat the scoped main theorem
+when the frozen correction is included. No numerical task is needed.
 
-Feed isolated SECOND the frozen author source and permitted source premises,
-not FIRST opinions. No author edit, merge, arithmetic or formal check was
-performed by C1. Suggested future C2 checks in the reports are not execution
-authorization and cannot consume or expand the PR70/PR77 finite contracts.
+PR79's [ae11 report](units/pr79/budget_scope_ae11_review.md) remains
+ACCEPTED_DELTA for text closure. Exact budget comparisons and full interval
+curvature remain pending/open; the PR91 follow-on is not included here.
 
-The newly authorized PR79 RESULT-only ae1149f2 delta has now passed the
-same reviewer's independent delta-FIRST: original F1/F3 are closed in the
-text, while numerical signs and interval curvature remain pending/open.
-See [delta review](units/pr79/budget_scope_ae11_review.md). Its unchanged
-tail(R) name is not a blocker once the text accurately identifies the
-computed upper majorant. C3 can now supply that exact delta to SECOND.
+The PR70/PR77 actual-finite FIRST archive is now fixed at
+[PR78 80c8a616f8e7644afbe92b5b9b0a4172730825c7](https://github.com/randomcat4/dpp-entropy-tools/tree/80c8a616f8e7644afbe92b5b9b0a4172730825c7/research/C1-verification-round7-20260910).
+It includes the final PR77 actual PR89 reports and binding, superseding
+the 39d0a6c3 snapshot. This archive adds no new PR78 material.
 
-PR80/81 successors now have completed delta reports; PR82 remains under
-its original reviewer, with a separately queued README-only text patch.
-The original twelve reports are preserved. PR70's fixed raw
-finite evidence has meanwhile passed FIRST in PR78 at 9091413, supplying
-the previously pending auxiliary-witness dependency at that layer. This
-does not replace C3's separate SECOND or prove the general determinant.
-
-PR80's six additions provide valid reserve/square-completion and window
-moment identities, but need precise strictness/endpoint text and accurate
-output/enclosure labeling. The original first-line strictness is valid via
-diagonal pairs; calling it erroneous is incorrect. The author finite
-claims would establish failure of the old ratio cone and success of a
-different fiber-window sufficient bound at s=.9, not cone coverage. Both
-are PENDING_C2 under a separate future independent reconstruction only.
-See [math](units/pr80/successor_76ea_review.md) and
-[static evidence](units/pr80/successor_76ea_code.md) for exact fixes.
-
-PR81's added strict half-leaf Gram and same-q secant inequalities are ready
-for scoped SECOND. The numerical channel diagnostics and large relaxed
-rational determinant are excluded from acceptance. The actual fixed-shape
-and general entropy determinant remain open. The successor's PR70 pending
-label describes its restricted predecessor inputs; the separate 9091413
-closure above supplies the fixed auxiliary witness at FIRST without being
-a premise of the new Gram proof.
-
-PR82 README-only e91c1733 has passed FIRST: the Hamiltonian coefficient
-sign, grouped finite trace-series convergence and corrected quartic target
-are explicit and valid. It is ready for the isolated text-delta SECOND.
-The unchanged p>8 files have their own completed source review: corrected
-BFG/Poisson response lemmas are accepted conditionally, the finite-memory
-remainder (6.7) is underproved, and the main file needs a correction pointer.
-The initial inherited-input limitation is now being addressed through six
-explicitly authorized pure PR66/PR53 source files. That follow-up will
-state whether the actual imports support the new application; unread input
-scope is not itself a permanent mathematical counterargument. No new theory
-or arithmetic is authorized, and (6.7) cannot be closed by metadata alone.
-The follow-up will distinguish a gap in that additional estimate from any
-actual load-bearing gap in the main qualitative p>8 application.
-
-PR80's exact four-document 1a322ace repair has now passed the original
-reviewer's [document delta-FIRST](units/pr80/scope_1a32_review.md).
-All wording and disclosure gates above are closed at the documentation
-level; the fixed s=.9 counts, signs, window lower endpoints, fixture equality
-and any PR76 consistency comparison remain independently pending. C3 can
-now supply this exact text delta to SECOND. Unchanged author scripts and
-edited output summaries are not independent certificates.
-
-The PR82 dependency follow-up is now COMPLETE and supersedes the earlier
-unread-input limitation in the initial two-file review. Its source map
-accepts the true conditional entropy identity, internal inverse/non-nullness,
-parity, normalized cancellation and regularity-free matching floor. Combined
-with the corrected BFG/Poisson response argument, the main qualitative p>8
-corrected-local-concavity claim is ACCEPTED_SCOPED. See the
-[final dependency review](units/pr82/dependency_followup_review.md).
-
-The separate estimate (6.7) remains INCOMPLETE_EXTRA. Lemma6.1 ends before
-that paragraph and Section7 uses h=-nu(logG) directly, so failure to prove
-(6.7) does not refute the accepted qualitative main path. Required source
-wording remains: attach the BFG correction visibly, label/prove (6.7), and
-narrow line421 if it imports the original frozen real-analyticity assertion.
-Acceptance supplies no analytic radius, general interval or p>4 theorem.
-C3 should take the actual scoped main claim and its frozen pure-source
-inputs into isolated SECOND; this archive supplies no SECOND verdict.
+C1 performed no arithmetic execution, author/checker execution, author
+edit, new C2 contract, SECOND or merge. C3 alone owns isolated SECOND and
+integration. No later author head, whole-interval upgrade, novelty or
+formal verification is implied by review completion.

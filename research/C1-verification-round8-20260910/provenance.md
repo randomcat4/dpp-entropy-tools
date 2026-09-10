@@ -24,3 +24,14 @@ and validates every resulting file/mode/blob. The isolated local checkout
 starts from an available review commit and is not represented as a full
 copy of current main. Operational records and copyrighted primary-source
 copies are excluded from the public archive.
+
+The next explicitly assigned deltas are separately frozen at PR80
+`17ae62c23aad387fbd9b445e5436aa9ad245185d` (base `1a322ace`, seven files),
+PR81 `d99550bfd9eee623ec80edbca1da17ff0ddbe4bf` (base `92c1b3df`, one file),
+and PR82 `6ecc004a3f99f97369ea5af53f1136b59cf2129c` (base `e91c1733`, four
+files). Each comparison has the assigned base as its merge base. Every
+changed source was fetched by immutable blob ID and verified against both
+Git's object digest and a recorded SHA256. The three original reviewers
+were reused, without descendants. New finite assertions do not inherit old
+machine PASS results. PR82 may reuse only the previously bound six pure
+PR66/PR53 source files; reviewer opinions are not source premises.

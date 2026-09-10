@@ -1,0 +1,19 @@
+{
+  "base": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac...d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+  "files": [
+    {
+      "git_blob": "a45186d74f8ea9e512d46bc7ea30380149ec9a33",
+      "path": "research/I05-22-R5-logmean-imbalance/shared_corner_cell_theorem.md",
+      "additions": 373,
+      "bytes": 11713,
+      "lines": 373,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "8b5f34ee7c10b51044110e786a4dba8422bab6ba4f0b37ab9887edce4d73422c"
+    }
+  ],
+  "pr": 81,
+  "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved"
+}

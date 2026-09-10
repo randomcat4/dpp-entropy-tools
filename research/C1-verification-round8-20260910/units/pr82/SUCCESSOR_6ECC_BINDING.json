@@ -1,0 +1,49 @@
+{
+  "base": "e91c17333c2e2c3e86d8f6b24b29e121d3c31e75",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/e91c17333c2e2c3e86d8f6b24b29e121d3c31e75...6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "files": [
+    {
+      "git_blob": "4c9c4a2af565e97f6fee00840e8b2d6ebe2b766c",
+      "path": "research/I05-DPP-31-20260910/README.md",
+      "additions": 75,
+      "bytes": 6549,
+      "lines": 166,
+      "status": "modified",
+      "deletions": 139,
+      "sha256": "6b3d9ba36281fd19756a76066fcec92d368355c94296d2548c6b264d130778e5"
+    },
+    {
+      "git_blob": "b15a6a26ea89d6f02272428ef5e1d4195a0fd347",
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_boundary_correction.md",
+      "additions": 156,
+      "bytes": 4285,
+      "lines": 156,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "ace720ec4ee1ef392fbf927a9f8f5d565bc5a63342fc6077b78e94db18036e58"
+    },
+    {
+      "git_blob": "df0ca48a6318690c53c55d2ae9a35067f049664d",
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_repair.md",
+      "additions": 570,
+      "bytes": 17329,
+      "lines": 570,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "0a8d7d1b562b98765d2fee88ab39972c0fc182e6337d141d07b7ee18227c7473"
+    },
+    {
+      "git_blob": "c088ae4233ab8233892e34ee677da1dd557792c8",
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_source_audit.md",
+      "additions": 286,
+      "bytes": 8304,
+      "lines": 286,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "dfd8e0c6ea38e35b7ce9f6a7a0f6ae66cb4a813038eda84c94b00638b99ffc42"
+    }
+  ],
+  "pr": 82,
+  "head": "6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved"
+}

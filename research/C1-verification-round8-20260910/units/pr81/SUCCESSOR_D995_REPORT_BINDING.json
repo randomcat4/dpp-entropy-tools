@@ -1,0 +1,22 @@
+{
+  "reports": [
+    {
+      "bytes": 2916,
+      "path": "units/pr81/successor_d995_scope.md",
+      "sha256": "064587c5cdee61e00744f2d5a02d074824eeb523b31a0fa62e90a432761cc385"
+    },
+    {
+      "bytes": 8934,
+      "path": "units/pr81/successor_d995_review.md",
+      "sha256": "fc091d79f2346454a7a0f58a116bdc418c0c55f81f867ef1a596e7c9fd01a3e5"
+    },
+    {
+      "bytes": 3203,
+      "path": "units/pr81/successor_d995_code.md",
+      "sha256": "a87f67f0e4771b9b8f7ce13cea8bf4fa76877be71ffc71e021804dc9708e2645"
+    }
+  ],
+  "scope": "Explicitly assigned source/evidence delta-FIRST only; no arithmetic execution",
+  "base": "92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac",
+  "head": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf"
+}

@@ -1,25 +1,34 @@
-# Claim ledger
+# Current claim ledger
 
-| Unit | Claimed object | Status |
+| Unit and latest reviewed head | Claimed object | Current FIRST status |
 |---|---|---|
-| PR79 | Closed majorant and geometric-sum structure | ACCEPTED_SCOPED as an upper budget; naming/negative-band wording NEEDS_FIX |
-| PR79 | Exact depth-budget thresholds | PENDING_C2 under a separately frozen future independent reconstruction |
-| PR79 | Full curvature/Riccati realization | INCOMPLETE |
-| PR80 | Conditional-pair identity and relaxed PSD obstruction | ACCEPTED_SCOPED; obstruction concerns the free-vector method only |
-| PR80 | Ratio-cone sufficient criterion, strictness and equality | Sound source algebra; s>0, positive window and corollary quantifiers NEEDS_FIX |
-| PR80 | Whole chord and old fixture coverage by new cone | INCOMPLETE; no new fixture job authorized |
-| PR81 | Four-scalar matrix compression | ACCEPTED_SCOPED |
-| PR81 | Global scalar imbalance bounds and equality | ACCEPTED_SCOPED |
-| PR81 | General full entropy determinant sign | Open |
-| PR81 | PR70 auxiliary finite obstruction attribution | NEEDS_FIX evidence qualifier pending PR70 actual finite closure |
-| PR82 | Polynomial inverse-tail method obstruction | ACCEPTED_SCOPED; no interaction-level or entropy counterexample |
-| PR82 | Finite null-state Mobius/connected-walk identity | ACCEPTED_SCOPED with stated finite convergence domain |
-| PR82 | Conditional C4 response observation | ACCEPTED_SCOPED as an implication only |
-| PR82 | Infinite A2/absolute norm/response import and PR66 theorem | INCOMPLETE |
-| PR82 successor5e08 plus pure-source follow-up | Qualitative p>8 corrected local concavity | ACCEPTED_SCOPED under standing hypotheses and BFG correction priority |
-| PR82 successor5e08 | Additional finite-memory estimate (6.7) | INCOMPLETE_EXTRA; not a main Section7 premise |
-| PR82 successor5e08 | Stronger real-analyticity/full frozen PR66 wording | Not proved by C2 response; NEEDS_FIX narrowing if asserted |
+| PR79 ae1149f2 | Explicit upper budget, positive interval and gauge transfer wording | CLOSED by ACCEPTED_DELTA |
+| PR79 ae1149f2 | Exact depth-budget comparisons | PENDING_C2; no new execution authorized |
+| PR79 ae1149f2 | Full interval curvature/Riccati realization | OPEN |
+| PR80 17ae62c2 | Exact signed identity, diagonal strictness, real negative conditional-fiber obstruction | ACCEPTED_SCOPED analytically; no entropy counterexample |
+| PR80 17ae62c2 | Complete-interval 2+2 compensation theorem | Conditional analytic implication; finite-symbolic base ingredients PENDING_C2 |
+| PR80 17ae62c2 | Quantitative coefficient neighborhood and explicit correlated kernel | Conditional implication; base margin, constants and membership PENDING_C2 |
+| PR80 17ae62c2 | Arbitrary fixed-dimension open correlated classes | Conditional continuity implication; existence retains the base-margin gate |
+| PR80 17ae62c2 | Old s=.9 counts/signs/window bounds and new output enclosures | SOURCE_ONLY / PENDING_C2 |
+| PR80 17ae62c2 | General dense rank-two whole chord | OPEN |
+| PR81 d99550bf | Shared-corner criterion J<12AB on strict half-leaf arrows | ACCEPTED_SCOPED |
+| PR81 d99550bf | Fixed half-leaf A=1/4, B=4/9, 0<q<11/36, x=y=1/2 | CLOSED_SCOPED: full six-direction strict Hessian negativity; E_H>0; det E_H>0 |
+| PR81 d99550bf | Large printed Gram minors and same-author checker pass | SOURCE_ONLY; not needed for qualitative closure |
+| PR81 d99550bf | General half-leaf/missing-edge determinant and real three-point concavity | OPEN outside the sufficient criterion |
+| PR82 6ecc004a | BFG-derived relaxation and one-power Poisson loss | ACCEPTED_SCOPED |
+| PR82 6ecc004a | Main qualitative p>4 corrected local concavity | ACCEPTED_SCOPED under standing hypotheses, bound pure inputs and correction priority |
+| PR82 6ecc004a | Corrected time-correlation/Poisson cutoff | ACCEPTED_SCOPED |
+| PR82 6ecc004a | Raw frozen-memory stationary second-response rate | WITHDRAWN / not accepted |
+| PR82 6ecc004a | Main-file equations (7.3)--(7.5), lines 422--445 | NEEDS_FIX_STATIC: visibly supersede or replace |
+| PR82 6ecc004a | Old Dobrushin A1/A2 full pressure theorem | Invalid and unused by the accepted repair |
+| PR82 6ecc004a | Whole legal interval, p<=4, arbitrary measurable-symbol extension | Not accepted |
 
-PENDING_C2 is an independent finite-evidence gate, not a finding of
-mathematical falsity. A failed sufficient interval test is inconclusive
-unless rigorous contrary evidence refutes the exact assertion.
+Historical original and successor findings remain in their unchanged unit
+reports. In particular, the new PR81 proof closes its formerly open fixed
+shape, and the new PR82 proof advances the scoped p>8 checkpoint to p>4.
+Neither change grants a general theorem outside its stated hypotheses.
+
+PENDING_C2 is an independent evidence gate, not a finding of mathematical
+falsity. C1 has not executed arithmetic or authorized new finite work.
+A machine PASS does not by itself establish mathematical acceptance.
+Novelty is NOT_ASSESSED and formal verification was not performed.
