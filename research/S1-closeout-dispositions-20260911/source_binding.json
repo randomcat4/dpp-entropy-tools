@@ -1,0 +1,137 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "review_class": "S1_closeout_exact_head_dispositions",
+  "status": "STOPPED_HANDOFF_READY",
+  "review_date": "2026-09-11",
+  "execution": "none",
+  "novelty": "not_assessed",
+  "merge": "not_performed",
+  "excluded_pull_requests": [116],
+  "pull_requests": [
+    {
+      "number": 124,
+      "head": "344723af6affab240c9f87c395d4e8c1b7b19f6d",
+      "disposition": "PASS_SCOPED_ALREADY_MAIN",
+      "successor_or_review": [127, 132],
+      "merge_commit": "3729264b95208a92accd08a01a9b37ce41bb17f0"
+    },
+    {
+      "number": 120,
+      "head": "83b89e8b9b4c542e5d1cd8b38b64b7ff2449ad41",
+      "disposition": "MIXED_SUPERSEDED_AND_EVIDENCE_INSUFFICIENT",
+      "superseding_author_pr": 124,
+      "unreviewed_unit": "research/I05-35-halfleaf-resolvent-audit/compact_unequal_middle/"
+    },
+    {
+      "number": 115,
+      "head": "dd52c147efc4a0908b8e9545628f031d1be97027",
+      "disposition": "SUPERSEDED",
+      "superseding_author_pr": 136,
+      "superseding_head": "39098dac760cea2d27f2955bed31f80c87913810",
+      "analytic_review_pr": 137,
+      "successor_status": "conditional_on_S2_finite_evidence"
+    },
+    {
+      "number": 110,
+      "head": "142420531ed7a41d1abc4c8040c6485bf21b1bc7",
+      "disposition": "SUPERSEDED",
+      "superseding_author_pr": 117,
+      "superseding_head": "70d69bf5c47282c953010518ff264cb2a7a09bf9",
+      "review_pr": 126,
+      "merge_commit": "2f66f1a67af9e23bf77ec04f1d6f716947072394"
+    },
+    {
+      "number": 106,
+      "head": "a175bf1d1b5a8c16537aa4924731de426dfc882d",
+      "disposition": "MIXED_SUPERSEDED_AND_PASS_SCOPED",
+      "superseding_author_pr": 117,
+      "accepted_standalone_unit": {
+        "path": "research/I05-DPP-32-p1-20260910/center_quartic_p_half.md",
+        "blob": "0ab72e5c87e9ee1fc89222be6ce0459d36319a46",
+        "scope": "centered_full_conditional_Fisher_expansion_for_p_ge_1_over_2"
+      },
+      "local_concavity_below_p_1": "not_claimed"
+    },
+    {
+      "number": 104,
+      "head": "d980dbb04840bd21e6c62cf88ffd45a9b0d1b4f8",
+      "disposition": "PASS_SCOPED_ANALYTIC",
+      "included_files": [
+        {
+          "path": "research/I05-22-R6-halfleaf-shared-compensation/proof.md",
+          "blob": "7969e9f48b6432ab1831870e46f9369ffec7336d"
+        },
+        {
+          "path": "research/I05-22-R6-halfleaf-shared-compensation/fixed_ratio_boundary_extension.md",
+          "blob": "c2ebd9646cdf23a017aca80cd444fc3c487997ad"
+        }
+      ],
+      "finite_evidence": "excluded_author_only"
+    },
+    {
+      "number": 94,
+      "head": "a9db9f98dc6dac766dd9b214f056ee9b30109b23",
+      "disposition": "MIXED_PASS_SUPERSEDED_AND_EVIDENCE_INSUFFICIENT",
+      "review_pr": 100,
+      "whole_chord_successor_pr": 95,
+      "whole_chord_successor_head": "54d9803b29f73669b9028e3519d17493e1b81be3",
+      "whole_chord_reviews": [99, 109]
+    },
+    {
+      "number": 66,
+      "head": "af1edaad69c4e1f5e4bbd1239b8463b56bf64075",
+      "disposition": "SUPERSEDED",
+      "earliest_defect": "Dobrushin_A1_exponential_cardinality_or_A2_null_state_import_not_established",
+      "superseding_author_pr": 82,
+      "superseding_head": "290a84064eaae2e857d637f58531e95f4ca3cb3b",
+      "merge_commit": "09e09086c0dc8b30d5859a7e1e2cba86623d2631"
+    },
+    {
+      "number": 97,
+      "head": "03e0313a5802bfe52fba18fa01bf5ad97ab20d2f",
+      "disposition": "MIXED_PASS_SCOPED_ANALYTIC_INTERFACE_AND_EVIDENCE_INSUFFICIENT",
+      "predecessor_author_pr": 86,
+      "predecessor_head": "bd12e6094e098499fae7e01729a4b29f021a14e2",
+      "predecessor_review_pr": 90,
+      "accepted_structural_dependency_pr": 88,
+      "accepted_structural_dependency_head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+      "finite_evidence": "pending_independent_S2"
+    },
+    {
+      "number": 112,
+      "head": "2ea07741114aa7cd20210dfc84becda378381e7b",
+      "disposition": "MIXED_PASS_SCOPED_SUPERSEDED_AND_EVIDENCE_INSUFFICIENT",
+      "already_reviewed_file": {
+        "path": "research/I05-DPP-27-lifted-cone-20260910/explicit_rate_interval.md",
+        "blob": "b8aab2981230b61d399d9a9411ee8547f8593958",
+        "review_pr": 134
+      },
+      "analytic_files": [
+        {
+          "path": "research/I05-DPP-27-lifted-cone-20260910/lifted_cone.md",
+          "blob": "84cfcb09fb04f76c9cf80e91e2d037ca99ba7e6a",
+          "disposition": "PASS_SCOPED_SECTIONS_1_TO_5"
+        },
+        {
+          "path": "research/I05-DPP-27-lifted-cone-20260910/entropy_shape.md",
+          "blob": "5ef078aaa4604c5a60edc26896d4efe9f8921c40",
+          "disposition": "PASS_SCOPED_TEXT_LABEL_FIX_REQUIRED"
+        },
+        {
+          "path": "research/I05-DPP-27-lifted-cone-20260910/interval_proof.md",
+          "blob": "3696505d8e97974e7efdb3390bf04e9b8e8bc491",
+          "disposition": "EVIDENCE_INSUFFICIENT_WITHDRAWN"
+        }
+      ],
+      "canonical_dependency_pr": 91,
+      "canonical_dependency_head": "c7a072ec4eea0c5b0f445bca5796873a9e234948",
+      "canonical_dependency_merge": "9043d8e2b763c974ff430b80505bbad5e79bf6c4",
+      "duplicate_dependency_blobs": [
+        "254b9cb751681ee4a11231810988c6ae690a9365",
+        "a0eb94ce87dc8b2dd35d1154e383e484f374c97c",
+        "09ba22b1365d2014c48f0b508dcad32498dea68b",
+        "32aa6310285b8649663e380e79dba2da4d8b2f70"
+      ]
+    }
+  ]
+}
