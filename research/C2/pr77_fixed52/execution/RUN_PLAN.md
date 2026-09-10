@@ -1,0 +1,9 @@
+# Single immutable run
+
+The controlling request is `inputs/REQUEST.md`. Publish code, literal input, source bindings and request before any arithmetic/package loading. Transfer exactly the committed unit subtree and record the archive SHA-256. A shell-only syntax/preparation check does not run the mathematical program. Record PR70 PID175598 absence before this launch; PR70's completed run is never repeated.
+
+Invocation: `PYTHON implementation/independent_pr77_checker.py --input-root inputs --out RUN_DIR`, under `execution/run_guard.sh RUN_DIR BUDGET_DIR PYTHON SCRIPT ...`, with `C2_PRODUCTION_SOURCE_COMMIT` bound to the public preparation head. Infrastructure supplies one immutable2700-second deadline before Python starts, one CPU affinity, all numerical thread variables1, and a16GiB address-space limit. No GPU.
+
+Phases A, B, C, D, all imports and any eligible mechanical repair share that original deadline. No extra constant-check clock, pilot, resource calibration, depth increase, parameter addition or precision change. Stop at first mathematical mismatch, insufficient separation, timeout or memory cap. A mechanical exception may only be repaired under the same still-live clock with its original failure and precise source patch retained; no rerun after a terminal mathematical failure.
+
+Retain all JSON/JSONL outputs, exact constants/covariances, small comparison counts, complete event histograms and their schemas/hashes, full finite intervals and separate tails/margins, environment/backend/contexts, exact launch/start/deadline/PID/exit, post-run PID absence and repair/failure ledger. Compressed numeric evidence is copied byte-for-byte. Private host/connection paths and the private invocation file do not enter public outputs. Source/implementation, raw evidence and interpretation stay distinguishable for isolated FIRST/SECOND reviewers.

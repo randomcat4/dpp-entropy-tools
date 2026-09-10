@@ -1,0 +1,72 @@
+{
+  "phase": "UNEXECUTED_PREPARATION",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 102,
+      "sha256": "34c1e41a465efc43ebed8a2892d1a26b1d82e52c8348846f074fd361b75600c2"
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "bytes": 2417,
+      "sha256": "7cb26cb3f66a365b01e03c921957854d62d0d36af68abb0fcd96624a673b12b3"
+    },
+    {
+      "path": "execution/RUN_PLAN.md",
+      "bytes": 1868,
+      "sha256": "1cba0e4ee0f6a6416a5da03726a3070f8db54cff51f4dcdc8b39f11eddde6ef2"
+    },
+    {
+      "path": "implementation/independent_pr77_checker.py",
+      "bytes": 32992,
+      "sha256": "eba58ed2e9d554e07cf6d75d4a30d29339f745121b8a49e3da26cd5efd917965"
+    },
+    {
+      "path": "implementation/README.md",
+      "bytes": 4453,
+      "sha256": "a6a65b3f8f599739686b5d706457f4cddc13275a551333ff316087dce8675dff"
+    },
+    {
+      "path": "inputs/author_fisher_projection.md",
+      "bytes": 5051,
+      "sha256": "7d33139f326c6c8d80ef240ec39f64541d2efbeb29cb825283f48f9a778325f3"
+    },
+    {
+      "path": "inputs/author_frozen_statement.md",
+      "bytes": 4149,
+      "sha256": "43ce026b9dd1a807b00c9968af9dc681f9c54b3825b3546b3957030ca8b87278"
+    },
+    {
+      "path": "inputs/author_point_curvature.md",
+      "bytes": 6313,
+      "sha256": "27dabc3c0a369f1a0c9dda66ab26e79a6bfc405f2d56a93984cf362198660fe8"
+    },
+    {
+      "path": "inputs/author_proof.md",
+      "bytes": 15939,
+      "sha256": "dbf3a31cc9c9176cca62c4dbd8abe3a6b433413390b099edae351b6bb1a4dc45"
+    },
+    {
+      "path": "inputs/author_SOURCE.json",
+      "bytes": 6479,
+      "sha256": "9005795f6b77f36e20eca6068642700a874db1eab1134e50b63ede7a33f5d653"
+    },
+    {
+      "path": "inputs/fixed.json",
+      "bytes": 1787,
+      "sha256": "cb6e51673743d2cc844fdfa21407d7717f3b4da95c3630184f887377cbdea371"
+    },
+    {
+      "path": "inputs/REQUEST.md",
+      "bytes": 10289,
+      "sha256": "1db97975ebdb0f161464ad18a017ffb21b255a6347d9cd9e2b78b897e5a66234"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1968,
+      "sha256": "cc335829982f87e4c8d7326b4226752d039cb3d97d7a407fbb6f77b8f4fe2c90"
+    }
+  ],
+  "note": "SHA256 of canonical LF UTF8 bytes; excludes this manifest. Only original author18file mathematics is input; additions excluded.",
+  "author_head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5"
+}
