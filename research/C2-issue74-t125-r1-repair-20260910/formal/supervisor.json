@@ -1,0 +1,10 @@
+{
+  "launcher_pid": 56860,
+  "formal_pid": 29508,
+  "exit_code": 2,
+  "breach": null,
+  "finished_utc": "2026-09-10T12:22:01.7655219+00:00",
+  "cpu_affinity": "0x3",
+  "memory_limit_bytes": 8589934592,
+  "gpu_used": false
+}

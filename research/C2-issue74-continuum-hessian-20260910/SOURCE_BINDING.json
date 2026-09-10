@@ -1,0 +1,20 @@
+{
+  "schema": "issue74-pr91-hessian-point-obstruction-source-binding-v1",
+  "issue": "https://github.com/randomcat4/dpp-entropy-tools/issues/74",
+  "claim_comment": "https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5616331535",
+  "base_main": "bcbf7016e2abc6401b66f39ac9202d235ee32fad",
+  "analytic_source_pr91": "c7a072ec4eea0c5b0f445bca5796873a9e234948",
+  "trial_source_pr98": "55649309437a78d9e5174386d8d260a4ee9c02a1",
+  "trial_degree": 10,
+  "parameter_points": ["1/2", "3/2"],
+  "state_point": {"Q11": "0", "Q22": "0", "Q12": "0"},
+  "gate": "c2/2 + e02/2 + (9/100)e12 + e20/2 < 0",
+  "precision_bits": 256,
+  "cpu_threads": 1,
+  "gpu": false,
+  "clock_start_utc": "2026-09-10T09:26:19Z",
+  "absolute_deadline_utc": "2026-09-10T11:26:19Z",
+  "status": "STOPPED_MATHEMATICAL_IMPLEMENTATION_MISMATCH",
+  "raw_output_valid": false,
+  "invalidation": "INVALIDATION.md"
+}
