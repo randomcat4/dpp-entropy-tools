@@ -1,0 +1,25 @@
+{
+  "pr70": {
+    "memory_gib": 16,
+    "source_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+    "request_url": "https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5606052217",
+    "owner": "C2",
+    "request_body_sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+    "status": "Raw PR85 head611d5f70 received; source/evidence FIRST in progress; no C1 arithmetic",
+    "seconds": 600,
+    "threads": 1
+  },
+  "pr77": {
+    "excludes": "8de8 added checker; continuum interval",
+    "threads": 1,
+    "status": "AUTHORIZED; independent raw evidence not yet received by C1",
+    "includes": "Original fixed values/jets, all load-bearing constants and original Fisher polynomial algebra",
+    "request_body_sha256": "1db97975ebdb0f161464ad18a017ffb21b255a6347d9cd9e2b78b897e5a66234",
+    "source_head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+    "serial_after": "PR70 owned process termination",
+    "owner": "C2",
+    "request_url": "https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5606122441",
+    "seconds": 2700,
+    "memory_gib": 16
+  }
+}

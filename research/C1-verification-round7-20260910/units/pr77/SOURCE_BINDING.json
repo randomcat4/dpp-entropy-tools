@@ -1,0 +1,139 @@
+{
+  "computation": "C1 source-only FIRST; no arithmetic execution",
+  "file_count": 18,
+  "comparison_base": "28c24dee643f8a2049c143f79d4d63798907d2f1",
+  "prefix": "research/I05-DPP-21-fixed-harmonic-20260909/",
+  "pr": 77,
+  "files": [
+    {
+      "bytes": 3277,
+      "download_hash_verified": true,
+      "blob": "09dfaff5a07cef3d666ef970fd0e9a5763a03ebb",
+      "lines": 67,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/README.md"
+    },
+    {
+      "bytes": 2186,
+      "download_hash_verified": true,
+      "blob": "40d542360c79d52ba2518735f39f63e12feaf122",
+      "lines": 68,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/RESULT.md"
+    },
+    {
+      "bytes": 3957,
+      "download_hash_verified": true,
+      "blob": "81e48b1c93d22e5f16c2a274dd299c31c77f1c74",
+      "lines": 70,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/attempts.md"
+    },
+    {
+      "bytes": 14018,
+      "download_hash_verified": true,
+      "blob": "bdd2e565108d0a9d91d788e9f279da0b1bbb900d",
+      "lines": 402,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_midpoint_rate_gap.py"
+    },
+    {
+      "bytes": 17223,
+      "download_hash_verified": true,
+      "blob": "1588a3def00e07e76d4c8afab0365dddfaac902d",
+      "lines": 488,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_point_curvatures.py"
+    },
+    {
+      "bytes": 4185,
+      "download_hash_verified": true,
+      "blob": "8f68ed5d7f97524eb91ffc468b3af0bb0a70d819",
+      "lines": 120,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_analytic_constants.py"
+    },
+    {
+      "bytes": 2923,
+      "download_hash_verified": true,
+      "blob": "eb0b3f692ba8c9753775c7b9e08037cbc5e188eb",
+      "lines": 80,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_band_automaton.py"
+    },
+    {
+      "bytes": 5051,
+      "download_hash_verified": true,
+      "blob": "574180b8796a3f76e08d3ef5606c697bfb365094",
+      "lines": 177,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/fisher_projection.md"
+    },
+    {
+      "bytes": 4149,
+      "download_hash_verified": true,
+      "blob": "bcdfcb0614bb9c1863b1caf8356751b02226834a",
+      "lines": 132,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/frozen_statement.md"
+    },
+    {
+      "bytes": 902,
+      "download_hash_verified": true,
+      "blob": "f9aa42db8de8b317d51cdfb065c27bc5d6425b55",
+      "lines": 24,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/analytic_constants_exact.json"
+    },
+    {
+      "bytes": 411,
+      "download_hash_verified": true,
+      "blob": "4c5703baa20dc7b3c9ee1e5966736ed0390fa74d",
+      "lines": 10,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/band_automaton_exact.json"
+    },
+    {
+      "bytes": 892,
+      "download_hash_verified": true,
+      "blob": "c4db204edeb0fc2c53fd975f8302d837b6dc20d8",
+      "lines": 16,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/midpoint_rate_certificate.json"
+    },
+    {
+      "bytes": 1065,
+      "download_hash_verified": true,
+      "blob": "918846e317e0c070b68f65e0e099e212729010c6",
+      "lines": 21,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/point_curvature_certificate.json"
+    },
+    {
+      "bytes": 908,
+      "download_hash_verified": true,
+      "blob": "dc495ee89746a5d6299d6c5c1b8b9f826298f0ad",
+      "lines": 27,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/run_record.json"
+    },
+    {
+      "bytes": 6313,
+      "download_hash_verified": true,
+      "blob": "a6f5a15322f5a36a90042b77c46ce315a848680a",
+      "lines": 226,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/point_curvature.md"
+    },
+    {
+      "bytes": 15939,
+      "download_hash_verified": true,
+      "blob": "689c3b841f80f4f0e332aae487506c65fd74df54",
+      "lines": 575,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md"
+    },
+    {
+      "bytes": 4612,
+      "download_hash_verified": true,
+      "blob": "109a7a745d78310c13c0c21ac892ddc41a335223",
+      "lines": 62,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/sources.md"
+    },
+    {
+      "bytes": 5392,
+      "download_hash_verified": true,
+      "blob": "13bd4084041810bb316f3f1f7355c853cc06c7a3",
+      "lines": 149,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/verification.md"
+    }
+  ],
+  "author_declared_base": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "commit": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "live_head_is_not_scope": true,
+  "origin": "Public immutable commit; cached source-only bytes hash-verified against immutable comparison"
+}

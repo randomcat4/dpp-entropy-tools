@@ -1,0 +1,47 @@
+{
+  "prefix": "research/I05-DPP-21-fixed-harmonic-20260909/",
+  "original_files_unchanged": 18,
+  "files": [
+    {
+      "blob": "6e8b71825ed06eda4256ac1d6573942bb2edf252",
+      "lines": 98,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/FINAL_RESULT.md",
+      "bytes": 3445,
+      "download_hash_verified": true
+    },
+    {
+      "blob": "a702f1439cbdb83b2e3ac8364589ce9b4e93b1ca",
+      "lines": 177,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_pair_fisher_projection.py",
+      "bytes": 5038,
+      "download_hash_verified": true
+    },
+    {
+      "blob": "7631e758712f63c06ce876b0a68a048dd917d319",
+      "lines": 19,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/pair_fisher_exact.json",
+      "bytes": 595,
+      "download_hash_verified": true
+    },
+    {
+      "blob": "84f2043a3d03d97f46e7e8ef7b6d1c258ba23615",
+      "lines": 23,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/run_record_round2.json",
+      "bytes": 785,
+      "download_hash_verified": true
+    },
+    {
+      "blob": "a42f1c23adb5a2a763530c407e2d15dd2d06f6b4",
+      "lines": 41,
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/verification_round2.md",
+      "bytes": 2344,
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Added files only; original FIRST preserved; source-only delta review; no arithmetic or independent Fisher acceptance inherited",
+  "head": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+  "pr": 77,
+  "delta_file_count": 5,
+  "base": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "successor_file_count": 23
+}
