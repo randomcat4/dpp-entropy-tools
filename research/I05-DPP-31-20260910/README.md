@@ -1,230 +1,166 @@
-# I05-DPP-31 — PR66 low-regularity repair checkpoint
+# I05-DPP-31 — PR66 low-regularity repair
 
-Status: **INCOMPLETE (the original p>4 theorem is not repaired yet).**
+## Current status
 
-Role: theory reviser for PR66, not an independent reviewer. This branch starts from `main@65e59a46b49cd2dbb5c779a4cfae8cef26441984`, preserves PR66 at author head `af1edaad69c4e1f5e4bbd1239b8463b56bf64075`, and continues issue #44 / PR66 without treating the old author verdict or old RUNNING labels as acceptance.
+**Original `p>4` theorem: PROVED BY A NEW AUTHOR FINITE-RESPONSE ARGUMENT / PENDING_REVIEW.**
 
-The accepted exponential-regularity theorem PR53 is only background. The target here is the polynomial class
+This is not an independent acceptance.  The proof still depends on the PR66 complete-event inverse and two-leg conditional estimates in their previously reviewed conditional scope, and on the independently accepted regularity-free PR53 matching inequality.  The rejected Dobrushin A1/A2 import is not used.  FIRST, SECOND, formal verification, machine recomputation and novelty are all separate and presently unclaimed.
 
-\[
-\mathcal A_p=\left\{u:\sum_m(1+|m|)^p|\widehat u(m)|<\infty\right\},\qquad p>4,
-\]
+Role: theory reviser for PR66, not an independent reviewer.  This branch starts from `main@65e59a46b49cd2dbb5c779a4cfae8cef26441984`, preserves PR66 at author head `af1edaad69c4e1f5e4bbd1239b8463b56bf64075`, and continues issue #44 / PR66 without treating old author labels or old RUNNING states as acceptance.
 
-for real half-period-even `c` and half-period-odd `g`, with a strict spectral margin, and the true stationary DPP configuration Shannon entropy rate. No spectral/von-Neumann entropy substitution is used.
+## Repaired theorem
 
-## 1. Exact inherited blocker
-
-The full primary Dobrushin text is available and the source-access issue is closed. The remaining defect is applicability.
-
-Primary source: R. L. Dobrushin, *Analyticity of the correlation functions for one-dimensional classical systems with power law decay of the potential*, Math. USSR-Sb. 23:1 (1974), 13–44, MathNet `https://www.mathnet.ru/eng/sm3631`.
-
-The relevant hypotheses are located directly in the primary source at the following printed pages.
-
-* pp. 14–15: classes A1/A2. A1 has an exponential factor in support cardinality in its D2 summability condition. A2 removes that factor only under the stronger null-state condition C2/(2.5).
-* pp. 17–18: perturbation hypotheses and Theorems 1–2.
-* pp. 24–25: Banach formulation/Theorem 6 and the corresponding A1/A2 spaces.
-
-PR66 proves for its interval telescope
+For `p>4`, let
 
 \[
-U_{z,[i,i+n]}=-\psi_{n,z},\qquad \|\psi_{n,z}\|_\infty=O(n^{-2q}),\qquad q=(p+2)/4>3/2,
+\mathcal A_p=\left\{u:\sum_{m\in\mathbb Z}(1+|m|)^p|\widehat u(m)|<\infty\right\}.
 \]
 
-and therefore
+Let real `c,g in A_p` satisfy
 
 \[
-\sum_{A\ni0}\operatorname{diam}(A)\|U_{z,A}\|_\infty<\infty.
+c(\theta+1/2)=c(\theta),\qquad
+g(\theta+1/2)=-g(\theta),\qquad g\ne0,
 \]
 
-That ordinary first-moment estimate does **not** imply Dobrushin A1, because A1 carries an exponential support-cardinality weight. It also does **not** imply A2, because the submitted telescope only has the endpoint reference-state cancellation built into
+and assume a strict pointwise spectral margin `delta<=c<=1-delta`.  Put `mu=\widehat c(0)`.  For any odd `k` with `\widehat g(k)\ne0`, define
 
 \[
-\psi_n(x_0,\dots,x_n)=\phi(x_0,\dots,x_n,0^\infty)-\phi(x_0,\dots,x_{n-1},0^\infty),
+\alpha_k=\frac{|\widehat g(k)|^4}{8\mu^2(1-\mu^2)}.
 \]
 
-whereas A2 requires the interaction to vanish whenever **any** coordinate in its support lies in the distinguished null state. A generic Boolean Möbius conversion can cost `2^|A|`; merely renaming the representation does not close the theorem.
-
-The internal inverse/two-leg/equilibrium/parity lemmas of PR66 are separate source claims. This checkpoint neither repairs the external import nor enlarges the scope of those lemmas.
-
-## 2. Route comparison
-
-### Route (i): controlled A2 null-state potential
-
-For a binary alphabet with null state `0`, an A2 interaction on a finite support `A` that vanishes whenever any coordinate is zero is necessarily of the form
+Then there is `epsilon>0` such that `c+t g` is legal and the true stationary DPP configuration Shannon entropy rate satisfies
 
 \[
-\Phi_A(x_A)=J_A\prod_{i\in A}x_i.
+t\longmapsto h(c+t g)+\alpha_k t^4
 \]
 
-Thus an A2 repair is not a cosmetic gauge choice: it requires quantitative control of the Boolean Möbius coefficients `J_A` of the relevant finite-volume/infinite-volume energy. A naive expansion of an arbitrary block function is exactly where the `2^{|A|}` loss occurs.
+is concave on `[-epsilon,epsilon]`.
 
-There is, however, DPP-specific determinant structure worth exploiting rather than expanding arbitrary `\psi_n`.
+The path is the physical affine kernel `K_t=T(c)+tT(g)`.  All complete events enter through the exact one-sided DPP conditional.  No spectral entropy, fermionic von Neumann entropy, observation-basis rotation, finite-window extrapolation or `L`-affine surrogate is used.
 
-For any **finite** positive definite L-ensemble matrix `L` and occupied set `S`, the configuration weight is proportional to `det L_S`. If `mI\le L\le MI`, put
+## Why the old import remains invalid
+
+The full Dobrushin 1974 source is available.  Its printed pp. 14--15 define classes A1/A2: A1 carries an exponential support-cardinality factor, while A2 replaces that requirement only for a null-state interaction.  PR66's polynomial interval telescope proved an ordinary first-moment bound but neither requirement.  The source-access issue was resolved; applicability was not.
+
+This packet does not relabel that first moment as sufficient.  Instead it bypasses the interaction-pressure theorem and proves only the finite order of response needed for local concavity.
+
+## Finite-response spine
+
+Set
 
 \[
-\gamma=(m+M)/2,\qquad R=I-L/\gamma,\qquad \rho=\|R\|_{2\to2}\le\frac{M-m}{M+m}<1.
+q=\frac{p+2}{4},\qquad a=2q-1=\frac p2>2.
 \]
 
-Then, for every finite `S`,
+The retained PR66 two-leg estimate gives a common complex parameter disk and
 
 \[
-\log\det L_S=|S|\log\gamma-\sum_{k\ge1}\frac1k\operatorname{Tr}(R_S^k).
-\tag{2.1}
+\sup_{x\stackrel{\ne j}=y}
+|\log G_z(\xi|x)-\log G_z(\xi|y)|
+\le C(1+j)^{-2q}.
 \]
 
-The series is absolutely convergent in operator norm. Use the Hamiltonian convention `H(S)=-log det L_S`, omitting only the common normalization constant, and define `J_A=sum_{B subseteq A} (-1)^(|A|-|B|) H(B)`. Thus `J_A` is the coefficient of the Hamiltonian, rather than of the log weight. Applying Boolean Möbius inversion over `B\subseteq A` to (2.1) cancels every closed-walk monomial whose visited vertex set is a proper subset of `A`. For `|A|\ge2`, the resulting null-state coefficient has the exact grouped closed-walk representation
+Cauchy's formula shows that parameter derivatives through order four retain the same single-coordinate decay.  Agreement through memory `n` therefore gives
 
 \[
-J_A
-=\sum_{k\ge1}\frac1k
-\sum_{\substack{i_1,\ldots,i_k\in A\\
-\{i_1,\ldots,i_k\}=A}}
-R_{i_1i_2}R_{i_2i_3}\cdots R_{i_ki_1},
-\tag{2.2}
+\operatorname{var}_n(\partial_z^r\log G_z)
+=O(n^{1-2q})=O(n^{-a}),\qquad r=0,\ldots,4.
 \]
 
-with the displayed positive sign for the Hamiltonian coefficient. The corresponding coefficient of `log det L_S` is `-J_A`. Group the walks at each fixed `k` before summing over `k`: this grouped series converges as a finite Boolean Möbius combination of the absolutely convergent trace series. This does not assert an absolutely summable bound after taking absolute values of individual walks or all supports. In particular every contributing walk visits all vertices, so `k\ge |A|`.
+Half-period conjugacy makes every complete event invariant under `z -> -z`, so the normalized conditional factors through `s=z^2`.  Only second-order response in `s` is needed.
 
-Equation (2.2) is the first nontrivial way found here to avoid a literal `2^{|A|}` bound: the cancellation is performed algebraically before absolute values are taken.
-
-**But this is not yet a PR66 repair.** Two load-bearing points remain unproved:
-
-1. the infinite stationary DPP must be represented by a translation-invariant null-state interaction whose coefficients are the appropriate infinite-volume limits of these determinant Möbius coefficients, with the correct boundary terms; finite marginals use `L_\Lambda=K_\Lambda(I-K_\Lambda)^{-1}`, which is not simply the compression of the global `L=K(I-K)^{-1}`;
-2. Dobrushin A2 needs an absolute weighted sum of `|J_A|`. Operator-norm convergence of (2.1) alone does not control the sum of absolute values of all setwise coefficients. Replacing (2.2) by absolute walk weights introduces a Schur/`\ell^1` growth constant that need not be `<1` for an arbitrary strict-margin center.
-
-So route (i) is a concrete DPP-specific candidate, not a completed theorem. A small-correlation subclass where the absolute off-diagonal walk norm is contractive may be accessible, but that would be a **new weaker theorem**, not a repair of the original arbitrary-center p>4 quantifier.
-
-Primary-source cross-check: Georgii–Yoo, *Conditional Intensity and Gibbsianness of Determinantal Point Processes*, J. Stat. Phys. 118 (2005), arXiv:math/0401402, explicitly identifies Gibbsian conditional distributions in terms of the DPP `J=K(I-K)^{-1}` under continuity assumptions, and notes that a many-body potential can in principle be extracted. This supports investigating (2.2), but it does not by itself supply the Dobrushin A2 norm required here.
-
-### Route (ii): prove enough stronger DPP decay for A1
-
-The current inverse-localization spine cannot be upgraded to a uniform exponential localization statement under the bare `A_p` hypothesis. The following exact obstruction is independent of any unproved entropy claim.
-
-#### Lemma 2.1 — polynomial `A_p` centers can have genuinely non-exponentially localized inverse kernels
-
-Fix `p>4`. Put
+On
 
 \[
-b_r=(1+r)^{-(p+2)},\qquad r\ge1,
+\mathcal B_b=\{F:\|F\|_\infty+\sup_n(1+n)^b\operatorname{var}_nF<\infty\},
 \]
 
-and define a real half-period-even function `a` by
+the Bressaud--Fernandez--Galves coupling gives polynomial relaxation for every `1<b<=a`.  Tracking the first generated mismatch, rather than replacing it by the event that some mismatch occurred, proves the sharp estimate used here:
 
 \[
-\widehat a(\pm 2r)=b_r,\qquad \widehat a(m)=0\ \text{otherwise}.
+\boxed{\mathcal R_s:\mathcal B_b\to\mathcal B_{b-1}},
+\qquad
+\mathcal R_sF=\sum_{n\ge0}\mathcal L_s^n(F-\nu_sF).
 \]
 
-Then `a\in\mathcal A_p`, because
+Thus two response orders use
 
 \[
-\sum_{r\ge1}(1+2r)^p b_r<\infty,
+\mathcal B_a\xrightarrow{\mathcal R_s}\mathcal B_{a-1}
+\xrightarrow{\mathcal R_s}\mathcal B_{a-2},
 \]
 
-and all Fourier coefficients of `a` are nonnegative. Let
+which is legal exactly when `a>2`, hence at the original threshold `p>4`.
+
+The exact perturbation identity
 
 \[
-B:=2\sum_{r\ge1}b_r<\infty
+(\nu_u-\nu_s)(F)
+=\nu_u(\mathcal L_u-\mathcal L_s)\mathcal R_sF
 \]
 
-and choose `0<\varepsilon<1/(4B)`. Set
+gives
 
 \[
-c(\theta)=\frac12-\varepsilon a(\theta).
+D\nu_s(F)=\nu_s(A_{1,s}\mathcal R_sF),
 \]
-
-Then `c` is real, half-period-even, belongs to `\mathcal A_p`, and
 
 \[
-\frac14<c(\theta)<\frac34
+D^2\nu_s(F)=
+\nu_s(A_{2,s}\mathcal R_sF)
++2\nu_s\bigl(A_{1,s}\mathcal R_s(A_{1,s}\mathcal R_sF)\bigr).
 \]
 
-for all `\theta` after decreasing `\varepsilon` if necessary.
+These formulas are proved by difference quotients on the displayed scale; no generic claim that summable variation automatically implies fourth-order response is made.
 
-On `\ell^2(\mathbb Z)`, `T(c)` is positive and invertible. Since `\|2\varepsilon a\|_\infty<1`, the scalar geometric series gives
+For `ell_s=log G_s`, parity independence at the center and fixed parity marginals give the exact true-rate deficit
 
 \[
-\frac1{c}=2\sum_{k\ge0}(2\varepsilon a)^k.
+D(s):=h(c)-h(c+\sqrt s\,g)
+=\nu_s(\ell_s-\ell_0).
 \]
 
-All Fourier coefficients of every `a^k` are nonnegative. Therefore, for every `r\ge1`, the `k=1` term alone yields
+Normalization gives `D'(0)=0`, so `D(s)=A s^2+o(s^2)`.  The accepted PR53 matching inequality implies
 
 \[
-\widehat{(1/c)}(2r)
-\ge 4\varepsilon b_r
-=4\varepsilon(1+r)^{-(p+2)}.
-\tag{2.3}
+A\ge\frac{|\widehat g(k)|^4}{4\mu^2(1-\mu^2)}=2\alpha_k.
 \]
 
-Hence the infinite inverse Toeplitz kernel `T(c)^{-1}=T(1/c)` has no exponential off-diagonal bound.
-
-Now let `I_N=[-N,N]` and take the **all-occupied** complete-event matrix `M_N=T_{I_N}(c)`. Suppose, contrary to the claimed obstruction, that there were constants `C,\beta>0`, independent of `N`, with
+Consequently
 
 \[
-|(M_N^{-1})_{ij}|\le Ce^{-\beta|i-j|}\qquad(i,j\in I_N).
-\tag{2.4}
+h''(t)=-12A t^2+o(t^2),
 \]
 
-Because `T(c)\ge \frac14 I`, the Galerkin finite-section solutions
+and the corrected entropy has negative second derivative for every sufficiently small nonzero `t`, with second derivative zero at the center.
+
+## Boundary and remainder statement
+
+The original p4 draft briefly claimed that the stationary second response of a frozen-future memory-`N` kernel converged at the raw kernel norm rate.  That stronger statement was not proved and is explicitly withdrawn in `c4_response_p4_boundary_correction.md`.
+
+The proved uniform remainder is a finite time-correlation/Poisson cutoff.  For every
 
 \[
-x_N=M_N^{-1}P_Ne_0
+0<\eta<a-2,
 \]
 
-converge in `\ell^2` to `x=T(c)^{-1}e_0`: coercivity gives the standard Céa estimate, since the finite-support subspaces increase densely. Therefore, for every fixed `r`,
+all terms in the second-response formula are approximated by correlation times below `N` with scalar error
 
 \[
-(M_N^{-1})_{0,2r}\longrightarrow (T(c)^{-1})_{0,2r}=\widehat{(1/c)}(2r).
+O(N^{-\eta}).
 \]
 
-Passing (2.4) to the limit would give an exponential bound for `\widehat{(1/c)}(2r)`, contradicting (2.3).
+This is sufficient for the response argument.  It is not a finite-volume curvature extrapolation and not a claim about the stationary law of the frozen-memory approximation.
 
-So no theorem based only on `p>4`, a strict margin and the complete-event inverse family can replace PR66's polynomial inverse localization by a **uniform exponential** inverse localization estimate.
+## File and failure ledger
 
-This lemma does **not** prove that the actual telescoped `\psi_n` fails A1: additional determinant cancellations could in principle make the interaction itself decay faster than the individual propagators. It proves the narrower and useful fact that the present inverse/two-leg mechanism cannot be upgraded to A1 merely by sharpening the same localization estimate.
+- `c4_response_p4_repair.md`: complete author proof at the original `p>4` threshold.
+- `c4_response_p4_boundary_correction.md`: withdrawal of the overstrong frozen-memory response rate and proof of the valid Poisson cutoff bound.
+- `c4_response_p4_source_audit.md`: fresh author re-derivation tied directly to BFG equations and the response difference quotient.
+- `c4_response_p8.md` and `c4_response_p8_correction.md`: preserved earlier coarse proof.  Its two-power Poisson loss is valid but non-sharp; it yielded only the weaker `p>8` threshold.
+- this directory's earlier commits preserve the inverse-localization obstruction, finite determinant Möbius/closed-walk A2 candidate, and the exact Dobrushin failure record.
 
-### Route (iii): genuinely applicable polynomial-memory response, or only finite-order response
+The A2 closed-walk route remains a backup and is not advanced in parallel in this unit.  The proof makes no claim for `p<=4`, a whole legal interval, arbitrary measurable symbols, a DPP entropy counterexample, or a novelty/priority result.
 
-A potentially cheaper target than full complex pressure analyticity is fourth-order local response in the physical parameter. For the corrected entropy
-
-\[
-F(t)=h(c+tg)+\alpha t^4,
-\]
-
-write `H(t)=h(c+tg)`. The conditional calculus requires `H` to be `C^4` near zero and even, `H''(0)=0`, and the strict corrected quartic inequality `H^{(4)}(0)/24+alpha<0`. This is a condition on the corrected functional, including its `alpha t^4` term. Continuity of `H^{(4)}` then gives
-
-\[
-F''(t)=\left(\frac12 H^{(4)}(0)+12\alpha\right)t^2+o(t^2),
-\]
-
-so `F` is strictly concave for sufficiently small nonzero `t`, with `F''(0)=0`. A sixth-order analytic expansion is stronger than necessary for this conditional conclusion.
-
-This observation narrows the external theorem search: one can replace the unsupported claim of full holomorphic pressure by a theorem giving enough differentiability/response of the stationary chain for the parameterized normalized one-sided conditional `G_t`, with a uniform remainder sufficient to differentiate the entropy identity twice.
-
-Sources checked in this pass:
-
-* Walters-type summable-variation `g`-measure theory and the Bressaud–Fernández–Galves coupling literature do supply uniqueness/convergence/mixing under summable or polynomial continuity rates, but the sources located in this pass do not state a fourth-parameter-derivative theorem with hypotheses already mapped to PR66.
-* Fernández–Maillard, *Chains with complete connections: General theory, uniqueness, loss of memory and mixing properties*, provides uniqueness/mixing interfaces for chains with summable variations; it is not being cited here as a fourth-order response theorem.
-* Recent linear-response papers for chains with unbounded memory are useful mechanism references but do not, from the checked statements, close the exact fourth-order uniform remainder needed here.
-
-Therefore route (iii) remains **PENDING SOURCE/PROOF**, not imported by name.
-
-## 3. Current verdict
-
-**Original PR66 p>4 theorem: INCOMPLETE.** The Dobrushin import is still not repaired.
-
-What is new and proved in this checkpoint:
-
-1. the A1 branch cannot be rescued by simply upgrading the existing complete-event inverse localization to a uniform exponential bound: Lemma 2.1 gives an explicit legal half-period-even `A_p` center whose inverse Toeplitz kernel has a polynomial lower tail;
-2. a DPP-specific null-state route exists at the finite determinant level: Möbius inversion of `log det L_S` can be reorganized as connected closed-walk sums before absolute values, avoiding the naive literal `2^{|A|}` estimate. The infinite-volume/Dobrushin-norm bridge is still missing;
-3. only `C^4` physical-parameter response is structurally necessary for the local concavity conclusion; full pressure analyticity is sufficient but not minimal.
-
-No DPP entropy counterexample is claimed. Lemma 2.1 is a method/localization obstruction only.
-
-## 4. Next exact gaps
-
-* **A2 gap:** construct the infinite-volume null-state interaction in the same complex `(s,lambda)` neighborhood and prove the actual Dobrushin A2 weighted absolute norm, or explicitly restrict to a quantitatively contractive subclass and label it as a new weaker theorem.
-* **A1 gap:** if pursued despite Lemma 2.1, prove exponential support-cardinality decay of the *interaction itself* from cancellations not available at inverse-entry level.
-* **finite-response gap:** prove or source a genuinely applicable `C^4` response theorem for the normalized polynomial-memory chain, including a uniform remainder strong enough for `h''(t)=\frac12h^{(4)}(0)t^2+o(t^2)`.
-
-Independent arithmetic/review queue: **PENDING_REVIEW / REQUESTED only if later assigned; no independent recomputation is assumed to be running.**
+Independent review status: **PENDING_REVIEW**.  No review or Codex job is considered started unless a corresponding issue is explicitly claimed.
