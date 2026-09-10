@@ -1,0 +1,13 @@
+# Frozen single-run plan
+
+This file specifies infrastructure and evidence collection, not a mathematical review.
+
+1. Publish the independent checker, literal object, comparison literals, source bindings, this plan, and the C3 request as a preparation commit on the owned C2 branch. No checker execution or mathematical package loading occurs before that publication.
+2. Transfer an archive of precisely the committed unit subtree to its isolated task directory. Retain the archive SHA-256 and local/public source commit bindings. Check shell syntax and prior owned PID absence as infrastructure only.
+3. Start `execution/run_guard.sh RUN_DIR BUDGET_DIR PYTHON implementation/independent_pr70_checker.py --input-root inputs --out RUN_DIR` with paths bound to the isolated task. Set `C2_PRODUCTION_SOURCE_COMMIT` to the preparation commit. The public invocation uses these relative placeholders so no private connection or host paths enter the public packet.
+4. The guard starts the sole 600-second deadline before Python/package loading; pins the arithmetic process to one available CPU; sets all numerical thread variables to 1, UTF-8 output, and a 16 GiB virtual-memory ceiling; uses no GPU; and records start/deadline UTC, owning PID, affinity and exit. It does not create another budget when a deadline file already exists.
+5. The checker uses only standard-library exact integers/rationals and fixed N=80 atanh logarithms. It emits incremental data and comparison records. Stop on the first mathematical mismatch, failed positivity, unresolved interval, timeout or memory cap. Do not rerun after a terminal mathematical failure. A mechanical exception can be repaired only under the same original, still-live deadline, with the original exception and exact source change preserved.
+6. After exit, record post-run PID absence, actual exit code, elapsed time and memory evidence. Copy raw evidence into the public packet, removing only private invocation paths/connection data. Do not change rational data, expected endpoints, failure records, or the execution deadline. Preserve every produced checkpoint even when later checks fail.
+7. Publish raw implementation, inputs, arithmetic and process evidence separately from the concise machine-status interpretation. Hand the frozen final packet to the mathematical FIRST and SECOND owners. Only an all-target pass including every printed-literal comparison may be called MACHINE_PASS.
+
+Excluded: PR70 general analytic identities beyond what is necessary for this fixed object, other K/D/tau values, author scripts/private fallback, PR77 execution, issue73/74 scans, repeated trials, precision changes, universal-sign conclusions and mathematical FIRST/SECOND verdicts.

@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "2689eb7575309e4c0fcb8b68bd07bb41834e75ce1b0318dcadc1c52945a0bbbf",
+      "bytes": 70
+    },
+    {
+      "path": "execution/run_guard.sh",
+      "sha256": "457a5de990b6b84f4a92fb271f9697a3a928ba84f9bb63197bf934ee9c20448f",
+      "bytes": 2415
+    },
+    {
+      "path": "execution/RUN_PLAN.md",
+      "sha256": "ae1529e0a65a67ff21f31af4823cb68c7471ef1b4f6124d5633d26f280840564",
+      "bytes": 2720
+    },
+    {
+      "path": "implementation/independent_pr70_checker.py",
+      "sha256": "68ac82b5fd62b6b2f4210f17304e43457123d0879469a8b0ef02071bf4709769",
+      "bytes": 21525
+    },
+    {
+      "path": "implementation/README.md",
+      "sha256": "e6e1ec055ffcc4cda6834fffc2978b5ad614eee96ed66635b214bf8d646dc386",
+      "bytes": 2006
+    },
+    {
+      "path": "inputs/author_post_checkpoint.md",
+      "sha256": "26e1d39fddf22dd369448777ecc288ae994c283fe8c51711e712bb6bf111084a",
+      "bytes": 9354
+    },
+    {
+      "path": "inputs/author_proof.md",
+      "sha256": "aeab2fd328f922c2c5f19f1c1d11c44ba20ed5cfe88e746ae84b93f7228e1eaf",
+      "bytes": 17447
+    },
+    {
+      "path": "inputs/author_SOURCE.json",
+      "sha256": "cb2ec932cb9f58f81fbe1d12628a1398a01191666fe447179ee9e6ab11f9b985",
+      "bytes": 2906
+    },
+    {
+      "path": "inputs/expected.json",
+      "sha256": "41629bf9535161fe24a6704d4bd47972247695b1ab416a10f2c52f2d3aa9870d",
+      "bytes": 2040
+    },
+    {
+      "path": "inputs/object.json",
+      "sha256": "e90fa460dbf966e2834e2191f53ee35dfc978dbca5ddd9a4775bc3565ce26c98",
+      "bytes": 460
+    },
+    {
+      "path": "inputs/REQUEST.md",
+      "sha256": "6963fb0a57311cd12ba7de8bc8d5390ca4e8cfcc62b1dbce53bbea1d34a00dde",
+      "bytes": 6462
+    },
+    {
+      "path": "README.md",
+      "sha256": "34fb953a9f7c75578e18291da3069b20e1e0640b18671d12d1b066c12ce9a78d",
+      "bytes": 1958
+    }
+  ],
+  "note": "SHA-256 of canonical LF UTF-8 bytes before execution; this manifest excludes itself. Public source commit is recorded by the launcher.",
+  "author_head": "f7be60759fd4d65184803b6585965dc7e5ccd624",
+  "phase": "UNEXECUTED_PREPARATION"
+}
