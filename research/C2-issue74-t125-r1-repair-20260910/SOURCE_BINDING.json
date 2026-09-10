@@ -1,0 +1,12 @@
+{
+  "analytic_source_pr91": "c7a072ec4eea0c5b0f445bca5796873a9e234948",
+  "failure_parent": "279d4aff09ac56878d3f544f04d32ad4beeb4eaa",
+  "input_hashes_sha256": {
+    "meta": "4c70a5b7dc7961e37afffadc6230865df1c4cf99adeb148b82e4ae5bdf74e679",
+    "u": "b313a5e880c2c8a503895ff404b31315ae37c75c3db3ed23f8647c781eca3af6",
+    "v": "b4871c0de631720ccaccde2eae69b9134b7611c2cb793eafff64b039fefd2f34",
+    "w": "9bfe902331e46d8b6136abb2f254f4f9ffe347708814386b81dbf7f112d8005d"
+  },
+  "parameter": "5/4",
+  "trial_source_pr98": "55649309437a78d9e5174386d8d260a4ee9c02a1"
+}
