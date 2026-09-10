@@ -14,35 +14,39 @@ All entropy is complete-configuration Shannon entropy per original lattice coord
 
 ## Status summary
 
-### PROVED (AUTHOR PROOF; arithmetic identity from PR77 constants, not independent review)
+### EXPLICIT UPPER BUDGET (author arithmetic claims; independent finite checks pending)
 
-The explicit PR77 conditional-mutual-information curvature tail (its equations (8.14)--(8.16)) implies the following exact tail-only thresholds for
-
-```text
-T_R = sum_{r>=R} |d_r''(t)|,
-```
-
-uniformly in `t in [1/2,3/2]`:
+Under the PR77 conditional-mutual-information derivative and remainder bounds (equations (8.14)--(8.16)), define the explicit rational upper budget
 
 ```text
-T_18 = 0.005512904463282267...,
-T_20 = 0.0007184877398699024...,
-T_21 = 0.00025895742050788696...,
-T_22 = 0.00009323703026192439...,
-T_23 = 0.000033536439712203354...,
-T_24 = 0.0000120512043381899....
+B_R = sum_{r>=R} [A2 + 4(r+1)A1 + (4(r+1)^2+4(r+1))A0]
+                    * C0^2 * rho^(4r-12).
+sum_{r>=R} |d_r''(t)| <= B_R.
 ```
 
-The exact rational program `tail_budget.py` proves in particular
+Here `A0,A1,A2,C0,rho` are the PR77 constants displayed in `tail_budget.py`. The script sums this explicit majorant; it does not compute the actual absolute curvature tail. This budget discussion concerns the positive interval `t in [1/2,3/2]`. Extending a completed sign certificate to the negative interval additionally uses the physical gauge evenness of the true entropy rate.
+
+The following are retained author decimal displays for `B_R`, with their exact rational comparisons pending independent arithmetic review:
 
 ```text
-T_20 > 1/2500,
-T_21 < 1/2500,
-T_21 > 1/5000,
-T_22 < 1/10000.
+B_18 = 0.005512904463282267...,
+B_20 = 0.0007184877398699024...,
+B_21 = 0.00025895742050788696...,
+B_22 = 0.00009323703026192439...,
+B_23 = 0.000033536439712203354...,
+B_24 = 0.0000120512043381899....
 ```
 
-Therefore a continuum certificate based only on the published uniform PR77 tail cannot use the depth-18 point certificates as a whole-interval bridge. If the finite conditional curvature has only a `4e-4` negative upper margin on some parameter cell, depth 20 is analytically insufficient under this coarse common tail, while depth 21 is tail-compatible. For a `1e-4` margin, depth 22 is tail-compatible. These are only necessary/sufficient tail-budget comparisons; they do not assert any finite conditional curvature sign.
+The author program `tail_budget.py` asserts the following comparisons of the explicit upper budget
+
+```text
+B_20 > 1/2500,
+B_21 < 1/2500,
+B_21 > 1/5000,
+B_22 < 1/10000.
+```
+
+Conditional on verifying those rational comparisons, a finite conditional-curvature upper bound of `-4e-4` on a parameter cell would not be certified negative at the true-rate level by adding this coarse `B_20`; `B_21<4e-4` would suffice for that error comparison. Likewise `B_22<1e-4` would suffice with a finite upper bound of `-1e-4`. A lower bound on `B_R` is not a lower bound on the actual tail: it only shows that this particular upper estimate is too coarse for the stated margin. No minimum necessary depth and no finite or true curvature sign follow from the budget alone.
 
 ### INCOMPLETE_BRIDGE — two-site Riccati / hidden-filter state route
 
@@ -91,7 +95,7 @@ is a second, structurally different bridge because it needs only a rigorous fini
 
 **Riccati/filter compression.** Potential advantage: branch-and-bound on a low-dimensional continuous state can replace enumeration of `2^R` words and may yield much sharper local contraction and response constants. Main unclosed step: rigorous reachable-set/contraction/jet certificate for all four branches.
 
-**Prediction-potential / Poisson + finite conditional tail.** Advantage: the true-rate bridge is already explicit and does not assume a hidden finite-state representation. Cost: with the current coarse uniform constants, depth 18 is far too shallow for the weakest observed negative curvature scale; exact tail arithmetic points to depth 21--22 before finite-cell interval margins can plausibly close the theorem.
+**Prediction-potential / Poisson + finite conditional tail.** Advantage: the PR77 source supplies an explicit true-rate bridge without assuming a hidden finite-state representation. Its independent constants and finite certificates remain pending. The retained author budget displays suggest depths 21--22 could match the example margins above; a proved cell certificate must combine its actual finite upper bound with a validated upper error budget. The budget alone does not rule out smaller depths with stronger finite margins or sharper error bounds.
 
 The methods are complementary rather than interchangeable. A Riccati computation may sharpen the same true-rate error, but a finite value of its stationary-cell curvature without invariant-measure/jet error remains insufficient.
 
@@ -105,16 +109,16 @@ These sources are methodological references, not proofs of the DPP-specific brid
 
 ## Failure ledger
 
-1. **Depth-18 whole-interval reuse fails quantitatively under the common PR77 tail.** `T_18` is over `5e-3`, larger than all three scout curvature magnitudes quoted in issue #74.
+1. **The author common upper budget does not certify whole-interval reuse of the point results.** The displayed `B_18` is over `5e-3`; this concerns the size of an upper estimate, not a proved lower bound for the actual tail. Its exact comparison remains independently pending.
 2. **Naive finite-HMM identification is unjustified.** The exact two-site recurrence has a continuous Schur state; no finite closure was proved.
 3. **Entrywise inverse decay is not automatically a contraction certificate.** Converting it to a crude matrix-norm bound loses too much; no uniform `<1` state derivative bound is claimed.
-4. **Single Jensen gap remains irrelevant to pointwise curvature.** PR77's strict midpoint gap is retained as a true-rate theorem but does not enter the interval sign proof.
+4. **A single Jensen gap does not imply pointwise curvature.** PR77's strict midpoint claim still awaits independent finite certification and does not enter the interval sign proof.
 
 ## Next exact gate
 
 A complete result needs one of:
 
-- outward intervals for `h_R''(J)` on cells covering `[1/2,3/2]`, with `R>=21` or a sharper proved tail so that `sup h_R''(J)+T_R<0`; or
+- outward intervals for `h_R''(J)` on cells covering `[1/2,3/2]`, together with a validated upper budget `B_R` (or a sharper proved error) satisfying `sup h_R''(J)+B_R<0` on every cell; the depth is determined by this combined margin, with no unconditional `R>=21` requirement; or
 - a Riccati invariant-set/contraction/jet certificate giving a sharper total true-rate curvature error and the same strict negative coverage.
 
 Until then the whole-interval claim
