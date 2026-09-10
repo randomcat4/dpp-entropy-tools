@@ -1,0 +1,36 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 124,
+  "review_class": "independent_analytic_FIRST_positive_units",
+  "verdict": "ACCEPTED_SCOPED",
+  "reviewed_head": "344723af6affab240c9f87c395d4e8c1b7b19f6d",
+  "author_base": "b3ada9f6bb23e3efd2e1a4d2a2977d50b61fb4d7",
+  "review_date": "2026-09-10",
+  "files": [
+    {
+      "path": "research/I05-35-halfleaf-resolvent-audit/equal_strength_halfleaf_theorem.md",
+      "blob": "31930a2a4db3b3577871157284a6c64f2c4d1ba0"
+    },
+    {
+      "path": "research/I05-35-halfleaf-resolvent-audit/independent_audit_and_small_edge_theorem.md",
+      "blob": "dcdb38d3858d507e56bf5e5d7594459117b8205c"
+    },
+    {
+      "path": "research/I05-35-halfleaf-resolvent-audit/code/verify_small_edge_algebra.py",
+      "blob": "c84f5d3acac1172a80ed35b58a3bc0f5e3f11b0d"
+    }
+  ],
+  "correspondence": {
+    "pull_request": 120,
+    "head": "c2fa3906a2f8f0d2176e26a881333d5d7b484cde",
+    "path": "research/I05-35-halfleaf-resolvent-audit/equal_coupling_successor/equal_coupling_one_sided_theorem.md",
+    "blob": "ed3b6b7559e955c96004ebdf398d7a3f9b2ad4c6",
+    "relation": "same theorem statement; earlier source with a distinct proof certificate"
+  },
+  "excluded_units": [
+    "pointwise-resolvent counterexample files already reviewed separately"
+  ],
+  "computation": "none",
+  "novelty": "not_assessed"
+}
+
