@@ -50,4 +50,13 @@ The committed Fisher JSON differs from the script's emitted schema.
 
 C3 has separately authorized [PR70's 600-second finite contract](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5606052217)
 and then [PR77's 2700-second fixed-value/jet/constant contract](https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5606122441).
-Both are C2-owned; C1 still awaits independently frozen raw evidence.
+Both are C2-owned. PR70 raw evidence is now frozen at PR85
+`611d5f70e8bb70237755ca4fdbe8ab14c8b715c1` and its original FIRST reviewer
+is auditing the actual implementation, input, output and execution files.
+PR77 raw finite evidence remains pending.
+
+The further explicit [2564 text-delta FIRST](units/pr77/finite_scope_2564_review.md)
+is COMPLETE: Section 9's over-broad rate-derivative wording is closed by
+finite-block narrowing, and README now accurately labels curated summaries.
+This does not prove a true-rate derivative bridge or supply missing raw
+finite certificates. Original and intermediate reports remain preserved.

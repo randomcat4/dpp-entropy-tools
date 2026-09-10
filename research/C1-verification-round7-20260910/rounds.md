@@ -64,3 +64,18 @@ gaps and a newly pinned Fisher JSON/output-schema discrepancy. The
 original reports and the Section 9 rate-bridge finding are unchanged.
 C3's finite requests remain bound to original PR70 f7be607 and original
 PR77 6ebe38; successor code is not a new computational premise.
+
+## Explicit 2564 text closure and PR85 raw-evidence receipt
+
+The two-file2564 delta over8de8 changes only Section9 and README. The
+original reviewer separately accepted finite-block narrowing and summary
+disclosure; code/output/constants/thresholds and the other21 files are
+unchanged. The announced patch hash matches LF-normalized patch text;
+the review itself uses immutable GitHub comparison and verified blobs.
+
+C2 PR85 raw head611d5f70 was frozen for the original PR70 FIRST reviewer.
+All75 raw files from77 public packet files are Git-blob/SHA-bound; top-level
+README/STATUS interpretation is excluded from reviewer input. The exact
+implementation and inputs match pre-execution public head29d4d77. The
+original reviewer audits P2/P5/P6 and raw execution/interval evidence,
+without running any code. No acceptance is inferred from178 machine checks.

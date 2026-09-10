@@ -81,6 +81,18 @@ nor a SECOND outcome changes C2's original eighteen-file input freeze.
 
 ## Integration and finite-work boundary
 
+The later two-file author patch at
+`2564e25a8b62a72992b9451988cd42e2d5a81834` has its own
+[scope](units/pr77/finite_scope_2564_scope.md),
+[review](units/pr77/finite_scope_2564_review.md) and
+[source binding](units/pr77/FINITE_SCOPE_2564_BINDING.json).
+It closes Section 9's overreach by restricting the second-order argument
+to fixed finite blocks with n-dependent constants; true-rate derivatives
+remain explicitly incomplete. The value-rate identity alone is retained.
+README now labels abbreviated author outputs, including the Fisher schema
+difference, accurately. These are scope/disclosure closures, not missing
+raw evidence or numerical acceptance. All prior reports are unchanged.
+
 C3 is coordinating isolated SECOND of the named accepted analytic units
 using frozen author material and the supplied accepted premises only.
 This handoff records no SECOND outcome. C3 remains sole integrator.
@@ -89,7 +101,10 @@ This handoff records no SECOND outcome. C3 remains sole integrator.
 one fixed PR70 auxiliary object, PR77's fixed midpoint and three points,
 and the Fisher constants now explicitly included by C3. The actual
 [finite contracts are bound separately](FINITE_REQUEST_BINDING.json).
-Raw evidence is pending. This review starts no issue73/74 exploration,
+PR70 raw evidence at PR85 `611d5f70e8bb70237755ca4fdbe8ab14c8b715c1`
+is bound in [its own source manifest](units/pr70/PR85_MACHINE_BINDING.json)
+and is being audited by the original FIRST reviewer. PR77 raw evidence
+is pending. This review starts no issue73/74 exploration,
 continuous interval job, new theory route or new main instance.
 
 Novelty is NOT_ASSESSED; formal verification is NOT_PERFORMED. No pending

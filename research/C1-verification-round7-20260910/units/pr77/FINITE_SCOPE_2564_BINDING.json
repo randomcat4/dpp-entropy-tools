@@ -1,0 +1,29 @@
+{
+  "unchanged_other_files": 21,
+  "review_input": "Immutable GitHub comparison and hash-verified complete source blobs",
+  "delta_file_count": 2,
+  "head": "2564e25a8b62a72992b9451988cd42e2d5a81834",
+  "base": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+  "source_comment": "https://github.com/randomcat4/dpp-entropy-tools/pull/77#issuecomment-5611599095",
+  "pr": 77,
+  "files": [
+    {
+      "deletions": 1,
+      "download_hash_verified": true,
+      "blob": "27e40007d557f8d76508c55b0830ed7a2c6f3ed5",
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/README.md",
+      "lines": 73,
+      "additions": 7
+    },
+    {
+      "deletions": 11,
+      "download_hash_verified": true,
+      "blob": "3abf09012d746e10eef00566f7f3deb78915541e",
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md",
+      "lines": 579,
+      "additions": 15
+    }
+  ],
+  "scope": "Section9 finite-block limitation and README summary labeling only; no arithmetic; preserve earlier reports",
+  "announced_patch_sha256_matches_lf_normalization": true
+}
