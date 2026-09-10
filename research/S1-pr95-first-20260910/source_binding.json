@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_SOURCE_BINDING_FOR_MATHEMATICAL_FIRST",
+  "repository": "randomcat4/dpp-entropy-tools",
+  "reviewed_pr": 95,
+  "reviewed_commit": "54d9803b29f73669b9028e3519d17493e1b81be3",
+  "files": [
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/RESULT.md", "blob": "9bdc7f5e5c288f6ef68b1a4e02306a3e50e5088f", "size": 15420},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/ADDENDUM_MOVING_ENDPOINT_STABILITY.md", "blob": "0daadaff2d639d975f04e886069a7415f9a75139", "size": 9476},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/SOURCES_AND_FAILURES.md", "blob": "52848493e3960115d91905b8263489f1defb3b51", "size": 7042},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/EXECUTION.md", "blob": "22a82e59edadcbaf1b5e2f9e2e98fff28be211fd", "size": 2480},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/code/verify_maximal_chord.py", "blob": "a132363641c4923cbc013b6414d7044fed7ab853", "size": 13402},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/input/fixture.json", "blob": "270909a194a17cc2c559437627a0fb75f854da7a", "size": 691},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/output/rational_certificate.json", "blob": "946761c76e64a9230f25ae76e6195b0f375d1c52", "size": 4531},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/output/complete_event_coefficients.csv", "blob": "3ed26bfe37798af53ad1cf8ec0a3dadcd0097223", "size": 8902},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/output/verify_maximal_chord.stdout.txt", "blob": "6fe9a4b8f50eef79ad636179028111f974ab7c51", "size": 1840},
+    {"path": "research/I05-29-maximal-rank2-chord-20260910/output/packaging_replay.stdout.txt", "blob": "17b2c9e82453a5fbe519cac14ebbb9457058eec7", "size": 1840}
+  ],
+  "fixture_identity_source": {
+    "commit": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+    "path": "research/I05-23-middle-20260909/ADDENDUM_JOINT_ADDITIVE.md",
+    "blob": "09ab0a14f2a096e732730561c194fd730a14a8ef",
+    "size": 9278,
+    "observation": "The 30 displayed A,C,U,V rational entries agree with Section 3. This identity check is not the independent arithmetic reconstruction."
+  },
+  "execution": "NOT_RUN_BY_REVIEWER",
+  "finite_source_status": "PENDING_INDEPENDENT_FINITE_SOURCE",
+  "novelty": "NOT_ASSESSED"
+}
