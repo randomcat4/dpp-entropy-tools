@@ -56,6 +56,29 @@ Read [mathematical FIRST](units/pr77/review_report.md),
 [static FIRST](units/pr77/code_review.md) and
 [frozen source binding](units/pr77/SOURCE_BINDING.json).
 
+## Separately completed PR77 successor delta
+
+Successor `8de8b0007f9374b7a5decb9b0a2f1c939fe897be` adds exactly five files;
+all original eighteen files are byte-identical. The same FIRST reviewer
+completed separate [scope](units/pr77/successor_8de8_scope.md),
+[mathematical delta](units/pr77/successor_8de8_review.md) and
+[static delta](units/pr77/successor_8de8_code.md) reports, with a
+[separate binding](units/pr77/SUCCESSOR_8DE8_BINDING.json).
+
+The added final summary preserves author-only and incomplete-continuum
+status. The added run record closes the specific omission of the point
+command, but not raw-output/hash traceability. The Fisher polynomial
+checker supplies static finite source coverage without importing the
+earlier author modules. Its committed JSON has a different schema from
+what the script emits, so it remains a curated author summary and needs
+raw generated evidence or explicit summary labeling. No quantitative
+Fisher, midpoint or point-curvature claim is independently upgraded.
+The Section 9 true-rate gap is unchanged.
+
+The original six FIRST reports are preserved. C3 may supply the five
+author additions separately to its isolated SECOND; neither this delta
+nor a SECOND outcome changes C2's original eighteen-file input freeze.
+
 ## Integration and finite-work boundary
 
 C3 is coordinating isolated SECOND of the named accepted analytic units
@@ -64,8 +87,9 @@ This handoff records no SECOND outcome. C3 remains sole integrator.
 
 [The bounded finite handoff](computation_handoff.md) distinguishes the
 one fixed PR70 auxiliary object, PR77's fixed midpoint and three points,
-and the optional small Fisher-constant unit. C3/C2 must settle and freeze
-the actual minimal jobs. This review starts no issue73/74 exploration,
+and the Fisher constants now explicitly included by C3. The actual
+[finite contracts are bound separately](FINITE_REQUEST_BINDING.json).
+Raw evidence is pending. This review starts no issue73/74 exploration,
 continuous interval job, new theory route or new main instance.
 
 Novelty is NOT_ASSESSED; formal verification is NOT_PERFORMED. No pending

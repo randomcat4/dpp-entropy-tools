@@ -39,3 +39,15 @@ See [C3 handoff](HANDOFF.md), [bounded finite obligations](computation_handoff.m
 [claim ledger](lemma_ledger.md), [provenance](provenance.md),
 [work-unit record](rounds.md), [public coordination](coordination.md)
 and unit SOURCE_BINDING.json files.
+
+The separately authorized PR77 successor `8de8b0007f9374b7a5decb9b0a2f1c939fe897be`
+has now received a [five-file delta-FIRST](units/pr77/successor_8de8_review.md).
+All original eighteen blobs and their original FIRST reports remain
+unchanged. The delta is PARTIAL_FIX_ACCEPTED_SCOPED: point-curvature is
+listed in a supplemental run record and a Fisher polynomial checker is
+added, but raw certificate/hash gaps and Section 9's rate gap remain.
+The committed Fisher JSON differs from the script's emitted schema.
+
+C3 has separately authorized [PR70's 600-second finite contract](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5606052217)
+and then [PR77's 2700-second fixed-value/jet/constant contract](https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5606122441).
+Both are C2-owned; C1 still awaits independently frozen raw evidence.

@@ -48,3 +48,19 @@ units and is coordinating the minimum finite contracts with C2. No SECOND
 opinion is supplied to either FIRST reviewer. Existing PR58 and prior
 review archives are closed coordination history, not new work in this
 round. The later PR77 author branch receives no inherited verdict.
+
+## Explicit successor8de8 delta and recovery
+
+An explicit new assignment froze successor8de8 against original6ebe38.
+The immutable comparison has exactly five added files (358 lines), no
+modified/deleted file, and all eighteen original blobs are unchanged.
+Only those additions were reviewed in three separate successor reports.
+The delta report files had been fully written before a reviewer service
+interruption. Recovery read the saved files and performed administrative
+finalization only; no completed mathematical review was rerun.
+
+The result is PARTIAL_FIX_ACCEPTED_SCOPED, with residual evidence-package
+gaps and a newly pinned Fisher JSON/output-schema discrepancy. The
+original reports and the Section 9 rate-bridge finding are unchanged.
+C3's finite requests remain bound to original PR70 f7be607 and original
+PR77 6ebe38; successor code is not a new computational premise.

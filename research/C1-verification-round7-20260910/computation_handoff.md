@@ -1,9 +1,11 @@
 # Bounded independent finite-evidence handoff
 
-No computation is launched by this document. C3 and C2 are converging the
-minimal independently frozen contracts. The FIRST reports identify the
-finite claims below; C2 must record its actual narrower execution scope
-before running them. C1 performs source/evidence review only.
+No computation is launched by C1. C3 has now authorized two separate
+bounded C2 contracts: [PR70, 600 seconds](https://github.com/randomcat4/dpp-entropy-tools/issues/52#issuecomment-5606052217)
+and then [PR77, 2700 seconds](https://github.com/randomcat4/dpp-entropy-tools/issues/74#issuecomment-5606122441).
+The public requests define the actual executable scope, deadlines and
+stop rules and take precedence over this earlier requirements summary.
+C1 performs source/evidence review only and awaits frozen raw artifacts.
 
 ## PR70: one fixed auxiliary object
 
@@ -61,9 +63,11 @@ summaries lack these raw margins and omit the point-curvature execution
 from the consolidated run record; C2 evidence must be independently
 traceable. Merely publishing another author PASS does not close the gate.
 
-The adjacent-pair Fisher constants are a separate, small optional unit
-if C3 elects to accept the advertised quantitative bound. They are not
-required to establish the fixed midpoint and point-curvature claims.
+The adjacent-pair Fisher constants were optional in the initial FIRST
+requirements. C3 has now explicitly included the original
+fisher_projection.md local polynomial algebra in PR77's single finite
+contract. The later successor8de8 checker is excluded from computational
+inputs; no independent acceptance is inherited from it.
 No continuous interval, mesh certification, response-norm search, issue74
 job or later PR77 head is included.
 
