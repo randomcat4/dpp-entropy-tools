@@ -50,6 +50,11 @@
         "blob": "0ab72e5c87e9ee1fc89222be6ce0459d36319a46",
         "scope": "centered_full_conditional_Fisher_expansion_for_p_ge_1_over_2"
       },
+      "accepted_method_obstruction": {
+        "path": "research/I05-DPP-32-p1-20260910/dpp_score_moment_obstruction.md",
+        "blob": "ba9556b3471d1c8069270061b092549d4705dfbf",
+        "scope": "exact_score_V1_failure_for_sparse_A_p_p_lt_1_and_V0_failure_for_p_lt_1_over_2"
+      },
       "local_concavity_below_p_1": "not_claimed"
     },
     {
