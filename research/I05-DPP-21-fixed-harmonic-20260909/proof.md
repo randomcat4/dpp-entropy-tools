@@ -537,7 +537,7 @@ sum_{r>=R}r^2q^r
 
 Thus a directed interval upper bound for the finite conditional curvature `h_R''`, plus the explicit rational tail obtained from (8.14)–(8.16), proves a true-rate curvature sign. This is the analytic acceptance gate frozen in computation issue #74. A negative `H_n''/n` without (8.14) is not accepted.
 
-## 9. Beam-splitter comparison at second order
+## 9. Beam-splitter comparison: finite-block second order
 
 For completeness, take endpoint kernels at `t_*-u` and `t_*+u`. The balanced fermionic beam splitter produces a doubled quasifree covariance
 
@@ -545,28 +545,32 @@ For completeness, take endpoint kernels at `t_*-u` and `t_*+u`. The balanced fer
 K_out(u)=[[K_{t_*},uK_g],[uK_g,K_{t_*}]].            (9.1)
 ```
 
-Both occupation marginals equal the DPP at `t_*`. If `Q_u` is the full occupation law, then at the finite and true-rate levels
+Both occupation marginals equal the DPP at `t_*`. For a fixed block of `n` original sites, write its complete occupation law as `Q_{u,n}`, the output mutual information as `I_out,n`, and the occupation-entropy gain as `E_occ,n`. The exact finite entropy identity is
 
 ```text
-2h(t_*)-h(t_*-u)-h(t_*+u)
- =I_out(u)+E_occ(u).                                  (9.2)
+2H_n(t_*)-H_n(t_*-u)-H_n(t_*+u)
+ =I_out,n(u)+E_occ,n(u).                              (9.2)
 ```
 
-At `u=0`, `Q_0` is the product of its marginals. Layer-sign conjugation sends `u` to `-u` without changing any complete occupation event, so
+Dividing this value identity by `n` and taking the stationary entropy-rate limits gives the corresponding value identity, with rates measured per original lattice coordinate. This passage alone does not justify differentiating those limits.
+
+At `u=0`, `Q_{0,n}` is the product of its marginals. Layer-sign conjugation sends `u` to `-u` without changing any complete occupation event. For each fixed finite block, strict positivity therefore gives
 
 ```text
-Q_u-Q_0=O(u^2),
-I_out(u)=D(Q_u||Q_0)=O(u^4).                          (9.3)
+Q_{u,n}-Q_{0,n}=O_n(u^2),
+I_out,n(u)=D(Q_{u,n}||Q_{0,n})=O_n(u^4).              (9.3)
 ```
 
-Hence
+The constants here may depend on `n`. Consequently the justified finite-block second-order identities are
 
 ```text
-I_out''(0)=0,
-E_occ''(0)=-2h''(t_*).                                (9.4)
+I_out,n''(0)=0,
+E_occ,n''(0)=-2H_n''(t_*).                            (9.4)
 ```
 
-The nonnegative output mutual information supplies no quadratic sign. The whole second-order question is the classical occupation-entropy gain. A von-Neumann entropy inequality for the underlying quasifree state is a different entropy and cannot replace it.
+The output mutual information supplies no quadratic sign at this finite-block level. The corresponding assertions for the derivatives of the true rates require an additional uniform-in-volume fourth-order remainder or an analytic response bridge for the doubled output process. That bridge is not established in this section, and those true-rate derivative assertions remain INCOMPLETE. No such assertion is used in the fixed midpoint and point-curvature certificate route in Sections 6-8.
+
+The unresolved occupation-entropy gain is classical Shannon entropy. A von-Neumann entropy inequality for the underlying quasifree state is a different entropy and cannot replace its sign.
 
 ## 10. Conclusion and remaining gap
 

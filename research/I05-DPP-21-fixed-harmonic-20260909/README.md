@@ -65,3 +65,9 @@ Issue #74 freezes a separate outward-rounded RPF/finite-memory curvature job for
 ## Boundary of the present result
 
 The certified midpoint gap supports concavity for one nonzero chord, but it does not imply local or global curvature. Analyticity, evenness, and the fact that `t=0` maximizes entropy do not fill that gap. The five-term/Poisson RPF response still has no general sign for this fixed process.
+
+## Evidence packaging clarification
+
+The committed `output/*.json` files are abbreviated, curated author summaries. They are not the literal full JSON payloads emitted by every displayed checker, and their PASS fields are not independent certificates. In particular, the midpoint and point-curvature programs can emit `.full.json` files with raw intervals and tails that are not included in this author snapshot; the pair-Fisher summary uses display polynomials instead of the checker's coefficient-list schema. The supplemental run record lists author commands but does not replace source/output hashes or raw interval evidence. Independent reconstruction must supply those artifacts before the finite claims receive external acceptance.
+
+The beam-splitter second-order argument in `proof.md` Section 9 is scoped to each fixed finite block. Its true-rate value identity is retained, while the true-rate derivative passage remains incomplete and is not a premise for the midpoint or point-curvature certificates.
