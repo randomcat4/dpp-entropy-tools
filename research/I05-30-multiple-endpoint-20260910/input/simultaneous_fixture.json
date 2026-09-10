@@ -1,0 +1,10 @@
+{
+  "description": "Exact dense correlated 3+3 rank-two path with simultaneous K and I-K nullity two at t=+-1.",
+  "A": [["4/15","1/15","1/15"],["1/15","4/15","1/15"],["1/15","1/15","4/15"]],
+  "C": [["11/15","-1/15","-1/15"],["-1/15","11/15","-1/15"],["-1/15","-1/15","11/15"]],
+  "B": [["4/15","-2/15","-2/15"],["-2/15","4/15","-2/15"],["-2/15","-2/15","4/15"]],
+  "physical_path": "K(t)=[[A,tB],[tB,C]]",
+  "maximal_chord_author_claim": "[-1,1]",
+  "endpoint_author_claim": "dim ker K(+-1)=dim ker(I-K(+-1))=2",
+  "review_status": "PENDING_REVIEW"
+}

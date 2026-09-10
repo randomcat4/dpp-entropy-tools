@@ -1,0 +1,14 @@
+I05-30 simultaneous endpoint certificate: PASS
+rank(B)=2, dense: True
+endpoint nullities: ker K(1)= 2 , ker(I-K(1))= 2
+endpoint zero atoms: simple= 18 double= 2
+cardinality R0=R6 = 96*(s - 1)**2/15625
+cardinality R1=R5 = -16*(s - 1)*(11*s + 64)/15625
+13 exact likelihood types verified; all 64 events retained
+compact [0,9/10]: good rational reserve > 19/20; bad log budget < 1/2
+compact [9/10,99/100]: good rational reserve > 8; bad log budget < 11/10
+endpoint grouped Fisher coefficient = 995328/1953125 > 1/2
+acceleration coefficient budget = 101408/46875 < 11/5
+whole chord author bound: Hdd(t) <= -(1/10)t^2 for 0<|t|<1
+
+NOTE: this is retained author-side output text associated with the committed exact checker. It is not an independent S2/Codex computation or review disposition.
