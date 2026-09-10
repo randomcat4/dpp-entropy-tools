@@ -1,0 +1,49 @@
+{
+  "schema": [
+    "N",
+    "count",
+    "sum_Nprime",
+    "sum_Nsecond",
+    "sum_Nprime_squared"
+  ],
+  "compression": "gzip level1,mtime0,ASCII JSONL,all integer fields decimal strings",
+  "ordering": "ascending integer N",
+  "chunks": [
+    {
+      "path": "C/t1_n18_histogram_000.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1451320,
+      "sha256": "6962ee571e320a48db39588458424abf0db59e57527a2053dc7ffd150d0c51d2"
+    },
+    {
+      "path": "C/t1_n18_histogram_001.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1447386,
+      "sha256": "946b95bfafaf6d559cc4c156d8150b548c00e04c03c916064b658f6198968cd6"
+    },
+    {
+      "path": "C/t1_n18_histogram_002.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1449180,
+      "sha256": "7173dc91217bc944ecf824cd1202866b4ae2bc9bb16c663b2d0968fc3593af3e"
+    },
+    {
+      "path": "C/t1_n18_histogram_003.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1448780,
+      "sha256": "1f22a2374ad5865a38ef0913596c8000078f6dafc71c2edc1d7b55aafcdfba3c"
+    },
+    {
+      "path": "C/t1_n18_histogram_004.jsonl.gz",
+      "rows": 25000,
+      "bytes": 1452025,
+      "sha256": "6d054489b1d5dcb3d57da815e249d3d2e178a1b1a201225dff21ca058ea4951a"
+    },
+    {
+      "path": "C/t1_n18_histogram_005.jsonl.gz",
+      "rows": 6328,
+      "bytes": 368841,
+      "sha256": "f495f0a7af65ed226701a56e4f0a5d7cb04e71a4d239b9da7e3d1856382d1a4d"
+    }
+  ]
+}

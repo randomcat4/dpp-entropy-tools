@@ -1,0 +1,108 @@
+{
+  "precision": 100,
+  "widening": "1e-90",
+  "finite_width_limit": "1e-40",
+  "implementation": "CPython",
+  "decimal_version": "1.70",
+  "libmpdec_version": "2.5.1",
+  "Decimal_class_module": "decimal",
+  "HAVE_CONTEXTVAR": true,
+  "correct_rounding_source": "https://docs.python.org/3/library/decimal.html#decimal.Decimal.ln",
+  "ln_rule": "ROUND_HALF_EVEN correctly rounded; then absolute widening using directed subtraction/addition",
+  "integer_conversion": "Decimal(int) is exact, independent of context precision; no float conversion",
+  "rational_conversion": "integer numerator and denominator converted exactly, then FLOOR and CEILING division",
+  "negation": "copy_negate plus endpoint swap, never context-rounded unary negation",
+  "error_derivation": "N<=32^19<10^29; exp(3)>1+3+9/2+27/6=13>10; log N<87<100; half ulp<=5e-99<1e-90",
+  "initial_contexts": {
+    "floor": {
+      "precision": 100,
+      "rounding": "ROUND_FLOOR",
+      "Emin": -999999,
+      "Emax": 999999,
+      "capitals": 1,
+      "clamp": 0,
+      "flags": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      },
+      "traps": {
+        "InvalidOperation": true,
+        "FloatOperation": true,
+        "DivisionByZero": true,
+        "Overflow": true,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      }
+    },
+    "ceiling": {
+      "precision": 100,
+      "rounding": "ROUND_CEILING",
+      "Emin": -999999,
+      "Emax": 999999,
+      "capitals": 1,
+      "clamp": 0,
+      "flags": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      },
+      "traps": {
+        "InvalidOperation": true,
+        "FloatOperation": true,
+        "DivisionByZero": true,
+        "Overflow": true,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      }
+    },
+    "ln_nearest": {
+      "precision": 100,
+      "rounding": "ROUND_HALF_EVEN",
+      "Emin": -999999,
+      "Emax": 999999,
+      "capitals": 1,
+      "clamp": 0,
+      "flags": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      },
+      "traps": {
+        "InvalidOperation": true,
+        "FloatOperation": true,
+        "DivisionByZero": true,
+        "Overflow": true,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": false,
+        "Rounded": false,
+        "Clamped": false
+      }
+    }
+  }
+}

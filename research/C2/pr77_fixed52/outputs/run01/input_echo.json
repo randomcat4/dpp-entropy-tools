@@ -1,0 +1,149 @@
+{
+  "author_head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "parameters": [
+    "1/2",
+    "1",
+    "3/2"
+  ],
+  "depth": 18,
+  "lengths": [
+    18,
+    19
+  ],
+  "kernel": {
+    "diagonal": "1/2",
+    "first_offdiagonal": "t/16",
+    "second_offdiagonal": "1/8",
+    "scale": 32
+  },
+  "decimal_precision": 100,
+  "ln_widening": "1e-90",
+  "finite_width_limit": "1e-40",
+  "uniform": {
+    "a": "13/128",
+    "b": "1/8",
+    "rho": "49/64",
+    "C": "16384/3243",
+    "C0": "1033420800/1263214441",
+    "residuals": [
+      "3243/16384",
+      "146619/2097152",
+      "241611/134217728",
+      "241611/78675968"
+    ],
+    "dominance": "3/64",
+    "factors": [
+      "1661/8192",
+      "2445/8192"
+    ]
+  },
+  "U1": "9/8",
+  "U2": "37/8",
+  "M2": "256/15",
+  "M3": "57344/225",
+  "M4": "27656192/3375",
+  "points": [
+    {
+      "t": "1/2",
+      "d": "1/4",
+      "max_abs_z": "3/4",
+      "rho": "2/3",
+      "residuals": [
+        "47/144",
+        "251/1728",
+        "71/2592",
+        "71/1152"
+      ],
+      "factors": [
+        "144/47",
+        "5/32",
+        "23/96"
+      ],
+      "threshold": "-1/2500"
+    },
+    {
+      "t": "1",
+      "d": "1/8",
+      "max_abs_z": "9/8",
+      "rho": "2/3",
+      "residuals": [
+        "85/288",
+        "385/3456",
+        "25/5184",
+        "25/2304"
+      ],
+      "factors": [
+        "288/85",
+        "11/64",
+        "49/192"
+      ],
+      "threshold": "-1/1000"
+    },
+    {
+      "t": "3/2",
+      "d": "1/16",
+      "max_abs_z": "25/16",
+      "rho": "3/4",
+      "residuals": [
+        "109/512",
+        "311/4096",
+        "37/16384",
+        "37/9216"
+      ],
+      "factors": [
+        "512/109",
+        "203/1024",
+        "299/1024"
+      ],
+      "threshold": "-1/500"
+    }
+  ],
+  "covariance_polynomials_in_u": {
+    "m": [
+      "1/4",
+      "0",
+      "-1"
+    ],
+    "c0": [
+      "3/16",
+      "0",
+      "-1/2",
+      "0",
+      "-1"
+    ],
+    "c1": [
+      "7/128",
+      "0",
+      "-1/4",
+      "0",
+      "-1"
+    ],
+    "c2": [
+      "-31/4096",
+      "0",
+      "-1/32"
+    ],
+    "c3": [
+      "-1/256"
+    ],
+    "V": [
+      "561/2048",
+      "0",
+      "-17/16",
+      "0",
+      "-3"
+    ]
+  },
+  "variance_endpoints": [
+    "286141/1048576",
+    "277197/1048576"
+  ],
+  "fisher_lower_bound": "16/286141",
+  "jensen_threshold": "1/10000",
+  "small_checks": {
+    "mobius_max_n": 6,
+    "direct_max_n": 8,
+    "jet_max_n": 6
+  },
+  "comparison_note": "Displayed author literals are comparison targets only; all corresponding quantities must first be independently constructed."
+}

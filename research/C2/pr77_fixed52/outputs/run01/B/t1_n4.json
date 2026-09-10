@@ -1,0 +1,13 @@
+{
+  "t": "1/2",
+  "n": 4,
+  "all_word_count": 16,
+  "event_jet_sha256": "42afcda7d30d964cea57feecf22d12a47e28cecfd33ecae4a0e18ffa6b4d1e0a",
+  "all_agreements": true,
+  "value_routes": [
+    "frontier permutation recurrence",
+    "pivoted Bareiss signed determinant",
+    "inclusion determinants and Mobius inversion"
+  ],
+  "jet_route": "multilinear row replacement determinants"
+}

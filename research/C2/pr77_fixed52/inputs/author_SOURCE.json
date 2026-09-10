@@ -1,0 +1,153 @@
+{
+  "pr": 77,
+  "head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "observed_live_head": "31aa5dc379b2afb9e22bcf6fe071460a280d8fcc",
+  "prefix": "research/I05-DPP-21-fixed-harmonic-20260909/",
+  "files": [
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09dfaff5a07cef3d666ef970fd0e9a5763a03ebb",
+      "size": 3277,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/09dfaff5a07cef3d666ef970fd0e9a5763a03ebb"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/RESULT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d542360c79d52ba2518735f39f63e12feaf122",
+      "size": 2186,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/40d542360c79d52ba2518735f39f63e12feaf122"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/attempts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e48b1c93d22e5f16c2a274dd299c31c77f1c74",
+      "size": 3957,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/81e48b1c93d22e5f16c2a274dd299c31c77f1c74"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_midpoint_rate_gap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdd2e565108d0a9d91d788e9f279da0b1bbb900d",
+      "size": 14018,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/bdd2e565108d0a9d91d788e9f279da0b1bbb900d"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_point_curvatures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1588a3def00e07e76d4c8afab0365dddfaac902d",
+      "size": 17223,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/1588a3def00e07e76d4c8afab0365dddfaac902d"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_analytic_constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f68ed5d7f97524eb91ffc468b3af0bb0a70d819",
+      "size": 4185,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/8f68ed5d7f97524eb91ffc468b3af0bb0a70d819"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_band_automaton.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0b3f692ba8c9753775c7b9e08037cbc5e188eb",
+      "size": 2923,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/eb0b3f692ba8c9753775c7b9e08037cbc5e188eb"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/fisher_projection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "574180b8796a3f76e08d3ef5606c697bfb365094",
+      "size": 5051,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/574180b8796a3f76e08d3ef5606c697bfb365094"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/frozen_statement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcdfcb0614bb9c1863b1caf8356751b02226834a",
+      "size": 4149,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/bcdfcb0614bb9c1863b1caf8356751b02226834a"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/analytic_constants_exact.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9aa42db8de8b317d51cdfb065c27bc5d6425b55",
+      "size": 902,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/f9aa42db8de8b317d51cdfb065c27bc5d6425b55"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/band_automaton_exact.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c5703baa20dc7b3c9ee1e5966736ed0390fa74d",
+      "size": 411,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/4c5703baa20dc7b3c9ee1e5966736ed0390fa74d"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/midpoint_rate_certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4db204edeb0fc2c53fd975f8302d837b6dc20d8",
+      "size": 892,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/c4db204edeb0fc2c53fd975f8302d837b6dc20d8"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/point_curvature_certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "918846e317e0c070b68f65e0e099e212729010c6",
+      "size": 1065,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/918846e317e0c070b68f65e0e099e212729010c6"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/output/run_record.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc495ee89746a5d6299d6c5c1b8b9f826298f0ad",
+      "size": 908,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/dc495ee89746a5d6299d6c5c1b8b9f826298f0ad"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/point_curvature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f5a15322f5a36a90042b77c46ce315a848680a",
+      "size": 6313,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/a6f5a15322f5a36a90042b77c46ce315a848680a"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "689c3b841f80f4f0e332aae487506c65fd74df54",
+      "size": 15939,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/689c3b841f80f4f0e332aae487506c65fd74df54"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "109a7a745d78310c13c0c21ac892ddc41a335223",
+      "size": 4612,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/109a7a745d78310c13c0c21ac892ddc41a335223"
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909/verification.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13bd4084041810bb316f3f1f7355c853cc06c7a3",
+      "size": 5392,
+      "url": "https://api.github.com/repos/randomcat4/dpp-entropy-tools/git/blobs/13bd4084041810bb316f3f1f7355c853cc06c7a3"
+    }
+  ],
+  "note": "Source snapshot only; no mathematical verdict."
+}

@@ -1,0 +1,13 @@
+{
+  "t": "1",
+  "n": 18,
+  "event_count": 262144,
+  "sum_N": "1237940039285380274899124224",
+  "sum_Nprime": "0",
+  "sum_Nsecond": "0",
+  "positive_minimum_N": "842238874476196134912",
+  "distinct_N": 131328,
+  "deterministic_word_jet_sha256": "f3e77e43f980ecc11f7a9aeae8024d294954661232f299a4b2e82a85b750bfa4",
+  "enumeration_order": "depth-first bit0 then bit1, site index increases; word integer uses site i as bit i",
+  "depth18_harvest": "frontier mask3 at depth18 excludes every selected outside column; same leading18 determinant"
+}
