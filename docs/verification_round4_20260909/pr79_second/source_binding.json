@@ -1,0 +1,53 @@
+{
+  "review": "PR79 independent second review",
+  "base_directory": "docs/verification_round4_20260909/pr79_second",
+  "scope": {
+    "pr": 79,
+    "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+    "source_files": [
+      "input/RESULT.md",
+      "input/tail_budget.py",
+      "input/run_record.txt",
+      "pr77_source/proof.md",
+      "input_binding.json"
+    ],
+    "novelty": "NOT_ASSESSED",
+    "formal": "NOT_PERFORMED"
+  },
+  "hashing": {
+    "algorithm": "SHA256",
+    "generated_by": "PowerShell Get-FileHash over frozen PR79 inputs and PR77 source proof only"
+  },
+  "files": [
+    {
+      "relative_path": "input_binding.json",
+      "absolute_path": "docs/verification_round4_20260909/pr79_second\\input_binding.json",
+      "bytes": 1585,
+      "sha256": "75b4f442d9afe0ec872ad4198b1c629abc49f7a1581fd59b1975a5b83dddc739"
+    },
+    {
+      "relative_path": "input\\RESULT.md",
+      "absolute_path": "docs/verification_round4_20260909/pr79_second\\input\\RESULT.md",
+      "bytes": 8272,
+      "sha256": "33b4e1b8fe000c008004def8da8fa5a2cbf4e4d14de89b79781fabcbb3a06be5"
+    },
+    {
+      "relative_path": "input\\run_record.txt",
+      "absolute_path": "docs/verification_round4_20260909/pr79_second\\input\\run_record.txt",
+      "bytes": 660,
+      "sha256": "5dfde80a909998081e911b3ed60c606306fdae208245c6a8266976c6678702af"
+    },
+    {
+      "relative_path": "input\\tail_budget.py",
+      "absolute_path": "docs/verification_round4_20260909/pr79_second\\input\\tail_budget.py",
+      "bytes": 1639,
+      "sha256": "b815a6cfd2f5f4db3ea122b68eed3d3b23e015e35fc917187f2a249171ad88ee"
+    },
+    {
+      "relative_path": "pr77_source\\proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr79_second\\pr77_source\\proof.md",
+      "bytes": 16935,
+      "sha256": "8d1e0ae9e2830595b9e290d5162d137717510a3b2b9b10e0f136ad7416d0d12e"
+    }
+  ]
+}

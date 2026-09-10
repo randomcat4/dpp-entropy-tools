@@ -1,0 +1,30 @@
+{
+  "note": "Publication aliases only; mathematical assertions and source digests preserved. No primary source PDF/text published.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "b0509e96189bab43ba99539983b3dc173fde1f74bd1eccbc3820d3107cd0b532",
+      "published_copy_sha256": "3391d260f8bf736a7d60f37b07f93bfb25d898adce65e0c8efda3152a8b413d0"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "f8403411ff0aa8f326d71ab0b4123b0a2b99bd0bd5f777a115ff42ad8f7c340d",
+      "published_copy_sha256": "f8403411ff0aa8f326d71ab0b4123b0a2b99bd0bd5f777a115ff42ad8f7c340d"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "6a7cf37e194c6815057a6f4e66d225ac25db3f27641e9a5c438e878853ca821d",
+      "published_copy_sha256": "6a7cf37e194c6815057a6f4e66d225ac25db3f27641e9a5c438e878853ca821d"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "b8edd967ed3cc26aba58bf31e05a9650e0eede1f0409ac80c07e9640e86c833b",
+      "published_copy_sha256": "851e27b97160c8b7b90654210fa2385c4cabbbaa7347dfc791030e10a3f2a618"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "75b4f442d9afe0ec872ad4198b1c629abc49f7a1581fd59b1975a5b83dddc739",
+      "published_copy_sha256": "75b4f442d9afe0ec872ad4198b1c629abc49f7a1581fd59b1975a5b83dddc739"
+    }
+  ]
+}

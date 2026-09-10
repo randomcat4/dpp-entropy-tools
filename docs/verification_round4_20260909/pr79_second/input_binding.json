@@ -1,0 +1,35 @@
+{
+  "pr": 79,
+  "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+  "files": [
+    {
+      "path": "input/RESULT.md",
+      "public_path": "research/I05-DPP-27-rate-curvature-20260910/RESULT.md",
+      "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+      "git_blob": "84aa5f1c0fb3b628bbab8999eb12002331715cc1",
+      "sha256": "33b4e1b8fe000c008004def8da8fa5a2cbf4e4d14de89b79781fabcbb3a06be5"
+    },
+    {
+      "path": "input/run_record.txt",
+      "public_path": "research/I05-DPP-27-rate-curvature-20260910/run_record.txt",
+      "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+      "git_blob": "b7c0184fb8fdb1255e24f2054627a9d999a4e85a",
+      "sha256": "5dfde80a909998081e911b3ed60c606306fdae208245c6a8266976c6678702af"
+    },
+    {
+      "path": "input/tail_budget.py",
+      "public_path": "research/I05-DPP-27-rate-curvature-20260910/tail_budget.py",
+      "head": "ae1149f2ed7d657afa494740c3abae83de549d3f",
+      "git_blob": "1e0e2870cc5186fd04c06e35e39609317a15dd43",
+      "sha256": "b815a6cfd2f5f4db3ea122b68eed3d3b23e015e35fc917187f2a249171ad88ee"
+    },
+    {
+      "path": "pr77_source/proof.md",
+      "public_path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md",
+      "head": "2564e25a8b62a72992b9451988cd42e2d5a81834",
+      "git_blob": "3abf09012d746e10eef00566f7f3deb78915541e",
+      "sha256": "8d1e0ae9e2830595b9e290d5162d137717510a3b2b9b10e0f136ad7416d0d12e"
+    }
+  ],
+  "scope": "Frozen author-only PR79 and original PR77 proof source; no FIRST, other SECOND, C3 adjudication or machine interpretation. No numerical budget supplied."
+}
