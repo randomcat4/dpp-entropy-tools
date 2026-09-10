@@ -1,0 +1,37 @@
+===== ATTEMPT 1: literal stdout =====
+ASYMMETRIC TERNARY CHANNEL: exact selectors (c,a,theta)= [('5/8', '1/5', '2/5'), ('3/8', '1/9', '2/9')]
+===== ATTEMPT 1: literal stderr =====
+Traceback (most recent call last):
+  File "/mnt/data/i05_29_channel_lift/code/verify_channels.py", line 165, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/data/i05_29_channel_lift/code/verify_channels.py", line 75, in main
+    left=hessian_signature(py)
+  File "/mnt/data/i05_29_channel_lift/code/verify_channels.py", line 56, in hessian_signature
+    p0,p1,p2=poly.eval(0),poly.diff().eval(0),poly.diff(2).eval(0)
+                                              ~~~~~~~~~^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/polytools.py", line 2411, in diff
+    rep = rep.diff(int(m), f._gen_to_level(gen))
+                           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/polytools.py", line 1860, in _gen_to_level
+    raise PolynomialError("-%s <= gen < %s expected, got %s" %
+                          (length, length, gen))
+sympy.polys.polyerrors.PolynomialError: -1 <= gen < 1 expected, got 2
+===== ATTEMPT 1: literal exit =====
+exit_code=1
+===== ATTEMPT 2: literal stdout =====
+ASYMMETRIC TERNARY CHANNEL: exact selectors (c,a,theta)= [('5/8', '1/5', '2/5'), ('3/8', '1/9', '2/9')]
+REFINED JOINT LAWS: exact polynomial identities 16
+FULL HESSIAN WITH MOVING DIAGONALS: rational Fisher and all log-prime acceleration coefficients agree exactly
+ACTUAL OBSERVED MODE LAW: backgrounds 1/2 1/2 all 64 event polynomials exact
+===== ATTEMPT 2: literal stderr =====
+Traceback (most recent call last):
+  File "/mnt/data/i05_29_channel_lift/code/verify_channels.py", line 165, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/data/i05_29_channel_lift/code/verify_channels.py", line 104, in main
+    assert all(M[i,j]!=0 for M in (AL,CL) for i,j in combinations(range(3),2))
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+===== ATTEMPT 2: literal exit =====
+exit_code=1

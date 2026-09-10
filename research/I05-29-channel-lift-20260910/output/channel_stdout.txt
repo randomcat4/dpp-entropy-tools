@@ -1,0 +1,14 @@
+ASYMMETRIC TERNARY CHANNEL: exact selectors (c,a,theta)= [('5/8', '1/5', '2/5'), ('3/8', '1/9', '2/9')]
+REFINED JOINT LAWS: exact polynomial identities 16
+FULL HESSIAN WITH MOVING DIAGONALS: rational Fisher and all log-prime acceleration coefficients agree exactly
+ACTUAL OBSERVED MODE LAW: backgrounds 1/2 1/2 all 64 event polynomials exact
+ACTUAL OBSERVED MODE LAW: backgrounds 1/4 2/3 all 64 event polynomials exact
+FAILED SHORTCUT PRESERVED: empty/full complement selector has probabilities 2/3 and 1/3 at eta=1/3, not input-independent
+EXPLICIT 3+3 MAXIMAL s*: 49/6 - sqrt(4657)/15, in (3,4)
+COMPLETE CONDITIONAL FIBER mask3, s=1/2: [-0.00001406768643518482, -0.00001406768643518472] <0
+All eight conditional Fisher terms vanish exactly here; signed acceleration is retained
+WHOLE-CHORD CURVATURE COEFFICIENT: 337/202500 from the exact channel theorem
+ORIGINAL PR58 FRAME PAIR MINORS: [['17191/250000', '-121/500000', '-90217/500000'], ['655143/1000000', '-327003/1000000', '-536007/1000000']]
+Original PR58 fixture is not this grouped two-mode lift; its separate whole-chord proof is required
+PASS (author only); saved channel_certificate.json
+Python 3.13.5 SymPy 1.14.0 elapsed seconds 0.707
