@@ -2,13 +2,13 @@
 
 Status: **PROVED AS A WEAKER AUTHOR THEOREM / PENDING INDEPENDENT REVIEW**.
 
-This result is strictly weaker than local concavity.  It records what one can
+This result is strictly weaker than local concavity. It records what one can
 prove with one invariant-measure response when the doubled complete-event
 influence has only a finite first moment.
 
 ## 1. Statement
 
-Let `p>=1/2`.  Let real `c,g in A_p` satisfy
+Let `p>=1/2`. Let real `c,g in A_p` satisfy
 
 \[
 c(\theta+1/2)=c(\theta),
@@ -18,7 +18,7 @@ c(\theta+1/2)=c(\theta),
 \tag{1.1}
 \]
 
-Put `mu=\widehat c(0)`.  For the true stationary DPP configuration entropy
+Put `mu=\widehat c(0)`. For the true stationary DPP configuration entropy
 rate there is a finite number
 
 \[
@@ -56,31 +56,43 @@ inequality further implies
 \]
 
 Equation (1.3) alone does **not** imply that
-`h(c+t g)+alpha_k t^4` is concave on a neighborhood.  That stronger theorem is
+`h(c+t g)+alpha_k t^4` is concave on a neighborhood. That stronger theorem is
 proved in the companion file only for `p>=1`.
 
 ## 2. Summable-variation input at `p>=1/2`
 
 The common complete-event localization theorem gives, for the derivatives
-needed here, fixed single-coordinate envelopes `beta_j` with
+needed here, fixed single-coordinate envelopes `beta_j^{(r)}` with
 
 \[
-\sum_{j\ge1}(1+j)^{2p}\beta_j<\infty.
+\sum_{j\ge1}(1+j)^{2p}\beta_j^{(r)}<\infty,
+\qquad r=0,2,
 \tag{2.1}
 \]
 
-Since `2p>=1`,
+where the `z`-derivative order `r=2` supplies the first `s` derivative after
+even factorization. If two futures agree through coordinate `n`, then
 
 \[
-\sum_{n\ge0}\operatorname{var}_n(\partial_s^j\ell_s)
-\le
-\sum_{j\ge1}(j+1)\beta_j^{(j_s)}<\infty,
+\operatorname{var}_n(\partial_s^j\ell_s)
+\le\sum_{m>n}\widetilde\beta_m^{(j)},
 \qquad j=0,1,
 \tag{2.2}
 \]
 
-uniformly on a smaller physical interval.  Thus `ell_s` and its first
-`s` derivative lie in the space
+for fixed envelopes with the same `2p` moment. Since `2p>=1`, Tonelli's
+theorem gives
+
+\[
+\sum_{n\ge0}\operatorname{var}_n(\partial_s^j\ell_s)
+\le
+\sum_{m\ge1}(m+1)\widetilde\beta_m^{(j)}<\infty,
+\qquad j=0,1,
+\tag{2.3}
+\]
+
+uniformly on a smaller physical interval. Thus `ell_s` and its first `s`
+derivative lie in
 
 \[
 \mathcal V_0
@@ -95,10 +107,10 @@ The BFG coupling/defective-renewal calculation in
 \qquad
 \mathcal R_sF=
 \sum_{n\ge0}\mathcal L_s^n(F-\nu_sF),
-\tag{2.3}
+\tag{2.4}
 \]
 
-with a common operator bound.  The same fixed summable envelopes imply that
+with a common operator bound. The same fixed summable envelopes imply that
 `R_sF_s` is continuous in the sup norm for continuous `V_0` families.
 
 ## 3. One-response identity
@@ -112,7 +124,7 @@ For a fixed `F in V_0`, invariance and the Poisson identity give
 \]
 
 The quotient `(L_u-L_s)/(u-s)` converges in operator norm on `C(X)` because
-`G_s` is `C^1` there.  Weak continuity of the DPP law then yields
+`G_s` is `C^1` there. Weak continuity of the DPP law then yields
 
 \[
 \frac d{ds}\nu_s(F)
@@ -121,7 +133,7 @@ The quotient `(L_u-L_s)/(u-s)` converges in operator norm on `C(X)` because
 \tag{3.2}
 \]
 
-For a moving `C^1(V_0)` family `F_s`, add `nu_s(F_s')`.  No second Poisson
+For a moving `C^1(V_0)` family `F_s`, add `nu_s(F_s')`. No second Poisson
 inverse is used.
 
 ## 4. Exact derivative of the relative-entropy-rate deficit
@@ -131,41 +143,40 @@ Let
 \[
 f_s=\ell_s-\ell_0,
 \qquad
-D(s)=h(c)-h(c+\sqrt s\,g)=\nu_s(f_s).
+D(s)=h(c)-h(c+\sqrt s\,g)=\nu_s(f_s),
 \tag{4.1}
 \]
 
-The equality is the same fixed-parity-marginal identity used in PR82.  Put
+where the equality is the fixed-parity-marginal identity used in PR82. Define
+the conditional score
 
 \[
-u_s^{score}=\partial_s\ell_s.
+U_s=\partial_s\ell_s.
+\tag{4.2}
 \]
 
 Normalization gives pointwise
 
 \[
-\mathcal L_s\nu_s^{score}=0,
+\mathcal L_sU_s=0,
 \qquad
-\nu_s(\nu_s^{score})=0.
-\tag{4.2}
+\nu_s(U_s)=0.
+\tag{4.3}
 \]
 
 Applying (3.2) to (4.1),
 
 \[
 D'(s)=
-\nu_s(A_{1,s}\mathcal R_sf_s)+\nu_s(\nu_s^{score})
-=
-u_s\left(
- \nu_s^{score}\,\mathcal R_sf_s
-\right).
-\tag{4.3}
+\nu_s(A_{1,s}\mathcal R_sf_s)+\nu_s(U_s)
+=\nu_s\left(U_s\,\mathcal R_sf_s\right).
+\tag{4.4}
 \]
 
 The last equality uses
 
 \[
-A_{1,s}H=\mathcal L_s(\nu_s^{score}H)
+A_{1,s}H=\mathcal L_s(U_sH)
 \]
 
 and invariance.
@@ -175,7 +186,7 @@ and invariance.
 The `V_0`-valued differentiability of `ell_s` gives
 
 \[
-\frac{f_s}{s}\longrightarrow \nu_0^{score}
+\frac{f_s}{s}\longrightarrow U_0
 \quad\text{in }\mathcal V_0.
 \tag{5.1}
 \]
@@ -185,31 +196,31 @@ Continuity of the Poisson operator from `V_0` to `C` implies
 \[
 \mathcal R_s\left(\frac{f_s}{s}\right)
 \longrightarrow
-\mathcal R_0\nu_0^{score}
+\mathcal R_0U_0
 \quad\text{uniformly}.
 \tag{5.2}
 \]
 
-By (4.2),
+By (4.3),
 
 \[
-\mathcal L_0\nu_0^{score}=0,
-\qquad \nu_0(\nu_0^{score})=0.
+\mathcal L_0U_0=0,
+\qquad \nu_0(U_0)=0.
 \]
 
 Therefore the Poisson series collapses after its zeroth term:
 
 \[
-\mathcal R_0\nu_0^{score}=\nu_0^{score}.
+\mathcal R_0U_0=U_0.
 \tag{5.3}
 \]
 
-Divide (4.3) by `s`, use (5.1)--(5.3), weak continuity of `nu_s`, and uniform
-convergence of the scores.  Then
+Divide (4.4) by `s`, use (5.1)--(5.3), weak continuity of `nu_s`, and uniform
+convergence of the scores. Then
 
 \[
 \lim_{s\downarrow0}\frac{D'(s)}s
-=\nu_0[(\nu_0^{score})^2]
+=\nu_0(U_0^2)
 =\mathcal I_s(0).
 \tag{5.4}
 \]
@@ -235,9 +246,9 @@ D(t^2)\ge\frac12 d_{Ber}
 Comparison with (5.5) proves (1.4).
 
 This theorem establishes existence and positivity of the exact centered
-quartic coefficient for the true entropy rate in the range `p>=1/2`.  It does
+quartic coefficient for the true entropy rate in the range `p>=1/2`. It does
 not control `D''(s)` for `s>0`, and hence does not prove local concavity in the
-range `1/2<=p<1`.  A lower bound on the centered deficit and a quartic Peano
+range `1/2<=p<1`. A lower bound on the centered deficit and a quartic Peano
 expansion do not determine curvature at nearby nonzero parameters; the scalar
 approximation obstruction already preserved in PR66/PR82 applies to that
 logical inference.
