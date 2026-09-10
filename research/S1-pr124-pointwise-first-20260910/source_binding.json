@@ -1,0 +1,17 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 124,
+  "review_class": "narrow_mathematical_computational_FIRST",
+  "verdict": "ACCEPTED_SCOPED",
+  "reviewed_head": "344723af6affab240c9f87c395d4e8c1b7b19f6d",
+  "author_base": "b3ada9f6bb23e3efd2e1a4d2a2977d50b61fb4d7",
+  "review_date": "2026-09-10",
+  "included_files": [
+    {"path": "research/I05-35-halfleaf-resolvent-obstruction/proof.md", "blob": "131bf1f60daa263c6ae0daef7ddf16ef6152c307"},
+    {"path": "research/I05-35-halfleaf-resolvent-obstruction/code/verify_independent_event_fraction.py", "blob": "d43fa223d09fcd15f739cc277376e1675d3f1b41"},
+    {"path": "research/I05-35-halfleaf-resolvent-obstruction/output/verify_independent_event_fraction.txt", "blob": "536e57641ff51820e6113566291ff67b3024c305"}
+  ],
+  "exact_rerun": "pass",
+  "novelty": "not_assessed"
+}
+
