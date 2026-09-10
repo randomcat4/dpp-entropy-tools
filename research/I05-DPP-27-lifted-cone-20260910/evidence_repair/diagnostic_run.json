@@ -1,0 +1,19 @@
+{
+  "record_kind": "NEW_EVIDENCE_REPAIR_DIAGNOSTIC_NOT_HISTORICAL_RUN01",
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "diagnose_retired_checker.py"
+  ],
+  "working_directory": "/mnt/data/pr112_repair",
+  "start_utc": "2026-09-10T14:34:40.656487+00:00",
+  "finish_utc": "2026-09-10T14:34:41.362554+00:00",
+  "elapsed_seconds": 0.7060417309999991,
+  "returncode": 0,
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "python_implementation": "CPython",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "third_party_dependencies": [],
+  "scope": "Single provided failure case. No production certificate, past logs or independent checker reconstructed.",
+  "stdout": "{\n  \"status\": \"REPRODUCED_OLD_CHECKER_FAILURE_SINGLE_CASE\",\n  \"input\": {\n    \"t\": \"1/2\",\n    \"n\": 4,\n    \"mask\": 1\n  },\n  \"old_formula_mass\": \"65823/1048576\",\n  \"complete_signed_determinant_mass\": \"65055/1048576\",\n  \"complete_mobius_mass\": \"65055/1048576\",\n  \"corrected_first_component_mass\": \"65055/1048576\",\n  \"old_error\": \"3/4096\",\n  \"scope\": \"One diagnostic case only. The old checker is retired, not validated.\",\n  \"historical_production_evidence\": false,\n  \"independent_review\": false,\n  \"wide_interval_certificate\": false\n}\n",
+  "stderr": ""
+}
