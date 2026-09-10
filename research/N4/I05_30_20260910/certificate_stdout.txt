@@ -1,0 +1,36 @@
+AUTHOR EXECUTION, not independent review. Python 3.13 / SymPy. Run: python research/N4/I05_30_20260910/certify.py
+Every decisive log enclosure is exact rational with the written atanh tail bound; displayed bounds rounded outwards to 24 decimal places. No scan.
+
+symbolic minors checked: 11
+intersection1: midpoint rank 3
+commutator_Frobenius_squared = 947396138139648/6252500375025000625
+G_interval = [0.071868857724917481384897, 0.071868857724917481384898]
+mixture_bridge_interval = [-0.009195850054564499168246, -0.009195850054564499168245]
+anti_minus_aligned_interval = [0.066153176774627833334338, 0.066153176774627833334339]
+H_second_interval at affine t=1/2 = [-0.518897417989886784319201, -0.518897417989886784319200]
+epsilon = 1/100000
+two_omega_upper = 0.001106757502898981675069
+lifted_G_lower = 0.070762100222018499709828
+lifted_bridge_upper = -0.008089092551665517493176
+
+intersection0: midpoint rank 4
+commutator_Frobenius_squared = 37019232373633992593975872512/48925862340829693828254693750125
+G_interval = [0.072425117028253334474095, 0.072425117028253334474096]
+mixture_bridge_interval = [-0.008881971160429267101924, -0.008881971160429267101923]
+anti_minus_aligned_interval = [0.066069802001115592281085, 0.066069802001115592281086]
+H_second_interval at affine t=1/2 = [-0.522053422072399137511766, -0.522053422072399137511765]
+epsilon = 1/100000
+two_omega_upper = 0.001106757502898981675069
+lifted_G_lower = 0.071318359525354352799026
+lifted_bridge_upper = -0.007775213657530285426855
+
+continuous angular box: t1,t2 in [0,1/50]
+max_sine_squared = 10000/6255001
+TV_bound = 31200/6255001
+base_G_interval = [0.071729711441392005498563, 0.071729711441392005498564]
+error_upper = 0.052057889467810647642976
+uniform_G_lower = 0.019671821973581357855588
+claimed_simple_lower = 19/1000
+
+PASS: all rational legality tests; all sixteen atoms by two determinant methods; all normalization/jet identities; full Fisher and acceleration; exact common bit-flip event identity; sign-transfer identity; angle-box strict inequality.
+The machine-readable full atoms and jets are emitted as certificate.json by the same script.
