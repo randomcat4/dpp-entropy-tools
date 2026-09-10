@@ -1,0 +1,28 @@
+{
+  "status": "AUTHOR_EXACT_CONSTANTS_PASS_NOT_INDEPENDENT_REVIEW",
+  "utc": "2026-09-10T03:32:19.224329+00:00",
+  "arithmetic": "fractions.Fraction; no floating proof comparisons",
+  "constants": {
+    "image_F_radius": "19/160",
+    "TV_Lipschitz": "1",
+    "beta": "4259/6480",
+    "beta_gap_to_2_3": "61/6480",
+    "state_Hessian_contraction": "63677321/83980800",
+    "Hessian_gap_to_19_25": "148087/83980800",
+    "Ct": "5519/30720",
+    "Ctt": "2537/15360",
+    "b2": "149851/29160",
+    "mixed_error_e01": "56391426133/19924992000",
+    "mixed_error_e02": "3466341/55347200",
+    "mixed_error_e11": "5519/10240",
+    "CtH": "202141/9830400",
+    "CttH": "695569/14745600",
+    "CgradH": "17618609/99532800",
+    "pure_Hessian_error_e02": "9762629/19660800",
+    "pure_Hessian_error_e12": "202141/2359296",
+    "pure02_gap_to_1_2": "67771/19660800",
+    "pure12_gap_to_9_100": "254891/58982400"
+  },
+  "curvature_sign_certified": false,
+  "failure_ledger": []
+}
