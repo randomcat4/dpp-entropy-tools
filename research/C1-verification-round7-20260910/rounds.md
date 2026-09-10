@@ -86,3 +86,11 @@ implementation, raw checks/intervals/log schemas and execution records.
 The original PR70 reports remain unchanged. This closes the fixed auxiliary
 witness at FIRST and leaves C3's isolated SECOND and all universal targets
 separate. No arithmetic or code execution was performed by C1.
+
+PR89 raw PR77 evidence was frozen at 1d805e094a0faf0018127ee832f5e1ac74996b41.
+C1 matched every selected raw file bytewise to the immutable Git tree and
+verified implementation/inputs unchanged from preparation d68fec7f. The
+197-file review bundle excludes top-level interpretation, retains compressed
+histogram/log artifacts, and is with the original PR77 reviewer. No raw
+mathematics was rerun; copying, hashes and schema review do not constitute
+independent arithmetic or numerical acceptance.

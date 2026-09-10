@@ -110,9 +110,14 @@ The original reviewer completed [finite FIRST scope](units/pr70/machine_pr85_sco
 [finite evidence FIRST](units/pr70/machine_pr85_review.md) and
 [static code FIRST](units/pr70/machine_pr85_code.md). C3 can now proceed
 with its isolated SECOND on the raw inputs, implementation and outputs,
-without supplying these FIRST opinions as premises. PR77 raw evidence
-is pending following public preparation d68fec7f and the 02:28:39 UTC
-start, 03:13:39 UTC deadline of its single run. This review starts no issue73/74 exploration,
+without supplying these FIRST opinions as premises. PR77 actual raw evidence
+at PR89 1d805e094a0faf0018127ee832f5e1ac74996b41 is now in priority
+original-reviewer FIRST. Its [raw binding](units/pr77/PR89_MACHINE_BINDING.json)
+matches all 197 raw review files to the immutable public tree, including
+compressed histograms/logs; the two top-level interpretation files are
+excluded. Preparation d68fec7f is unchanged in implementation/inputs.
+The recorded single run started 02:28:39 UTC and finished 02:30:30 UTC,
+before its original 03:13:39 UTC deadline. This review starts no issue73/74 exploration,
 continuous interval job, new theory route or new main instance.
 
 Novelty is NOT_ASSESSED; formal verification is NOT_PERFORMED. No pending

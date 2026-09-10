@@ -58,8 +58,11 @@ and [static implementation review](units/pr70/machine_pr85_code.md).
 The fixed P2/P5/P6 gate is closed at FIRST. This supports a local
 counterexample to auxiliary paired-resolvent convexity, not a refutation of
 full-entropy concavity or a general sign theorem. Isolated SECOND remains
-C3's next gate. PR77 raw finite evidence remains pending; C2 has published
-preparation d68fec7f and started its single bounded run.
+C3's next gate. PR77 actual raw finite evidence is now bound at PR89
+1d805e094a0faf0018127ee832f5e1ac74996b41, with unchanged preparation
+d68fec7f10f4451dd9a16c19000c35219db33400. Its original FIRST reviewer is
+reviewing the independent implementation, full raw output schemas and
+actual execution records; no numerical acceptance is inferred from PASS.
 
 The further explicit [2564 text-delta FIRST](units/pr77/finite_scope_2564_review.md)
 is COMPLETE: Section 9's over-broad rate-derivative wording is closed by
