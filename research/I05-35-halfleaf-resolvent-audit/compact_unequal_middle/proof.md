@@ -45,11 +45,11 @@ D12= gamma/(8 sqrt(a b)).                            (2)
 Define
 
 ```text
-u=log(1+a), v=log(1+b), w=log(1+a+b),
-H=u+v-w=log((1+a)(1+b)/(1+a+b)),
-ell=u-H/2, k=v-H/2,
+nu=log(1+a), v=log(1+b), w=log(1+a+b),
+H=nu+v-w=log((1+a)(1+b)/(1+a+b)),
+ell=nu-H/2, k=v-H/2,
 lambda=-H,
-J=(1+a+b)w-(1+a)u-(1+b)v,
+J=(1+a+b)w-(1+a)nu-(1+b)v,
 n=(1+(a+b)/2)H.                                      (3)
 ```
 
@@ -107,7 +107,7 @@ H=int_0^a int_0^b (1+x+y)^(-2) dy dx,
 J=int_0^a int_0^b (1+x+y)^(-1) dy dx.               (9)
 ```
 
-They imply the exact monotonicities used below. However `det E` is nonlinear in `H,J,u,v` and contains products of these integrals. Replacing each integral by one common pointwise rational kernel is therefore not an identity. The previously accepted exact counterexample to pointwise resolvent positivity is respected: this proof makes no pointwise-in-an-auxiliary-variable sign claim.
+They imply the exact monotonicities used below. However `det E` is nonlinear in `H,J,nu,v` and contains products of these integrals. Replacing each integral by one common pointwise rational kernel is therefore not an identity. The previously accepted exact counterexample to pointwise resolvent positivity is respected: this proof makes no pointwise-in-an-auxiliary-variable sign claim.
 
 A direct positive multi-integral factorization of `det E` was not obtained. The compact middle is instead closed by an exact interval proof of the integrated matrix (7).
 
