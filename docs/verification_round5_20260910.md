@@ -2,10 +2,11 @@
 
 ## S3 本批结论
 
-PR82、PR88、PR91、PR95、PR102、PR113、PR117 与 PR125 已在冻结头完成限定整合；PR127 只归档 PR124 的精确逐点方法障碍，PR129 只归档一个修复后的 `NON_OBSTRUCTION_FOUND` 点与停止记录。“源码进入 main”不等于作者包内每个主张或输出获证。精确边界见 [PR125](verification_round5_20260910/accepted_pr125.md)、[PR127/PR124](verification_round5_20260910/accepted_pr127_pr124_pointwise.md)、[PR129](verification_round5_20260910/archived_pr129.md) 以及此前的 [PR82](verification_round5_20260910/accepted_pr82.md)、[PR88](verification_round5_20260910/accepted_pr88.md)、[PR91](verification_round5_20260910/accepted_pr91.md)、[PR95](verification_round5_20260910/accepted_pr95.md)、[PR102](verification_round5_20260910/accepted_pr102.md)、[PR113](verification_round5_20260910/accepted_pr113.md) 与 [PR117](verification_round5_20260910/accepted_pr117.md)。
+PR82、PR88、PR91、PR95、PR102、PR113、PR117 与 PR125 已在冻结头完成限定整合；PR112 只接受一个精确 blob 的极窄解析区间，PR127 只归档 PR124 的精确逐点方法障碍，PR129 只归档一个修复后的 `NON_OBSTRUCTION_FOUND` 点与停止记录。“源码进入 main”不等于作者包内每个主张或输出获证。精确边界见 [PR112 窄单元](verification_round5_20260910/accepted_pr112_explicit_rate_interval.md)、[PR125](verification_round5_20260910/accepted_pr125.md)、[PR127/PR124](verification_round5_20260910/accepted_pr127_pr124_pointwise.md)、[PR129](verification_round5_20260910/archived_pr129.md) 以及此前的 [PR82](verification_round5_20260910/accepted_pr82.md)、[PR88](verification_round5_20260910/accepted_pr88.md)、[PR91](verification_round5_20260910/accepted_pr91.md)、[PR95](verification_round5_20260910/accepted_pr95.md)、[PR102](verification_round5_20260910/accepted_pr102.md)、[PR113](verification_round5_20260910/accepted_pr113.md) 与 [PR117](verification_round5_20260910/accepted_pr117.md)。
 
 | 对象 | 本批状态 | 仍未完成 |
 | --- | --- | --- |
+| PR112 单文件 blob `b8aab2981230b61d399d9a9411ee8547f8593958` | 固定真实完整配置熵率在 `[1-2^-27,1+2^-27]` 上满足 `h''<-1/2000` 及定量 Jensen 推论；只用已接受 PR77，`ACCEPTED_SCOPED` | 已撤回 `[49/40,51/40]`、`[1/2,3/2]`、lifted-cone 整包、PR91 依赖、PR112 其他文件、宽证书计算与新颖性 |
 | PR125，头 `87897b307818e9eab84ad465b24b4aeb037a1dc1` | 严格半周期偶/奇 `L^infinity` 路径的真实中心二阶差商夹逼、一般完整 DPP KL 密度的标量 Bernoulli KL 上界及非 Wiener 族 `ACCEPTED_SCOPED` | `h''` 存在、`C^2/C^4`、离中心局部凹性、整个合法区间、一般标量弦/有限实核、新颖性与形式化 |
 | PR127 绑定 PR124 头 `344723af6affab240c9f87c395d4e8c1b7b19f6d` | 一个严格 half-leaf 完整八事件见证使 `Phi_r''<0`，从而否定逐点 resolvent 正性方法；`ACCEPTED_SCOPED` 仅限此单元 | integrated `G1''`、完整 Shannon 反例、PR124 的正向定理、一般三点结论、新颖性与形式化 |
 | PR129，头 `d012375e5d1e85498b3304bb56577700d7f3434a` | 修复 `r1` 提取后，合法点 `Q=0,t=5/4` 的必要阻塞下界为负，故该点 `NO_POINT_OBSTRUCTION_FOUND`；`ACCEPTED_ARCHIVE_ONLY / STOPPED_INCOMPLETE` | 全状态域 gate、任何参数区间、PR98 trial `PASS`、熵/曲率结论；旧错误输出永久无效 |
@@ -21,6 +22,7 @@ PR82、PR88、PR91、PR95、PR102、PR113、PR117 与 PR125 已在冻结头完�
 
 ## 合并记录
 
+- PR112 窄解析 FIRST 档案 PR134 在 `8174b5784c5239593236d7f495a55681b182a42d` 合入，第二父为审阅头 `4bf6e3adc940816d3f8b925addb45e1a58f11c99`；绑定作者 blob `b8aab2981230b61d399d9a9411ee8547f8593958`，PR112 整包未合。
 - PR125 FIRST 档案 PR131 在 `0ee4298c22d518d43bf51d28bf50214b48899238` 合入，第二父为审阅头 `20a40b476c8b9e2d71900abddc40f233149363b0`；作者源 PR125 在 `f5b711604c3c9b9b882f43f9a43624250e2bd432` 合入，第二父为冻结作者头 `87897b307818e9eab84ad465b24b4aeb037a1dc1`。
 - PR127 窄 FIRST 档案在 `0526c97746e4efbb226f14a33f0518f36a1b8395` 合入，第二父为审阅头 `9db0cad138c551368c8617959c932530232ae662`；绑定的 PR124 作者头为 `344723af6affab240c9f87c395d4e8c1b7b19f6d`，PR124 整包未合。
 - PR129 修复点与停止档案在 `0a5852415ad0ebcf5a98d9c42fc599905616fd1d` 合入，第二父为精确归档头 `d012375e5d1e85498b3304bb56577700d7f3434a`；不得记作整域 `PASS`。
