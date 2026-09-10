@@ -1,0 +1,91 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 116,
+  "review_class": "S1_analytic_FIRST",
+  "status": "MIXED_PASS_SCOPED_ANALYTIC_INTERFACE_AND_EVIDENCE_INSUFFICIENT_STOPPED_HANDOFF_READY",
+  "review_date": "2026-09-11",
+  "substantive_author_head": "71ea4dcd752e0f6ba396af64fe379e7c55407d76",
+  "observed_current_head": "3f276c09fe4da3aded2ab6cf457adb7fdc4254d8",
+  "execution": "none",
+  "s3_conclusions_read": false,
+  "pr116_conversation_comments_read": false,
+  "novelty": "not_assessed",
+  "merge": "not_performed",
+  "files_read_at_substantive_head": [
+    {"path": "research/I05-31-rank2-middle-20260910/ALPHA01_GLOBAL_MOMENTS.md", "blob": "f15fa72da7a428d050a7faaee2238e66186e53ed"},
+    {"path": "research/I05-31-rank2-middle-20260910/ALPHA01_TWO_SCALE_CORNERS.md", "blob": "61e6456a89c02e3868c5828cd4bf84bfd0dec5db"},
+    {"path": "research/I05-31-rank2-middle-20260910/ALPHA01_UNIFORM_ENDPOINT.md", "blob": "ec59a91c9564812f6a3d3775bee373774c3584b9"},
+    {"path": "research/I05-31-rank2-middle-20260910/ALPHA01_UNIFORM_ENDPOINT_SHARPENING.md", "blob": "6dd781d6e888c39410d48e56f60947beb8afde5a"},
+    {"path": "research/I05-31-rank2-middle-20260910/BOUNDARY_RAY_ASYMPTOTICS.md", "blob": "684644568251c6caab1648fb1f973c6ae135ba16"},
+    {"path": "research/I05-31-rank2-middle-20260910/CARDINALITY_LABEL_DECOMPOSITION.md", "blob": "32314f239466fb0770237771ad6b24f37269c4b7"},
+    {"path": "research/I05-31-rank2-middle-20260910/CHECKPOINT.md", "blob": "b676870b00b1e0a3fecfcdb7883dd3cfc9baaea4"},
+    {"path": "research/I05-31-rank2-middle-20260910/DO_NOT_USE_PLACEHOLDER.tmp", "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"},
+    {"path": "research/I05-31-rank2-middle-20260910/FIXED_PARAMETER_ENDPOINT_PHASE.md", "blob": "1ab562a4ee3e238bcd295e5e04dde37befb7b328"},
+    {"path": "research/I05-31-rank2-middle-20260910/FULL_PARAMETER_ENDPOINT_PHASE.md", "blob": "d030932e5f2b3c935df2856a77d581541ce61f0a"},
+    {"path": "research/I05-31-rank2-middle-20260910/INTEGRATED_ACCELERATION_CHECKPOINT.md", "blob": "5e8e13e2f37344d2ce95867d7aad7d5acdcdbfe1"},
+    {"path": "research/I05-31-rank2-middle-20260910/INTEGRATED_ACCELERATION_SIGN_LOSS.md", "blob": "b4ebceae513e9c1b877ca0b9f03910af3ab9f90e"},
+    {"path": "research/I05-31-rank2-middle-20260910/JOINT_ALPHA01_EXACT_CONTRACT.md", "blob": "3d26600f0887b12cf1451d02a9e596090172ef3e"},
+    {"path": "research/I05-31-rank2-middle-20260910/JOINT_FISHER_ACCELERATION_KERNEL.md", "blob": "cff5f042b1d1330c4e774b537b514c45059f49af"},
+    {"path": "research/I05-31-rank2-middle-20260910/JOINT_KERNEL_F_DIVERGENCE_IDENTITY.md", "blob": "4b7f6d0547fdcb28b3e258b3d0510621cac9b699"},
+    {"path": "research/I05-31-rank2-middle-20260910/LOCAL_CONTRACT_JOINT_KERNEL_ALPHA01.md", "blob": "a878cf2fd7111e1a064c23eb0f75a50d24eed2ed"},
+    {"path": "research/I05-31-rank2-middle-20260910/RATIONAL_KERNEL_BERNSTEIN_ALPHA01.md", "blob": "864b861854c81101d9665caba85838158e36e1b2"},
+    {"path": "research/I05-31-rank2-middle-20260910/RATIONAL_KERNEL_CHECKPOINT.md", "blob": "5eb7afa696cd5c581dcb900d80dbd83c210c62bf"},
+    {"path": "research/I05-31-rank2-middle-20260910/RATIONAL_KERNEL_NEGATIVE_POINT.md", "blob": "c45706a56998fbc08f0c3bfe508c57ca0f54477f"},
+    {"path": "research/I05-31-rank2-middle-20260910/RESULT_EXCHANGEABLE.md", "blob": "a8f5cc025596aafa4d663f7d1c92c4d63e7d358b"},
+    {"path": "research/I05-31-rank2-middle-20260910/REVERSE_KL_JOINT_IDENTITY.md", "blob": "431a62783b84848a70a9742ece6bcb7bc032b077"},
+    {"path": "research/I05-31-rank2-middle-20260910/TWO_PARAMETER_ALPHA01_CHECKPOINT.md", "blob": "262aad40482be1529f626ce8f3978777abf04598"},
+    {"path": "research/I05-31-rank2-middle-20260910/TWO_PARAMETER_GLOBAL_MOMENTS.md", "blob": "651711b3b85211d3ed2d1595a8d68d2b63e634f7"},
+    {"path": "research/I05-31-rank2-middle-20260910/code/certify_integrated_acceleration_negative.py", "blob": "49a34653cffc11d94225dab7a2f54331ff0317c3"},
+    {"path": "research/I05-31-rank2-middle-20260910/code/check_endpoint_phase.py", "blob": "0466005cdda761220aa76b7f397d1b10dbbbf45e"},
+    {"path": "research/I05-31-rank2-middle-20260910/code/verify_exchangeable.py", "blob": "cef80d7242b73b026b2acea4f687ea25cbe398ef"},
+    {"path": "research/I05-31-rank2-middle-20260910/output/certify_integrated_acceleration_negative.stdout.txt", "blob": "263adda11117ee023513416e89b963687cf8cf07"},
+    {"path": "research/I05-31-rank2-middle-20260910/output/verify_exchangeable.stdout.txt", "blob": "a05dbbe93a7dd124681e766da9f1ef1299acbec3"}
+  ],
+  "non_load_bearing_delta_to_current_head": {
+    "commits": [
+      "53f09a6c07c41510634c9177be49eeffc988e1c1",
+      "894193d76077d063b0ebe1f6da02908947d4a3bf",
+      "3f276c09fe4da3aded2ab6cf457adb7fdc4254d8"
+    ],
+    "files": [
+      {"path": "research/I05-31-rank2-middle-20260910/DO_NOT_USE_PLACEHOLDER.tmp", "status": "removed", "prior_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"},
+      {"path": "research/I05-31-rank2-middle-20260910/JOINT_ALPHA01_EXACT_CONTRACT.md", "status": "superseded_text_only", "current_blob": "aa7ab0bd7c97c809f58b5847452b9b67277d5087"},
+      {"path": "research/I05-31-rank2-middle-20260910/FINAL_HANDOFF.md", "status": "inventory_only", "current_blob": "c3823bf710a2dc041c9b48d925b351c6a37a29a6"}
+    ]
+  },
+  "accepted_analytic_units": [
+    "physical_legality_and_rank2_event_form",
+    "full_complete_curvature_identity_with_fixed_marginal_cancellation_text_fix",
+    "eventwise_six_slope_sufficient_cone",
+    "lossless_cardinality_label_decomposition",
+    "fixed_parameter_endpoint_acceleration_phase_and_Fisher_dominance",
+    "joint_resolvent_and_reverse_mixture_KL_identity"
+  ],
+  "conditional_on_s2_finite_binding": [
+    "alpha_1_over_10_beta_1_over_3_whole_chord_theorem",
+    "alpha_1_over_10_beta_uniform_endpoint_band_delta_le_1e_minus_4",
+    "generic_13_type_table_and_global_moments",
+    "boundary_ray_and_two_scale_exact_coefficients"
+  ],
+  "evidence_insufficient": [
+    "acceleration_kernel_Bernstein_certificate_u_le_15_over_16",
+    "exact_negative_rational_kernel_point",
+    "author_exact_negative_integrated_acceleration_point_until_independent_replay"
+  ],
+  "open": [
+    "compact_middle_full_Gamma_sign",
+    "full_alpha_1_over_10_joint_kernel_certificate",
+    "universal_dense_rank2_concavity",
+    "true_entropy_rate_extension"
+  ],
+  "compute_contract": {
+    "status": "NOT_STARTED",
+    "author_requested_wall_hours": 6,
+    "author_requested_address_space_gib": 16,
+    "current_local_total_cap_cpu": 2,
+    "current_local_total_cap_gib": 8,
+    "gpu": false,
+    "remote_server": "unavailable",
+    "execution_allowed_as_written": false
+  }
+}
