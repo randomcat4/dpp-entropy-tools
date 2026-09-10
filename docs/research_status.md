@@ -1,5 +1,13 @@
 # DPP 熵研究状态：2026-09-10
 
+## S3 严格 `L^infinity` 中心差商：PR125 已限定接受
+
+[PR125 精确接受范围](verification_round5_20260910/accepted_pr125.md)确认：任意共同严格谱条带内的实 `L^infinity` 符号，其有限完整 DPP KL 密度 `limsup` 不超过逐点 Bernoulli KL 积分；在半周期偶中心、半周期奇方向上，这给出真实完整配置熵率的中心二阶差商夹逼及显式二阶模量。非 Wiener sign-cosine 族在范围内。结论不建立 `h''`、`C^2/C^4`、离中心局部凹性或整个合法区间；绝对闭路门槛只是方法障碍。
+
+## S3 窄方法障碍与单点计算归档：PR127、PR129
+
+[PR127/PR124 精确逐点障碍](verification_round5_20260910/accepted_pr127_pr124_pointwise.md)只确认一个严格合法、全部八事件重建的 `Phi_r''<0` 见证；它否定逐点 resolvent 正性方法，不是 integrated block 或 Shannon 熵反例，PR124 其余单元未合。[PR129 单点归档](verification_round5_20260910/archived_pr129.md)只确认修复 `r1` 提取后 `Q=0,t=5/4` 没有给出正阻塞见证，状态为 `STOPPED_INCOMPLETE`；没有整域、区间、trial `PASS` 或曲率结论，旧误提取输出永久无效。
+
 ## S3 任意严格 `A_0` 中心：PR117 已限定接受
 
 [PR117 精确接受范围](verification_round5_20260910/accepted_pr117.md)确认：每个严格半周期偶 `A_0` 中心、每个非零半周期奇 `A_0` 方向和每个非零奇频分量，都有一个真实完整配置 Shannon 熵率的非空局部 `C^4` 四次加强凹区间，修正系数为 `|g_hat(k)|^4/[8mu^2(1-mu^2)]`。有限程参考的完整事件逆局域化、算子 trace-log 与绝对位移和的分离、`O(m^2(R+1))` 支撑计数及两段热力学极限均通过独立 FIRST/SECOND。它去除了 PR113 的小 Wiener 中心条件，但不扩张到整个合法区间、`A_0` 外符号、解析性或一般实核；撤回的逆包络路线不是熵反例。

@@ -1,5 +1,17 @@
 # 路线台账：覆盖、否定、替代与未完成
 
+## 2026-09-10 PR125：`L^infinity` 中心差商与经典 KL 上界
+
+[PR125 限定接受范围](verification_round5_20260910/accepted_pr125.md)以固定完整 occupation measurement、非交换准自由 KL 和混合 Toeplitz trace 极限证明一般严格 `L^infinity` 符号的经典 DPP KL 密度上界；半周期奇偶路径再把它识别为真实配置熵率的中心差商。它越过 Wiener 范围，但只给中心模量和差商夹逼，不给导数存在、离中心局部凹性或整区间结论。绝对闭路几何界迫使 `A_0` 只是否定该方法接口。
+
+## 2026-09-10 PR127/PR124：逐点 resolvent 正性路线已否定
+
+[窄 FIRST 归档](verification_round5_20260910/accepted_pr127_pr124_pointwise.md)在严格 half-leaf 与真实六坐标方向上，用全部八个完整事件精确证明一个 `Phi_r''<0`。因此“对每个 `r` 逐点正”不能作为通用证明路线；但 integrated `G1''` 与同点完整 Shannon 曲率仍是凹向，故这不是熵反例。PR124 的正向单元仍未审未合。
+
+## 2026-09-10 PR129：修复点未阻塞，整域仍开放
+
+[PR129 停止归档](verification_round5_20260910/archived_pr129.md)修正 `r1` 固定参数项后，在 `Q=0,t=5/4` 得到负的必要阻塞下界，故该点没有产生正 obstruction。这个 `NO_POINT_OBSTRUCTION_FOUND` 不等于 trial `PASS`：全状态域、参数覆盖和曲率符号仍开放；旧误提取输出只保留为无效来源。
+
 ## 2026-09-10 PR117：任意严格 `A_0` 中心的真实熵率局部凹性
 
 [PR117 限定接受范围](verification_round5_20260910/accepted_pr117.md)以全部完整占据/空缺事件和真实 Toeplitz 仿射核证明：任意严格半周期偶 `A_0` 中心沿任意非零半周期奇 `A_0` 方向，都有逐非零奇频的局部 `C^4` 四次加强凹性。固定有限程参考负责事件逆的指数局域化；trace-log 算子收缩与后续 Wiener 绝对位移和分开估计，安全支撑数为 `O(m^2(R+1))`。这关闭了 PR113 的小 Wiener 中心缺口，但整个合法区间、`A_0` 外符号、解析性和一般标量弦仍开放。初始共同逆包络路线未被采用，不构成方法不可能性或熵反例。
