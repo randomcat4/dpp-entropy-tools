@@ -29,13 +29,14 @@ u_n:=\sum_{k=1}^n f_k u_{n-k}\quad(n\ge1).
 \tag{1.2}
 \]
 
-In (1.2) and throughout this file the intended renewal symbol is `u`; equivalently, in ordinary notation,
+The plain-text form of (1.2), avoiding any font ambiguity, is
 
-\[
-u_0=1,\qquad u_n=\sum_{k=1}^n f_k u_{n-k}.
-\]
+```text
+u[0] = 1,
+u[n] = sum_{k=1}^n f[k] u[n-k].
+```
 
-Then
+Throughout this file the renewal sequence is denoted by the Latin letter `u`; the displayed TeX should be read as `u_0,u_n`, not the Greek letter nu. Then
 
 \[
 \sum_{n\ge0}u_n=\frac1{1-\theta}<\infty
@@ -80,15 +81,13 @@ M_{n-1}:=\max_{0\le j<n}(1+j)^b u_j,
 we obtain
 
 \[
-\begin{aligned}
 u_n
-&\le \theta M_{n-1}(1+(1-\epsilon)n)^{-b}
+\le \theta M_{n-1}(1+(1-\epsilon)n)^{-b}
 +C_f(1+\epsilon n)^{-b}\sum_{j\ge0}u_j.
-\end{aligned}
 \tag{1.7}
 \]
 
-Again the left side in (1.7) denotes `u_n`. Multiplication by `(1+n)^b` gives
+In plain text, the left side of (1.7) is `u[n]`. Multiplication by `(1+n)^b` gives
 
 \[
 (1+n)^bu_n\le\rho M_{n-1}+C_0.
@@ -138,21 +137,18 @@ f_n=O(n^{-b}).
 \tag{1.11}
 \]
 
-The Markov renewal identity is exactly
+The Markov renewal identity is
 
-\[
-u_0=1,
-\qquad
-u_n=\sum_{k=1}^n f_k u_{n-k}
-=P(S_n=0).
-\tag{1.12}
-\]
+```text
+u[0] = 1,
+u[n] = sum_{k=1}^n f[k] u[n-k] = P(S_n=0).
+```
 
-Here and below `u_n=P(S_n=0)`; the TeX command `\nu` in the displayed left side is only a font-level notation blemish retained to make the intended correction explicit. Lemma 1.1 gives
+Again `u[n]` denotes the Latin renewal sequence. Lemma 1.1 gives
 
 \[
 \boxed{P(S_n=0)=u_n=O(n^{-b}).}
-\tag{1.13}
+\tag{1.12}
 \]
 
 Thus no interpretation of the phrase “decreases polynomially” in BFG Proposition 2(iv) is load-bearing.
@@ -193,7 +189,7 @@ Consequently
 \tag{2.4}
 \]
 
-The imported BFG content is now limited to the ratio coupling, the matched-suffix comparison producing (2.1)--(2.2), and the explicit first-return formula (1.10). The polynomial renewal estimate is internal.
+The imported BFG content is limited to the ratio coupling, the matched-suffix comparison producing (2.1)--(2.2), and the explicit first-return formula (1.10). The polynomial renewal estimate is internal.
 
 ## 3. Banach-valued Cauchy lemma
 
