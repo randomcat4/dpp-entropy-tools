@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_SOURCE_BINDING_FOR_MATHEMATICAL_FIRST",
+  "repository": "randomcat4/dpp-entropy-tools",
+  "reviewed_pr": 94,
+  "reviewed_commit": "a9db9f98dc6dac766dd9b214f056ee9b30109b23",
+  "included_files": [
+    {"path": "research/I05-29-channel-lift-20260910/CHANNEL_LIFT.md", "blob": "6ede83648799d18839f9a7fd64562154a8b2c6de", "size": 12258},
+    {"path": "research/I05-29-channel-lift-20260910/MODE_FAMILY.md", "blob": "78e054f1e4bd312187bb2445fc6c3be72b4777b3", "size": 6887},
+    {"path": "research/I05-29-channel-lift-20260910/FAILURE_LEDGER.md", "blob": "ba94c76028cc1dc3f09964cfa064b088cd575446", "size": 5085},
+    {"path": "research/I05-29-channel-lift-20260910/README.md", "blob": "69537bb87462e2df8303aefce9e17bf3ba4dfa4a", "size": 4588},
+    {"path": "research/I05-29-channel-lift-20260910/code/exact_core.py", "blob": "d9dcdcd013e4928c66daf4a6cfdfd3dea479d592", "size": 2220},
+    {"path": "research/I05-29-channel-lift-20260910/code/fixtures.py", "blob": "eee0398b45a10c81cab57eaeaa8409ed2ea9e9ab", "size": 3196},
+    {"path": "research/I05-29-channel-lift-20260910/code/verify_channels.py", "blob": "9594dd6f9c547b3c33914b29bed808044a1f1a4e", "size": 9228},
+    {"path": "research/I05-29-channel-lift-20260910/output/channel_certificate.json", "blob": "facb026e40962713d4c371537b4e62609aabaa58", "size": 1305},
+    {"path": "research/I05-29-channel-lift-20260910/output/channel_stdout.txt", "blob": "cb944ef1ad9a90d020457bc2642ccf3a875b213f", "size": 1199},
+    {"path": "research/I05-29-channel-lift-20260910/output/channel_development.txt", "blob": "b0b5470bf76b4d7ac4a1ff54ec96f1b63df668d0", "size": 2141}
+  ],
+  "excluded_unit": "research/I05-29-channel-lift-20260910/WHOLE_CHORD.md and its code/output",
+  "accepted_premise": {
+    "path": "research/C1-verification-20260909/children/w1/W1_ROUND2_INDEPENDENT_REVIEW.md",
+    "blob": "b7804d6c9267cc7d2428765cf344e72470444b56",
+    "scope": "accepted real finite-dimensional m-by-2 radial theorem, including concavity in s=t^2"
+  },
+  "execution": "NOT_RUN_BY_REVIEWER",
+  "explicit_mode_finite_status": "PENDING_INDEPENDENT_FINITE_SOURCE",
+  "novelty": "NOT_ASSESSED"
+}
