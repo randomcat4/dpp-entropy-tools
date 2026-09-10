@@ -6,4 +6,5 @@
 - New clock: `2026-09-10T11:58:39Z` through `2026-09-10T12:28:39Z`
 - Preflight first attempt: retained mechanical `Decimal 0**0` failure; no mathematical predicate evaluated.
 - Preflight repaired attempt: PASS, PID 14004, elapsed 30.328 seconds.
-
+- Formal release: `2026-09-10T12:21:45.0599942Z`; waiting launcher PID 56860.
+- Only formal child: PID 29508, elapsed 16.25 seconds, finished `2026-09-10T12:22:01.7655219Z`, exit 2 by the executable's documented no-obstruction convention; no resource breach and empty stderr.
