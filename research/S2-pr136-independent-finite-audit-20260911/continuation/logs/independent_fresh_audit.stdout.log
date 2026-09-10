@@ -1,0 +1,1 @@
+{"status": "FRESH_FULL_FINITE_EVIDENCE_PASS", "output": "outputs/independent_fresh_audit.json", "elapsed_seconds": 144.7038889999967, "true_uppers": [-0.0003746944028546811, -0.0010306469749631383, -0.0019577212125145367, -0.0031712104741915452], "overlap_checks": 512}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\game\gameproject\showa100\math\i05-sol-s2-20260910\pr136-audit\independent_audit.py", line 313, in <module>
+    main()
+  File "C:\game\gameproject\showa100\math\i05-sol-s2-20260910\pr136-audit\independent_audit.py", line 250, in main
+    cosines, pi_interval = verify_inputs(inputs)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\game\gameproject\showa100\math\i05-sol-s2-20260910\pr136-audit\independent_audit.py", line 207, in verify_inputs
+    assert enclosure[0] <= lo <= hi <= enclosure[1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
