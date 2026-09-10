@@ -1,0 +1,48 @@
+{
+  "status": "CORRECT_WITHIN_SCOPE",
+  "repository": "randomcat4/dpp-entropy-tools",
+  "reviewed_pr": 82,
+  "reviewed_commit": "290a84064eaae2e857d637f58531e95f4ca3cb3b",
+  "baseline_commit": "365347e",
+  "included_delta": [
+    {
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_spatial_truncation_p4_multiscale.md",
+      "blob": "a81fa2349ef122d7c9ccbda43ddd70e8dfab402f",
+      "role": "new mathematical source"
+    },
+    {
+      "path": "research/I05-DPP-31-20260910/README.md",
+      "blob": "18de8b1338ca23688207d87c6e9c95cd1105ab79",
+      "role": "static integration and evidence boundary"
+    }
+  ],
+  "accepted_dependencies": [
+    {
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_boundary_correction.md",
+      "blob": "b15a6a26ea89d6f02272428ef5e1d4195a0fd347"
+    },
+    {
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_one_loss.md",
+      "blob": "8ac6d2ada008474aaa6bd05cf7ebd2ed7eff419d"
+    },
+    {
+      "path": "research/C1-verification-round8-20260910/units/pr82/successor_3653_review.md",
+      "blob": "caf6db5cbccb3a67e17d96f8825c0926b3e4383c",
+      "commit": "5b32943874e0633f87fa67e7150b01e134a1581e"
+    },
+    {
+      "path": "docs/verification_round4_20260909/pr82_6ecc_checkpoint.md",
+      "blob": "bf89bd57afd3729c6a354def47760285ee77000b"
+    }
+  ],
+  "review_kind": "fresh delta mathematical/source FIRST",
+  "execution": "NOT_RUN_BY_REVIEWER",
+  "formal_verification": "NOT_ASSESSED",
+  "novelty": "NOT_ASSESSED",
+  "second_review": "NOT_PERFORMED",
+  "merge": "NOT_PERFORMED",
+  "local_clarifications": [
+    "Use epsilon_N = operator error + moving-observable error in the abstract formulation.",
+    "State an explicit positive spectral-margin quantifier in the README."
+  ]
+}
