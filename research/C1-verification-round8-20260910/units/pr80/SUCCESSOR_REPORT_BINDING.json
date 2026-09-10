@@ -1,0 +1,20 @@
+{
+  "stage": "successor_76ea",
+  "reports": [
+    {
+      "sha256": "64b2074b7c5637d6093b20e6f26258888fb6228390d2c26553ba9a2173da70da",
+      "bytes": 4367,
+      "path": "units/pr80/successor_76ea_scope.md"
+    },
+    {
+      "sha256": "515e74096aa1a5508a8dbc45097a60609e60db8e85124172a37c0c6d63fb1cca",
+      "bytes": 8883,
+      "path": "units/pr80/successor_76ea_review.md"
+    },
+    {
+      "sha256": "a6bb5eb5be8e40e0c4a371e3c74680c5f3b072adee777afb3fd09d5680f3ba10",
+      "bytes": 5360,
+      "path": "units/pr80/successor_76ea_code.md"
+    }
+  ]
+}

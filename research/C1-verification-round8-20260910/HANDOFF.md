@@ -41,8 +41,27 @@ See [delta review](units/pr79/budget_scope_ae11_review.md). Its unchanged
 tail(R) name is not a blocker once the text accurately identifies the
 computed upper majorant. C3 can now supply that exact delta to SECOND.
 
-PR80/81/82 successors are separately frozen and under their original
-reviewers; the original twelve reports are preserved. PR70's fixed raw
+PR80/81 successors now have completed delta reports; PR82 remains under
+its original reviewer, with a separately queued README-only text patch.
+The original twelve reports are preserved. PR70's fixed raw
 finite evidence has meanwhile passed FIRST in PR78 at 9091413, supplying
 the previously pending auxiliary-witness dependency at that layer. This
 does not replace C3's separate SECOND or prove the general determinant.
+
+PR80's six additions provide valid reserve/square-completion and window
+moment identities, but need precise strictness/endpoint text and accurate
+output/enclosure labeling. The original first-line strictness is valid via
+diagonal pairs; calling it erroneous is incorrect. The author finite
+claims would establish failure of the old ratio cone and success of a
+different fiber-window sufficient bound at s=.9, not cone coverage. Both
+are PENDING_C2 under a separate future independent reconstruction only.
+See [math](units/pr80/successor_76ea_review.md) and
+[static evidence](units/pr80/successor_76ea_code.md) for exact fixes.
+
+PR81's added strict half-leaf Gram and same-q secant inequalities are ready
+for scoped SECOND. The numerical channel diagnostics and large relaxed
+rational determinant are excluded from acceptance. The actual fixed-shape
+and general entropy determinant remain open. The successor's PR70 pending
+label describes its restricted predecessor inputs; the separate 9091413
+closure above supplies the fixed auxiliary witness at FIRST without being
+a premise of the new Gram proof.

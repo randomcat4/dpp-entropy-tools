@@ -33,3 +33,10 @@ one addition, two additions, and one changed RESULT respectively. Original
 reports and source scopes are preserved. PR79's original reviewer closed
 F1/F3 in ae1149f2 without arithmetic; the three other successor reviews are
 in progress. No later author source beyond those exact heads is inherited.
+
+PR80 76ea and PR81 92c1 successor FIRSTs completed with original reports
+preserved. C1 read the six reports in full and clarified that any future
+PR80 finite task must independently reconstruct from mathematical inputs;
+author scripts/output are comparison only, not independent computation.
+PR82's low-regularity delta continues separately from the newly assigned
+README-only e91c1733 convention patch. No arithmetic was performed by C1.

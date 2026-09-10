@@ -1,0 +1,20 @@
+{
+  "stage": "successor_92c1",
+  "reports": [
+    {
+      "sha256": "3c775f636a4403364f3b72979877cc39341fdcd742586ec150a6b83f88165466",
+      "bytes": 3014,
+      "path": "units/pr81/successor_92c1_scope.md"
+    },
+    {
+      "sha256": "21553d975c88d5788eb264e816512a6ebe0118393c33eba90a154209dfb639e1",
+      "bytes": 8527,
+      "path": "units/pr81/successor_92c1_review.md"
+    },
+    {
+      "sha256": "a35d192e83962ac259d745ffed5e986d1b7e9098f60feaef2dcf60b57b437859",
+      "bytes": 2847,
+      "path": "units/pr81/successor_92c1_code.md"
+    }
+  ]
+}

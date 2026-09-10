@@ -32,11 +32,15 @@ their own freezes and reports:
 | PR | Explicit delta head | Changed files | Delta-FIRST |
 |---|---|---|---|
 | 79 | ae1149f2ed7d657afa494740c3abae83de549d3f | RESULT only | ACCEPTED_DELTA: original text findings closed; numerical comparisons pending |
-| 80 | 76eae9dbe1294358d1488f80a7e31a67f0b3dca4 | 6 additions; original RESULT unchanged | IN_PROGRESS |
-| 81 | 92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac | 1 coupled-Gram addition; original proof unchanged | IN_PROGRESS |
+| 80 | 76eae9dbe1294358d1488f80a7e31a67f0b3dca4 | 6 additions; original RESULT unchanged | COMPLETE: reserve/square/window identities accepted in scope; strictness and evidence wording NEEDS_FIX; finite fixture claims pending |
+| 81 | 92c1b3dfd85c4be4f0ce13b59ffb51e6e0869eac | 1 coupled-Gram addition; original proof unchanged | COMPLETE: strict half-leaf Gram/secant inequalities accepted; arithmetic diagnostics unverified; determinant sign open |
 | 82 | 5e0861e4725d35c9e9b408c45c45291e121d5011 | 2 low-regularity additions; original README unchanged | IN_PROGRESS |
 
-See [PR79 text delta](units/pr79/budget_scope_ae11_review.md). PR70's fixed
+See [PR79 text delta](units/pr79/budget_scope_ae11_review.md),
+[PR80 successor](units/pr80/successor_76ea_review.md) and
+[PR81 successor](units/pr81/successor_92c1_review.md). A separate README-only
+PR82 patch e91c1733 is queued after its two-file low-regularity review;
+the two scopes do not inherit each other's verdicts. PR70's fixed
 finite gate has now passed actual source/evidence FIRST in
 [PR78 at 9091413](https://github.com/randomcat4/dpp-entropy-tools/blob/9091413a1364366652c6b4f3d9f1edc0de5cf02f/research/C1-verification-round7-20260910/units/pr70/machine_pr85_review.md);
 this supplies the previously pending fixed auxiliary witness at FIRST,

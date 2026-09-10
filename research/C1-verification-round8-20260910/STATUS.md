@@ -26,9 +26,26 @@ All finite values/thresholds and whole-interval curvature remain pending/open.
 Unchanged code naming is a nonblocking cleanup recommendation for this text
 delta. Original F1/F3 findings are preserved and closed by this later review.
 
-PR80 76eae9db, PR81 92c1b3df and PR82 5e0861e4: separately frozen
-successor FIRSTs IN_PROGRESS. No new author material or finite PASS is
-accepted before those reviews finish.
+PR80 76eae9db: successor FIRST COMPLETE. Reserve identity, one-event square
+completion and fiber-window/moment lower bound ACCEPTED_SCOPED. The
+addenda incorrectly call the original valid first-line strictness condition
+erroneous; distinguish the diagonal witness from off-diagonal Cauchy slack.
+The s>0 endpoint caveat remains necessary. Saved outputs are edited or stale
+relative to script stdout; a companion value is mislabeled as an upper
+endpoint; fixture provenance needs binding. These are NEEDS_FIX items.
+Both claimed ratio-cone failure and new window-bound coverage of s=.9
+remain independently PENDING_C2; no such execution is authorized here.
+
+PR81 92c1b3df: successor FIRST COMPLETE. Strict half-leaf rectangle Gram
+and same-q secant inequalities ACCEPTED_SCOPED, with shape-dependent gaps.
+Full Fisher/acceleration/marginal structure remains present. Fixed-point
+diagnostics and large rational relaxed determinants are SOURCE_ONLY,
+without independent arithmetic. Actual fixed-shape and general determinant
+positivity remain OPEN. No author text fix is required for this addition.
+
+PR82 5e0861e4: two-file low-regularity successor FIRST IN_PROGRESS.
+Its separate README-only e91c1733 patch is queued. No new theorem is
+accepted before the relevant review finishes.
 
 PR81's PR70 dependency: the actual PR85 raw packet has passed C1 FIRST in
 PR78 at 9091413. The fixed auxiliary witness therefore no longer awaits
