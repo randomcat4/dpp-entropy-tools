@@ -1,0 +1,76 @@
+{
+  "pr": 80,
+  "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+  "previous_head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "files": [
+    {
+      "path": "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CORRELATED_NEIGHBORHOOD.md",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "793c1cb08bb908b72d5ff24fbdb338714ca4af95",
+      "original_sha256": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7",
+      "delivered_sha256": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7",
+      "redactions": []
+    },
+    {
+      "path": "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "0df23034b500bfa71525ec464ceeb5497da64112",
+      "original_sha256": "ffb17e45a8b3300f857865871b332d949bdaa33dcecbe99435079dd6cea7fb00",
+      "delivered_sha256": "020e619081fa7250d6acadf6db7095df65d71944ba673f5ff5058a5e96b57805",
+      "redactions": [
+        "Nonmathematical reference to another review; line count preserved.",
+        "Nonmathematical reference to another review; line count preserved."
+      ]
+    },
+    {
+      "path": "delta_17ae_input/README.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "6f520316238895668a058240fe2cfbb025aeef22",
+      "original_sha256": "ca2a54386866004c8cf168f0a6ae1cdbbcb82aa5a4027eaadcd58b1a2e9ddebf",
+      "delivered_sha256": "49502fb9c16c16e20d0f10adf6cbdb76610b87a7841249ecbf17ea690fb697e1",
+      "redactions": [
+        "Nonmathematical reference to another review; line count preserved."
+      ]
+    },
+    {
+      "path": "delta_17ae_input/code/verify_coefficient_neighborhood.py",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_coefficient_neighborhood.py",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "4068492a38acec71bc8cb1f4a51ba4987ee95834",
+      "original_sha256": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3",
+      "delivered_sha256": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3",
+      "redactions": []
+    },
+    {
+      "path": "delta_17ae_input/code/verify_fiber_obstruction_family.py",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_fiber_obstruction_family.py",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "bf2a7184da627b6a1ac393111c602d97263d6ebb",
+      "original_sha256": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994",
+      "delivered_sha256": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994",
+      "redactions": []
+    },
+    {
+      "path": "delta_17ae_input/output/verify_coefficient_neighborhood.txt",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_coefficient_neighborhood.txt",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "af53978ae5cbd9eae8a6a76c3e49e36d95ea3b80",
+      "original_sha256": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4",
+      "delivered_sha256": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4",
+      "redactions": []
+    },
+    {
+      "path": "delta_17ae_input/output/verify_fiber_obstruction_family.txt",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_fiber_obstruction_family.txt",
+      "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+      "original_git_blob": "6849a7509e9fcb52df04b165b9dc338d97eeb9d8",
+      "original_sha256": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d",
+      "delivered_sha256": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d",
+      "redactions": []
+    }
+  ],
+  "scope": "Seven author delta files only; prior own author-source context allowed. Three nonmathematical review-status sentences withheld with line-preserving placeholders; no proof formula or premise changed. All author numerical/finite-symbolic outputs remain unverified without independent C2. No new arithmetic contract."
+}

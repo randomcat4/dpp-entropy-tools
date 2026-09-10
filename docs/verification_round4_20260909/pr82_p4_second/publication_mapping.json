@@ -1,0 +1,35 @@
+{
+  "note": "Public path aliases/newline normalization only. Original verdicts and limitations preserved.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "fee2fd07d1dd51a0d9f54b90c2758b1b9d1a8a5fa29f99de6370a5a7261a41cd",
+      "published_copy_sha256": "2c727ee84bdc5f0132ee211c8095ab44ea381b77351ff045b4b04e4196fd68dc"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "6758950c74245108029d1d170b84ee9eee0cf5a666e8a011dd1013f86671f753",
+      "published_copy_sha256": "6758950c74245108029d1d170b84ee9eee0cf5a666e8a011dd1013f86671f753"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "a77f64ff362a9e5fbc1ec67cfc0e7e8a91b69acbe272a62e1c5394cc35b30c08",
+      "published_copy_sha256": "a77f64ff362a9e5fbc1ec67cfc0e7e8a91b69acbe272a62e1c5394cc35b30c08"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "29410a0125d57a426d2772924efc439875fd9468c79efaf0f5e9665a97a2537a",
+      "published_copy_sha256": "54fc48dec03c46c3f4ca02a0e7cbbc120b7165bb1743e92ddc27ee053dd63d58"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "a4b94245a6852c66ca0f378aab8c48bb954ac45a4c88fd3988c939e7b70391d8",
+      "published_copy_sha256": "a4b94245a6852c66ca0f378aab8c48bb954ac45a4c88fd3988c939e7b70391d8"
+    },
+    {
+      "file": "p8_extra_scope_note.md",
+      "original_sha256": "1b7dc2e5255d4ae70d04871a057e95cc20228f8bb827514cfb6a8f6fc28da6f1",
+      "published_copy_sha256": "1b7dc2e5255d4ae70d04871a057e95cc20228f8bb827514cfb6a8f6fc28da6f1"
+    }
+  ]
+}

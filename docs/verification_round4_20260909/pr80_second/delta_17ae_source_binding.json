@@ -1,0 +1,347 @@
+{
+  "review": "PR80 delta_17ae independent SECOND, bounded static review",
+  "review_directory": "docs/verification_round4_20260909/pr80_second",
+  "previous_author_head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "delta_author_head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+  "input_binding_sha256": "025522e3dd378287fa289274f8734285638628932e8cb43c610d4ad932179a64",
+  "delta_17ae_input_binding_sha256": "c9c4192bd152c841e580fe9e8a23e9ddb9398f76c00a063b7abde87fc23423ff",
+  "rules_observed": [
+    "Only original PR80 author-source context and delta_17ae_input plus bindings were read as mathematical evidence.",
+    "No FIRST, other SECOND, C3 opinion, public comments, or live later checkout was read.",
+    "Author scripts and stdout were not executed or imported; they are SOURCE_ONLY.",
+    "No determinant/log/entropy/interval recomputation and no new C2 arithmetic contract.",
+    "Generated files are limited to this pr80_second directory; prior reports were preserved."
+  ],
+  "original_context_binding": {
+    "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+    "file_count": 10,
+    "all_sha256_match": true,
+    "files": [
+      {
+        "path": "input/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+        "git_blob": "8fe111c13195442dd5749f8965e93b67bc8ef720",
+        "expected_sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5",
+        "actual_sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5",
+        "sha256_match": true,
+        "line_count": 149
+      },
+      {
+        "path": "input/ADDENDUM_S09_SIGNED_FIBERS.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_S09_SIGNED_FIBERS.md",
+        "git_blob": "0ac9e4848a47b9c1a1605b8774ada8695da88158",
+        "expected_sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e",
+        "actual_sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e",
+        "sha256_match": true,
+        "line_count": 170
+      },
+      {
+        "path": "input/README.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+        "git_blob": "585c0d99bb721a4ff5a3881ce154c5e7f67d3658",
+        "expected_sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b",
+        "actual_sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b",
+        "sha256_match": true,
+        "line_count": 15
+      },
+      {
+        "path": "input/RESULT.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/RESULT.md",
+        "git_blob": "510833bd63251028dd9340195e12392f5c08227f",
+        "expected_sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498",
+        "actual_sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498",
+        "sha256_match": true,
+        "line_count": 245
+      },
+      {
+        "path": "input/code/verify_s09_fiber_window_bound.py",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_fiber_window_bound.py",
+        "git_blob": "6b6bb663a3c267fb99e8a3d1472f4f473e1b5580",
+        "expected_sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f",
+        "actual_sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f",
+        "sha256_match": true,
+        "line_count": 52
+      },
+      {
+        "path": "input/code/verify_s09_signed_fibers.py",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_signed_fibers.py",
+        "git_blob": "e19531953a017d1cb8c6b40111332880e9eeb01e",
+        "expected_sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9",
+        "actual_sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9",
+        "sha256_match": true,
+        "line_count": 233
+      },
+      {
+        "path": "input/output/verify_s09_fiber_window_bound.txt",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_fiber_window_bound.txt",
+        "git_blob": "ba1db176107962cc2ed15521ed733a9b81b78c20",
+        "expected_sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4",
+        "actual_sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4",
+        "sha256_match": true,
+        "line_count": 25
+      },
+      {
+        "path": "input/output/verify_s09_signed_fibers.txt",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_signed_fibers.txt",
+        "git_blob": "f745bdd841a15b29bbe32feecf940bdab4af0f93",
+        "expected_sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a",
+        "actual_sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a",
+        "sha256_match": true,
+        "line_count": 31
+      },
+      {
+        "path": "pr58_source/ADDENDUM_CONDITIONAL_CENTERING.md",
+        "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+        "public_path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+        "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+        "expected_sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+        "actual_sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+        "sha256_match": true,
+        "line_count": 137
+      },
+      {
+        "path": "pr58_source/RESULT.md",
+        "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+        "public_path": "research/I05-23-middle-20260909/RESULT.md",
+        "git_blob": "7e981841708a117a2f07852f10eb7b4a53f93515",
+        "expected_sha256": "661cf6ee725075102fadd78b4931f08f6e9b55e7ee0ad98401ba1e5deae9644f",
+        "actual_sha256": "661cf6ee725075102fadd78b4931f08f6e9b55e7ee0ad98401ba1e5deae9644f",
+        "sha256_match": true,
+        "line_count": 309
+      }
+    ]
+  },
+  "delta_binding": {
+    "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+    "previous_head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+    "file_count": 7,
+    "all_delivered_sha256_match": true,
+    "public_original_blob_mapping_status": "INCOMPLETE: the binding records public_path/head/original_git_blob/original_sha256, but this local package is not a git repository and has no local object store for independent git-blob verification.",
+    "redaction_status": "Three review-status references are isolated by delivered placeholders. Without local original blob objects, the claim that only nonmathematical text changed is binding-level, not independently rederived.",
+    "files": [
+      {
+        "path": "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CORRELATED_NEIGHBORHOOD.md",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "793c1cb08bb908b72d5ff24fbdb338714ca4af95",
+        "original_sha256": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7",
+        "delivered_sha256_expected": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7",
+        "delivered_sha256_actual": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "redactions": [],
+        "line_count": 153
+      },
+      {
+        "path": "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "0df23034b500bfa71525ec464ceeb5497da64112",
+        "original_sha256": "ffb17e45a8b3300f857865871b332d949bdaa33dcecbe99435079dd6cea7fb00",
+        "delivered_sha256_expected": "020e619081fa7250d6acadf6db7095df65d71944ba673f5ff5058a5e96b57805",
+        "delivered_sha256_actual": "020e619081fa7250d6acadf6db7095df65d71944ba673f5ff5058a5e96b57805",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": false,
+        "redactions": [
+          "Nonmathematical reference to another review; line count preserved.",
+          "Nonmathematical reference to another review; line count preserved."
+        ],
+        "line_count": 201
+      },
+      {
+        "path": "delta_17ae_input/README.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "6f520316238895668a058240fe2cfbb025aeef22",
+        "original_sha256": "ca2a54386866004c8cf168f0a6ae1cdbbcb82aa5a4027eaadcd58b1a2e9ddebf",
+        "delivered_sha256_expected": "49502fb9c16c16e20d0f10adf6cbdb76610b87a7841249ecbf17ea690fb697e1",
+        "delivered_sha256_actual": "49502fb9c16c16e20d0f10adf6cbdb76610b87a7841249ecbf17ea690fb697e1",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": false,
+        "redactions": [
+          "Nonmathematical reference to another review; line count preserved."
+        ],
+        "line_count": 29
+      },
+      {
+        "path": "delta_17ae_input/code/verify_coefficient_neighborhood.py",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_coefficient_neighborhood.py",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "4068492a38acec71bc8cb1f4a51ba4987ee95834",
+        "original_sha256": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3",
+        "delivered_sha256_expected": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3",
+        "delivered_sha256_actual": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "redactions": [],
+        "line_count": 48
+      },
+      {
+        "path": "delta_17ae_input/code/verify_fiber_obstruction_family.py",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_fiber_obstruction_family.py",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "bf2a7184da627b6a1ac393111c602d97263d6ebb",
+        "original_sha256": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994",
+        "delivered_sha256_expected": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994",
+        "delivered_sha256_actual": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "redactions": [],
+        "line_count": 238
+      },
+      {
+        "path": "delta_17ae_input/output/verify_coefficient_neighborhood.txt",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_coefficient_neighborhood.txt",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "af53978ae5cbd9eae8a6a76c3e49e36d95ea3b80",
+        "original_sha256": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4",
+        "delivered_sha256_expected": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4",
+        "delivered_sha256_actual": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "redactions": [],
+        "line_count": 12
+      },
+      {
+        "path": "delta_17ae_input/output/verify_fiber_obstruction_family.txt",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_fiber_obstruction_family.txt",
+        "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+        "original_git_blob": "6849a7509e9fcb52df04b165b9dc338d97eeb9d8",
+        "original_sha256": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d",
+        "delivered_sha256_expected": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d",
+        "delivered_sha256_actual": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d",
+        "delivered_sha256_match": true,
+        "delivered_equals_original_sha256": true,
+        "redactions": [],
+        "line_count": 21
+      }
+    ]
+  },
+  "line_anchors": {
+    "delta_readme_scope_and_no_c2": [
+      "delta_17ae_input/README.md:3-5",
+      "delta_17ae_input/README.md:21-29"
+    ],
+    "cross_fiber_obstruction": [
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:9-13",
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:47-71",
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:91-107"
+    ],
+    "legality_equality_endpoint": [
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:15-35",
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:47-53",
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:178-180"
+    ],
+    "complete_interval_compensation": [
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:109-180"
+    ],
+    "original_s09_recheck_claims": [
+      "delta_17ae_input/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md:182-199",
+      "delta_17ae_input/README.md:21-23",
+      "input/README.md:9-15"
+    ],
+    "normalized_gamma_neighborhood": [
+      "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md:7-23",
+      "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md:25-113"
+    ],
+    "explicit_correlated_kernel": [
+      "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md:115-139"
+    ],
+    "direct_sum_open_classes": [
+      "delta_17ae_input/ADDENDUM_CORRELATED_NEIGHBORHOOD.md:141-149"
+    ],
+    "scripts": [
+      "delta_17ae_input/code/verify_fiber_obstruction_family.py:1-238",
+      "delta_17ae_input/code/verify_coefficient_neighborhood.py:1-48"
+    ],
+    "outputs": [
+      "delta_17ae_input/output/verify_fiber_obstruction_family.txt:1-21",
+      "delta_17ae_input/output/verify_coefficient_neighborhood.txt:1-12"
+    ]
+  },
+  "gate_verdicts": [
+    {
+      "gate": "delivered SHA binding for seven delta files",
+      "verdict": "CORRECT",
+      "basis": "All seven actual delivered SHA-256 hashes match delta_17ae_input_binding.json."
+    },
+    {
+      "gate": "public original blob mapping",
+      "verdict": "INCOMPLETE",
+      "basis": "Binding records original_git_blob and original_sha256, but no local git repository/object store is available for git cat-file verification; redacted original line-count preservation cannot be independently checked from the packet."
+    },
+    {
+      "gate": "review-status placeholder isolation in delivered files",
+      "verdict": "CORRECT_WITH_BINDING_LIMITATION",
+      "basis": "Delivered placeholders occur only as review-status sentences at README line 25 and CROSS_FIBER lines 3 and 27; comparison to original blobs remains unverified locally."
+    },
+    {
+      "gate": "true negative full-reference conditional fiber obstruction",
+      "verdict": "CORRECT",
+      "basis": "The delivered note defines C_S as p_C-reference complete-fiber curvature, gives a strict legal first family, and derives the negative formula at s=1/2; it is not presented as conditional Shannon entropy alone or as an entropy counterexample."
+    },
+    {
+      "gate": "legality, equality, and endpoint handling",
+      "verdict": "CORRECT",
+      "basis": "Static proof separates s>0 equality under the cone from t=0 analyticity and supplies Schur-complement legality bounds for the explicit families."
+    },
+    {
+      "gate": "special 2+2 complete-interval compensation derivation, conditional algebra",
+      "verdict": "CORRECT_CONDITIONAL",
+      "basis": "Given the displayed event groups, q-window, Gram identities, and log bounds, the lower-bound chain to H\"(t)<=-(700/19)r^2 t^2 has the correct sign convention and endpoint treatment."
+    },
+    {
+      "gate": "special 2+2 complete-interval compensation as independently certified existence theorem",
+      "verdict": "INCOMPLETE",
+      "basis": "The event enumeration, Gram sums, q-window constants, and log constants have not been independently reconstructed or certified by C2 in this packet."
+    },
+    {
+      "gate": "normalized Gamma endpoint and perturbation framework",
+      "verdict": "CORRECT_CONDITIONAL",
+      "basis": "The Gamma(s) definition removes the apparent s=0 singularity, and the coefficient-space perturbation proof is coherent if its base margin and Lipschitz/log constants are accepted."
+    },
+    {
+      "gate": "quantitative 1/40000 neighborhood and explicit rational correlated member",
+      "verdict": "INCOMPLETE",
+      "basis": "The coefficient membership, exact parameter reconstruction, legality assertion, rational bounds, and bad-fiber/full-curvature enclosures are author finite checks without an independent C2 reconstruction."
+    },
+    {
+      "gate": "direct-sum, compactness, and relative-open class extension",
+      "verdict": "CORRECT_CONDITIONAL",
+      "basis": "The logical extension by independent spectators and compactness is valid conditional on a verified strict base margin and negative active fiber; it is existential and dimension-dependent as stated."
+    },
+    {
+      "gate": "original s=9/10 finite recheck, counts, signs, window bounds, fixture equality",
+      "verdict": "INCOMPLETE",
+      "basis": "All new pair counts, signs, directed enclosures, global values, and equality to the immutable PR58 fixture remain author-side without independent source/arithmetic binding."
+    },
+    {
+      "gate": "author scripts and saved outputs",
+      "verdict": "SOURCE_ONLY",
+      "basis": "Scripts statically contain exact/rational assertions and output summaries, but they were not run or imported here and are not independent implementations."
+    },
+    {
+      "gate": "general dense correlated rank-two whole chord",
+      "verdict": "INCOMPLETE",
+      "basis": "The packet itself limits the result to special families/neighborhoods and says the general dense correlated whole chord is not established."
+    },
+    {
+      "gate": "novelty",
+      "verdict": "NOT_ASSESSED",
+      "basis": "No novelty review was authorized or performed."
+    },
+    {
+      "gate": "formal proof",
+      "verdict": "NOT_PERFORMED",
+      "basis": "No Lean/formal check was authorized or performed."
+    }
+  ]
+}

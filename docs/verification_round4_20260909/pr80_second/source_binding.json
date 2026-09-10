@@ -1,0 +1,263 @@
+{
+  "review_package": "docs/verification_round4_20260909/pr80_second",
+  "review_role": "PR80 independent SECOND verifier",
+  "hash_method": "SHA-256 over delivered file bytes",
+  "restrictions_observed": {
+    "read_only_allowed_paths": [
+      "input/",
+      "pr58_source/",
+      "input_binding.json"
+    ],
+    "forbidden_material_not_read": [
+      "FIRST",
+      "other SECOND",
+      "C3 opinions",
+      "public comments",
+      "later live versions",
+      "private forbidden directories"
+    ],
+    "author_scripts_not_run_or_imported": true,
+    "no_new_determinant_log_entropy_interval_recomputation": true,
+    "no_subagents": true
+  },
+  "binding": {
+    "pr": 80,
+    "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+    "scope": "Author/proof source only. No FIRST, other SECOND, C3 opinions, machine evidence or primary-source reproductions. Later live heads are not in this packet.",
+    "input_binding_sha256": "025522e3dd378287fa289274f8734285638628932e8cb43c610d4ad932179a64",
+    "listed_files": 10,
+    "input_files": 8,
+    "pr58_source_files": 2,
+    "all_match": true,
+    "files": [
+      {
+        "path": "input/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "8fe111c13195442dd5749f8965e93b67bc8ef720",
+        "expected_sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5",
+        "actual_sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/ADDENDUM_S09_SIGNED_FIBERS.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_S09_SIGNED_FIBERS.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "0ac9e4848a47b9c1a1605b8774ada8695da88158",
+        "expected_sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e",
+        "actual_sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/README.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "585c0d99bb721a4ff5a3881ce154c5e7f67d3658",
+        "expected_sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b",
+        "actual_sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/RESULT.md",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/RESULT.md",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "510833bd63251028dd9340195e12392f5c08227f",
+        "expected_sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498",
+        "actual_sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/code/verify_s09_fiber_window_bound.py",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_fiber_window_bound.py",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "6b6bb663a3c267fb99e8a3d1472f4f473e1b5580",
+        "expected_sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f",
+        "actual_sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/code/verify_s09_signed_fibers.py",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_signed_fibers.py",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "e19531953a017d1cb8c6b40111332880e9eeb01e",
+        "expected_sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9",
+        "actual_sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/output/verify_s09_fiber_window_bound.txt",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_fiber_window_bound.txt",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "ba1db176107962cc2ed15521ed733a9b81b78c20",
+        "expected_sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4",
+        "actual_sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "input/output/verify_s09_signed_fibers.txt",
+        "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_signed_fibers.txt",
+        "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+        "git_blob": "f745bdd841a15b29bbe32feecf940bdab4af0f93",
+        "expected_sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a",
+        "actual_sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "pr58_source/ADDENDUM_CONDITIONAL_CENTERING.md",
+        "public_path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+        "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+        "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+        "expected_sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+        "actual_sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f",
+        "exists": true,
+        "match": true
+      },
+      {
+        "path": "pr58_source/RESULT.md",
+        "public_path": "research/I05-23-middle-20260909/RESULT.md",
+        "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+        "git_blob": "7e981841708a117a2f07852f10eb7b4a53f93515",
+        "expected_sha256": "661cf6ee725075102fadd78b4931f08f6e9b55e7ee0ad98401ba1e5deae9644f",
+        "actual_sha256": "661cf6ee725075102fadd78b4931f08f6e9b55e7ee0ad98401ba1e5deae9644f",
+        "exists": true,
+        "match": true
+      }
+    ]
+  },
+  "static_source_status": {
+    "author_outputs_are_edited_summaries": true,
+    "script_pass_labels_accepted_as_independent_certificates": false,
+    "c2_certificate_present": false,
+    "pr58_joint_additive_fixture_source_present": false,
+    "fixture_equality_closed": false
+  },
+  "line_anchors": {
+    "pr80_status_and_open_gaps": [
+      "input/RESULT.md:5-13",
+      "input/RESULT.md:217-245"
+    ],
+    "paired_identity": [
+      "input/RESULT.md:41-101"
+    ],
+    "ratio_cone": [
+      "input/RESULT.md:143-193"
+    ],
+    "reserve_and_square_completion": [
+      "input/ADDENDUM_S09_SIGNED_FIBERS.md:44-116"
+    ],
+    "s09_author_finite_claims": [
+      "input/ADDENDUM_S09_SIGNED_FIBERS.md:118-166"
+    ],
+    "fiber_window_bound": [
+      "input/ADDENDUM_FIBER_WINDOW_MOMENT.md:49-149"
+    ],
+    "source_only_warning": [
+      "input/README.md:7-15"
+    ],
+    "signed_script_static": [
+      "input/code/verify_s09_signed_fibers.py:10-27",
+      "input/code/verify_s09_signed_fibers.py:145-217"
+    ],
+    "window_script_static": [
+      "input/code/verify_s09_fiber_window_bound.py:1-52"
+    ],
+    "edited_outputs": [
+      "input/output/verify_s09_signed_fibers.txt:1-31",
+      "input/output/verify_s09_fiber_window_bound.txt:1-25"
+    ],
+    "pr58_background": [
+      "pr58_source/RESULT.md:5-16",
+      "pr58_source/ADDENDUM_CONDITIONAL_CENTERING.md:1-13"
+    ]
+  },
+  "gate_verdicts": [
+    {
+      "gate": "input Git/SHA binding",
+      "verdict": "CORRECT",
+      "evidence": "10 listed files exist and match SHA-256; PR80 head 1a322ace19fd8ccc679f849780850dde31deb3d2."
+    },
+    {
+      "gate": "exact conditional paired identity",
+      "verdict": "CORRECT",
+      "evidence": "Algebra from Eu=Ey=0 to pair expectation is complete, conditional on the stated accepted complete-law curvature identity."
+    },
+    {
+      "gate": "retained Fisher/acceleration/mixed terms",
+      "verdict": "CORRECT",
+      "evidence": "Text keeps complete-law Phi, 4y^2/q, y psi and mixed Delta u Delta y term; no event deletion."
+    },
+    {
+      "gate": "free pairwise PSD over-relaxation falsification",
+      "verdict": "CORRECT",
+      "evidence": "Analytic q=q prime argument makes C^2<=4AB impossible."
+    },
+    {
+      "gate": "ratio-cone sufficient theorem",
+      "verdict": "CORRECT",
+      "evidence": "Sufficient theorem follows from exact pair identity plus Cauchy lower bound on actual DPP ratio."
+    },
+    {
+      "gate": "ratio-cone coverage of s=9/10 fixture",
+      "verdict": "INCOMPLETE",
+      "evidence": "Author finite counts/signs have no C2 certificate; text itself marks coverage pending/falsified for that fixture."
+    },
+    {
+      "gate": "diagonal strictness witness",
+      "verdict": "CORRECT",
+      "evidence": "Under cone hypotheses, diagonal pair T=T prime gives J=4(u^2+y^2)/q for a positive-mass nonzero atom."
+    },
+    {
+      "gate": "offdiagonal reserve strictness conditions",
+      "verdict": "CORRECT",
+      "evidence": "Cauchy slack identity gives exact nonnegative reserve; listed F>0 or reserve nonzero conditions are sufficient."
+    },
+    {
+      "gate": "square completion and coefficient class",
+      "verdict": "CORRECT",
+      "evidence": "Phi+4y^2/q+y psi rewrites as 4(u+y)^2/q+2(u+5y)log q; eventwise sign criterion is sufficient."
+    },
+    {
+      "gate": "reference fiber weights",
+      "verdict": "CORRECT",
+      "evidence": "Theorems use product-reference p_C or p_A weights, not q-reweighted conditional law; script statically follows this."
+    },
+    {
+      "gate": "fiber window/moment theorem",
+      "verdict": "CORRECT",
+      "evidence": "Lower bound follows from lambda monotonicity and pointwise z lambda >= c z - delta |z|."
+    },
+    {
+      "gate": "s=9/10 pair counts/signs/lower bounds/global fixture equality",
+      "verdict": "INCOMPLETE",
+      "evidence": "No C2/raw independent certificate; outputs are edited author summaries and README explicitly withdraws interval interpretation for hi."
+    },
+    {
+      "gate": "author scripts/output PASS labels",
+      "verdict": "SOURCE_ONLY",
+      "evidence": "Scripts and outputs were not run/imported and are not independent computational implementations."
+    },
+    {
+      "gate": "general dense correlated whole chord",
+      "verdict": "INCOMPLETE",
+      "evidence": "Author files explicitly keep the whole-chord theorem open."
+    },
+    {
+      "gate": "novelty",
+      "verdict": "NOT_ASSESSED",
+      "evidence": "No novelty assessment performed."
+    },
+    {
+      "gate": "formal proof",
+      "verdict": "NOT_PERFORMED",
+      "evidence": "No proof assistant/formal check performed."
+    }
+  ]
+}

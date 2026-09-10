@@ -1,0 +1,77 @@
+{
+  "pr": 80,
+  "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "files": [
+    {
+      "path": "input/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_FIBER_WINDOW_MOMENT.md",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "8fe111c13195442dd5749f8965e93b67bc8ef720",
+      "sha256": "7f17c1d188a29777e3c80d730f103efe575fbd998007f052e9087055768020c5"
+    },
+    {
+      "path": "input/ADDENDUM_S09_SIGNED_FIBERS.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_S09_SIGNED_FIBERS.md",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "0ac9e4848a47b9c1a1605b8774ada8695da88158",
+      "sha256": "861be4012d4edd5d824f47b2d5a6ba0fa2fb1e5ccfd6462f524cd6b2c2b5f56e"
+    },
+    {
+      "path": "input/README.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "585c0d99bb721a4ff5a3881ce154c5e7f67d3658",
+      "sha256": "b85738262b13c981d62ee2d58a176ad5c78766f864f260412b30e9e0cf89cc3b"
+    },
+    {
+      "path": "input/RESULT.md",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/RESULT.md",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "510833bd63251028dd9340195e12392f5c08227f",
+      "sha256": "6735961306e7c2b40ebb1fb181c37a16895be9a1e46254550c0df993a19f9498"
+    },
+    {
+      "path": "input/code/verify_s09_fiber_window_bound.py",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_fiber_window_bound.py",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "6b6bb663a3c267fb99e8a3d1472f4f473e1b5580",
+      "sha256": "228451b1869823c76c505c7822f23032bf64d44c1fc2aec8eea5e9d2a682624f"
+    },
+    {
+      "path": "input/code/verify_s09_signed_fibers.py",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_s09_signed_fibers.py",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "e19531953a017d1cb8c6b40111332880e9eeb01e",
+      "sha256": "47268ea502a0ffd2b3898675362077547e62911f57b9cb7bccdda80d3e531ce9"
+    },
+    {
+      "path": "input/output/verify_s09_fiber_window_bound.txt",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_fiber_window_bound.txt",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "ba1db176107962cc2ed15521ed733a9b81b78c20",
+      "sha256": "c7711b3dcb953a7581e0a27e5eb946306bffb469749c760a39c9dab01b647dc4"
+    },
+    {
+      "path": "input/output/verify_s09_signed_fibers.txt",
+      "public_path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_s09_signed_fibers.txt",
+      "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+      "git_blob": "f745bdd841a15b29bbe32feecf940bdab4af0f93",
+      "sha256": "482e1a571aa06aff279d5d6d133bd8ce84bea56d2ad5ee7c121fceccdf7a2a0a"
+    },
+    {
+      "path": "pr58_source/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "public_path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+      "git_blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "sha256": "fff6b50f9aff96c1c50fb36facfb40c3589539af1eff72616a57fdc96d26558f"
+    },
+    {
+      "path": "pr58_source/RESULT.md",
+      "public_path": "research/I05-23-middle-20260909/RESULT.md",
+      "head": "89aa874c24dd5a3ea98f8474826392560b1d0397",
+      "git_blob": "7e981841708a117a2f07852f10eb7b4a53f93515",
+      "sha256": "661cf6ee725075102fadd78b4931f08f6e9b55e7ee0ad98401ba1e5deae9644f"
+    }
+  ],
+  "scope": "Author/proof source only. No FIRST, other SECOND, C3 opinions, machine evidence or primary-source reproductions. Later live heads are not in this packet."
+}

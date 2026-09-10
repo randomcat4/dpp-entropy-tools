@@ -1,0 +1,60 @@
+{
+  "note": "Publication path aliases/newline normalization only; all mathematical statements and original verdicts preserved.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "14d44efabb63a6fa985ced068b91876e8b8b87e05aedb2d792a272f7c8c0bf5c",
+      "published_copy_sha256": "14d44efabb63a6fa985ced068b91876e8b8b87e05aedb2d792a272f7c8c0bf5c"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "9a024c205b37620d783c6bc0cc239fa76c77ef000987cd34f71eb0ea926beb70",
+      "published_copy_sha256": "9a024c205b37620d783c6bc0cc239fa76c77ef000987cd34f71eb0ea926beb70"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "50f82903ab031c94f5db336fd4ec80d671adc7b38b7d6ff3247174b38146ed6e",
+      "published_copy_sha256": "50f82903ab031c94f5db336fd4ec80d671adc7b38b7d6ff3247174b38146ed6e"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "f0ec21f3f267d256a894b402e9d8d2e469218c196ceb1603caa8422ebd7d2378",
+      "published_copy_sha256": "d1783d69ff53ed0909252fabef4976aa53e3e3cc814024a6efe9b8db30173d84"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "025522e3dd378287fa289274f8734285638628932e8cb43c610d4ad932179a64",
+      "published_copy_sha256": "025522e3dd378287fa289274f8734285638628932e8cb43c610d4ad932179a64"
+    },
+    {
+      "file": "delta_17ae_scope.md",
+      "original_sha256": "3f138e5654f3ea89f80596043e768d679f81468ec4c857d02ad2cc04309fa36f",
+      "published_copy_sha256": "aa0e6740bceacd26f8aaecdabbe28ad00425be862b5b6d3f94623f8e56fc986f"
+    },
+    {
+      "file": "delta_17ae_review.md",
+      "original_sha256": "de983aaa55c87a44a5a218c65e671a1026f1f9fdeb6168c79282570516237faf",
+      "published_copy_sha256": "de983aaa55c87a44a5a218c65e671a1026f1f9fdeb6168c79282570516237faf"
+    },
+    {
+      "file": "delta_17ae_code.md",
+      "original_sha256": "a54d11bc467dc730dcf1adeb3547452695dc255a530b2ccbfbf9bf2626efe324",
+      "published_copy_sha256": "a54d11bc467dc730dcf1adeb3547452695dc255a530b2ccbfbf9bf2626efe324"
+    },
+    {
+      "file": "delta_17ae_source_binding.json",
+      "original_sha256": "887cdaea5625cde4edbe418e91b03e1dc89a2ba647cd8419d2835701b859b6d1",
+      "published_copy_sha256": "579bc2173b4d863a7db7a8d923924b4707b600dd1cf8455b7d8e02a8275ccf5b"
+    },
+    {
+      "file": "delta_17ae_input_binding.json",
+      "original_sha256": "c9c4192bd152c841e580fe9e8a23e9ddb9398f76c00a063b7abde87fc23423ff",
+      "published_copy_sha256": "c9c4192bd152c841e580fe9e8a23e9ddb9398f76c00a063b7abde87fc23423ff"
+    },
+    {
+      "file": "delta_17ae_binding_closure.md",
+      "original_sha256": "c5d529d96d027f99edaafff9b91cffa5fcb43137f141574269a3079922a0051e",
+      "published_copy_sha256": "c5d529d96d027f99edaafff9b91cffa5fcb43137f141574269a3079922a0051e"
+    }
+  ]
+}
