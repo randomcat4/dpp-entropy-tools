@@ -1,0 +1,5 @@
+PASS: full four-event G1 Hessian reconstructed in all six physical directions
+PASS: exact 2x2 antisymmetric and 4x4 symmetric block decomposition
+PASS: positive conditional pivot minors and scalar determinant polynomial
+PASS: scalar concavity and both endpoint decompositions
+NO SAMPLING; analytic inequality proof is in equal_coupling_one_sided_theorem.md
