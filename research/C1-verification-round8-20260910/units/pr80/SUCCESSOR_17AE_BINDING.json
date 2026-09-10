@@ -1,0 +1,79 @@
+{
+  "base": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/1a322ace19fd8ccc679f849780850dde31deb3d2...17ae62c23aad387fbd9b445e5436aa9ad245185d",
+  "files": [
+    {
+      "git_blob": "793c1cb08bb908b72d5ff24fbdb338714ca4af95",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CORRELATED_NEIGHBORHOOD.md",
+      "additions": 153,
+      "bytes": 7257,
+      "lines": 153,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "45aaa1c5fcf031b430e7dbbf92dd1ab6f402b79e83abde504f7d538b92e9ccf7"
+    },
+    {
+      "git_blob": "0df23034b500bfa71525ec464ceeb5497da64112",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/ADDENDUM_CROSS_FIBER_OBSTRUCTION.md",
+      "additions": 201,
+      "bytes": 11389,
+      "lines": 201,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "ffb17e45a8b3300f857865871b332d949bdaa33dcecbe99435079dd6cea7fb00"
+    },
+    {
+      "git_blob": "6f520316238895668a058240fe2cfbb025aeef22",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/README.md",
+      "additions": 20,
+      "bytes": 6253,
+      "lines": 29,
+      "status": "modified",
+      "deletions": 6,
+      "sha256": "ca2a54386866004c8cf168f0a6ae1cdbbcb82aa5a4027eaadcd58b1a2e9ddebf"
+    },
+    {
+      "git_blob": "4068492a38acec71bc8cb1f4a51ba4987ee95834",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_coefficient_neighborhood.py",
+      "additions": 48,
+      "bytes": 2079,
+      "lines": 48,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "017383676c1da76b3b7f5b7810890aeb17024102b03a4a8bc86b6cec7db81ac3"
+    },
+    {
+      "git_blob": "bf2a7184da627b6a1ac393111c602d97263d6ebb",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/code/verify_fiber_obstruction_family.py",
+      "additions": 238,
+      "bytes": 8783,
+      "lines": 238,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "4642cd5482d5dc4f03959131617eb15825001ee7fd794ad68cfd2201f2345994"
+    },
+    {
+      "git_blob": "af53978ae5cbd9eae8a6a76c3e49e36d95ea3b80",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_coefficient_neighborhood.txt",
+      "additions": 12,
+      "bytes": 729,
+      "lines": 12,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "2efe2914a59e06249e94bfda2e31cc28484e22dd63340358eadd89183e2f5fe4"
+    },
+    {
+      "git_blob": "6849a7509e9fcb52df04b165b9dc338d97eeb9d8",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/output/verify_fiber_obstruction_family.txt",
+      "additions": 21,
+      "bytes": 1170,
+      "lines": 21,
+      "status": "added",
+      "deletions": 0,
+      "sha256": "df251c5abe1e4d6e1302b5e7d66322eaac83393528636578be35c7030d3aa55d"
+    }
+  ],
+  "pr": 80,
+  "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved"
+}

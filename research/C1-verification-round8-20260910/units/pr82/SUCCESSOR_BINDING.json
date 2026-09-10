@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "lines": 460,
+      "bytes": 15861,
+      "git_blob": "ab088c5d9b84f208f351d38f94510c5c7d2490ec",
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p8.md",
+      "additions": 460,
+      "sha256": "0a2745cae90e001e49fa457734087c50f28903a02458e69d0bd267c00f0ce789",
+      "status": "added",
+      "deletions": 0
+    },
+    {
+      "lines": 96,
+      "bytes": 3153,
+      "git_blob": "1e36e5ba49dc9644294bb83b62a0713adecc7dd6",
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p8_correction.md",
+      "additions": 96,
+      "sha256": "6ed0ecf079e8ede1aeab9b4b035dfc57002fc7a21e951b42a6d23e1c81bc409e",
+      "status": "added",
+      "deletions": 0
+    }
+  ],
+  "pr": 82,
+  "head": "5e0861e4725d35c9e9b408c45c45291e121d5011",
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/2e21cc4abd67f5b8ab486d1f61a43b4b4fb1ba9e...5e0861e4725d35c9e9b408c45c45291e121d5011",
+  "base": "2e21cc4abd67f5b8ab486d1f61a43b4b4fb1ba9e"
+}

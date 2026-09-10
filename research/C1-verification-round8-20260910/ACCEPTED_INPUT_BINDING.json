@@ -1,0 +1,22 @@
+{
+  "tree": "ffffea0e0b1735f4b8162d242e0d1340f7defee0",
+  "head": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "role": "Accepted source premises only; no prior review opinions",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "blob": "f0c32cefd2aafaf8b7083fe8e99c3515760af9c7",
+      "lines": 14
+    },
+    {
+      "path": "research/I05-23-middle-20260909/RESULT.md",
+      "blob": "7e981841708a117a2f07852f10eb7b4a53f93515",
+      "lines": 309
+    },
+    {
+      "path": "research/I05-23-middle-20260909/ADDENDUM_CONDITIONAL_CENTERING.md",
+      "blob": "974dcaad80b763d6a058272bacb316d92d00e162",
+      "lines": 137
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "head": "c7a072ec4eea0c5b0f445bca5796873a9e234948",
+  "review_scope": "Explicitly authorized current-head source/evidence FIRST; no PR79 or later-head acceptance inherited",
+  "pr": 91,
+  "files": [
+    {
+      "status": "added",
+      "lines": 41,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/README.md",
+      "additions": 41,
+      "git_blob": "afdc44254678ab3f46b28f23fb95982e4b298b3b",
+      "bytes": 4620,
+      "sha256": "ca901e26f75f5dec054980f9c6d791f1cedddb1fa0d076a8c0cd48c3268813ee"
+    },
+    {
+      "status": "added",
+      "lines": 118,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/RESULT.md",
+      "additions": 118,
+      "git_blob": "0ff85de23cf2065fb10bc6357bbe14486e86a37c",
+      "bytes": 8073,
+      "sha256": "3e1b2547637aac64598c1ddff840c7beaf2906b517c88c916fbe4db30176264b"
+    },
+    {
+      "status": "added",
+      "lines": 47,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/code/check_tightening.py",
+      "additions": 47,
+      "git_blob": "da982c0509126c2ea2929ef8ed6d4e703e2ef74e",
+      "bytes": 1862,
+      "sha256": "40a54793e67d4293dfaa9e9ce674c2e3bc131e3941a7b646842b7fdf051153c8"
+    },
+    {
+      "status": "added",
+      "lines": 187,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/code/exact_checks.py",
+      "additions": 187,
+      "git_blob": "6ea28272df620b778dcc268edd7b3e4000be3888",
+      "bytes": 7903,
+      "sha256": "c28d371ee6633b5ba3015f928802eff540d6818345ef64b826b46437ad847771"
+    },
+    {
+      "status": "added",
+      "lines": 142,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/code/poisson_scout.py",
+      "additions": 142,
+      "git_blob": "976b836b13496fb1b87cec452e02ef9fe149f41f",
+      "bytes": 6229,
+      "sha256": "ab2ad8b10256cca871cc7c4297550adb6160fcad3f3259f26183f601b282187d"
+    },
+    {
+      "status": "added",
+      "lines": 152,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/coding_and_fisher.md",
+      "additions": 152,
+      "git_blob": "254b9cb751681ee4a11231810988c6ae690a9365",
+      "bytes": 8630,
+      "sha256": "ca55d4bb0c2b21b644d0e3a96f583824c19a0d54e31f007c57621b8e7b955b9a"
+    },
+    {
+      "status": "added",
+      "lines": 59,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/compute_contract.md",
+      "additions": 59,
+      "git_blob": "76b25839408ca416fad7737c643e788136619311",
+      "bytes": 7413,
+      "sha256": "81112767b2e4b53c64b69a512bfaa55198b3c53652d2aa081756bc5ee99d6ffc"
+    },
+    {
+      "status": "added",
+      "lines": 128,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/curvature_certificate.md",
+      "additions": 128,
+      "git_blob": "a0eb94ce87dc8b2dd35d1154e383e484f374c97c",
+      "bytes": 8500,
+      "sha256": "9aa41986ec263140dd8b2d76059ee6cbb21bf9bd39e84d122f84dd568dc47bdc"
+    },
+    {
+      "status": "added",
+      "lines": 45,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/output/exact_output.json",
+      "additions": 45,
+      "git_blob": "5f06208ee0734dd2c637d8d59d4529060b98efaf",
+      "bytes": 2249,
+      "sha256": "4349d4e9e844acef4b50f689dd5a3a5b2dd1ef58f314afc07333a239b51eb638"
+    },
+    {
+      "status": "added",
+      "lines": 56,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/output/scout_summaries.json",
+      "additions": 56,
+      "git_blob": "783e325666d5c61121445eadc8ef3150742cd049",
+      "bytes": 2570,
+      "sha256": "5dfc98ecc0386d7eff55dfaa1f89cfc9bfba96e4bc796bf4219edf628a47ac0d"
+    },
+    {
+      "status": "added",
+      "lines": 28,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/output/tightening_output.json",
+      "additions": 28,
+      "git_blob": "e40627f5ab00564532429e2c291e5978a88b7059",
+      "bytes": 969,
+      "sha256": "cf7803dea2e980729f5bc8c69c841c7aedabc32620427bd4f852666f4df9a62f"
+    },
+    {
+      "status": "added",
+      "lines": 160,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/post_handoff_cancellation.md",
+      "additions": 160,
+      "git_blob": "09ba22b1365d2014c48f0b508dcad32498dea68b",
+      "bytes": 7532,
+      "sha256": "152623f50a4c8dad9d2234ecfef99db5805dea46cd04dd54b6379d06bff97988"
+    },
+    {
+      "status": "added",
+      "lines": 238,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/proof.md",
+      "additions": 238,
+      "git_blob": "32aa6310285b8649663e380e79dba2da4d8b2f70",
+      "bytes": 11361,
+      "sha256": "58da558b23f99bc815ebf15b53cd5de3db9434982cab56b5830f6b6a1e615847"
+    },
+    {
+      "status": "added",
+      "lines": 44,
+      "deletions": 0,
+      "path": "research/I05-DPP-27-riccati-response-20260910/sources_and_attempts.md",
+      "additions": 44,
+      "git_blob": "1c9e3733a5fd7c18112bb35180824bd61644f557",
+      "bytes": 8834,
+      "sha256": "a3a62c4fa73f03e78b8361d07afa2a7caa696dceef59caa93450a5584cd1fb33"
+    }
+  ],
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/65e59a46b49cd2dbb5c779a4cfae8cef26441984...c7a072ec4eea0c5b0f445bca5796873a9e234948"
+}

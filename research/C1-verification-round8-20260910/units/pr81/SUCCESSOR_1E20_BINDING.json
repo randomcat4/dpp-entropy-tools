@@ -1,0 +1,49 @@
+{
+  "pr": 81,
+  "files": [
+    {
+      "bytes": 2908,
+      "git_blob": "2920df933887bd85fe0e449fb103002855bde9f2",
+      "status": "added",
+      "additions": 44,
+      "path": "research/I05-22-R5-logmean-imbalance/failure_ledger_shared_corner.md",
+      "lines": 44,
+      "sha256": "a4f21633aff813e8a740b796615ec6c3d72b08c5b99d29ec0e1aefb473720615",
+      "deletions": 0
+    },
+    {
+      "bytes": 793,
+      "git_blob": "f140e6320fe13950b9e25b96d4b7d17f946b118d",
+      "status": "added",
+      "additions": 18,
+      "path": "research/I05-22-R5-logmean-imbalance/shared_corner_cell_check.txt",
+      "lines": 18,
+      "sha256": "0471833a235cae557a22d95c842e2fe887ead5c9bb0aa5502a81544a7ce4566c",
+      "deletions": 0
+    },
+    {
+      "bytes": 4666,
+      "git_blob": "2c4a6d065caca66d9db43fd52a827c2f4ffbe1d6",
+      "status": "added",
+      "additions": 130,
+      "path": "research/I05-22-R5-logmean-imbalance/shared_corner_parallel_refinement.md",
+      "lines": 130,
+      "sha256": "c562e2dbf99dcc801fa725aee48fa5cbbc674f314def4a7eda733a544d3cf8e4",
+      "deletions": 0
+    },
+    {
+      "bytes": 12804,
+      "git_blob": "95478434dc98d4b8beab2e3d1f801f1c64e7f758",
+      "status": "added",
+      "additions": 419,
+      "path": "research/I05-22-R5-logmean-imbalance/verify_shared_corner_cell.py",
+      "lines": 419,
+      "sha256": "ea2cee266e78ea1d721961fe3ce2abf1b3a0e8f71f48caedd0fc138cd0a3ff83",
+      "deletions": 0
+    }
+  ],
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/d99550bfd9eee623ec80edbca1da17ff0ddbe4bf...1e2081d374edeca1533c05356afa38e052f9f78e",
+  "head": "1e2081d374edeca1533c05356afa38e052f9f78e",
+  "base": "d99550bfd9eee623ec80edbca1da17ff0ddbe4bf",
+  "review_scope": "Explicitly assigned successor delta only; earlier FIRST reports preserved"
+}

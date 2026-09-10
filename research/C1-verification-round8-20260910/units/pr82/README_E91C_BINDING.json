@@ -1,0 +1,19 @@
+{
+  "head": "e91c17333c2e2c3e86d8f6b24b29e121d3c31e75",
+  "files": [
+    {
+      "status": "modified",
+      "bytes": 13179,
+      "lines": 230,
+      "deletions": 7,
+      "path": "research/I05-DPP-31-20260910/README.md",
+      "additions": 7,
+      "git_blob": "6c7190255ba37098da53131a9ac18262609b47fb",
+      "sha256": "e825f894feb7da599f9d2959f390a37a13b1ef6391bd47dfff48702f64796ddf"
+    }
+  ],
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/5e0861e4725d35c9e9b408c45c45291e121d5011...e91c17333c2e2c3e86d8f6b24b29e121d3c31e75",
+  "base": "5e0861e4725d35c9e9b408c45c45291e121d5011",
+  "pr": 82,
+  "review_scope": "Explicitly assigned successor delta only; original FIRST preserved"
+}

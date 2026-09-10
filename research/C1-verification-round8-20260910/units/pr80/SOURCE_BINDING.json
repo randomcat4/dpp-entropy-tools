@@ -1,0 +1,16 @@
+{
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "head": "1b8c322faa6571a4da060677b757615e65594e35",
+  "pr": 80,
+  "files": [
+    {
+      "lines": 245,
+      "bytes": 10941,
+      "blob": "b9c4c72068049108595ccc70a4f7e431807146bc",
+      "path": "research/I05-29-rank2-signed-pairing-20260910/RESULT.md",
+      "download_hash_verified": true
+    }
+  ],
+  "scope": "Source-only immutable freeze; review not started; no verdict inherited",
+  "file_count": 1
+}

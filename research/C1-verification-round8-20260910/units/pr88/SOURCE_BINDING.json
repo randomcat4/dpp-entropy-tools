@@ -1,0 +1,69 @@
+{
+  "head": "6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c",
+  "review_scope": "Explicitly assigned new source/evidence FIRST; no earlier acceptance inherited",
+  "pr": 88,
+  "files": [
+    {
+      "status": "added",
+      "lines": 74,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/README.md",
+      "additions": 74,
+      "git_blob": "ce6719c6cb58773e1209dcc61b680d73104cdfd9",
+      "bytes": 10975,
+      "sha256": "311c9df6b71dfd294e7b643bd0cf3663a060e1505e138fd1d0737208edf09abf"
+    },
+    {
+      "status": "added",
+      "lines": 1,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/certificate_compact.json",
+      "additions": 1,
+      "git_blob": "ca24722d147a060b9f052ddcca58b7224993b3a4",
+      "bytes": 10056,
+      "sha256": "1808497c1fbd596262d63b963e1422b729d5074eccb97027f83b6bd7d1d5ed0b"
+    },
+    {
+      "status": "added",
+      "lines": 243,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/continuation.md",
+      "additions": 243,
+      "git_blob": "b6f1791268c585d144fed3e373d30618b710347a",
+      "bytes": 11670,
+      "sha256": "2b6770aa3b987502d04572af82680f89219593a1dab561ea0ff741926358fea3"
+    },
+    {
+      "status": "added",
+      "lines": 166,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/fixtures.md",
+      "additions": 166,
+      "git_blob": "19b62f741d90db851d73fcd4c8e652aa41b60299",
+      "bytes": 8705,
+      "sha256": "6840403c6d0a69869816d16ff3d21fd2662e14090c9a3a7b555819cedc725a0e"
+    },
+    {
+      "status": "added",
+      "lines": 269,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/proof.md",
+      "additions": 269,
+      "git_blob": "ef3d234f2211792f4fb0f4c1bcc66806d5d6a3f4",
+      "bytes": 14531,
+      "sha256": "347a32f40ab1e60e440642f6c90049178ee98b85fd20f85a77bdc2a6fbe91d85"
+    },
+    {
+      "status": "added",
+      "lines": 311,
+      "deletions": 0,
+      "path": "research/N4/I05_20260910/verify.py",
+      "additions": 311,
+      "git_blob": "9b7282e9abb87d03057d6e36d3b28c75d63f03fa",
+      "bytes": 12108,
+      "sha256": "61ecc874560fffcec75929b6ac43a74a91574c7ed57ce5516bc3dd9a8040e003"
+    }
+  ],
+  "base": "65e59a46b49cd2dbb5c779a4cfae8cef26441984",
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/65e59a46b49cd2dbb5c779a4cfae8cef26441984...6c8ad2eaedcc93c7dfc5417b2d71b4e826d9be5c"
+}

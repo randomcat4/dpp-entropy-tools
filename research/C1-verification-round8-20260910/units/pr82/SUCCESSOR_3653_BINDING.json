@@ -1,0 +1,79 @@
+{
+  "pr": 82,
+  "files": [
+    {
+      "bytes": 10420,
+      "git_blob": "70fb4e1517ae1a1b101ee3c3d08d16717b91e244",
+      "status": "modified",
+      "additions": 105,
+      "path": "research/I05-DPP-31-20260910/README.md",
+      "lines": 237,
+      "sha256": "370ec3ecf3a865997867574e08d77d3d50af9855bab9a92344d1c0382afcac85",
+      "deletions": 34
+    },
+    {
+      "bytes": 5008,
+      "git_blob": "9f33c28507ce07d916199d7a0cb69a45ecde485c",
+      "status": "added",
+      "additions": 230,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_continuity_detail.md",
+      "lines": 230,
+      "sha256": "8458e48bb0b5af66eb0c712a3b6d5c708e2475b2faba8ba5552310d2941f06ff",
+      "deletions": 0
+    },
+    {
+      "bytes": 3272,
+      "git_blob": "acd6ebaf2892ffdc487792251a52a07da8b8dfd8",
+      "status": "added",
+      "additions": 95,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_measure_continuity.md",
+      "lines": 95,
+      "sha256": "4d42530c641185771438a2fd6413f4902eeb5a2ef2da34e4a5ae052891f239de",
+      "deletions": 0
+    },
+    {
+      "bytes": 17928,
+      "git_blob": "8ac6d2ada008474aaa6bd05cf7ebd2ed7eff419d",
+      "status": "added",
+      "additions": 618,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_one_loss.md",
+      "lines": 618,
+      "sha256": "53497bc566bdf6753e0fa1a88643a6990ee43fb64e206ad6b9ef231ba4f3c20a",
+      "deletions": 0
+    },
+    {
+      "bytes": 7466,
+      "git_blob": "137d24374a8a09c1530d9fff536eacd26c3801f0",
+      "status": "added",
+      "additions": 304,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_pr66_dependency_audit.md",
+      "lines": 304,
+      "sha256": "fa369e01f38437b23ffc15a70b7c4210c9a04280a05035b123dbec66eb9be5e1",
+      "deletions": 0
+    },
+    {
+      "bytes": 5063,
+      "git_blob": "3867b39d24dffcbd510ecf329541f791c735f020",
+      "status": "added",
+      "additions": 258,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_p4_selfcontained_closures.md",
+      "lines": 258,
+      "sha256": "6947bffaade967691f4a3644ce61681be1b702f80bb4a7c4cdf82466580b91b8",
+      "deletions": 0
+    },
+    {
+      "bytes": 5518,
+      "git_blob": "3cc31ea531155be5ccf0b9bb20eb4c5d134db22c",
+      "status": "added",
+      "additions": 231,
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910/c4_response_spatial_truncation_p6.md",
+      "lines": 231,
+      "sha256": "0acd16578b7e0f5165f4613e2899cd0000c7acafa94d3cac692326a164661963",
+      "deletions": 0
+    }
+  ],
+  "comparison_url": "https://github.com/randomcat4/dpp-entropy-tools/compare/6ecc004a3f99f97369ea5af53f1136b59cf2129c...365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+  "head": "365347e9933f30af64e63c33fc403b3c4fbdb3fa",
+  "base": "6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "review_scope": "Explicitly authorized current-head successor delta; last observed c4402e7 is not silently treated as current"
+}

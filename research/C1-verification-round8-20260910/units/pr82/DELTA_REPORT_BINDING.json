@@ -1,0 +1,30 @@
+{
+  "reports": [
+    {
+      "bytes": 4100,
+      "sha256": "fa44b668841148f6255ba0374432548e9bd97ac06dee229983d88dbac53f229f",
+      "path": "units/pr82/successor_5e08_scope.md"
+    },
+    {
+      "bytes": 9606,
+      "sha256": "6e10000bbda9ecdbcfc513df6e43673a856544c54f6aa64307dac8bb65b13707",
+      "path": "units/pr82/successor_5e08_review.md"
+    },
+    {
+      "bytes": 3993,
+      "sha256": "87139c149888c999d59662e0513bfac7548c44064df7e57d0ec84850f2e3f7e6",
+      "path": "units/pr82/successor_5e08_code.md"
+    },
+    {
+      "bytes": 4035,
+      "sha256": "50d47ec93eb2d5d52d33476b1387f1f23ada2f65b36da224ad06ba768a891947",
+      "path": "units/pr82/readme_e91c_scope.md"
+    },
+    {
+      "bytes": 5719,
+      "sha256": "5a767d3b491831557e6af1f92a814c5dca384e7e8cfe1b739b27064d2b49be2d",
+      "path": "units/pr82/readme_e91c_review.md"
+    }
+  ],
+  "scope": "Separate low-regularity successor and README-only delta reports"
+}

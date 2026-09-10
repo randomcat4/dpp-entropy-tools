@@ -1,0 +1,16 @@
+{
+  "head": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "scope": "Four-document PR80 repair only",
+  "reports": [
+    {
+      "path": "units/pr80/scope_1a32_scope.md",
+      "sha256": "a5e9cbd0678762744bb93f73bb39f33d7e745c14f87cec5c0aabffd10d058858",
+      "bytes": 3372
+    },
+    {
+      "path": "units/pr80/scope_1a32_review.md",
+      "sha256": "631a62c03ad4ad9cdae287fbdc5166c84240fa4c0db2f32d324a47a8ae60b857",
+      "bytes": 5702
+    }
+  ]
+}

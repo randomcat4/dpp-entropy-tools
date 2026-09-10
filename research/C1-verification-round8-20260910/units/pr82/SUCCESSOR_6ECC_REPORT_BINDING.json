@@ -1,0 +1,22 @@
+{
+  "scope": "Explicitly assigned source/evidence delta-FIRST only; no arithmetic execution",
+  "head": "6ecc004a3f99f97369ea5af53f1136b59cf2129c",
+  "reports": [
+    {
+      "bytes": 5829,
+      "path": "units/pr82/successor_6ecc_scope.md",
+      "sha256": "8c3808155da5e6e8866f1ac2e82ccb89a8b27dd90a9c1b07092e93a1750dfdc2"
+    },
+    {
+      "bytes": 9610,
+      "path": "units/pr82/successor_6ecc_review.md",
+      "sha256": "1d3e99fe9ee067cb1922b668c339229553b69110cd39ac9789f23922335e6d9c"
+    },
+    {
+      "bytes": 2546,
+      "path": "units/pr82/successor_6ecc_code.md",
+      "sha256": "66d532cf1dac6004482420e209efaf4eee7097835fd420ca3789fae19c7b6cfc"
+    }
+  ],
+  "base": "e91c17333c2e2c3e86d8f6b24b29e121d3c31e75"
+}

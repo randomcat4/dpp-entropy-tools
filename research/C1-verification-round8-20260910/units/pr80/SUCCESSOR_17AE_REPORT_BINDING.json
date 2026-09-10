@@ -1,0 +1,22 @@
+{
+  "reports": [
+    {
+      "bytes": 4641,
+      "path": "units/pr80/successor_17ae_scope.md",
+      "sha256": "da683a42a5fa33427d43fc710d8baf27714d36b87449673141b8cf415b5c3633"
+    },
+    {
+      "bytes": 7531,
+      "path": "units/pr80/successor_17ae_review.md",
+      "sha256": "d85e6cbaa5069fe4620314fec4369346fea6320589ecaa0d8c07d20abaaecbe2"
+    },
+    {
+      "bytes": 3364,
+      "path": "units/pr80/successor_17ae_code.md",
+      "sha256": "6b858439c698696c66ef421859a73d4fb2a06c1c69cdb1e1dfef93421a3080c4"
+    }
+  ],
+  "scope": "Explicitly assigned source/evidence delta-FIRST only; no arithmetic execution",
+  "base": "1a322ace19fd8ccc679f849780850dde31deb3d2",
+  "head": "17ae62c23aad387fbd9b445e5436aa9ad245185d"
+}
