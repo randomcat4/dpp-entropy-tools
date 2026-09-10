@@ -1,0 +1,35 @@
+{
+  "repository": "randomcat4/dpp-entropy-tools",
+  "pull_request": 112,
+  "review_class": "independent_version_bound_analytic_FIRST",
+  "verdict": "ACCEPTED_SCOPED",
+  "reviewed_head": "2ea07741114aa7cd20210dfc84becda378381e7b",
+  "reviewed_base": "bcbf7016e2abc6401b66f39ac9202d235ee32fad",
+  "reviewed_file": {
+    "path": "research/I05-DPP-27-lifted-cone-20260910/explicit_rate_interval.md",
+    "blob": "b8aab2981230b61d399d9a9411ee8547f8593958"
+  },
+  "accepted_dependency": {
+    "pull_request": 77,
+    "head": "2564e25a8b62a72992b9451988cd42e2d5a81834",
+    "merge_commit": "88b0026b76ede02d5b8c5c7a354423771a2d1b28",
+    "path": "research/I05-DPP-21-fixed-harmonic-20260909/point_curvature.md",
+    "blob": "a6f5a15322f5a36a90042b77c46ce315a848680a",
+    "imported_claims": [
+      "h''(1)<-1/1000 for the true complete-occupation entropy rate in the physical affine t direction",
+      "the t=1 complex complete-event comparison bound with rho=2/3, C=288/85, A=11/64, B=49/192"
+    ]
+  },
+  "excluded": [
+    "withdrawn interval [49/40,51/40]",
+    "the lifted-cone package",
+    "the interval [1/2,3/2]",
+    "PR91",
+    "all other files in PR112",
+    "S3 conclusions"
+  ],
+  "computation": "none",
+  "novelty": "not_assessed",
+  "review_date": "2026-09-10"
+}
+
