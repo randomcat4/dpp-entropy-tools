@@ -25,9 +25,9 @@ q_alg = 2
 r = Fourier weight exponent > 0.
 ```
 
-The theorem's condition `r>d(1-1/p_alg)` becomes `r>0`.  The direct sum is
-invertible on `l^2` with a uniform inverse norm.  This is the only imported
-matrix inverse theorem.  Its norm control, not mere inverse-closedness, is
+The theorem's condition `r>d(1-1/p_alg)` becomes `r>0`. The direct sum is
+invertible on `l^2` with a uniform inverse norm. This is the only imported
+matrix inverse theorem. Its norm control, not mere inverse-closedness, is
 necessary for the simultaneous family estimate.
 
 ### Bressaud--Fernandez--Galves 1999: explicit coupling
@@ -44,8 +44,8 @@ Exact use:
   specialization to `V_phi`: equations (5.4)--(5.5), printed pp. 8--9;
 - first-return/renewal formula: equations (5.7)--(5.11), printed pp. 8--9.
 
-The new proof needs only summability of the renewal mass, which it derives from
-the defective first-return law.  It does not cite BFG as a ready-made
+The proof uses only the displayed coupling objects and derives summability of
+the defective renewal mass. It does not cite BFG as a ready-made first- or
 second-response theorem.
 
 ## 2. Independent route checks that are not load-bearing
@@ -57,14 +57,13 @@ theory, uniqueness, loss of memory and mixing properties*, arXiv
 `math/0305026v2`.
 
 The paper gives singleton/LIS consistency, uniqueness criteria, and loss of
-memory in a one-sided Dobrushin sensitivity regime.  Its Theorem 5.3 controls
+memory in a one-sided Dobrushin sensitivity regime. Its Theorem 5.3 controls
 loss of memory through a sensitivity matrix; the paper explicitly notes that
 its power-law variation formulation loses one power whereas BFG obtains the
-same power.  It does not state the two parameter derivatives of the invariant
-law needed here.  More importantly, its one-sided Dobrushin route contains a
-small sensitivity condition that is not proved for an arbitrary strict-margin
-DPP center.  It is therefore a structurally different cross-check, not a
-substitute citation.
+same power. It does not state the parameter derivatives of the invariant law
+needed here. More importantly, its one-sided Dobrushin route contains a small
+sensitivity condition that is not proved for an arbitrary strict-margin DPP
+center. It is a structurally different cross-check, not a substitute citation.
 
 ### Tanaka 2022
 
@@ -72,21 +71,22 @@ H. Tanaka, *General asymptotic perturbation theory in transfer operators*,
 arXiv `2205.12561`.
 
 Tanaka's higher-order conclusions require the specified reduced inverse and
-operator-scale hypotheses.  The PR82 polynomial proof only had a one-power
-loss, so it correctly did not invoke the same-space version as a black box.
-The present endpoint proof instead verifies the two required inversions
-explicitly on
+operator-scale hypotheses. The present proof verifies the two needed
+inversions explicitly on
 
 ```text
-V_1 -> V_0 -> C.
+V_1 -> V_0 -> C
 ```
+
+instead of claiming that summable variation supplies the hypotheses of a
+general perturbation theorem.
 
 ### Dobrushin 1974
 
-The old PR66 pressure import remains rejected.  Dobrushin's class A1 has an
+The old PR66 pressure import remains rejected. Dobrushin's class A1 has an
 exponential support-cardinality weight; A2 requires a controlled null-state
-interaction.  Neither follows from the old interval first-moment estimate.
-No part of the new theorem uses that import.
+interaction. Neither follows from the old interval first-moment estimate. No
+part of either new theorem uses that import.
 
 ## 3. Comparison with the frozen PR82 mechanism
 
@@ -95,14 +95,14 @@ The frozen PR82 proof used two reductions:
 1. its band-truncation inverse argument obtained an `S_q` inverse only under
    `2q+1<p`;
 2. it reduced the two legs to the pointwise estimate `O(j^{-q})`, hence used
-   the tail `O(n^{1-2q})`.
+   only the tail `O(n^{1-2q})`.
 
 Together with two Poisson losses this led to `p>4`.
 
 The new proof changes both points.
 
 First, one norm-controlled inversion is applied to the direct sum of **all**
-complete-event matrices.  This gives a common `l^1_p` diagonal envelope and
+complete-event matrices. This gives a common `l^1_p` diagonal envelope and
 spends no Fourier exponent.
 
 Second, the product of the two leg envelopes is kept before taking a
@@ -113,14 +113,17 @@ pointwise bound:
 \]
 
 Thus the conditional derivative variations have a finite first moment when
-`p>=1`.  The response is then proved on moment spaces rather than replacing
-that information by the borderline class `B_2`.
+`p>=1`, which closes two response orders on moment spaces. When `p>=1/2`, they
+have summable variations, which closes one response order and identifies the
+centered Fisher coefficient.
 
 These are mathematical changes, not a renamed use of the PR82 interface.
 
-## 4. Endpoint and exact remaining gap
+## 4. Endpoint accounting
 
-At `p=1`, the influence envelope has a finite second moment.  This is exactly
+### Local concavity endpoint
+
+At `p=1`, the influence envelope has a finite second moment. This is exactly
 what is needed for
 
 ```text
@@ -129,35 +132,53 @@ first Poisson inverse in V_0,
 second Poisson inverse in C.
 ```
 
-The proof therefore includes the endpoint `p=1`.
+The local corrected-concavity theorem therefore includes `p=1`.
 
-For `0<p<1`, the general `A_p` assumptions supplied here give only a finite
-`2p` moment of the two-leg influence envelope.  They do not imply the finite
-second moment used by the two-response lemma.  The centered identity
-`D'(0)=0` and the exact quartic coefficient can reduce the work needed to
-identify the derivative at the center, but a center expansion alone does not
-control the curvature sign at every nearby nonzero parameter.  No convexity
-of the DPP relative entropy as a function of `s=t^2` has been proved.
+### Centered Fisher endpoint
+
+At `p=1/2`, the influence envelope has a finite first moment. Consequently the
+conditional score lies in `V_0`, one Poisson inverse is bounded into `C`, and
+normalization collapses the center Poisson term. This proves
+
+\[
+h(c+t g)=h(c)-\frac12\mathcal I_s(0)t^4+o(t^4)
+\]
+
+and the full conditional Fisher representation at the endpoint `p=1/2`.
+It does not give nearby curvature.
+
+## 5. Exact remaining gaps
+
+For `1/2<=p<1`, the second moment of the general two-leg influence envelope is
+not implied by `A_p`. The author proof therefore establishes the centered
+quartic coefficient but not the continuity of the second `s` response needed
+for local concavity.
+
+For `0<p<1/2`, the general envelope need not even have the first moment used by
+the one-response Fisher proof. This is a limitation of the present estimates,
+not a DPP entropy counterexample.
 
 Accordingly:
 
-- `p>=1`: **PROVED by the author proof in this packet**;
-- `0<p<1`: **INCOMPLETE**;
-- failure of the present second-moment argument is not a DPP entropy
-  counterexample and is not claimed to be sharp.
+- `p>=1`: local corrected concavity **PROVED by the author packet**;
+- `p>=1/2`: centered quartic/Fisher expansion **PROVED by the author packet**;
+- `1/2<=p<1`: local corrected concavity **INCOMPLETE**;
+- `0<p<1/2`: even the present general Fisher-response bridge is
+  **INCOMPLETE**;
+- no sharpness or entropy counterexample is claimed.
 
-A future improvement below `p=1` must either prove an entropy-specific
-cancellation that removes the second Poisson inversion, establish a stronger
-common inverse/leg moment than follows from `A_p`, or derive a direct Jensen
-inequality for the true configuration entropy rate.  An abstract `g`-chain
-counterexample would not disprove the DPP theorem.
+A future local-concavity improvement below `p=1` must either prove an
+entropy-specific cancellation that removes the second Poisson inversion,
+establish a stronger common inverse/leg moment than follows from `A_p`, or
+derive a direct Jensen inequality for the true configuration entropy rate. An
+abstract `g`-chain counterexample would not disprove the DPP theorem.
 
-## 5. Evidence classes
+## 6. Evidence classes
 
-- Author proof: the two mathematical files in this directory.
+- Author proofs: the localization, moment-response and centered-Fisher files.
 - Previously accepted import: the regularity-free PR53 matching inequality.
 - External source theorem: Fang--Shin norm-controlled inversion; BFG coupling
   identities.
 - Numerical or machine evidence: none used.
-- Independent FIRST/SECOND for this new theorem: not yet present.
+- Independent FIRST/SECOND for these new theorems: not yet present.
 - Novelty/priority: not assessed.
