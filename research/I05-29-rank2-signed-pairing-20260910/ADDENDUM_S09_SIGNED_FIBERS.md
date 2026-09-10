@@ -2,7 +2,7 @@
 
 Status: **author proof / author rigorous finite certificate; PENDING_REVIEW**.  Nothing here is an independent review or a novelty determination.
 
-This addendum supersedes the unresolved s=9/10 sentence in the initial PR80 packet and corrects the strictness sentence in its Theorem 4.1.  The original statement is preserved in git history rather than silently erased.
+This addendum records new author finite claims about the s=9/10 question and clarifies the pair-local strictness test in Theorem 4.1. The finite claims remain pending independent verification; the original theorem-level diagonal strictness witness remains valid.
 
 Throughout, the path is the true affine kernel
 
@@ -41,7 +41,7 @@ Therefore the ratio-cone theorem remains a valid sufficient theorem, but **this 
 
 This is a method obstruction, not an entropy counterexample.  The true complete curvature at the same point is positive.
 
-## 2. Exact Cauchy-slack identity and the correction to Theorem 4.1 strictness
+## 2. Exact Cauchy-slack identity and pair-local strictness
 
 For positive q,q' and arbitrary x,x', one has the exact identity
 
@@ -61,13 +61,13 @@ Apply (2.1) to x=u and x=y in the exact signed pair kernel of PR80.  When `Delta
 
 This is the useful form after the ratio-cone failure: negative F on individual pairs is allowed, because the same pair carries an explicit nonnegative square reserve, and different pairs are averaged with their true signs.
 
-It also exposes a flaw in the initial strictness sentence of Theorem 4.1.  The fact that the first line of the original J is nonzero does **not** by itself imply that the lower bound after Cauchy is strict; that mass may have been consumed by the difference-square lower bound.  A correct sufficient strictness statement for a pair with `Delta u !=0` is:
+For a particular off-diagonal pair, a nonzero first line of J does not by itself make its Cauchy lower bound strict; that mass may be in the difference-square part. This does not invalidate the theorem-level first-line witness: any positive-mass one-copy atom with nonzero `u` or `y` supplies a positive diagonal pair `T=T'` under the cone hypothesis. A separate sufficient strictness test for an off-diagonal pair with `Delta u !=0` is:
 
 - `F>0`, or
 - `q'u+qu' != 0`, or
 - `q'y+qy' != 0`.
 
-For `Delta u=0`, use the original exact J directly.  The theorem's non-strict conclusion remains valid; only its displayed automatic strictness rationale is corrected.
+For `Delta u=0`, use the original exact J directly. The theorem's non-strict conclusion and its diagonal strictness witness remain valid; the reserve identity sharpens the off-diagonal rationale.
 
 ## 3. An even shorter exact square completion
 
@@ -97,7 +97,7 @@ Equivalently,
 
 `(a-sb)(a-6sb)>=0`.                                          (3.3)
 
-Hence, on any strict legal s-interval, if every complete event satisfies (3.3), then
+Hence, on any strict legal interval of `s=t^2>0`, if every complete event satisfies (3.3), then
 
 `t^2 I''(t)>=0` and therefore `H''(t)<=0` throughout that interval.       (3.4)
 
@@ -157,7 +157,7 @@ The surviving mechanism is therefore genuinely a **fiber compensation** mechanis
 
 ## 5. What is proved, disproved, and still open
 
-**PROVED (author algebra; PENDING_REVIEW):** the exact reserve identity (2.3), the square completion (3.1)-(3.2), the coefficient family theorem (3.3)-(3.5), and the corrected strictness conditions.
+**PROVED (author algebra; PENDING_REVIEW):** the exact reserve identity (2.3), the square completion (3.1)-(3.2), the coefficient family theorem (3.3)-(3.5), and the pair-local strictness conditions together with the diagonal witness.
 
 **DISPROVED as a mechanism for the fixed witness (author rigorous finite certificate; PENDING_REVIEW):** the PR80 ratio-cone, on both possible conditional orientations at `s=9/10`.
 

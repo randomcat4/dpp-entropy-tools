@@ -16,7 +16,7 @@ The exact square completion already proved in the preceding addendum is
 
 `Phi(u)+4y^2/q+y psi(u) = 4(u+y)^2/q + 2(u+5y)log q`.       (1.1)
 
-Fix either a left or a right conditional fiber, with its true reference marginal weights.  Put
+Fix either a left or a right conditional fiber, with product-reference block marginal weights `p_C` or `p_A`. These are the reference weights in the complete-law curvature identity, not the q-reweighted conditional law of the full DPP.  Put
 
 `v=u+y`,
 
@@ -142,8 +142,8 @@ Therefore the difficult public point is covered by a structural bound that **all
 
 ## 4. Scope and equality
 
-If the right side of (2.4) is positive on every fiber of either orientation, then averaging with the opposite fixed block marginal gives `t^2 I''>0`, hence `H''<0` at that physical parameter.
+At a physical parameter with `s=t^2>0`, if the right side of (2.4) is positive on every fiber of either orientation, averaging with the opposite fixed block marginal gives `t^2 I''>0`, hence `H''<0` because `t!=0`.
 
-If the right side is merely zero, no automatic strictness is claimed.  The exact identities in the previous addendum, rather than the old erroneous first-line argument, govern equality.
+If the right side is merely zero, no automatic strictness is claimed. The exact identities in the previous addendum govern pair-local equality; the original ratio-cone theorem also retains its valid positive diagonal-pair witness under its own cone hypotheses.
 
 This theorem does not close the whole legal chord.  Its next analytic target is to control `q_-/q_+` and the three moments in (2.7) from block/exterior-feature data uniformly in s.  That remaining step is distinct from the already-failed additive projection and ratio-cone routes.

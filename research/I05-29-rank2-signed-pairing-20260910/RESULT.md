@@ -152,7 +152,7 @@ Therefore `(Delta u,Delta y)` is not a free planar vector on an actual event pai
 
 Using (3.1) only after imposing the actual ratio gives the lower pair kernel
 
-`Q >= (Delta u)^2 F(q,q',r)`,                               (4.2)
+`J >= Q = (Delta u)^2 F(q,q',r)`,                               (4.2)
 
 where
 
@@ -164,11 +164,11 @@ If `Delta u=0`, then the exact pair kernel (2.2) reduces to the nonnegative firs
 
 ### Theorem 4.1 (conditional ratio-cone sufficient criterion)
 
-Fix one side, say the left side.  Suppose that at a strict legal `s`, for every left configuration `S` and every pair of right configurations `T,T'` with `Delta u!=0`, the actual DPP pair satisfies
+Fix one side, say the left side.  Suppose that at a strict legal `s=t^2>0`, for every left configuration `S` and every pair of right configurations `T,T'` with `Delta u!=0`, the actual DPP pair satisfies
 
 `F(q,q',Delta y/Delta u) >= 0`.                             (4.4)
 
-Then `t^2 I''(t)>=0`, hence `H''(t)<=0`.  If (4.4) is strict on a pair of positive `p_A(S)p_C(T)p_C(T')` mass or one of the positive first-line terms in (2.2) is nonzero on positive mass, then `t^2 I''(t)>0` and `H''(t)<0`.
+Then `t^2 I''(t)>=0`, hence `H''(t)<=0` because `t!=0`. Strictness follows if (4.4) is strict on a positive-mass pair with `Delta u!=0`, or if a positive-mass one-copy atom has `u` or `y` nonzero. For the latter condition, the diagonal pair `T=T'` has `J=4(u^2+y^2)/q>0`; all other pairs are nonnegative under the cone hypothesis. Thus `t^2 I''(t)>0` and `H''(t)<0`. Pair-local reserve-square strictness is described separately in the signed-fiber addendum.
 
 The same theorem holds with left/right interchanged.
 
@@ -180,7 +180,7 @@ Apply (3.1) inside the exact identity (2.2), but only on the actual DPP ratio `r
 
 Let a parameterized family of strict rank-two DPPs satisfy, on an `s`-interval, deterministic envelopes
 
-`q,q' in [q_-,q_+]`, and for every actual conditional pair with `Delta u!=0`,
+`0<q_-<=q_+` and `q,q' in [q_-,q_+]`, and for every actual conditional pair with `Delta u!=0`,
 
 `r=Delta y/Delta u in R`,                                   (4.5)
 
@@ -188,7 +188,7 @@ where `R` is a fixed union of intervals.  If
 
 `inf_{q,q' in [q_-,q_+], r in R} F(q,q',r) >=0`,            (4.6)
 
-then the whole family is entropy-concave on that interval.  Strict positivity gives strict curvature away from degenerate equality cases.
+then `H''(t)<=0` for every physical parameter with `t^2` in the stated interval and `t!=0`. Hence entropy is concave on each connected `t`-interval covered by these hypotheses. Strict curvature requires at each parameter either a positive-mass `Delta u!=0` pair with strict `F`, or the positive-mass one-copy/diagonal witness from Theorem 4.1. This statement alone does not cover other `t`-bands or the endpoint `t=0`.
 
 This is a genuine structural family theorem: the input is a likelihood window plus an event-pair ratio cone, not an additive Hilbert residual.  It can in principle be certified from block-level inequalities controlling `Delta a` versus `Delta b`.
 
