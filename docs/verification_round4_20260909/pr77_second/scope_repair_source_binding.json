@@ -1,0 +1,43 @@
+{
+  "review": "PR77 scope repair delta review",
+  "base_directory": "docs/verification_round4_20260909/pr77_second",
+  "scope": {
+    "previous_head": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+    "head": "2564e25a8b62a72992b9451988cd42e2d5a81834",
+    "changed_files": [
+      "README.md",
+      "proof.md"
+    ],
+    "unchanged_files_declared_by_binding": 21
+  },
+  "hashing": {
+    "algorithm": "SHA256",
+    "generated_by": "PowerShell Get-FileHash over scope repair input, patch, and binding only"
+  },
+  "files": [
+    {
+      "relative_path": "scope_repair_input_binding.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\scope_repair_input_binding.json",
+      "bytes": 940,
+      "sha256": "ab7d2bb3cf1794d0c2fe2ec9b1be3d40ef9993c42c4566da6501cc5047b7c6da"
+    },
+    {
+      "relative_path": "scope_repair_input\\proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\scope_repair_input\\proof.md",
+      "bytes": 16935,
+      "sha256": "8d1e0ae9e2830595b9e290d5162d137717510a3b2b9b10e0f136ad7416d0d12e"
+    },
+    {
+      "relative_path": "scope_repair_input\\README.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\scope_repair_input\\README.md",
+      "bytes": 4292,
+      "sha256": "38ab671ecf1a57cd725b73942ec0c734f18818359436314fec531f5f4145a222"
+    },
+    {
+      "relative_path": "scope_repair.patch",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\scope_repair.patch",
+      "bytes": 5341,
+      "sha256": "80e037b25dd40a4f45c60b974b8b82f61e6b2a415420cf521b7c2dd9724ab46c"
+    }
+  ]
+}

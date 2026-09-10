@@ -1,0 +1,24 @@
+{
+  "head": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+  "files": [
+    {
+      "path": "finite_range_local_theorem.md",
+      "source_path": "research/I05-DPP-21-20260909/finite_range_local_theorem.md",
+      "git_blob": "e1c014d654d71a89c700dbd12e44fdab95cd2a9d",
+      "sha256": "93839094c482036b89f28319f4863f6c762b7e45afcea3de3540b13fc78f9c49"
+    },
+    {
+      "path": "exponential_wiener_extension.md",
+      "source_path": "research/I05-DPP-21-20260909/exponential_wiener_extension.md",
+      "git_blob": "8404d0ec0b36ec70ee2e25b2b7c6539a15aafd1f",
+      "sha256": "f105b80253ded39e98f03207153386ec92308d15492210189b72ede05355b311"
+    },
+    {
+      "path": "proof.md",
+      "source_path": "research/I05-DPP-21-20260909/proof.md",
+      "git_blob": "877e76a94476aee8902af12f3e9d34a914088ba1",
+      "sha256": "a8606092ce8bf56e0c590b89b4117cd2aeb43de54e772be27d7ead8f1172d55a"
+    }
+  ],
+  "scope": "Previously accepted complete-event/RPF source machinery and constant-centered radial source only. Identify exact premises used; no implication that fixed amplitude lies in a local tube. No review report or opinion supplied."
+}

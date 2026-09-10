@@ -1,0 +1,7 @@
+# Isolated machine packet and original-output scope
+
+The isolated SECOND intentionally received 196 computation-bearing raw files at PR89 `1d805e094a0faf0018127ee832f5e1ac74996b41`, without the top-level `.gitattributes`, README and STATUS. C3 separately bound all199 public Git blobs to that immutable source and verified unchanged implementation/inputs from preparation `d68fec7f10f4451dd9a16c19000c35219db33400`. The original preparation manifest still names the withheld metadata files; the SECOND's inability to inspect those entries is a packet-scope limitation, not missing mathematical evidence.
+
+The original run-output manifest retains179 entries, including one private invocation file intentionally omitted from publication. C3 and SECOND verified all178 public entries. No private invocation content is needed or published. Original reports and binding bytes are preserved locally; the publication mapping records public path aliases, immutable-source hyperlinks and newline normalization. No mathematical values or review verdicts were changed.
+
+The earlier analytic and scope-repair reports retain their historical PENDING_C2 statements. The later machine review closes those fixed finite obligations only, while continuum curvature and Section9 true-rate derivatives remain incomplete. There was one independently owned C2 arithmetic implementation/run, reviewed statically by two independent reviewers and C3; no claim of two separate arithmetic reruns is made.

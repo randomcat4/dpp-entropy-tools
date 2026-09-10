@@ -1,0 +1,21 @@
+{
+  "previous_head": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+  "head": "2564e25a8b62a72992b9451988cd42e2d5a81834",
+  "unchanged_files": 21,
+  "changed_files": [
+    {
+      "path": "README.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/README.md",
+      "git_blob": "27e40007d557f8d76508c55b0830ed7a2c6f3ed5",
+      "sha256": "38ab671ecf1a57cd725b73942ec0c734f18818359436314fec531f5f4145a222"
+    },
+    {
+      "path": "proof.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md",
+      "git_blob": "3abf09012d746e10eef00566f7f3deb78915541e",
+      "sha256": "8d1e0ae9e2830595b9e290d5162d137717510a3b2b9b10e0f136ad7416d0d12e"
+    }
+  ],
+  "patch_sha256": "80e037b25dd40a4f45c60b974b8b82f61e6b2a415420cf521b7c2dd9724ab46c",
+  "independence": "Exact source-text delta and provenance only; no FIRST or other reviewer conclusions supplied. Not yet a review verdict."
+}

@@ -1,0 +1,116 @@
+{
+  "pr": 77,
+  "head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "prefix": "research/I05-DPP-21-fixed-harmonic-20260909/",
+  "files": [
+    {
+      "path": "README.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/README.md",
+      "git_blob": "09dfaff5a07cef3d666ef970fd0e9a5763a03ebb",
+      "sha256": "aa7997f5377d387df595d7f047f85b0bcf2d60bd49348c928a304a774abc8238"
+    },
+    {
+      "path": "RESULT.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/RESULT.md",
+      "git_blob": "40d542360c79d52ba2518735f39f63e12feaf122",
+      "sha256": "6300a577ddfda8e83b99e44559f1dade05a6d9c2696d45050ace0e0b7753149a"
+    },
+    {
+      "path": "attempts.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/attempts.md",
+      "git_blob": "81e48b1c93d22e5f16c2a274dd299c31c77f1c74",
+      "sha256": "09724a9f745ea61484c6c8d22c60230aed2bc1ad053f0b29a8554694d04ccf56"
+    },
+    {
+      "path": "code/certify_midpoint_rate_gap.py",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_midpoint_rate_gap.py",
+      "git_blob": "bdd2e565108d0a9d91d788e9f279da0b1bbb900d",
+      "sha256": "b0ffdad34b6692af8bbb803f92aafcca46ff7891d9d54b9d5b17fec7b8956902"
+    },
+    {
+      "path": "code/certify_point_curvatures.py",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/code/certify_point_curvatures.py",
+      "git_blob": "1588a3def00e07e76d4c8afab0365dddfaac902d",
+      "sha256": "1c44dca27343494678e2cc2cc00704f85196f96f0a94fc854959e9c7048d0908"
+    },
+    {
+      "path": "code/check_analytic_constants.py",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_analytic_constants.py",
+      "git_blob": "8f68ed5d7f97524eb91ffc468b3af0bb0a70d819",
+      "sha256": "d7967cbce64d948ed97cb795a11ea680a3a5c15a4ddd8e19429a47601f1aafc8"
+    },
+    {
+      "path": "code/check_band_automaton.py",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_band_automaton.py",
+      "git_blob": "eb0b3f692ba8c9753775c7b9e08037cbc5e188eb",
+      "sha256": "be1b5b28fc5d9429abf6b44c4db4ff1b3bd3074b9e4ff7323750b189199eeb20"
+    },
+    {
+      "path": "fisher_projection.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/fisher_projection.md",
+      "git_blob": "574180b8796a3f76e08d3ef5606c697bfb365094",
+      "sha256": "7d33139f326c6c8d80ef240ec39f64541d2efbeb29cb825283f48f9a778325f3"
+    },
+    {
+      "path": "frozen_statement.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/frozen_statement.md",
+      "git_blob": "bcdfcb0614bb9c1863b1caf8356751b02226834a",
+      "sha256": "43ce026b9dd1a807b00c9968af9dc681f9c54b3825b3546b3957030ca8b87278"
+    },
+    {
+      "path": "output/analytic_constants_exact.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/analytic_constants_exact.json",
+      "git_blob": "f9aa42db8de8b317d51cdfb065c27bc5d6425b55",
+      "sha256": "a2d478fff7b0f6e7505b9fe1d580bdb7f7382efb1da5047053fcdbbdb5181a99"
+    },
+    {
+      "path": "output/band_automaton_exact.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/band_automaton_exact.json",
+      "git_blob": "4c5703baa20dc7b3c9ee1e5966736ed0390fa74d",
+      "sha256": "b24744517e74a604ae2a1c5908a0da9e8975c2cb50fb8c73c1ddc073945868df"
+    },
+    {
+      "path": "output/midpoint_rate_certificate.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/midpoint_rate_certificate.json",
+      "git_blob": "c4db204edeb0fc2c53fd975f8302d837b6dc20d8",
+      "sha256": "e1fe7e5c8a8c49968cec58fccfc4b233ad5e75b0a2284d541f406152f5c7a185"
+    },
+    {
+      "path": "output/point_curvature_certificate.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/point_curvature_certificate.json",
+      "git_blob": "918846e317e0c070b68f65e0e099e212729010c6",
+      "sha256": "c032b6950152ed02bcd364b7c12bdefba437acf5384e502fa0b9e714f5783552"
+    },
+    {
+      "path": "output/run_record.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/run_record.json",
+      "git_blob": "dc495ee89746a5d6299d6c5c1b8b9f826298f0ad",
+      "sha256": "d04ecd1dcb996133725fffc5dd60be9b9da53987cbf3436d4304da1ac4633365"
+    },
+    {
+      "path": "point_curvature.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/point_curvature.md",
+      "git_blob": "a6f5a15322f5a36a90042b77c46ce315a848680a",
+      "sha256": "27dabc3c0a369f1a0c9dda66ab26e79a6bfc405f2d56a93984cf362198660fe8"
+    },
+    {
+      "path": "proof.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/proof.md",
+      "git_blob": "689c3b841f80f4f0e332aae487506c65fd74df54",
+      "sha256": "dbf3a31cc9c9176cca62c4dbd8abe3a6b433413390b099edae351b6bb1a4dc45"
+    },
+    {
+      "path": "sources.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/sources.md",
+      "git_blob": "109a7a745d78310c13c0c21ac892ddc41a335223",
+      "sha256": "f9e7be35e4a38e72157472b093beeb2b3fb913e4bd4ddaae178a75ad85daeecd"
+    },
+    {
+      "path": "verification.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/verification.md",
+      "git_blob": "13bd4084041810bb316f3f1f7355c853cc06c7a3",
+      "sha256": "c8f5baa8b20007545f8116d2eecb85add9b523ba0110758e81fa29264683f050"
+    }
+  ],
+  "independence": "Frozen author sources only. No FIRST, SECOND, machine-owner opinion, C3 adjudication or live successor. Author assertions and outputs are not independent certification."
+}

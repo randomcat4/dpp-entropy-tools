@@ -1,0 +1,90 @@
+{
+  "note": "Publication aliases only; mathematical assertions and input hashes preserved.",
+  "files": [
+    {
+      "file": "frozen_scope.md",
+      "original_sha256": "b0272afb66e6f09a63829635d31d0e1b33069e8a35e922ae31531e68021a6c7f",
+      "published_copy_sha256": "7756a35a0c27a5fe7195152256b314df419f88d57d9a9b6206d60deea8a683f6"
+    },
+    {
+      "file": "review_report.md",
+      "original_sha256": "ce5b198ff2407c14c4af1eb3e7ee2a76626472b65ca6fe142507544e9daa265e",
+      "published_copy_sha256": "912edca1ef7741dced8d3471eb60159582fa581307f8332303cd5d87a67728da"
+    },
+    {
+      "file": "code_review.md",
+      "original_sha256": "e6ee2936699c4e9cd6af992b034a5496c44e05d5b018b71586a080b1ecc8f30a",
+      "published_copy_sha256": "223509ed69482d4f7c08f90ea42425345adee5da145e0f735c66fb8ea2e86367"
+    },
+    {
+      "file": "source_binding.json",
+      "original_sha256": "caa27d3bdf74fe75e4b9700edc633a5ad70004f2d3e719f4918a20b9d2f81bcd",
+      "published_copy_sha256": "baa909c54de72e56655e042fc90e9b4632a78f1c58fa2e87319c4776d5fc418d"
+    },
+    {
+      "file": "input_binding.json",
+      "original_sha256": "2d3a9f15663f984fdb020f7c3b3390acb6d55ceaf14b3a928417ab19da6bf6df",
+      "published_copy_sha256": "ff88a71507aee59c0b4c21b0deeefd90eae1a06cb7ce8960bca4012a8b0a4dd8"
+    },
+    {
+      "file": "delta_input_binding.json",
+      "original_sha256": "98f8a090b6eadb76e79250847f3f5759b188d7d1ed4f0f4fdf684c499e1a21a1",
+      "published_copy_sha256": "98f8a090b6eadb76e79250847f3f5759b188d7d1ed4f0f4fdf684c499e1a21a1"
+    },
+    {
+      "file": "accepted_input_binding.json",
+      "original_sha256": "ee1df6dfde15bc0c4bf9fb42442d0be6f571c242d41d0e213c97865eca210977",
+      "published_copy_sha256": "6c791247861bbb83e4da62871f4d514b6cabad6dcf5d5778e99bbf049e8facbe"
+    },
+    {
+      "file": "scope_repair_scope.md",
+      "original_sha256": "a25ae36caef45d7988af989ced68b5e4d74817de84f10aff93e4599a9848303c",
+      "published_copy_sha256": "1810bee37dbf19021d72e9ed9a420fa6eee5720e62cf1cc944277a3c195638f3"
+    },
+    {
+      "file": "scope_repair_review.md",
+      "original_sha256": "c81153a43c1bea8abc589389d1c70836198553324ed14242ee270dfc169ad674",
+      "published_copy_sha256": "c81153a43c1bea8abc589389d1c70836198553324ed14242ee270dfc169ad674"
+    },
+    {
+      "file": "scope_repair_source_binding.json",
+      "original_sha256": "419647db2d69fe40a1d12e018b5a45cca90b41ae07f19c67168544c7515d9a58",
+      "published_copy_sha256": "05031b8a2e9887b64bf014c62ffc844f64754b78c1296d3a0eaadb3fd196c9b4"
+    },
+    {
+      "file": "scope_repair_input_binding.json",
+      "original_sha256": "ab7d2bb3cf1794d0c2fe2ec9b1be3d40ef9993c42c4566da6501cc5047b7c6da",
+      "published_copy_sha256": "7ea6bdc7cd558f0df37b8e902577a73c754a44ab74eef8133f9102f004e6b216"
+    },
+    {
+      "file": "scope_repair.patch",
+      "original_sha256": "80e037b25dd40a4f45c60b974b8b82f61e6b2a415420cf521b7c2dd9724ab46c",
+      "published_copy_sha256": "cfaea852330685e251b3d006bcccd07be2e0c86dcefa6916be7ac2b46192d55d"
+    },
+    {
+      "file": "machine_scope.md",
+      "original_sha256": "f14ea752804f6b7958be9ade98f533b5e2220ce21a8249845e92bf319d989bb7",
+      "published_copy_sha256": "784fa3839b1ff3b03c49ad6cb9d235ea4e47ee73b2e33ae90dd911eb717b03c6"
+    },
+    {
+      "file": "machine_review.md",
+      "original_sha256": "e997bed8e0dd8fdcff94bddbc11bc2e8f0b32dd15b7d29b7c0d1ac1384341519",
+      "published_copy_sha256": "f9152bff4798bb7a49145bf71f0db3da9fc061423abda7fb6aece1f751da05a4"
+    },
+    {
+      "file": "machine_code_review.md",
+      "original_sha256": "93af1db9b8b4bd68b713a4350b5b43f519a4c7ef01791f8ab67d00f2197af9d0",
+      "published_copy_sha256": "a73ad8e4f504112c4c73fd1603bebed830afd567d264616551ebcb2b7f4f627e"
+    },
+    {
+      "file": "machine_source_binding.json",
+      "original_sha256": "779b81770129c45c1ef62b230ec170a09669e4ab0329d293c1fd2f5e00db450a",
+      "published_copy_sha256": "1063d3185b9ccda0c09d345924e29d608b3b472c55b7e4f36a2e7820f5dea7f6"
+    },
+    {
+      "file": "machine_input_binding.json",
+      "original_sha256": "b60618ddf1714b42985229fac44f960d9f3a45aae397552b1cd8b6923649760d",
+      "published_copy_sha256": "b60618ddf1714b42985229fac44f960d9f3a45aae397552b1cd8b6923649760d"
+    }
+  ]
+}

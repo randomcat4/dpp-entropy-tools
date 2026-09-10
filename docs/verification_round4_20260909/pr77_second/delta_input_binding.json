@@ -1,0 +1,38 @@
+{
+  "base_head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+  "head": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+  "original_files_unchanged": 18,
+  "added_files": [
+    {
+      "path": "FINAL_RESULT.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/FINAL_RESULT.md",
+      "git_blob": "6e8b71825ed06eda4256ac1d6573942bb2edf252",
+      "sha256": "f6fc0ca8783e53243a8f10c4947040f087b15cc06a4ff2d975c30aaa326e48b0"
+    },
+    {
+      "path": "code/check_pair_fisher_projection.py",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/code/check_pair_fisher_projection.py",
+      "git_blob": "a702f1439cbdb83b2e3ac8364589ce9b4e93b1ca",
+      "sha256": "f84a0ad504e2a6876e3574aff10edce8b48f5e41bb026f824b722df515219808"
+    },
+    {
+      "path": "output/pair_fisher_exact.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/pair_fisher_exact.json",
+      "git_blob": "7631e758712f63c06ce876b0a68a048dd917d319",
+      "sha256": "8f7ce42f2baaca9f98466b605fd3ee1e4c85400afd59a02cba786d01f01e04a5"
+    },
+    {
+      "path": "output/run_record_round2.json",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/output/run_record_round2.json",
+      "git_blob": "84f2043a3d03d97f46e7e8ef7b6d1c258ba23615",
+      "sha256": "e29b30e226bc63d43dd7833639e54564fc144ef5f6a5da7b412f267a9490e319"
+    },
+    {
+      "path": "verification_round2.md",
+      "source_path": "research/I05-DPP-21-fixed-harmonic-20260909/verification_round2.md",
+      "git_blob": "a42f1c23adb5a2a763530c407e2d15dd2d06f6b4",
+      "sha256": "993435716946d38b35d70decff196674616c13e764c18d50c143484db867f6f1"
+    }
+  ],
+  "independence": "Author additions and source provenance only; no FIRST or other reviewer report or opinion supplied."
+}

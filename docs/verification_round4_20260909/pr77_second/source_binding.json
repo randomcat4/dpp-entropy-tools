@@ -1,0 +1,192 @@
+{
+  "review": "PR77 independent second review, C3 verification round 4",
+  "base_directory": "docs/verification_round4_20260909/pr77_second",
+  "scope": {
+    "original_head": "6ebe38dc6503120d47e9d644cfac78cfb43666f5",
+    "delta_head": "8de8b0007f9374b7a5decb9b0a2f1c939fe897be",
+    "accepted_head": "9dcb6e9079ca57f94e0e30d63161cda89ca61fae",
+    "original_files": 18,
+    "delta_additions": 5,
+    "accepted_source_files": 3
+  },
+  "hashing": {
+    "algorithm": "SHA256",
+    "generated_by": "PowerShell Get-FileHash over allowed frozen source and binding files"
+  },
+  "files": [
+    {
+      "relative_path": "accepted_input_binding.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\accepted_input_binding.json",
+      "bytes": 1138,
+      "sha256": "ee1df6dfde15bc0c4bf9fb42442d0be6f571c242d41d0e213c97865eca210977"
+    },
+    {
+      "relative_path": "accepted_input\\exponential_wiener_extension.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\accepted_input\\exponential_wiener_extension.md",
+      "bytes": 9381,
+      "sha256": "f105b80253ded39e98f03207153386ec92308d15492210189b72ede05355b311"
+    },
+    {
+      "relative_path": "accepted_input\\finite_range_local_theorem.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\accepted_input\\finite_range_local_theorem.md",
+      "bytes": 17755,
+      "sha256": "93839094c482036b89f28319f4863f6c762b7e45afcea3de3540b13fc78f9c49"
+    },
+    {
+      "relative_path": "accepted_input\\proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\accepted_input\\proof.md",
+      "bytes": 13376,
+      "sha256": "a8606092ce8bf56e0c590b89b4117cd2aeb43de54e772be27d7ead8f1172d55a"
+    },
+    {
+      "relative_path": "delta_input_binding.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input_binding.json",
+      "bytes": 1817,
+      "sha256": "98f8a090b6eadb76e79250847f3f5759b188d7d1ed4f0f4fdf684c499e1a21a1"
+    },
+    {
+      "relative_path": "delta_input\\code\\check_pair_fisher_projection.py",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input\\code\\check_pair_fisher_projection.py",
+      "bytes": 5038,
+      "sha256": "f84a0ad504e2a6876e3574aff10edce8b48f5e41bb026f824b722df515219808"
+    },
+    {
+      "relative_path": "delta_input\\FINAL_RESULT.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input\\FINAL_RESULT.md",
+      "bytes": 3445,
+      "sha256": "f6fc0ca8783e53243a8f10c4947040f087b15cc06a4ff2d975c30aaa326e48b0"
+    },
+    {
+      "relative_path": "delta_input\\output\\pair_fisher_exact.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input\\output\\pair_fisher_exact.json",
+      "bytes": 595,
+      "sha256": "8f7ce42f2baaca9f98466b605fd3ee1e4c85400afd59a02cba786d01f01e04a5"
+    },
+    {
+      "relative_path": "delta_input\\output\\run_record_round2.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input\\output\\run_record_round2.json",
+      "bytes": 785,
+      "sha256": "e29b30e226bc63d43dd7833639e54564fc144ef5f6a5da7b412f267a9490e319"
+    },
+    {
+      "relative_path": "delta_input\\verification_round2.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\delta_input\\verification_round2.md",
+      "bytes": 2344,
+      "sha256": "993435716946d38b35d70decff196674616c13e764c18d50c143484db867f6f1"
+    },
+    {
+      "relative_path": "input_binding.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input_binding.json",
+      "bytes": 5566,
+      "sha256": "2d3a9f15663f984fdb020f7c3b3390acb6d55ceaf14b3a928417ab19da6bf6df"
+    },
+    {
+      "relative_path": "input\\attempts.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\attempts.md",
+      "bytes": 3957,
+      "sha256": "09724a9f745ea61484c6c8d22c60230aed2bc1ad053f0b29a8554694d04ccf56"
+    },
+    {
+      "relative_path": "input\\code\\certify_midpoint_rate_gap.py",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\code\\certify_midpoint_rate_gap.py",
+      "bytes": 14018,
+      "sha256": "b0ffdad34b6692af8bbb803f92aafcca46ff7891d9d54b9d5b17fec7b8956902"
+    },
+    {
+      "relative_path": "input\\code\\certify_point_curvatures.py",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\code\\certify_point_curvatures.py",
+      "bytes": 17223,
+      "sha256": "1c44dca27343494678e2cc2cc00704f85196f96f0a94fc854959e9c7048d0908"
+    },
+    {
+      "relative_path": "input\\code\\check_analytic_constants.py",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\code\\check_analytic_constants.py",
+      "bytes": 4185,
+      "sha256": "d7967cbce64d948ed97cb795a11ea680a3a5c15a4ddd8e19429a47601f1aafc8"
+    },
+    {
+      "relative_path": "input\\code\\check_band_automaton.py",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\code\\check_band_automaton.py",
+      "bytes": 2923,
+      "sha256": "be1b5b28fc5d9429abf6b44c4db4ff1b3bd3074b9e4ff7323750b189199eeb20"
+    },
+    {
+      "relative_path": "input\\fisher_projection.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\fisher_projection.md",
+      "bytes": 5051,
+      "sha256": "7d33139f326c6c8d80ef240ec39f64541d2efbeb29cb825283f48f9a778325f3"
+    },
+    {
+      "relative_path": "input\\frozen_statement.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\frozen_statement.md",
+      "bytes": 4149,
+      "sha256": "43ce026b9dd1a807b00c9968af9dc681f9c54b3825b3546b3957030ca8b87278"
+    },
+    {
+      "relative_path": "input\\output\\analytic_constants_exact.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\output\\analytic_constants_exact.json",
+      "bytes": 902,
+      "sha256": "a2d478fff7b0f6e7505b9fe1d580bdb7f7382efb1da5047053fcdbbdb5181a99"
+    },
+    {
+      "relative_path": "input\\output\\band_automaton_exact.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\output\\band_automaton_exact.json",
+      "bytes": 411,
+      "sha256": "b24744517e74a604ae2a1c5908a0da9e8975c2cb50fb8c73c1ddc073945868df"
+    },
+    {
+      "relative_path": "input\\output\\midpoint_rate_certificate.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\output\\midpoint_rate_certificate.json",
+      "bytes": 892,
+      "sha256": "e1fe7e5c8a8c49968cec58fccfc4b233ad5e75b0a2284d541f406152f5c7a185"
+    },
+    {
+      "relative_path": "input\\output\\point_curvature_certificate.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\output\\point_curvature_certificate.json",
+      "bytes": 1065,
+      "sha256": "c032b6950152ed02bcd364b7c12bdefba437acf5384e502fa0b9e714f5783552"
+    },
+    {
+      "relative_path": "input\\output\\run_record.json",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\output\\run_record.json",
+      "bytes": 908,
+      "sha256": "d04ecd1dcb996133725fffc5dd60be9b9da53987cbf3436d4304da1ac4633365"
+    },
+    {
+      "relative_path": "input\\point_curvature.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\point_curvature.md",
+      "bytes": 6313,
+      "sha256": "27dabc3c0a369f1a0c9dda66ab26e79a6bfc405f2d56a93984cf362198660fe8"
+    },
+    {
+      "relative_path": "input\\proof.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\proof.md",
+      "bytes": 15939,
+      "sha256": "dbf3a31cc9c9176cca62c4dbd8abe3a6b433413390b099edae351b6bb1a4dc45"
+    },
+    {
+      "relative_path": "input\\README.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\README.md",
+      "bytes": 3277,
+      "sha256": "aa7997f5377d387df595d7f047f85b0bcf2d60bd49348c928a304a774abc8238"
+    },
+    {
+      "relative_path": "input\\RESULT.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\RESULT.md",
+      "bytes": 2186,
+      "sha256": "6300a577ddfda8e83b99e44559f1dade05a6d9c2696d45050ace0e0b7753149a"
+    },
+    {
+      "relative_path": "input\\sources.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\sources.md",
+      "bytes": 4612,
+      "sha256": "f9e7be35e4a38e72157472b093beeb2b3fb913e4bd4ddaae178a75ad85daeecd"
+    },
+    {
+      "relative_path": "input\\verification.md",
+      "absolute_path": "docs/verification_round4_20260909/pr77_second\\input\\verification.md",
+      "bytes": 5392,
+      "sha256": "c8f5baa8b20007545f8116d2eecb85add9b523ba0110758e81fa29264683f050"
+    }
+  ]
+}
