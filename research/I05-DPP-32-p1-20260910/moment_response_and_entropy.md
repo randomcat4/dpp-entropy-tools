@@ -2,24 +2,24 @@
 
 Status: **PROVED AS AN AUTHOR PROOF / PENDING INDEPENDENT REVIEW**.
 
-This file proves a finite second-response lemma at the endpoint where a
-pointwise polynomial-space argument would land in `B_1`.  The proof retains the
-full summable moment sequence instead of replacing it by the borderline bound
-`O(n^{-2})`.
+This file proves finite second response at the endpoint where a pointwise
+polynomial-space argument would land in `B_1`. It keeps the full summable
+moment sequence instead of replacing it by the borderline statement
+`var_n F=O(n^{-2})`.
 
 The DPP input is the common complete-event influence moment proved in
 `beurling_complete_event_localization.md`.
 
-## 1. Variation spaces
+## 1. Variation moment spaces
 
-Let `X={0,1}^N`.  For a continuous function `F` define
+Let `X={0,1}^N`. For continuous `F`, set
 
 \[
 \operatorname{var}_mF
 =\sup\{|F(x)-F(y)|:x_1^m=y_1^m\}.
 \]
 
-Use the two spaces
+Define
 
 \[
 \mathcal V_0
@@ -36,9 +36,8 @@ Use the two spaces
 \tag{1.2}
 \]
 
-The distinction between `V_1` and the pointwise class `B_2` is essential at
-the endpoint: a common finite first moment of the variation sequence is
-stronger than merely knowing `var_m F=O(m^{-2})`.
+The endpoint distinction matters: a fixed finite first moment of the variation
+sequence is stronger than a bare pointwise `O(m^{-2})` estimate.
 
 Let `G_s(xi|x)` be a normalized, uniformly non-null binary kernel on a compact
 real `s` interval, and define
@@ -48,11 +47,11 @@ real `s` interval, and define
 \tag{1.3}
 \]
 
-Assume that `G_s` has a unique compatible invariant law `nu_s`.
+Let `nu_s` be its compatible invariant law.
 
-## 2. The moment hypotheses
+## 2. Moment and parameter hypotheses
 
-Assume there are fixed nonincreasing sequences `rho_m` and `v_m` such that
+Assume there are fixed nonincreasing sequences `rho_m` and `v_m` with
 
 \[
 \sum_{m\ge0}(m+1)\rho_m<\infty,
@@ -61,50 +60,56 @@ Assume there are fixed nonincreasing sequences `rho_m` and `v_m` such that
 \tag{2.1}
 \]
 
-and, uniformly in `s`,
+such that, uniformly in `s`,
 
 \[
 \operatorname{var}_m(\partial_s^j\log G_s)
 \le\rho_m,
-\qquad j=0,1,2.
+\qquad j=0,1,2,
 \tag{2.2}
 \]
 
-For a moving observable `F_s`, assume it is `C^2` in sup norm and
+and for a moving observable `F_s`,
 
 \[
-\operatorname{var}_m(\partial_s^jF_s)\le v_m,
+\operatorname{var}_m(\partial_s^jF_s)
+\le v_m,
 \qquad j=0,1,2.
 \tag{2.3}
 \]
 
-The DPP application has `F_s=ell_s=log G_s`, so one can take `v=rho`.
+Assume moreover that `s -> log G_s` and `s -> F_s` are `C^2` in the
+corresponding `V_1` norms. In the DPP application this follows from the common
+complex complete-event disk and the Banach-valued Cauchy estimate; take
+`F_s=ell_s=log G_s` and one common envelope.
 
-Uniform non-nullness converts (2.2) into the same type of bounds for the first
-two derivatives of `G_s`.  Multiplication and the prepend map then show that
+Uniform non-nullness transfers (2.2) to `G_s` and its first two derivatives.
+Multiplication and the prepend map then show that
 
 \[
-A_{j,s}:=\partial_s^j\mathcal L_s
+A_{j,s}:=\partial_s^j\mathcal L_s,
+\qquad j=1,2,
+\tag{2.4}
 \]
 
-acts boundedly on `V_0`, `V_1`, and `C(X)` for `j=1,2`, locally uniformly in
-`s`.  Normalization gives `A_{j,s}1=0`.
+act boundedly and continuously on `V_1`, `V_0`, and `C(X)`. Normalization gives
+`A_{j,s}1=0`.
 
-## 3. BFG coupling with no polynomial-rate substitution
+## 3. BFG coupling without a black-box response theorem
 
-Choose a common ratio-loss sequence
+Set
 
 \[
-\Gamma_m
-=1-\exp[-C\rho_m].
+\Gamma_m=1-e^{-\rho_m}.
 \tag{3.1}
 \]
 
-After enlarging finitely many entries if necessary, it is decreasing,
-`Gamma_0<1`, and histories agreeing through `m` satisfy
+This sequence is decreasing, `Gamma_0<1`, and histories agreeing through `m`
+satisfy
 
 \[
-\frac{G_s(\xi|x)}{G_s(\xi|y)}\ge1-\Gamma_m.
+\frac{G_s(\xi|x)}{G_s(\xi|y)}
+\ge e^{-\rho_m}=1-\Gamma_m.
 \tag{3.2}
 \]
 
@@ -116,8 +121,7 @@ Moreover
 \]
 
 We use only the explicit maximal coupling and matched-suffix process of
-Bressaud--Fernandez--Galves (BFG), not a general differentiability theorem.
-Their auxiliary age chain has transitions
+Bressaud--Fernandez--Galves (BFG). Their auxiliary age chain has transitions
 
 \[
 k\longmapsto k+1\quad\text{with probability }1-\Gamma_k,
@@ -129,11 +133,14 @@ k\longmapsto0\quad\text{with probability }\Gamma_k.
 Its first positive return law is
 
 \[
-f_{k+1}=\Gamma_k\prod_{j=0}^{k-1}(1-\Gamma_j).
+f_1=\Gamma_0,
+\qquad
+f_n=\Gamma_{n-1}\prod_{j=0}^{n-2}(1-\Gamma_j),
+\quad n\ge2.
 \tag{3.5}
 \]
 
-Because `sum Gamma_m<infinity`,
+Since `sum Gamma_m<infinity`,
 
 \[
 \theta:=\sum_{n\ge1}f_n
@@ -141,42 +148,50 @@ Because `sum Gamma_m<infinity`,
 \tag{3.6}
 \]
 
-Let `u_0=1` and
+Let `r_0=1` and let the renewal return sequence satisfy
 
 \[
-u_n=\sum_{k=1}^n f_k u_{n-k}.
+r_n=\sum_{k=1}^n f_k r_{n-k},
+\qquad n\ge1.
 \tag{3.7}
 \]
 
-Summing the finite triangular recurrence and passing monotonically to the
-limit gives
+Thus `r_n=P(S_n=0)`. Summing the finite triangular recurrence gives
 
 \[
-U:=\sum_{n\ge0}u_n=\frac1{1-\theta}<\infty.
+\sum_{n=0}^N r_n
+\le1+\theta\sum_{n=0}^N r_n.
+\]
+
+Monotone convergence, followed by the exact infinite triangular identity,
+yields
+
+\[
+R_*:=\sum_{n\ge0}r_n=\frac1{1-\theta}<\infty.
 \tag{3.8}
 \]
 
-BFG's elementary coupling inequality, before its specialization to their
-`V_phi` observable norm, gives for every continuous `F`
+BFG equations (5.4)--(5.5), before the specialization to their `V_phi` norm,
+give for every continuous `F`
 
 \[
 \operatorname{osc}(\mathcal L_s^nF)
-\le\sum_{k=0}^n\operatorname{var}_k(F)u_{n-k}.
+\le\sum_{k=0}^n\operatorname{var}_k(F)r_{n-k}.
 \tag{3.9}
 \]
 
-Therefore, for `F in V_0`,
+Consequently, for `F in V_0`, Tonelli gives
 
 \[
 \sum_{n\ge0}\operatorname{osc}(\mathcal L_s^nF)
-\le U\sum_{k\ge0}\operatorname{var}_kF<\infty.
+\le R_*\sum_{k\ge0}\operatorname{var}_kF<\infty.
 \tag{3.10}
 \]
 
-This is the only relaxation estimate needed below.  No assertion of the form
-“summable variation implies `C^2` response” is imported.
+No statement that summable variation itself implies `C^2` parameter response
+is imported.
 
-## 4. Poisson inversion: `V_1 -> V_0` and `V_0 -> C`
+## 4. Poisson inversion: `V_1 -> V_0 -> C`
 
 Put
 
@@ -187,7 +202,14 @@ Put
 \tag{4.1}
 \]
 
-For `F in V_0`, equations (3.9)--(3.10) give uniform convergence and
+For `F in V_0`, stationarity and (3.9) give
+
+\[
+\|\mathcal L_s^n\Pi_sF\|_\infty
+\le\operatorname{osc}(\mathcal L_s^nF).
+\]
+
+Hence the series converges uniformly and
 
 \[
 \|\mathcal R_sF\|_\infty
@@ -195,24 +217,24 @@ For `F in V_0`, equations (3.9)--(3.10) give uniform convergence and
 \tag{4.2}
 \]
 
-Now suppose `F in V_1`.  Couple two chains whose initial futures agree through
-`m`, and let `sigma` be the first generated disagreement.  Before step `r`,
-the current futures agree through at least `m+r`, hence
+Now let `F in V_1`. Couple two chains whose initial futures agree through
+`m`, and let `sigma` be the first generated disagreement. Before generation
+step `j`, the current futures agree through at least `m+j`, so
 
 \[
-P(\sigma=r)\le\Gamma_{m+r}.
+P(\sigma=j)\le\Gamma_{m+j}.
 \tag{4.3}
 \]
 
-If `sigma>=n`, the terminal values differ by at most `var_{m+n}F`.  If
-`sigma=r<n`, the remaining difference is at most
-`osc(L_s^{n-r-1}F)`.  Thus
+If `sigma>=n`, the terminal values differ by at most `var_{m+n}F`. If
+`sigma=j<n`, the difference after the remaining generations is at most
+`osc(L_s^{n-j-1}F)`. Therefore
 
 \[
 \operatorname{var}_m(\mathcal L_s^nF)
 \le\operatorname{var}_{m+n}F
- +\sum_{r=0}^{n-1}\Gamma_{m+r}
-  \operatorname{osc}(\mathcal L_s^{n-r-1}F).
+ +\sum_{j=0}^{n-1}\Gamma_{m+j}
+  \operatorname{osc}(\mathcal L_s^{n-j-1}F).
 \tag{4.4}
 \]
 
@@ -226,7 +248,7 @@ Summing in `n` and using (3.10),
 \tag{4.5}
 \]
 
-A second summation in `m` yields
+A second Tonelli summation yields
 
 \[
 \sum_m\operatorname{var}_m(\mathcal R_sF)
@@ -236,7 +258,7 @@ A second summation in `m` yields
 \tag{4.6}
 \]
 
-Hence
+Thus
 
 \[
 \boxed{
@@ -247,48 +269,57 @@ Hence
 \tag{4.7}
 \]
 
-boundedly and uniformly.  Also
+boundedly and locally uniformly in `s`. Also
 
 \[
 (I-\mathcal L_s)\mathcal R_sF=F-\nu_sF,
 \qquad
-\nu_s(\mathcal R_sF)=0.
+\nu_s(\mathcal R_sF)=0,
 \tag{4.8}
 \]
 
-This is the moment analogue of two one-power Poisson losses.  It remains valid
-at the exact endpoint where the polynomial exponents are `2 -> 1 -> 0`.
+because the partial sums telescope and the remainder tends to zero in sup
+norm. These are the endpoint mappings `2 -> 1 -> 0` in variation-moment order.
 
-## 5. Continuity of the Poisson terms
+## 5. Uniform tails and continuity
 
-This paragraph supplies the remainder control needed for response rather than
-assuming it.
+The response proof needs continuity of the Poisson terms, not merely their
+existence.
 
-For a family satisfying (2.3), the time tail of (4.1) converges uniformly in
-sup norm by the tail of the convolution in (3.9).  It also converges uniformly
-in `V_0` when the input lies in `V_1`.  Indeed, summing (4.4) over `m` and over
-times `n>N`, the no-disagreement part is bounded by
+For a `V_1` family controlled by (2.3), the tail after time `N` in (4.1)
+tends uniformly to zero in `V_0`. Indeed, the no-disagreement part of the sum
+of (4.4) is bounded by
 
 \[
-\sum_{k>N}(k+1)\operatorname{var}_kF,
+\sum_{k>N}(k+1)v_k\longrightarrow0.
+\tag{5.1}
 \]
 
-while the disagreement part is a tail of the convolution of the two summable
-sequences
+For the disagreement part, put
 
 \[
-r\longmapsto\sum_{m\ge0}\Gamma_{m+r},
+B_j=\sum_{m\ge0}\Gamma_{m+j},
 \qquad
-l\longmapsto\operatorname{osc}(\mathcal L_s^lF).
+C_l^*=\sup_s\operatorname{osc}(\mathcal L_s^lF_s).
 \]
 
-Both tails tend to zero uniformly under (2.1)--(2.3).  Finite partial sums are
-continuous in `V_0`; consequently
+The first sequence is summable by (3.3), and the second is dominated by the
+convolution in (3.9), hence is summable. The remaining variation tail is
+bounded by
+
+\[
+\sum_{j,l\ge0:\ j+l\ge N}B_jC_l^*,
+\tag{5.2}
+\]
+
+the tail of a convolution of two `l^1` sequences. It tends to zero.
+
+Finite partial sums depend continuously on `s` in `V_0`; therefore
 
 \[
 s\longmapsto\mathcal R_sF_s
 \quad\text{is continuous in }\mathcal V_0.
-\tag{5.1}
+\tag{5.3}
 \]
 
 Then
@@ -297,22 +328,22 @@ Then
 H_s=A_{1,s}\mathcal R_sF_s
 \]
 
-is a continuous `V_0` family whose variations have one fixed summable
-majorant obtained from (4.5), `rho`, and `v`.  Applying (3.9) once more shows
-that
+is a continuous `V_0` family. Equations (4.5), (2.2) and the product variation
+bound give one fixed summable envelope for `var_m H_s`. Applying (3.9) once
+more gives a common summable sup-norm tail, so
 
 \[
 s\longmapsto\mathcal R_sH_s
 \quad\text{is continuous in }C(X).
-\tag{5.2}
+\tag{5.4}
 \]
 
-The same statements hold for `F_s'`.  These are the exact continuity facts
-used in the second difference quotient.
+The same statements hold with `F_s'` in place of `F_s`. These are exactly the
+continuity statements needed for the second difference quotient.
 
 ## 6. Finite second response
 
-Assume `nu_s` is weakly continuous.  For nearby `u,s`, invariance and (4.8)
+Assume `nu_s` is weakly continuous. For nearby `u,s`, invariance and (4.8)
 give the exact identity
 
 \[
@@ -321,16 +352,23 @@ give the exact identity
 \tag{6.1}
 \]
 
-For fixed `F in V_1`, divide by `u-s` and use the `C^2` operator expansion of
-`L_s` on `V_0` to obtain
+For fixed `F in V_1`, divide by `u-s`. The operator quotient converges on
+`V_0`, and weak continuity gives
 
 \[
 D\nu_s(F)=\nu_s(A_{1,s}\mathcal R_sF).
 \tag{6.2}
 \]
 
-The observable on the right belongs to `V_0`.  Apply (6.1) again to that fixed
-observable; its Poisson inverse exists by (4.7).  This gives
+The observable on the right lies in `V_0`. Apply (6.1) again to this fixed
+observable. Its Poisson inverse exists in `C(X)` by (4.7). Expanding
+
+\[
+\mathcal L_{s+h}-\mathcal L_s
+=hA_{1,s}+\frac{h^2}{2}A_{2,s}+o(h^2)
+\]
+
+on the relevant spaces gives
 
 \[
 D^2\nu_s(F)
@@ -341,7 +379,7 @@ D^2\nu_s(F)
 \tag{6.3}
 \]
 
-For a moving `F_s`, ordinary Leibniz expansion gives
+For a moving `C^2(V_1)` family `F_s`, ordinary Leibniz expansion gives
 
 \[
 \begin{aligned}
@@ -356,11 +394,11 @@ For a moving `F_s`, ordinary Leibniz expansion gives
 \tag{6.4}
 \]
 
-Equations (5.1)--(5.2) prove continuity of every term.  Thus
-`s -> nu_s(F_s)` is `C^2` on the physical interval, with continuous right
-second derivative at zero.  No derivative of `R_s` is assumed.
+Equations (5.3)--(5.4) prove continuity of every term. Thus
+`s -> nu_s(F_s)` is `C^2` on the physical interval, with a continuous right
+second derivative at zero. No derivative of `R_s` is assumed or hidden.
 
-## 7. DPP verification of the hypotheses for `p>=1`
+## 7. DPP verification for `p>=1`
 
 Let `p>=1`, and let real `c,g in A_p` satisfy
 
@@ -374,16 +412,15 @@ g(\theta+1/2)=-g(\theta),
 \tag{7.1}
 \]
 
-By `beurling_complete_event_localization.md`, the true complete-event
-conditional has, for `z` in a common complex disk and `k=0,...,4`,
-single-coordinate envelopes `beta_j^{(k)}` such that
+The common complete-event localization theorem supplies, on one complex disk
+and for `k=0,...,4`, fixed single-coordinate envelopes `beta_j^{(k)}` with
 
 \[
 \sum_j(1+j)^{2p}\beta_j^{(k)}<\infty.
 \tag{7.2}
 \]
 
-Therefore
+Hence
 
 \[
 \operatorname{var}_n(\partial_z^k\ell_z)
@@ -391,7 +428,7 @@ Therefore
 \tag{7.3}
 \]
 
-and, since `2p>=2`,
+and, because `2p>=2`,
 
 \[
 \sum_n(n+1)\operatorname{var}_n(\partial_z^k\ell_z)
@@ -399,9 +436,9 @@ and, since `2p>=2`,
 \tag{7.4}
 \]
 
-The bounds come from fixed sequences, uniformly on smaller disks.  The parity
-conjugacy makes `ell_z` even and it factors through `s=z^2`; hence
-`ell_s,ell_s',ell_s''` meet (2.2).
+The envelopes are uniform on smaller disks. Complete-event parity makes
+`ell_z` even and factors it through `s=z^2`; the derivatives
+`ell_s,ell_s',ell_s''` satisfy (2.2) and are `C^2(V_1)` by the Cauchy formula.
 
 For every finite complete word,
 
@@ -411,11 +448,12 @@ For every finite complete word,
 \tag{7.5}
 \]
 
-This is an even polynomial in `t`, hence a polynomial in `s=t^2`.
-Cylinder convergence proves weak continuity of the true DPP future law.  The
-full-future Schur limit is its conditional, so `nu_s L_s=nu_s`.  Uniqueness
-also follows from (3.9), since cylinder functions have summable variations.
-Thus all hypotheses of Section 6 are verified from complete events.
+This is an even polynomial in `t`, hence a polynomial in `s=t^2`. Cylinder
+convergence proves weak continuity of the true DPP future law. The full-future
+Schur limit is its conditional, so `nu_s L_s=nu_s`. If two compatible
+invariant laws existed, (3.9) applied to cylinder functions and then `n->infty`
+would identify them. Thus the required invariant law is unique and all
+hypotheses of Section 6 are verified from complete events.
 
 ## 8. True entropy-rate deficit
 
@@ -428,21 +466,21 @@ h_s=-\nu_s(\ell_s).
 \tag{8.1}
 \]
 
-This is the Shannon entropy rate of the configuration process, not the
+This is the Shannon entropy rate of the configuration process, not a
 quasi-free von Neumann entropy.
 
 At `s=0`, the half-period-even kernel is block diagonal between even and odd
-coordinates, so the parity sublattices are independent.  Along the physical
-path, the restriction to either parity is unchanged because `g` has no even
-Fourier modes.  The zero-parameter origin conditional depends only on the
-origin-parity future.  Hence
+coordinates, so the parity sublattices are independent. Along the physical
+path, restriction to either parity is unchanged because `g` has no even
+Fourier modes. The zero-parameter origin conditional depends only on the
+origin-parity future. Hence
 
 \[
 \nu_s(\ell_0)=\nu_0(\ell_0).
 \tag{8.2}
 \]
 
-The exact true-rate deficit is therefore
+Therefore the exact true-rate deficit is
 
 \[
 D(s):=h_0-h_s
@@ -450,7 +488,7 @@ D(s):=h_0-h_s
 \tag{8.3}
 \]
 
-Section 6 gives `D in C^2`.  Since the moving observable in (8.3) vanishes at
+Section 6 gives `D in C^2`. Since the moving observable in (8.3) vanishes at
 zero,
 
 \[
@@ -503,7 +541,7 @@ A\ge
 \tag{8.8}
 \]
 
-Because `D` is `C^2` in `s`,
+Since `D` is `C^2` in `s`,
 
 \[
 \frac{d^2}{dt^2}h(c+tg)
@@ -521,11 +559,11 @@ Consequently
 \]
 
 for all sufficiently small nonzero `t`; the second derivative is zero at the
-center.  Shrinking the legal interval proves concavity.
+center. Shrinking the legal interval proves concavity.
 
 ## 9. New theorem
 
-**Theorem.**  Let `p>=1`.  Let real `c,g in A_p` obey (7.1).  For every odd
+**Theorem.** Let `p>=1`. Let real `c,g in A_p` obey (7.1). For every odd
 `k` with `\widehat g(k)\ne0`, there exists `epsilon>0` such that `c+tg` is
 legal and
 
@@ -538,6 +576,6 @@ h(c+tg)+
 is concave on `[-epsilon,epsilon]`.
 
 This is a true stationary DPP configuration-entropy theorem for the physical
-affine kernel.  It strictly enlarges the frozen PR82 range `p>4`, including the
-endpoint `p=1`.  It does not assert sharpness, `p<1`, a whole legal interval,
-full analytic stationary response, or novelty.
+affine kernel. It strictly enlarges the frozen PR82 range `p>4`, including the
+endpoint `p=1`. It does not assert sharpness, local concavity for `p<1`, a
+whole legal interval, full analytic stationary response, or novelty.
