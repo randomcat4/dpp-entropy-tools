@@ -1,0 +1,375 @@
+{
+  "method": "SciPy differential_evolution in intrinsic finite Fourier coordinates; all 2^n event determinant jets retained",
+  "legality": "base symbols satisfy a global l1 Fourier-amplitude condition and are independently checked by a 65536-grid Lipschitz remainder; a positive local chord radius is reported",
+  "direction_normalization": "Frobenius norm of T_n(g) equals one",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "cases": [
+    {
+      "n": 5,
+      "class": "even_f_odd_g",
+      "parameter_dimension": 10,
+      "seed": 2026091250,
+      "maxiter": 60,
+      "population_multiplier": 14,
+      "base_fourier_amplitude_fraction_lower_bound": 0.25,
+      "initial_population_size": 140,
+      "objective_evaluations": 8562,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "maximum_hessian": -1.1927327570049329e-08,
+      "fisher": -0.0,
+      "acceleration": -1.1927327570049329e-08,
+      "direction_frobenius_norm": 1.0,
+      "max_complete_event_first_jet": 0.0,
+      "min_event_probability": 5.781446793398528e-06,
+      "max_imaginary_jet_residual": 8.352582388372635e-22,
+      "base_symbol": {
+        "c0": 0.08977798919206054,
+        "coefficients_re_im": [
+          [
+            -5.669986818849271e-06,
+            0.0
+          ],
+          [
+            0.0036350132552907073,
+            0.0
+          ],
+          [
+            0.0001827744854890873,
+            0.0
+          ],
+          [
+            -0.005408153347513198,
+            0.0
+          ]
+        ]
+      },
+      "direction_symbol": {
+        "d0": 0.0,
+        "coefficients_re_im": [
+          [
+            -0.0,
+            -0.35347539197858885
+          ],
+          [
+            0.0,
+            0.0003009842305124761
+          ],
+          [
+            -0.0,
+            -0.010489843840969385
+          ],
+          [
+            0.0,
+            0.0004935992250779405
+          ]
+        ]
+      },
+      "base_whole_circle_certificate": {
+        "grid_size": 65536,
+        "grid_min": 0.07168861959479521,
+        "grid_max": 0.10140182451895174,
+        "derivative_bound": 0.3701629716509929,
+        "remainder": 2.824119351585334e-06,
+        "certified_lower": 0.07168579547544363,
+        "certified_upper": 0.10140464863830333
+      },
+      "direction_bound_certificate": {
+        "grid_size": 65536,
+        "grid_min": -0.685978365217866,
+        "grid_max": 0.685978365217866,
+        "derivative_bound": 4.869736136804506,
+        "remainder": 3.71531382507668e-05,
+        "certified_lower": -0.6860155183561168,
+        "certified_upper": 0.6860155183561168
+      },
+      "certified_local_chord_radius_from_bounds": 0.10449588027865994,
+      "positive_candidate": false,
+      "high_precision_recomputed": false,
+      "directed_interval_certified": false,
+      "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
+      "elapsed_seconds": 9.043102741241455
+    },
+    {
+      "n": 5,
+      "class": "general_complex_toeplitz",
+      "parameter_dimension": 19,
+      "seed": 2026091251,
+      "maxiter": 60,
+      "population_multiplier": 14,
+      "base_fourier_amplitude_fraction_lower_bound": 0.25,
+      "initial_population_size": 266,
+      "objective_evaluations": 16986,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "maximum_hessian": -2.128709311905279e-07,
+      "fisher": -6.581441156231981e-08,
+      "acceleration": -1.470565196282081e-07,
+      "direction_frobenius_norm": 1.0,
+      "max_complete_event_first_jet": 8.63902653563059e-06,
+      "min_event_probability": 3.258468986184513e-06,
+      "max_imaginary_jet_residual": 2.4426331661172492e-17,
+      "base_symbol": {
+        "c0": 0.08,
+        "coefficients_re_im": [
+          [
+            6.147267470857476e-07,
+            -2.4502592531133414e-06
+          ],
+          [
+            1.4290418658631717e-05,
+            -1.2408924846971976e-05
+          ],
+          [
+            -0.0019185314555333873,
+            -0.001542173927075503
+          ],
+          [
+            0.0033669091050447424,
+            -0.0035145292712131498
+          ]
+        ]
+      },
+      "direction_symbol": {
+        "d0": 3.939385473445929e-08,
+        "coefficients_re_im": [
+          [
+            0.2168395428146312,
+            0.16720760732642354
+          ],
+          [
+            -0.17400079469441146,
+            -0.1908386537937697
+          ],
+          [
+            -6.109544653149116e-05,
+            -0.0006308639993319232
+          ],
+          [
+            0.0008826356165609767,
+            0.0005721874065363533
+          ]
+        ]
+      },
+      "base_whole_circle_certificate": {
+        "grid_size": 65536,
+        "grid_min": 0.06582055722131372,
+        "grid_max": 0.09445704486953303,
+        "derivative_bound": 0.33794806752275613,
+        "remainder": 2.5783391382046214e-06,
+        "certified_lower": 0.06581797888217551,
+        "certified_upper": 0.09445962320867124
+      },
+      "direction_bound_certificate": {
+        "grid_size": 65536,
+        "grid_min": -1.049763330305867,
+        "grid_max": 0.7147220850060503,
+        "derivative_bound": 10.008356872832316,
+        "remainder": 7.635770319238522e-05,
+        "certified_lower": -1.0498396880090595,
+        "certified_upper": 0.7147984427092426
+      },
+      "certified_local_chord_radius_from_bounds": 0.06269336131404431,
+      "positive_candidate": false,
+      "high_precision_recomputed": false,
+      "directed_interval_certified": false,
+      "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
+      "elapsed_seconds": 28.76424527168274
+    },
+    {
+      "n": 6,
+      "class": "even_f_odd_g",
+      "parameter_dimension": 12,
+      "seed": 2026091260,
+      "maxiter": 60,
+      "population_multiplier": 14,
+      "base_fourier_amplitude_fraction_lower_bound": 0.25,
+      "initial_population_size": 168,
+      "objective_evaluations": 10274,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "maximum_hessian": -5.848427173660298e-07,
+      "fisher": -0.0,
+      "acceleration": -5.848427173660298e-07,
+      "direction_frobenius_norm": 0.9999999999999999,
+      "max_complete_event_first_jet": 0.0,
+      "min_event_probability": 2.890564083826346e-07,
+      "max_imaginary_jet_residual": 4.096229141629937e-21,
+      "base_symbol": {
+        "c0": 0.0814265103839173,
+        "coefficients_re_im": [
+          [
+            -4.921285074328388e-06,
+            0.0
+          ],
+          [
+            0.0003764979850813812,
+            0.0
+          ],
+          [
+            -0.003742847271197975,
+            0.0
+          ],
+          [
+            -0.0018611607255778636,
+            0.0
+          ],
+          [
+            0.0023137374977313134,
+            0.0
+          ]
+        ]
+      },
+      "direction_symbol": {
+        "d0": 0.0,
+        "coefficients_re_im": [
+          [
+            -0.0,
+            -0.3137487886060608
+          ],
+          [
+            -0.0,
+            -0.044077379474137694
+          ],
+          [
+            0.0,
+            5.638542991646362e-05
+          ],
+          [
+            -0.0,
+            -0.0007193916663445855
+          ],
+          [
+            -0.0,
+            -0.0060151582879299625
+          ]
+        ]
+      },
+      "base_whole_circle_certificate": {
+        "grid_size": 65536,
+        "grid_min": 0.068977583110027,
+        "grid_max": 0.09281473621353657,
+        "derivative_bound": 0.38955484331893986,
+        "remainder": 2.9720675912394704e-06,
+        "certified_lower": 0.06897461104243575,
+        "certified_upper": 0.09281770828112781
+      },
+      "direction_bound_certificate": {
+        "grid_size": 65536,
+        "grid_min": -0.6550409611938549,
+        "grid_max": 0.6550409611938548,
+        "derivative_bound": 5.466698721357736,
+        "remainder": 4.170760132871808e-05,
+        "certified_lower": -0.6550826687951836,
+        "certified_upper": 0.6550826687951835
+      },
+      "certified_local_chord_radius_from_bounds": 0.10529146064769601,
+      "positive_candidate": false,
+      "high_precision_recomputed": false,
+      "directed_interval_certified": false,
+      "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
+      "elapsed_seconds": 33.080986976623535
+    },
+    {
+      "n": 6,
+      "class": "general_complex_toeplitz",
+      "parameter_dimension": 23,
+      "seed": 2026091261,
+      "maxiter": 60,
+      "population_multiplier": 14,
+      "base_fourier_amplitude_fraction_lower_bound": 0.25,
+      "initial_population_size": 322,
+      "objective_evaluations": 21298,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "maximum_hessian": -4.1466134459313576e-07,
+      "fisher": -1.3481739723396634e-08,
+      "acceleration": -4.0117960486973914e-07,
+      "direction_frobenius_norm": 0.9999999999999999,
+      "max_complete_event_first_jet": 1.7538856978039907e-05,
+      "min_event_probability": 2.609260632914954e-07,
+      "max_imaginary_jet_residual": 6.764531919665537e-17,
+      "base_symbol": {
+        "c0": 0.92,
+        "coefficients_re_im": [
+          [
+            -0.0007614392518125611,
+            0.0005510668862558208
+          ],
+          [
+            2.3173751671450284e-07,
+            -1.559214849830888e-07
+          ],
+          [
+            0.000215608567375279,
+            0.0004616067180858569
+          ],
+          [
+            0.002736515647298316,
+            -0.00020753544483070492
+          ],
+          [
+            0.0030756576363652555,
+            -0.0007073134261510176
+          ]
+        ]
+      },
+      "direction_symbol": {
+        "d0": 4.3613824406219465e-08,
+        "coefficients_re_im": [
+          [
+            0.0020389496160955617,
+            0.005035471456616586
+          ],
+          [
+            0.2456306895313881,
+            0.25247009145919924
+          ],
+          [
+            -0.0298912089674594,
+            0.017002900749053754
+          ],
+          [
+            -0.00011791955103550926,
+            -0.0010070328695706058
+          ],
+          [
+            1.5379610860787703e-05,
+            -0.0005453208240787882
+          ]
+        ]
+      },
+      "base_whole_circle_certificate": {
+        "grid_size": 65536,
+        "grid_min": 0.9057989961741065,
+        "grid_max": 0.9305814538746504,
+        "derivative_bound": 0.3672662616726844,
+        "remainder": 2.8020192083182098e-06,
+        "certified_lower": 0.9057961941548982,
+        "certified_upper": 0.9305842558938587
+      },
+      "direction_bound_certificate": {
+        "grid_size": 65536,
+        "grid_min": -0.7665505587906395,
+        "grid_max": 0.7270727196526235,
+        "derivative_bound": 10.302782122222647,
+        "remainder": 7.860398957994573e-05,
+        "certified_lower": -0.7666291627802194,
+        "certified_upper": 0.7271513236422035
+      },
+      "certified_local_chord_radius_from_bounds": 0.09054670429494432,
+      "positive_candidate": false,
+      "high_precision_recomputed": false,
+      "directed_interval_certified": false,
+      "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
+      "elapsed_seconds": 68.79403638839722
+    }
+  ],
+  "total_objective_evaluations": 57120,
+  "positive_hits": 0,
+  "certified_hits": 0,
+  "elapsed_seconds": 139.68339610099792,
+  "scope": "finite n=5,6 search only; NO_HIT is not a Toeplitz concavity theorem"
+}

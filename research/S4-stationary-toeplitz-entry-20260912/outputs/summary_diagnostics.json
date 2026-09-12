@@ -1,0 +1,136 @@
+{
+  "correction_diagnostics": [
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.002,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 6.125152019041187e-06,
+      "correction_vs_n_r_squared": 0.9986739180211903,
+      "correction_vs_transition_slope": 1.4277323349694692e-05,
+      "correction_vs_transition_r_squared": 0.14986225173092982,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 6.041256261930174e-06,
+      "correction_vs_n_r_squared": 0.9978480461528908,
+      "correction_vs_transition_slope": 1.852999465984847e-05,
+      "correction_vs_transition_r_squared": 0.19222490008596294,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.05,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 5.168388273825093e-06,
+      "correction_vs_n_r_squared": 0.9960412314963575,
+      "correction_vs_transition_slope": 5.274883904320119e-06,
+      "correction_vs_transition_r_squared": 0.9890941683491354,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.2,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 2.0655491936414335e-06,
+      "correction_vs_n_r_squared": 0.9932653016846692,
+      "correction_vs_transition_slope": 2.0655491936414335e-06,
+      "correction_vs_transition_r_squared": 0.9932653016846692,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.002,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.00022388482332248429,
+      "correction_vs_n_r_squared": 0.9726827061457403,
+      "correction_vs_transition_slope": 0.000895771956213402,
+      "correction_vs_transition_r_squared": 0.6524995046665437,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.00021362780872623583,
+      "correction_vs_n_r_squared": 0.9740018259588706,
+      "correction_vs_transition_slope": 0.0009307755580667754,
+      "correction_vs_transition_r_squared": 0.45784469773791414,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.05,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.00016167534842993796,
+      "correction_vs_n_r_squared": 0.9788019902226095,
+      "correction_vs_transition_slope": 0.00016572692340258968,
+      "correction_vs_transition_r_squared": 0.9804786631891739,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.2,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 5.2123569672379834e-05,
+      "correction_vs_n_r_squared": 0.9139800934155881,
+      "correction_vs_transition_slope": 5.2123569672379834e-05,
+      "correction_vs_transition_r_squared": 0.9139800934155881,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.002,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.0002823211541757596,
+      "correction_vs_n_r_squared": 0.9937073449490954,
+      "correction_vs_transition_slope": 0.0007780316410290844,
+      "correction_vs_transition_r_squared": 0.7259358619071415,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.0002660180044175551,
+      "correction_vs_n_r_squared": 0.9925690620276828,
+      "correction_vs_transition_slope": 0.0007495431566625345,
+      "correction_vs_transition_r_squared": 0.7129618059815217,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.05,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 0.00020481275250394985,
+      "correction_vs_n_r_squared": 0.9840431051016495,
+      "correction_vs_transition_slope": 0.00020481275250394985,
+      "correction_vs_transition_r_squared": 0.9840431051016495,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.2,
+      "delta": 0.05,
+      "points_n8_to_n22": 15,
+      "correction_vs_n_slope": 8.067173979667084e-05,
+      "correction_vs_n_r_squared": 0.9730152976462693,
+      "correction_vs_transition_slope": 8.067173979667084e-05,
+      "correction_vs_transition_r_squared": 0.9730152976462693,
+      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
+    }
+  ]
+}
