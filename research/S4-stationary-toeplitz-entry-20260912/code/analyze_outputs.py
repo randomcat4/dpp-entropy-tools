@@ -25,7 +25,8 @@ def main():
     rows = list(csv.DictReader((args.output_dir / "curvature_vs_transition.csv").open()))
     groups = defaultdict(list)
     for r in rows:
-        if float(r["delta"]) == 0.05 and int(r["n"]) >= 8:
+        if (float(r["delta"]) == 0.05 and int(r["n"]) >= 8
+                and r["threshold_status"] == "SAFE_DELTA_AWAY_FROM_EPSILON"):
             groups[(r["family"], float(r["epsilon"]))].append(r)
     diagnostics = []
     for (family, eps), q in sorted(groups.items()):

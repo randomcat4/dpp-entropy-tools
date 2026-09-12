@@ -48,90 +48,91 @@
       "family": "near_symmetric_m2_least",
       "epsilon": 0.2,
       "max_n": 22,
-      "seconds": 10.360767364501953,
+      "seconds": 21.853168487548828,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m2_least",
       "epsilon": 0.05,
       "max_n": 22,
-      "seconds": 4.521176099777222,
+      "seconds": 4.620830774307251,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m2_least",
       "epsilon": 0.01,
       "max_n": 22,
-      "seconds": 4.469379901885986,
+      "seconds": 4.480983257293701,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m2_least",
       "epsilon": 0.002,
       "max_n": 22,
-      "seconds": 4.695261716842651,
+      "seconds": 4.483256816864014,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m3_selected",
       "epsilon": 0.2,
       "max_n": 22,
-      "seconds": 5.1334264278411865,
+      "seconds": 4.4933624267578125,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m3_selected",
       "epsilon": 0.05,
       "max_n": 22,
-      "seconds": 4.551204204559326,
+      "seconds": 4.516509532928467,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m3_selected",
       "epsilon": 0.01,
       "max_n": 22,
-      "seconds": 4.5822694301605225,
+      "seconds": 4.463204860687256,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m3_selected",
       "epsilon": 0.002,
       "max_n": 22,
-      "seconds": 4.563776969909668,
+      "seconds": 4.4818947315216064,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m4_meaningful",
       "epsilon": 0.2,
       "max_n": 22,
-      "seconds": 4.623289585113525,
+      "seconds": 4.498798131942749,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m4_meaningful",
       "epsilon": 0.05,
       "max_n": 22,
-      "seconds": 4.605589389801025,
+      "seconds": 4.552917242050171,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m4_meaningful",
       "epsilon": 0.01,
       "max_n": 22,
-      "seconds": 4.609260320663452,
+      "seconds": 4.524016380310059,
       "nodes": 4194303.0
     },
     {
       "family": "near_symmetric_m4_meaningful",
       "epsilon": 0.002,
       "max_n": 22,
-      "seconds": 4.655783414840698,
+      "seconds": 4.534972906112671,
       "nodes": 4194303.0
     }
   ],
-  "elapsed_seconds": 72.70548057556152,
+  "elapsed_seconds": 83.89364385604858,
   "python": "3.12.14",
   "numpy": "2.5.3",
-  "pid": 55260,
-  "status": "FINITE_NUMERICAL_EVIDENCE_ONLY"
+  "pid": 57644,
+  "status": "FINITE_NUMERICAL_EVIDENCE_ONLY",
+  "threshold_policy": "Rows with delta=epsilon are retained and explicitly marked roundoff-sensitive; they are excluded from every regression fit."
 }

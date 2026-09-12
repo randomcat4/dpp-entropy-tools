@@ -59,6 +59,25 @@ def matrices(family: str, epsilon: float, n: int):
     return upstream.toeplitz_from_lags(fhat, n), upstream.toeplitz_from_lags(ghat, n)
 
 
+def exact_symmetric_difference(pc, pw, mc, mw):
+    """Exact-in-double length of the XOR of two disjoint interval unions."""
+    events = []
+    for centers, widths, bit in ((pc, pw, 1), (mc, mw, 2)):
+        for c, w in zip(centers, widths):
+            events.append((c - w, bit, 1))
+            events.append((c + w, bit, -1))
+    events.sort()
+    active = [0, 0]
+    previous = events[0][0]
+    total = 0.0
+    for x, bit, change in events:
+        if bool(active[0]) != bool(active[1]):
+            total += x - previous
+        active[bit - 1] += change
+        previous = x
+    return total
+
+
 def write_csv(path: Path, rows: list[dict]):
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
@@ -71,9 +90,10 @@ def write_csv(path: Path, rows: list[dict]):
 
 def regression_rows(transition: list[dict]):
     result = []
-    keys = sorted({(r["family"], r["epsilon"], r["delta"]) for r in transition})
+    safe = [r for r in transition if r["threshold_status"] == "SAFE_DELTA_AWAY_FROM_EPSILON"]
+    keys = sorted({(r["family"], r["epsilon"], r["delta"]) for r in safe})
     for family, epsilon, delta in keys:
-        rows = [r for r in transition if (r["family"], r["epsilon"], r["delta"]) == (family, epsilon, delta) and r["n"] >= 64]
+        rows = [r for r in safe if (r["family"], r["epsilon"], r["delta"]) == (family, epsilon, delta) and r["n"] >= 64]
         x = np.log(np.array([r["n"] for r in rows], dtype=float))
         y = np.array([r["transition_count"] for r in rows], dtype=float)
         slope, intercept = np.polyfit(x, y, 1)
@@ -119,7 +139,7 @@ def main():
     eigen_cache: dict[tuple[int, float, int], np.ndarray] = {}
     for family in FAMILIES:
         pc, pw, mc, mw = FAMILIES[family]
-        symdiff = upstream.symmetric_difference_grid(pc, pw, mc, mw)
+        symdiff = exact_symmetric_difference(pc, pw, mc, mw)
         # Eigenvalues for all epsilon are affine transforms of the epsilon=0 spectrum.
         for n in SPECTRAL_N:
             K0, _ = matrices(family, 0.0, n)
@@ -130,12 +150,18 @@ def main():
                 closest = eigs[np.argsort(np.abs(eigs - 0.5))[:6]]
                 distance01 = float(np.sum(np.minimum(eigs, 1 - eigs)))
                 for delta in DELTAS:
+                    threshold_status = (
+                        "EXCLUDED_FROM_FITS_DELTA_EQUALS_EPSILON_ROUNDOFF_SENSITIVE"
+                        if abs(delta - epsilon) <= 1e-15
+                        else "SAFE_DELTA_AWAY_FROM_EPSILON"
+                    )
                     count = int(np.sum((eigs >= delta) & (eigs <= 1 - delta)))
                     transition.append({
                         "family": family,
                         "epsilon": epsilon,
                         "n": n,
                         "delta": delta,
+                        "threshold_status": threshold_status,
                         "symmetric_difference": symdiff,
                         "transition_count": count,
                         "count_over_log_n": count / math.log(n),
@@ -156,7 +182,7 @@ def main():
             timings.append({"family": family, "epsilon": epsilon, "max_n": args.max_curvature_n, "seconds": time.time() - tick, "nodes": float(stats[2])})
             cumulative = np.cumsum(R2)
             pc, pw, mc, mw = FAMILIES[family]
-            symdiff = upstream.symmetric_difference_grid(pc, pw, mc, mw)
+            symdiff = exact_symmetric_difference(pc, pw, mc, mw)
             bulk = -(1 - 2 * epsilon) ** 2 * symdiff
             for n in range(2, args.max_curvature_n + 1):
                 Kn, En = K[:n, :n], E[:n, :n]
@@ -184,10 +210,16 @@ def main():
                 }
                 extended.append(base)
                 for delta in DELTAS:
+                    threshold_status = (
+                        "EXCLUDED_FROM_FITS_DELTA_EQUALS_EPSILON_ROUNDOFF_SENSITIVE"
+                        if abs(delta - epsilon) <= 1e-15
+                        else "SAFE_DELTA_AWAY_FROM_EPSILON"
+                    )
                     count = int(np.sum((eigs >= delta) & (eigs <= 1 - delta)))
                     curvature.append({
                         **base,
                         "delta": delta,
+                        "threshold_status": threshold_status,
                         "transition_count": count,
                         "correction_over_transition_count": coherence / count if count else math.nan,
                     })
@@ -214,6 +246,7 @@ def main():
         "numpy": np.__version__,
         "pid": os.getpid(),
         "status": "FINITE_NUMERICAL_EVIDENCE_ONLY",
+        "threshold_policy": "Rows with delta=epsilon are retained and explicitly marked roundoff-sensitive; they are excluded from every regression fit.",
     }
     (out / "c4_c3_run.json").write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(record, indent=2))

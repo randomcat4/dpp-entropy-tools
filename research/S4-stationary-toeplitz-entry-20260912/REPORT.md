@@ -5,35 +5,43 @@
 - The three exact finite counterexamples are geometrically far from Hermitian Toeplitz structure: midpoint relative Frobenius distances are 0.732, 0.714, and 0.583.
 - Their violating directions are farther still: relative distances are 0.970, 0.939, and 1.000; the n=6 direction has zero Toeplitz projection.
 - Positive curvature survives small direction deformations but is killed after moving the midpoint only about 0.1%–0.5% of the way toward its Toeplitz projection.
-- In the tested hard stationary chords, the intermediate spectrum is not purely `O(log n)`: fixed symmetric-difference regions put the midpoint symbol exactly at 1/2 on positive measure, producing `a n+b log n+O(1)` counts.
-- The fitted linear coefficient closely tracks that half-level measure; this is the clearest load-bearing obstruction found here.
+- In the tested hard stationary chords, the intermediate spectrum is not purely `O(log n)`: fixed symmetric-difference regions put the midpoint symbol exactly at 1/2 on positive measure, and the first Szego theorem gives `N_n/n -> s` for that plateau measure `s`.
+- A finite `a n+b log n+c` diagnostic has fitted `a` close to `s`; no logarithmic remainder theorem is claimed.
 - Positive coherence/prediction correction remains large but below the negative spectral increment in every computed window.
 - Four fixed increment sequences remain negative through n=24, and the closest-to-zero object remains negative through n=26.
-- A 57,120-evaluation intrinsic Toeplitz search found no positive n=5 or n=6 Hessian.
+- A 57,120-call fixed-seed stochastic Toeplitz search found no positive n=5 or n=6 Hessian; all four optimizers reached their iteration limits.
 - The evidence supports the stationary concavity direction more than the counterexample direction, but it is finite and does not determine the entropy-rate Hessian.
 
 ## 2. Task 1: transition spectrum
 
 Three frozen reflection-generated near-symmetric hard chords were used.  Their
 midpoint is even and their direction odd.  The midpoint equals 1/2 on the
-symmetric difference of the two endpoint sets; the measured half-level sets
-have measures 0.0029297 (m=2), 0.0151978 (m=3), and 0.0254517 (m=4).
+symmetric difference of the two endpoint sets; the exact interval lengths are
+0.00290875 (m=2), 0.01519190 (m=3), and 0.02546367 (m=4). Therefore, for
+epsilon<delta<1/2, the first Szego eigenvalue-distribution theorem rigorously
+gives `N_n(delta)/n -> s`, where `s` is the displayed plateau measure. Nothing
+below proves a sharper remainder.
 
 For epsilon=0.002 and delta=0.05, least-squares fits over n>=64 give:
 
 | family | half-level measure | log-only slope | log-only max residual | fitted a in `a n+b log n+c` | fitted b | two-scale max residual |
 |---|---:|---:|---:|---:|---:|---:|
-| m=2 | 0.002930 | 2.571 | 1.52 | 0.002650 | 1.200 | 0.97 |
-| m=3 | 0.015198 | 9.087 | 7.31 | 0.013846 | 1.923 | 1.06 |
-| m=4 | 0.025452 | 15.602 | 13.47 | 0.025077 | 2.626 | 2.34 |
+| m=2 | 0.002909 | 2.571 | 1.52 | 0.002650 | 1.200 | 0.97 |
+| m=3 | 0.015192 | 9.087 | 7.31 | 0.013846 | 1.923 | 1.06 |
+| m=4 | 0.025464 | 15.602 | 13.47 | 0.025077 | 2.626 | 2.34 |
 
-The two-scale linear coefficients agree with the half-level measures within
-about 0.4%–9%.  The improvement over the log-only residual is decisive for m=3
-and m=4.  The m=2 sequence looks approximately logarithmic through n=1024 but
+The fitted linear coefficients differ from the exact half-level measures by
+about 1.5%–8.9%. The finite two-scale diagnostic improves the residual for m=3
+and m=4; its fitted `b` and constant are descriptive only. The m=2 sequence looks approximately logarithmic through n=1024 but
 then rises from N=12 at n=1024 to N=16 at n=2048; the predicted linear mass is
 already about six modes there.  This is a concrete counterexample to treating
 all intermediate modes in these fixed hard chords as a pure Landau–Widom
-boundary layer.
+boundary layer. The rigorous statement used here is only `N_n=s n+o(n)`.
+
+Rows with delta=epsilon are retained but explicitly marked roundoff-sensitive
+and excluded from all fits. At that inclusive threshold, last-bit eigenvalue
+changes between NumPy 2.3.5 and 2.5.3 alter some counts. The main
+epsilon=0.002, delta=0.05 comparison is separated from the floor and is stable.
 
 At n=22, epsilon=0.002 and delta=0.05, the three families have N=5,8,9.  Their
 coherence corrections are 0.0001353, 0.0045231, and 0.0062014, while the total
@@ -97,21 +105,26 @@ sequences.
 ## 5. Task 4: low-dimensional Toeplitz search
 
 All base symbols obey a global Fourier-amplitude legality condition and an
-independent 65,536-point Lipschitz remainder check.  Directions are normalized
-by `||T_n(g)||_F=1`.  The nondegenerate search requires at least 25% of the
-available Fourier-amplitude radius, excluding the known flat independent layer.
+independent 65,536-point Lipschitz remainder check. Directions are normalized
+by `||T_n(g)||_F=1`. The search parameter requires pre-contraction rho>=25%;
+because decoding multiplies by 0.98, the actual nonconstant Fourier-amplitude
+floor is 24.5% of the available legality radius, excluding the known flat
+independent layer.
 
-| n | class | parameters | evaluations | maximum H'' | whole-circle lower slack | local chord radius |
-|---:|---|---:|---:|---:|---:|---:|
-| 5 | even f / odd g | 10 | 8,562 | -1.193e-8 | 0.0717 | 0.1045 |
-| 5 | general complex Toeplitz | 19 | 16,986 | -2.129e-7 | 0.0658 | 0.0627 |
-| 6 | even f / odd g | 12 | 10,274 | -5.848e-7 | 0.0690 | 0.1053 |
-| 6 | general complex Toeplitz | 23 | 21,298 | -4.147e-7 | 0.0694 | 0.0905 |
+| n | class | parameters | evaluations | maximum H'' | minimum whole-circle slack | local chord radius | optimizer |
+|---:|---|---:|---:|---:|---:|---:|---|
+| 5 | even f / odd g | 10 | 8,562 | -1.193e-8 | 0.0717 | 0.1045 | maxiter reached |
+| 5 | general complex Toeplitz | 19 | 16,986 | -2.129e-7 | 0.0658 | 0.0627 | maxiter reached |
+| 6 | even f / odd g | 12 | 10,274 | -5.848e-7 | 0.0690 | 0.1053 | maxiter reached |
+| 6 | general complex Toeplitz | 23 | 21,298 | -4.147e-7 | 0.0694 | 0.0905 | maxiter reached |
 
-The parity cases have maximum complete-event first jet exactly zero in the
-stored double calculation.  No positive candidate occurred, so high-precision
-and directed-interval promotion was not triggered.  `NO_HIT` describes this
-recorded search denominator only.
+All four SciPy optimizers report `success=False` because `maxiter=60` was
+reached. The 57,120 calls are therefore only a fixed-seed stochastic objective
+evaluation denominator; they are not exhaustive, converged, or globally
+optimal. The parity cases have maximum complete-event first jet exactly zero
+in the stored double calculation. No positive candidate occurred, so
+high-precision and directed-interval promotion was not triggered. `NO_HIT`
+describes this recorded search denominator only.
 
 ## 6. What is actually new
 
@@ -119,14 +132,13 @@ Existing repository work supplied the exact finite counterexamples, the parity
 first-jet identity, the stationary candidate families, the n<=22 baseline, and
 the conditional-DPP recursion.  This run newly supplies spectra through n=2048,
 the linear-plus-log diagnosis, the Toeplitz-distance landscapes, explicit
-bounded-symbol approximants, selected n=24/26 continuations, and the 57,120
-evaluation intrinsic Toeplitz search.
+bounded-symbol approximants, selected n=24/26 continuations, and the 57,120-call
+fixed-seed intrinsic Toeplitz search.
 
-The data suggest two conjectures: fixed two-sided hard chords have transition
-counts governed first by the positive-measure interior band and then by a jump
-boundary log term; and finite counterexample curvature is extremely sensitive
-to Toeplitzizing the midpoint.  Neither is certified here.  There is no new
-theorem or counterexample.
+The rigorous spectral conclusion is the leading positive-density law
+`N_n/n -> s`. The data separately suggest, without proving, a logarithmic jump
+boundary remainder and strong sensitivity of finite counterexample curvature
+to Toeplitzizing the midpoint. There is no new theorem or counterexample.
 
 ## 7. Next mathematical step
 

@@ -17,8 +17,9 @@
   closest-to-zero fixed object;
 - Toeplitz projection, deformation landscapes, and explicit-symbol nearest
   candidates for three finite counterexamples;
-- 57,120 nondegenerate complete-event Hessian evaluations in intrinsic n=5,6
-  Toeplitz coordinates.
+- a 57,120-call fixed-seed stochastic search denominator of nondegenerate
+  complete-event Hessians in intrinsic n=5,6 Toeplitz coordinates. All four
+  optimizers hit the iteration limit, so this is not convergence or coverage.
 
 ## Evidence status
 
@@ -26,4 +27,3 @@ All new signs and fits are floating-point finite computations.  The source
 binding and output-consistency verifier passed.  There is no new theorem,
 certified finite Toeplitz counterexample, stationary entropy-rate sign, or
 novelty claim.
-

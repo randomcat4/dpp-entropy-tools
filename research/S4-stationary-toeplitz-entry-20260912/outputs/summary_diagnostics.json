@@ -24,17 +24,6 @@
     },
     {
       "family": "near_symmetric_m2_least",
-      "epsilon": 0.05,
-      "delta": 0.05,
-      "points_n8_to_n22": 15,
-      "correction_vs_n_slope": 5.168388273825093e-06,
-      "correction_vs_n_r_squared": 0.9960412314963575,
-      "correction_vs_transition_slope": 5.274883904320119e-06,
-      "correction_vs_transition_r_squared": 0.9890941683491354,
-      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
-    },
-    {
-      "family": "near_symmetric_m2_least",
       "epsilon": 0.2,
       "delta": 0.05,
       "points_n8_to_n22": 15,
@@ -68,17 +57,6 @@
     },
     {
       "family": "near_symmetric_m3_selected",
-      "epsilon": 0.05,
-      "delta": 0.05,
-      "points_n8_to_n22": 15,
-      "correction_vs_n_slope": 0.00016167534842993796,
-      "correction_vs_n_r_squared": 0.9788019902226095,
-      "correction_vs_transition_slope": 0.00016572692340258968,
-      "correction_vs_transition_r_squared": 0.9804786631891739,
-      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
-    },
-    {
-      "family": "near_symmetric_m3_selected",
       "epsilon": 0.2,
       "delta": 0.05,
       "points_n8_to_n22": 15,
@@ -108,17 +86,6 @@
       "correction_vs_n_r_squared": 0.9925690620276828,
       "correction_vs_transition_slope": 0.0007495431566625345,
       "correction_vs_transition_r_squared": 0.7129618059815217,
-      "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
-    },
-    {
-      "family": "near_symmetric_m4_meaningful",
-      "epsilon": 0.05,
-      "delta": 0.05,
-      "points_n8_to_n22": 15,
-      "correction_vs_n_slope": 0.00020481275250394985,
-      "correction_vs_n_r_squared": 0.9840431051016495,
-      "correction_vs_transition_slope": 0.00020481275250394985,
-      "correction_vs_transition_r_squared": 0.9840431051016495,
       "warning": "deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement"
     },
     {

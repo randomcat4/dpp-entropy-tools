@@ -61,6 +61,17 @@ case and at `n=24` for the other selected cases.  The recursion visits exactly
 - `outputs/c2_search_nondegenerate.json`
 - `outputs/correction_fit.csv`
 
+Rows with `delta=epsilon` are retained in the transition CSV and marked
+`EXCLUDED_FROM_FITS_DELTA_EQUALS_EPSILON_ROUNDOFF_SENSITIVE`. Inclusive counts
+at the symbol floor are not bit-reproducible across eigensolvers; no such row is
+used in `transition_fit.csv`.
+
+All four differential-evolution runs ended with `success=False` because they
+reached `maxiter=60`. Their 57,120 calls are a fixed-seed stochastic search
+denominator, not exhaustive coverage, convergence, or global optimization.
+The decoded nonconstant-symbol amplitude floor is `0.98*0.25=24.5%` of the
+available legality radius.
+
 No finite-window sign, fit, or search miss in this package is an entropy-rate
 theorem.  No positive finite Toeplitz candidate was found, so no directed
 interval sign certificate was triggered.

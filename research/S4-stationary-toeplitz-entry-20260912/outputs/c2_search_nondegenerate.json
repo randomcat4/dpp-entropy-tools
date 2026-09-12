@@ -13,7 +13,6 @@
       "seed": 2026091250,
       "maxiter": 60,
       "population_multiplier": 14,
-      "base_fourier_amplitude_fraction_lower_bound": 0.25,
       "initial_population_size": 140,
       "objective_evaluations": 8562,
       "optimizer_success": false,
@@ -90,7 +89,9 @@
       "high_precision_recomputed": false,
       "directed_interval_certified": false,
       "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
-      "elapsed_seconds": 9.043102741241455
+      "elapsed_seconds": 9.043102741241455,
+      "pre_contraction_rho_lower_bound": 0.25,
+      "decoded_base_fourier_amplitude_fraction_lower_bound": 0.245
     },
     {
       "n": 5,
@@ -99,7 +100,6 @@
       "seed": 2026091251,
       "maxiter": 60,
       "population_multiplier": 14,
-      "base_fourier_amplitude_fraction_lower_bound": 0.25,
       "initial_population_size": 266,
       "objective_evaluations": 16986,
       "optimizer_success": false,
@@ -176,7 +176,9 @@
       "high_precision_recomputed": false,
       "directed_interval_certified": false,
       "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
-      "elapsed_seconds": 28.76424527168274
+      "elapsed_seconds": 28.76424527168274,
+      "pre_contraction_rho_lower_bound": 0.25,
+      "decoded_base_fourier_amplitude_fraction_lower_bound": 0.245
     },
     {
       "n": 6,
@@ -185,7 +187,6 @@
       "seed": 2026091260,
       "maxiter": 60,
       "population_multiplier": 14,
-      "base_fourier_amplitude_fraction_lower_bound": 0.25,
       "initial_population_size": 168,
       "objective_evaluations": 10274,
       "optimizer_success": false,
@@ -270,7 +271,9 @@
       "high_precision_recomputed": false,
       "directed_interval_certified": false,
       "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
-      "elapsed_seconds": 33.080986976623535
+      "elapsed_seconds": 33.080986976623535,
+      "pre_contraction_rho_lower_bound": 0.25,
+      "decoded_base_fourier_amplitude_fraction_lower_bound": 0.245
     },
     {
       "n": 6,
@@ -279,7 +282,6 @@
       "seed": 2026091261,
       "maxiter": 60,
       "population_multiplier": 14,
-      "base_fourier_amplitude_fraction_lower_bound": 0.25,
       "initial_population_size": 322,
       "objective_evaluations": 21298,
       "optimizer_success": false,
@@ -364,7 +366,9 @@
       "high_precision_recomputed": false,
       "directed_interval_certified": false,
       "classification": "NO_POSITIVE_HIT_IN_RECORDED_SEARCH",
-      "elapsed_seconds": 68.79403638839722
+      "elapsed_seconds": 68.79403638839722,
+      "pre_contraction_rho_lower_bound": 0.25,
+      "decoded_base_fourier_amplitude_fraction_lower_bound": 0.245
     }
   ],
   "total_objective_evaluations": 57120,

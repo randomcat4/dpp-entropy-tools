@@ -25,7 +25,7 @@ def main():
     p = argparse.ArgumentParser(); p.add_argument("--package", type=Path, required=True); args = p.parse_args()
     out = args.package / "outputs"
     assert len(rows(out / "transition_spectrum.csv")) == 3 * 4 * 17 * 5
-    assert len(rows(out / "transition_fit.csv")) == 3 * 4 * 5
+    assert len(rows(out / "transition_fit.csv")) == 3 * (4 * 5 - 3)
     assert len(rows(out / "curvature_vs_transition.csv")) == 3 * 4 * 21 * 5
     assert len(rows(out / "extended_curvature.csv")) == 25 + 3 * 23
     assert len(rows(out / "toeplitz_distance.csv")) == 3
@@ -37,12 +37,15 @@ def main():
     for r in selected:
         a = float(r["linear_plus_log_linear_coefficient"])
         measure = float(r["symbol_half_level_measure"])
-        assert abs(a - measure) <= 0.2 * measure
+        assert abs(a - measure) <= 0.1 * measure
         assert float(r["linear_plus_log_max_abs_residual"]) < float(r["max_abs_residual"])
 
     c2 = json.loads((out / "c2_search_nondegenerate.json").read_text())
     assert len(c2["cases"]) == 4 and c2["positive_hits"] == c2["certified_hits"] == 0
     for case in c2["cases"]:
+        assert case["optimizer_success"] is False
+        assert "Maximum number of iterations" in case["optimizer_message"]
+        assert case["decoded_base_fourier_amplitude_fraction_lower_bound"] == 0.245
         c = complex_coeffs(case["base_symbol"]["coefficients_re_im"])
         d = complex_coeffs(case["direction_symbol"]["coefficients_re_im"])
         K = toeplitz_from_coefficients(case["base_symbol"]["c0"], c, case["n"])

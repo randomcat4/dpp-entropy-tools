@@ -7,8 +7,10 @@ the complete DPP law.
 
 1. **C4.** Use three frozen two/three/four-interval reflection candidates from
    the upstream seed `2026090701` scan.  Count eigenvalues in the five stated
-   transition windows through `n=2048`; compare a log-only fit with
-   `a n+b log n+c`.  Align the finite increment Hessian, spectral increment,
+   transition windows through `n=2048`; compare a log-only fit with the finite
+   diagnostic `a n+b log n+c`, while claiming only the first-Szego leading law
+   `N_n/n -> s`. Rows with `delta=epsilon` are marked and excluded from fits.
+   Align the finite increment Hessian, spectral increment,
    coherence correction, and transition count through `n=22`.
 2. **C1a.** Orthogonally project the canonical n=5 and larger-gap n=5,6 exact
    examples onto Hermitian Toeplitz matrices.  Record distances, feasibility,
@@ -22,9 +24,13 @@ the complete DPP law.
 4. **C2.** Search only intrinsic finite Fourier coordinates at n=5,6.  Retain
    all `2^n` event determinant jets.  Run the even-f/odd-g and general complex
    Toeplitz classes, normalize `||T_n(g)||_F=1`, impose a nondegenerate base
-   Fourier-amplitude floor, and certify whole-circle legality by a global
+   pre-contraction Fourier-amplitude floor `rho>=0.25` (decoded floor 24.5%),
+   and certify whole-circle legality by a global
    Fourier-amplitude condition plus an independent grid/Lipschitz bound.
 
 Positive floating candidates would require 100-digit independent recomputation
 and a directed interval enclosure.  None occurred.
 
+The four differential-evolution runs are fixed-seed reconnaissance. Each hit
+the maximum iteration count; their evaluation totals do not establish
+optimizer convergence, exhaustive coverage, or global optimality.
