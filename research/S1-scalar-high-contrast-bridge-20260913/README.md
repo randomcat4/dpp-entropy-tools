@@ -1,23 +1,31 @@
-# Scalar stationary high-contrast DPP: fixed-process bridge
+# Scalar stationary high-contrast DPP: fixed-process bridge and continuation
 
-Status: AUTHOR_PROOF / PENDING_INDEPENDENT_REVIEW. The universal high-contrast concavity problem and a genuine stationary entropy-rate counterexample are INCOMPLETE. Novelty is NOT ASSESSED.
+Status: AUTHOR_PROOF / AUTHOR_FINITE_PASS / PENDING_INDEPENDENT_REVIEW. The universal high-contrast concavity problem and a genuine stationary entropy-rate counterexample are INCOMPLETE. Novelty is NOT ASSESSED.
 
-This is an isolated scalar research packet based on main@237097124869b3bb04c139d4c4599e6bda7d344d. It neither modifies nor imports the open S4 PR145. No merge or change to accepted research is requested.
+This is an isolated scalar research packet based on main@237097124869b3bb04c139d4c4599e6bda7d344d. It neither modifies nor imports S4 PR145. No merge or change to accepted research is requested.
 
-## Checkpoint 1
+## Entry points
 
-`fixed_process_bridge.md` is a self-contained analytic reconstruction of the fixed-symbol value/conditional-entropy tail bridge. It concerns the Shannon entropy of all complete occupation configurations, per original integer coordinate. Quantum spectral entropy is used only in an information upper bound, never as the target entropy.
+`RESULT.md` gives the latest result, execution denominator and limitations. `continuation_proofs.md` proves the new centered Fisher-density limit and the all-contrast sparse-density Jensen wedge. `fixed_process_bridge.md` contains the initial fixed-symbol value/conditional-entropy tail theorem.
 
-The frozen object is f=a+c*1_E for one fixed measurable E on the circle. All block lengths compress the same infinite operator. A finite cycle, changing period, or randomized independent-block concatenation is not silently substituted.
+Reproduce the fresh continuation, from this directory:
 
-This initial checkpoint deliberately imports only the analytic core. The preceding locally supplied 50-certificate/2,828-screen archive is identified in `prior_artifact_provenance.json`; its large raw outputs are NOT contained in this checkpoint and its numerical verdicts are NOT premises of the proof. A hash is provenance, not a public reproduction of an absent artifact.
+    python code/verify_continuation.py --verify certificate/continuation.json
 
-The next research unit targets an explicit continuum high-contrast/density exclusion and a volume-uniform full-law Fisher floor, while retaining the acceleration obstruction. Subsequent claims must have their own proof, code, literal output and failure denominator before being treated as computational evidence.
+This entrypoint needs only the Python standard library. All sign comparisons use directed integer/dyadic intervals. The optional numpy spectral-proposal path in `certify.py` is not called.
 
-## Review boundaries
+## Mathematical objects and limits
 
-Mathematics: author proof only, no independent acceptance.
-Computation: this initial checkpoint makes no fresh numerical-pass claim.
-Novelty: unassessed; occupation-measurement data processing and quasi-free entropy formulas are existing tools.
+The object is f=a+c*1_E for ONE fixed measurable E. Every block length compresses the same infinite operator. The target is complete-configuration Shannon entropy per original integer coordinate, not spectral entropy. Quantum entropy is only an upper-bound tool in the value bridge.
 
-The user-supplied c<=312/625 finite theorem and historical 26,274 cyclic evaluations are frozen background, not independently re-proved or re-executed here. No asymptotic-in-n derivative passage follows from a value bound.
+The continuation establishes lim F_n((1-c)/2)/n=4/(1-c^2), with explicit finite-size and count-score error bounds. This is Fisher information, NOT entropy curvature. The acceleration term -sum p'' log p is retained and remains the central uniform-in-volume obstacle.
+
+The continuum density theorem proves a specified true-rate Jensen chord for every measurable E in an explicit rho=O((1-c)/log(1/(1-c))) wedge. It does not prove every a-chord or differentiate the entropy-rate limit.
+
+## Checkpoint and evidence boundary
+
+Initial checkpoint d030833c47d0fde9c70007bd55eedd168620fc7d published only the analytic bridge and provenance. The preceding local 50-certificate/2,828-screen archive is identified in `prior_artifact_provenance.json`; its complete raw outputs are NOT imported and its numerical verdicts are NOT premises. A hash is provenance, not public reproduction of absent evidence.
+
+This continuation imports two small arithmetic/complete-event source files and publishes a NEW checker with NEW literal evidence: 9 finite inputs, 2,304 complete atoms per run, 24 exact alternative determinant-jet comparisons, 8 density witnesses and 6 analytic crossover checks. Same-author replay is not independent review. Historical and fresh denominators are not merged.
+
+The user-supplied c<=312/625 finite theorem and historical 26,274 cyclic evaluations remain frozen background, not independently re-proved or re-executed here.
