@@ -1,0 +1,138 @@
+{
+  "seed": 2026090701,
+  "source_sha256": "f3f49dd0ed382df7dba1d6eb849fac607023b1de5e21f9679c03f52323fc1b30",
+  "source_repository": "randomcat4/icm-conjecture-lab",
+  "source_commit": "ee97a7341ac968fc341599aa973d0793497e7db3",
+  "source_path": "research/I05_info_geometry_independent/nonsmooth_stationary/artifacts/nonsmooth_interval_probe.py",
+  "families": [
+    "near_symmetric_m2_least",
+    "near_symmetric_m3_selected",
+    "near_symmetric_m4_meaningful"
+  ],
+  "epsilons": [
+    0.2,
+    0.05,
+    0.01,
+    0.002
+  ],
+  "deltas": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "spectral_n": [
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256,
+    384,
+    512,
+    768,
+    1024,
+    1536,
+    2048
+  ],
+  "max_curvature_n": 22,
+  "skip_curvature": false,
+  "timings": [
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.2,
+      "max_n": 22,
+      "seconds": 21.853168487548828,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.05,
+      "max_n": 22,
+      "seconds": 4.620830774307251,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.01,
+      "max_n": 22,
+      "seconds": 4.480983257293701,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.002,
+      "max_n": 22,
+      "seconds": 4.483256816864014,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.2,
+      "max_n": 22,
+      "seconds": 4.4933624267578125,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.05,
+      "max_n": 22,
+      "seconds": 4.516509532928467,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.01,
+      "max_n": 22,
+      "seconds": 4.463204860687256,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.002,
+      "max_n": 22,
+      "seconds": 4.4818947315216064,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.2,
+      "max_n": 22,
+      "seconds": 4.498798131942749,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.05,
+      "max_n": 22,
+      "seconds": 4.552917242050171,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.01,
+      "max_n": 22,
+      "seconds": 4.524016380310059,
+      "nodes": 4194303.0
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.002,
+      "max_n": 22,
+      "seconds": 4.534972906112671,
+      "nodes": 4194303.0
+    }
+  ],
+  "elapsed_seconds": 83.89364385604858,
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "pid": 57644,
+  "status": "FINITE_NUMERICAL_EVIDENCE_ONLY",
+  "threshold_policy": "Rows with delta=epsilon are retained and explicitly marked roundoff-sensitive; they are excluded from every regression fit."
+}

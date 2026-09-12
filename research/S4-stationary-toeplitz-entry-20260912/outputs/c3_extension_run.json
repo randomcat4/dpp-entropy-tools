@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "family": "near_symmetric_m2_least",
+      "epsilon": 0.2,
+      "max_n": 26,
+      "nodes": 67108863,
+      "seconds": 124.47115659713745
+    },
+    {
+      "family": "near_symmetric_m3_selected",
+      "epsilon": 0.01,
+      "max_n": 24,
+      "nodes": 16777215,
+      "seconds": 30.126484394073486
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.01,
+      "max_n": 24,
+      "nodes": 16777215,
+      "seconds": 30.260619163513184
+    },
+    {
+      "family": "near_symmetric_m4_meaningful",
+      "epsilon": 0.002,
+      "max_n": 24,
+      "nodes": 16777215,
+      "seconds": 30.2275447845459
+    }
+  ],
+  "cost_model": "complete prefix recursion visits exactly 2^n-1 nodes",
+  "projected_seconds_from_largest_run": {
+    "28": 497.8846263885498,
+    "30": 1991.5385055541992
+  },
+  "stop": "Stopped after n=26 for the closest-to-zero family and n=24 for three substantive families because every tested increment remained negative and exact recursion cost quadruples for each +2 sites.",
+  "elapsed_seconds": 215.1155755519867,
+  "scope": "finite deterministic sequence; no entropy-rate sign conclusion"
+}

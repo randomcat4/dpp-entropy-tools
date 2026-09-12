@@ -1,0 +1,10 @@
+family,epsilon,delta,points_n8_to_n22,correction_vs_n_slope,correction_vs_n_r_squared,correction_vs_transition_slope,correction_vs_transition_r_squared,warning
+near_symmetric_m2_least,0.002,0.05,15,6.125152019041187e-06,0.9986739180211903,1.4277323349694692e-05,0.14986225173092982,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m2_least,0.01,0.05,15,6.041256261930174e-06,0.9978480461528908,1.852999465984847e-05,0.19222490008596294,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m2_least,0.2,0.05,15,2.0655491936414335e-06,0.9932653016846692,2.0655491936414335e-06,0.9932653016846692,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m3_selected,0.002,0.05,15,0.00022388482332248429,0.9726827061457403,0.000895771956213402,0.6524995046665437,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m3_selected,0.01,0.05,15,0.00021362780872623583,0.9740018259588706,0.0009307755580667754,0.45784469773791414,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m3_selected,0.2,0.05,15,5.2123569672379834e-05,0.9139800934155881,5.2123569672379834e-05,0.9139800934155881,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m4_meaningful,0.002,0.05,15,0.0002823211541757596,0.9937073449490954,0.0007780316410290844,0.7259358619071415,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m4_meaningful,0.01,0.05,15,0.0002660180044175551,0.9925690620276828,0.0007495431566625345,0.7129618059815217,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
+near_symmetric_m4_meaningful,0.2,0.05,15,8.067173979667084e-05,0.9730152976462693,8.067173979667084e-05,0.9730152976462693,deterministic collinear finite-window diagnostic; neither R^2 is causal or a confidence statement
