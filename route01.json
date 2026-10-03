@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "repository": "randomcat4/dpp-entropy-tools",
+  "snapshot_date": "2026-10-03",
+  "base_main": "237097124869b3bb04c139d4c4599e6bda7d344d",
+  "policy": "Navigation only; accepted scopes are determined by version-bound reviews. Archive means retained evidence, not mathematical certification.",
+  "current_reading_order": [
+    "CURRENT.md",
+    "docs/verification_round6_20260911.md",
+    "docs/verification_round6_20260911/closeout_matrix.md",
+    "docs/verification_round6_20260911/verified_import_whitelist_round6.json"
+  ],
+  "active_candidates": [
+    {
+      "pr": 147,
+      "head": "4ae748ae7c9cdf5580e94e4460db44c1dadd1eaf",
+      "status": "AUTHOR_CANDIDATE_PENDING_REVIEW",
+      "paths": [
+        "research/S20-pr116-successor-20260917/CANDIDATE_THEOREM.md",
+        "research/S20-pr116-successor-20260917/README.md",
+        "research/S20-pr116-successor-20260917/exact_model.py",
+        "research/S20-pr116-successor-20260917/output/exact_model.stdout.txt",
+        "research/S20-pr116-successor-20260917/output/exact_model_run.md"
+      ]
+    },
+    {
+      "pr": 146,
+      "head": "b4485a6c83cccff96dc8ef74187a1c56098d0a27",
+      "status": "AUTHOR_CANDIDATE_PENDING_REVIEW",
+      "paths": [
+        "research/S1-scalar-high-contrast-bridge-20260913/README.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/RESULT.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/certificate/continuation.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/certify.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/intervals.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/verify_continuation.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/continuation_proofs.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/fixed_process_bridge.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/prior_artifact_provenance.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/publication_receipt.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/run_record.json"
+      ]
+    }
+  ],
+  "historical_groups": [
+    {
+      "path": "research/A1",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/A2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round3-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round4-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round5-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round6-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round7-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C1-verification-round8-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C2-issue74-continuum-hessian-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C2-issue74-t125-r1-repair-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/C3",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-22-R3-lambda-zero-global",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-22-R4-paired-perspective",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-22-R5-logmean-imbalance",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-22-R6-halfleaf-shared-compensation",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-22-missing-edge-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-23-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-23-middle-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-29-channel-lift-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-29-maximal-rank2-chord-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-29-rank2-signed-pairing-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-30-multiple-endpoint-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-31-rank2-middle-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-35-halfleaf-resolvent-audit",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-35-halfleaf-resolvent-obstruction",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-21-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-21-fixed-harmonic-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-21-nonzero-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-27-rate-curvature-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-27-riccati-response-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-27-scout-publication-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-31-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-31-pr66-lowreg-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-32-effective-curvature-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-32-p1-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-34-small-wiener-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-35-arbitrary-A0-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-36-Linf-second-difference-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-DPP-37-Linf-parity-fisher-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-W1-20260909",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/I05-W1-20260909-R2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/N3",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/N4",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/R1",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/R2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/R3",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-closeout-dispositions-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr102-multiple-boundary-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr112-explicit-rate-interval-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr113-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr116-analytic-first-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr117-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr124-pointwise-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr124-positive-units-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr125-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr130-first-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr136-analytic-first-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr82-290a-delta-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr94-channel-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S1-pr95-first-20260910",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S2-finite-backlog-closeout-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/S2-pr136-independent-finite-audit-20260911",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/T1",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/T2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/T3",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    },
+    {
+      "path": "research/W2",
+      "navigation": "ARCHIVE",
+      "bytes_preserved": true
+    }
+  ],
+  "pull_requests": [
+    {
+      "headRefName": "archive-dpp-selector-finite-consistency-20261003",
+      "headRefOid": "0aeb7e68c574d9b8f3dcf386d7d912aff2dc26db",
+      "isDraft": true,
+      "number": 148,
+      "title": "Archive DPP selector finite-consistency breakpoint",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/pull/148",
+      "action": "close_superseded",
+      "execution": "archive_tag_and_close",
+      "reason": "G16 handoff has been preserved in its canonical RL01 PR123. Full varying-projector finite consistency remains incomplete; keep the public original at its frozen head and route continuation work to the canonical handoff.",
+      "files": [
+        "docs/selector_finite_consistency_20261003/BREAKPOINT.md",
+        "docs/selector_finite_consistency_20261003/CONTINUATION_02_UNREVIEWED.md",
+        "docs/selector_finite_consistency_20261003/FAILED_ROUTES.md",
+        "docs/selector_finite_consistency_20261003/NEXT_ATTACKS.md",
+        "docs/selector_finite_consistency_20261003/PROOF_EXTRACTS.md",
+        "docs/selector_finite_consistency_20261003/PROOF_LEDGER.md",
+        "docs/selector_finite_consistency_20261003/README.md",
+        "docs/selector_finite_consistency_20261003/REVIEW_REQUEST_CONTINUATION_02.md",
+        "docs/selector_finite_consistency_20261003/SOURCE_MAP.md",
+        "docs/selector_finite_consistency_20261003/STATUS.md"
+      ],
+      "archive_ref": "archive/dpp20261003/pr148",
+      "replacement": "https://github.com/cat5779/rl01/pull/123"
+    },
+    {
+      "headRefName": "research/s20-pr116-successor-20260917",
+      "headRefOid": "4ae748ae7c9cdf5580e94e4460db44c1dadd1eaf",
+      "isDraft": true,
+      "number": 147,
+      "title": "S20: PR116 successor recovery checkpoint",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/pull/147",
+      "action": "keep_open",
+      "execution": "none",
+      "reason": "Natural 3+3 sharp author candidate remains a distinct current residual. Sixty exact samples do not supply the absent four-region continuum certificate or independent review.",
+      "files": [
+        "research/S20-pr116-successor-20260917/CANDIDATE_THEOREM.md",
+        "research/S20-pr116-successor-20260917/README.md",
+        "research/S20-pr116-successor-20260917/exact_model.py",
+        "research/S20-pr116-successor-20260917/output/exact_model.stdout.txt",
+        "research/S20-pr116-successor-20260917/output/exact_model_run.md"
+      ],
+      "archive_ref": null,
+      "replacement": null
+    },
+    {
+      "headRefName": "s1/scalar-high-contrast-bridge-20260913",
+      "headRefOid": "b4485a6c83cccff96dc8ef74187a1c56098d0a27",
+      "isDraft": true,
+      "number": 146,
+      "title": "S1 scalar high contrast: exact centered Fisher density and continuum sparse wedge",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/pull/146",
+      "action": "keep_open",
+      "execution": "none",
+      "reason": "Useful current author theorem packet: centered Fisher density and a sparse true-rate chord. No independent full review; the acceleration term and universal high-contrast claim remain incomplete.",
+      "files": [
+        "research/S1-scalar-high-contrast-bridge-20260913/README.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/RESULT.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/certificate/continuation.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/certify.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/intervals.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/code/verify_continuation.py",
+        "research/S1-scalar-high-contrast-bridge-20260913/continuation_proofs.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/fixed_process_bridge.md",
+        "research/S1-scalar-high-contrast-bridge-20260913/prior_artifact_provenance.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/publication_receipt.json",
+        "research/S1-scalar-high-contrast-bridge-20260913/run_record.json"
+      ],
+      "archive_ref": null,
+      "replacement": null
+    },
+    {
+      "headRefName": "s4/toeplitz-entry-diagnostics-20260912",
+      "headRefOid": "403f7dbe24905f741aa1bbea2092386aeef19d6e",
+      "isDraft": true,
+      "number": 145,
+      "title": "S4: probe finite counterexample entry into stationary Toeplitz slices",
+      "url": "https://github.com/randomcat4/dpp-entropy-tools/pull/145",
+      "action": "merge_archive",
+      "execution": "archive_tag_and_close",
+      "reason": "Finite Toeplitz diagnostics only; no verified positive hit or universal theorem. Preserve the full frozen packet behind the archive entry.",
+      "files": [
+        "research/S4-stationary-toeplitz-entry-20260912/PROVENANCE.md",
+        "research/S4-stationary-toeplitz-entry-20260912/README.md",
+        "research/S4-stationary-toeplitz-entry-20260912/REPORT.md",
+        "research/S4-stationary-toeplitz-entry-20260912/SHA256SUMS.txt",
+        "research/S4-stationary-toeplitz-entry-20260912/SPEC.md",
+        "research/S4-stationary-toeplitz-entry-20260912/code/analyze_outputs.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/finite_dpp.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/run_c1a.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/run_c2_search.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/run_c3_extension.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/run_c4_c3.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/upstream_nonsmooth_interval_probe.py",
+        "research/S4-stationary-toeplitz-entry-20260912/code/verify_outputs.py",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/c1a_results.json",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/c2_search_nondegenerate.json",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/c3_extension_run.json",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/c4_c3_run.json",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/correction_fit.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/curvature_vs_transition.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/extended_curvature.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/sr_hessian_landscape.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/summary_diagnostics.json",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/toeplitz_distance.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/transition_fit.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/transition_spectrum.csv",
+        "research/S4-stationary-toeplitz-entry-20260912/outputs/verification.txt",
+        "research/S4-stationary-toeplitz-entry-20260912/requirements.txt"
+      ],
+      "archive_ref": "archive/dpp20261003/pr145",
+      "replacement": "ARCHIVE.md"
+    }
+  ],
+  "pdf_inventory": {
+    "tracked_count": 0,
+    "files": [],
+    "duplicates": [],
+    "method": "git ls-tree -r --name-only at base_main; no PDF file is present"
+  },
+  "cross_project_boundary": "Finite complete-configuration entropy, real-kernel concavity, fixed scalar entropy rate and selector finite consistency are separate questions."
+}

@@ -1,3 +1,5 @@
+> 历史快照：以下保留原时点的状态和裁决。当前阅读入口为 [CURRENT](../CURRENT.md)，版本与后继见 [ARCHIVE](../ARCHIVE.md)。
+
 # I05 收束轮：开放 PR 全量核验与干净导入边界
 
 Status: **CLOSED_SCOPED / STOPPED_HANDOFF_READY**。
