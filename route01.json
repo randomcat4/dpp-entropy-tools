@@ -478,7 +478,7 @@
       "number": 145,
       "title": "S4: probe finite counterexample entry into stationary Toeplitz slices",
       "url": "https://github.com/randomcat4/dpp-entropy-tools/pull/145",
-      "action": "merge_archive",
+      "action": "close_archive",
       "execution": "archive_tag_and_close",
       "reason": "Finite Toeplitz diagnostics only; no verified positive hit or universal theorem. Preserve the full frozen packet behind the archive entry.",
       "files": [
