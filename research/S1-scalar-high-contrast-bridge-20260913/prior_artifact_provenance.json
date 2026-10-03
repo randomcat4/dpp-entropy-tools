@@ -1,0 +1,11 @@
+{
+  "schema": "local-history-provenance-v1",
+  "scope": "Identification only. Historical raw files are not imported into checkpoint 1, are not public evidence in this PR, and their numerical verdicts are not proof premises.",
+  "archive": {"name": "scalar_stationary_dpp_high_contrast.zip", "bytes": 599139, "sha256": "e0b2dc4e018e769586e6be60ea5def83cfe5e991b29ef6d15598c30f9fe92836"},
+  "memo_sha256": "e6f71aa9df95879d333905fa50b5b933cd980a16747b0d727d710b149f5778b5",
+  "summary_sha256": "2deee43038ad09c51b1ce9619958de415f132a9d919d9ee5d34454ed07f7757a",
+  "historical_report_only": {"finite_certificates": 50, "screen_evaluations": 2828, "true_rate_chords": 13, "positive_chords": 8, "inconclusive_chords": 5, "genuine_counterexamples": 0},
+  "fresh_computation_at_checkpoint_1": false,
+  "independent_review": false,
+  "novelty": "NOT_ASSESSED"
+}

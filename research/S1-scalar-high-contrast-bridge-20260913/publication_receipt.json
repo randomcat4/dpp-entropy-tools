@@ -1,0 +1,60 @@
+{
+  "schema": "pr146-publication-binding-v1",
+  "frozen_content_commit": "d249ab98f5deea85c24ae316896e290768d7d34c",
+  "method": "GitHub connector-reported Git blob IDs compared against exact local bytes; canonical JSON publication formatting reconstructed locally. This is content-address binding and local replay, not a fresh HTTP download or GitHub Actions execution.",
+  "direct_public_download": {
+    "attempts": 1,
+    "successes": 0,
+    "error": "DNS resolution failed (socket.gaierror Errno -3) before first file; no retry"
+  },
+  "matched_files": [
+    {
+      "path": "code/intervals.py",
+      "bytes": 5709,
+      "git_blob_sha": "a2a3b9322c3c6249712da59508418aaf03a7acd7",
+      "sha256": "ba3362a5deb0042d9d699fc6d269b846d26517a51af5c81891c9e532706b31c3"
+    },
+    {
+      "path": "code/certify.py",
+      "bytes": 6111,
+      "git_blob_sha": "297c8393ca36f0d859d5c8916ab029345d3f51dc",
+      "sha256": "7e7e67229c930b0bbd432d5c86414c577b783c1bd77ee4c7167968e1ecbce41c"
+    },
+    {
+      "path": "code/verify_continuation.py",
+      "bytes": 8431,
+      "git_blob_sha": "528b6998404ccb05d8de252fd9f19e55f58d057d",
+      "sha256": "4befd582bdd5d7990c96a7cbe4b803ada6f9aa8d829ea61209f597439d4e44ef"
+    },
+    {
+      "path": "certificate/continuation.json",
+      "bytes": 16135,
+      "git_blob_sha": "5a06f069e7dfeba7c73cfa83786669f3d932b7e7",
+      "sha256": "12c054eeaa91f777d59163a560f77043a6f6d2b6e2c3cafa109245e5c499a29d"
+    }
+  ],
+  "publication_bound_local_replay": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/verify_continuation.py --verify certificate/continuation.json",
+    "status": "PASS",
+    "seconds": 6.174802884999963,
+    "fisher_cases": 9,
+    "complete_terminal_atoms": 2304,
+    "alternative_exact_jet_checks": 24,
+    "density_witnesses": 8,
+    "analytic_crossover_checks": 6,
+    "tamper_rejections": 3
+  },
+  "aggregate_execution_counts": {
+    "production_runs": 1,
+    "local_replay_runs": 2,
+    "distinct_fisher_inputs": 9,
+    "invalid_probability_inputs": 0,
+    "failed_certified_comparisons": 0,
+    "direct_download_failures": 1
+  },
+  "independent_review": false,
+  "formal_verification": false,
+  "remote_execution": false,
+  "github_actions_execution": false,
+  "scope": "This receipt supplements, rather than overwrites, run_record.json and RESULT.md, which record the initial production and first replay. The second replay is not a new set of search inputs. The failed direct download is a publication-stage transport failure, not a failed mathematical comparison."
+}
