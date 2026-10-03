@@ -1,0 +1,10 @@
+{
+  "status": "FINITE_EXACT_CHECKS_ONLY_NOT_CONTINUUM_CERTIFICATE",
+  "complete_events_per_parameter": 64,
+  "parameter_pairs": 5,
+  "sample_points": 60,
+  "normalization_fixed_marginals_product_law_and_interpolation": "PASS",
+  "center_Gamma_at_s0": "4",
+  "center_Gamma_divided_by_r2": "64",
+  "negative_sample_reserves": 0
+}
